@@ -1,0 +1,33 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const html=fs.readFileSync(__dirname+'/../halo_combats_prototype.html','utf8');
+const noop=()=>{};const gradient={addColorStop:noop};
+const drawing=new Proxy({createLinearGradient:()=>gradient},{get:(o,k)=>k in o?o[k]:noop,set:(o,k,v)=>(o[k]=v,true)});
+const listeners={};
+function el(id,dataset={}){return{id,dataset,style:{},checked:id==='motion',open:false,textContent:'',classList:{add:noop,remove:noop,toggle:noop},addEventListener:noop,getContext:()=>drawing,showModal(){this.open=true},close(){this.open=false},setPointerCapture:noop};}
+const elements=new Map();const modes=['training','duel','boss'].map(mode=>el(mode,{mode}));const energy=[el('e1'),el('e2'),el('e3')];
+const touches=['left','right','jump','dash','light','heavy','shoot','grenade','guard','special','interact'].map(action=>el(action,{action}));
+const document={getElementById:id=>{if(!elements.has(id))elements.set(id,el(id));return elements.get(id)},querySelectorAll:sel=>sel==='[data-mode]'?modes:sel==='.energy i'?energy:sel==='.touch button'?touches:[],addEventListener:noop};
+const window={addEventListener:(type,fn)=>listeners[type]=fn};
+const context={document,window,requestAnimationFrame:noop,HTMLInputElement:class{},HTMLSelectElement:class{},console,Math,Set};
+vm.createContext(context);vm.runInContext(html.match(/<script>([\s\S]*?)<\/script>/)[1],context,{filename:'halo_combats_prototype.html'});
+const t=window.HaloCombatsTest,checks=[];
+function check(name,fn){fn();checks.push({name,status:'passed'});}
+check('JavaScript initializes and exposes state',()=>{assert.equal(t.snapshot().mode,'training');assert.equal(t.constants.simulationHz,60);});
+check('Keyboard movement maps and advances position',()=>{let x=t.snapshot().player.x;listeners.keydown({code:'ArrowRight',preventDefault:noop,repeat:false,target:{}});t.step(30);listeners.keyup({code:'ArrowRight'});assert(t.snapshot().player.x>x+100);});
+check('Light attack hits enemy shield',()=>{t.reset('training');t.place(1460);t.face(1);t.action('light');t.step(25);assert(t.snapshot().enemy.shield<200);});
+check('Heavy attack has recovery and deals greater damage',()=>{t.reset('training');t.place(1460);t.face(1);t.action('heavy');t.step(25);assert.equal(t.snapshot().enemy.shield,88);});
+check('Frontal guard reduces damage',()=>{t.reset('duel');t.hold('guard');t.step();t.damagePlayer(100);assert.equal(t.snapshot().player.shield,182);});
+check('Shield recharges after safe delay',()=>{t.reset('training');t.damagePlayer(100);t.step(350);assert.equal(t.snapshot().player.shield,200);});
+check('Pause freezes simulation then resumes',()=>{t.reset('training');t.pause(true);let tick=t.snapshot().tick;t.step(30);assert.equal(t.snapshot().tick,tick);t.pause(false);t.step();assert.equal(t.snapshot().tick,tick+1);});
+check('Grenade creates and expires projectile',()=>{t.reset('training');t.action('grenade');t.step(20);assert.equal(t.snapshot().shots,1);t.step(100);assert.equal(t.snapshot().shots,0);});
+check('Rifle projectile damages distant enemy',()=>{t.reset('training');t.place(1240);t.face(1);t.action('shoot');t.step(40);assert(t.snapshot().enemy.shield<200);});
+check('Jump leaves ground and lands',()=>{t.reset('training');t.action('jump');t.step(10);assert(t.snapshot().player.y<515);t.step(80);assert.equal(t.snapshot().player.y,515);});
+check('Dash moves player farther than walking',()=>{t.reset('training');let x=t.snapshot().player.x;t.action('dash');t.step(20);assert(t.snapshot().player.x>x+180);});
+check('Scarab legs break using melee only',()=>{t.reset('boss');for(const x of [1365,2095]){t.place(x);t.face(1);for(let n=0;n<4;n++){t.action('heavy');t.step(52);}}const s=t.snapshot();assert.equal(s.boss.phase,2);assert(s.boss.legs.every(l=>l.hp===0));assert(!s.ended);});
+check('Boarding interaction unlocks core phase',()=>{t.place(1750);t.action('interact');t.step(2);assert.equal(t.snapshot().boss.phase,3);assert.equal(t.snapshot().player.y,268);});
+check('Core can be destroyed using melee only',()=>{t.place(1790,268);t.face(1);for(let n=0;n<6;n++){t.action('heavy');t.step(55);}assert.equal(t.snapshot().boss.core.hp,0);assert(t.snapshot().ended);assert.equal(elements.get('banner-title').textContent,'SCARAB NEUTRALISÉ');});
+check('Restart resets boss objectives and life',()=>{elements.get('restart').onclick();assert.equal(t.snapshot().boss.phase,1);assert.equal(t.snapshot().boss.core.hp,450);assert.equal(t.snapshot().player.hp,1000);assert(!t.snapshot().ended);});
+check('Duel AI attacks an idle player',()=>{t.reset('duel');t.step(900);const s=t.snapshot();assert(s.player.hp+s.player.shield<1200);});
+check('No external dependencies in HTML',()=>{assert(!/<script[^>]+src=/i.test(html));assert(!/<link[^>]+href=/i.test(html));assert(!/fetch\(|XMLHttpRequest|https?:\/\//.test(html));});
+const result={runtime:'Node VM with simulated DOM and canvas',browserValidation:'Not completed: Chromium could not start because socket creation is denied in the execution environment.',checks,passed:checks.length};
+fs.writeFileSync(__dirname+'/results.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

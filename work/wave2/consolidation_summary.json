@@ -1,0 +1,452 @@
+{
+  "updated_utc": "2026-11-19T17:06:50+00:00",
+  "roster_count": 24,
+  "roster_unique_ids": 24,
+  "missing_before_this_run": [
+    "chief_infinite",
+    "johnson_h3",
+    "noble_six",
+    "emile_reach",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "carter_reach",
+    "buck_odst",
+    "rookie_odst",
+    "rtas_h3",
+    "tartarus_h2",
+    "atriox_hw2",
+    "decimus_hw2",
+    "escharum_infinite",
+    "jega_infinite",
+    "chak_lok",
+    "alice_hw2",
+    "douglas_hw2",
+    "jerome_hw2",
+    "zealot_reach",
+    "cethegus_h3",
+    "hunter_h3"
+  ],
+  "new_candidate_assets_this_run": 8,
+  "new_candidate_entities_this_run": [
+    "atriox_hw2",
+    "buck_odst",
+    "cethegus_h3",
+    "decimus_hw2",
+    "hunter_h3",
+    "jerome_hw2",
+    "rtas_h3",
+    "zealot_reach"
+  ],
+  "fighter_entities_with_candidates": 9,
+  "fighter_candidate_asset_count": 9,
+  "wave2_candidate_asset_count": 8,
+  "wave2_candidate_entities": [
+    "atriox_hw2",
+    "buck_odst",
+    "cethegus_h3",
+    "decimus_hw2",
+    "hunter_h3",
+    "jerome_hw2",
+    "rtas_h3",
+    "zealot_reach"
+  ],
+  "fighter_entities_without_candidates": [
+    "chief_infinite",
+    "johnson_h3",
+    "noble_six",
+    "emile_reach",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "carter_reach",
+    "rookie_odst",
+    "tartarus_h2",
+    "escharum_infinite",
+    "jega_infinite",
+    "chak_lok",
+    "alice_hw2",
+    "douglas_hw2"
+  ],
+  "certified_fighter_assets": 0,
+  "animated_fighter_assets": 0,
+  "integrated_fighter_assets": 0,
+  "failed_attempts_in_journal": [
+    {
+      "entity_id": "rtas_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID cd94998f-d9db-430a-95ae-0ba89eb826ae.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 0,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID aa4c2d7e-883a-451b-83f9-2c0f285b8fb5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 1,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "noble_six",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a4fbae5b-b19a-4ed0-8352-6a4cb91645df.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 3,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a6123e19-e4b8-4b46-8268-654c5e44fdea.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 4,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 52186353-9303-9b4d-a729-1f3db5c8939e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 5,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "kat_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c10e645d-9ed5-4c27-9803-dce04767c86e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 6,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "chief_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 051cfbe3-1df0-4529-b2eb-1825753617c6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 7,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 97e4bea6-0e7e-42fb-936f-7209fab4700a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 8,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "jun_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f4e04962-96ae-43fa-b535-10f3b751cf88.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 9,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "carter_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 07f25de4-b9de-4ca1-9456-dd41bd9e57bb.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 10,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "buck_odst",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2626eb97-b72b-4ea0-a92e-28d44f5f3c3f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 11,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "rookie_odst",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a00407f1-089d-4738-a343-70b897ee56fe.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 12,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "alice_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a12bcece-5fd4-48aa-bf53-be9a440c4cf2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 13,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7fa81475-43d2-4838-ab92-c962b1043042.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 14,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 513f73eb-e61c-43e4-b0f9-e8d78a4da3ed.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 17,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 56faa2ff-c5e8-427d-adbb-e0e298955471.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 18,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "chak_lok",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 48875f24-599d-4587-94c9-7491a16b2ed9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 19,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "zealot_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 168eee0f-9d1c-4c23-a7a2-134f81a3d0b2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 20,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "chief_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0ec9b637-6f69-4919-9099-accc383d9970.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 23,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "kat_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6bda1670-d0c9-40eb-8ea5-623085cdc683.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 24,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "noble_six",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 19da4d7a-ce1b-49b2-b39c-ad1ba48f10b4.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 26,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 81b55f4e-aea6-429e-999d-76ac80821ff8.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 27,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5136f264-18f4-4036-938f-c2d8014db844.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 28,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9786f115-fc63-4a94-9f47-ff9f0c64e2e1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 29,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jun_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID cec35f81-ded2-4254-87a2-ce330cf2b3c5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 30,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "carter_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ed49bb87-a7e3-44a2-b535-ec424f5b52d2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 31,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "rookie_odst",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 79f93a1d-ad50-49d0-99f9-758a4c9d9f06.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 33,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "alice_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7ffb4ba8-9d71-40f9-9ba0-219e7fd4e01a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 34,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 60a15b94-38b9-43c2-8c62-3af95557484d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 35,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c74ac457-ca42-47fc-ad04-67df765cb6e0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 36,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9f31d412-59e2-4616-8f06-9c0adec9f6f2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 37,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID fa1c13e9-299b-4405-a132-bc7581f68ed2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 38,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "chak_lok",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 78b7792f-711b-9bf9-ab73-62dd63828198.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 39,
+      "attempt_kind": "neutral_unarmed"
+    }
+  ],
+  "duplicate_records_skipped": [],
+  "generation_attempt_count": 41,
+  "unique_fighters_requested": [
+    "alice_hw2",
+    "atriox_hw2",
+    "buck_odst",
+    "carter_reach",
+    "cethegus_h3",
+    "chak_lok",
+    "chief_infinite",
+    "decimus_hw2",
+    "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "hunter_h3",
+    "jega_infinite",
+    "jerome_hw2",
+    "johnson_h3",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "noble_six",
+    "rookie_odst",
+    "rtas_h3",
+    "tartarus_h2",
+    "zealot_reach"
+  ],
+  "successful_generation_attempts": 8,
+  "failed_fighters_still_without_candidate": [
+    "alice_hw2",
+    "carter_reach",
+    "chak_lok",
+    "chief_infinite",
+    "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "johnson_h3",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "noble_six",
+    "rookie_odst",
+    "tartarus_h2"
+  ],
+  "planned_files": [
+    {
+      "entity_id": "atriox_hw2",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a56988ad-8b20-4878-9b7b-416330be1792.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
+      "asset_id": "atriox_hw2_neutral_right_v01",
+      "sha256": "b28e7bf2c1f56a81469b976917ce35349c1953500acee29e495a0bb3d9d7539e",
+      "reused": false
+    },
+    {
+      "entity_id": "jerome_hw2",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ead86e53-d82c-4c0e-867d-a1cf0eb1d6cc.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+      "asset_id": "jerome_hw2_neutral_right_v01",
+      "sha256": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d",
+      "reused": false
+    },
+    {
+      "entity_id": "decimus_hw2",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-51021fb3-0a3e-49d0-b8fc-0946bfff08a5.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/decimus_hw2_neutral_right_v01.png",
+      "asset_id": "decimus_hw2_neutral_right_v01",
+      "sha256": "f8a57f210673fe93a86de7c22e306b56f27d8435f629f20f258899fbed0b9ca3",
+      "reused": false
+    },
+    {
+      "entity_id": "cethegus_h3",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-269e2198-8d23-46bf-9557-fb0925e702ad.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/cethegus_h3_neutral_right_v01.png",
+      "asset_id": "cethegus_h3_neutral_right_v01",
+      "sha256": "e79b4180b2f212d8d6beeae0a80efc8adebc9824d3b230285053d349d2664619",
+      "reused": false
+    },
+    {
+      "entity_id": "hunter_h3",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ae422bd8-0b79-4d47-adf0-816e4eee6507.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/hunter_h3_neutral_right_v01.png",
+      "asset_id": "hunter_h3_neutral_right_v01",
+      "sha256": "ffac6d5d637decaefee23d4c5c546188254c233c394a2eabcd79fe4174c4d6da",
+      "reused": false
+    },
+    {
+      "entity_id": "rtas_h3",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f4bf264-38c4-47f1-8d80-fb706e13ec2b.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/rtas_h3_neutral_right_v01.png",
+      "asset_id": "rtas_h3_neutral_right_v01",
+      "sha256": "f9de8f58848ba89360165ee23edb8150c9a8b366298c2958ace661247783888a",
+      "reused": false
+    },
+    {
+      "entity_id": "buck_odst",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ae070c47-15d6-4ddf-b43d-7d3686a298e0.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/buck_odst_neutral_right_v01.png",
+      "asset_id": "buck_odst_neutral_right_v01",
+      "sha256": "72a05937f61306306e063487b3cff33b789bfd993ff05113d3b47b5c26e45155",
+      "reused": false
+    },
+    {
+      "entity_id": "zealot_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2e691b3e-285d-4f75-b270-5cc35eab069b.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+      "asset_id": "zealot_reach_neutral_right_v01",
+      "sha256": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682",
+      "reused": false
+    }
+  ],
+  "applied": true
+}

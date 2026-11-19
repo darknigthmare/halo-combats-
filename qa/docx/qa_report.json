@@ -1,0 +1,43 @@
+{
+  "artifact": "/workspace/scratch/9d31c69eef8e/halo_combats/docs/HALO_COMBATS_BIBLE_V1.docx",
+  "page_count": 45,
+  "png_size": [
+    1547,
+    2002
+  ],
+  "method": "render_docx.py puis inspection visuelle de chaque PNG à taille réelle",
+  "inspected_ranges": [
+    {
+      "agent": "roster_story",
+      "first_page": 1,
+      "last_page": 23,
+      "status": "passed",
+      "remaining_layout_defects": []
+    },
+    {
+      "agent": "bosses_stages",
+      "first_page": 24,
+      "last_page": 45,
+      "status": "passed",
+      "remaining_layout_defects": []
+    }
+  ],
+  "pending_ranges": [],
+  "structural_checks": {
+    "internal_hyperlinks": 58,
+    "bookmarks": 82,
+    "missing_link_targets": [],
+    "web_citation_tokens": false
+  },
+  "corrections": [
+    "En-tête Commande abrégé en Entrée",
+    "En-tête Bouclier abrégé en Bcl."
+  ],
+  "accepted_pagination": [
+    "En-têtes de tableaux répétés sur les pages de continuation",
+    "Couverture et pages de transition volontairement aérées"
+  ],
+  "docx_sha256": "9bcdad07fe1645151aab3f0673aa90923e13821042deb66b0513313c600d6d72",
+  "status": "passed",
+  "visual_review_coverage": "45/45 pages, 100%"
+}

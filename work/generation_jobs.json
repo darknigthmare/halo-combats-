@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-19",
+  "generator": "image_gen built-in",
+  "active_candidates": [
+    {
+      "id": "arbiter_h3_neutral_v2",
+      "entity_id": "arbiter_h3",
+      "type": "fighter_pose",
+      "imageKey": "image_arbiter_v2",
+      "prompt": "Create ONE isolated full-body character illustration of Thel 'Vadam, the Arbiter exactly as he appears in Halo 3. His canonical silver-gray engraved Arbiter armor and pointed tall helmet, reptilian gray-brown Sangheili skin, four mandibles with Halo 3 jaw guards, long digitigrade legs and split hoof-like feet, wide armored shoulders and exact game proportions. Whole body shown in a quiet neutral resting pose, side view facing right with a slight torso three-quarter turn. Arms relaxed, empty hands, NO weapons, no combat action, no injury. Authentic detailed Halo 3 appearance, no gold armor from Halo 5, no human anatomy. Clean high-detail realistic 2D game illustration with restrained painterly material detail and readable crisp silhouette, neutral light. One character only, centered with generous transparent margin around every extremity. Genuinely TRANSPARENT background. No scenery, no floor, no shadow rectangle, no text, no sheet, no collage, no duplicate body.",
+      "edit_prompt": "Precisely edit this image as a clean transparent character cutout. Preserve the Arbiter character, anatomy, pose, engraving, metal colors, scale and every armor detail unchanged. Remove all the soft gray halo, all ambient background pixels and all haze outside the actual silhouette. Make every pixel outside the character completely transparent alpha zero, including the spaces between arms and torso and between legs. Keep the character itself opaque and crisply anti-aliased at the outline. Add transparent breathing room around the top of the helmet and both boots so no part touches the image edges. Do not create a backdrop or shadow, do not add a weapon or text. One full-body isolated neutral figure only.",
+      "output": "arbiter_halo3_neutral_right_v2.png",
+      "qa": "Pose neutre candidate. Fond alpha présent mais halo périphérique à contrôler. Orientation trois quarts trop marquée pour frame latérale finale. Armure et mandibules à comparer au modèle Halo 3.",
+      "required_followup": [
+        "Détourage précis",
+        "Profil latéral de combat",
+        "Arme dédiée",
+        "Références comparatives",
+        "Animation"
+      ],
+      "source_file": "/workspace/scratch/9d31c69eef8e/generated_images/exec-be61dde9-8385-4601-bed8-c553ee48f9b8.png",
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated"
+    },
+    {
+      "id": "scarab_h3_profile_v2",
+      "entity_id": "boss_scarab_h3",
+      "type": "boss_profile",
+      "imageKey": "image_scarab_v2",
+      "prompt": "One isolated technical game-art illustration of the Covenant SCARAB walker in its exact HALO 3 Deutoros-pattern appearance. A giant four-legged purple and violet alien walking vehicle, low wide armored beetle-like oval upper body, four very long articulated angular legs, characteristic forward green focus-emitter assembly in the downward pointing head, small elevated aft dorsal structure, correct curved layered Covenant hull plates and pale cyan emissive details. Empty unoccupied display of the vehicle only, all systems idle, no beams being fired, no battle, no destruction, no people. Strict SIDE PROFILE facing LEFT, all four legs must remain distinguishable through slight near/far offset, show entire vehicle and every foot inside generous margins. Authentic Halo 3 geometry and purple Covenant materials, NOT a tank, not red Banished, not insect biology, not Halo 2 Scarab. Highly detailed 2D UHD painted production asset, orthographic side view, neutral even light, crisp silhouette. Genuinely TRANSPARENT BACKGROUND. Exactly one vehicle, no scene, no labels, no watermark, no multiple angles or panels.",
+      "edit_prompt": "Correct only the leg anatomy of this isolated HALO 3 Covenant Scarab reference candidate. The existing image has FIVE visible feet, which is wrong. A Halo 3 Scarab has EXACTLY FOUR legs and FOUR feet in total. REMOVE the extra thin rear-side leg and foot underneath the right half of the body, immediately behind the large central foreground leg; leave transparent empty space there. Keep the near-side front leg at the left, the far-side front leg under the left half, the large near-side rear leg in the center-right, and the final far-side rear leg at the far right. The four remaining legs each attach exactly once to the chassis, have one coherent articulated chain and one foot. Preserve every other pixel as much as possible: purple chassis, idle emitter at left, rear dorsal structure, material wear, view, proportions. Full vehicle inside frame. GENUINELY TRANSPARENT background, no added backdrop, no shadows, no text, no other object.",
+      "output": "scarab_halo3_left_v2.png",
+      "qa": "Quatre pattes après correction. Alpha présent. Profil légèrement trois quarts, géométrie et proportions des modules à comparer au modèle Halo 3. Non segmenté, non animé.",
+      "required_followup": [
+        "Profil strict et proportions",
+        "Découpe des modules par génération dédiée",
+        "Animations des pattes",
+        "Cœur et panneaux séparés",
+        "Hitboxes"
+      ],
+      "source_file": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c52abd97-9ea4-4c0b-bd83-e653c780f16a.png",
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated"
+    },
+    {
+      "id": "valhalla_h3_master_v2",
+      "entity_id": "st_valhalla_h3",
+      "type": "stage_master",
+      "imageKey": "image_valhalla_v2",
+      "prompt": "A high quality 2D side-scrolling game background inspired faithfully by the iconic VALHALLA multiplayer valley from HALO 3, shown as an empty calm environment. Wide 16:9 composition. A lush temperate alpine valley, steep gray granite cliffs at left and right, green pine trees in the midground, distant waterfall at one side, a large characteristic silver gray Forerunner beam-emitter tower with angular triangular geometry at the far end of the valley, fine blue accents, an immense Halo ring arch visible far away across a pale blue sky with clouds. Faithful Halo 3 material and architecture language, no Banished structures or Halo Infinite hexagonal terrain. Camera perfectly level and sideways for a 2D fighting arena, horizon at 45 percent of frame. Lower third is a broad uninterrupted flat green rock-and-grass playing lane from left edge to right edge. No people, no characters, no creatures, no weapons, no vehicles, no battle. Crisp detailed painted AAA videogame background with natural daylight, restrained atmospheric depth. One complete background artwork, no frame, no writing, no watermark, no panels. This is the master background visual to later split into parallax layers; do not pretend the layers are separate.",
+      "edit_prompt": "Edit this generated Halo 3 VALHALLA environment for canon fidelity. Preserve the exact framing, painterly detail, daylight, flat empty foreground playing lane, cliffs, trees and waterfall. Make TWO corrections: 1. COMPLETELY REMOVE the large Halo ring from the sky, leaving ordinary blue sky and clouds, since this Valhalla reference is on the Ark. 2. Replace the oversized tall generic central spire with a much smaller accurate Halo 3 Valhalla beacon base: low broad angular metallic Forerunner bunker with two long narrow vertical prongs mounted above a gently rising angular roof, dark gray metal, subtle blue beacon light, positioned at the far side of the valley. The structure should stand about the height of the nearby trees, not like a skyscraper. Keep the environment empty, peaceful and readable side-on. No people, no vehicles, no weapons, no labels, no panels. This is one full opaque stage background concept.",
+      "output": "valhalla_halo3_master_v2.png",
+      "qa": "Anneau incorrect retiré, taille du beacon réduite. Concept maître latéral. Géométrie du beacon et topographie encore à comparer aux captures. Zéro calque indépendant livré.",
+      "required_followup": [
+        "Topographie exacte",
+        "Architecture exacte du beacon",
+        "6 calques indépendants",
+        "Raccord de sol",
+        "Transitions"
+      ],
+      "source_file": "/workspace/scratch/9d31c69eef8e/generated_images/exec-927fdfc6-7f60-4c50-a1a4-6305eeb98b50.png",
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated"
+    },
+    {
+      "id": "mombasa_odst_master_v2",
+      "entity_id": "st_mombasa_odst",
+      "type": "stage_master",
+      "imageKey": "image_mombasa_v2",
+      "prompt": "Generate one detailed environment background for a 2D side-view game: the empty nighttime streets of NEW MOMBASA in HALO 3 ODST. Faithful visual language of the 2009 game: monumental angular near-future concrete office buildings, broad low curbs, rectangular windows, shuttered shop fronts, clean utilitarian UNSC human architecture, a distant glimpse of the immense space elevator silhouette through mist, restrained electric blue, dark teal and warm amber street lamps, damp asphalt reflecting scattered lights. Quiet melancholy atmosphere. No characters, no enemies, no vehicles, no weapons, no corpses or violence. Perfectly level side-on camera; lower third is a long horizontal uninterrupted sidewalk roadway for a fighting game stage, without steep perspective or obstacles covering feet. Background streets recede through atmospheric haze; dramatic but readable silhouettes. Highly detailed realistic 2D painted AAA videogame stage concept, landscape 16:9. No Halo ring in sky, no alien purple architecture, no generic crowded cyberpunk neon, no readable invented advertising, no logo, no text labels or watermark. This is one opaque full background master concept, not a sheet.",
+      "edit_prompt": "Correct the distant skyline in this New Mombasa HALO 3 ODST nighttime stage. Preserve the entire street-level foreground, wet road, flat fighting lane, windows, lamps, buildings, palms, framing and color palette. Remove the intact giant glowing space elevator tower in the distant upper-center background. Replace its silhouette with a low broken industrial base and a bank of distant dark gray mist, with an ordinary cloudy night sky above. This scene is New Mombasa after the elevator has fallen, so there must be NO intact space elevator and NO long cable ascending into space. Keep the scene quiet and empty, no active destruction, no people, no vehicles, no violence. Avoid an alien Forerunner spire; all remaining buildings are human concrete urban architecture. One opaque wide background master concept, no text or panels.",
+      "output": "mombasa_odst_night_master_v2.png",
+      "qa": "Ascenseur intact incorrect retiré pour le contexte de nuit retenu. Concept maître latéral. Identification des façades du secteur et comparaison ODST encore requises. Zéro calque indépendant livré.",
+      "required_followup": [
+        "Secteur précis",
+        "6 calques indépendants",
+        "Signalétique référencée",
+        "Pluie et vapeur séparées",
+        "Transitions"
+      ],
+      "source_file": "/workspace/scratch/9d31c69eef8e/generated_images/exec-83df73af-9961-4bc1-85ff-023a66998b03.png",
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated"
+    }
+  ],
+  "failed_requests": [
+    {
+      "entity_id": "chief_infinite",
+      "request": "MA40 low ready",
+      "prompt": "Use case: stylized-concept. Asset type: individual full-body fighting game sprite for Halo Combats. Generate exactly ONE Master Chief John-117, in the precise canonical campaign appearance from Halo Infinite: olive green MJOLNIR Mark VI GEN3 armor, angular helmet with broad golden visor, dark black articulated undersuit, exact asymmetric chest 117 stencil placement, game-accurate chest plates, pauldrons, knee plates, gloves and boots. No mixing with Halo 4/5 GEN2 armor. Carry the correct Halo Infinite MA40 assault rifle with both hands at low ready, finger clear of trigger. Strict side-on combat stance FACING RIGHT with slight three-quarter torso only as necessary to show armor, feet firmly planted, whole body from helmet to boots and entire weapon visible, generous empty margins. AAA high-detail 2D UHD painted fighting sprite, crisp readable silhouette, authentic military proportions, realistic material wear, neutral even lighting with soft cyan rim, no extreme perspective, not toy/chibi. GENUINELY TRANSPARENT BACKGROUND with clean alpha; no scenery, no floor, no contact shadow outside silhouette, no text labels, no panels, no sprite sheet, no duplicated character, no watermark. Fidelity target is the official Halo Infinite Master Chief reference in Halo Waypoint Master Class. Output one isolated sprite only.",
+      "status": "generation_rejected",
+      "reason": "Automatic image generation moderation rejection; no image delivered."
+    },
+    {
+      "entity_id": "chief_infinite",
+      "request": "Neutral unarmed reference",
+      "prompt": "Create a single full-body neutral character reference illustration of Master Chief John-117 as seen in Halo Infinite, standing calmly at rest with empty hands. No weapons, no action, no violence, no injury. Accurate olive-green MJOLNIR Mark VI GEN3 armor, golden visor, black flexible undersuit, canonical proportions and helmet, correct chest markings and armor details. Clean right-facing side view suitable as a character-model reference, with a very slight three-quarter torso angle. All helmet, fingers, boots and armor fully visible with generous margin. Detailed realistic videogame character art, crisp silhouette and even neutral lighting. True TRANSPARENT background with no environmental glow or floor, no labels, no writing except small correct armor identification, no grid, no duplicate character.",
+      "status": "generation_rejected",
+      "reason": "Automatic image generation moderation rejection; no image delivered."
+    }
+  ],
+  "generated_unique_entities": 4,
+  "certified_assets": 0,
+  "animated_assets": 0,
+  "independent_parallax_layers": 0
+}

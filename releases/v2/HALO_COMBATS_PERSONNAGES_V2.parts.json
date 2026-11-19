@@ -1,0 +1,18 @@
+{
+  "archive": "HALO_COMBATS_PERSONNAGES_V2.zip",
+  "bytes": 16119396,
+  "sha256": "02a18b8f05fc962740a48a34c2af53305bff2efeb90d8d032b6c22c14d0e4ab0",
+  "parts": [
+    {
+      "name": "HALO_COMBATS_PERSONNAGES_V2.zip.part01",
+      "bytes": 8388608,
+      "sha256": "8fa96dab096c1e4d84f98fcb3f54e8ed8ac35f3ee0770d83c520098c250b6b07"
+    },
+    {
+      "name": "HALO_COMBATS_PERSONNAGES_V2.zip.part02",
+      "bytes": 7730788,
+      "sha256": "210d627a989ba0c83ec6c6adc432ba24900aa80ab13e659cf6709b6cd5b78c09"
+    }
+  ],
+  "reason": "Archive conservée en parties pour respecter la limite de taille du transfert ; les octets originaux sont intégralement conservés."
+}

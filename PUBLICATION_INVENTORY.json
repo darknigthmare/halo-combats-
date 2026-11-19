@@ -1,0 +1,385 @@
+{
+  "scope": "Snapshot initial V1/V2 ; archive V2 reconstituable en deux parties",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 196,
+      "sha256": "92c6214e3784875e6ca8ab6f025d388cfb913a31bdb29c7d29c5425abe5f65c9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5875,
+      "sha256": "b8c363a577b8513e38a0bd753695f33415ca22a42903338f06393ef3bb7755ea"
+    },
+    {
+      "path": "README_V2.md",
+      "bytes": 5875,
+      "sha256": "b8c363a577b8513e38a0bd753695f33415ca22a42903338f06393ef3bb7755ea"
+    },
+    {
+      "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
+      "bytes": 2098355,
+      "sha256": "23ac61d89be17a710936a693879ec7ddd7ce700faf4c9e9ee9c371c4e9b18486"
+    },
+    {
+      "path": "assets/candidates/mombasa_odst_night_master_v2.png",
+      "bytes": 2087585,
+      "sha256": "d9efeaa25e0a50f56a74405c01a69067c8814e0609a86c986dd647244d4657da"
+    },
+    {
+      "path": "assets/candidates/scarab_halo3_left_v2.png",
+      "bytes": 1533383,
+      "sha256": "eab741ab08dea09dd82e9663709ae0fa142da38c25fa9d95bdc9dedac30e599b"
+    },
+    {
+      "path": "assets/candidates/valhalla_halo3_master_v2.png",
+      "bytes": 2771281,
+      "sha256": "a429c7661d32d116b0558d7af0a9174a1f6da72b858c532692bb351ef275f97d"
+    },
+    {
+      "path": "assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
+      "bytes": 2378415,
+      "sha256": "b28e7bf2c1f56a81469b976917ce35349c1953500acee29e495a0bb3d9d7539e"
+    },
+    {
+      "path": "assets/characters_wave2/buck_odst_neutral_right_v01.png",
+      "bytes": 1519026,
+      "sha256": "72a05937f61306306e063487b3cff33b789bfd993ff05113d3b47b5c26e45155"
+    },
+    {
+      "path": "assets/characters_wave2/cethegus_h3_neutral_right_v01.png",
+      "bytes": 2069530,
+      "sha256": "e79b4180b2f212d8d6beeae0a80efc8adebc9824d3b230285053d349d2664619"
+    },
+    {
+      "path": "assets/characters_wave2/decimus_hw2_neutral_right_v01.png",
+      "bytes": 2537022,
+      "sha256": "f8a57f210673fe93a86de7c22e306b56f27d8435f629f20f258899fbed0b9ca3"
+    },
+    {
+      "path": "assets/characters_wave2/hunter_h3_neutral_right_v01.png",
+      "bytes": 2321201,
+      "sha256": "ffac6d5d637decaefee23d4c5c546188254c233c394a2eabcd79fe4174c4d6da"
+    },
+    {
+      "path": "assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+      "bytes": 1201447,
+      "sha256": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d"
+    },
+    {
+      "path": "assets/characters_wave2/rtas_h3_neutral_right_v01.png",
+      "bytes": 1000843,
+      "sha256": "f9de8f58848ba89360165ee23edb8150c9a8b366298c2958ace661247783888a"
+    },
+    {
+      "path": "assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+      "bytes": 988523,
+      "sha256": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682"
+    },
+    {
+      "path": "data/animation_plan.csv",
+      "bytes": 66235,
+      "sha256": "b0e11f4cdf9ec2b9216fb20cfc35796bc671affe6b140faabc50af56a095ac0e"
+    },
+    {
+      "path": "data/animation_plan.json",
+      "bytes": 550892,
+      "sha256": "f5db49a10d3c5b88a916c6f05247460a20234bd9aa7153026172c03f9f35f414"
+    },
+    {
+      "path": "data/asset_manifest.json",
+      "bytes": 126581,
+      "sha256": "f6fca79e7471ce20f05efd12d02404d7d9fc45b9bd41efb8623c7b2d17e9573b"
+    },
+    {
+      "path": "data/bosses.json",
+      "bytes": 41817,
+      "sha256": "fefbe0c4a6ef7892bb1da24b8f107a3f940fc3693f31a9c2fdca5c85eef3c97e"
+    },
+    {
+      "path": "data/characters_visual_inventory.csv",
+      "bytes": 16255,
+      "sha256": "fa6faff2306c907ad149c28fa8dae1ee44a84ccd0ee14607c89e28d2adb74a63"
+    },
+    {
+      "path": "data/delivery_counts.json",
+      "bytes": 1022,
+      "sha256": "10b8f5e1753e7b0a66a1d57d035df51fbf884c2e14c92038db013aa455d01c39"
+    },
+    {
+      "path": "data/fighter_sources.json",
+      "bytes": 5515,
+      "sha256": "ed86f58b039a0987343419947fb8f059c27f091da0ab37919086a0aebfe0b7ec"
+    },
+    {
+      "path": "data/fighters.json",
+      "bytes": 227664,
+      "sha256": "9bfea041410b431298e21dfc95a50b89901807c53404f875c73a531a063006f1"
+    },
+    {
+      "path": "data/stages.json",
+      "bytes": 56884,
+      "sha256": "3f7de32ef77c0e908fe3a7dbfe3f645a81b4de85cc73bb66ca64a5e9d69b9986"
+    },
+    {
+      "path": "data/world_sources.json",
+      "bytes": 5124,
+      "sha256": "6487602a8e570e7c5625311ef3eb8b77382f0bdbf6425e9adea671bf6da5c9d9"
+    },
+    {
+      "path": "docs/DEPOT.md",
+      "bytes": 799,
+      "sha256": "a7e9300b894e41299dc72fec15e4b1dc429b99919bf7170dff1c2112a0877023"
+    },
+    {
+      "path": "docs/ETAT_PRODUCTION_V1.md",
+      "bytes": 3156,
+      "sha256": "772b07dda95e86323f2feeb8a2e502b88005fe569e646df912ff7f05fe7d12d9"
+    },
+    {
+      "path": "docs/HALO_COMBATS_BIBLE_V1.docx",
+      "bytes": 99063,
+      "sha256": "9bcdad07fe1645151aab3f0673aa90923e13821042deb66b0513313c600d6d72"
+    },
+    {
+      "path": "docs/HALO_COMBATS_BIBLE_V1.md",
+      "bytes": 138419,
+      "sha256": "c21f00e66a87effc3f99cc0d0bd9eac86e84cbe0ff8ce463e9b743a7980f040b"
+    },
+    {
+      "path": "docs/HALO_COMBATS_BIBLE_V1.pdf",
+      "bytes": 936240,
+      "sha256": "b1f8b6c9118e00ba0b5f2701baab2a201d7e987bffcb80d8e773bd282df245fd"
+    },
+    {
+      "path": "docs/HALO_COMBATS_PERSONNAGES_V2.md",
+      "bytes": 20872,
+      "sha256": "1463af6ad5320061756815d668f454dca1253a7a3410a4786d6b8d176aec0c02"
+    },
+    {
+      "path": "docs/HALO_COMBATS_PRODUCTION_V1.xlsx",
+      "bytes": 57047,
+      "sha256": "1d0a817c64fbc279d7fc2c1febd222652cf52f4cb7aac524ebbb5af7e547676d"
+    },
+    {
+      "path": "docs/build_bible.py",
+      "bytes": 16000,
+      "sha256": "f468163840536d054fc37912018fa67a22c8b0b14506c4c950b349575daa79e8"
+    },
+    {
+      "path": "docs/build_report.json",
+      "bytes": 1090,
+      "sha256": "8bbaf23f9b0d0088b206c761e2c37518c3f178925e97ffbb47c70e195a10593a"
+    },
+    {
+      "path": "docs/source_registry.json",
+      "bytes": 11799,
+      "sha256": "6c440f3f6d4990547947d290e0174173e92616f315e56a923b300b9a794d13ac"
+    },
+    {
+      "path": "prototype/README.md",
+      "bytes": 4195,
+      "sha256": "8f65b6235cbc9b3c9e73693ca5736eaec455bc9dcfca6e2c5fc4b1a4c28ab03e"
+    },
+    {
+      "path": "prototype/halo_combats_prototype.html",
+      "bytes": 34712,
+      "sha256": "4e559a77948819c130160c67bccd8c08bf206adf3acf340a2c6a2a40c7ea96de"
+    },
+    {
+      "path": "prototype/qa/logic.cjs",
+      "bytes": 5195,
+      "sha256": "38f1a5e9893d681af4156f1d638e1ef126439622942f7ecbaf65c3ff21953cdd"
+    },
+    {
+      "path": "prototype/qa/results.json",
+      "bytes": 1788,
+      "sha256": "1e38477093a8b9a537b5eed41b6e70e13b4672b12f73a1cad017a7e3536da65c"
+    },
+    {
+      "path": "prototype/qa/verify.cjs",
+      "bytes": 5625,
+      "sha256": "35622cd0fbf713710f234ec9817725d6345ccce0d925e72bc9adcf66e1f7ad76"
+    },
+    {
+      "path": "qa/docx/qa_report.json",
+      "bytes": 1183,
+      "sha256": "b564c55cd25b307630d8a670f3c04753f29ca729c6a410a19166106d30b89e97"
+    },
+    {
+      "path": "releases/v1/HALO_COMBATS_V1_COMPLET.zip",
+      "bytes": 8660616,
+      "sha256": "4356a550c53e820bc5cf8d215b054feb075a6f14d39d21b42010c5a9026abd51"
+    },
+    {
+      "path": "releases/v1/SHA256SUMS.txt",
+      "bytes": 2922,
+      "sha256": "ed1d8ebe86700946d90d1b8a517617e5f9ab52d9a4d2afd83804f8b9e59df68f"
+    },
+    {
+      "path": "releases/v2/HALO_COMBATS_PERSONNAGES_V2.parts.json",
+      "bytes": 669,
+      "sha256": "4f1ec2bfb6eb975ad837e158c0f77891739e93cc42f58b1aa548f894d9725218"
+    },
+    {
+      "path": "releases/v2/HALO_COMBATS_PERSONNAGES_V2.zip.part01",
+      "bytes": 8388608,
+      "sha256": "8fa96dab096c1e4d84f98fcb3f54e8ed8ac35f3ee0770d83c520098c250b6b07"
+    },
+    {
+      "path": "releases/v2/HALO_COMBATS_PERSONNAGES_V2.zip.part02",
+      "bytes": 7730788,
+      "sha256": "210d627a989ba0c83ec6c6adc432ba24900aa80ab13e659cf6709b6cd5b78c09"
+    },
+    {
+      "path": "releases/v2/HALO_COMBATS_PERSONNAGES_V2_PACKAGE_REPORT.json",
+      "bytes": 3767,
+      "sha256": "39ef5dc764d5397e813b91019cab0626ed8bf7e35becf0aa15392745efd1d54a"
+    },
+    {
+      "path": "releases/v2/HALO_COMBATS_PERSONNAGES_V2_README.md",
+      "bytes": 16040,
+      "sha256": "b748fc11d935ffb39680f0082f7cc2e2ace2cb7f1ea78fb2b9ef9f07222f6727"
+    },
+    {
+      "path": "releases/v2/HALO_COMBATS_PERSONNAGES_V2_STATUS.json",
+      "bytes": 3439,
+      "sha256": "844ffe4645c0397f06ac4c383d87e31915919183051612cbdd5111c6aa16bad8"
+    },
+    {
+      "path": "releases/v2/REASSEMBLE.md",
+      "bytes": 735,
+      "sha256": "eb1a8fbf16dac34cc9689ec44f3c7a01ab87a360364390e5ce585dfb46414fda"
+    },
+    {
+      "path": "releases/v2/reassemble_archive.py",
+      "bytes": 1022,
+      "sha256": "1359a3230bd4230b40ecaed520d561322728b24b28c95ee6e6de4e1158b6a6f3"
+    },
+    {
+      "path": "scripts/package_delivery.py",
+      "bytes": 1696,
+      "sha256": "791307b89d1e718124336cbf86b50278836afdf964fdee29f3b29ba4e0020ebd"
+    },
+    {
+      "path": "scripts/prepare_delivery.py",
+      "bytes": 8937,
+      "sha256": "6f295ba3b8f194b7e944eafe68e21c277e29f861bc6c64654b479ac38ae995f7"
+    },
+    {
+      "path": "work/core_chapter.md",
+      "bytes": 32403,
+      "sha256": "b212bdeede579ee34e141ae1c58faf1a8d9a69fc484109e1bf89b0e07b8bbcc2"
+    },
+    {
+      "path": "work/generation_jobs.json",
+      "bytes": 14513,
+      "sha256": "768d36ce5de648335733613c0f11e64e64a37bedd8bbef1d12c54bbb862ff610"
+    },
+    {
+      "path": "work/roster/build_roster.py",
+      "bytes": 84063,
+      "sha256": "8f65c5c3b134e7dab8f36a0d16774455dba1d47e60f7d9e42bc127849e00f9d4"
+    },
+    {
+      "path": "work/roster/roster.json",
+      "bytes": 223549,
+      "sha256": "212459bbc25d5bdc59f5e6a3aa8dcfbcd3d40cc74f119fb60558e3b18437f130"
+    },
+    {
+      "path": "work/roster/roster_chapter.md",
+      "bytes": 62214,
+      "sha256": "82482c6d8fc794be3d366f2e992d7128b2651955bdda0fdc9b0d114811c89951"
+    },
+    {
+      "path": "work/roster/source_registry.json",
+      "bytes": 5515,
+      "sha256": "ed86f58b039a0987343419947fb8f059c27f091da0ab37919086a0aebfe0b7ec"
+    },
+    {
+      "path": "work/spreadsheet_qa/formula_errors.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+    },
+    {
+      "path": "work/spreadsheet_qa/verification.json",
+      "bytes": 2815,
+      "sha256": "44f4d90bf6b195847c2ae79505af4fff94f2f7793cb5bbb38c74731a77632745"
+    },
+    {
+      "path": "work/spreadsheet_statuses.json",
+      "bytes": 963,
+      "sha256": "8cf3d78ccb4b470a42ca82c8bb8a90610ef8008c571be2d9baff719a17aabbe9"
+    },
+    {
+      "path": "work/wave2/README_V1_before_wave2.md",
+      "bytes": 3813,
+      "sha256": "a78a2da4aa2f8a505d34ed279340ba1e62c7b17dfca7039fbf3a0c5361e06052"
+    },
+    {
+      "path": "work/wave2/alien_prompts.json",
+      "bytes": 24917,
+      "sha256": "814b087bf7cc83063b006de0caa1dab4521485d690902e1660107d51ab017c17"
+    },
+    {
+      "path": "work/wave2/consolidation_summary.json",
+      "bytes": 31832,
+      "sha256": "3d4d35d80c42345faac7ecfda95b5107e591f22bbdc029c3f5e4ade6b8f90cc7"
+    },
+    {
+      "path": "work/wave2/generation_results.json",
+      "bytes": 80964,
+      "sha256": "bbb7620d505dda57ef13433a8a4f16e03d20f230d79fd05e7a53d7da022fbbac"
+    },
+    {
+      "path": "work/wave2/human_prompts.json",
+      "bytes": 36624,
+      "sha256": "1281739ad4fd97a3ddfeaf14a0e52c340ef19308a09268db6e556e3ae304342d"
+    },
+    {
+      "path": "work/wave2/neutral_reference_prompts.json",
+      "bytes": 39811,
+      "sha256": "544e38b717b5b662b7b1afabbab5afcf5c4c59968b828bd532b7f31a1b2108d6"
+    },
+    {
+      "path": "work/wave2/package_characters.py",
+      "bytes": 33312,
+      "sha256": "91db0be36f0659272f67554197067ee045cbd3be0ab3ddeb548f99d4e0bddbf8"
+    },
+    {
+      "path": "work/wave2/qa_wave2.json",
+      "bytes": 33156,
+      "sha256": "9f9b3a0b9aa1330209951c3eb6a4863e892a673229536531332142067b6b3e4f"
+    },
+    {
+      "path": "work/wave2/update_wave2.py",
+      "bytes": 40428,
+      "sha256": "65f3d1419917320edccc7684a3f9fd58b34b63a356122bbad3480113f6eb7349"
+    },
+    {
+      "path": "work/world/bosses.json",
+      "bytes": 41527,
+      "sha256": "beb29a1fd34e5c593321d107485e4df7ee1d3361d93d7011a5d5e32687ce603e"
+    },
+    {
+      "path": "work/world/bosses_stages.md",
+      "bytes": 45072,
+      "sha256": "a66e795ca4780549ac78a9914ea717e876204aa2a37d944e2984f7ddac3ad6a8"
+    },
+    {
+      "path": "work/world/build_world.py",
+      "bytes": 28321,
+      "sha256": "51af00c7a95112721161bac735d8db63769b6ee798ad7bf34e793bf9f091d876"
+    },
+    {
+      "path": "work/world/sources.json",
+      "bytes": 5124,
+      "sha256": "6487602a8e570e7c5625311ef3eb8b77382f0bdbf6425e9adea671bf6da5c9d9"
+    },
+    {
+      "path": "work/world/stages.json",
+      "bytes": 56513,
+      "sha256": "0f7a66087f905a77b332fdd9dfc0618719d1031f13634a58f7d8784f7ed440db"
+    }
+  ]
+}

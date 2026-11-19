@@ -1,0 +1,113 @@
+{
+  "sheets": [
+    {
+      "name": "Synthèse",
+      "rows": 31
+    },
+    {
+      "name": "Combattants",
+      "rows": 24
+    },
+    {
+      "name": "Coups spéciaux",
+      "rows": 96
+    },
+    {
+      "name": "Histoires",
+      "rows": 24
+    },
+    {
+      "name": "Boss",
+      "rows": 20
+    },
+    {
+      "name": "Arènes",
+      "rows": 24
+    },
+    {
+      "name": "Assets",
+      "rows": 68
+    }
+  ],
+  "counts": {
+    "fighters": 24,
+    "normals": 264,
+    "supers": 24,
+    "specials": 96,
+    "histories": 24,
+    "bosses": 20,
+    "stages": 24,
+    "layers": 144,
+    "assets": 68,
+    "candidateAssets": 4,
+    "certifiedAssets": 0
+  },
+  "formulaMutationTest": "passed",
+  "previews": [
+    {
+      "sheet": "Synthèse",
+      "range": "A1:G29",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Synthese_1.png"
+    },
+    {
+      "sheet": "Combattants",
+      "range": "A1:G11",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Combattants_1.png"
+    },
+    {
+      "sheet": "Combattants",
+      "range": "H5:O10",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Combattants_2.png"
+    },
+    {
+      "sheet": "Coups spéciaux",
+      "range": "A1:H10",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Coups_speciaux_1.png"
+    },
+    {
+      "sheet": "Coups spéciaux",
+      "range": "I5:M9",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Coups_speciaux_2.png"
+    },
+    {
+      "sheet": "Histoires",
+      "range": "A1:E9",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Histoires_1.png"
+    },
+    {
+      "sheet": "Histoires",
+      "range": "F5:I9",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Histoires_2.png"
+    },
+    {
+      "sheet": "Boss",
+      "range": "A1:G10",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Boss_1.png"
+    },
+    {
+      "sheet": "Boss",
+      "range": "H5:O9",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Boss_2.png"
+    },
+    {
+      "sheet": "Arènes",
+      "range": "A1:I10",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Arenes_1.png"
+    },
+    {
+      "sheet": "Arènes",
+      "range": "J5:P9",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Arenes_2.png"
+    },
+    {
+      "sheet": "Assets",
+      "range": "A1:H11",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Assets_1.png"
+    },
+    {
+      "sheet": "Assets",
+      "range": "I5:N10",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/work/spreadsheet_qa/Assets_2.png"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+const {chromium}=require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+(async()=>{
+  const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
+  const page=await browser.newPage({viewport:{width:1440,height:1000}});
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.addInitScript(()=>window.requestAnimationFrame=()=>0);
+  await page.goto('file:///workspace/scratch/9d31c69eef8e/halo_combats/prototype/halo_combats_prototype.html');
+  await page.waitForFunction(()=>window.HaloCombatsTest);
+  const checks=[];
+  async function check(name,fn){await fn();checks.push({name,status:'passed'});}
+  await check('Standalone loads without script errors',async()=>{assert.equal(await page.title(),'Halo Combats — Prototype mécanique');assert.deepEqual(errors,[]);});
+  await check('Keyboard movement changes world position',async()=>{const before=await page.evaluate(()=>HaloCombatsTest.snapshot().player.x);await page.keyboard.down('ArrowRight');await page.evaluate(()=>HaloCombatsTest.step(30));await page.keyboard.up('ArrowRight');const after=await page.evaluate(()=>HaloCombatsTest.snapshot().player.x);assert(after>before+100);});
+  await check('Light attack consumes shield on enemy',async()=>{await page.evaluate(()=>{HaloCombatsTest.reset('training');HaloCombatsTest.place(1460);HaloCombatsTest.face(1);HaloCombatsTest.action('light');HaloCombatsTest.step(25);});assert((await page.evaluate(()=>HaloCombatsTest.snapshot())).enemy.shield<200);});
+  await check('Guard reduces incoming frontal damage',async()=>{const s=await page.evaluate(()=>{HaloCombatsTest.reset('duel');HaloCombatsTest.hold('guard');HaloCombatsTest.step();HaloCombatsTest.damagePlayer(100);return HaloCombatsTest.snapshot();});assert.equal(s.player.shield,182);});
+  await check('Shield recharges after four seconds',async()=>{const s=await page.evaluate(()=>{HaloCombatsTest.reset('training');HaloCombatsTest.damagePlayer(100);HaloCombatsTest.step(350);return HaloCombatsTest.snapshot();});assert.equal(s.player.shield,200);});
+  await check('Pause freezes simulation and resumes',async()=>{await page.click('#pause');const before=await page.evaluate(()=>HaloCombatsTest.snapshot().tick);await page.evaluate(()=>HaloCombatsTest.step(30));assert.equal(await page.evaluate(()=>HaloCombatsTest.snapshot().tick),before);await page.click('#pause');await page.evaluate(()=>HaloCombatsTest.step());assert.equal(await page.evaluate(()=>HaloCombatsTest.snapshot().tick),before+1);});
+  await check('Grenade creates a timed projectile',async()=>{await page.evaluate(()=>{HaloCombatsTest.reset('training');HaloCombatsTest.action('grenade');HaloCombatsTest.step(20);});assert.equal((await page.evaluate(()=>HaloCombatsTest.snapshot())).shots,1);await page.evaluate(()=>HaloCombatsTest.step(100));assert.equal((await page.evaluate(()=>HaloCombatsTest.snapshot())).shots,0);});
+  await check('Melee destroys Scarab legs and opens boarding',async()=>{const s=await page.evaluate(()=>{HaloCombatsTest.reset('boss');for(const x of [1365,2095]){HaloCombatsTest.place(x);HaloCombatsTest.face(1);for(let n=0;n<4;n++){HaloCombatsTest.action('heavy');HaloCombatsTest.step(52);}}return HaloCombatsTest.snapshot();});assert.equal(s.boss.phase,2);assert(s.boss.legs.every(l=>l.hp===0));assert(!s.ended);});
+  await check('Boarding interaction moves player onto deck',async()=>{const s=await page.evaluate(()=>{HaloCombatsTest.place(1750);HaloCombatsTest.action('interact');HaloCombatsTest.step(2);return HaloCombatsTest.snapshot();});assert.equal(s.boss.phase,3);assert.equal(s.player.y,268);});
+  await check('Melee core victory works without shooting',async()=>{const s=await page.evaluate(()=>{HaloCombatsTest.place(1790,268);HaloCombatsTest.face(1);for(let n=0;n<6;n++){HaloCombatsTest.action('heavy');HaloCombatsTest.step(55);}return HaloCombatsTest.snapshot();});assert.equal(s.boss.core.hp,0);assert(s.ended);assert.equal(await page.locator('#banner-title').textContent(),'SCARAB NEUTRALISÉ');});
+  await check('Restart resets boss objective state',async()=>{await page.click('#restart');const s=await page.evaluate(()=>HaloCombatsTest.snapshot());assert.equal(s.boss.phase,1);assert.equal(s.boss.core.hp,450);assert(!s.ended);});
+  await page.evaluate(()=>{HaloCombatsTest.reset('boss');HaloCombatsTest.step(20);});
+  await page.screenshot({path:'/workspace/scratch/9d31c69eef8e/halo_combats/prototype/qa/desktop.png',fullPage:true});
+  await page.setViewportSize({width:390,height:844});
+  await page.evaluate(()=>{HaloCombatsTest.reset('training');HaloCombatsTest.step(1);});
+  await check('Mobile layout has no horizontal overflow',async()=>assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false));
+  await check('On-screen jump button dispatches jump',async()=>{await page.locator('[data-action="jump"]').click();await page.evaluate(()=>HaloCombatsTest.step(10));assert((await page.evaluate(()=>HaloCombatsTest.snapshot())).player.y<515);});
+  await page.screenshot({path:'/workspace/scratch/9d31c69eef8e/halo_combats/prototype/qa/mobile.png',fullPage:true});
+  assert.deepEqual(errors,[]);
+  fs.writeFileSync('/workspace/scratch/9d31c69eef8e/halo_combats/prototype/qa/results.json',JSON.stringify({browser:'Chromium headless',checks,scriptErrors:errors},null,2));
+  console.log(JSON.stringify({passed:checks.length,checks,scriptErrors:errors},null,2));
+  await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

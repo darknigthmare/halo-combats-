@@ -1,0 +1,972 @@
+{
+  "schema_version": "1.0",
+  "design_hz": 60,
+  "planned_count": 20,
+  "entities": [
+    {
+      "id": "boss_scarab_h3",
+      "name": "Scarab Deutoros",
+      "presentation": "Rencontre latérale originale Halo Combats avec Scarab Deutoros; identité visuelle liée exclusivement à Halo 3.",
+      "origin": "Halo 3",
+      "canon_status": "released_canon",
+      "mode": "siege_boarding",
+      "scale_category": "scene_structure",
+      "source_id": "W01",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-give-em-lore",
+      "primary_game_reference": "The Storm et The Covenant",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Approche sous les pattes",
+        "Abordage du pont",
+        "Noyau et extraction"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Appui de patte",
+          "windup_frames": 66,
+          "active_frames": 12,
+          "recovery_frames": 90
+        },
+        {
+          "attack": "Balayage du faisceau",
+          "windup_frames": 96,
+          "active_frames": 90,
+          "recovery_frames": 120
+        }
+      ],
+      "weakpoints": [
+        "Articulations exposées pendant les appuis",
+        "Noyau dorsal après accès au pont"
+      ],
+      "counterplay": "Esquiver les appuis, immobiliser une patte, monter par rampe physique puis frapper le noyau. Un combattant sans projectile dispose de prises et leviers accessibles.",
+      "fail_restart": {
+        "story": "Reprise au dernier checkpoint validé; après échec d’extraction, revenir devant le noyau encore intact avec les ressources prévues.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "candidate",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Après agenouillement et avant abordage",
+        "Devant le noyau intact après ouverture de son accès"
+      ],
+      "visual_assets": [
+        "scarab_h3_profile_v2"
+      ],
+      "fidelity_status": "not_certified",
+      "prototype_reference": "prototype/halo_combats_prototype.html",
+      "prototype_scope": "Mécanique partielle indépendante, visuels temporaires, fiche complète non intégrée."
+    },
+    {
+      "id": "boss_locust_hw",
+      "name": "Locust",
+      "presentation": "Rencontre latérale originale Halo Combats avec Locust; identité visuelle liée exclusivement à Halo Wars.",
+      "origin": "Halo Wars",
+      "canon_status": "released_canon",
+      "mode": "duel_mechanic",
+      "scale_category": "large_unit",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Halo Wars unité Locust; captures dédiées à réunir",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Bouclier",
+        "Projecteur",
+        "Repli en surcharge"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Rayon de siège",
+          "windup_frames": 72,
+          "active_frames": 100,
+          "recovery_frames": 90
+        }
+      ],
+      "weakpoints": [
+        "Projecteur après surcharge",
+        "Pied avant immobilisé"
+      ],
+      "counterplay": "Forcer le laser sur un déflecteur de chantier puis utiliser la rampe quand le nez s’abaisse.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "primary_game_reference_requires_direct_capture",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_wraith_infinite",
+      "name": "Wraith paria",
+      "presentation": "Rencontre latérale originale Halo Combats avec Wraith paria; identité visuelle liée exclusivement à Halo Infinite.",
+      "origin": "Halo Infinite",
+      "canon_status": "released_canon",
+      "mode": "vehicle_duel",
+      "scale_category": "large_vehicle",
+      "source_id": "W02",
+      "source_url": "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+      "primary_game_reference": "Campagne Halo Infinite véhicule Wraith",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Mortier",
+        "Charge et mitraillage",
+        "Abordage et sortie"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Mortier",
+          "windup_frames": 54,
+          "active_frames": 1,
+          "recovery_frames": 75
+        },
+        {
+          "attack": "Charge",
+          "windup_frames": 72,
+          "active_frames": 42,
+          "recovery_frames": 96
+        }
+      ],
+      "weakpoints": [
+        "Trappe d’abordage",
+        "Propulseurs pendant arrêt forcé"
+      ],
+      "counterplay": "Lire la parabole, traverser au creux du tir, détourner la charge vers les plots et aborder la trappe en mêlée.",
+      "fail_restart": {
+        "story": "Reprise avant la phase en cours depuis le dernier checkpoint; la phase de charge et son abordage se rejouent ensemble.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Avant la phase de charge"
+      ]
+    },
+    {
+      "id": "boss_banshee_infinite",
+      "name": "Banshee paria",
+      "presentation": "Rencontre latérale originale Halo Combats avec Banshee paria; identité visuelle liée exclusivement à Halo Infinite.",
+      "origin": "Halo Infinite",
+      "canon_status": "released_canon",
+      "mode": "interception",
+      "scale_category": "aircraft",
+      "source_id": "W02",
+      "source_url": "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+      "primary_game_reference": "Campagne Halo Infinite véhicule Banshee",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Passes croisées",
+        "Bombardement",
+        "Vol instable"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Passe plongeante",
+          "windup_frames": 75,
+          "active_frames": 42,
+          "recovery_frames": 90
+        }
+      ],
+      "weakpoints": [
+        "Propulseurs en stationnaire",
+        "Cockpit en fenêtre d’abordage"
+      ],
+      "counterplay": "Survivre aux passes puis déclencher un filet énergétique de décor pour créer une fenêtre au niveau du sol. Aucun tir du personnage requis.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_phantom_infinite",
+      "name": "Phantom paria",
+      "presentation": "Rencontre latérale originale Halo Combats avec Phantom paria; identité visuelle liée exclusivement à Halo Infinite.",
+      "origin": "Halo Infinite",
+      "canon_status": "released_canon",
+      "mode": "dropship_assault",
+      "scale_category": "aircraft_structure",
+      "source_id": "W02",
+      "source_url": "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+      "primary_game_reference": "Campagne Halo Infinite véhicule Phantom",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Débarquement",
+        "Canons",
+        "Extraction du pont"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Salve ventrale",
+          "windup_frames": 84,
+          "active_frames": 72,
+          "recovery_frames": 120
+        }
+      ],
+      "weakpoints": [
+        "Tourelles",
+        "Portes de soute pendant débarquement"
+      ],
+      "counterplay": "Détruire la garde au sol et activer une plateforme élévatrice rejoignant une porte; le boss est abordable sans arme à distance.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_phaeton_h5",
+      "name": "Phaeton",
+      "presentation": "Rencontre latérale originale Halo Combats avec Phaeton; identité visuelle liée exclusivement à Halo 5 Guardians.",
+      "origin": "Halo 5 Guardians",
+      "canon_status": "released_canon",
+      "mode": "teleport_interception",
+      "scale_category": "aircraft",
+      "source_id": "W05",
+      "source_url": "https://news.xbox.com/en-us/2016/03/20/first-look-at-warzone-firefight-in-halo-5-guardians/",
+      "primary_game_reference": "Reunion et Enemy Lines",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Translocations",
+        "Salves",
+        "Surcharge du noyau"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Translocation offensive",
+          "windup_frames": 60,
+          "active_frames": 18,
+          "recovery_frames": 96
+        }
+      ],
+      "weakpoints": [
+        "Évent central quand les panneaux s’ouvrent"
+      ],
+      "counterplay": "Observer le point d’arrivée annoncé; frapper les relais qui contraignent temporairement le vol près d’une passerelle.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_harvester_h4",
+      "name": "Harvester",
+      "presentation": "Rencontre latérale originale Halo Combats avec Harvester; identité visuelle liée exclusivement à Halo 4 Spartan Ops.",
+      "origin": "Halo 4 Spartan Ops",
+      "canon_status": "released_canon",
+      "mode": "sabotage_rescue",
+      "scale_category": "scene_structure",
+      "source_id": "W04",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+      "primary_game_reference": "Spartan Ops site Harvester",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Défenses du site",
+        "Infiltration",
+        "Arrêt du forage"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Impulsion du forage",
+          "windup_frames": 120,
+          "active_frames": 60,
+          "recovery_frames": 180
+        }
+      ],
+      "weakpoints": [
+        "Alimentation à désactiver",
+        "Accès intérieur et verrou de forage"
+      ],
+      "counterplay": "Libérer les accès, utiliser les ascenseurs et retirer les alimentations; la coque ne prend pas de dégâts globaux.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_lich_h4",
+      "name": "Lich",
+      "presentation": "Rencontre latérale originale Halo Combats avec Lich; identité visuelle liée exclusivement à Halo 4.",
+      "origin": "Halo 4",
+      "canon_status": "released_canon",
+      "mode": "boarding",
+      "scale_category": "aircraft_structure",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Halo 4 Reclaimer; référence visuelle dédiée avant production",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Approche",
+        "Abordage",
+        "Évacuation"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Tir de couverture",
+          "windup_frames": 90,
+          "active_frames": 60,
+          "recovery_frames": 120
+        }
+      ],
+      "weakpoints": [
+        "Générateur intérieur",
+        "Défenses du pont"
+      ],
+      "counterplay": "Monter à bord depuis une rampe de transport; saboter le générateur puis quitter la soute. Aucune nécessité de tirer depuis le sol.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "web_context_only_exact_identity_and_variant_require_game_capture",
+      "context_source_id": "W07",
+      "context_source_url": "https://www.halowaypoint.com/en-us/news/the-nightmare-has-awoken",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_kraken_h5",
+      "name": "Kraken",
+      "presentation": "Rencontre latérale originale Halo Combats avec Kraken; identité visuelle liée exclusivement à Halo 5 Guardians.",
+      "origin": "Halo 5 Guardians",
+      "canon_status": "released_canon",
+      "mode": "siege_boarding",
+      "scale_category": "scene_structure",
+      "source_id": "W03",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "primary_game_reference": "Enemy Lines",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Atteindre le pont",
+        "Descendre au générateur",
+        "Évacuer"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Balayage de pont",
+          "windup_frames": 108,
+          "active_frames": 90,
+          "recovery_frames": 120
+        },
+        {
+          "attack": "Effondrement balisé",
+          "windup_frames": 180,
+          "active_frames": 60,
+          "recovery_frames": 0
+        }
+      ],
+      "weakpoints": [
+        "Défenses sur les ponts",
+        "Générateur intérieur"
+      ],
+      "counterplay": "Passer de plateforme en plateforme sur le même plan latéral; ouvrir le générateur puis se retirer avant effondrement.",
+      "fail_restart": {
+        "story": "Reprise au dernier checkpoint validé; après échec d’extraction, revenir avant le sabotage final avec la réserve prédéfinie.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Après abordage",
+        "À l’accès au générateur encore intact"
+      ]
+    },
+    {
+      "id": "boss_warden_h5",
+      "name": "Warden Eternal",
+      "presentation": "Rencontre latérale originale Halo Combats avec Warden Eternal; identité visuelle liée exclusivement à Halo 5 Guardians.",
+      "origin": "Halo 5 Guardians",
+      "canon_status": "released_canon",
+      "mode": "duel_mechanic",
+      "scale_category": "giant_biped",
+      "source_id": "W05",
+      "source_url": "https://news.xbox.com/en-us/2016/03/20/first-look-at-warzone-firefight-in-halo-5-guardians/",
+      "primary_game_reference": "Reunion et The Breaking",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Épée",
+        "Portails",
+        "Convergence"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Épée verticale",
+          "windup_frames": 60,
+          "active_frames": 12,
+          "recovery_frames": 84
+        }
+      ],
+      "weakpoints": [
+        "Noyau dorsal quand la garde est brisée"
+      ],
+      "counterplay": "Provoquer un coup lourd, franchir l’adversaire par la route de sol, punir le dos; les relais limitent les duplications.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_hunters_ce",
+      "name": "Paire de Hunters du Cartographe",
+      "presentation": "Rencontre latérale originale Halo Combats avec Paire de Hunters du Cartographe; identité visuelle liée exclusivement à Halo Combat Evolved classique.",
+      "origin": "Halo Combat Evolved classique",
+      "canon_status": "released_canon",
+      "mode": "dual_boss",
+      "scale_category": "large_pair",
+      "source_id": "W03",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "primary_game_reference": "The Silent Cartographer paire Igido Nosa Hurru et Ogada Nosa Fasu",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Apprentissage du duo",
+        "Encerclement brisable",
+        "Dernier défenseur"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Coup de bouclier",
+          "windup_frames": 48,
+          "active_frames": 10,
+          "recovery_frames": 72
+        },
+        {
+          "attack": "Charge plasma",
+          "windup_frames": 72,
+          "active_frames": 6,
+          "recovery_frames": 96
+        }
+      ],
+      "weakpoints": [
+        "Dos découvert",
+        "Articulations pendant frappe engagée"
+      ],
+      "counterplay": "Attirer un Hunter derrière un pilier et passer dans son dos; les périodes de tir alternent sans verrouillage des deux issues.",
+      "fail_restart": {
+        "story": "Reprise de toute la rencontre avec les deux Hunters; aucun checkpoint ne permet de reprendre contre le seul survivant.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de la rencontre contre les deux Hunters"
+      ]
+    },
+    {
+      "id": "boss_goliath_hw2",
+      "name": "Goliath",
+      "presentation": "Rencontre latérale originale Halo Combats avec Goliath; identité visuelle liée exclusivement à Halo Wars 2 pack Colony.",
+      "origin": "Halo Wars 2 pack Colony",
+      "canon_status": "released_canon",
+      "mode": "grappler_duel",
+      "scale_category": "large_creature",
+      "source_id": "W06",
+      "source_url": "https://www.xbox.com/fr-fr/games/store/pack-de-chef-colony/bw74dckrsq4r",
+      "primary_game_reference": "Unité Goliath Phoenix Logs",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Poings",
+        "Charge",
+        "Fureur brève"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Double écrasement",
+          "windup_frames": 78,
+          "active_frames": 24,
+          "recovery_frames": 108
+        }
+      ],
+      "weakpoints": [
+        "Avant-bras au sol",
+        "Dos après charge manquée"
+      ],
+      "counterplay": "Faire frapper les masses sur les butées, escalader le poing brièvement bloqué et placer les projections contextuelles.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_abomination_hw2",
+      "name": "Abomination du Flood",
+      "presentation": "Rencontre latérale originale Halo Combats avec Abomination du Flood; identité visuelle liée exclusivement à Halo Wars 2 Awakening the Nightmare.",
+      "origin": "Halo Wars 2 Awakening the Nightmare",
+      "canon_status": "released_canon",
+      "mode": "horde_commander",
+      "scale_category": "giant_creature",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Phoenix Logs Abomination et campagne Awakening the Nightmare",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Colonie mobile",
+        "Infestation",
+        "Isolement du commandement"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Balayage de tentacule",
+          "windup_frames": 72,
+          "active_frames": 18,
+          "recovery_frames": 108
+        },
+        {
+          "attack": "Écrasement",
+          "windup_frames": 96,
+          "active_frames": 18,
+          "recovery_frames": 132
+        }
+      ],
+      "weakpoints": [
+        "Masse centrale exposée après slam",
+        "Appendice accroché dans une vanne de confinement"
+      ],
+      "counterplay": "Neutraliser les nids, piéger un appendice, punir la masse abaissée; les commandes sont disponibles à tout personnage.",
+      "fail_restart": {
+        "story": "Reprise au dernier checkpoint; restaurer ensemble portes, spores, nids et limites de renforts.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "web_context_only_exact_identity_and_variant_require_game_capture",
+      "context_source_id": "W11",
+      "context_source_url": "https://www.xbox.com/en-US/games/store/halo-wars-2-awakening-the-nightmare/9NBLGGH4TQDD",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Après fermeture initiale des accès"
+      ]
+    },
+    {
+      "id": "boss_proto_gravemind_hw2",
+      "name": "Proto Gravemind",
+      "presentation": "Rencontre latérale originale Halo Combats avec Proto Gravemind; identité visuelle liée exclusivement à Halo Wars 2 Awakening the Nightmare.",
+      "origin": "Halo Wars 2 Awakening the Nightmare",
+      "canon_status": "released_canon",
+      "mode": "siege_containment",
+      "scale_category": "scene_structure",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Manifestation",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Ouvrir le réseau",
+        "Rompre trois verrous",
+        "Achever le confinement"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Poussée de biomasse",
+          "windup_frames": 120,
+          "active_frames": 42,
+          "recovery_frames": 180
+        }
+      ],
+      "weakpoints": [
+        "Nœuds de biomasse révélés par dispositifs",
+        "Organes cibles après trois verrous"
+      ],
+      "counterplay": "Faire fonctionner les défenses de l’Arche et les batteries; chaque interaction est physique et utilisable par un pur personnage de mêlée.",
+      "fail_restart": {
+        "story": "Reprise après le dernier verrou validé; restaurer également cellules, relais, objets disponibles et état des vagues.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "web_context_only_exact_identity_and_variant_require_game_capture",
+      "context_source_id": "W11",
+      "context_source_url": "https://www.xbox.com/en-US/games/store/halo-wars-2-awakening-the-nightmare/9NBLGGH4TQDD",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Après premier verrou",
+        "Après deuxième verrou",
+        "Après troisième verrou et avant protection finale"
+      ]
+    },
+    {
+      "id": "boss_juggernaut_ftr",
+      "name": "Juggernaut du Flood",
+      "presentation": "Rencontre latérale originale Halo Combats avec Juggernaut du Flood; identité visuelle liée exclusivement à Halo Fireteam Raven.",
+      "origin": "Halo Fireteam Raven",
+      "canon_status": "released_canon",
+      "mode": "rushdown_monster",
+      "scale_category": "large_creature",
+      "source_id": "W08",
+      "source_url": "https://www.halowaypoint.com/news/thats-so-raven",
+      "primary_game_reference": "Fireteam Raven; version Halo 2 supprimée conservée seulement en archive",
+      "reference_validation": "web_identity_verified_game_visuals_pending",
+      "phases": [
+        "Tendons",
+        "Charge",
+        "Fuite de la zone contaminée"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Empalement du sol",
+          "windup_frames": 72,
+          "active_frames": 20,
+          "recovery_frames": 96
+        }
+      ],
+      "weakpoints": [
+        "Tendons d’appendice après empalement",
+        "Masse frontale abaissée"
+      ],
+      "counterplay": "Attirer les pointes dans les renforts du sol puis punir l’immobilisation; ne pas confondre avec le mode multijoueur Juggernaut.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_enforcer_h2",
+      "name": "Sentinelle Enforcer",
+      "presentation": "Rencontre latérale originale Halo Combats avec Sentinelle Enforcer; identité visuelle liée exclusivement à Halo 2 classique.",
+      "origin": "Halo 2 classique",
+      "canon_status": "released_canon",
+      "mode": "shield_puzzle",
+      "scale_category": "large_flying_machine",
+      "source_id": "W09",
+      "source_url": "https://www.halowaypoint.com/news/digsite-discoveries",
+      "primary_game_reference": "Sacred Icon et Quarantine Zone",
+      "reference_validation": "game_reference_visual_capture_pending",
+      "phases": [
+        "Boucliers",
+        "Préhension",
+        "Faisceau de secours"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Saisie",
+          "windup_frames": 84,
+          "active_frames": 36,
+          "recovery_frames": 120
+        }
+      ],
+      "weakpoints": [
+        "Arrière du corps",
+        "Bras de préhension abaissés"
+      ],
+      "counterplay": "Utiliser le pont central et les caches; provoquer la saisie d’un container, frapper le bras descendu, puis passer sous les boucliers.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_retriever_hw2",
+      "name": "Sentinelle Retriever",
+      "presentation": "Rencontre latérale originale Halo Combats avec Sentinelle Retriever; identité visuelle liée exclusivement à Halo Wars 2.",
+      "origin": "Halo Wars 2",
+      "canon_status": "released_canon",
+      "mode": "machine_siege",
+      "scale_category": "scene_structure",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Campagne Halo Wars 2 et Operation SPEARBREAKER",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Défense du site",
+        "Relais",
+        "Désengagement du géant"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Balayage de collecte",
+          "windup_frames": 144,
+          "active_frames": 90,
+          "recovery_frames": 180
+        }
+      ],
+      "weakpoints": [
+        "Relais de commande locaux",
+        "Systèmes exposés pendant analyse"
+      ],
+      "counterplay": "Combattre les Aggressors, activer les relais, retourner les dispositifs du site contre le géant; pas de réduction à la taille d’un personnage.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "primary_game_reference_requires_direct_capture",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "boss_goblin_h5",
+      "name": "Goblin piloté par un Grunt",
+      "presentation": "Rencontre latérale originale Halo Combats avec Goblin piloté par un Grunt; identité visuelle liée exclusivement à Halo 5 Guardians Warzone Firefight.",
+      "origin": "Halo 5 Guardians Warzone Firefight",
+      "canon_status": "released_canon",
+      "mode": "mech_duel",
+      "scale_category": "mech",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Goblin Warzone Firefight; fiche visuelle modèle de base à compléter",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Tirs",
+        "Poing",
+        "Surchauffe"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Coup de poing",
+          "windup_frames": 66,
+          "active_frames": 18,
+          "recovery_frames": 90
+        }
+      ],
+      "weakpoints": [
+        "Articulation du bras",
+        "Cockpit après chute temporaire"
+      ],
+      "counterplay": "Provoquer les coups lourds sur des dalles basculantes et gravir le bras abaissé pour frapper le cockpit.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "web_context_only_exact_identity_and_variant_require_game_capture",
+      "context_source_id": "W05",
+      "context_source_url": "https://news.xbox.com/en-us/2016/03/20/first-look-at-warzone-firefight-in-halo-5-guardians/",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "event_guardian_h5",
+      "name": "Guardian de Halo 5",
+      "presentation": "Rencontre latérale originale Halo Combats avec Guardian de Halo 5; identité visuelle liée exclusivement à Halo 5 Guardians.",
+      "origin": "Halo 5 Guardians",
+      "canon_status": "released_canon",
+      "mode": "escape_objective",
+      "scale_category": "monumental_background",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Evacuation et Battle of Sunaion",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Alerte",
+        "Traversée",
+        "Extraction"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Impulsion annoncée",
+          "windup_frames": 180,
+          "active_frames": 60,
+          "recovery_frames": 240
+        }
+      ],
+      "weakpoints": [
+        "Relais et portes de la route d’évacuation; aucune barre de vie du Guardian"
+      ],
+      "counterplay": "Se mettre à couvert pendant les impulsions, porter les cellules et ouvrir la sortie; on échappe au Guardian sans prétendre le vaincre en duel.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "web_context_only_exact_identity_and_variant_require_game_capture",
+      "context_source_id": "W12",
+      "context_source_url": "https://www.halowaypoint.com/news/anniversary-angle-memorable-campaign-moments",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    },
+    {
+      "id": "event_gravemind_h3",
+      "name": "Présence du Gravemind",
+      "presentation": "Rencontre latérale originale Halo Combats avec Présence du Gravemind; identité visuelle liée exclusivement à Halo 3.",
+      "origin": "Halo 3",
+      "canon_status": "released_canon",
+      "mode": "escape_containment",
+      "scale_category": "monumental_background",
+      "source_id": null,
+      "source_url": null,
+      "primary_game_reference": "Cortana et contexte de High Charity infectée",
+      "reference_validation": "primary_game_reference_not_inspected_this_session",
+      "phases": [
+        "Extraction d’information",
+        "Couloir parasité",
+        "Fuite"
+      ],
+      "telegraphs": [
+        {
+          "attack": "Fermeture organique",
+          "windup_frames": 120,
+          "active_frames": 60,
+          "recovery_frames": 180
+        }
+      ],
+      "weakpoints": [
+        "Membranes et portes de confinement locales; aucune barre de vie globale"
+      ],
+      "counterplay": "Détruire les obstacles qui menacent l’évacuation; la victoire concerne l’objectif, jamais la mort du Gravemind sous des coups de poing.",
+      "fail_restart": {
+        "story": "Reprise au début de la phase en cours depuis le dernier checkpoint validé; état du boss, objectifs, consommables et aléatoire restaurés.",
+        "boss_rush": "Retour au début de la rencontre; aucune ressource conservée après échec.",
+        "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
+      },
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented",
+      "design_values_are_canon": false,
+      "game_capture_status": "not_inspected_in_this_session",
+      "source_scope": "primary_game_reference_requires_direct_capture",
+      "story_checkpoints": [
+        "Début de rencontre",
+        "Début de phase après validation de la précédente"
+      ]
+    }
+  ]
+}

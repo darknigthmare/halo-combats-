@@ -1,0 +1,2028 @@
+{
+  "date": "2026-11-19",
+  "generator": "image_gen built-in",
+  "failed_requests": [
+    {
+      "entity_id": "chief_infinite",
+      "request": "MA40 low ready",
+      "prompt": "Use case: stylized-concept. Asset type: individual full-body fighting game sprite for Halo Combats. Generate exactly ONE Master Chief John-117, in the precise canonical campaign appearance from Halo Infinite: olive green MJOLNIR Mark VI GEN3 armor, angular helmet with broad golden visor, dark black articulated undersuit, exact asymmetric chest 117 stencil placement, game-accurate chest plates, pauldrons, knee plates, gloves and boots. No mixing with Halo 4/5 GEN2 armor. Carry the correct Halo Infinite MA40 assault rifle with both hands at low ready, finger clear of trigger. Strict side-on combat stance FACING RIGHT with slight three-quarter torso only as necessary to show armor, feet firmly planted, whole body from helmet to boots and entire weapon visible, generous empty margins. AAA high-detail 2D UHD painted fighting sprite, crisp readable silhouette, authentic military proportions, realistic material wear, neutral even lighting with soft cyan rim, no extreme perspective, not toy/chibi. GENUINELY TRANSPARENT BACKGROUND with clean alpha; no scenery, no floor, no contact shadow outside silhouette, no text labels, no panels, no sprite sheet, no duplicated character, no watermark. Fidelity target is the official Halo Infinite Master Chief reference in Halo Waypoint Master Class. Output one isolated sprite only.",
+      "status": "generation_rejected",
+      "reason": "Automatic image generation moderation rejection; no image delivered."
+    },
+    {
+      "entity_id": "chief_infinite",
+      "request": "Neutral unarmed reference",
+      "prompt": "Create a single full-body neutral character reference illustration of Master Chief John-117 as seen in Halo Infinite, standing calmly at rest with empty hands. No weapons, no action, no violence, no injury. Accurate olive-green MJOLNIR Mark VI GEN3 armor, golden visor, black flexible undersuit, canonical proportions and helmet, correct chest markings and armor details. Clean right-facing side view suitable as a character-model reference, with a very slight three-quarter torso angle. All helmet, fingers, boots and armor fully visible with generous margin. Detailed realistic videogame character art, crisp silhouette and even neutral lighting. True TRANSPARENT background with no environmental glow or floor, no labels, no writing except small correct armor identification, no grid, no duplicate character.",
+      "status": "generation_rejected",
+      "reason": "Automatic image generation moderation rejection; no image delivered."
+    },
+    {
+      "entity_id": "rtas_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID cd94998f-d9db-430a-95ae-0ba89eb826ae.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 0,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID aa4c2d7e-883a-451b-83f9-2c0f285b8fb5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 1,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "noble_six",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a4fbae5b-b19a-4ed0-8352-6a4cb91645df.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 3,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a6123e19-e4b8-4b46-8268-654c5e44fdea.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 4,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 52186353-9303-9b4d-a729-1f3db5c8939e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 5,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "kat_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c10e645d-9ed5-4c27-9803-dce04767c86e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 6,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "chief_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 051cfbe3-1df0-4529-b2eb-1825753617c6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 7,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 97e4bea6-0e7e-42fb-936f-7209fab4700a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 8,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "jun_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f4e04962-96ae-43fa-b535-10f3b751cf88.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 9,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "carter_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 07f25de4-b9de-4ca1-9456-dd41bd9e57bb.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 10,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "buck_odst",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2626eb97-b72b-4ea0-a92e-28d44f5f3c3f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 11,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "rookie_odst",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a00407f1-089d-4738-a343-70b897ee56fe.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 12,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "alice_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a12bcece-5fd4-48aa-bf53-be9a440c4cf2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 13,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7fa81475-43d2-4838-ab92-c962b1043042.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 14,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 513f73eb-e61c-43e4-b0f9-e8d78a4da3ed.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 17,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 56faa2ff-c5e8-427d-adbb-e0e298955471.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 18,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "chak_lok",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 48875f24-599d-4587-94c9-7491a16b2ed9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 19,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "zealot_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 168eee0f-9d1c-4c23-a7a2-134f81a3d0b2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 20,
+      "attempt_kind": "original"
+    },
+    {
+      "entity_id": "chief_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0ec9b637-6f69-4919-9099-accc383d9970.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 23,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "kat_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6bda1670-d0c9-40eb-8ea5-623085cdc683.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 24,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "noble_six",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 19da4d7a-ce1b-49b2-b39c-ad1ba48f10b4.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 26,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 81b55f4e-aea6-429e-999d-76ac80821ff8.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 27,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5136f264-18f4-4036-938f-c2d8014db844.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 28,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9786f115-fc63-4a94-9f47-ff9f0c64e2e1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 29,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jun_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID cec35f81-ded2-4254-87a2-ce330cf2b3c5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 30,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "carter_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ed49bb87-a7e3-44a2-b535-ec424f5b52d2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 31,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "rookie_odst",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 79f93a1d-ad50-49d0-99f9-758a4c9d9f06.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 33,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "alice_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7ffb4ba8-9d71-40f9-9ba0-219e7fd4e01a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 34,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 60a15b94-38b9-43c2-8c62-3af95557484d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 35,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c74ac457-ca42-47fc-ad04-67df765cb6e0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 36,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9f31d412-59e2-4616-8f06-9c0adec9f6f2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 37,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID fa1c13e9-299b-4405-a132-bc7581f68ed2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 38,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "chak_lok",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 78b7792f-711b-9bf9-ab73-62dd63828198.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "generation_wave": 2,
+      "journal_record": 39,
+      "attempt_kind": "neutral_unarmed"
+    }
+  ],
+  "generated_unique_entities": 12,
+  "certified_assets": 0,
+  "animated_assets": 0,
+  "independent_parallax_layers": 0,
+  "active_candidates": [
+    {
+      "id": "arbiter_h3_neutral_v2",
+      "entity_id": "arbiter_h3",
+      "type": "fighter_pose",
+      "prompt": "Create ONE isolated full-body character illustration of Thel 'Vadam, the Arbiter exactly as he appears in Halo 3. His canonical silver-gray engraved Arbiter armor and pointed tall helmet, reptilian gray-brown Sangheili skin, four mandibles with Halo 3 jaw guards, long digitigrade legs and split hoof-like feet, wide armored shoulders and exact game proportions. Whole body shown in a quiet neutral resting pose, side view facing right with a slight torso three-quarter turn. Arms relaxed, empty hands, NO weapons, no combat action, no injury. Authentic detailed Halo 3 appearance, no gold armor from Halo 5, no human anatomy. Clean high-detail realistic 2D game illustration with restrained painterly material detail and readable crisp silhouette, neutral light. One character only, centered with generous transparent margin around every extremity. Genuinely TRANSPARENT background. No scenery, no floor, no shadow rectangle, no text, no sheet, no collage, no duplicate body.",
+      "edit_prompt": "Precisely edit this image as a clean transparent character cutout. Preserve the Arbiter character, anatomy, pose, engraving, metal colors, scale and every armor detail unchanged. Remove all the soft gray halo, all ambient background pixels and all haze outside the actual silhouette. Make every pixel outside the character completely transparent alpha zero, including the spaces between arms and torso and between legs. Keep the character itself opaque and crisply anti-aliased at the outline. Add transparent breathing room around the top of the helmet and both boots so no part touches the image edges. Do not create a backdrop or shadow, do not add a weapon or text. One full-body isolated neutral figure only.",
+      "output": "arbiter_halo3_neutral_right_v2.png",
+      "qa": "Pose neutre candidate. Fond alpha présent mais halo périphérique à contrôler. Orientation trois quarts trop marquée pour frame latérale finale. Armure et mandibules à comparer au modèle Halo 3.",
+      "required_followup": [
+        "Détourage précis",
+        "Profil latéral de combat",
+        "Arme dédiée",
+        "Références comparatives",
+        "Animation"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
+      "sha256": "23ac61d89be17a710936a693879ec7ddd7ce700faf4c9e9ee9c371c4e9b18486",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "scarab_h3_profile_v2",
+      "entity_id": "boss_scarab_h3",
+      "type": "boss_profile",
+      "prompt": "One isolated technical game-art illustration of the Covenant SCARAB walker in its exact HALO 3 Deutoros-pattern appearance. A giant four-legged purple and violet alien walking vehicle, low wide armored beetle-like oval upper body, four very long articulated angular legs, characteristic forward green focus-emitter assembly in the downward pointing head, small elevated aft dorsal structure, correct curved layered Covenant hull plates and pale cyan emissive details. Empty unoccupied display of the vehicle only, all systems idle, no beams being fired, no battle, no destruction, no people. Strict SIDE PROFILE facing LEFT, all four legs must remain distinguishable through slight near/far offset, show entire vehicle and every foot inside generous margins. Authentic Halo 3 geometry and purple Covenant materials, NOT a tank, not red Banished, not insect biology, not Halo 2 Scarab. Highly detailed 2D UHD painted production asset, orthographic side view, neutral even light, crisp silhouette. Genuinely TRANSPARENT BACKGROUND. Exactly one vehicle, no scene, no labels, no watermark, no multiple angles or panels.",
+      "edit_prompt": "Correct only the leg anatomy of this isolated HALO 3 Covenant Scarab reference candidate. The existing image has FIVE visible feet, which is wrong. A Halo 3 Scarab has EXACTLY FOUR legs and FOUR feet in total. REMOVE the extra thin rear-side leg and foot underneath the right half of the body, immediately behind the large central foreground leg; leave transparent empty space there. Keep the near-side front leg at the left, the far-side front leg under the left half, the large near-side rear leg in the center-right, and the final far-side rear leg at the far right. The four remaining legs each attach exactly once to the chassis, have one coherent articulated chain and one foot. Preserve every other pixel as much as possible: purple chassis, idle emitter at left, rear dorsal structure, material wear, view, proportions. Full vehicle inside frame. GENUINELY TRANSPARENT background, no added backdrop, no shadows, no text, no other object.",
+      "output": "scarab_halo3_left_v2.png",
+      "qa": "Quatre pattes après correction. Alpha présent. Profil légèrement trois quarts, géométrie et proportions des modules à comparer au modèle Halo 3. Non segmenté, non animé.",
+      "required_followup": [
+        "Profil strict et proportions",
+        "Découpe des modules par génération dédiée",
+        "Animations des pattes",
+        "Cœur et panneaux séparés",
+        "Hitboxes"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "path": "assets/candidates/scarab_halo3_left_v2.png",
+      "sha256": "eab741ab08dea09dd82e9663709ae0fa142da38c25fa9d95bdc9dedac30e599b",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "valhalla_h3_master_v2",
+      "entity_id": "st_valhalla_h3",
+      "type": "stage_master",
+      "prompt": "A high quality 2D side-scrolling game background inspired faithfully by the iconic VALHALLA multiplayer valley from HALO 3, shown as an empty calm environment. Wide 16:9 composition. A lush temperate alpine valley, steep gray granite cliffs at left and right, green pine trees in the midground, distant waterfall at one side, a large characteristic silver gray Forerunner beam-emitter tower with angular triangular geometry at the far end of the valley, fine blue accents, an immense Halo ring arch visible far away across a pale blue sky with clouds. Faithful Halo 3 material and architecture language, no Banished structures or Halo Infinite hexagonal terrain. Camera perfectly level and sideways for a 2D fighting arena, horizon at 45 percent of frame. Lower third is a broad uninterrupted flat green rock-and-grass playing lane from left edge to right edge. No people, no characters, no creatures, no weapons, no vehicles, no battle. Crisp detailed painted AAA videogame background with natural daylight, restrained atmospheric depth. One complete background artwork, no frame, no writing, no watermark, no panels. This is the master background visual to later split into parallax layers; do not pretend the layers are separate.",
+      "edit_prompt": "Edit this generated Halo 3 VALHALLA environment for canon fidelity. Preserve the exact framing, painterly detail, daylight, flat empty foreground playing lane, cliffs, trees and waterfall. Make TWO corrections: 1. COMPLETELY REMOVE the large Halo ring from the sky, leaving ordinary blue sky and clouds, since this Valhalla reference is on the Ark. 2. Replace the oversized tall generic central spire with a much smaller accurate Halo 3 Valhalla beacon base: low broad angular metallic Forerunner bunker with two long narrow vertical prongs mounted above a gently rising angular roof, dark gray metal, subtle blue beacon light, positioned at the far side of the valley. The structure should stand about the height of the nearby trees, not like a skyscraper. Keep the environment empty, peaceful and readable side-on. No people, no vehicles, no weapons, no labels, no panels. This is one full opaque stage background concept.",
+      "output": "valhalla_halo3_master_v2.png",
+      "qa": "Anneau incorrect retiré, taille du beacon réduite. Concept maître latéral. Géométrie du beacon et topographie encore à comparer aux captures. Zéro calque indépendant livré.",
+      "required_followup": [
+        "Topographie exacte",
+        "Architecture exacte du beacon",
+        "6 calques indépendants",
+        "Raccord de sol",
+        "Transitions"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "path": "assets/candidates/valhalla_halo3_master_v2.png",
+      "sha256": "a429c7661d32d116b0558d7af0a9174a1f6da72b858c532692bb351ef275f97d",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_range": null
+    },
+    {
+      "id": "mombasa_odst_master_v2",
+      "entity_id": "st_mombasa_odst",
+      "type": "stage_master",
+      "prompt": "Generate one detailed environment background for a 2D side-view game: the empty nighttime streets of NEW MOMBASA in HALO 3 ODST. Faithful visual language of the 2009 game: monumental angular near-future concrete office buildings, broad low curbs, rectangular windows, shuttered shop fronts, clean utilitarian UNSC human architecture, a distant glimpse of the immense space elevator silhouette through mist, restrained electric blue, dark teal and warm amber street lamps, damp asphalt reflecting scattered lights. Quiet melancholy atmosphere. No characters, no enemies, no vehicles, no weapons, no corpses or violence. Perfectly level side-on camera; lower third is a long horizontal uninterrupted sidewalk roadway for a fighting game stage, without steep perspective or obstacles covering feet. Background streets recede through atmospheric haze; dramatic but readable silhouettes. Highly detailed realistic 2D painted AAA videogame stage concept, landscape 16:9. No Halo ring in sky, no alien purple architecture, no generic crowded cyberpunk neon, no readable invented advertising, no logo, no text labels or watermark. This is one opaque full background master concept, not a sheet.",
+      "edit_prompt": "Correct the distant skyline in this New Mombasa HALO 3 ODST nighttime stage. Preserve the entire street-level foreground, wet road, flat fighting lane, windows, lamps, buildings, palms, framing and color palette. Remove the intact giant glowing space elevator tower in the distant upper-center background. Replace its silhouette with a low broken industrial base and a bank of distant dark gray mist, with an ordinary cloudy night sky above. This scene is New Mombasa after the elevator has fallen, so there must be NO intact space elevator and NO long cable ascending into space. Keep the scene quiet and empty, no active destruction, no people, no vehicles, no violence. Avoid an alien Forerunner spire; all remaining buildings are human concrete urban architecture. One opaque wide background master concept, no text or panels.",
+      "output": "mombasa_odst_night_master_v2.png",
+      "qa": "Ascenseur intact incorrect retiré pour le contexte de nuit retenu. Concept maître latéral. Identification des façades du secteur et comparaison ODST encore requises. Zéro calque indépendant livré.",
+      "required_followup": [
+        "Secteur précis",
+        "6 calques indépendants",
+        "Signalétique référencée",
+        "Pluie et vapeur séparées",
+        "Transitions"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "path": "assets/candidates/mombasa_odst_night_master_v2.png",
+      "sha256": "d9efeaa25e0a50f56a74405c01a69067c8814e0609a86c986dd647244d4657da",
+      "width": 1671,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_range": null
+    },
+    {
+      "id": "atriox_hw2_neutral_right_v01",
+      "entity_id": "atriox_hw2",
+      "type": "fighter_pose",
+      "prompt": "Create one full-body UHD fighting-game cutout of Atriox exactly as he appears in Halo Wars 2. Show his massive Jiralhanae proportions, broad heavy torso, powerful bowed legs, dark gray face, black braided hair and braided beard, pale facial warpaint and severe intelligent expression. Match his asymmetrical salvaged black, gunmetal and off-white armor with layered angular plates, battered white shoulder and chest elements and dark utility clothing. Preserve the distinctive enlarged powered gauntlet on his anatomical RIGHT hand; do not reverse this asymmetry. Use the Halo Wars 2 design, not Halo Infinite's later armor or a generic Banished chieftain. He faces screen RIGHT in a grounded lateral fighting stance, torso turned only enough to read his armor and both arms. Place his right gauntlet forward in a guarded position and his left hand around Chainbreaker's long grip. The complete gravity mace is visible in a low diagonal guard: one mechanical head with three distinct prongs and localized red plasma energy, never a conventional double-headed hammer. Maintain plausible weight and readable negative space between weapon, arms and body. Render high-resolution worn materials and sharp silhouette edges. Fit the entire character, boots, braids and weapon within generous margins. True transparent alpha background. No floor, contact shadow, smoke, sparks, scenery, text, border, watermark, additional figure or sprite sheet.",
+      "output": "atriox_hw2_neutral_right_v01.png",
+      "qa": "Personnage, deux pieds et tête complète de Chainbreaker visibles. Trois pointes distinctes et énergie rouge visibles ; armure claire asymétrique, tresses et gantelet volumineux cohérents avec le brief, sans certification comparative au modèle officiel. Pose nettement de trois quarts : la poitrine reste très exposée face à la caméra. Le gantelet anatomiquement droit paraît à gauche de l’image ; il saisit la hampe au lieu d’être avancé seul en garde. L’arme est presque horizontale. Cadrage serré : la boîte alpha > 16 ne laisse que 6 px en haut, 6 px en bas et 17 px à droite. Aucune silhouette ne touche cependant directement le bord à ce seuil. Un halo gris/noir est visible dans l’aperçu RGB. Les points de fond échantillonnés dans ce halo ont pourtant alpha 0 ; il serait inexact de qualifier tout ce halo de fond opaque. Le fichier possède 855654 pixels alpha 0 et 41981 pixels alpha 1 à 16. La propreté du contour en composition réelle reste à contrôler.",
+      "required_followup": [
+        "Profil de combat latéral avec garde du gantelet conforme au brief",
+        "Marges plus larges autour de la tête, des bottes et de Chainbreaker",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Comparaison aux captures Halo Wars 2 pour plaques, visage et géométrie de Chainbreaker",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "original",
+      "pose_scope": "initial_character_pose",
+      "path": "assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
+      "sha256": "b28e7bf2c1f56a81469b976917ce35349c1953500acee29e495a0bb3d9d7539e",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a56988ad-8b20-4878-9b7b-416330be1792.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 2,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 855654,
+        "semitransparent_pixels": 717210,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 641360,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1528,
+          1024
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 31,
+          "right": 0,
+          "top": 52,
+          "bottom": 449
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 675229,
+        "foreground_bbox_above_threshold": [
+          73,
+          6,
+          1519,
+          1018
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 73,
+          "top": 6,
+          "right": 17,
+          "bottom": 6
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, right, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "atriox_hw2",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a56988ad-8b20-4878-9b7b-416330be1792.png",
+        "sha256": "b28e7bf2c1f56a81469b976917ce35349c1953500acee29e495a0bb3d9d7539e",
+        "reviewed_utc": "2026-11-19T16:33:27+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "notes": [
+          "Personnage, deux pieds et tête complète de Chainbreaker visibles. Trois pointes distinctes et énergie rouge visibles ; armure claire asymétrique, tresses et gantelet volumineux cohérents avec le brief, sans certification comparative au modèle officiel.",
+          "Pose nettement de trois quarts : la poitrine reste très exposée face à la caméra. Le gantelet anatomiquement droit paraît à gauche de l’image ; il saisit la hampe au lieu d’être avancé seul en garde. L’arme est presque horizontale.",
+          "Cadrage serré : la boîte alpha > 16 ne laisse que 6 px en haut, 6 px en bas et 17 px à droite. Aucune silhouette ne touche cependant directement le bord à ce seuil.",
+          "Un halo gris/noir est visible dans l’aperçu RGB. Les points de fond échantillonnés dans ce halo ont pourtant alpha 0 ; il serait inexact de qualifier tout ce halo de fond opaque. Le fichier possède 855654 pixels alpha 0 et 41981 pixels alpha 1 à 16. La propreté du contour en composition réelle reste à contrôler."
+        ],
+        "required_followup": [
+          "Profil de combat latéral avec garde du gantelet conforme au brief",
+          "Marges plus larges autour de la tête, des bottes et de Chainbreaker",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+          "Comparaison aux captures Halo Wars 2 pour plaques, visage et géométrie de Chainbreaker"
+        ],
+        "technical_qa": {
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 855654,
+            "semitransparent_pixels": 717210,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 641360,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1528,
+              1024
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 31,
+              "right": 0,
+              "top": 52,
+              "bottom": 449
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 675229,
+            "foreground_bbox_above_threshold": [
+              73,
+              6,
+              1519,
+              1018
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 73,
+              "top": 6,
+              "right": 17,
+              "bottom": 6
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, right, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "background_pixel_samples": {
+          "200,40": [
+            42,
+            40,
+            38,
+            0
+          ],
+          "150,120": [
+            38,
+            36,
+            34,
+            0
+          ],
+          "1400,630": [
+            41,
+            35,
+            31,
+            0
+          ],
+          "1060,960": [
+            46,
+            43,
+            43,
+            0
+          ],
+          "1520,510": [
+            104,
+            92,
+            88,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-encyclopedic-enlightenment",
+        "https://news.xbox.com/en-us/2016/10/19/halo-wars-2-exploring-campaign-new-way-play/",
+        "https://www.manticgames.com/news/halo-flashpoint-tactics-warmaster-atriox/"
+      ],
+      "critical_checks": [
+        "Powered gauntlet belongs to anatomical RIGHT hand; independently confirmed by the licensed Mantic Halo source.",
+        "Use Halo Wars 2 face, white armor and braids, not the Infinite redesign.",
+        "Chainbreaker is one three-pronged gravity mace with red energized elements, not three separate hammers or an axe.",
+        "Official Waypoint verifies the gravity mace identity; exact prong spacing and salvaged plates require model comparison.",
+        "Mantic reference corroborates anatomy/weapon only, not the chosen Halo Wars 2 rendering."
+      ]
+    },
+    {
+      "id": "jerome_hw2_neutral_right_v01",
+      "entity_id": "jerome_hw2",
+      "type": "fighter_pose",
+      "prompt": "Create ONE full-body Jerome-092 sprite specifically as the standard Halo Wars 2 campaign Spartan assigned to Captain Cutter, in premium UHD painted 2D fighting-game art. Reproduce his original olive-green Mark IV MJOLNIR armor, broad chest, heavy shoulder plates, angular Mark IV helmet, opaque gold visor and black undersuit. Keep the Halo Wars 2 markings anatomically correct: the red stripe on his RIGHT breastplate descends diagonally toward the abdominal plating, while the small 092 identification and red diamond sit on his LEFT breastplate; retain the Corinthian-helmet emblem on his RIGHT shoulder. Match the sequel's stripe direction rather than the first Halo Wars version. Hold one recognizable M6 Spartan Laser in both hands at low ready, its complete bulky rectangular weapon housing and muzzle pointing screen right. This is the campaign laser-equipped incarnation; omit the Commander Jerome Hydra, added command backpack and Mantis. Pose him with a composed commanding idle stance, knees slightly bent and feet clearly separated. Near-orthographic lateral fighting-game camera facing right, slight torso opening and no extreme foreshortening. Include entire body, boots and full weapon within transparent margins. Crisp painted geometry, restrained wear, soft upper-left studio lighting. True transparent alpha; no floor, shadow, stage, captions, UI, extra character, pose sheet, firing beam or glowing aura.",
+      "output": "jerome_hw2_neutral_right_v01.png",
+      "qa": "Armure vert olive, visière dorée, bande rouge sur le plastron, inscription 092 et losange rouge visibles. Une seule arme lourde tenue à deux mains ; corps, pieds et extrémité du canon dans le cadre. Aucun membre supplémentaire évident dans cette vue. Vue de trois quarts prononcée, avec un plastron presque frontal : elle reste à remplacer ou valider pour le profil latéral du jeu de combat. La pose statique ne représente pas un moveset animé. Casque très proche du bord supérieur : marge de 7 px au seuil alpha > 16. Les pieds laissent 14 px en bas. Aucun pixel de contenu alpha > 16 ne touche directement un bord ; une coupe effective du casque ne peut donc pas être affirmée sur ce seul contrôle. PNG RGBA 1199 × 1312, alpha 0 à 255, avec 1023210 pixels entièrement transparents. Les éventuelles franges visibles dans l’aperçu doivent être vérifiées en composition ; le contour n’est pas certifié propre. La géométrie exacte du casque Mark IV, des plaques, des marquages et du Spartan Laser demande une comparaison aux références Halo Wars 2.",
+      "required_followup": [
+        "Profil de combat plus latéral",
+        "Marges supplémentaires au-dessus du casque et sous les bottes",
+        "Comparaison des marquages 092, de l’armure et du Spartan Laser aux références Halo Wars 2",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "original",
+      "pose_scope": "initial_character_pose",
+      "path": "assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+      "sha256": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ead86e53-d82c-4c0e-867d-a1cf0eb1d6cc.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 15,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1023210,
+        "semitransparent_pixels": 549544,
+        "opaque_pixels": 334,
+        "near_opaque_pixels": 503737,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1185,
+          1312
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 38,
+          "right": 0,
+          "top": 105,
+          "bottom": 11
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 527477,
+        "foreground_bbox_above_threshold": [
+          149,
+          7,
+          1097,
+          1298
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 149,
+          "top": 7,
+          "right": 102,
+          "bottom": 14
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "jerome_hw2",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ead86e53-d82c-4c0e-867d-a1cf0eb1d6cc.png",
+        "sha256": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d",
+        "reviewed_utc": "2026-11-19T16:44:40+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "notes": [
+          "Armure vert olive, visière dorée, bande rouge sur le plastron, inscription 092 et losange rouge visibles. Une seule arme lourde tenue à deux mains ; corps, pieds et extrémité du canon dans le cadre. Aucun membre supplémentaire évident dans cette vue.",
+          "Vue de trois quarts prononcée, avec un plastron presque frontal : elle reste à remplacer ou valider pour le profil latéral du jeu de combat. La pose statique ne représente pas un moveset animé.",
+          "Casque très proche du bord supérieur : marge de 7 px au seuil alpha > 16. Les pieds laissent 14 px en bas. Aucun pixel de contenu alpha > 16 ne touche directement un bord ; une coupe effective du casque ne peut donc pas être affirmée sur ce seul contrôle.",
+          "PNG RGBA 1199 × 1312, alpha 0 à 255, avec 1023210 pixels entièrement transparents. Les éventuelles franges visibles dans l’aperçu doivent être vérifiées en composition ; le contour n’est pas certifié propre.",
+          "La géométrie exacte du casque Mark IV, des plaques, des marquages et du Spartan Laser demande une comparaison aux références Halo Wars 2."
+        ],
+        "required_followup": [
+          "Profil de combat plus latéral",
+          "Marges supplémentaires au-dessus du casque et sous les bottes",
+          "Comparaison des marquages 092, de l’armure et du Spartan Laser aux références Halo Wars 2",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres"
+        ],
+        "technical_qa": {
+          "width": 1199,
+          "height": 1312,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1023210,
+            "semitransparent_pixels": 549544,
+            "opaque_pixels": 334,
+            "near_opaque_pixels": 503737,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1185,
+              1312
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 38,
+              "right": 0,
+              "top": 105,
+              "bottom": 11
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 527477,
+            "foreground_bbox_above_threshold": [
+              149,
+              7,
+              1097,
+              1298
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 149,
+              "top": 7,
+              "right": 102,
+              "bottom": 14
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+        "https://news.xbox.com/en-us/2017/06/28/hw2-icons-of-war-dlc/",
+        "https://www.halopedia.org/Jerome-092",
+        "https://www.halopedia.org/Jerome-092/Gameplay"
+      ],
+      "critical_checks": [
+        "M6 Spartan Laser, pas Hydra MLRS ni fusil d'assaut.",
+        "Bande rouge sur plastron anatomiquement droit selon Wars 2 : son tracé diffère de Wars 1.",
+        "092 et losange rouge sur plastron gauche, pas 117 de Chief.",
+        "Pas sac spécifique Commander Jerome, Mantis Theseus ou armure hybride du leader DLC.",
+        "Emblème corinthien épaule droite ; aucun miroir automatique des insignes."
+      ]
+    },
+    {
+      "id": "decimus_hw2_neutral_right_v01",
+      "entity_id": "decimus_hw2",
+      "type": "fighter_pose",
+      "prompt": "Create one entire-body UHD fighting-game cutout of Decimus in his massive personal exoframe from the finished Halo Wars 2 gameplay model. His huge Jiralhanae body sits inside a towering, overbuilt mechanized suit with bulky angular red armor panels, dark gunmetal structure, enormous shoulder assemblies, heavy articulated gauntlets, mechanical hip and leg supports, broad armored feet, visible joints and industrial fastening details. Keep his exposed Brute face, powerful brow and white hair from the final model. Preserve the enormous breadth and mechanical volume; he must not become an ordinary Brute wearing a tight suit, a human robot or a generic Warlord unit. Use the gameplay equipment consistently rather than importing an arm-mounted gun from a menu illustration. He faces screen RIGHT in a heavy lateral guarded stance, slightly hunched with widely planted feet. Present his distinctive modified gravitational melee weapon in a low forward guard, showing its complete shaft and oversized mechanical head without covering the face. Match the Halo Wars 2 model's weapon geometry and red energy accents. Clear negative space between limbs supports animation readability. Use highly detailed scratched paint, dark metal, realistic skin and a sharp clean silhouette. Entire frame, feet and weapon fit within generous transparent margins. True alpha background, no ground, shadow, scenery, text, frame, watermark, multiple characters or sprite sheet.",
+      "output": "decimus_hw2_neutral_right_v01.png",
+      "qa": "Exosquelette très volumineux rouge et métal sombre, visage dégagé et cheveux blancs visibles. Deux mains mécaniques tiennent une seule arme gravitationnelle complète à énergie rouge ; les pieds et le sommet de l’exosquelette restent dans le cadre. Aucun bras-canon distinct n’est ajouté de façon évidente. Vue nettement de trois quarts, poitrine très visible, avec arme tenue presque horizontalement. Les détails de visage, d’armature, de vérins, de plaques et de tête d’arme demandent une comparaison au modèle de gameplay final Halo Wars 2. Marges serrées au seuil alpha > 16 : 5 px en haut, 9 px en bas et 14 px à droite de l’arme. Aucun contact direct alpha >16, mais de faibles valeurs alpha 1 à 16 atteignent les bords gauche, haut et bas. PNG RGBA 1536 × 1024, alpha 0 à 254, avec 745563 pixels entièrement transparents. Des points gris/rouges du halo visible dans l’aperçu ont alpha 0 ; ce halo RGB ne prouve pas un fond opaque. Les 35114 pixels alpha 1 à 16 et les contours sont à contrôler en composition. Le rendu reste une pose candidate : les dimensions du personnage, les raccords mécaniques et l’identité précise de l’arme ne sont pas certifiés 1:1.",
+      "required_followup": [
+        "Profil latéral de combat",
+        "Marges plus larges au-dessus de l’exosquelette, sous les pieds et à droite de l’arme",
+        "Comparaison au modèle de gameplay final de Decimus : exosquelette, visage, cheveux et arme",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "original",
+      "pose_scope": "initial_character_pose",
+      "path": "assets/characters_wave2/decimus_hw2_neutral_right_v01.png",
+      "sha256": "f8a57f210673fe93a86de7c22e306b56f27d8435f629f20f258899fbed0b9ca3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-51021fb3-0a3e-49d0-b8fc-0946bfff08a5.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 16,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 745563,
+        "semitransparent_pixels": 827301,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 754479,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1535,
+          1024
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 8,
+          "right": 0,
+          "top": 67,
+          "bottom": 181
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 792187,
+        "foreground_bbox_above_threshold": [
+          37,
+          5,
+          1522,
+          1015
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 37,
+          "top": 5,
+          "right": 14,
+          "bottom": 9
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, right, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "decimus_hw2",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-51021fb3-0a3e-49d0-b8fc-0946bfff08a5.png",
+        "sha256": "f8a57f210673fe93a86de7c22e306b56f27d8435f629f20f258899fbed0b9ca3",
+        "reviewed_utc": "2026-11-19T16:53:08+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "notes": [
+          "Exosquelette très volumineux rouge et métal sombre, visage dégagé et cheveux blancs visibles. Deux mains mécaniques tiennent une seule arme gravitationnelle complète à énergie rouge ; les pieds et le sommet de l’exosquelette restent dans le cadre. Aucun bras-canon distinct n’est ajouté de façon évidente.",
+          "Vue nettement de trois quarts, poitrine très visible, avec arme tenue presque horizontalement. Les détails de visage, d’armature, de vérins, de plaques et de tête d’arme demandent une comparaison au modèle de gameplay final Halo Wars 2.",
+          "Marges serrées au seuil alpha > 16 : 5 px en haut, 9 px en bas et 14 px à droite de l’arme. Aucun contact direct alpha >16, mais de faibles valeurs alpha 1 à 16 atteignent les bords gauche, haut et bas.",
+          "PNG RGBA 1536 × 1024, alpha 0 à 254, avec 745563 pixels entièrement transparents. Des points gris/rouges du halo visible dans l’aperçu ont alpha 0 ; ce halo RGB ne prouve pas un fond opaque. Les 35114 pixels alpha 1 à 16 et les contours sont à contrôler en composition.",
+          "Le rendu reste une pose candidate : les dimensions du personnage, les raccords mécaniques et l’identité précise de l’arme ne sont pas certifiés 1:1."
+        ],
+        "required_followup": [
+          "Profil latéral de combat",
+          "Marges plus larges au-dessus de l’exosquelette, sous les pieds et à droite de l’arme",
+          "Comparaison au modèle de gameplay final de Decimus : exosquelette, visage, cheveux et arme",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres"
+        ],
+        "technical_qa": {
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 745563,
+            "semitransparent_pixels": 827301,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 754479,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1535,
+              1024
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 8,
+              "right": 0,
+              "top": 67,
+              "bottom": 181
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 792187,
+            "foreground_bbox_above_threshold": [
+              37,
+              5,
+              1522,
+              1015
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 37,
+              "top": 5,
+              "right": 14,
+              "bottom": 9
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, right, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "background_pixel_samples": {
+          "70,150": [
+            26,
+            22,
+            23,
+            0
+          ],
+          "1150,250": [
+            12,
+            7,
+            7,
+            0
+          ],
+          "500,10": [
+            105,
+            82,
+            83,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://news.xbox.com/en-us/2017/02/02/halo-wars-2-releases-original-art-collection-featuring-gabz-craig-drake-kevin-tong/",
+        "https://www.halopedia.org/Decimus",
+        "https://www.halopedia.org/Decimus%27_exoskeleton",
+        "https://www.halopedia.org/File:HW2-Decimusmodels.jpg"
+      ],
+      "critical_checks": [
+        "Final gameplay model has white hair; early development model had black hair.",
+        "Do not confuse the regular Warlord unit with Decimus.",
+        "His menu depiction has a left-arm gun but the gameplay model lacks guns; choose the gameplay exoframe consistently.",
+        "His personal modified gravity weapon is described as a hammer in character lore; model gallery is classified among gravity maces. Match geometry rather than generic weapon wording.",
+        "Xbox article is official identity/art context, not an orthographic geometry proof. In-game model remains required for final mesh verification."
+      ]
+    },
+    {
+      "id": "cethegus_h3_neutral_right_v01",
+      "entity_id": "cethegus_h3",
+      "type": "fighter_pose",
+      "prompt": "Create one full-body UHD character cutout of Cethegus, the Brute Chieftain who challenges the Master Chief to a duel near the end of The Ark in Halo 3. Base him on that exact campaign model: a massive Jiralhanae with the dark metallic Chieftain power armor, strong red accent panels, imposing layered shoulders, heavy chest and limb plating, and the characteristic tall crested Chieftain helmet framing his Brute face. Retain Halo 3's body proportions, broad forearms and thick armored boots. Do not create a generic fantasy warlord, gold War Chieftain, Escharum, Tartarus or Banished redesign. Give him the correct Halo 3 gravity hammer with its long shaft, blocky asymmetric mechanical head and recognizable rear blade. Show the complete weapon held with two hands in a low diagonal ready guard. Face screen RIGHT in a stable lateral fighting stance, knees bent, mass centered and torso turned only slightly so the helmet, chest and grips remain readable. The body and hammer should have clear separate silhouettes with no hand or shaft intersections. Preserve accurate game geometry while refining surface resolution, worn metal, skin and material lighting. Keep the entire helmet crest, feet and hammer inside generous margins. True transparent alpha background; no floor, shadow, arena, minions, shield aura, text, border, watermark, extra pose or sprite sheet.",
+      "output": "cethegus_h3_neutral_right_v01.png",
+      "qa": "Chef Brute en armure sombre et rouge, haute crête de casque et marteau gravitationnel complet visibles. Deux mains saisissent une seule hampe ; les deux pieds et la crête sont dans le cadre. Aucun membre supplémentaire évident dans cette vue. La pose montre une large face avant du plastron et reste nettement de trois quarts. La tête est orientée vers la droite, mais le corps ne constitue pas encore une pose latérale stricte. Marges de 5 px en haut de la crête et de 7 px sous les pieds, au seuil alpha > 16 ; marge de 45 px à droite du marteau. Aucun contact direct avec le bord à ce seuil, mais cadrage trop serré verticalement. PNG RGBA 1536 × 1024, alpha 0 à 254, avec 959422 pixels entièrement transparents. Plusieurs points du halo gris/noir visible dans l’aperçu ont alpha 0. Les 25251 pixels alpha 1 à 16 et le contour demandent un contrôle en composition réelle. Les détails de casque, de plaques rouges, de visage et de marteau doivent être comparés aux captures du duel de The Ark. La ressemblance à un chef Brute ne certifie pas à elle seule la fidélité exacte à Cethegus.",
+      "required_followup": [
+        "Profil de combat plus latéral",
+        "Marges supplémentaires au-dessus de la crête et sous les pieds",
+        "Comparaison à Cethegus dans le duel de The Ark : casque, plaques, visage et marteau",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "original",
+      "pose_scope": "initial_character_pose",
+      "path": "assets/characters_wave2/cethegus_h3_neutral_right_v01.png",
+      "sha256": "e79b4180b2f212d8d6beeae0a80efc8adebc9824d3b230285053d349d2664619",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-269e2198-8d23-46bf-9557-fb0925e702ad.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 21,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 959422,
+        "semitransparent_pixels": 613442,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 562791,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1506,
+          1024
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 11,
+          "right": 0,
+          "top": 49,
+          "bottom": 156
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 588191,
+        "foreground_bbox_above_threshold": [
+          141,
+          5,
+          1491,
+          1017
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 141,
+          "top": 5,
+          "right": 45,
+          "bottom": 7
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "cethegus_h3",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-269e2198-8d23-46bf-9557-fb0925e702ad.png",
+        "sha256": "e79b4180b2f212d8d6beeae0a80efc8adebc9824d3b230285053d349d2664619",
+        "reviewed_utc": "2026-11-19T16:49:46+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "notes": [
+          "Chef Brute en armure sombre et rouge, haute crête de casque et marteau gravitationnel complet visibles. Deux mains saisissent une seule hampe ; les deux pieds et la crête sont dans le cadre. Aucun membre supplémentaire évident dans cette vue.",
+          "La pose montre une large face avant du plastron et reste nettement de trois quarts. La tête est orientée vers la droite, mais le corps ne constitue pas encore une pose latérale stricte.",
+          "Marges de 5 px en haut de la crête et de 7 px sous les pieds, au seuil alpha > 16 ; marge de 45 px à droite du marteau. Aucun contact direct avec le bord à ce seuil, mais cadrage trop serré verticalement.",
+          "PNG RGBA 1536 × 1024, alpha 0 à 254, avec 959422 pixels entièrement transparents. Plusieurs points du halo gris/noir visible dans l’aperçu ont alpha 0. Les 25251 pixels alpha 1 à 16 et le contour demandent un contrôle en composition réelle.",
+          "Les détails de casque, de plaques rouges, de visage et de marteau doivent être comparés aux captures du duel de The Ark. La ressemblance à un chef Brute ne certifie pas à elle seule la fidélité exacte à Cethegus."
+        ],
+        "required_followup": [
+          "Profil de combat plus latéral",
+          "Marges supplémentaires au-dessus de la crête et sous les pieds",
+          "Comparaison à Cethegus dans le duel de The Ark : casque, plaques, visage et marteau",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres"
+        ],
+        "technical_qa": {
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 959422,
+            "semitransparent_pixels": 613442,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 562791,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1506,
+              1024
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 11,
+              "right": 0,
+              "top": 49,
+              "bottom": 156
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 588191,
+            "foreground_bbox_above_threshold": [
+              141,
+              5,
+              1491,
+              1017
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 141,
+              "top": 5,
+              "right": 45,
+              "bottom": 7
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "background_pixel_samples": {
+          "250,150": [
+            9,
+            6,
+            6,
+            0
+          ],
+          "100,990": [
+            34,
+            31,
+            30,
+            0
+          ],
+          "800,35": [
+            48,
+            39,
+            37,
+            0
+          ],
+          "1530,500": [
+            79,
+            76,
+            78,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-brute-force",
+        "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+        "https://content.halocdn.com/media/Default/community/blogs/canon-fodder/cfcethegus-855c7e5514434544866345e9aa6f402d.jpg"
+      ],
+      "critical_checks": [
+        "Official Brute Force names Cethegus and identifies the The Ark duel Chieftain; it includes his gameplay image.",
+        "Use Halo 3 hammer Chieftain armor, not gold War Chieftain armor or a Banished design.",
+        "His weapon is the standard Halo 3 gravity hammer geometry, not Fist of Rukt, Chainbreaker or Diminisher.",
+        "Keep face visible beneath the correct tall helmet crest; no invented heroic facial redesign.",
+        "Exact plate colors and crest shape must match the supplied official gameplay image."
+      ]
+    },
+    {
+      "id": "hunter_h3_neutral_right_v01",
+      "entity_id": "hunter_h3",
+      "type": "fighter_pose",
+      "prompt": "Create one entire-body UHD fighting-game cutout of a Mgalekgolo Hunter using precisely its Halo 3 model design. Preserve the enormous hunched silhouette, cobalt-blue curved armor plates, heavy shoulders, small protected head, broad feet and long upward-curving dorsal spines. Exposed orange Lekgolo worms form dense living bundles at the neck, joints and vulnerable back openings; this is a colony inside armor, not a humanoid in a suit. The heavy physical nanolaminate shield belongs on the anatomical LEFT arm. The integrated assault cannon belongs on the anatomical RIGHT arm. Never reverse them. Use the Halo 3 cannon configuration, with its characteristic muzzle projections and restrained green energy glow, not the Halo CE drum design or an Infinite Banished cannon. Face screen RIGHT in a heavy lateral battle stance. Hold the left shield forward but slightly low, allowing the right cannon to aim past it without intersecting the shield; both arm silhouettes must remain readable. Keep the complete dorsal spines, cannon, shield and feet in the canvas with generous margins. Show realistic worn blue metal, orange worm texture and dense mechanical detail without reducing the creature's colossal proportions. Neutral pose, no firing beam or detached projectiles. True transparent alpha background; no floor, contact shadow, scenery, dust, text, border, watermark, bond brother, duplicate pose or sprite sheet.",
+      "output": "hunter_h3_neutral_right_v01.png",
+      "qa": "Armure bleue, colonie de vers orange, pointes dorsales courbes, canon à lueur verte et bouclier physique visibles. Les deux pieds, les pointes et le bouclier sont dans le cadre. Le canon au bras anatomiquement droit et le bouclier au gauche paraissent respectés dans cette vue de trois quarts. La silhouette reste très frontale et de trois quarts, plutôt que latérale. Les grandes zones de vers exposées aux épaules, au cou, au bras du bouclier et aux jambes demandent une comparaison à la géométrie Halo 3 ; leur conformité exacte ne peut pas être affirmée. Marges serrées : 4 px au-dessus des pointes, 12 px sous les pieds et 27 px à gauche, au seuil alpha > 16. Aucune partie ne touche directement le bord à ce seuil. PNG RGBA 1536 × 1024, alpha 0 à 254, avec 833560 pixels entièrement transparents. Le halo gris/bleu visible dans l’aperçu inclut des zones échantillonnées alpha 0 : il ne prouve pas un fond opaque. Les 36085 pixels alpha 1 à 16 et le contour doivent être vérifiés en composition réelle. Formes du canon, du bouclier, des plaques et des pointes dorsales à comparer au modèle Halo 3 avant toute certification.",
+      "required_followup": [
+        "Vue de combat davantage latérale",
+        "Marges plus larges pour les pointes dorsales et les pieds",
+        "Comparaison de la couverture d’armure et des vers exposés au modèle Halo 3",
+        "Comparaison exacte du canon et du bouclier Halo 3",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "original",
+      "pose_scope": "initial_character_pose",
+      "path": "assets/characters_wave2/hunter_h3_neutral_right_v01.png",
+      "sha256": "ffac6d5d637decaefee23d4c5c546188254c233c394a2eabcd79fe4174c4d6da",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ae422bd8-0b79-4d47-adf0-816e4eee6507.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 22,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 833560,
+        "semitransparent_pixels": 739304,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 673480,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1512,
+          1024
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 52,
+          "right": 0,
+          "top": 69,
+          "bottom": 126
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 703219,
+        "foreground_bbox_above_threshold": [
+          27,
+          4,
+          1444,
+          1012
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 27,
+          "top": 4,
+          "right": 92,
+          "bottom": 12
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : left, top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "hunter_h3",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ae422bd8-0b79-4d47-adf0-816e4eee6507.png",
+        "sha256": "ffac6d5d637decaefee23d4c5c546188254c233c394a2eabcd79fe4174c4d6da",
+        "reviewed_utc": "2026-11-19T16:47:25+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "notes": [
+          "Armure bleue, colonie de vers orange, pointes dorsales courbes, canon à lueur verte et bouclier physique visibles. Les deux pieds, les pointes et le bouclier sont dans le cadre. Le canon au bras anatomiquement droit et le bouclier au gauche paraissent respectés dans cette vue de trois quarts.",
+          "La silhouette reste très frontale et de trois quarts, plutôt que latérale. Les grandes zones de vers exposées aux épaules, au cou, au bras du bouclier et aux jambes demandent une comparaison à la géométrie Halo 3 ; leur conformité exacte ne peut pas être affirmée.",
+          "Marges serrées : 4 px au-dessus des pointes, 12 px sous les pieds et 27 px à gauche, au seuil alpha > 16. Aucune partie ne touche directement le bord à ce seuil.",
+          "PNG RGBA 1536 × 1024, alpha 0 à 254, avec 833560 pixels entièrement transparents. Le halo gris/bleu visible dans l’aperçu inclut des zones échantillonnées alpha 0 : il ne prouve pas un fond opaque. Les 36085 pixels alpha 1 à 16 et le contour doivent être vérifiés en composition réelle.",
+          "Formes du canon, du bouclier, des plaques et des pointes dorsales à comparer au modèle Halo 3 avant toute certification."
+        ],
+        "required_followup": [
+          "Vue de combat davantage latérale",
+          "Marges plus larges pour les pointes dorsales et les pieds",
+          "Comparaison de la couverture d’armure et des vers exposés au modèle Halo 3",
+          "Comparaison exacte du canon et du bouclier Halo 3",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres"
+        ],
+        "technical_qa": {
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 833560,
+            "semitransparent_pixels": 739304,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 673480,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1512,
+              1024
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 52,
+              "right": 0,
+              "top": 69,
+              "bottom": 126
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 703219,
+            "foreground_bbox_above_threshold": [
+              27,
+              4,
+              1444,
+              1012
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 27,
+              "top": 4,
+              "right": 92,
+              "bottom": 12
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : left, top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "background_pixel_samples": {
+          "250,100": [
+            19,
+            20,
+            26,
+            0
+          ],
+          "1490,800": [
+            35,
+            33,
+            37,
+            0
+          ],
+          "10,950": [
+            70,
+            71,
+            84,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/the-new-halo-encyclopedia-is-out-today",
+        "https://www.halopedia.org/Mgalekgolo",
+        "https://www.halopedia.org/Assault_cannon",
+        "https://www.halopedia.org/File:Halo_3_Hunter_Assault_Cannon.jpg"
+      ],
+      "critical_checks": [
+        "Physical shield on anatomical LEFT arm; integrated assault cannon on anatomical RIGHT arm. No mirroring.",
+        "Blue Halo 3 armor and orange Lekgolo colony; not a red Infinite Banished Hunter, gold ODST Hunter or ordinary humanoid.",
+        "Use Halo 3's assault cannon with characteristic projecting parts and green energy elements, not the CE drum launcher.",
+        "Long dorsal spikes, hunch and broad feet fit entirely within frame.",
+        "Official encyclopedia announcement does not itself establish weapon sides. Retrieved weapon description corroborates right cannon; final Halo 3 model comparison remains required."
+      ]
+    },
+    {
+      "id": "rtas_h3_neutral_right_v01",
+      "entity_id": "rtas_h3",
+      "type": "fighter_pose",
+      "prompt": "A single full-body reference illustration of Rtas 'Vadum, Half-Jaw, specifically his Halo 3 white Assault combat harness. Faithfully reproduce the familiar white helmet and armor plates over a dark undersuit, tall lean Sangheili proportions, digitigrade legs and broad split feet. Preserve his established healed Half-Jaw facial silhouette, with the left pair of mandibles absent and right pair intact, without depicting any wound. Calm neutral standing pose facing screen right, mostly lateral, both hands empty and relaxed. No weapon and no action. Detailed realistic game-character rendering under even studio lighting. Entire head, hands, legs and feet comfortably inside broad transparent margins. One figure on a genuine transparent background, no floor, cast shadow, scenery, text, frame or duplicate pose.",
+      "output": "rtas_h3_neutral_right_v01.png",
+      "qa": "Rtas est présenté debout, calme, les deux mains vides et relâchées, avec armure blanche, sous-couche sombre et jambes digitigrades. Les mains, les pieds et le casque sont dans le cadre. Cette variante est une référence neutre sans arme, pas une garde de combat ni une animation. La direction vers la droite et l’orientation plus latérale sont lisibles, avec une rotation encore visible du buste. Le côté et la perspective du visage ne permettent pas de confirmer clairement l’absence des deux mandibules gauches ; ce trait distinctif de Half-Jaw reste à vérifier sur une vue adaptée. Marge haute de 9 px au seuil alpha > 16 : casque trop proche du cadre. Marges gauche/droite 279/349 px et marge basse 31 px. Aucun contact alpha >16 ; 148 pixels de faible alpha atteignent le bord supérieur. PNG RGBA 1145 × 1374, alpha 0 à 255, avec 1166249 pixels entièrement transparents. L’aperçu présente des résidus blancs/gris au-dessus du casque et sur certains contours ; les points échantillonnés ont alpha 0 à 4. Ils ne constituent pas un fond blanc opaque, mais le détourage de production reste à nettoyer/valider. Le modèle d’armure Assault Halo 3, le casque et le visage doivent être comparés aux références de Rtas ; aucune fidélité 1:1 n’est certifiée.",
+      "required_followup": [
+        "Comparaison du visage et de l’absence des mandibules gauches sur une vue lisible",
+        "Marge supérieure plus large autour du casque",
+        "Contrôle des résidus de faible alpha au-dessus du casque et au contour",
+        "Comparaison de l’armure Assault à Rtas Halo 3",
+        "Déclinaison ultérieure en garde de combat et animations",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave2/rtas_h3_neutral_right_v01.png",
+      "sha256": "f9de8f58848ba89360165ee23edb8150c9a8b366298c2958ace661247783888a",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f4bf264-38c4-47f1-8d80-fb706e13ec2b.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 25,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1145,
+      "height": 1374,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1166249,
+        "semitransparent_pixels": 406668,
+        "opaque_pixels": 313,
+        "near_opaque_pixels": 348426,
+        "alpha_nonzero_bbox": [
+          21,
+          0,
+          1141,
+          1374
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 0,
+          "right": 0,
+          "top": 148,
+          "bottom": 1
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 375833,
+        "foreground_bbox_above_threshold": [
+          279,
+          9,
+          796,
+          1343
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 279,
+          "top": 9,
+          "right": 349,
+          "bottom": 31
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "rtas_h3",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f4bf264-38c4-47f1-8d80-fb706e13ec2b.png",
+        "sha256": "f9de8f58848ba89360165ee23edb8150c9a8b366298c2958ace661247783888a",
+        "reviewed_utc": "2026-11-19T16:55:57+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "notes": [
+          "Rtas est présenté debout, calme, les deux mains vides et relâchées, avec armure blanche, sous-couche sombre et jambes digitigrades. Les mains, les pieds et le casque sont dans le cadre. Cette variante est une référence neutre sans arme, pas une garde de combat ni une animation.",
+          "La direction vers la droite et l’orientation plus latérale sont lisibles, avec une rotation encore visible du buste. Le côté et la perspective du visage ne permettent pas de confirmer clairement l’absence des deux mandibules gauches ; ce trait distinctif de Half-Jaw reste à vérifier sur une vue adaptée.",
+          "Marge haute de 9 px au seuil alpha > 16 : casque trop proche du cadre. Marges gauche/droite 279/349 px et marge basse 31 px. Aucun contact alpha >16 ; 148 pixels de faible alpha atteignent le bord supérieur.",
+          "PNG RGBA 1145 × 1374, alpha 0 à 255, avec 1166249 pixels entièrement transparents. L’aperçu présente des résidus blancs/gris au-dessus du casque et sur certains contours ; les points échantillonnés ont alpha 0 à 4. Ils ne constituent pas un fond blanc opaque, mais le détourage de production reste à nettoyer/valider.",
+          "Le modèle d’armure Assault Halo 3, le casque et le visage doivent être comparés aux références de Rtas ; aucune fidélité 1:1 n’est certifiée."
+        ],
+        "required_followup": [
+          "Comparaison du visage et de l’absence des mandibules gauches sur une vue lisible",
+          "Marge supérieure plus large autour du casque",
+          "Contrôle des résidus de faible alpha au-dessus du casque et au contour",
+          "Comparaison de l’armure Assault à Rtas Halo 3",
+          "Déclinaison ultérieure en garde de combat et animations"
+        ],
+        "technical_qa": {
+          "width": 1145,
+          "height": 1374,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1166249,
+            "semitransparent_pixels": 406668,
+            "opaque_pixels": 313,
+            "near_opaque_pixels": 348426,
+            "alpha_nonzero_bbox": [
+              21,
+              0,
+              1141,
+              1374
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 0,
+              "right": 0,
+              "top": 148,
+              "bottom": 1
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 375833,
+            "foreground_bbox_above_threshold": [
+              279,
+              9,
+              796,
+              1343
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 279,
+              "top": 9,
+              "right": 349,
+              "bottom": 31
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "background_pixel_samples": {
+          "450,0": [
+            127,
+            127,
+            127,
+            2
+          ],
+          "500,0": [
+            127,
+            127,
+            127,
+            2
+          ],
+          "640,30": [
+            191,
+            191,
+            191,
+            4
+          ],
+          "700,100": [
+            255,
+            255,
+            255,
+            1
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/customization-overview-great-journey",
+        "https://www.halopedia.org/Rtas_%27Vadum"
+      ],
+      "critical_checks": [
+        "Both missing mandibles are on his anatomical LEFT, not his right; never mirror to fix orientation.",
+        "The official Great Journey article includes Halo 2 Anniversary Rtas and a Spartan-inspired kit; neither is the Halo 3 model reference.",
+        "Use Halo 3 white Assault shoulders and combat helmet, not Arbiter engraved armor.",
+        "Left-side mandibular detail is corroborated by Halopedia; official article only verifies identity and Half-Jaw nickname.",
+        "Confirm final silhouette and shoulder geometry against Halo 3 gameplay before certifying 1:1."
+      ]
+    },
+    {
+      "id": "buck_odst_neutral_right_v01",
+      "entity_id": "buck_odst",
+      "type": "fighter_pose",
+      "prompt": "Create one full-body neutral character reference illustration of Edward Buck specifically in the original 2009 Halo 3 ODST armor. Preserve normal human proportions, charcoal and slate-gray ballistic plates over dark fabric, closed ODST helmet with cool blue-silver visor, pouches, knee protection and combat boots. The command network module sits on his anatomical RIGHT helmet side; chest equipment remains stowed. Match Buck's actual ODST configuration, not Halo 5 Spartan armor. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "output": "buck_odst_neutral_right_v01.png",
+      "qa": "Un ODST au gabarit humain, casque fermé à visière bleu-argent, armure gris anthracite et poches textiles, debout avec les deux mains vides. Tête, mains et bottes complètes dans le cadre. La pose calme sans arme sert de référence de personnage, pas de garde de combat. La vue est principalement latérale vers la droite avec une légère rotation du buste. Le module radio sur le côté anatomiquement droit du casque paraît respecté. Le couteau de torse mentionné parmi les verrous de Buck n’est pas clairement identifiable sur ce plastron : l’équipement distinctif complet reste à vérifier. Marges verticales modestes de 30 px en haut et de 27 px en bas au seuil alpha >16 ; marges latérales larges de 291 et 320 px. Aucun contact direct alpha >16 avec le cadre ; seuls 7 pixels de faible alpha atteignent le bord gauche. PNG RGBA 1024 × 1536, alpha 0 à 254, avec 1162970 pixels entièrement transparents. Le halo gris de l’aperçu contient des points alpha 0 ; il ne prouve pas un fond opaque. Les 15512 pixels alpha 1 à 16 et les contours restent à vérifier en composition. Les formes exactes du casque, du CNM, du plastron et des petits marquages doivent être comparées au Buck de Halo 3 ODST 2009 pour le distinguer d’un ODST générique.",
+      "required_followup": [
+        "Comparaison aux références de Buck ODST 2009 : casque, CNM, plastron et accessoires",
+        "Vérification de l’équipement de torse distinctif",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Déclinaison ultérieure en garde de combat et animations",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave2/buck_odst_neutral_right_v01.png",
+      "sha256": "72a05937f61306306e063487b3cff33b789bfd993ff05113d3b47b5c26e45155",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ae070c47-15d6-4ddf-b43d-7d3686a298e0.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 32,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1162970,
+        "semitransparent_pixels": 409894,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 380323,
+        "alpha_nonzero_bbox": [
+          0,
+          14,
+          1010,
+          1518
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 7,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 394382,
+        "foreground_bbox_above_threshold": [
+          291,
+          30,
+          704,
+          1509
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 291,
+          "top": 30,
+          "right": 320,
+          "bottom": 27
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "buck_odst",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ae070c47-15d6-4ddf-b43d-7d3686a298e0.png",
+        "sha256": "72a05937f61306306e063487b3cff33b789bfd993ff05113d3b47b5c26e45155",
+        "reviewed_utc": "2026-11-19T17:02:11+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "notes": [
+          "Un ODST au gabarit humain, casque fermé à visière bleu-argent, armure gris anthracite et poches textiles, debout avec les deux mains vides. Tête, mains et bottes complètes dans le cadre. La pose calme sans arme sert de référence de personnage, pas de garde de combat.",
+          "La vue est principalement latérale vers la droite avec une légère rotation du buste. Le module radio sur le côté anatomiquement droit du casque paraît respecté. Le couteau de torse mentionné parmi les verrous de Buck n’est pas clairement identifiable sur ce plastron : l’équipement distinctif complet reste à vérifier.",
+          "Marges verticales modestes de 30 px en haut et de 27 px en bas au seuil alpha >16 ; marges latérales larges de 291 et 320 px. Aucun contact direct alpha >16 avec le cadre ; seuls 7 pixels de faible alpha atteignent le bord gauche.",
+          "PNG RGBA 1024 × 1536, alpha 0 à 254, avec 1162970 pixels entièrement transparents. Le halo gris de l’aperçu contient des points alpha 0 ; il ne prouve pas un fond opaque. Les 15512 pixels alpha 1 à 16 et les contours restent à vérifier en composition.",
+          "Les formes exactes du casque, du CNM, du plastron et des petits marquages doivent être comparées au Buck de Halo 3 ODST 2009 pour le distinguer d’un ODST générique."
+        ],
+        "required_followup": [
+          "Comparaison aux références de Buck ODST 2009 : casque, CNM, plastron et accessoires",
+          "Vérification de l’équipement de torse distinctif",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+          "Déclinaison ultérieure en garde de combat et animations"
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1162970,
+            "semitransparent_pixels": 409894,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 380323,
+            "alpha_nonzero_bbox": [
+              0,
+              14,
+              1010,
+              1518
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 7,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 394382,
+            "foreground_bbox_above_threshold": [
+              291,
+              30,
+              704,
+              1509
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 291,
+              "top": 30,
+              "right": 320,
+              "bottom": 27
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "background_pixel_samples": {
+          "200,400": [
+            10,
+            11,
+            11,
+            0
+          ],
+          "700,200": [
+            19,
+            20,
+            22,
+            0
+          ],
+          "300,1500": [
+            20,
+            19,
+            18,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/feet-first-into-fall",
+        "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+        "https://www.halopedia.org/Edward_Buck"
+      ],
+      "critical_checks": [
+        "ODST 2009, pas Spartan-IV Helljumper Halo 5.",
+        "CNM sur côté anatomiquement droit du casque ; couteau fixé à droite du torse.",
+        "MA5C assorti à la fiche actuelle, pas MA40 Infinite.",
+        "Gabarit humain ODST, pas épaules et jambes MJOLNIR surdimensionnées.",
+        "Les petits marquages et traces d'usure doivent être comparés à une même phase de campagne."
+      ]
+    },
+    {
+      "id": "zealot_reach_neutral_right_v01",
+      "entity_id": "zealot_reach",
+      "type": "fighter_pose",
+      "prompt": "Create one full-body neutral character reference illustration of An Elite Zealot in the original Halo Reach. Reproduce the precise dark crimson Zealot harness with angular helmet, pointed layered shoulders, red chest and limb armor over a charcoal undersuit. Preserve Reach's broad powerful Sangheili anatomy, long neck, intact mandibles, digitigrade legs and split feet. This is the original Zealot rank, with no invented insignia or Field Marshal crest. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "output": "zealot_reach_neutral_right_v01.png",
+      "qa": "Sangheili debout avec armure bordeaux/rouge sombre, épaules et casque pointus, jambes digitigrades et mains vides. Le casque, les deux mains et les deux pieds sont dans le cadre. Aucun équipement ou membre supplémentaire évident. Pose calme de référence, orientée vers la droite et encore de trois quarts. Elle ne constitue pas une garde de combat armée ni une animation. L’orientation et la superposition du visage ne permettent pas de valider séparément les quatre mandibules. Marges serrées de 8 px en haut du casque et de 14 px sous les pieds au seuil alpha >16, avec 288/350 px sur les côtés. Aucun contact de contenu alpha >16 avec le cadre ; 8 pixels de faible alpha touchent le bord gauche et 9 le bord supérieur. PNG RGBA 1199 × 1312, alpha 0 à 255, avec 1142819 pixels entièrement transparents et 23889 pixels alpha 1 à 16. Le détourage de production reste à contrôler en composition. Les formes exactes du casque et des épaules doivent être comparées au Zealot de Reach afin de distinguer cette variante des autres grades Sangheili, notamment Field Marshal ; la couleur seule ne certifie pas le modèle.",
+      "required_followup": [
+        "Comparaison du casque, des épaules et de la teinte au Zealot Halo Reach",
+        "Validation du visage et des mandibules sur une vue lisible",
+        "Marges plus larges au-dessus du casque et sous les pieds",
+        "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+        "Déclinaison ultérieure en garde de combat et animations",
+        "Comparaison aux références de l'épisode",
+        "Validation du profil latéral et de l'anatomie",
+        "Vérification du détourage et des armes",
+        "Animations et sprites de combat",
+        "Collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 2,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+      "sha256": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2e691b3e-285d-4f75-b270-5cc35eab069b.png",
+      "source_journal": "work/wave2/generation_results.json",
+      "journal_record": 40,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1142819,
+        "semitransparent_pixels": 429748,
+        "opaque_pixels": 521,
+        "near_opaque_pixels": 381137,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1173,
+          1302
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 8,
+          "right": 0,
+          "top": 9,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 406380,
+        "foreground_bbox_above_threshold": [
+          288,
+          8,
+          849,
+          1298
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 288,
+          "top": 8,
+          "right": 350,
+          "bottom": 14
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "zealot_reach",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2e691b3e-285d-4f75-b270-5cc35eab069b.png",
+        "sha256": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682",
+        "reviewed_utc": "2026-11-19T17:04:22+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "notes": [
+          "Sangheili debout avec armure bordeaux/rouge sombre, épaules et casque pointus, jambes digitigrades et mains vides. Le casque, les deux mains et les deux pieds sont dans le cadre. Aucun équipement ou membre supplémentaire évident.",
+          "Pose calme de référence, orientée vers la droite et encore de trois quarts. Elle ne constitue pas une garde de combat armée ni une animation. L’orientation et la superposition du visage ne permettent pas de valider séparément les quatre mandibules.",
+          "Marges serrées de 8 px en haut du casque et de 14 px sous les pieds au seuil alpha >16, avec 288/350 px sur les côtés. Aucun contact de contenu alpha >16 avec le cadre ; 8 pixels de faible alpha touchent le bord gauche et 9 le bord supérieur.",
+          "PNG RGBA 1199 × 1312, alpha 0 à 255, avec 1142819 pixels entièrement transparents et 23889 pixels alpha 1 à 16. Le détourage de production reste à contrôler en composition.",
+          "Les formes exactes du casque et des épaules doivent être comparées au Zealot de Reach afin de distinguer cette variante des autres grades Sangheili, notamment Field Marshal ; la couleur seule ne certifie pas le modèle."
+        ],
+        "required_followup": [
+          "Comparaison du casque, des épaules et de la teinte au Zealot Halo Reach",
+          "Validation du visage et des mandibules sur une vue lisible",
+          "Marges plus larges au-dessus du casque et sous les pieds",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+          "Déclinaison ultérieure en garde de combat et animations"
+        ],
+        "technical_qa": {
+          "width": 1199,
+          "height": 1312,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1142819,
+            "semitransparent_pixels": 429748,
+            "opaque_pixels": 521,
+            "near_opaque_pixels": 381137,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1173,
+              1302
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 8,
+              "right": 0,
+              "top": 9,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 406380,
+            "foreground_bbox_above_threshold": [
+              288,
+              8,
+              849,
+              1298
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 288,
+              "top": 8,
+              "right": 350,
+              "bottom": 14
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-fighting-words",
+        "https://support.halowaypoint.com/hc/en-us/articles/360037081152-Halo-Reach-Achievements-List",
+        "https://www.halopedia.org/Sangheili_Zealot"
+      ],
+      "critical_checks": [
+        "Halo Reach Zealot is the dark red/crimson ceremonial harness; not the Field Marshal's distinctive crest or CE's golden Zealot.",
+        "This is an unnamed rank archetype, not a newly invented named canon individual.",
+        "Official Fighting Words confirms the Reach Devoted Sentries harness, but illustrates a Killer Instinct adaptation; use it only for identity context.",
+        "Preserve Reach's much bulkier Sangheili proportions rather than Halo 3's narrower armor.",
+        "Final helmet and shoulder ridge placement remain direct Halo Reach model QA checks."
+      ]
+    }
+  ],
+  "updated_utc": "2026-11-19T17:06:50+00:00",
+  "generated_fighter_entities": 9
+}
