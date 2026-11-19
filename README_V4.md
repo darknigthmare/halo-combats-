@@ -1,27 +1,27 @@
 # Halo Combats — livraison visuelle V4
 
-Mode annexe de combat 2D et Boss Battle pour Darknigthmare. Mise à jour : 2026-11-19T20:25:42+00:00.
+Mode annexe de combat 2D et Boss Battle pour Darknigthmare. Mise à jour : 19 novembre 2026 à 21:38 (heure de Paris, UTC+01:00).
 
 ## État des personnages
 
-**20 combattants illustrés sur 24 ; 4 restent sans image candidate.** La vague 4 apporte **9 nouveaux PNG**, pour 8 personnages.
+**24 combattants illustrés sur 24 ; 0 restent sans image candidate.** La vague 4 apporte **15 nouveaux PNG**, pour 12 personnages.
 
-Le journal V4 comprend 21 tentatives pour 12 personnages distincts : 9 réussites et 12 échecs. Parmi ces derniers, 12 sont des refus automatiques dont le motif précis n'a pas été fourni. Les succès après refus sont comptés comme présents. Les compteurs et journaux V1/V2/V3 restent conservés.
+Le journal V4 comprend 29 tentatives pour 12 personnages distincts : 15 réussites et 14 échecs. Parmi ces derniers, 14 sont des refus automatiques dont le motif précis n'a pas été fourni. Les succès après refus sont comptés comme présents. Les compteurs et journaux V1/V2/V3 restent conservés.
 
 | Catégorie | Fichiers disponibles | Portée |
 |---|---:|---|
-| Poses de combattants | 21 | 20 combattants sur 24 |
+| Poses de combattants | 27 | 24 combattants sur 24 |
 | Profils de boss | 1 | Candidats visuels de boss |
 | Masters de décors | 2 | Couches parallaxe séparées à produire |
-| Tous candidats visuels | 24 | Somme des catégories précédentes |
+| Tous candidats visuels | 30 | Somme des catégories précédentes |
 | Visuels certifiés | 0 | Aucune certification déduite d'une génération |
 | Clips d'animation livrés | 0 | Les poses statiques ne sont pas des animations |
 
-Personnages disposant d'une image : **John 117 le Major, Thel 'Vadam l’Arbiter, Avery Johnson, Noble Six, Jorge 052, Jun A266, Kat B320, Carter A259, Edward Buck ODST, Le Rookie, Rtas 'Vadum, Tartarus, Atriox, Decimus, Alice 130, Douglas 042, Jerome 092, Elite Zealot, Cethegus chef Brute, Mgalekgolo Hunter**.
+Personnages disposant d'une image : **John 117 le Major, Thel 'Vadam l’Arbiter, Avery Johnson, Noble Six, Emile A239, Jorge 052, Jun A266, Kat B320, Carter A259, Edward Buck ODST, Le Rookie, Rtas 'Vadum, Tartarus, Atriox, Decimus, Escharum, Jega 'Rdomnai, Chak 'Lok, Alice 130, Douglas 042, Jerome 092, Elite Zealot, Cethegus chef Brute, Mgalekgolo Hunter**.
 
-Personnages nouvellement illustrés dans la vague 4 : **Carter A259, John 117 le Major, Douglas 042, Avery Johnson, Jorge 052, Jun A266, Kat B320, Tartarus**.
+Personnages nouvellement illustrés dans la vague 4 : **Carter A259, Chak 'Lok, John 117 le Major, Douglas 042, Emile A239, Escharum, Jega 'Rdomnai, Avery Johnson, Jorge 052, Jun A266, Kat B320, Tartarus**.
 
-Personnages encore sans image : **Emile A239, Escharum, Jega 'Rdomnai, Chak 'Lok**.
+Personnages encore sans image : **aucun**.
 
 ## Ouvrir les livrables
 

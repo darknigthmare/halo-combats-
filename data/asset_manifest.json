@@ -519,9 +519,29 @@
       "source_journal": "work/wave4/generation_results.json",
       "journal_record": 14,
       "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ab333b84-5a84-4415-a423-d5d465098a68.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Escharum for the Halo Combats 2D fighting character set. Preserve the exact elderly Jiralhanae face, bald grey head, grey beard, broad heavy build, dark charcoal armor, worn deep-red markings, distinctive engraved silver neck and shoulder panels, chest geometry, asymmetrical forearm armor and wide leg armor shown. Keep the stowed back equipment and handle visible where appropriate. Do not replace him with Atriox or a generic Brute chieftain. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 21,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d14e80c6-d844-4169-ace5-f0bc87adfec0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the TWO attached images of Jega 'Rdomnai from Halo Infinite: the official full-body promotional game render for overall armor geometry and the final-game introduction screenshot to confirm the anatomical details and left/right asymmetry. Create ONE new full-body neutral standing pose of this same character for Halo Combats. Preserve his tall Sangheili build, scarred face, black and dark-gray harness with deep-red markings, Banished chest insignia, layered high collar, angular helmet and sharp claw-like armor ornaments. His anatomical LEFT arm is the slender exposed mechanical replacement with its mechanical hand and inactive Ghostpierce wrist emitter. His anatomical RIGHT arm retains the broad armored biological form and clawed hand. Keep the anatomical LEFT mandibular prostheses exactly as visible. Match BOTH digitigrade legs to the game references: dark textured undersuit, knee coverings, shin guards and armored split feet. Do NOT turn leg armor into an exposed mechanical replacement limb. Re-articulate him into a calm upright stance facing screen RIGHT, near-lateral with a slight three-quarter angle and enough separation to see both arms and both feet. Keep all anatomical asymmetries, do not mirror them. Hands empty and lowered, no handheld bloodblade, all energy blades switched off, camouflage inactive and armor fully opaque. Faithful realistic videogame render, neutral soft lighting without the red weapon glow. Genuine transparent alpha outside the entire character and in the limb gaps; remove all source scenery, logos, promotional graphics and background. Full head, all armor tips and both complete feet within the canvas, with comfortable clear transparent padding on all four sides. No text, labels, ground plane or extra character.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 24,
+      "attempt_kind": "neutral_unarmed"
     }
   ],
-  "generated_unique_entities": 23,
+  "generated_unique_entities": 27,
   "certified_assets": 0,
   "animated_assets": 0,
   "independent_parallax_layers": 0,
@@ -4173,7 +4193,7 @@
       "type": "fighter_pose",
       "prompt": "Use the attached genuine Halo: Reach (2010) reference imagery to produce a single new full-body render of Carter-A259 for the Halo Combats 2D character asset set. Use Carter's exact original Reach blue Commando helmet, gold visor, blue worn plates, dark undersuit, chest pouches and lower-leg armor. The large gray Commando shoulder with the white emblem belongs to his anatomical LEFT shoulder; preserve the LEFT forearm TACPAD and the smaller opposite shoulder. Repose the character; do not simply mirror the left-facing source. ONE character only. Calm standing neutral pose facing screen RIGHT, almost a lateral fighting-game view, anatomical right side nearer the viewer with a small three-quarter angle to keep the identity legible. Hands empty and relaxed at the sides, arms slightly away from the body, feet planted with a small stagger, both boots or feet fully visible. Preserve left/right equipment asymmetry. Detailed videogame render with faithful source shapes, materials and colors, soft neutral character lighting, restrained wear. The output must be a clean isolated character with genuine transparent alpha outside its silhouette, including the gaps between the limbs: no black background, no gray backdrop, no glow or halo, no atmospheric gradient, no floor, no shadow panel, no labels or frame. Keep the entire figure and all carried equipment inside the canvas with generous clear margins. No handheld weapons in this neutral pose.",
       "output": "carter_reach_neutral_right_v01.png",
-      "qa": "Figure entière debout en trois-quarts vers la droite, mains vides, casque bleu et visière dorée ; deux mains et deux bottes visibles. Comparaison avec le rendu promotionnel Carter fourni : la grande épaulière grise à emblème et le TACPAD sont portés par le bras anatomique gauche, situé du côté éloigné dans cette nouvelle orientation. Le petit volume d’épaule opposé reste distinct ; le personnage n’est pas simplement retourné comme une image miroir. La bande rouge de cuisse est visible sur la jambe proche dans le nouveau PNG ; son attribution anatomique paraît différente de celle de la jambe proche du rendu source orienté à gauche. Ce point et les marquages asymétriques des jambes doivent être vérifiés ou corrigés à partir de vues complémentaires. Le rendu promotionnel E3 2010 ne certifie pas seul le modèle final du jeu. Les pixels échantillonnés dans le halo extérieur ont alpha 0. La figure ne touche aucun bord au seuil alpha > 16 ; 60 pixels de faible alpha atteignent le bord gauche et 8 le bord inférieur. Les marges verticales sont serrées : 19 px en haut et 61 px en bas.",
+      "qa": "Figure entière debout en trois-quarts vers la droite, mains vides, casque bleu et visière dorée ; deux mains et deux bottes visibles. Comparaison avec le rendu promotionnel Carter fourni : la grande épaulière grise à emblème et le TACPAD sont portés par le bras anatomique gauche, situé du côté éloigné dans cette nouvelle orientation. Le petit volume d’épaule opposé reste distinct ; le personnage n’est pas simplement retourné comme une image miroir. La bande rouge de cuisse est visible sur la jambe proche dans le nouveau PNG ; son attribution anatomique paraît différente de celle de la jambe proche du rendu source orienté à gauche. Ce point et les marquages asymétriques des jambes doivent être vérifiés ou corrigés à partir de vues complémentaires. Le rendu promotionnel E3 2010 ne certifie pas seul le modèle final du jeu. Les pixels échantillonnés dans le halo extérieur ont alpha 0. La figure ne touche aucun bord au seuil alpha > 16 ; 60 pixels de faible alpha atteignent le bord gauche et 8 le bord inférieur. Les marges verticales sont serrées : 19 px en haut et 61 px en bas. Précision lors de la comparaison avec la retouche : la bande rouge sur la cuisse droite proche est le défaut ciblé. La variante corrigée la replace sur la cuisse gauche ; elle est préférée, et ce premier PNG reste conservé sans modification.",
       "required_followup": [
         "Contrôler le côté anatomique de la bande rouge de cuisse et les autres marquages asymétriques de jambe ; corriger si nécessaire.",
         "Comparer l’équipement à des vues du modèle final Halo: Reach et vérifier les panneaux masqués par le fusil dans la référence.",
@@ -4196,7 +4216,7 @@
       "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png",
       "source_journal": "work/wave4/generation_results.json",
       "journal_record": 17,
-      "visual_review_status": "reviewed_candidate_with_reservations",
+      "visual_review_status": "reviewed_candidate_requires_correction",
       "width": 1024,
       "height": 1536,
       "mode": "RGBA",
@@ -4261,7 +4281,7 @@
         "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
         "reviewed_utc": "2026-11-19T20:25:15+00:00",
         "review_method": "Individual source PNG and supplied reference input(s) viewed; read-only Pillow alpha, dimensions, edges and SHA-256 inspection. Source images unmodified.",
-        "verdict": "candidate_with_reservations",
+        "verdict": "candidate_requires_correction",
         "canon_comparison": "not_certified",
         "attempt_kind": "neutral_unarmed",
         "comparison_reference": {
@@ -4305,7 +4325,8 @@
           "Figure entière debout en trois-quarts vers la droite, mains vides, casque bleu et visière dorée ; deux mains et deux bottes visibles.",
           "Comparaison avec le rendu promotionnel Carter fourni : la grande épaulière grise à emblème et le TACPAD sont portés par le bras anatomique gauche, situé du côté éloigné dans cette nouvelle orientation. Le petit volume d’épaule opposé reste distinct ; le personnage n’est pas simplement retourné comme une image miroir.",
           "La bande rouge de cuisse est visible sur la jambe proche dans le nouveau PNG ; son attribution anatomique paraît différente de celle de la jambe proche du rendu source orienté à gauche. Ce point et les marquages asymétriques des jambes doivent être vérifiés ou corrigés à partir de vues complémentaires. Le rendu promotionnel E3 2010 ne certifie pas seul le modèle final du jeu.",
-          "Les pixels échantillonnés dans le halo extérieur ont alpha 0. La figure ne touche aucun bord au seuil alpha > 16 ; 60 pixels de faible alpha atteignent le bord gauche et 8 le bord inférieur. Les marges verticales sont serrées : 19 px en haut et 61 px en bas."
+          "Les pixels échantillonnés dans le halo extérieur ont alpha 0. La figure ne touche aucun bord au seuil alpha > 16 ; 60 pixels de faible alpha atteignent le bord gauche et 8 le bord inférieur. Les marges verticales sont serrées : 19 px en haut et 61 px en bas.",
+          "Précision lors de la comparaison avec la retouche : la bande rouge sur la cuisse droite proche est le défaut ciblé. La variante corrigée la replace sur la cuisse gauche ; elle est préférée, et ce premier PNG reste conservé sans modification."
         ],
         "required_followup": [
           "Contrôler le côté anatomique de la bande rouge de cuisse et les autres marquages asymétriques de jambe ; corriger si nécessaire.",
@@ -4416,7 +4437,10 @@
             168,
             0
           ]
-        }
+        },
+        "preferred_for_entity": false,
+        "superseded_by_preferred_sha256": "5c60d18e82f3d5fe410f54516c730b79112b2d1096c9f17071529e3610fd911b",
+        "review_revision_utc": "2026-11-19T20:37:20+00:00"
       },
       "reference_urls": [
         "https://www.halowaypoint.com/news/spotlight-may-19-2022",
@@ -5410,8 +5434,2030 @@
           "mode": "RGB"
         }
       }
+    },
+    {
+      "id": "chak_lok_neutral_right_v01",
+      "entity_id": "chak_lok",
+      "type": "fighter_pose",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Chak 'Lok for the Halo Combats 2D fighting character set. Preserve Chak 'Lok's actual Halo Infinite model from the attached screenshot: gold/ochre angular armor with red motifs, the tall paired helmet fins, high shaped collar, shoulder and forearm plates, dark underarmor, Sangheili mandibles and digitigrade split feet. Maintain his own helmet silhouette rather than a Halo CE golden Elite or a Reach Zealot. Remove the handheld energy sword and its blue cast light from this neutral pose; keep his anatomy and armor intact. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "output": "chak_lok_neutral_right_v01.png",
+      "qa": "Figure entière en armure or/ocre avec motifs rouges, haut casque à ailettes, col sculpté et deux pieds digitigrades visibles. Les mains sont vides ; l’épée énergétique de la référence a été retirée pour la pose neutre. Comparaison visuelle avec chak_lok_infinite_screenshot_reference.png : les grandes formes du casque, du col, des épaules, des avant-bras et des jambes reprennent les repères de la capture. La pose a été réarticulée vers la droite en trois-quarts ; les mandibules et doigts demandent encore un contrôle d’anatomie sur des vues complémentaires. La source est une capture communautaire détourée, dont le build et les conditions de capture ne sont pas précisés. La lumière bleue de l’épée influence ses couleurs ; la palette sous éclairage neutre et les surfaces cachées ne sont pas certifiées par cette seule comparaison. PNG RGBA 1024×1536, alpha 0–254. Les échantillons extérieurs du halo sont transparents, sauf le coin 0,0 de faible alpha 1 ; il ne s’agit pas d’un fond sombre opaque général. Aucun pixel alpha > 16 ne touche le cadre. Les marges utiles haut/bas sont 97 et 93 px, avec quelques pixels de faible alpha aux bords.",
+      "required_followup": [
+        "Contrôler doigts, mandibules et articulations digitigrades avec des vues complémentaires du modèle Halo Infinite.",
+        "Vérifier la palette et les détails occultés par la lumière bleue de la source sous un éclairage neutre.",
+        "Vérifier les franges de détourage sur fonds clairs et sombres.",
+        "Préparer la garde de combat latérale, les animations, collisions et intégration au moteur.",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 4,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave4/chak_lok_neutral_right_v01.png",
+      "sha256": "c7d2d7b0ca710e3fc458606e6184c291ec441c1002d1c083e282401274aa9fbb",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-90f5b18c-d6be-4ad9-9c91-59ed25dc6224.png",
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 22,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1140014,
+        "semitransparent_pixels": 432850,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 371627,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1004,
+          1536
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 1,
+          "right": 0,
+          "top": 1,
+          "bottom": 19
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 398891,
+        "foreground_bbox_above_threshold": [
+          226,
+          97,
+          793,
+          1443
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 226,
+          "top": 97,
+          "right": 231,
+          "bottom": 93
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "chak_lok",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-90f5b18c-d6be-4ad9-9c91-59ed25dc6224.png",
+        "sha256": "c7d2d7b0ca710e3fc458606e6184c291ec441c1002d1c083e282401274aa9fbb",
+        "reviewed_utc": "2026-11-19T20:28:44+00:00",
+        "review_method": "Individual source PNG and supplied reference input viewed; read-only Pillow alpha, dimensions, edge and hash inspection. No image editing or resaving.",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "comparison_reference": {
+          "bytes": 887510,
+          "sha256": "4cd0ce3889df45ca53751f092cb349deaf4092d32e6360060566713fd6903333",
+          "width": 750,
+          "height": 968,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "id": "chak_lok",
+          "character": "Chak 'Lok",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_community_cutout_of_game_screenshot",
+          "source_page_url": "https://www.halopedia.org/File:HINF_ChakLok2.png",
+          "source_image_url": "https://www.halopedia.org/images/2/26/HINF_ChakLok2.png?0463d",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/chak_lok_infinite_screenshot_reference.png",
+          "uploader": "Nakai Vodar",
+          "source_uploaded_at": "2024-01-05",
+          "source_scope": "Halopedia-hosted cutout made by the uploader from a Halo Infinite character screenshot. The file page explicitly identifies the game, character, screenshot type and self-created source. This is not an official promotional render, and the game build, capture settings and method are not provided. This session downloaded the file without changing its bytes. Reference input only, excluded from published deliverables.",
+          "observed": [
+            "Single Chak Lok, full body including both digitigrade feet, in a frontal/three-quarter armed stance.",
+            "Gold/ochre angular armor with red markings over a dark under-suit, tall paired helmet fins, high sculpted collar and prominent shoulder/forearm plates.",
+            "Blue energy sword held at screen left; opposite clawed hand open. Mouth/neck and undersuit receive blue lighting.",
+            "Helmet tips, feet and sword approach the image edges. Alpha channel is present; background RGB remnants should not be copied into new art."
+          ],
+          "limits": [
+            "Community screenshot cutout, not an independently verified official press-kit render or model export. Final-game build and capture setup unspecified.",
+            "Only one mostly frontal armed view; no exact side/back turnaround. Neutral right-facing body articulation must be newly posed.",
+            "Very tight crop around helmet, feet and sword tips; do not reproduce cropping in the new full-body reference.",
+            "Blue sword light and scene illumination affect colors; material accuracy beyond visible surfaces is not certified."
+          ]
+        },
+        "notes": [
+          "Figure entière en armure or/ocre avec motifs rouges, haut casque à ailettes, col sculpté et deux pieds digitigrades visibles. Les mains sont vides ; l’épée énergétique de la référence a été retirée pour la pose neutre.",
+          "Comparaison visuelle avec chak_lok_infinite_screenshot_reference.png : les grandes formes du casque, du col, des épaules, des avant-bras et des jambes reprennent les repères de la capture. La pose a été réarticulée vers la droite en trois-quarts ; les mandibules et doigts demandent encore un contrôle d’anatomie sur des vues complémentaires.",
+          "La source est une capture communautaire détourée, dont le build et les conditions de capture ne sont pas précisés. La lumière bleue de l’épée influence ses couleurs ; la palette sous éclairage neutre et les surfaces cachées ne sont pas certifiées par cette seule comparaison.",
+          "PNG RGBA 1024×1536, alpha 0–254. Les échantillons extérieurs du halo sont transparents, sauf le coin 0,0 de faible alpha 1 ; il ne s’agit pas d’un fond sombre opaque général. Aucun pixel alpha > 16 ne touche le cadre. Les marges utiles haut/bas sont 97 et 93 px, avec quelques pixels de faible alpha aux bords."
+        ],
+        "required_followup": [
+          "Contrôler doigts, mandibules et articulations digitigrades avec des vues complémentaires du modèle Halo Infinite.",
+          "Vérifier la palette et les détails occultés par la lumière bleue de la source sous un éclairage neutre.",
+          "Vérifier les franges de détourage sur fonds clairs et sombres.",
+          "Préparer la garde de combat latérale, les animations, collisions et intégration au moteur."
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1140014,
+            "semitransparent_pixels": 432850,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 371627,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1004,
+              1536
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 1,
+              "right": 0,
+              "top": 1,
+              "bottom": 19
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 398891,
+            "foreground_bbox_above_threshold": [
+              226,
+              97,
+              793,
+              1443
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 226,
+              "top": 97,
+              "right": 231,
+              "bottom": 93
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "0,0": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "1023,1535": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "100,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "100,500": [
+            4,
+            3,
+            1,
+            0
+          ],
+          "900,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "900,700": [
+            14,
+            11,
+            8,
+            0
+          ],
+          "512,1535": [
+            14,
+            13,
+            12,
+            0
+          ],
+          "300,1535": [
+            15,
+            15,
+            16,
+            0
+          ],
+          "700,1535": [
+            15,
+            15,
+            14,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-of-protocols-and-prisons",
+        "https://www.halopedia.org/Chak_%27Lok"
+      ],
+      "critical_checks": [
+        "Armure et casque dorés de Chak 'Lok dans Infinite ; ni Zealot rouge Reach ni Elite doré de Halo CE.",
+        "Mandibules et membres biologiques intacts ; aucune prothèse de Jega ou modification de Rtas.",
+        "Mains vides, épée à énergie absente ; armure opaque et camouflage inactif.",
+        "La source officielle confirme le personnage et le contexte ; les formes exactes exigent une comparaison à la campagne Infinite.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "generation_method": "game_reference_pose_edit",
+      "reference_input": {
+        "bytes": 887510,
+        "sha256": "4cd0ce3889df45ca53751f092cb349deaf4092d32e6360060566713fd6903333",
+        "width": 750,
+        "height": 968,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "chak_lok",
+        "character": "Chak 'Lok",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_community_cutout_of_game_screenshot",
+        "source_page_url": "https://www.halopedia.org/File:HINF_ChakLok2.png",
+        "source_image_url": "https://www.halopedia.org/images/2/26/HINF_ChakLok2.png?0463d",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/chak_lok_infinite_screenshot_reference.png",
+        "uploader": "Nakai Vodar",
+        "source_uploaded_at": "2024-01-05",
+        "source_scope": "Halopedia-hosted cutout made by the uploader from a Halo Infinite character screenshot. The file page explicitly identifies the game, character, screenshot type and self-created source. This is not an official promotional render, and the game build, capture settings and method are not provided. This session downloaded the file without changing its bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Chak Lok, full body including both digitigrade feet, in a frontal/three-quarter armed stance.",
+          "Gold/ochre angular armor with red markings over a dark under-suit, tall paired helmet fins, high sculpted collar and prominent shoulder/forearm plates.",
+          "Blue energy sword held at screen left; opposite clawed hand open. Mouth/neck and undersuit receive blue lighting.",
+          "Helmet tips, feet and sword approach the image edges. Alpha channel is present; background RGB remnants should not be copied into new art."
+        ],
+        "limits": [
+          "Community screenshot cutout, not an independently verified official press-kit render or model export. Final-game build and capture setup unspecified.",
+          "Only one mostly frontal armed view; no exact side/back turnaround. Neutral right-facing body articulation must be newly posed.",
+          "Very tight crop around helmet, feet and sword tips; do not reproduce cropping in the new full-body reference.",
+          "Blue sword light and scene illumination affect colors; material accuracy beyond visible surfaces is not certified."
+        ]
+      }
+    },
+    {
+      "id": "emile_reach_neutral_right_v01",
+      "entity_id": "emile_reach",
+      "type": "fighter_pose",
+      "prompt": "Use the attached Halo: Reach game reference as the visual identity and armor source. Make a new single-character full-body pose of Emile-A239 for the Halo Combats 2D fighting-game asset set. Preserve Emile-A239's original 2010 Reach armor, weathered charcoal plates, skull etched into the gold EVA visor, the large red anatomical RIGHT Security shoulder and its stowed kukri assembly, asymmetric opposite shoulder, chest pouches and grenade belt. The carving is an engraving on a visor, not an exposed skull. Follow the input's shapes and worn paint precisely. Change the articulation to a calm upright neutral stance, facing screen RIGHT, almost lateral, with the character's anatomical right side nearer the viewer and only enough three-quarter visibility to identify the helmet and torso. Hands empty and relaxed, forearms slightly away from the torso, feet planted, both boots fully visible. Remove the handheld firearm from the reference; keep only the small holstered/stowed equipment already belonging to this exact character. Preserve anatomical left/right asymmetries; do not mirror the design. Faithful detailed realistic videogame character render, readable armor plates and proportions, consistent soft neutral lighting, restrained surface wear. Exactly ONE character on a genuinely transparent alpha background, no scenery, no floor plane, no text or label, no drop-shadow panel. Full body including antennas, shoulder equipment and both soles, with comfortable clear transparent margins on every side. This is a new neutral pose derived from the attached game reference, not a redesign or a collage.",
+      "output": "emile_reach_neutral_right_v01.png",
+      "qa": "Figure entière en pose neutre debout vers la droite, mains vides, casque à crâne gravé, plaques sombres usées, épaule droite rouge avec assemblage de couteau et cartouches. Deux mains et deux bottes distinctes, lame d’épaule entière. Comparaison visuelle avec emile_reach_presskit_reference.png : casque, grande épaule rouge anatomique droite, accessoires, palette et principaux repères de jambes sont reconnaissables. Le fusil et les bras de la référence cachaient une partie du haut du torse ; les détails nouvellement dégagés restent à comparer sur d’autres vues. La pose est un trois-quarts droit lisible, pas une vue latérale orthographique stricte. La fidélité des proportions, des gravures et des petits accessoires n’est pas certifiée par cette seule référence promotionnelle. Contrôle du bas du cadre : les semelles ne sont pas coupées dans l’inspection visuelle ; le contenu alpha > 16 s’arrête à y=1533 sur un canevas haut de 1560, laissant 27 px sous le pied le plus bas. La marge supérieure est de 19 px. Le cadrage est serré mais aucun pixel alpha > 16 n’atteint le bord. PNG RGBA 1008×1560, alpha 0–255, avec 975 029 pixels entièrement transparents. Les échantillons de fond et de dernière ligne sont alpha 0. Il subsiste 18 pixels de faible alpha au bord gauche et 5 au bas ; vérifier les franges de contours lors de l’intégration.",
+      "required_followup": [
+        "Prévoir des marges verticales plus larges dans une future correction, sans altérer cette sortie conservée.",
+        "Comparer les détails du torse dégagés, la gravure du crâne et les asymétries sur plusieurs vues du modèle Halo: Reach.",
+        "Vérifier les franges de détourage sur fonds clairs et sombres.",
+        "Préparer la garde de combat latérale, les animations, collisions et intégration au moteur.",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 4,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave4/emile_reach_neutral_right_v01.png",
+      "sha256": "886408dcae827eac054061ffc9e71432fa5808b6ce0bd8b480ab02b5d66e2c92",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2f7c6c52-3484-48a5-9d8f-372fa3ce2886.png",
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 23,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1008,
+      "height": 1560,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 975029,
+        "semitransparent_pixels": 597290,
+        "opaque_pixels": 161,
+        "near_opaque_pixels": 549974,
+        "alpha_nonzero_bbox": [
+          0,
+          17,
+          968,
+          1560
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 18,
+          "right": 0,
+          "top": 0,
+          "bottom": 5
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 574652,
+        "foreground_bbox_above_threshold": [
+          173,
+          19,
+          798,
+          1533
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 173,
+          "top": 19,
+          "right": 210,
+          "bottom": 27
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "emile_reach",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2f7c6c52-3484-48a5-9d8f-372fa3ce2886.png",
+        "sha256": "886408dcae827eac054061ffc9e71432fa5808b6ce0bd8b480ab02b5d66e2c92",
+        "reviewed_utc": "2026-11-19T20:28:43+00:00",
+        "review_method": "Individual source PNG and supplied reference input viewed; read-only Pillow alpha, dimensions, edge and hash inspection. No image editing or resaving.",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "comparison_reference": {
+          "id": "emile_reach",
+          "character": "Emile-A239",
+          "source_page_url": "https://www.halopedia.org/File:Emile-A239.png",
+          "source_image_url": "https://www.halopedia.org/images/4/4c/Emile-A239.png?903e7",
+          "original_filename": "Emile_right1.jpg",
+          "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+          "kind": "downloaded_archived_presskit_reference",
+          "game": "Halo: Reach (2010)",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/emile_reach_presskit_reference.png",
+          "bytes": 418268,
+          "sha256": "a6ae4dae6ee9d67f3382ad51128fcc76674f8b63bed2f6e5e44e34bff05c2691",
+          "width": 660,
+          "height": 1020,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+          "observed": [
+            "Single helmeted full-body Emile render, with both boots present.",
+            "Original Reach charcoal armor, red right-shoulder plate, skull engraving on the gold EVA visor, chest equipment and prominent shoulder-mounted knife assembly.",
+            "Shotgun held in both hands, aimed toward screen right.",
+            "Dynamic three-quarter stance with one leg behind the other."
+          ],
+          "limits": [
+            "Armed aiming pose, not a neutral stance or strict orthographic profile.",
+            "Weapon and arms obscure upper chest details; rear leg partly occluded.",
+            "Archived PNG is 660 by 1020, with no added resolution or invented hidden details."
+          ]
+        },
+        "notes": [
+          "Figure entière en pose neutre debout vers la droite, mains vides, casque à crâne gravé, plaques sombres usées, épaule droite rouge avec assemblage de couteau et cartouches. Deux mains et deux bottes distinctes, lame d’épaule entière.",
+          "Comparaison visuelle avec emile_reach_presskit_reference.png : casque, grande épaule rouge anatomique droite, accessoires, palette et principaux repères de jambes sont reconnaissables. Le fusil et les bras de la référence cachaient une partie du haut du torse ; les détails nouvellement dégagés restent à comparer sur d’autres vues.",
+          "La pose est un trois-quarts droit lisible, pas une vue latérale orthographique stricte. La fidélité des proportions, des gravures et des petits accessoires n’est pas certifiée par cette seule référence promotionnelle.",
+          "Contrôle du bas du cadre : les semelles ne sont pas coupées dans l’inspection visuelle ; le contenu alpha > 16 s’arrête à y=1533 sur un canevas haut de 1560, laissant 27 px sous le pied le plus bas. La marge supérieure est de 19 px. Le cadrage est serré mais aucun pixel alpha > 16 n’atteint le bord.",
+          "PNG RGBA 1008×1560, alpha 0–255, avec 975 029 pixels entièrement transparents. Les échantillons de fond et de dernière ligne sont alpha 0. Il subsiste 18 pixels de faible alpha au bord gauche et 5 au bas ; vérifier les franges de contours lors de l’intégration."
+        ],
+        "required_followup": [
+          "Prévoir des marges verticales plus larges dans une future correction, sans altérer cette sortie conservée.",
+          "Comparer les détails du torse dégagés, la gravure du crâne et les asymétries sur plusieurs vues du modèle Halo: Reach.",
+          "Vérifier les franges de détourage sur fonds clairs et sombres.",
+          "Préparer la garde de combat latérale, les animations, collisions et intégration au moteur."
+        ],
+        "technical_qa": {
+          "width": 1008,
+          "height": 1560,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 975029,
+            "semitransparent_pixels": 597290,
+            "opaque_pixels": 161,
+            "near_opaque_pixels": 549974,
+            "alpha_nonzero_bbox": [
+              0,
+              17,
+              968,
+              1560
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 18,
+              "right": 0,
+              "top": 0,
+              "bottom": 5
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 574652,
+            "foreground_bbox_above_threshold": [
+              173,
+              19,
+              798,
+              1533
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 173,
+              "top": 19,
+              "right": 210,
+              "bottom": 27
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "0,0": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "1007,1559": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "100,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "100,500": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "900,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "900,700": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "512,1559": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "300,1559": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "700,1559": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halowaypoint.com/news/feet-first-into-fall",
+        "https://www.halopedia.org/Emile"
+      ],
+      "critical_checks": [
+        "Crâne gravé sur la visière dorée EVA[C], pas masque en os ou casque blanc.",
+        "Security et kukri rengainé anatomiquement à droite ; Operator à gauche. Ne pas inverser en miroir.",
+        "Mains vides, shotgun absent ; le kukri reste dans son fourreau, équipement fixé au harnais.",
+        "Le fan art Spotlight ne certifie pas la géométrie ; comparer les pièces au modèle Reach.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "generation_method": "archived_presskit_reference_pose_edit",
+      "reference_input": {
+        "id": "emile_reach",
+        "character": "Emile-A239",
+        "source_page_url": "https://www.halopedia.org/File:Emile-A239.png",
+        "source_image_url": "https://www.halopedia.org/images/4/4c/Emile-A239.png?903e7",
+        "original_filename": "Emile_right1.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/emile_reach_presskit_reference.png",
+        "bytes": 418268,
+        "sha256": "a6ae4dae6ee9d67f3382ad51128fcc76674f8b63bed2f6e5e44e34bff05c2691",
+        "width": 660,
+        "height": 1020,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted full-body Emile render, with both boots present.",
+          "Original Reach charcoal armor, red right-shoulder plate, skull engraving on the gold EVA visor, chest equipment and prominent shoulder-mounted knife assembly.",
+          "Shotgun held in both hands, aimed toward screen right.",
+          "Dynamic three-quarter stance with one leg behind the other."
+        ],
+        "limits": [
+          "Armed aiming pose, not a neutral stance or strict orthographic profile.",
+          "Weapon and arms obscure upper chest details; rear leg partly occluded.",
+          "Archived PNG is 660 by 1020, with no added resolution or invented hidden details."
+        ]
+      }
+    },
+    {
+      "id": "escharum_infinite_neutral_right_v01",
+      "entity_id": "escharum_infinite",
+      "type": "fighter_pose",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Escharum for the Halo Combats 2D fighting character set. Preserve the exact elderly Jiralhanae face, bald grey head, grey beard, broad heavy build, dark charcoal armor, worn deep-red markings, distinctive engraved silver neck and shoulder panels, chest geometry, asymmetrical forearm armor and wide leg armor shown. Keep the stowed back equipment and handle visible where appropriate. Do not replace him with Atriox or a generic Brute chieftain. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "output": "escharum_infinite_neutral_right_v01.png",
+      "qa": "Figure entière en pose neutre vers la droite, visage âgé découvert, barbe grise, large gabarit et armure sombre rouge/argent. Les mains, les pieds et le manche dorsal sont visibles et ne sont pas coupés. Comparaison avec escharum_infinite_presskit_inspection_722px.png : dans la référence orientée vers la gauche, le manche dorsal et la longue branche argentée gravée du col sont du côté anatomique gauche. Dans le PNG généré orienté vers la droite, ils sont placés du côté proche anatomique droit. Cette permutation d’asymétrie nécessite une correction ciblée avant validation. La rangée de blocs/poches sur le flanc apparaît elle aussi sur le côté droit proche dans le nouveau PNG, tandis que la référence la montre côté gauche ; vérifier ce déplacement avec une vue complémentaire du dos et des hanches. Les avant-bras n’ont pas la même inversion apparente : le grand assemblage de plaques rouges est conservé sur l’avant-bras anatomique gauche et le bracelet plus simple sur le droit, comme dans la référence. Il faut préserver cette attribution lors de la correction du col et du manche, sans retourner tout le personnage. PNG RGBA 1024×1536, alpha 0–254. Les échantillons du fond sombre ont alpha 0 sauf le point 900,700 de faible alpha 1 ; aucun fond opaque général n’est détecté. Aucun contenu alpha > 16 ne touche un bord ; 7 pixels de faible alpha atteignent le bord gauche. Les marges utiles haut/bas sont de 56 et 67 px. Elles évitent la coupe mais ne respectent pas les 10 % du canevas demandés. La pose demeure un trois-quarts, non une vue latérale orthographique certifiée.",
+      "required_followup": [
+        "Replacer le manche dorsal et la longue branche gravée du col du côté anatomique gauche, en conservant la pose et les avant-bras correctement attribués. Ne pas mirrorer le personnage entier.",
+        "Verifier puis corriger si nécessaire le côté de la rangée de blocs/poches sur le flanc.",
+        "Comparer la correction avec la référence et des vues complémentaires du dos avant de désigner une variante préférée.",
+        "Prévoir davantage de marge verticale pour respecter les 10 % demandés.",
+        "Contrôler les franges de détourage, produire garde latérale, animations et collisions avant intégration.",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 4,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave4/escharum_infinite_neutral_right_v01.png",
+      "sha256": "7a05eb37e4990ccca3e07705ae9692785e06d9a0443a98ce003407d37d6c5f41",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 25,
+      "visual_review_status": "reviewed_candidate_requires_correction",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 845228,
+        "semitransparent_pixels": 727636,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 669503,
+        "alpha_nonzero_bbox": [
+          0,
+          49,
+          1004,
+          1498
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 7,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 694826,
+        "foreground_bbox_above_threshold": [
+          126,
+          56,
+          913,
+          1469
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 126,
+          "top": 56,
+          "right": 111,
+          "bottom": 67
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "escharum_infinite",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+        "sha256": "7a05eb37e4990ccca3e07705ae9692785e06d9a0443a98ce003407d37d6c5f41",
+        "reviewed_utc": "2026-11-19T20:32:39+00:00",
+        "review_method": "Individual generated PNG viewed and compared with the unchanged 722px server thumbnail of the supplied press-kit reference. Full reference provenance retained. Read-only Pillow alpha, dimensions, edges and SHA-256 inspection; no image edits.",
+        "verdict": "candidate_requires_correction",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "comparison_reference": {
+          "bytes": 9125673,
+          "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+          "width": 2316,
+          "height": 3840,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "id": "escharum_infinite",
+          "character": "Escharum",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_rehosted_official_presskit_render",
+          "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+          "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+          "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+          "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+          "original_filename_recorded": "Escherum.png",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+          "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+          "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+          "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+          "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+          "observed": [
+            "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+            "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+            "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+            "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+          ],
+          "limits": [
+            "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+            "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+            "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+            "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+            "Does not provide exact 1:1 certification or a complete turnaround."
+          ]
+        },
+        "notes": [
+          "Figure entière en pose neutre vers la droite, visage âgé découvert, barbe grise, large gabarit et armure sombre rouge/argent. Les mains, les pieds et le manche dorsal sont visibles et ne sont pas coupés.",
+          "Comparaison avec escharum_infinite_presskit_inspection_722px.png : dans la référence orientée vers la gauche, le manche dorsal et la longue branche argentée gravée du col sont du côté anatomique gauche. Dans le PNG généré orienté vers la droite, ils sont placés du côté proche anatomique droit. Cette permutation d’asymétrie nécessite une correction ciblée avant validation.",
+          "La rangée de blocs/poches sur le flanc apparaît elle aussi sur le côté droit proche dans le nouveau PNG, tandis que la référence la montre côté gauche ; vérifier ce déplacement avec une vue complémentaire du dos et des hanches.",
+          "Les avant-bras n’ont pas la même inversion apparente : le grand assemblage de plaques rouges est conservé sur l’avant-bras anatomique gauche et le bracelet plus simple sur le droit, comme dans la référence. Il faut préserver cette attribution lors de la correction du col et du manche, sans retourner tout le personnage.",
+          "PNG RGBA 1024×1536, alpha 0–254. Les échantillons du fond sombre ont alpha 0 sauf le point 900,700 de faible alpha 1 ; aucun fond opaque général n’est détecté. Aucun contenu alpha > 16 ne touche un bord ; 7 pixels de faible alpha atteignent le bord gauche.",
+          "Les marges utiles haut/bas sont de 56 et 67 px. Elles évitent la coupe mais ne respectent pas les 10 % du canevas demandés. La pose demeure un trois-quarts, non une vue latérale orthographique certifiée."
+        ],
+        "required_followup": [
+          "Replacer le manche dorsal et la longue branche gravée du col du côté anatomique gauche, en conservant la pose et les avant-bras correctement attribués. Ne pas mirrorer le personnage entier.",
+          "Verifier puis corriger si nécessaire le côté de la rangée de blocs/poches sur le flanc.",
+          "Comparer la correction avec la référence et des vues complémentaires du dos avant de désigner une variante préférée.",
+          "Prévoir davantage de marge verticale pour respecter les 10 % demandés.",
+          "Contrôler les franges de détourage, produire garde latérale, animations et collisions avant intégration."
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 845228,
+            "semitransparent_pixels": 727636,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 669503,
+            "alpha_nonzero_bbox": [
+              0,
+              49,
+              1004,
+              1498
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 7,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 694826,
+            "foreground_bbox_above_threshold": [
+              126,
+              56,
+              913,
+              1469
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 126,
+              "top": 56,
+              "right": 111,
+              "bottom": 67
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "0,0": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "1023,1535": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "100,200": [
+            5,
+            5,
+            5,
+            0
+          ],
+          "100,500": [
+            32,
+            33,
+            36,
+            0
+          ],
+          "900,200": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "900,700": [
+            63,
+            56,
+            56,
+            1
+          ],
+          "512,1535": [
+            27,
+            24,
+            23,
+            0
+          ]
+        },
+        "preferred_for_entity": false,
+        "superseded_by_preferred_sha256": "67507612d2b7129c695b50db2c027e00517b178602a9b8ee5845dda6565fa4e0"
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://www.halopedia.org/Diminisher_of_Hope",
+        "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/1200px-HINF_EscharumRender.png"
+      ],
+      "critical_checks": [
+        "Visage âgé, barbe grise et plastron en V de Halo Infinite ; pas de tresses ou de plaques blanches d'Atriox Wars 2.",
+        "Mains vides ; ni Scrap Cannon ni Diminisher of Hope ne sont représentés dans cette référence.",
+        "La divergence hardlight/plasma des descriptions de Diminisher ne s'applique pas ici, puisque l'arme est absente.",
+        "Contrôler casque/épaules/plastron et silhouette sur le rendu Infinite ; génération seule non certifiante.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "generation_method": "presskit_reference_pose_edit",
+      "reference_input": {
+        "bytes": 9125673,
+        "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+        "width": 2316,
+        "height": 3840,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "escharum_infinite",
+        "character": "Escharum",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_rehosted_official_presskit_render",
+        "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+        "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+        "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+        "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+        "original_filename_recorded": "Escherum.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+        "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+        "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+        "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+        "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+          "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+          "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+          "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+        ],
+        "limits": [
+          "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+          "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+          "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+          "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+          "Does not provide exact 1:1 certification or a complete turnaround."
+        ]
+      }
+    },
+    {
+      "id": "jega_infinite_neutral_right_v01",
+      "entity_id": "jega_infinite",
+      "type": "fighter_pose",
+      "prompt": "Use the TWO attached images of Jega 'Rdomnai from Halo Infinite: the official full-body promotional game render for overall armor geometry and the final-game introduction screenshot to confirm the anatomical details and left/right asymmetry. Create ONE new full-body neutral standing pose of this same character for Halo Combats. Preserve his tall Sangheili build, scarred face, black and dark-gray harness with deep-red markings, Banished chest insignia, layered high collar, angular helmet and sharp claw-like armor ornaments. His anatomical LEFT arm is the slender exposed mechanical replacement with its mechanical hand and inactive Ghostpierce wrist emitter. His anatomical RIGHT arm retains the broad armored biological form and clawed hand. Keep the anatomical LEFT mandibular prostheses exactly as visible. Match BOTH digitigrade legs to the game references: dark textured undersuit, knee coverings, shin guards and armored split feet. Do NOT turn leg armor into an exposed mechanical replacement limb. Re-articulate him into a calm upright stance facing screen RIGHT, near-lateral with a slight three-quarter angle and enough separation to see both arms and both feet. Keep all anatomical asymmetries, do not mirror them. Hands empty and lowered, no handheld bloodblade, all energy blades switched off, camouflage inactive and armor fully opaque. Faithful realistic videogame render, neutral soft lighting without the red weapon glow. Genuine transparent alpha outside the entire character and in the limb gaps; remove all source scenery, logos, promotional graphics and background. Full head, all armor tips and both complete feet within the canvas, with comfortable clear transparent padding on all four sides. No text, labels, ground plane or extra character.",
+      "output": "jega_infinite_neutral_right_v01.png",
+      "qa": "Figure entière haute et mince, armure sombre marquée de rouge, tête et mandibules visibles, mains vides et lames énergétiques désactivées. Le personnage regarde vers la droite en trois-quarts ; la pose n’est pas une vue latérale orthographique stricte. Les deux références ont été vues. Le bras anatomique gauche, côté éloigné dans le nouveau PNG, reste mécaniquement exposé avec sa main articulée et son émetteur de poignet. Le bras anatomique droit proche conserve une forme large sous son armure. Les éléments mandibulaires rouges gauches suivent aussi l’attribution des références. Les deux jambes portent des plaques et une sous-combinaison sombre autour des articulations. La nouvelle sortie ne transforme pas une protection de tibia en jambe mécanique exposée ; aucune conclusion sur des tissus internes invisibles n’est tirée. Contrôle du sommet : le casque est entier visuellement et son contenu alpha > 16 commence à y=8. Aucun pixel alpha > 16 ne touche le bord supérieur. Les deux pieds sont également entiers ; la marge basse au même seuil n’est que de 10 px. Le cadrage est donc très serré et ne respecte pas une demande de marge confortable. PNG RGBA 1024×1536, alpha 0–254 et 1 008 886 pixels totalement transparents. Les échantillons du halo extérieur et du bord haut ont alpha 0. Des pixels de faible alpha 1–16 atteignent les bords gauche, haut et bas ; le détourage doit être contrôlé en composition. Le rendu officiel est promotionnel et antérieur à la sortie, tandis que la capture de jeu a un éclairage et une perspective spécifiques et coupe le bas des pieds. La comparaison soutient les repères visibles ; les détails de casque, de mandibules et de dos restent non certifiés 1:1.",
+      "required_followup": [
+        "Prévoir plus d’espace au-dessus du casque et sous les pieds dans une variante de production ; conserver ce candidat original.",
+        "Verifier les détails des mandibules, doigts mécaniques et surfaces occultées avec des vues complémentaires du modèle final.",
+        "Conserver l’attribution du bras et des mandibules prothétiques à gauche et les deux jambes sous leur armure ; ne pas déduire une jambe remplacée de panneaux métalliques visibles.",
+        "Contrôler les franges sur fonds clairs et sombres puis produire la garde latérale, animations et collisions.",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 4,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave4/jega_infinite_neutral_right_v01.png",
+      "sha256": "ba9ee0cb9d14b01684cad1990413098a8b0172691be4a7c286f12447449f684c",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-23afc673-ce60-4eb3-b554-357bf1ead153.png",
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 26,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1008886,
+        "semitransparent_pixels": 563978,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 500070,
+        "alpha_nonzero_bbox": [
+          0,
+          0,
+          1006,
+          1536
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 19,
+          "right": 0,
+          "top": 30,
+          "bottom": 35
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 530244,
+        "foreground_bbox_above_threshold": [
+          184,
+          8,
+          819,
+          1526
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 184,
+          "top": 8,
+          "right": 205,
+          "bottom": 10
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "jega_infinite",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-23afc673-ce60-4eb3-b554-357bf1ead153.png",
+        "sha256": "ba9ee0cb9d14b01684cad1990413098a8b0172691be4a7c286f12447449f684c",
+        "reviewed_utc": "2026-11-19T20:34:45+00:00",
+        "review_method": "Individual generated PNG compared visually with both the official October 2021 render and released-game introduction capture. Pillow used read-only for dimensions, alpha, edges and SHA-256; no PNG modification.",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "comparison_reference": {
+          "id": "jega_infinite",
+          "character": "Jega 'Rdomnai",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_official_prerelease_engine_render",
+          "source_page_url": "https://www.halowaypoint.com/news/inside-infinite-october-2021",
+          "source_image_url": "https://content.halocdn.com/media/Default/BlogPost/InsideInfinite-Oct2021/haloinfinite_jega-4k-ebcd40e3a6b04326bab0b0de9464e73b.png",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_infinite_official_oct2021.png",
+          "bytes": 5065672,
+          "sha256": "acf99815f653b8adf79ee35f322366d9ee311ffd40c869e61a966b47ceb82248",
+          "width": 3840,
+          "height": 2160,
+          "mode": "RGBA",
+          "alpha_range": [
+            251,
+            255
+          ],
+          "source_scope": "Official 343 Industries Halo Waypoint character render published in Inside Infinite - October 2021 and downloaded from the Halo CDN. The article explicitly describes these images as source models captured in-engine using development tools, with possible differences from their in-game appearance. Pre-release promotional reference only, excluded from published deliverables.",
+          "observed": [
+            "Single Jega full body, including both feet, in a dynamic three-quarter pose facing toward screen left.",
+            "Weathered black/dark gray armor with red markings and lights; exposed scarred gray face, amber eye detail, mechanical mandibular structures and the anatomical left cybernetic arm. Both legs are covered by undersuit and armor.",
+            "Long red energy sword and shorter red wrist-mounted energy blade are activated. The asymmetric mechanical arm and blade assembly are visible; metallic leg surfaces are armor, not evidence of a replaced leg.",
+            "Dark red patterned promotional background, Halo Infinite and 343 Industries logos, and PRE-RELEASE label remain in the unmodified image."
+          ],
+          "limits": [
+            "Promotional pre-release in-engine render; not a guarantee of exact final-game materials, lighting or geometry.",
+            "Not a neutral or orthographic pose. Re-articulate a new right-facing pose and preserve anatomical asymmetry without mirroring the image.",
+            "Energy blades cast saturated orange/red light; use underlying armor structure and material identity without reproducing blade effects or promotional background.",
+            "Single view leaves back and partially occluded regions unverified. No exact turnaround or 1:1 certification.",
+            "Leg armor and underlying tissue must not be conflated: the visual reference does not establish a replaced leg, and internal anatomy under armor is not visible."
+          ],
+          "confirmed_canon": [
+            {
+              "claim": "The anatomical LEFT arm is cybernetic and houses Ghostpierce; a separate traditional bloodblade is held in the RIGHT hand.",
+              "source_url": "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+              "source_type": "official narrative, Canon Fodder: Decennial Delights",
+              "confidence": "very high"
+            },
+            {
+              "claim": "The anatomical LEFT mandibular structures were replaced with prostheses.",
+              "source_url": "https://www.halopedia.org/Jega_%27Rdomnai",
+              "source_type": "secondary sourced canon summary, supported by visible model details",
+              "confidence": "high"
+            }
+          ],
+          "leg_observation": {
+            "interpretation": "The visible long metallic structures, including the one on the anatomical left lower leg at screen right, are shin/foot armor. The two released-game captures show corresponding armored leg structures and textured knee undersuit on both sides.",
+            "scope": "Visual interpretation supported by comparison; no source retrieved establishes a complete leg prosthesis or replacement lower-leg segment. Internal anatomy beneath armor is not certified.",
+            "generation_guidance": "Match the armored digitigrade legs to the references. Do not turn the leg armor into an exposed mechanical replacement limb."
+          },
+          "complementary_references": [
+            {
+              "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+              "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.json",
+              "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+              "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+              "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+            },
+            {
+              "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.png",
+              "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.json",
+              "source_page_url": "https://www.halopedia.org/File:HINF_JegaBattle_1.png",
+              "source_image_url": "https://www.halopedia.org/images/4/40/HINF_JegaBattle_1.png?1b8ea",
+              "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+            }
+          ],
+          "corrections": [
+            {
+              "date": "2026-11-19",
+              "reason": "Corrected an earlier overconfident identification of leg armor as a prosthesis after comparison with two released-game screenshots and textual sources. Only the left arm and left mandibular prostheses are documented as confirmed external replacements here."
+            }
+          ],
+          "additional_reference": {
+            "id": "jega_infinite_game_intro_reference",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+            "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+            "source_uploaded_at": "2024-06-18",
+            "source_scope": "Halopedia-hosted Halo Infinite in-game character screenshot uploaded by JackVibe. File history states that the current June 18, 2024 version replaced a YouTube screenshot with an in-game screenshot. This is a community capture of the released game, not an official press-kit render. Exact game build and capture settings are unspecified. Downloaded without pixel changes in this session; reference input only, excluded from published deliverables.",
+            "observed": [
+              "Front/three-quarter view of Jega with lowered arms and no active energy blades; head, torso, both legs and most of both feet are visible.",
+              "The anatomical left arm, at screen right, has a clearly mechanical upper arm, forearm and articulated hand. Left mandibular prosthetic structures are also visible.",
+              "Both legs show dark textured undersuit at the knees and corresponding thigh plates, shin guards and armored foot structures.",
+              "The long metallic form on the anatomical left lower leg is read as leg armor. This still does not establish a replaced leg or replaced lower-leg segment."
+            ],
+            "limits": [
+              "Opaque gameplay background; this screenshot is not a transparent production cutout.",
+              "The lower edges of the feet are cropped. Use the official full-body render for complete foot silhouettes and add generous margins in new art.",
+              "Scene lighting is green-gray and the capture contains haze; use it principally for geometry and anatomical comparison.",
+              "One perspective only, not an orthographic turnaround. Armor does not reveal internal tissue or possible concealed augmentations."
+            ],
+            "character": "Jega 'Rdomnai",
+            "game": "Halo Infinite (2021)",
+            "kind": "downloaded_community_game_screenshot",
+            "generated": false,
+            "image_modified": false,
+            "visually_inspected": true,
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+            "uploader": "JackVibe",
+            "bytes": 4633074,
+            "sha256": "b2b16ea181da1629d7ea9aa178ad5e0d45961a0351f8954bc474028f8651d82e",
+            "width": 1620,
+            "height": 2160,
+            "mode": "RGBA",
+            "alpha_range": [
+              255,
+              255
+            ]
+          }
+        },
+        "notes": [
+          "Figure entière haute et mince, armure sombre marquée de rouge, tête et mandibules visibles, mains vides et lames énergétiques désactivées. Le personnage regarde vers la droite en trois-quarts ; la pose n’est pas une vue latérale orthographique stricte.",
+          "Les deux références ont été vues. Le bras anatomique gauche, côté éloigné dans le nouveau PNG, reste mécaniquement exposé avec sa main articulée et son émetteur de poignet. Le bras anatomique droit proche conserve une forme large sous son armure. Les éléments mandibulaires rouges gauches suivent aussi l’attribution des références.",
+          "Les deux jambes portent des plaques et une sous-combinaison sombre autour des articulations. La nouvelle sortie ne transforme pas une protection de tibia en jambe mécanique exposée ; aucune conclusion sur des tissus internes invisibles n’est tirée.",
+          "Contrôle du sommet : le casque est entier visuellement et son contenu alpha > 16 commence à y=8. Aucun pixel alpha > 16 ne touche le bord supérieur. Les deux pieds sont également entiers ; la marge basse au même seuil n’est que de 10 px. Le cadrage est donc très serré et ne respecte pas une demande de marge confortable.",
+          "PNG RGBA 1024×1536, alpha 0–254 et 1 008 886 pixels totalement transparents. Les échantillons du halo extérieur et du bord haut ont alpha 0. Des pixels de faible alpha 1–16 atteignent les bords gauche, haut et bas ; le détourage doit être contrôlé en composition.",
+          "Le rendu officiel est promotionnel et antérieur à la sortie, tandis que la capture de jeu a un éclairage et une perspective spécifiques et coupe le bas des pieds. La comparaison soutient les repères visibles ; les détails de casque, de mandibules et de dos restent non certifiés 1:1."
+        ],
+        "required_followup": [
+          "Prévoir plus d’espace au-dessus du casque et sous les pieds dans une variante de production ; conserver ce candidat original.",
+          "Verifier les détails des mandibules, doigts mécaniques et surfaces occultées avec des vues complémentaires du modèle final.",
+          "Conserver l’attribution du bras et des mandibules prothétiques à gauche et les deux jambes sous leur armure ; ne pas déduire une jambe remplacée de panneaux métalliques visibles.",
+          "Contrôler les franges sur fonds clairs et sombres puis produire la garde latérale, animations et collisions."
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1008886,
+            "semitransparent_pixels": 563978,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 500070,
+            "alpha_nonzero_bbox": [
+              0,
+              0,
+              1006,
+              1536
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 19,
+              "right": 0,
+              "top": 30,
+              "bottom": 35
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 530244,
+            "foreground_bbox_above_threshold": [
+              184,
+              8,
+              819,
+              1526
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 184,
+              "top": 8,
+              "right": 205,
+              "bottom": 10
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "0,0": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "1023,1535": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "100,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "100,500": [
+            16,
+            15,
+            15,
+            0
+          ],
+          "900,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "900,700": [
+            12,
+            11,
+            10,
+            0
+          ],
+          "512,0": [
+            67,
+            47,
+            48,
+            0
+          ],
+          "400,0": [
+            35,
+            34,
+            35,
+            0
+          ],
+          "600,0": [
+            59,
+            48,
+            48,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+        "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+        "https://www.halopedia.org/Jega_%27Rdomnai"
+      ],
+      "critical_checks": [
+        "Bras anatomique gauche et mandibules gauches prothétiques ; asymétries non inversées.",
+        "Reproduire les deux jambes couvertes de sous-combinaison et d’armure ; ne pas transformer les jambières en prothèses exposées.",
+        "Émetteur Ghostpierce du bras gauche conservé, lames éteintes.",
+        "Armure noire et rouge d’Infinite, anatomie Sangheili et pieds digitigrades respectés.",
+        "Plein pied vers la droite, fond réellement transparent ; fidélité exacte à contrôler."
+      ],
+      "generation_method": "official_and_game_reference_pose_edit",
+      "reference_input": {
+        "id": "jega_infinite",
+        "character": "Jega 'Rdomnai",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_official_prerelease_engine_render",
+        "source_page_url": "https://www.halowaypoint.com/news/inside-infinite-october-2021",
+        "source_image_url": "https://content.halocdn.com/media/Default/BlogPost/InsideInfinite-Oct2021/haloinfinite_jega-4k-ebcd40e3a6b04326bab0b0de9464e73b.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_infinite_official_oct2021.png",
+        "bytes": 5065672,
+        "sha256": "acf99815f653b8adf79ee35f322366d9ee311ffd40c869e61a966b47ceb82248",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGBA",
+        "alpha_range": [
+          251,
+          255
+        ],
+        "source_scope": "Official 343 Industries Halo Waypoint character render published in Inside Infinite - October 2021 and downloaded from the Halo CDN. The article explicitly describes these images as source models captured in-engine using development tools, with possible differences from their in-game appearance. Pre-release promotional reference only, excluded from published deliverables.",
+        "observed": [
+          "Single Jega full body, including both feet, in a dynamic three-quarter pose facing toward screen left.",
+          "Weathered black/dark gray armor with red markings and lights; exposed scarred gray face, amber eye detail, mechanical mandibular structures and the anatomical left cybernetic arm. Both legs are covered by undersuit and armor.",
+          "Long red energy sword and shorter red wrist-mounted energy blade are activated. The asymmetric mechanical arm and blade assembly are visible; metallic leg surfaces are armor, not evidence of a replaced leg.",
+          "Dark red patterned promotional background, Halo Infinite and 343 Industries logos, and PRE-RELEASE label remain in the unmodified image."
+        ],
+        "limits": [
+          "Promotional pre-release in-engine render; not a guarantee of exact final-game materials, lighting or geometry.",
+          "Not a neutral or orthographic pose. Re-articulate a new right-facing pose and preserve anatomical asymmetry without mirroring the image.",
+          "Energy blades cast saturated orange/red light; use underlying armor structure and material identity without reproducing blade effects or promotional background.",
+          "Single view leaves back and partially occluded regions unverified. No exact turnaround or 1:1 certification.",
+          "Leg armor and underlying tissue must not be conflated: the visual reference does not establish a replaced leg, and internal anatomy under armor is not visible."
+        ],
+        "confirmed_canon": [
+          {
+            "claim": "The anatomical LEFT arm is cybernetic and houses Ghostpierce; a separate traditional bloodblade is held in the RIGHT hand.",
+            "source_url": "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+            "source_type": "official narrative, Canon Fodder: Decennial Delights",
+            "confidence": "very high"
+          },
+          {
+            "claim": "The anatomical LEFT mandibular structures were replaced with prostheses.",
+            "source_url": "https://www.halopedia.org/Jega_%27Rdomnai",
+            "source_type": "secondary sourced canon summary, supported by visible model details",
+            "confidence": "high"
+          }
+        ],
+        "leg_observation": {
+          "interpretation": "The visible long metallic structures, including the one on the anatomical left lower leg at screen right, are shin/foot armor. The two released-game captures show corresponding armored leg structures and textured knee undersuit on both sides.",
+          "scope": "Visual interpretation supported by comparison; no source retrieved establishes a complete leg prosthesis or replacement lower-leg segment. Internal anatomy beneath armor is not certified.",
+          "generation_guidance": "Match the armored digitigrade legs to the references. Do not turn the leg armor into an exposed mechanical replacement limb."
+        },
+        "complementary_references": [
+          {
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+            "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.json",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+            "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+            "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+          },
+          {
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.png",
+            "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.json",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaBattle_1.png",
+            "source_image_url": "https://www.halopedia.org/images/4/40/HINF_JegaBattle_1.png?1b8ea",
+            "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+          }
+        ],
+        "corrections": [
+          {
+            "date": "2026-11-19",
+            "reason": "Corrected an earlier overconfident identification of leg armor as a prosthesis after comparison with two released-game screenshots and textual sources. Only the left arm and left mandibular prostheses are documented as confirmed external replacements here."
+          }
+        ],
+        "additional_reference": {
+          "id": "jega_infinite_game_intro_reference",
+          "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+          "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+          "source_uploaded_at": "2024-06-18",
+          "source_scope": "Halopedia-hosted Halo Infinite in-game character screenshot uploaded by JackVibe. File history states that the current June 18, 2024 version replaced a YouTube screenshot with an in-game screenshot. This is a community capture of the released game, not an official press-kit render. Exact game build and capture settings are unspecified. Downloaded without pixel changes in this session; reference input only, excluded from published deliverables.",
+          "observed": [
+            "Front/three-quarter view of Jega with lowered arms and no active energy blades; head, torso, both legs and most of both feet are visible.",
+            "The anatomical left arm, at screen right, has a clearly mechanical upper arm, forearm and articulated hand. Left mandibular prosthetic structures are also visible.",
+            "Both legs show dark textured undersuit at the knees and corresponding thigh plates, shin guards and armored foot structures.",
+            "The long metallic form on the anatomical left lower leg is read as leg armor. This still does not establish a replaced leg or replaced lower-leg segment."
+          ],
+          "limits": [
+            "Opaque gameplay background; this screenshot is not a transparent production cutout.",
+            "The lower edges of the feet are cropped. Use the official full-body render for complete foot silhouettes and add generous margins in new art.",
+            "Scene lighting is green-gray and the capture contains haze; use it principally for geometry and anatomical comparison.",
+            "One perspective only, not an orthographic turnaround. Armor does not reveal internal tissue or possible concealed augmentations."
+          ],
+          "character": "Jega 'Rdomnai",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_community_game_screenshot",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+          "uploader": "JackVibe",
+          "bytes": 4633074,
+          "sha256": "b2b16ea181da1629d7ea9aa178ad5e0d45961a0351f8954bc474028f8651d82e",
+          "width": 1620,
+          "height": 2160,
+          "mode": "RGBA",
+          "alpha_range": [
+            255,
+            255
+          ]
+        }
+      }
+    },
+    {
+      "id": "escharum_infinite_neutral_right_v02",
+      "entity_id": "escharum_infinite",
+      "type": "fighter_pose",
+      "prompt": "Correct only the specific left/right equipment errors in image 1, the newly generated neutral full-body Escharum render. Image 2 is the Halo Infinite source reference and dictates the anatomical placement. Keep the pose facing screen RIGHT, face, body build, materials and armor design of image 1. Move the long engraved silver collar branch AND the stowed back-weapon handle to Escharum's anatomical LEFT side, which is the farther side at screen RIGHT in image 1. They are currently incorrectly on his anatomical right side at screen left. Restore the nearer anatomical RIGHT collar branch to the shorter corresponding shape from the source. Likewise move the vertical row of waist/flank equipment blocks from the near anatomical RIGHT hip to the farther anatomical LEFT flank, matching image 2. Preserve the forearm asymmetry ALREADY correct in image 1: the larger red-plate forearm armor stays on his LEFT arm at screen right, and the simpler bracelet stays on his RIGHT arm at screen left. Do not mirror the whole character or swap the arms. Keep his hands empty and legs unchanged. Exactly one complete Escharum, including both feet and all top equipment, with generous transparent margins. Maintain true transparent alpha around and between the limbs; no backdrop, gradient, floor or label. Make this a careful equipment-location correction, with all other design features preserved.",
+      "output": "escharum_infinite_neutral_right_v02.png",
+      "qa": "Comparaison de la retouche avec le premier PNG et le rendu de référence : la longue branche argentée gravée du col et le manche dorsal se trouvent maintenant du côté anatomique gauche éloigné, à droite de l’image. La branche du col anatomique droite proche est plus courte, comme l’exige la correction. La rangée verticale de blocs sur le flanc a été déplacée vers la hanche anatomique gauche éloignée. Les protections d’avant-bras ont conservé leur attribution correcte : grand assemblage rouge à gauche anatomique, bracelet plus simple à droite. Aucun miroir global n’est observé. La tête, la barbe, les mains vides, la large silhouette, les deux pieds et le haut de l’équipement restent dans le cadre. Cette variante est préférée pour les asymétries corrigées ; l’original reste conservé comme candidat à corriger. L’arrière et les détails masqués nécessitent encore des vues complémentaires pour toute validation 1:1. PNG RGBA 1024×1536, alpha 0–254, avec 818 628 pixels entièrement transparents. Les échantillons extérieurs sont transparents ; le point 900,700 appartient à l’avant-bras et a alpha 252. Aucun contenu alpha > 16 ne touche un bord ; 14 pixels de faible alpha touchent la gauche. Marges utiles haut/bas de 51 et 66 px : la demande initiale de 10 % n’est toujours pas remplie.",
+      "required_followup": [
+        "Valider les détails dorsaux, le col et les attaches du flanc gauche avec des vues complémentaires.",
+        "Prévoir au moins 10 % de marge transparente au-dessus et sous le personnage dans une version de production.",
+        "Contrôler les franges de faible alpha en composition sur fonds clairs et sombres.",
+        "Produire la garde latérale, animations, collisions et intégration au moteur.",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 4,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave4/escharum_infinite_neutral_right_v02.png",
+      "sha256": "67507612d2b7129c695b50db2c027e00517b178602a9b8ee5845dda6565fa4e0",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fee06234-cc02-4c48-a6e9-a27b4555f9ba.png",
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 27,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 818628,
+        "semitransparent_pixels": 754236,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 693684,
+        "alpha_nonzero_bbox": [
+          0,
+          23,
+          1005,
+          1488
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 14,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 720067,
+        "foreground_bbox_above_threshold": [
+          107,
+          51,
+          928,
+          1470
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 107,
+          "top": 51,
+          "right": 96,
+          "bottom": 66
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "escharum_infinite",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fee06234-cc02-4c48-a6e9-a27b4555f9ba.png",
+        "sha256": "67507612d2b7129c695b50db2c027e00517b178602a9b8ee5845dda6565fa4e0",
+        "reviewed_utc": "2026-11-19T20:37:20+00:00",
+        "review_method": "Individual corrected PNG compared visually against the earlier generated PNG and supplied original game reference. Read-only Pillow dimensions, alpha, edges and SHA-256. Files never edited or resaved during consolidation.",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "comparison_reference": {
+          "bytes": 9125673,
+          "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+          "width": 2316,
+          "height": 3840,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "id": "escharum_infinite",
+          "character": "Escharum",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_rehosted_official_presskit_render",
+          "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+          "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+          "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+          "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+          "original_filename_recorded": "Escherum.png",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+          "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+          "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+          "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+          "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+          "observed": [
+            "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+            "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+            "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+            "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+          ],
+          "limits": [
+            "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+            "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+            "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+            "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+            "Does not provide exact 1:1 certification or a complete turnaround."
+          ]
+        },
+        "comparison_to_previous_source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+        "recommended_over_sha256": "7a05eb37e4990ccca3e07705ae9692785e06d9a0443a98ce003407d37d6c5f41",
+        "preferred_for_entity": true,
+        "preference_reason": "Targeted anatomical placement correction visually confirmed; parent authorized preference after QA. Earlier PNG preserved.",
+        "variant_recommendation": "Prefer the corrected candidate while retaining the first version and its documented defect. No 1:1 certification.",
+        "notes": [
+          "Comparaison de la retouche avec le premier PNG et le rendu de référence : la longue branche argentée gravée du col et le manche dorsal se trouvent maintenant du côté anatomique gauche éloigné, à droite de l’image. La branche du col anatomique droite proche est plus courte, comme l’exige la correction.",
+          "La rangée verticale de blocs sur le flanc a été déplacée vers la hanche anatomique gauche éloignée. Les protections d’avant-bras ont conservé leur attribution correcte : grand assemblage rouge à gauche anatomique, bracelet plus simple à droite. Aucun miroir global n’est observé.",
+          "La tête, la barbe, les mains vides, la large silhouette, les deux pieds et le haut de l’équipement restent dans le cadre. Cette variante est préférée pour les asymétries corrigées ; l’original reste conservé comme candidat à corriger. L’arrière et les détails masqués nécessitent encore des vues complémentaires pour toute validation 1:1.",
+          "PNG RGBA 1024×1536, alpha 0–254, avec 818 628 pixels entièrement transparents. Les échantillons extérieurs sont transparents ; le point 900,700 appartient à l’avant-bras et a alpha 252. Aucun contenu alpha > 16 ne touche un bord ; 14 pixels de faible alpha touchent la gauche. Marges utiles haut/bas de 51 et 66 px : la demande initiale de 10 % n’est toujours pas remplie."
+        ],
+        "required_followup": [
+          "Valider les détails dorsaux, le col et les attaches du flanc gauche avec des vues complémentaires.",
+          "Prévoir au moins 10 % de marge transparente au-dessus et sous le personnage dans une version de production.",
+          "Contrôler les franges de faible alpha en composition sur fonds clairs et sombres.",
+          "Produire la garde latérale, animations, collisions et intégration au moteur."
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 818628,
+            "semitransparent_pixels": 754236,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 693684,
+            "alpha_nonzero_bbox": [
+              0,
+              23,
+              1005,
+              1488
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 14,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 720067,
+            "foreground_bbox_above_threshold": [
+              107,
+              51,
+              928,
+              1470
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 107,
+              "top": 51,
+              "right": 96,
+              "bottom": 66
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "0,0": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "1023,1535": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "100,200": [
+            9,
+            8,
+            7,
+            0
+          ],
+          "100,500": [
+            56,
+            55,
+            60,
+            0
+          ],
+          "900,200": [
+            7,
+            6,
+            7,
+            0
+          ],
+          "900,700": [
+            83,
+            69,
+            66,
+            252
+          ],
+          "512,1535": [
+            29,
+            26,
+            26,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://www.halopedia.org/Diminisher_of_Hope",
+        "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/1200px-HINF_EscharumRender.png"
+      ],
+      "critical_checks": [
+        "Visage âgé, barbe grise et plastron en V de Halo Infinite ; pas de tresses ou de plaques blanches d'Atriox Wars 2.",
+        "Mains vides ; ni Scrap Cannon ni Diminisher of Hope ne sont représentés dans cette référence.",
+        "La divergence hardlight/plasma des descriptions de Diminisher ne s'applique pas ici, puisque l'arme est absente.",
+        "Contrôler casque/épaules/plastron et silhouette sur le rendu Infinite ; génération seule non certifiante.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "generation_method": "targeted_equipment_correction",
+      "reference_input": {
+        "bytes": 9125673,
+        "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+        "width": 2316,
+        "height": 3840,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "escharum_infinite",
+        "character": "Escharum",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_rehosted_official_presskit_render",
+        "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+        "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+        "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+        "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+        "original_filename_recorded": "Escherum.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+        "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+        "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+        "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+        "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+          "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+          "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+          "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+        ],
+        "limits": [
+          "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+          "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+          "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+          "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+          "Does not provide exact 1:1 certification or a complete turnaround."
+        ]
+      },
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png"
+    },
+    {
+      "id": "carter_reach_neutral_right_v02",
+      "entity_id": "carter_reach",
+      "type": "fighter_pose",
+      "prompt": "Make a very targeted marking correction to image 1, the generated full-body Carter-A259 neutral pose. Image 2 is the original Halo: Reach Carter reference. Keep image 1's face-screen-RIGHT pose, armor geometry, blue colors, gold visor, white bands, pouches, LEFT shoulder's gray Commando plate and LEFT forearm TACPAD exactly as they are. The red vertical stripe on the thigh has been placed on the wrong leg: remove that red streak from Carter's near anatomical RIGHT thigh (screen left in image 1), restoring the same weathered blue paint there, and place the corresponding red stripe above the white band on his farther anatomical LEFT thigh (screen right in image 1), as indicated by the source reference. Preserve the white bands on both thighs and preserve the separate red helmet stripe. Do not mirror the body, swap any equipment or add new markings. Both hands empty, full body and complete boots visible, with clear transparent margins. Genuine transparent alpha outside the figure; no scenery, ground, text, colored backdrop or frame. This is a localized thigh-paint correction, not a new character design.",
+      "output": "carter_reach_neutral_right_v02.png",
+      "qa": "Comparaison de la correction avec le premier PNG et la référence Carter de Halo: Reach : la bande rouge verticale a été retirée de la cuisse anatomique droite proche (gauche de l’image) et replacée au-dessus de la bande blanche sur la cuisse anatomique gauche éloignée (droite de l’image). L’erreur de côté ciblée est améliorée. Les bandes blanches des deux cuisses, la bande rouge du casque, la grande épaulière grise anatomique gauche et le TACPAD gauche sont conservés. La pose reste orientée vers la droite, sans inversion globale du corps ; deux mains et deux bottes restent visibles. Cette variante est préférée à la première pour la correction d’asymétrie. Le premier PNG reste conservé avec son défaut documenté. Les détails non visibles de la référence promotionnelle et l’équivalence avec le modèle final ne sont pas certifiés 1:1. PNG RGBA 1024×1536, alpha 0–254, avec 1 015 217 pixels entièrement transparents. Tous les échantillons extérieurs consignés sont alpha 0 ; aucun pixel alpha > 0 ne touche les bords. Le cadrage garde seulement 19 px en haut et 58 px en bas : prévoir une marge supérieure plus ample avant production.",
+      "required_followup": [
+        "Vérifier les autres marquages asymétriques des jambes et les petits éléments avec des vues du modèle final Halo: Reach.",
+        "Prévoir plus de marge supérieure dans la version de production.",
+        "Contrôler les franges de faible alpha en composition sur fonds clairs et sombres.",
+        "Produire la garde latérale, animations, collisions et intégration au moteur.",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 4,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave4/carter_reach_neutral_right_v02.png",
+      "sha256": "5c60d18e82f3d5fe410f54516c730b79112b2d1096c9f17071529e3610fd911b",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-116bffd9-ef54-4940-b11d-475e82064352.png",
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 28,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1015217,
+        "semitransparent_pixels": 557647,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 517742,
+        "alpha_nonzero_bbox": [
+          172,
+          16,
+          988,
+          1487
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 535926,
+        "foreground_bbox_above_threshold": [
+          174,
+          19,
+          816,
+          1478
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 174,
+          "top": 19,
+          "right": 208,
+          "bottom": 58
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Marges inférieures à 2 % du canevas ou à 8 px : top."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "carter_reach",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-116bffd9-ef54-4940-b11d-475e82064352.png",
+        "sha256": "5c60d18e82f3d5fe410f54516c730b79112b2d1096c9f17071529e3610fd911b",
+        "reviewed_utc": "2026-11-19T20:37:20+00:00",
+        "review_method": "Individual corrected PNG compared visually against the earlier generated PNG and supplied original game reference. Read-only Pillow dimensions, alpha, edges and SHA-256. Files never edited or resaved during consolidation.",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "comparison_reference": {
+          "id": "carter_reach",
+          "character": "Carter-A259",
+          "source_page_url": "https://www.halopedia.org/File:HReach_-_A259.png",
+          "source_image_url": "https://www.halopedia.org/images/2/22/HReach_-_A259.png?808f9",
+          "original_filename": "Reach_E310_Carter.jpg",
+          "original_source_archive_url": "https://web.archive.org/web/20110912110348/http://www.bungie.net/projects/reach/images.aspx?c=53&page=1",
+          "kind": "downloaded_archived_presskit_reference",
+          "game": "Halo: Reach (2010)",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/carter_reach_presskit_reference.png",
+          "bytes": 525130,
+          "sha256": "689764736e56888c569e631ce4423865576d301d88c716fe67ad5f99b78fd3a5",
+          "width": 770,
+          "height": 990,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+          "observed": [
+            "Single helmeted Carter-A259, full body including both boots, in blue Halo: Reach armor with gold visor and visible weathered white/gray markings.",
+            "Large gray shoulder plate with white emblem, blue forearm display, waist pouches and back equipment are visible.",
+            "Dynamic running/aiming pose toward screen left, holding an MA37 assault rifle in both hands; one knee is bent and the rear foot is raised.",
+            "The source PNG has an alpha channel. Sampled dark/white rectangular background areas have alpha 0; their RGB appearance in previews must not be copied into new art."
+          ],
+          "limits": [
+            "Not a neutral pose, not a strict side view, and faces left; use for armor identity/materials, then articulate a new right-facing neutral pose without mirroring asymmetric equipment.",
+            "Rifle and bent arms occlude parts of the chest, abdomen and hands; legs overlap, and the rear view is unavailable.",
+            "Original filename Reach_E310_Carter.jpg indicates an E3 2010 promotional render. A possible pre-release detail difference from the final campaign model is not independently ruled out.",
+            "Halopedia file history describes a later extraction with no white edges. This hosted PNG is a derivative archive copy, not a verified byte-identical original Bungie JPG.",
+            "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
+          ]
+        },
+        "comparison_to_previous_source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png",
+        "recommended_over_sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
+        "preferred_for_entity": true,
+        "preference_reason": "Targeted anatomical placement correction visually confirmed; parent authorized preference after QA. Earlier PNG preserved.",
+        "variant_recommendation": "Prefer the corrected candidate while retaining the first version and its documented defect. No 1:1 certification.",
+        "notes": [
+          "Comparaison de la correction avec le premier PNG et la référence Carter de Halo: Reach : la bande rouge verticale a été retirée de la cuisse anatomique droite proche (gauche de l’image) et replacée au-dessus de la bande blanche sur la cuisse anatomique gauche éloignée (droite de l’image). L’erreur de côté ciblée est améliorée.",
+          "Les bandes blanches des deux cuisses, la bande rouge du casque, la grande épaulière grise anatomique gauche et le TACPAD gauche sont conservés. La pose reste orientée vers la droite, sans inversion globale du corps ; deux mains et deux bottes restent visibles.",
+          "Cette variante est préférée à la première pour la correction d’asymétrie. Le premier PNG reste conservé avec son défaut documenté. Les détails non visibles de la référence promotionnelle et l’équivalence avec le modèle final ne sont pas certifiés 1:1.",
+          "PNG RGBA 1024×1536, alpha 0–254, avec 1 015 217 pixels entièrement transparents. Tous les échantillons extérieurs consignés sont alpha 0 ; aucun pixel alpha > 0 ne touche les bords. Le cadrage garde seulement 19 px en haut et 58 px en bas : prévoir une marge supérieure plus ample avant production."
+        ],
+        "required_followup": [
+          "Vérifier les autres marquages asymétriques des jambes et les petits éléments avec des vues du modèle final Halo: Reach.",
+          "Prévoir plus de marge supérieure dans la version de production.",
+          "Contrôler les franges de faible alpha en composition sur fonds clairs et sombres.",
+          "Produire la garde latérale, animations, collisions et intégration au moteur."
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1015217,
+            "semitransparent_pixels": 557647,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 517742,
+            "alpha_nonzero_bbox": [
+              172,
+              16,
+              988,
+              1487
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 535926,
+            "foreground_bbox_above_threshold": [
+              174,
+              19,
+              816,
+              1478
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 174,
+              "top": 19,
+              "right": 208,
+              "bottom": 58
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Marges inférieures à 2 % du canevas ou à 8 px : top."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "0,0": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "1023,1535": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "100,200": [
+            2,
+            2,
+            3,
+            0
+          ],
+          "100,500": [
+            20,
+            21,
+            24,
+            0
+          ],
+          "900,200": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "900,700": [
+            24,
+            23,
+            23,
+            0
+          ],
+          "512,1535": [
+            21,
+            20,
+            17,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halopedia.org/File:HR_PK_Six%26Carter.jpg",
+        "https://www.halopedia.org/Carter"
+      ],
+      "critical_checks": [
+        "Bleu plus soutenu que Kat, casque Commando HUL[3] de Reach, deux bras normalement blindés.",
+        "Commando à l'épaule gauche, Mark V à droite et TACPAD à gauche, sans mirroring.",
+        "Mains vides ; ni M392 DMR ni VK78 ne sont demandés dans cette référence.",
+        "Conserver les pièces Reach, sans adaptation GEN2 Halo 5 ni kit Infinite ; comparer au modèle de la capture du press kit.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "generation_method": "targeted_marking_correction",
+      "reference_input": {
+        "id": "carter_reach",
+        "character": "Carter-A259",
+        "source_page_url": "https://www.halopedia.org/File:HReach_-_A259.png",
+        "source_image_url": "https://www.halopedia.org/images/2/22/HReach_-_A259.png?808f9",
+        "original_filename": "Reach_E310_Carter.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110912110348/http://www.bungie.net/projects/reach/images.aspx?c=53&page=1",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/carter_reach_presskit_reference.png",
+        "bytes": 525130,
+        "sha256": "689764736e56888c569e631ce4423865576d301d88c716fe67ad5f99b78fd3a5",
+        "width": 770,
+        "height": 990,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted Carter-A259, full body including both boots, in blue Halo: Reach armor with gold visor and visible weathered white/gray markings.",
+          "Large gray shoulder plate with white emblem, blue forearm display, waist pouches and back equipment are visible.",
+          "Dynamic running/aiming pose toward screen left, holding an MA37 assault rifle in both hands; one knee is bent and the rear foot is raised.",
+          "The source PNG has an alpha channel. Sampled dark/white rectangular background areas have alpha 0; their RGB appearance in previews must not be copied into new art."
+        ],
+        "limits": [
+          "Not a neutral pose, not a strict side view, and faces left; use for armor identity/materials, then articulate a new right-facing neutral pose without mirroring asymmetric equipment.",
+          "Rifle and bent arms occlude parts of the chest, abdomen and hands; legs overlap, and the rear view is unavailable.",
+          "Original filename Reach_E310_Carter.jpg indicates an E3 2010 promotional render. A possible pre-release detail difference from the final campaign model is not independently ruled out.",
+          "Halopedia file history describes a later extraction with no white edges. This hosted PNG is a derivative archive copy, not a verified byte-identical original Bungie JPG.",
+          "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
+        ]
+      },
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png"
     }
   ],
-  "updated_utc": "2026-11-19T20:25:42+00:00",
-  "generated_fighter_entities": 20
+  "updated_utc": "2026-11-19T20:38:47+00:00",
+  "generated_fighter_entities": 24
 }

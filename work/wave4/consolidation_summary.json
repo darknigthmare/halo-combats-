@@ -1,22 +1,14 @@
 {
-  "updated_utc": "2026-11-19T20:25:42+00:00",
+  "updated_utc": "2026-11-19T20:38:47+00:00",
   "generation_wave": 4,
-  "journal_sha256": "43e3010928749738471da1de5beb82954be38a35da32b86527ac626b0e735103",
+  "journal_sha256": "cba92f798809d5d90eb97cf52416e5475baed525f6dcc990dc29657becb4f650",
   "roster_count": 24,
   "roster_unique_ids": 24,
   "missing_before_this_run": [
-    "chief_infinite",
-    "johnson_h3",
     "emile_reach",
-    "jorge_reach",
-    "jun_reach",
-    "kat_reach",
-    "carter_reach",
-    "tartarus_h2",
     "escharum_infinite",
     "jega_infinite",
-    "chak_lok",
-    "douglas_hw2"
+    "chak_lok"
   ],
   "missing_before_wave4": [
     "chief_infinite",
@@ -32,38 +24,34 @@
     "chak_lok",
     "douglas_hw2"
   ],
-  "new_candidate_assets_this_run": 9,
+  "new_candidate_assets_this_run": 6,
   "new_candidate_entities_this_run": [
     "carter_reach",
+    "chak_lok",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite"
+  ],
+  "fighter_entities_with_candidates": 24,
+  "fighter_candidate_asset_count": 27,
+  "fighter_entities_without_candidates": [],
+  "wave4_candidate_asset_count": 15,
+  "wave4_candidate_entities": [
+    "carter_reach",
+    "chak_lok",
     "chief_infinite",
     "douglas_hw2",
-    "johnson_h3",
-    "jorge_reach",
-    "jun_reach",
-    "kat_reach",
-    "tartarus_h2"
-  ],
-  "fighter_entities_with_candidates": 20,
-  "fighter_candidate_asset_count": 21,
-  "fighter_entities_without_candidates": [
     "emile_reach",
     "escharum_infinite",
     "jega_infinite",
-    "chak_lok"
-  ],
-  "wave4_candidate_asset_count": 9,
-  "wave4_candidate_entities": [
-    "carter_reach",
-    "chief_infinite",
-    "douglas_hw2",
     "johnson_h3",
     "jorge_reach",
     "jun_reach",
     "kat_reach",
     "tartarus_h2"
   ],
-  "wave4_neutral_unarmed_asset_count": 9,
-  "generation_attempt_count": 21,
+  "wave4_neutral_unarmed_asset_count": 15,
+  "generation_attempt_count": 29,
   "unique_fighters_requested": [
     "carter_reach",
     "chak_lok",
@@ -78,7 +66,7 @@
     "kat_reach",
     "tartarus_h2"
   ],
-  "successful_generation_attempts": 9,
+  "successful_generation_attempts": 15,
   "failed_attempts_in_journal": [
     {
       "entity_id": "chief_infinite",
@@ -199,10 +187,30 @@
       "source_journal": "work/wave4/generation_results.json",
       "journal_record": 14,
       "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ab333b84-5a84-4415-a423-d5d465098a68.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Escharum for the Halo Combats 2D fighting character set. Preserve the exact elderly Jiralhanae face, bald grey head, grey beard, broad heavy build, dark charcoal armor, worn deep-red markings, distinctive engraved silver neck and shoulder panels, chest geometry, asymmetrical forearm armor and wide leg armor shown. Keep the stowed back equipment and handle visible where appropriate. Do not replace him with Atriox or a generic Brute chieftain. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 21,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d14e80c6-d844-4169-ace5-f0bc87adfec0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the TWO attached images of Jega 'Rdomnai from Halo Infinite: the official full-body promotional game render for overall armor geometry and the final-game introduction screenshot to confirm the anatomical details and left/right asymmetry. Create ONE new full-body neutral standing pose of this same character for Halo Combats. Preserve his tall Sangheili build, scarred face, black and dark-gray harness with deep-red markings, Banished chest insignia, layered high collar, angular helmet and sharp claw-like armor ornaments. His anatomical LEFT arm is the slender exposed mechanical replacement with its mechanical hand and inactive Ghostpierce wrist emitter. His anatomical RIGHT arm retains the broad armored biological form and clawed hand. Keep the anatomical LEFT mandibular prostheses exactly as visible. Match BOTH digitigrade legs to the game references: dark textured undersuit, knee coverings, shin guards and armored split feet. Do NOT turn leg armor into an exposed mechanical replacement limb. Re-articulate him into a calm upright stance facing screen RIGHT, near-lateral with a slight three-quarter angle and enough separation to see both arms and both feet. Keep all anatomical asymmetries, do not mirror them. Hands empty and lowered, no handheld bloodblade, all energy blades switched off, camouflage inactive and armor fully opaque. Faithful realistic videogame render, neutral soft lighting without the red weapon glow. Genuine transparent alpha outside the entire character and in the limb gaps; remove all source scenery, logos, promotional graphics and background. Full head, all armor tips and both complete feet within the canvas, with comfortable clear transparent padding on all four sides. No text, labels, ground plane or extra character.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 24,
+      "attempt_kind": "neutral_unarmed"
     }
   ],
-  "automatic_rejections_in_journal": 12,
-  "historical_failed_attempt_count": 59,
+  "automatic_rejections_in_journal": 14,
+  "historical_failed_attempt_count": 61,
   "historical_failed_fighters": [
     "alice_hw2",
     "buck_odst",
@@ -227,8 +235,12 @@
     "alice_hw2",
     "buck_odst",
     "carter_reach",
+    "chak_lok",
     "chief_infinite",
     "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
     "johnson_h3",
     "jorge_reach",
     "jun_reach",
@@ -239,12 +251,7 @@
     "tartarus_h2",
     "zealot_reach"
   ],
-  "failed_fighters_still_without_candidate": [
-    "chak_lok",
-    "emile_reach",
-    "escharum_infinite",
-    "jega_infinite"
-  ],
+  "failed_fighters_still_without_candidate": [],
   "missing_not_attempted_this_wave": [],
   "duplicate_records_skipped": [],
   "reused_prior_candidate_records": [],
@@ -258,7 +265,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/kat_reach_neutral_right_v01.png",
       "asset_id": "kat_reach_neutral_right_v01",
       "sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "chief_infinite",
@@ -266,7 +273,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/chief_infinite_neutral_right_v01.png",
       "asset_id": "chief_infinite_neutral_right_v01",
       "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "kat_reach",
@@ -274,7 +281,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/kat_reach_neutral_right_v02.png",
       "asset_id": "kat_reach_neutral_right_v02",
       "sha256": "fc28c8a9484737f4fa5948ebc3ce3dc7d484c692abc39c522a3f6e2930a2ba47",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "jorge_reach",
@@ -282,7 +289,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/jorge_reach_neutral_right_v01.png",
       "asset_id": "jorge_reach_neutral_right_v01",
       "sha256": "6ef5f8aba6b4e9f3e02be8b0d5e853bdbedab2291d1c23b6db8df2247fe4de88",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "jun_reach",
@@ -290,7 +297,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/jun_reach_neutral_right_v01.png",
       "asset_id": "jun_reach_neutral_right_v01",
       "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "carter_reach",
@@ -298,7 +305,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/carter_reach_neutral_right_v01.png",
       "asset_id": "carter_reach_neutral_right_v01",
       "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "johnson_h3",
@@ -306,7 +313,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/johnson_h3_neutral_right_v01.png",
       "asset_id": "johnson_h3_neutral_right_v01",
       "sha256": "bdf818ecad9a7dd4edd380fee874c06ac06b6c813f16be8b102a26f3422e6fa9",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "tartarus_h2",
@@ -314,7 +321,7 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
       "asset_id": "tartarus_h2_neutral_right_v01",
       "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31",
-      "reused": false
+      "reused": true
     },
     {
       "entity_id": "douglas_hw2",
@@ -322,6 +329,54 @@
       "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
       "asset_id": "douglas_hw2_neutral_right_v01",
       "sha256": "836d420ea32c153e589ed56ea99e1a3722e50d3b0a2d154126e5661ea611a537",
+      "reused": true
+    },
+    {
+      "entity_id": "chak_lok",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-90f5b18c-d6be-4ad9-9c91-59ed25dc6224.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/chak_lok_neutral_right_v01.png",
+      "asset_id": "chak_lok_neutral_right_v01",
+      "sha256": "c7d2d7b0ca710e3fc458606e6184c291ec441c1002d1c083e282401274aa9fbb",
+      "reused": false
+    },
+    {
+      "entity_id": "emile_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2f7c6c52-3484-48a5-9d8f-372fa3ce2886.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/emile_reach_neutral_right_v01.png",
+      "asset_id": "emile_reach_neutral_right_v01",
+      "sha256": "886408dcae827eac054061ffc9e71432fa5808b6ce0bd8b480ab02b5d66e2c92",
+      "reused": false
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/escharum_infinite_neutral_right_v01.png",
+      "asset_id": "escharum_infinite_neutral_right_v01",
+      "sha256": "7a05eb37e4990ccca3e07705ae9692785e06d9a0443a98ce003407d37d6c5f41",
+      "reused": false
+    },
+    {
+      "entity_id": "jega_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-23afc673-ce60-4eb3-b554-357bf1ead153.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/jega_infinite_neutral_right_v01.png",
+      "asset_id": "jega_infinite_neutral_right_v01",
+      "sha256": "ba9ee0cb9d14b01684cad1990413098a8b0172691be4a7c286f12447449f684c",
+      "reused": false
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fee06234-cc02-4c48-a6e9-a27b4555f9ba.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/escharum_infinite_neutral_right_v02.png",
+      "asset_id": "escharum_infinite_neutral_right_v02",
+      "sha256": "67507612d2b7129c695b50db2c027e00517b178602a9b8ee5845dda6565fa4e0",
+      "reused": false
+    },
+    {
+      "entity_id": "carter_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-116bffd9-ef54-4940-b11d-475e82064352.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/carter_reach_neutral_right_v02.png",
+      "asset_id": "carter_reach_neutral_right_v02",
+      "sha256": "5c60d18e82f3d5fe410f54516c730b79112b2d1096c9f17071529e3610fd911b",
       "reused": false
     }
   ],

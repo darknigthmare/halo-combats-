@@ -614,6 +614,673 @@
       },
       "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f5143a0-90d7-46ac-bc7f-7624326cb70e.png",
       "status": "generated_candidate"
+    },
+    {
+      "id": "escharum_infinite",
+      "name": "Escharum",
+      "era": "Halo Infinite",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Escharum for the Halo Combats 2D fighting character set. Preserve the exact elderly Jiralhanae face, bald grey head, grey beard, broad heavy build, dark charcoal armor, worn deep-red markings, distinctive engraved silver neck and shoulder panels, chest geometry, asymmetrical forearm armor and wide leg armor shown. Keep the stowed back equipment and handle visible where appropriate. Do not replace him with Atriox or a generic Brute chieftain. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://www.halopedia.org/Diminisher_of_Hope",
+        "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/1200px-HINF_EscharumRender.png"
+      ],
+      "critical_checks": [
+        "Visage âgé, barbe grise et plastron en V de Halo Infinite ; pas de tresses ou de plaques blanches d'Atriox Wars 2.",
+        "Mains vides ; ni Scrap Cannon ni Diminisher of Hope ne sont représentés dans cette référence.",
+        "La divergence hardlight/plasma des descriptions de Diminisher ne s'applique pas ici, puisque l'arme est absente.",
+        "Contrôler casque/épaules/plastron et silhouette sur le rendu Infinite ; génération seule non certifiante.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "escharum_infinite",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "presskit_reference_pose_edit",
+      "reference_input": {
+        "bytes": 9125673,
+        "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+        "width": 2316,
+        "height": 3840,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "escharum_infinite",
+        "character": "Escharum",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_rehosted_official_presskit_render",
+        "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+        "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+        "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+        "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+        "original_filename_recorded": "Escherum.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+        "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+        "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+        "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+        "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+          "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+          "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+          "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+        ],
+        "limits": [
+          "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+          "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+          "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+          "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+          "Does not provide exact 1:1 certification or a complete turnaround."
+        ]
+      },
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ab333b84-5a84-4415-a423-d5d465098a68.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "id": "chak_lok",
+      "name": "Chak 'Lok",
+      "era": "Halo Infinite",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Chak 'Lok for the Halo Combats 2D fighting character set. Preserve Chak 'Lok's actual Halo Infinite model from the attached screenshot: gold/ochre angular armor with red motifs, the tall paired helmet fins, high shaped collar, shoulder and forearm plates, dark underarmor, Sangheili mandibles and digitigrade split feet. Maintain his own helmet silhouette rather than a Halo CE golden Elite or a Reach Zealot. Remove the handheld energy sword and its blue cast light from this neutral pose; keep his anatomy and armor intact. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-of-protocols-and-prisons",
+        "https://www.halopedia.org/Chak_%27Lok"
+      ],
+      "critical_checks": [
+        "Armure et casque dorés de Chak 'Lok dans Infinite ; ni Zealot rouge Reach ni Elite doré de Halo CE.",
+        "Mandibules et membres biologiques intacts ; aucune prothèse de Jega ou modification de Rtas.",
+        "Mains vides, épée à énergie absente ; armure opaque et camouflage inactif.",
+        "La source officielle confirme le personnage et le contexte ; les formes exactes exigent une comparaison à la campagne Infinite.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "chak_lok",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "game_reference_pose_edit",
+      "reference_input": {
+        "bytes": 887510,
+        "sha256": "4cd0ce3889df45ca53751f092cb349deaf4092d32e6360060566713fd6903333",
+        "width": 750,
+        "height": 968,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "chak_lok",
+        "character": "Chak 'Lok",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_community_cutout_of_game_screenshot",
+        "source_page_url": "https://www.halopedia.org/File:HINF_ChakLok2.png",
+        "source_image_url": "https://www.halopedia.org/images/2/26/HINF_ChakLok2.png?0463d",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/chak_lok_infinite_screenshot_reference.png",
+        "uploader": "Nakai Vodar",
+        "source_uploaded_at": "2024-01-05",
+        "source_scope": "Halopedia-hosted cutout made by the uploader from a Halo Infinite character screenshot. The file page explicitly identifies the game, character, screenshot type and self-created source. This is not an official promotional render, and the game build, capture settings and method are not provided. This session downloaded the file without changing its bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Chak Lok, full body including both digitigrade feet, in a frontal/three-quarter armed stance.",
+          "Gold/ochre angular armor with red markings over a dark under-suit, tall paired helmet fins, high sculpted collar and prominent shoulder/forearm plates.",
+          "Blue energy sword held at screen left; opposite clawed hand open. Mouth/neck and undersuit receive blue lighting.",
+          "Helmet tips, feet and sword approach the image edges. Alpha channel is present; background RGB remnants should not be copied into new art."
+        ],
+        "limits": [
+          "Community screenshot cutout, not an independently verified official press-kit render or model export. Final-game build and capture setup unspecified.",
+          "Only one mostly frontal armed view; no exact side/back turnaround. Neutral right-facing body articulation must be newly posed.",
+          "Very tight crop around helmet, feet and sword tips; do not reproduce cropping in the new full-body reference.",
+          "Blue sword light and scene illumination affect colors; material accuracy beyond visible surfaces is not certified."
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-90f5b18c-d6be-4ad9-9c91-59ed25dc6224.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "emile_reach",
+      "name": "Emile-A239",
+      "era": "Halo: Reach (2010)",
+      "prompt": "Use the attached Halo: Reach game reference as the visual identity and armor source. Make a new single-character full-body pose of Emile-A239 for the Halo Combats 2D fighting-game asset set. Preserve Emile-A239's original 2010 Reach armor, weathered charcoal plates, skull etched into the gold EVA visor, the large red anatomical RIGHT Security shoulder and its stowed kukri assembly, asymmetric opposite shoulder, chest pouches and grenade belt. The carving is an engraving on a visor, not an exposed skull. Follow the input's shapes and worn paint precisely. Change the articulation to a calm upright neutral stance, facing screen RIGHT, almost lateral, with the character's anatomical right side nearer the viewer and only enough three-quarter visibility to identify the helmet and torso. Hands empty and relaxed, forearms slightly away from the torso, feet planted, both boots fully visible. Remove the handheld firearm from the reference; keep only the small holstered/stowed equipment already belonging to this exact character. Preserve anatomical left/right asymmetries; do not mirror the design. Faithful detailed realistic videogame character render, readable armor plates and proportions, consistent soft neutral lighting, restrained surface wear. Exactly ONE character on a genuinely transparent alpha background, no scenery, no floor plane, no text or label, no drop-shadow panel. Full body including antennas, shoulder equipment and both soles, with comfortable clear transparent margins on every side. This is a new neutral pose derived from the attached game reference, not a redesign or a collage.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halowaypoint.com/news/feet-first-into-fall",
+        "https://www.halopedia.org/Emile"
+      ],
+      "critical_checks": [
+        "Crâne gravé sur la visière dorée EVA[C], pas masque en os ou casque blanc.",
+        "Security et kukri rengainé anatomiquement à droite ; Operator à gauche. Ne pas inverser en miroir.",
+        "Mains vides, shotgun absent ; le kukri reste dans son fourreau, équipement fixé au harnais.",
+        "Le fan art Spotlight ne certifie pas la géométrie ; comparer les pièces au modèle Reach.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "emile_reach",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "archived_presskit_reference_pose_edit",
+      "reference_input": {
+        "id": "emile_reach",
+        "character": "Emile-A239",
+        "source_page_url": "https://www.halopedia.org/File:Emile-A239.png",
+        "source_image_url": "https://www.halopedia.org/images/4/4c/Emile-A239.png?903e7",
+        "original_filename": "Emile_right1.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/emile_reach_presskit_reference.png",
+        "bytes": 418268,
+        "sha256": "a6ae4dae6ee9d67f3382ad51128fcc76674f8b63bed2f6e5e44e34bff05c2691",
+        "width": 660,
+        "height": 1020,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted full-body Emile render, with both boots present.",
+          "Original Reach charcoal armor, red right-shoulder plate, skull engraving on the gold EVA visor, chest equipment and prominent shoulder-mounted knife assembly.",
+          "Shotgun held in both hands, aimed toward screen right.",
+          "Dynamic three-quarter stance with one leg behind the other."
+        ],
+        "limits": [
+          "Armed aiming pose, not a neutral stance or strict orthographic profile.",
+          "Weapon and arms obscure upper chest details; rear leg partly occluded.",
+          "Archived PNG is 660 by 1020, with no added resolution or invented hidden details."
+        ]
+      },
+      "retry_of_attempt": 15,
+      "retry_reason": "User asked to continue all missing characters; exact same reference-guided prompt and input retained.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2f7c6c52-3484-48a5-9d8f-372fa3ce2886.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "jega_infinite",
+      "name": "Jega 'Rdomnai",
+      "era": "Halo Infinite",
+      "prompt": "Use the TWO attached images of Jega 'Rdomnai from Halo Infinite: the official full-body promotional game render for overall armor geometry and the final-game introduction screenshot to confirm the anatomical details and left/right asymmetry. Create ONE new full-body neutral standing pose of this same character for Halo Combats. Preserve his tall Sangheili build, scarred face, black and dark-gray harness with deep-red markings, Banished chest insignia, layered high collar, angular helmet and sharp claw-like armor ornaments. His anatomical LEFT arm is the slender exposed mechanical replacement with its mechanical hand and inactive Ghostpierce wrist emitter. His anatomical RIGHT arm retains the broad armored biological form and clawed hand. Keep the anatomical LEFT mandibular prostheses exactly as visible. Match BOTH digitigrade legs to the game references: dark textured undersuit, knee coverings, shin guards and armored split feet. Do NOT turn leg armor into an exposed mechanical replacement limb. Re-articulate him into a calm upright stance facing screen RIGHT, near-lateral with a slight three-quarter angle and enough separation to see both arms and both feet. Keep all anatomical asymmetries, do not mirror them. Hands empty and lowered, no handheld bloodblade, all energy blades switched off, camouflage inactive and armor fully opaque. Faithful realistic videogame render, neutral soft lighting without the red weapon glow. Genuine transparent alpha outside the entire character and in the limb gaps; remove all source scenery, logos, promotional graphics and background. Full head, all armor tips and both complete feet within the canvas, with comfortable clear transparent padding on all four sides. No text, labels, ground plane or extra character.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+        "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+        "https://www.halopedia.org/Jega_%27Rdomnai"
+      ],
+      "critical_checks": [
+        "Bras anatomique gauche et mandibules gauches prothétiques ; asymétries non inversées.",
+        "Reproduire les deux jambes couvertes de sous-combinaison et d’armure ; ne pas transformer les jambières en prothèses exposées.",
+        "Émetteur Ghostpierce du bras gauche conservé, lames éteintes.",
+        "Armure noire et rouge d’Infinite, anatomie Sangheili et pieds digitigrades respectés.",
+        "Plein pied vers la droite, fond réellement transparent ; fidélité exacte à contrôler."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "jega_infinite",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "official_and_game_reference_pose_edit",
+      "reference_input": {
+        "id": "jega_infinite",
+        "character": "Jega 'Rdomnai",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_official_prerelease_engine_render",
+        "source_page_url": "https://www.halowaypoint.com/news/inside-infinite-october-2021",
+        "source_image_url": "https://content.halocdn.com/media/Default/BlogPost/InsideInfinite-Oct2021/haloinfinite_jega-4k-ebcd40e3a6b04326bab0b0de9464e73b.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_infinite_official_oct2021.png",
+        "bytes": 5065672,
+        "sha256": "acf99815f653b8adf79ee35f322366d9ee311ffd40c869e61a966b47ceb82248",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGBA",
+        "alpha_range": [
+          251,
+          255
+        ],
+        "source_scope": "Official 343 Industries Halo Waypoint character render published in Inside Infinite - October 2021 and downloaded from the Halo CDN. The article explicitly describes these images as source models captured in-engine using development tools, with possible differences from their in-game appearance. Pre-release promotional reference only, excluded from published deliverables.",
+        "observed": [
+          "Single Jega full body, including both feet, in a dynamic three-quarter pose facing toward screen left.",
+          "Weathered black/dark gray armor with red markings and lights; exposed scarred gray face, amber eye detail, mechanical mandibular structures and the anatomical left cybernetic arm. Both legs are covered by undersuit and armor.",
+          "Long red energy sword and shorter red wrist-mounted energy blade are activated. The asymmetric mechanical arm and blade assembly are visible; metallic leg surfaces are armor, not evidence of a replaced leg.",
+          "Dark red patterned promotional background, Halo Infinite and 343 Industries logos, and PRE-RELEASE label remain in the unmodified image."
+        ],
+        "limits": [
+          "Promotional pre-release in-engine render; not a guarantee of exact final-game materials, lighting or geometry.",
+          "Not a neutral or orthographic pose. Re-articulate a new right-facing pose and preserve anatomical asymmetry without mirroring the image.",
+          "Energy blades cast saturated orange/red light; use underlying armor structure and material identity without reproducing blade effects or promotional background.",
+          "Single view leaves back and partially occluded regions unverified. No exact turnaround or 1:1 certification.",
+          "Leg armor and underlying tissue must not be conflated: the visual reference does not establish a replaced leg, and internal anatomy under armor is not visible."
+        ],
+        "confirmed_canon": [
+          {
+            "claim": "The anatomical LEFT arm is cybernetic and houses Ghostpierce; a separate traditional bloodblade is held in the RIGHT hand.",
+            "source_url": "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+            "source_type": "official narrative, Canon Fodder: Decennial Delights",
+            "confidence": "very high"
+          },
+          {
+            "claim": "The anatomical LEFT mandibular structures were replaced with prostheses.",
+            "source_url": "https://www.halopedia.org/Jega_%27Rdomnai",
+            "source_type": "secondary sourced canon summary, supported by visible model details",
+            "confidence": "high"
+          }
+        ],
+        "leg_observation": {
+          "interpretation": "The visible long metallic structures, including the one on the anatomical left lower leg at screen right, are shin/foot armor. The two released-game captures show corresponding armored leg structures and textured knee undersuit on both sides.",
+          "scope": "Visual interpretation supported by comparison; no source retrieved establishes a complete leg prosthesis or replacement lower-leg segment. Internal anatomy beneath armor is not certified.",
+          "generation_guidance": "Match the armored digitigrade legs to the references. Do not turn the leg armor into an exposed mechanical replacement limb."
+        },
+        "complementary_references": [
+          {
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+            "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.json",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+            "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+            "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+          },
+          {
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.png",
+            "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.json",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaBattle_1.png",
+            "source_image_url": "https://www.halopedia.org/images/4/40/HINF_JegaBattle_1.png?1b8ea",
+            "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+          }
+        ],
+        "corrections": [
+          {
+            "date": "2026-11-19",
+            "reason": "Corrected an earlier overconfident identification of leg armor as a prosthesis after comparison with two released-game screenshots and textual sources. Only the left arm and left mandibular prostheses are documented as confirmed external replacements here."
+          }
+        ],
+        "additional_reference": {
+          "id": "jega_infinite_game_intro_reference",
+          "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+          "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+          "source_uploaded_at": "2024-06-18",
+          "source_scope": "Halopedia-hosted Halo Infinite in-game character screenshot uploaded by JackVibe. File history states that the current June 18, 2024 version replaced a YouTube screenshot with an in-game screenshot. This is a community capture of the released game, not an official press-kit render. Exact game build and capture settings are unspecified. Downloaded without pixel changes in this session; reference input only, excluded from published deliverables.",
+          "observed": [
+            "Front/three-quarter view of Jega with lowered arms and no active energy blades; head, torso, both legs and most of both feet are visible.",
+            "The anatomical left arm, at screen right, has a clearly mechanical upper arm, forearm and articulated hand. Left mandibular prosthetic structures are also visible.",
+            "Both legs show dark textured undersuit at the knees and corresponding thigh plates, shin guards and armored foot structures.",
+            "The long metallic form on the anatomical left lower leg is read as leg armor. This still does not establish a replaced leg or replaced lower-leg segment."
+          ],
+          "limits": [
+            "Opaque gameplay background; this screenshot is not a transparent production cutout.",
+            "The lower edges of the feet are cropped. Use the official full-body render for complete foot silhouettes and add generous margins in new art.",
+            "Scene lighting is green-gray and the capture contains haze; use it principally for geometry and anatomical comparison.",
+            "One perspective only, not an orthographic turnaround. Armor does not reveal internal tissue or possible concealed augmentations."
+          ],
+          "character": "Jega 'Rdomnai",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_community_game_screenshot",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+          "uploader": "JackVibe",
+          "bytes": 4633074,
+          "sha256": "b2b16ea181da1629d7ea9aa178ad5e0d45961a0351f8954bc474028f8651d82e",
+          "width": 1620,
+          "height": 2160,
+          "mode": "RGBA",
+          "alpha_range": [
+            255,
+            255
+          ]
+        }
+      },
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d14e80c6-d844-4169-ace5-f0bc87adfec0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "id": "escharum_infinite",
+      "name": "Escharum",
+      "era": "Halo Infinite",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Escharum for the Halo Combats 2D fighting character set. Preserve the exact elderly Jiralhanae face, bald grey head, grey beard, broad heavy build, dark charcoal armor, worn deep-red markings, distinctive engraved silver neck and shoulder panels, chest geometry, asymmetrical forearm armor and wide leg armor shown. Keep the stowed back equipment and handle visible where appropriate. Do not replace him with Atriox or a generic Brute chieftain. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://www.halopedia.org/Diminisher_of_Hope",
+        "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/1200px-HINF_EscharumRender.png"
+      ],
+      "critical_checks": [
+        "Visage âgé, barbe grise et plastron en V de Halo Infinite ; pas de tresses ou de plaques blanches d'Atriox Wars 2.",
+        "Mains vides ; ni Scrap Cannon ni Diminisher of Hope ne sont représentés dans cette référence.",
+        "La divergence hardlight/plasma des descriptions de Diminisher ne s'applique pas ici, puisque l'arme est absente.",
+        "Contrôler casque/épaules/plastron et silhouette sur le rendu Infinite ; génération seule non certifiante.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "escharum_infinite",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "presskit_reference_pose_edit",
+      "reference_input": {
+        "bytes": 9125673,
+        "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+        "width": 2316,
+        "height": 3840,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "escharum_infinite",
+        "character": "Escharum",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_rehosted_official_presskit_render",
+        "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+        "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+        "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+        "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+        "original_filename_recorded": "Escherum.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+        "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+        "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+        "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+        "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+          "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+          "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+          "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+        ],
+        "limits": [
+          "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+          "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+          "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+          "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+          "Does not provide exact 1:1 certification or a complete turnaround."
+        ]
+      },
+      "retry_of_attempt": 22,
+      "retry_reason": "Exact same reference-guided prompt and input retained for the still-missing character.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "jega_infinite",
+      "name": "Jega 'Rdomnai",
+      "era": "Halo Infinite",
+      "prompt": "Use the TWO attached images of Jega 'Rdomnai from Halo Infinite: the official full-body promotional game render for overall armor geometry and the final-game introduction screenshot to confirm the anatomical details and left/right asymmetry. Create ONE new full-body neutral standing pose of this same character for Halo Combats. Preserve his tall Sangheili build, scarred face, black and dark-gray harness with deep-red markings, Banished chest insignia, layered high collar, angular helmet and sharp claw-like armor ornaments. His anatomical LEFT arm is the slender exposed mechanical replacement with its mechanical hand and inactive Ghostpierce wrist emitter. His anatomical RIGHT arm retains the broad armored biological form and clawed hand. Keep the anatomical LEFT mandibular prostheses exactly as visible. Match BOTH digitigrade legs to the game references: dark textured undersuit, knee coverings, shin guards and armored split feet. Do NOT turn leg armor into an exposed mechanical replacement limb. Re-articulate him into a calm upright stance facing screen RIGHT, near-lateral with a slight three-quarter angle and enough separation to see both arms and both feet. Keep all anatomical asymmetries, do not mirror them. Hands empty and lowered, no handheld bloodblade, all energy blades switched off, camouflage inactive and armor fully opaque. Faithful realistic videogame render, neutral soft lighting without the red weapon glow. Genuine transparent alpha outside the entire character and in the limb gaps; remove all source scenery, logos, promotional graphics and background. Full head, all armor tips and both complete feet within the canvas, with comfortable clear transparent padding on all four sides. No text, labels, ground plane or extra character.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+        "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+        "https://www.halopedia.org/Jega_%27Rdomnai"
+      ],
+      "critical_checks": [
+        "Bras anatomique gauche et mandibules gauches prothétiques ; asymétries non inversées.",
+        "Reproduire les deux jambes couvertes de sous-combinaison et d’armure ; ne pas transformer les jambières en prothèses exposées.",
+        "Émetteur Ghostpierce du bras gauche conservé, lames éteintes.",
+        "Armure noire et rouge d’Infinite, anatomie Sangheili et pieds digitigrades respectés.",
+        "Plein pied vers la droite, fond réellement transparent ; fidélité exacte à contrôler."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "jega_infinite",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "official_and_game_reference_pose_edit",
+      "reference_input": {
+        "id": "jega_infinite",
+        "character": "Jega 'Rdomnai",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_official_prerelease_engine_render",
+        "source_page_url": "https://www.halowaypoint.com/news/inside-infinite-october-2021",
+        "source_image_url": "https://content.halocdn.com/media/Default/BlogPost/InsideInfinite-Oct2021/haloinfinite_jega-4k-ebcd40e3a6b04326bab0b0de9464e73b.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_infinite_official_oct2021.png",
+        "bytes": 5065672,
+        "sha256": "acf99815f653b8adf79ee35f322366d9ee311ffd40c869e61a966b47ceb82248",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGBA",
+        "alpha_range": [
+          251,
+          255
+        ],
+        "source_scope": "Official 343 Industries Halo Waypoint character render published in Inside Infinite - October 2021 and downloaded from the Halo CDN. The article explicitly describes these images as source models captured in-engine using development tools, with possible differences from their in-game appearance. Pre-release promotional reference only, excluded from published deliverables.",
+        "observed": [
+          "Single Jega full body, including both feet, in a dynamic three-quarter pose facing toward screen left.",
+          "Weathered black/dark gray armor with red markings and lights; exposed scarred gray face, amber eye detail, mechanical mandibular structures and the anatomical left cybernetic arm. Both legs are covered by undersuit and armor.",
+          "Long red energy sword and shorter red wrist-mounted energy blade are activated. The asymmetric mechanical arm and blade assembly are visible; metallic leg surfaces are armor, not evidence of a replaced leg.",
+          "Dark red patterned promotional background, Halo Infinite and 343 Industries logos, and PRE-RELEASE label remain in the unmodified image."
+        ],
+        "limits": [
+          "Promotional pre-release in-engine render; not a guarantee of exact final-game materials, lighting or geometry.",
+          "Not a neutral or orthographic pose. Re-articulate a new right-facing pose and preserve anatomical asymmetry without mirroring the image.",
+          "Energy blades cast saturated orange/red light; use underlying armor structure and material identity without reproducing blade effects or promotional background.",
+          "Single view leaves back and partially occluded regions unverified. No exact turnaround or 1:1 certification.",
+          "Leg armor and underlying tissue must not be conflated: the visual reference does not establish a replaced leg, and internal anatomy under armor is not visible."
+        ],
+        "confirmed_canon": [
+          {
+            "claim": "The anatomical LEFT arm is cybernetic and houses Ghostpierce; a separate traditional bloodblade is held in the RIGHT hand.",
+            "source_url": "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+            "source_type": "official narrative, Canon Fodder: Decennial Delights",
+            "confidence": "very high"
+          },
+          {
+            "claim": "The anatomical LEFT mandibular structures were replaced with prostheses.",
+            "source_url": "https://www.halopedia.org/Jega_%27Rdomnai",
+            "source_type": "secondary sourced canon summary, supported by visible model details",
+            "confidence": "high"
+          }
+        ],
+        "leg_observation": {
+          "interpretation": "The visible long metallic structures, including the one on the anatomical left lower leg at screen right, are shin/foot armor. The two released-game captures show corresponding armored leg structures and textured knee undersuit on both sides.",
+          "scope": "Visual interpretation supported by comparison; no source retrieved establishes a complete leg prosthesis or replacement lower-leg segment. Internal anatomy beneath armor is not certified.",
+          "generation_guidance": "Match the armored digitigrade legs to the references. Do not turn the leg armor into an exposed mechanical replacement limb."
+        },
+        "complementary_references": [
+          {
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+            "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.json",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+            "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+            "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+          },
+          {
+            "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.png",
+            "metadata_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_front.json",
+            "source_page_url": "https://www.halopedia.org/File:HINF_JegaBattle_1.png",
+            "source_image_url": "https://www.halopedia.org/images/4/40/HINF_JegaBattle_1.png?1b8ea",
+            "purpose": "Released-game anatomy and leg-armor comparison; supplemental reference, not generated asset."
+          }
+        ],
+        "corrections": [
+          {
+            "date": "2026-11-19",
+            "reason": "Corrected an earlier overconfident identification of leg armor as a prosthesis after comparison with two released-game screenshots and textual sources. Only the left arm and left mandibular prostheses are documented as confirmed external replacements here."
+          }
+        ],
+        "additional_reference": {
+          "id": "jega_infinite_game_intro_reference",
+          "source_page_url": "https://www.halopedia.org/File:HINF_JegaRdomnai_Intro.png",
+          "source_image_url": "https://www.halopedia.org/images/9/9c/HINF_JegaRdomnai_Intro.png?0dc6c",
+          "source_uploaded_at": "2024-06-18",
+          "source_scope": "Halopedia-hosted Halo Infinite in-game character screenshot uploaded by JackVibe. File history states that the current June 18, 2024 version replaced a YouTube screenshot with an in-game screenshot. This is a community capture of the released game, not an official press-kit render. Exact game build and capture settings are unspecified. Downloaded without pixel changes in this session; reference input only, excluded from published deliverables.",
+          "observed": [
+            "Front/three-quarter view of Jega with lowered arms and no active energy blades; head, torso, both legs and most of both feet are visible.",
+            "The anatomical left arm, at screen right, has a clearly mechanical upper arm, forearm and articulated hand. Left mandibular prosthetic structures are also visible.",
+            "Both legs show dark textured undersuit at the knees and corresponding thigh plates, shin guards and armored foot structures.",
+            "The long metallic form on the anatomical left lower leg is read as leg armor. This still does not establish a replaced leg or replaced lower-leg segment."
+          ],
+          "limits": [
+            "Opaque gameplay background; this screenshot is not a transparent production cutout.",
+            "The lower edges of the feet are cropped. Use the official full-body render for complete foot silhouettes and add generous margins in new art.",
+            "Scene lighting is green-gray and the capture contains haze; use it principally for geometry and anatomical comparison.",
+            "One perspective only, not an orthographic turnaround. Armor does not reveal internal tissue or possible concealed augmentations."
+          ],
+          "character": "Jega 'Rdomnai",
+          "game": "Halo Infinite (2021)",
+          "kind": "downloaded_community_game_screenshot",
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jega_game_body_intro.png",
+          "uploader": "JackVibe",
+          "bytes": 4633074,
+          "sha256": "b2b16ea181da1629d7ea9aa178ad5e0d45961a0351f8954bc474028f8651d82e",
+          "width": 1620,
+          "height": 2160,
+          "mode": "RGBA",
+          "alpha_range": [
+            255,
+            255
+          ]
+        }
+      },
+      "retry_of_attempt": 25,
+      "retry_reason": "Exact same verified reference-guided prompt and inputs retained for the last missing roster character.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-23afc673-ce60-4eb3-b554-357bf1ead153.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "escharum_infinite",
+      "name": "Escharum",
+      "era": "Halo Infinite",
+      "prompt": "Correct only the specific left/right equipment errors in image 1, the newly generated neutral full-body Escharum render. Image 2 is the Halo Infinite source reference and dictates the anatomical placement. Keep the pose facing screen RIGHT, face, body build, materials and armor design of image 1. Move the long engraved silver collar branch AND the stowed back-weapon handle to Escharum's anatomical LEFT side, which is the farther side at screen RIGHT in image 1. They are currently incorrectly on his anatomical right side at screen left. Restore the nearer anatomical RIGHT collar branch to the shorter corresponding shape from the source. Likewise move the vertical row of waist/flank equipment blocks from the near anatomical RIGHT hip to the farther anatomical LEFT flank, matching image 2. Preserve the forearm asymmetry ALREADY correct in image 1: the larger red-plate forearm armor stays on his LEFT arm at screen right, and the simpler bracelet stays on his RIGHT arm at screen left. Do not mirror the whole character or swap the arms. Keep his hands empty and legs unchanged. Exactly one complete Escharum, including both feet and all top equipment, with generous transparent margins. Maintain true transparent alpha around and between the limbs; no backdrop, gradient, floor or label. Make this a careful equipment-location correction, with all other design features preserved.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://www.halopedia.org/Diminisher_of_Hope",
+        "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/1200px-HINF_EscharumRender.png"
+      ],
+      "critical_checks": [
+        "Visage âgé, barbe grise et plastron en V de Halo Infinite ; pas de tresses ou de plaques blanches d'Atriox Wars 2.",
+        "Mains vides ; ni Scrap Cannon ni Diminisher of Hope ne sont représentés dans cette référence.",
+        "La divergence hardlight/plasma des descriptions de Diminisher ne s'applique pas ici, puisque l'arme est absente.",
+        "Contrôler casque/épaules/plastron et silhouette sur le rendu Infinite ; génération seule non certifiante.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "escharum_infinite",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "targeted_equipment_correction",
+      "reference_input": {
+        "bytes": 9125673,
+        "sha256": "e23b81330da437fa1ba5977e0fb70b12d3e21abd5f6e15ecd3ad1884917f4da4",
+        "width": 2316,
+        "height": 3840,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "id": "escharum_infinite",
+        "character": "Escharum",
+        "game": "Halo Infinite (2021)",
+        "kind": "downloaded_rehosted_official_presskit_render",
+        "source_page_url": "https://www.halopedia.org/File:HINF_EscharumRender.png",
+        "source_image_url": "https://www.halopedia.org/images/8/88/HINF_EscharumRender.png?aabac",
+        "official_source_link_recorded_on_file_page": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+        "presskit_link_recorded_on_file_page": "https://t.co/b2mi2bDnQv",
+        "original_filename_recorded": "Escherum.png",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_reference.png",
+        "inspection_local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/escharum_infinite_presskit_inspection_722px.png",
+        "inspection_image_url": "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/722px-HINF_EscharumRender.png?20230818214215",
+        "inspection_method": "Visual review of the file page's 722px-wide server thumbnail, downloaded unchanged, because the 2316 x 3840 original exceeded the viewer output limit. The full-resolution source PNG is preserved unchanged as the reference input.",
+        "source_scope": "Halopedia-hosted PNG whose file metadata identifies it as a render from an official Halo Infinite magazine/press kit and links to a post from the official Halo Twitter account. The archived file was uploaded in August 2023. Official attribution is documented by the archive page; this session did not independently retrieve the linked press-kit archive or compare original bytes. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single Escharum full body, both feet visible, standing in a relaxed front/three-quarter stance with empty hands at his sides.",
+          "Broad muscular Jiralhanae build, uncovered bald gray head, deeply lined face and gray beard.",
+          "Heavy dark armor with worn red markings and engraved silver/gray collar and shoulder plates; asymmetrical forearm armor and large shin guards.",
+          "A weapon handle projects upward behind a shoulder; back equipment is partly hidden. The image itself has transparent background alpha."
+        ],
+        "limits": [
+          "Not a strict side or rear view; back equipment and hidden armor surfaces cannot be certified from this one image.",
+          "Source render is attributed to an official press kit by Halopedia, but exact game build/rendering setup is unspecified.",
+          "Full-resolution pixels were not exhaustively inspected; the visual review used the page-linked server thumbnail at 722px wide.",
+          "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
+          "Does not provide exact 1:1 certification or a complete turnaround."
+        ]
+      },
+      "retry_of_attempt": 22,
+      "retry_reason": "Exact same reference-guided prompt and input retained for the still-missing character.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fee06234-cc02-4c48-a6e9-a27b4555f9ba.png",
+      "status": "generated_candidate",
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png"
+    },
+    {
+      "id": "carter_reach",
+      "name": "Carter-A259",
+      "era": "Halo: Reach (2010)",
+      "prompt": "Make a very targeted marking correction to image 1, the generated full-body Carter-A259 neutral pose. Image 2 is the original Halo: Reach Carter reference. Keep image 1's face-screen-RIGHT pose, armor geometry, blue colors, gold visor, white bands, pouches, LEFT shoulder's gray Commando plate and LEFT forearm TACPAD exactly as they are. The red vertical stripe on the thigh has been placed on the wrong leg: remove that red streak from Carter's near anatomical RIGHT thigh (screen left in image 1), restoring the same weathered blue paint there, and place the corresponding red stripe above the white band on his farther anatomical LEFT thigh (screen right in image 1), as indicated by the source reference. Preserve the white bands on both thighs and preserve the separate red helmet stripe. Do not mirror the body, swap any equipment or add new markings. Both hands empty, full body and complete boots visible, with clear transparent margins. Genuine transparent alpha outside the figure; no scenery, ground, text, colored backdrop or frame. This is a localized thigh-paint correction, not a new character design.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halopedia.org/File:HR_PK_Six%26Carter.jpg",
+        "https://www.halopedia.org/Carter"
+      ],
+      "critical_checks": [
+        "Bleu plus soutenu que Kat, casque Commando HUL[3] de Reach, deux bras normalement blindés.",
+        "Commando à l'épaule gauche, Mark V à droite et TACPAD à gauche, sans mirroring.",
+        "Mains vides ; ni M392 DMR ni VK78 ne sont demandés dans cette référence.",
+        "Conserver les pièces Reach, sans adaptation GEN2 Halo 5 ni kit Infinite ; comparer au modèle de la capture du press kit.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "carter_reach",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "targeted_marking_correction",
+      "reference_input": {
+        "id": "carter_reach",
+        "character": "Carter-A259",
+        "source_page_url": "https://www.halopedia.org/File:HReach_-_A259.png",
+        "source_image_url": "https://www.halopedia.org/images/2/22/HReach_-_A259.png?808f9",
+        "original_filename": "Reach_E310_Carter.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110912110348/http://www.bungie.net/projects/reach/images.aspx?c=53&page=1",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/carter_reach_presskit_reference.png",
+        "bytes": 525130,
+        "sha256": "689764736e56888c569e631ce4423865576d301d88c716fe67ad5f99b78fd3a5",
+        "width": 770,
+        "height": 990,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted Carter-A259, full body including both boots, in blue Halo: Reach armor with gold visor and visible weathered white/gray markings.",
+          "Large gray shoulder plate with white emblem, blue forearm display, waist pouches and back equipment are visible.",
+          "Dynamic running/aiming pose toward screen left, holding an MA37 assault rifle in both hands; one knee is bent and the rear foot is raised.",
+          "The source PNG has an alpha channel. Sampled dark/white rectangular background areas have alpha 0; their RGB appearance in previews must not be copied into new art."
+        ],
+        "limits": [
+          "Not a neutral pose, not a strict side view, and faces left; use for armor identity/materials, then articulate a new right-facing neutral pose without mirroring asymmetric equipment.",
+          "Rifle and bent arms occlude parts of the chest, abdomen and hands; legs overlap, and the rear view is unavailable.",
+          "Original filename Reach_E310_Carter.jpg indicates an E3 2010 promotional render. A possible pre-release detail difference from the final campaign model is not independently ruled out.",
+          "Halopedia file history describes a later extraction with no white edges. This hosted PNG is a derivative archive copy, not a verified byte-identical original Bungie JPG.",
+          "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-116bffd9-ef54-4940-b11d-475e82064352.png",
+      "status": "generated_candidate",
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png"
     }
   ]
 }

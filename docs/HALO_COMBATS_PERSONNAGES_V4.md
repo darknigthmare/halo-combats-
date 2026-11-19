@@ -1,14 +1,14 @@
 # Halo Combats — inventaire des personnages, vague 4
 
-Mise à jour : 2026-11-19T20:25:42+00:00.
+Mise à jour : 19 novembre 2026 à 21:38 (heure de Paris, UTC+01:00).
 
 ## Résultat vérifié
 
-Le roster contient **24 combattants distincts**. **20 disposent d'au moins une pose candidate**, pour 21 fichiers. **4 restent sans image candidate.**
+Le roster contient **24 combattants distincts**. **24 disposent d'au moins une pose candidate**, pour 27 fichiers. **0 restent sans image candidate.**
 
-La vague 4 a produit 9 PNG distincts pour 8 personnages. Le journal contient 21 tentatives pour 12 personnages distincts : 9 réussites et 12 échecs, dont 12 refus automatiques.
+La vague 4 a produit 15 PNG distincts pour 12 personnages. Le journal contient 29 tentatives pour 12 personnages distincts : 15 réussites et 14 échecs, dont 14 refus automatiques.
 
-Les 59 échecs historiques de toutes les vagues restent enregistrés. Une réussite ultérieure rend le personnage présent ; les refus antérieurs ne le font pas compter comme manquant. Les 0 réutilisations éventuelles d'un PNG antérieur et les 0 doublons internes ne sont pas comptés comme de nouvelles images.
+Les 61 échecs historiques de toutes les vagues restent enregistrés. Une réussite ultérieure rend le personnage présent ; les refus antérieurs ne le font pas compter comme manquant. Les 0 réutilisations éventuelles d'un PNG antérieur et les 0 doublons internes ne sont pas comptés comme de nouvelles images.
 
 Les PNG sont copiés sans recadrage, recompression, redimensionnement ni autre modification. Une image de référence statique ne remplace pas les animations, le moveset ou l'intégration au moteur.
 
@@ -16,10 +16,7 @@ Les PNG sont copiés sans recadrage, recompression, redimensionnement ni autre m
 
 ## Personnages encore sans image
 
-- **Emile A239** — emile_reach.
-- **Escharum** — escharum_infinite.
-- **Jega 'Rdomnai** — jega_infinite.
-- **Chak 'Lok** — chak_lok.
+Tous les combattants du roster disposent d'au moins une image candidate.
 
 ## Couverture du roster
 
@@ -29,20 +26,20 @@ Les PNG sont copiés sans recadrage, recompression, redimensionnement ni autre m
 | Thel 'Vadam l’Arbiter | arbiter_h3 | 1 | Pose candidate | Présent ; validation requise |
 | Avery Johnson | johnson_h3 | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Noble Six | noble_six | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
-| Emile A239 | emile_reach | 0 | Aucune image | Manquant ; échec de génération |
+| Emile A239 | emile_reach | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Jorge 052 | jorge_reach | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Jun A266 | jun_reach | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Kat B320 | kat_reach | 2 | Référence neutre sans arme | Présent malgré refus antérieur |
-| Carter A259 | carter_reach | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
+| Carter A259 | carter_reach | 2 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Edward Buck ODST | buck_odst | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Le Rookie | rookie_odst | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Rtas 'Vadum | rtas_h3 | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Tartarus | tartarus_h2 | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Atriox | atriox_hw2 | 1 | Pose candidate | Présent ; validation requise |
 | Decimus | decimus_hw2 | 1 | Pose candidate | Présent ; validation requise |
-| Escharum | escharum_infinite | 0 | Aucune image | Manquant ; échec de génération |
-| Jega 'Rdomnai | jega_infinite | 0 | Aucune image | Manquant ; échec de génération |
-| Chak 'Lok | chak_lok | 0 | Aucune image | Manquant ; échec de génération |
+| Escharum | escharum_infinite | 2 | Référence neutre sans arme | Présent malgré refus antérieur |
+| Jega 'Rdomnai | jega_infinite | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
+| Chak 'Lok | chak_lok | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Alice 130 | alice_hw2 | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Douglas 042 | douglas_hw2 | 1 | Référence neutre sans arme | Présent malgré refus antérieur |
 | Jerome 092 | jerome_hw2 | 1 | Pose candidate | Présent ; validation requise |
@@ -87,6 +84,16 @@ Fichier : assets/characters_wave3/noble_six_neutral_right_v01.png. Définition :
 - PNG RGBA 1024 × 1536, alpha 0 à 254, 1176579 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; un seul pixel de faible alpha touche le bord gauche. La marge haute de 26 px reste inférieure à 2 % de la hauteur ; la marge basse est de 49 px.
 - Le halo gris de l’aperçu ne prouve pas un fond opaque : les points de fond examinés sont conservés dans rgba_samples. Le détourage et les faibles résidus alpha restent à contrôler sur des fonds de composition.
 
+### Emile A239
+
+Fichier : assets/characters_wave4/emile_reach_neutral_right_v01.png. Définition : 1008 × 1560 px ; mode RGBA. Statut de fidélité : not_certified.
+
+- Figure entière en pose neutre debout vers la droite, mains vides, casque à crâne gravé, plaques sombres usées, épaule droite rouge avec assemblage de couteau et cartouches. Deux mains et deux bottes distinctes, lame d’épaule entière.
+- Comparaison visuelle avec emile_reach_presskit_reference.png : casque, grande épaule rouge anatomique droite, accessoires, palette et principaux repères de jambes sont reconnaissables. Le fusil et les bras de la référence cachaient une partie du haut du torse ; les détails nouvellement dégagés restent à comparer sur d’autres vues.
+- La pose est un trois-quarts droit lisible, pas une vue latérale orthographique stricte. La fidélité des proportions, des gravures et des petits accessoires n’est pas certifiée par cette seule référence promotionnelle.
+- Contrôle du bas du cadre : les semelles ne sont pas coupées dans l’inspection visuelle ; le contenu alpha > 16 s’arrête à y=1533 sur un canevas haut de 1560, laissant 27 px sous le pied le plus bas. La marge supérieure est de 19 px. Le cadrage est serré mais aucun pixel alpha > 16 n’atteint le bord.
+- PNG RGBA 1008×1560, alpha 0–255, avec 975 029 pixels entièrement transparents. Les échantillons de fond et de dernière ligne sont alpha 0. Il subsiste 18 pixels de faible alpha au bord gauche et 5 au bas ; vérifier les franges de contours lors de l’intégration.
+
 ### Jorge 052
 
 Fichier : assets/characters_wave4/jorge_reach_neutral_right_v01.png. Définition : 1024 × 1536 px ; mode RGBA. Statut de fidélité : not_certified.
@@ -123,12 +130,16 @@ Variante à privilégier : assets/characters_wave4/kat_reach_neutral_right_v02.p
 
 ### Carter A259
 
-Fichier : assets/characters_wave4/carter_reach_neutral_right_v01.png. Définition : 1024 × 1536 px ; mode RGBA. Statut de fidélité : not_certified.
+Fichier : assets/characters_wave4/carter_reach_neutral_right_v02.png. Définition : 1024 × 1536 px ; mode RGBA. Statut de fidélité : not_certified.
 
-- Figure entière debout en trois-quarts vers la droite, mains vides, casque bleu et visière dorée ; deux mains et deux bottes visibles.
-- Comparaison avec le rendu promotionnel Carter fourni : la grande épaulière grise à emblème et le TACPAD sont portés par le bras anatomique gauche, situé du côté éloigné dans cette nouvelle orientation. Le petit volume d’épaule opposé reste distinct ; le personnage n’est pas simplement retourné comme une image miroir.
-- La bande rouge de cuisse est visible sur la jambe proche dans le nouveau PNG ; son attribution anatomique paraît différente de celle de la jambe proche du rendu source orienté à gauche. Ce point et les marquages asymétriques des jambes doivent être vérifiés ou corrigés à partir de vues complémentaires. Le rendu promotionnel E3 2010 ne certifie pas seul le modèle final du jeu.
-- Les pixels échantillonnés dans le halo extérieur ont alpha 0. La figure ne touche aucun bord au seuil alpha > 16 ; 60 pixels de faible alpha atteignent le bord gauche et 8 le bord inférieur. Les marges verticales sont serrées : 19 px en haut et 61 px en bas.
+Variante à privilégier : assets/characters_wave4/carter_reach_neutral_right_v02.png. Les autres versions restent conservées dans le manifeste avec leurs observations.
+
+- Autre version conservée : assets/characters_wave4/carter_reach_neutral_right_v01.png — reviewed_candidate_requires_correction.
+
+- Comparaison de la correction avec le premier PNG et la référence Carter de Halo: Reach : la bande rouge verticale a été retirée de la cuisse anatomique droite proche (gauche de l’image) et replacée au-dessus de la bande blanche sur la cuisse anatomique gauche éloignée (droite de l’image). L’erreur de côté ciblée est améliorée.
+- Les bandes blanches des deux cuisses, la bande rouge du casque, la grande épaulière grise anatomique gauche et le TACPAD gauche sont conservés. La pose reste orientée vers la droite, sans inversion globale du corps ; deux mains et deux bottes restent visibles.
+- Cette variante est préférée à la première pour la correction d’asymétrie. Le premier PNG reste conservé avec son défaut documenté. Les détails non visibles de la référence promotionnelle et l’équivalence avec le modèle final ne sont pas certifiés 1:1.
+- PNG RGBA 1024×1536, alpha 0–254, avec 1 015 217 pixels entièrement transparents. Tous les échantillons extérieurs consignés sont alpha 0 ; aucun pixel alpha > 0 ne touche les bords. Le cadrage garde seulement 19 px en haut et 58 px en bas : prévoir une marge supérieure plus ample avant production.
 
 ### Edward Buck ODST
 
@@ -187,6 +198,39 @@ Fichier : assets/characters_wave2/decimus_hw2_neutral_right_v01.png. Définition
 - Marges serrées au seuil alpha > 16 : 5 px en haut, 9 px en bas et 14 px à droite de l’arme. Aucun contact direct alpha >16, mais de faibles valeurs alpha 1 à 16 atteignent les bords gauche, haut et bas.
 - PNG RGBA 1536 × 1024, alpha 0 à 254, avec 745563 pixels entièrement transparents. Des points gris/rouges du halo visible dans l’aperçu ont alpha 0 ; ce halo RGB ne prouve pas un fond opaque. Les 35114 pixels alpha 1 à 16 et les contours sont à contrôler en composition.
 - Le rendu reste une pose candidate : les dimensions du personnage, les raccords mécaniques et l’identité précise de l’arme ne sont pas certifiés 1:1.
+
+### Escharum
+
+Fichier : assets/characters_wave4/escharum_infinite_neutral_right_v02.png. Définition : 1024 × 1536 px ; mode RGBA. Statut de fidélité : not_certified.
+
+Variante à privilégier : assets/characters_wave4/escharum_infinite_neutral_right_v02.png. Les autres versions restent conservées dans le manifeste avec leurs observations.
+
+- Autre version conservée : assets/characters_wave4/escharum_infinite_neutral_right_v01.png — reviewed_candidate_requires_correction.
+
+- Comparaison de la retouche avec le premier PNG et le rendu de référence : la longue branche argentée gravée du col et le manche dorsal se trouvent maintenant du côté anatomique gauche éloigné, à droite de l’image. La branche du col anatomique droite proche est plus courte, comme l’exige la correction.
+- La rangée verticale de blocs sur le flanc a été déplacée vers la hanche anatomique gauche éloignée. Les protections d’avant-bras ont conservé leur attribution correcte : grand assemblage rouge à gauche anatomique, bracelet plus simple à droite. Aucun miroir global n’est observé.
+- La tête, la barbe, les mains vides, la large silhouette, les deux pieds et le haut de l’équipement restent dans le cadre. Cette variante est préférée pour les asymétries corrigées ; l’original reste conservé comme candidat à corriger. L’arrière et les détails masqués nécessitent encore des vues complémentaires pour toute validation 1:1.
+- PNG RGBA 1024×1536, alpha 0–254, avec 818 628 pixels entièrement transparents. Les échantillons extérieurs sont transparents ; le point 900,700 appartient à l’avant-bras et a alpha 252. Aucun contenu alpha > 16 ne touche un bord ; 14 pixels de faible alpha touchent la gauche. Marges utiles haut/bas de 51 et 66 px : la demande initiale de 10 % n’est toujours pas remplie.
+
+### Jega 'Rdomnai
+
+Fichier : assets/characters_wave4/jega_infinite_neutral_right_v01.png. Définition : 1024 × 1536 px ; mode RGBA. Statut de fidélité : not_certified.
+
+- Figure entière haute et mince, armure sombre marquée de rouge, tête et mandibules visibles, mains vides et lames énergétiques désactivées. Le personnage regarde vers la droite en trois-quarts ; la pose n’est pas une vue latérale orthographique stricte.
+- Les deux références ont été vues. Le bras anatomique gauche, côté éloigné dans le nouveau PNG, reste mécaniquement exposé avec sa main articulée et son émetteur de poignet. Le bras anatomique droit proche conserve une forme large sous son armure. Les éléments mandibulaires rouges gauches suivent aussi l’attribution des références.
+- Les deux jambes portent des plaques et une sous-combinaison sombre autour des articulations. La nouvelle sortie ne transforme pas une protection de tibia en jambe mécanique exposée ; aucune conclusion sur des tissus internes invisibles n’est tirée.
+- Contrôle du sommet : le casque est entier visuellement et son contenu alpha > 16 commence à y=8. Aucun pixel alpha > 16 ne touche le bord supérieur. Les deux pieds sont également entiers ; la marge basse au même seuil n’est que de 10 px. Le cadrage est donc très serré et ne respecte pas une demande de marge confortable.
+- PNG RGBA 1024×1536, alpha 0–254 et 1 008 886 pixels totalement transparents. Les échantillons du halo extérieur et du bord haut ont alpha 0. Des pixels de faible alpha 1–16 atteignent les bords gauche, haut et bas ; le détourage doit être contrôlé en composition.
+- Le rendu officiel est promotionnel et antérieur à la sortie, tandis que la capture de jeu a un éclairage et une perspective spécifiques et coupe le bas des pieds. La comparaison soutient les repères visibles ; les détails de casque, de mandibules et de dos restent non certifiés 1:1.
+
+### Chak 'Lok
+
+Fichier : assets/characters_wave4/chak_lok_neutral_right_v01.png. Définition : 1024 × 1536 px ; mode RGBA. Statut de fidélité : not_certified.
+
+- Figure entière en armure or/ocre avec motifs rouges, haut casque à ailettes, col sculpté et deux pieds digitigrades visibles. Les mains sont vides ; l’épée énergétique de la référence a été retirée pour la pose neutre.
+- Comparaison visuelle avec chak_lok_infinite_screenshot_reference.png : les grandes formes du casque, du col, des épaules, des avant-bras et des jambes reprennent les repères de la capture. La pose a été réarticulée vers la droite en trois-quarts ; les mandibules et doigts demandent encore un contrôle d’anatomie sur des vues complémentaires.
+- La source est une capture communautaire détourée, dont le build et les conditions de capture ne sont pas précisés. La lumière bleue de l’épée influence ses couleurs ; la palette sous éclairage neutre et les surfaces cachées ne sont pas certifiées par cette seule comparaison.
+- PNG RGBA 1024×1536, alpha 0–254. Les échantillons extérieurs du halo sont transparents, sauf le coin 0,0 de faible alpha 1 ; il ne s’agit pas d’un fond sombre opaque général. Aucun pixel alpha > 16 ne touche le cadre. Les marges utiles haut/bas sont 97 et 93 px, avec quelques pixels de faible alpha aux bords.
 
 ### Alice 130
 
@@ -257,13 +301,15 @@ Les notes visuelles sont liées à l'empreinte du PNG réellement examiné. Une 
 
 - Entrée 1, chief_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
 - Entrée 2, johnson_h3 : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
-- Entrée 3, emile_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Le personnage reste sans image.
+- Entrée 3, emile_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
 - Entrée 4, jorge_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
 - Entrée 5, jun_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
 - Entrée 7, carter_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
 - Entrée 8, tartarus_h2 : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
-- Entrée 9, escharum_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Le personnage reste sans image.
-- Entrée 10, jega_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Le personnage reste sans image.
-- Entrée 11, chak_lok : Génération refusée par le contrôle automatique ; motif précis non fourni. Le personnage reste sans image.
+- Entrée 9, escharum_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
+- Entrée 10, jega_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
+- Entrée 11, chak_lok : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
 - Entrée 12, douglas_hw2 : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
-- Entrée 15, emile_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Le personnage reste sans image.
+- Entrée 15, emile_reach : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
+- Entrée 22, escharum_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.
+- Entrée 25, jega_infinite : Génération refusée par le contrôle automatique ; motif précis non fourni. Une image obtenue par une autre tentative est disponible.

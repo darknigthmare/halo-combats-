@@ -16,6 +16,14 @@ Le contrôle de logique autonome se lance avec `node prototype/qa/logic.cjs`. Le
 
 Le checkpoint V4 ajoute 9 PNG pour 8 personnages : le Major, Kat, Jorge, Jun, Carter, Johnson, Tartarus et Douglas. Les deux poses de Kat restent présentes ; la version v02 est préférée et les défauts de la v01 sont consignés. La couverture atteint 20 combattants illustrés sur 24, avec 21 poses de combattants, un boss et deux décors, soit 24 PNG candidats. Emile, Escharum, Jega et Chak ’Lok restent sans candidat dans ce checkpoint.
 
-Le journal V4 comprend 21 essais : 9 réussites et 12 refus. Le README et les registres courants correspondent à ce checkpoint figé ; les historiques V1/V2/V3 sont conservés. Les références téléchargées ne sont pas des images générées et restent exclues du dépôt. Les observations de QA précisent notamment les limites des références de Johnson et Douglas, ainsi que les réserves de cadrage et de franges de Jun et Jorge.
+Le journal V4 comprend 21 essais : 9 réussites et 12 refus. Cet état est conservé dans le commit `bbbbbf5fd3aa5c9c59020a2564675a747fea2c9b` ; les historiques V1/V2/V3 sont conservés. Les références téléchargées ne sont pas des images générées et restent exclues du dépôt. Les observations de QA précisent notamment les limites des références de Johnson et Douglas, ainsi que les réserves de cadrage et de franges de Jun et Jorge.
 
 Les empreintes des 15 PNG précédents sont inchangées. Les neuf nouveaux fichiers ont été copiés à l’identique depuis le snapshot contrôlé. Cette publication conserve les corrections de portabilité et ne modifie pas le prototype ; elle n’ajoute aucun résultat de test du gameplay. Les poses demeurent non certifiées, non animées et non intégrées.
+
+## Livraison des personnages V4 — 29 essais
+
+Le snapshot final ajoute six PNG au checkpoint précédent : les premières poses d’Emile, Chak ’Lok, Escharum et Jega, puis les retouches de Carter et d’Escharum. La vague V4 comprend 15 PNG pour 12 nouveaux personnages. Les versions v02 de Kat, Carter et Escharum sont préférées ; les originaux v01 restent conservés avec leurs défauts documentés.
+
+Les 24 combattants possèdent désormais au moins une image candidate, soit 27 poses de combattants. Avec le boss et les deux décors, le dépôt contient 30 PNG candidats. Le journal V4 comporte 29 essais : 15 réussites et 14 refus ; les 61 échecs historiques sont conservés. Aucun personnage du roster principal ne reste sans candidat.
+
+Le README et les données courantes correspondent à cette livraison V4. Les 24 PNG du checkpoint précédent sont inchangés et les six nouveaux fichiers sont byte-identiques au snapshot final contrôlé. Les images de référence téléchargées restent exclues des candidats et du dépôt. La couverture du roster ne vaut pas certification de fidélité : les poses restent non certifiées, non animées et non intégrées au moteur.

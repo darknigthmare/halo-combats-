@@ -1261,13 +1261,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "emile_reach_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "jorge_reach",
@@ -2275,9 +2278,11 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "carter_reach_neutral_right_v01"
+        "carter_reach_neutral_right_v01",
+        "carter_reach_neutral_right_v02"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "preferred_visual_asset": "carter_reach_neutral_right_v02"
     },
     {
       "id": "buck_odst",
@@ -4033,13 +4038,18 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "escharum_infinite_neutral_right_v01",
+        "escharum_infinite_neutral_right_v02"
+      ],
+      "preferred_visual_asset": "escharum_infinite_neutral_right_v02",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "jega_infinite",
@@ -4282,13 +4292,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "jega_infinite_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "chak_lok",
@@ -4531,13 +4544,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "chak_lok_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "alice_hw2",

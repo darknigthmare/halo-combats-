@@ -23,6 +23,7 @@ import os
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from PIL import Image
 
@@ -390,9 +391,15 @@ def reports(fighters: list[dict], active: list[dict], records: list[dict],
     current_failures = summary["failed_attempts_in_journal"]
     covered_names = [f["name"] for f in fighters if by_fighter[f["id"]]]
     new_names = [names[fid] for fid in summary["wave4_candidate_entities"]]
+    local_time = datetime.fromisoformat(summary["updated_utc"]).astimezone(ZoneInfo("Europe/Paris"))
+    month_names = ("janvier", "février", "mars", "avril", "mai", "juin",
+                   "juillet", "août", "septembre", "octobre", "novembre", "décembre")
+    offset = local_time.strftime("%z")
+    display_time = (f"{local_time.day} {month_names[local_time.month - 1]} {local_time.year} "
+                    f"à {local_time:%H:%M} (heure de Paris, UTC{offset[:3]}:{offset[3:]})")
     lines = [
         "# Halo Combats — inventaire des personnages, vague 4", "",
-        f"Mise à jour : {summary['updated_utc']}.", "",
+        f"Mise à jour : {display_time}.", "",
         "## Résultat vérifié", "",
         f"Le roster contient **{len(fighters)} combattants distincts**. **{summary['fighter_entities_with_candidates']} disposent d'au moins une pose candidate**, pour {summary['fighter_candidate_asset_count']} fichiers. **{len(missing)} restent sans image candidate.**", "",
         f"La vague 4 a produit {summary['wave4_candidate_asset_count']} PNG distincts pour {len(summary['wave4_candidate_entities'])} personnages. Le journal contient {summary['generation_attempt_count']} tentatives pour {len(summary['unique_fighters_requested'])} personnages distincts : {summary['successful_generation_attempts']} réussites et {len(current_failures)} échecs, dont {summary['automatic_rejections_in_journal']} refus automatiques.", "",
@@ -487,7 +494,7 @@ def reports(fighters: list[dict], active: list[dict], records: list[dict],
         lines.append("")
     readme = f"""# Halo Combats — livraison visuelle V4
 
-Mode annexe de combat 2D et Boss Battle pour Darknigthmare. Mise à jour : {summary['updated_utc']}.
+Mode annexe de combat 2D et Boss Battle pour Darknigthmare. Mise à jour : {display_time}.
 
 ## État des personnages
 
