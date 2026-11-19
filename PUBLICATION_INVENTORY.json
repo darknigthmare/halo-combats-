@@ -1,5 +1,5 @@
 {
-  "scope": "Corpus V1/V2 et reprise V3 ; archive V2 reconstituable en deux parties",
+  "scope": "Corpus V1/V2/V3 et checkpoint V4 de 21 essais ; archive V2 reconstituable en deux parties",
   "files": [
     {
       "path": ".gitignore",
@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4457,
-      "sha256": "7c5b9eea3ee9c06b882ab8d8c445e847439652bb71e60e1b27ce040e22db5fae"
+      "bytes": 4569,
+      "sha256": "43f81f2b80d325098b1936c24a8fa97b2dbe39a75260f716ab33463c59573cbf"
     },
     {
       "path": "README_V2.md",
@@ -20,6 +20,11 @@
       "path": "README_V3.md",
       "bytes": 4457,
       "sha256": "7c5b9eea3ee9c06b882ab8d8c445e847439652bb71e60e1b27ce040e22db5fae"
+    },
+    {
+      "path": "README_V4.md",
+      "bytes": 4569,
+      "sha256": "43f81f2b80d325098b1936c24a8fa97b2dbe39a75260f716ab33463c59573cbf"
     },
     {
       "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
@@ -97,6 +102,51 @@
       "sha256": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838"
     },
     {
+      "path": "assets/characters_wave4/carter_reach_neutral_right_v01.png",
+      "bytes": 1953662,
+      "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88"
+    },
+    {
+      "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+      "bytes": 1667389,
+      "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e"
+    },
+    {
+      "path": "assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
+      "bytes": 1997139,
+      "sha256": "836d420ea32c153e589ed56ea99e1a3722e50d3b0a2d154126e5661ea611a537"
+    },
+    {
+      "path": "assets/characters_wave4/johnson_h3_neutral_right_v01.png",
+      "bytes": 1702782,
+      "sha256": "bdf818ecad9a7dd4edd380fee874c06ac06b6c813f16be8b102a26f3422e6fa9"
+    },
+    {
+      "path": "assets/characters_wave4/jorge_reach_neutral_right_v01.png",
+      "bytes": 2000448,
+      "sha256": "6ef5f8aba6b4e9f3e02be8b0d5e853bdbedab2291d1c23b6db8df2247fe4de88"
+    },
+    {
+      "path": "assets/characters_wave4/jun_reach_neutral_right_v01.png",
+      "bytes": 1926127,
+      "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec"
+    },
+    {
+      "path": "assets/characters_wave4/kat_reach_neutral_right_v01.png",
+      "bytes": 1502923,
+      "sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5"
+    },
+    {
+      "path": "assets/characters_wave4/kat_reach_neutral_right_v02.png",
+      "bytes": 1494179,
+      "sha256": "fc28c8a9484737f4fa5948ebc3ce3dc7d484c692abc39c522a3f6e2930a2ba47"
+    },
+    {
+      "path": "assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
+      "bytes": 1678580,
+      "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31"
+    },
+    {
       "path": "data/animation_plan.csv",
       "bytes": 66235,
       "sha256": "b0e11f4cdf9ec2b9216fb20cfc35796bc671affe6b140faabc50af56a095ac0e"
@@ -108,8 +158,8 @@
     },
     {
       "path": "data/asset_manifest.json",
-      "bytes": 181101,
-      "sha256": "b26ab910d1b151472ed08a3d4b53351201ca1aad1e0d6a17f83d81c58b037c06"
+      "bytes": 341783,
+      "sha256": "2bbdcac372f0fede9e4a6486ecf2b4aba2a039b4d923d64411800c78dedb8a25"
     },
     {
       "path": "data/bosses.json",
@@ -118,13 +168,13 @@
     },
     {
       "path": "data/characters_visual_inventory.csv",
-      "bytes": 21060,
-      "sha256": "964da6bea58282e8caf1a76ff936c7bc23a0768fd18043f452959412b1b841e4"
+      "bytes": 33121,
+      "sha256": "811d6e98ea50a9ff924ccc47bfd61f041247c8454627a32db22a7a1285705962"
     },
     {
       "path": "data/delivery_counts.json",
-      "bytes": 1468,
-      "sha256": "c2620543df0bf846ee69fb7bf7bcbd37889d4a7367e510f7615460fef7fc72fb"
+      "bytes": 1861,
+      "sha256": "919a3382221086a80c1ca0075dc3b98871270462e7db7aca1573041f456eb9db"
     },
     {
       "path": "data/fighter_sources.json",
@@ -133,8 +183,8 @@
     },
     {
       "path": "data/fighters.json",
-      "bytes": 227591,
-      "sha256": "b2365a3718147da5652694868f5caac5365f8b87c77e5fdd9f64cf951547bc1e"
+      "bytes": 227508,
+      "sha256": "ff098a34e6becfa124816ac0f64b4d9bdcf45dbceadbdb0662df7ff5cc79eddd"
     },
     {
       "path": "data/stages.json",
@@ -148,8 +198,8 @@
     },
     {
       "path": "docs/DEPOT.md",
-      "bytes": 1515,
-      "sha256": "3da24c57da11bffe31374d46b0b0720677eec9e747c594c8fdc48ed511fd4690"
+      "bytes": 2799,
+      "sha256": "4eb993e298c0f5576fbe22840feebaee4f119ecc30277e854d4ca6f3e53feaf0"
     },
     {
       "path": "docs/ETAT_PRODUCTION_V1.md",
@@ -180,6 +230,11 @@
       "path": "docs/HALO_COMBATS_PERSONNAGES_V3.md",
       "bytes": 21851,
       "sha256": "0ff31aba76cebba135cea134216c17b0600de85bff058d0955e40d7ee35d550e"
+    },
+    {
+      "path": "docs/HALO_COMBATS_PERSONNAGES_V4.md",
+      "bytes": 33873,
+      "sha256": "c3ab3fb4f567a0c182c76e2f141e69aef20a08d249db433dba611166508342bf"
     },
     {
       "path": "docs/HALO_COMBATS_PRODUCTION_V1.xlsx",
@@ -415,6 +470,41 @@
       "path": "work/wave3/verification.json",
       "bytes": 1329,
       "sha256": "063070209ae412b40be4434a3d514cc3090cdfe510cb73741f01505458e7829d"
+    },
+    {
+      "path": "work/wave4/README_V3_before_wave4.md",
+      "bytes": 4457,
+      "sha256": "7c5b9eea3ee9c06b882ab8d8c445e847439652bb71e60e1b27ce040e22db5fae"
+    },
+    {
+      "path": "work/wave4/character_prompts.json",
+      "bytes": 23870,
+      "sha256": "6abda3fc15a69979cc7c81013fb27fd90d48256cb435636bd830ff7a13de8108"
+    },
+    {
+      "path": "work/wave4/consolidate_wave4.py",
+      "bytes": 45945,
+      "sha256": "a1fbaba2acacc1308979caed0feb4dc3e64f2b56e0a66f9c5d0fee4a08a74e1e"
+    },
+    {
+      "path": "work/wave4/consolidation_summary.json",
+      "bytes": 28855,
+      "sha256": "8dc1f78a759bdefdd491bd1ff3b66f5935a9d4db4e2b1c5694613ac4b32ebabe"
+    },
+    {
+      "path": "work/wave4/generation_results.json",
+      "bytes": 65079,
+      "sha256": "43e3010928749738471da1de5beb82954be38a35da32b86527ac626b0e735103"
+    },
+    {
+      "path": "work/wave4/qa_wave4.json",
+      "bytes": 58697,
+      "sha256": "5add5a2305b2873e19a43346526b0da30724a8130c8288d500095c733cf6c5ff"
+    },
+    {
+      "path": "work/wave4/verification.json",
+      "bytes": 7259,
+      "sha256": "09c4656915fb09ecd4f658698f279518feeccbbd0e2430bb23970b199ac7c850"
     },
     {
       "path": "work/world/bosses.json",

@@ -1,34 +1,34 @@
-# Halo Combats — livraison visuelle V3
+# Halo Combats — livraison visuelle V4
 
-Mode annexe de combat 2D et Boss Battle pour Darknigthmare. Mise à jour : 2026-11-19T17:40:53+00:00.
+Mode annexe de combat 2D et Boss Battle pour Darknigthmare. Mise à jour : 2026-11-19T20:25:42+00:00.
 
 ## État des personnages
 
-**12 combattants illustrés sur 24 ; 12 restent sans image candidate.** La vague 3 apporte **3 nouveaux PNG**, pour 3 personnages.
+**20 combattants illustrés sur 24 ; 4 restent sans image candidate.** La vague 4 apporte **9 nouveaux PNG**, pour 8 personnages.
 
-Le journal V3 comprend 15 tentatives pour 15 personnages distincts : 3 réussites et 12 échecs. Parmi ces derniers, 12 sont des refus automatiques dont le motif précis n'a pas été fourni. Les succès après refus sont comptés comme présents. Les compteurs et journaux V1/V2 restent conservés.
+Le journal V4 comprend 21 tentatives pour 12 personnages distincts : 9 réussites et 12 échecs. Parmi ces derniers, 12 sont des refus automatiques dont le motif précis n'a pas été fourni. Les succès après refus sont comptés comme présents. Les compteurs et journaux V1/V2/V3 restent conservés.
 
 | Catégorie | Fichiers disponibles | Portée |
 |---|---:|---|
-| Poses de combattants | 12 | 12 combattants sur 24 |
+| Poses de combattants | 21 | 20 combattants sur 24 |
 | Profils de boss | 1 | Candidats visuels de boss |
 | Masters de décors | 2 | Couches parallaxe séparées à produire |
-| Tous candidats visuels | 15 | Somme des catégories précédentes |
+| Tous candidats visuels | 24 | Somme des catégories précédentes |
 | Visuels certifiés | 0 | Aucune certification déduite d'une génération |
 | Clips d'animation livrés | 0 | Les poses statiques ne sont pas des animations |
 
-Personnages disposant d'une image : **Thel 'Vadam l’Arbiter, Noble Six, Edward Buck ODST, Le Rookie, Rtas 'Vadum, Atriox, Decimus, Alice 130, Jerome 092, Elite Zealot, Cethegus chef Brute, Mgalekgolo Hunter**.
+Personnages disposant d'une image : **John 117 le Major, Thel 'Vadam l’Arbiter, Avery Johnson, Noble Six, Jorge 052, Jun A266, Kat B320, Carter A259, Edward Buck ODST, Le Rookie, Rtas 'Vadum, Tartarus, Atriox, Decimus, Alice 130, Douglas 042, Jerome 092, Elite Zealot, Cethegus chef Brute, Mgalekgolo Hunter**.
 
-Personnages nouvellement illustrés dans la vague 3 : **Alice 130, Noble Six, Le Rookie**.
+Personnages nouvellement illustrés dans la vague 4 : **Carter A259, John 117 le Major, Douglas 042, Avery Johnson, Jorge 052, Jun A266, Kat B320, Tartarus**.
 
-Personnages encore sans image : **John 117 le Major, Avery Johnson, Emile A239, Jorge 052, Jun A266, Kat B320, Carter A259, Tartarus, Escharum, Jega 'Rdomnai, Chak 'Lok, Douglas 042**.
+Personnages encore sans image : **Emile A239, Escharum, Jega 'Rdomnai, Chak 'Lok**.
 
 ## Ouvrir les livrables
 
-- [Suivi des personnages V3](docs/HALO_COMBATS_PERSONNAGES_V3.md) : couverture complète et observations.
+- [Suivi des personnages V4](docs/HALO_COMBATS_PERSONNAGES_V4.md) : couverture complète et observations.
 - [Inventaire courant](data/characters_visual_inventory.csv) : les 24 combattants, fichiers, dimensions, alpha et statuts.
-- [Nouveaux PNG V3](assets/characters_wave3/) : copies byte-identiques des sorties obtenues.
-- [PNG V2](assets/characters_wave2/) et [candidats V1](assets/candidates/) : fichiers antérieurs conservés.
+- [Nouveaux PNG V4](assets/characters_wave4/) : copies byte-identiques des sorties obtenues.
+- [PNG V3](assets/characters_wave3/), [PNG V2](assets/characters_wave2/) et [candidats V1](assets/candidates/) : fichiers antérieurs conservés.
 - [Manifeste courant](data/asset_manifest.json) et [compteurs](data/delivery_counts.json).
 - [Bible DOCX V1](docs/HALO_COMBATS_BIBLE_V1.docx) et [bible Markdown V1](docs/HALO_COMBATS_BIBLE_V1.md).
 - [Classeur de production V1](docs/HALO_COMBATS_PRODUCTION_V1.xlsx) : état daté ; les registres JSON/CSV portent le suivi visuel courant.
@@ -46,8 +46,8 @@ Le prototype conserve ses silhouettes techniques temporaires et ses modes Entra�
 
 ## Traçabilité
 
-Le [journal V3](work/wave3/generation_results.json), les [observations QA V3](work/wave3/qa_wave3.json) et la [consolidation V3](work/wave3/consolidation_summary.json) séparent les tentatives des images réellement disponibles. Les historiques V1/V2 et leurs observations restent présents.
+Le [journal V4](work/wave4/generation_results.json), les [observations QA V4](work/wave4/qa_wave4.json) et la [consolidation V4](work/wave4/consolidation_summary.json) séparent les tentatives des images réellement disponibles. Les historiques V1/V2/V3 et leurs observations restent présents.
 
 Les sources figurent dans [fighter_sources.json](data/fighter_sources.json), [world_sources.json](data/world_sources.json), [source_registry.json](docs/source_registry.json), ainsi que dans les prompts et le manifeste. Les références, le cut content et les propositions d'adaptation doivent rester distincts pendant la validation.
 
-Les scripts sources de la V1 reconstruisent un état daté. Ne pas les rejouer sur les registres courants sans préserver les consolidations V2/V3.
+Les scripts sources de la V1 reconstruisent un état daté. Ne pas les rejouer sur les registres courants sans préserver les consolidations V2/V3/V4.

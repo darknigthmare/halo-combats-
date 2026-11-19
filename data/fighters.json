@@ -250,15 +250,18 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
       "prototype_reference": "prototype/halo_combats_prototype.html",
       "prototype_scope": "Mécanique partielle indépendante, visuels temporaires, fiche complète non intégrée.",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "chief_infinite_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "arbiter_h3",
@@ -754,13 +757,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "johnson_h3_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "noble_six",
@@ -1504,13 +1510,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "jorge_reach_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "jun_reach",
@@ -1753,13 +1762,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "jun_reach_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "kat_reach",
@@ -2002,13 +2014,18 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "kat_reach_neutral_right_v01",
+        "kat_reach_neutral_right_v02"
+      ],
+      "preferred_visual_asset": "kat_reach_neutral_right_v02",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "carter_reach",
@@ -2251,13 +2268,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "carter_reach_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "buck_odst",
@@ -3257,13 +3277,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "tartarus_h2_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "atriox_hw2",
@@ -5009,13 +5032,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "douglas_hw2_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "jerome_hw2",

@@ -1,0 +1,619 @@
+{
+  "wave": 4,
+  "task": "Continuer les 12 personnages manquants et actualiser la PR #1 de Halo Combats",
+  "results": [
+    {
+      "entity_id": "chief_infinite",
+      "name": "John-117 — le Major",
+      "prompt": "A single full-body character reference illustration of Master Chief John-117 in his Halo Infinite campaign Mark VI GEN3 armor. Faithfully reproduce the familiar olive-green armor, gold opaque visor, helmet, chest plates with small 117 marking, armored limbs, black undersuit and stowed Grappleshot on his anatomical left forearm. Calm neutral standing pose, facing screen right in a mostly lateral view, both hands empty and relaxed beside the body, both boots fully visible. No weapon and no action. Detailed realistic game-character rendering with even studio lighting. The entire figure fits comfortably within broad transparent margins. Genuine transparent background, clean cutout, no floor or cast shadow, no scene, no lettering outside the authentic small armor marking, one figure only.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5669520b-0815-49a9-887f-b60737ef32c5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "name": "Avery Johnson",
+      "prompt": "Create one full-body neutral character reference illustration of Sergeant Major Avery Johnson in the original Halo 3. Preserve his recognizable mature Black face, short mustache and familiar olive patrol cap. Reproduce the original Marine uniform: olive and gray chest armor over military fatigues, utility belt and pouches, rugged combat boots and normal human proportions. His expression is calm and composed. He wears Marine equipment, not Spartan armor. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 51a080d2-9ffa-4aaf-9f1a-c1a4b778b467.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "emile_reach",
+      "name": "Emile-A239",
+      "prompt": "Create one full-body neutral character reference illustration of Emile-A239, Noble Four, in the original Halo Reach. His charcoal-gray Mark V[B] armor has restrained red accents, a black undersuit and EVA helmet with the recognizable skull scratched into its gold visor. The skull is a surface engraving, not a mask. Keep his large Security pauldron on his anatomical RIGHT shoulder and Operator pauldron on his LEFT, and his characteristic chest rig and FJ/PARA knees. Equipment stays stowed. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d54a44e4-b1c3-4066-ab0c-090bc81b120e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "name": "Jorge-052",
+      "prompt": "Create one full-body neutral character reference illustration of Jorge-052, Noble Five, in the original Halo Reach. Preserve his towering broad Spartan-II build, bulky sage-and-olive Grenadier armor with red panels and ochre high collar, original rounded Grenadier helmet with gold opaque visor, heavy legs and black undersuit. The Grenadier shoulder is anatomically LEFT and EVA shoulder RIGHT. Keep the original color placements. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 882325a4-ba37-4c9a-9e38-93ef7731d148.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "jun_reach",
+      "name": "Jun-A266",
+      "prompt": "Create a character reference of Jun-A266, Noble Three, from the original Halo: Reach. Preserve sage-green Mark V[B] scout armor, original Scout HU/RS helmet, brown-orange visor, tan scarf, Patrol chest rig and compact rucksack. Keep spare sniper cartridges on his anatomical LEFT shoulder, the sheathed knife at his RIGHT shoulder and UGPS on his LEFT forearm. Reproduce FJ/PARA knees and his leaner Spartan silhouette, with equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7652961a-671c-480e-a9e4-d5eb9c879ecf.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "kat_reach",
+      "name": "Kat-B320",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png",
+      "prompt": "Create a character reference of Kat-B320, Noble Two, in her original Halo: Reach appearance after Fumirole. Reproduce pale steel-blue Mark V[B] armor, the Air Assault helmet with its correct side module, opaque silver visor and black undersuit. Her anatomical RIGHT arm is the exposed segmented mechanical prosthesis, including its robotic hand; her LEFT arm is normally armored. Preserve the hard utility case on her LEFT thigh and realistic armored proportions. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generated_candidate",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halowaypoint.com/news/canon-fodder-phoenix-blog",
+        "https://www.halopedia.org/Catherine-B320"
+      ],
+      "critical_checks": [
+        "Prothèse anatomiquement droite, bras gauche normal sous armure ; ne jamais inverser ces côtés pour faire face à droite.",
+        "Casque Air Assault Reach et visière argentée ; ne pas reprendre le casque Commando de Carter.",
+        "Hardcase à la cuisse gauche ; silhouette protégée réaliste, sans mise en forme exagérée de l'armure.",
+        "Mains vides, M6G absent ; contrôler la prothèse et le casque sur le modèle Reach, pas un kit Infinite.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ]
+    },
+    {
+      "entity_id": "carter_reach",
+      "name": "Carter-A259",
+      "prompt": "Create a character reference of Carter-A259, Noble One, from the original Halo: Reach. Preserve deep-blue Mark V[B] armor, the original Commando HUL[3] helmet, opaque gold visor, Assault/Commando chest gear and black undersuit. Reproduce the anatomical LEFT Commando pauldron, RIGHT Mark V pauldron, TACPAD on the LEFT wrist and FJ/PARA knee guards. Keep both arms normally armored, the original angular Reach silhouette and equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f1d14a7b-5efb-4e07-a94d-ddb778b9fb4b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "name": "Tartarus",
+      "prompt": "Create a character reference of Tartarus from the original Halo 2 Classic. Preserve his massive barrel-chested Jiralhanae build, dense silver-white fur, tall white mohawk crest, dark gray face and broad forearms. Reproduce the exposed fur-covered torso, sparse classic equipment, dark cross-body bandolier, metallic gold pauldron on his anatomical LEFT shoulder, belt, original lower-body protection and boots. Retain Classic geometry and a calm expression; no hammer is carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 58e3d7d3-1f97-4edd-80fa-d61c16d8666e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "name": "Escharum",
+      "prompt": "Create a character reference of Escharum in his Halo Infinite appearance. Preserve his elderly Jiralhanae face, heavy brow, gray-white beard, broad nose and immense body proportions. Reproduce the distinctive Banished armor, with dark gunmetal layered plates, deep red accents, broad ornate shoulders, heavy bracers and greaves, and recognizable V-shaped chest plating. Keep his own aged facial likeness and armor silhouette, with all equipment inactive and no weapon carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "text_prompt",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d124d54b-4ef0-40e9-9662-993c13b8e874.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "name": "Jega 'Rdomnai",
+      "prompt": "Create a character reference of Jega 'Rdomnai in Halo Infinite. Preserve his tall lean Sangheili anatomy, digitigrade legs, split feet and black harness with deep red markings, claw-like ornaments and Banished emblem. His anatomical LEFT arm and LEFT mandibular structures are mechanical prostheses; both legs remain biological. Retain the inactive Ghostpierce emitter on the LEFT forearm, with energy blades extinguished and no separate sword carried. Armor is opaque, camouflage inactive. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "text_prompt",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID eb716971-e94e-4c17-b857-6fcb38c5dbc6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "chak_lok",
+      "name": "Chak 'Lok",
+      "prompt": "Create a character reference of Chak 'Lok in his Halo Infinite appearance. Reproduce his distinctive metallic gold Sangheili warlord harness, correct elongated helmet, substantial shoulder plates, dark undersuit, armored forearms and long leg plates. Preserve Infinite's Sangheili proportions, strong neck, intact four-part mandibles, biological arms, digitigrade legs and broad split feet. Keep his own helmet and armor shapes, not an earlier game's gold Elite. Camouflage is inactive and armor fully opaque. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "text_prompt",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 95ea1a8b-0ae5-4423-9986-4ff631a19f2d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "name": "Douglas-042",
+      "prompt": "Create a character reference of Douglas-042 in the Halo Wars 2 campaign. Reproduce his operational olive-green Mark IV armor, broad rigid chest shell, heavy shoulders, angular helmet with opaque gold visor, black undersuit and substantial boots. Preserve Douglas's own campaign markings and pale helmet stripe rather than copying Jerome's red diagonal chest design. Both arms are normally armored; show intact operational equipment, without an invented prosthesis, additional damage or large unsupported numbers. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "text_prompt",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f297ae86-ee4f-46fb-9a4c-a7d3269e8851.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "chief_infinite",
+      "name": "John-117 — le Major",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-18176e85-e84c-400f-aec1-eb82b42d1cf9.png",
+      "prompt": "Edit the supplied official Halo Infinite render of Master Chief John-117 into one new full-body neutral character reference pose. This image is the exact armor and identity reference: preserve his olive-green Mark VI GEN3 helmet, opaque gold visor, angular chest and shoulders, small 117 chest marking, black undersuit, gauntlets, knee plates and heavy boots. Preserve the armor design, colors and realistic Spartan proportions shown in the input. Change the pose to a calm standing near-orthographic profile facing screen RIGHT, with both empty hands relaxed beside the body and both feet clearly separated. Remove the handheld rifle for this unarmed reference pose; keep the stowed Grappleshot on his anatomical LEFT forearm. Reconstruct the previously obscured armor consistently. Do not mirror the armor asymmetry. Keep the entire helmet, hands and boot soles inside broad transparent margins, ideally ten percent above and below. Match the input's detailed game-render materials with even soft lighting. Genuine transparent alpha, no scenery, floor, contact shadow, text labels, effects, extra character or additional pose.",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "official_reference_pose_edit",
+      "reference_input": {
+        "source_page_url": "https://www.halowaypoint.com/en-us/news/master-class",
+        "source_image_url": "https://content.halocdn.com/media/Default/community/CANON_FODDER_Franchise/cf_chief-inf-render-f64f9b1d9b7b4a2c8d5b45240c24b91e.png",
+        "source_identification": "The official article explicitly identifies this image as the Master Chief in Mark VI [GEN3] armor from Halo Infinite.",
+        "source_scope": "Official illustrative render in an article written before the launch of Halo Infinite; not an orthographic model sheet or a complete cosplay guide.",
+        "sha256": "47e537d319ae952e17eb3d59841342ccc862a697b3c2f3aaede1a833950bd567",
+        "limits": [
+          "Not a strict right-facing lateral view; no complete rear or opposite-side view.",
+          "Rifle and hands obscure part of the chest and forearms.",
+          "Use as the armor and proportion reference when generating a new neutral pose; the download itself is not a generated character."
+        ]
+      },
+      "status": "generated_candidate",
+      "reference_urls": [
+        "https://www.halowaypoint.com/en-us/news/master-class",
+        "https://www.halowaypoint.com/news/customization-overview-season-5",
+        "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+      ],
+      "critical_checks": [
+        "Mark VI GEN3 de la campagne Infinite ; ne pas substituer Mark VII multijoueur, GEN2 ou série TV.",
+        "Grappleshot sur l'avant-bras anatomiquement gauche, câble rangé ; 117 petit et correctement orienté.",
+        "Mains vides : MA40 volontairement absent de cette référence neutre, pas une garde armée.",
+        "Casque fermé ; silhouette et proportions à comparer au rendu officiel Master Class.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ]
+    },
+    {
+      "entity_id": "kat_reach",
+      "name": "Kat-B320",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-53e25a32-b105-49fc-845e-43cadfbcc721.png",
+      "prompt": "Edit only the placement of Kat-B320's rigid thigh utility hardcase in this supplied Halo Reach character cutout. The current rectangular case is strapped to her foreground anatomical RIGHT thigh, beneath the mechanical RIGHT arm. Remove that case and its straps from the right thigh, restoring the matching intact pale blue armor there. Put the same hardcase on her anatomical LEFT thigh, the farther leg on the other side of her pelvis. In this right-facing profile the correct left-thigh case may be mostly hidden behind the foreground right leg; allow that natural occlusion instead of putting it back on the visible right thigh. Preserve every other design feature: her mechanical RIGHT arm, normally armored LEFT arm, helmet, silver visor, blue armor, body proportions, hands, boots, neutral pose and camera orientation. Do not mirror or rotate the character, do not exchange the arms or change her face. Keep one complete figure and the original true transparent alpha background, with no floor, scene, lettering, weapon or duplicate.",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "targeted_equipment_correction",
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png",
+      "status": "generated_candidate",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halowaypoint.com/news/canon-fodder-phoenix-blog",
+        "https://www.halopedia.org/Catherine-B320"
+      ],
+      "critical_checks": [
+        "Prothèse anatomiquement droite, bras gauche normal sous armure ; ne jamais inverser ces côtés pour faire face à droite.",
+        "Casque Air Assault Reach et visière argentée ; ne pas reprendre le casque Commando de Carter.",
+        "Hardcase à la cuisse gauche ; silhouette protégée réaliste, sans mise en forme exagérée de l'armure.",
+        "Mains vides, M6G absent ; contrôler la prothèse et le casque sur le modèle Reach, pas un kit Infinite.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ]
+    },
+    {
+      "id": "emile_reach",
+      "name": "Emile-A239",
+      "era": "Halo: Reach (2010)",
+      "prompt": "Use the attached Halo: Reach game reference as the visual identity and armor source. Make a new single-character full-body pose of Emile-A239 for the Halo Combats 2D fighting-game asset set. Preserve Emile-A239's original 2010 Reach armor, weathered charcoal plates, skull etched into the gold EVA visor, the large red anatomical RIGHT Security shoulder and its stowed kukri assembly, asymmetric opposite shoulder, chest pouches and grenade belt. The carving is an engraving on a visor, not an exposed skull. Follow the input's shapes and worn paint precisely. Change the articulation to a calm upright neutral stance, facing screen RIGHT, almost lateral, with the character's anatomical right side nearer the viewer and only enough three-quarter visibility to identify the helmet and torso. Hands empty and relaxed, forearms slightly away from the torso, feet planted, both boots fully visible. Remove the handheld firearm from the reference; keep only the small holstered/stowed equipment already belonging to this exact character. Preserve anatomical left/right asymmetries; do not mirror the design. Faithful detailed realistic videogame character render, readable armor plates and proportions, consistent soft neutral lighting, restrained surface wear. Exactly ONE character on a genuinely transparent alpha background, no scenery, no floor plane, no text or label, no drop-shadow panel. Full body including antennas, shoulder equipment and both soles, with comfortable clear transparent margins on every side. This is a new neutral pose derived from the attached game reference, not a redesign or a collage.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halowaypoint.com/news/feet-first-into-fall",
+        "https://www.halopedia.org/Emile"
+      ],
+      "critical_checks": [
+        "Crâne gravé sur la visière dorée EVA[C], pas masque en os ou casque blanc.",
+        "Security et kukri rengainé anatomiquement à droite ; Operator à gauche. Ne pas inverser en miroir.",
+        "Mains vides, shotgun absent ; le kukri reste dans son fourreau, équipement fixé au harnais.",
+        "Le fan art Spotlight ne certifie pas la géométrie ; comparer les pièces au modèle Reach.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "emile_reach",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "archived_presskit_reference_pose_edit",
+      "reference_input": {
+        "id": "emile_reach",
+        "character": "Emile-A239",
+        "source_page_url": "https://www.halopedia.org/File:Emile-A239.png",
+        "source_image_url": "https://www.halopedia.org/images/4/4c/Emile-A239.png?903e7",
+        "original_filename": "Emile_right1.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/emile_reach_presskit_reference.png",
+        "bytes": 418268,
+        "sha256": "a6ae4dae6ee9d67f3382ad51128fcc76674f8b63bed2f6e5e44e34bff05c2691",
+        "width": 660,
+        "height": 1020,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted full-body Emile render, with both boots present.",
+          "Original Reach charcoal armor, red right-shoulder plate, skull engraving on the gold EVA visor, chest equipment and prominent shoulder-mounted knife assembly.",
+          "Shotgun held in both hands, aimed toward screen right.",
+          "Dynamic three-quarter stance with one leg behind the other."
+        ],
+        "limits": [
+          "Armed aiming pose, not a neutral stance or strict orthographic profile.",
+          "Weapon and arms obscure upper chest details; rear leg partly occluded.",
+          "Archived PNG is 660 by 1020, with no added resolution or invented hidden details."
+        ]
+      },
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bc01363f-7a78-4d3c-b657-c8a22059a598.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "id": "jorge_reach",
+      "name": "Jorge-052",
+      "era": "Halo: Reach (2010)",
+      "prompt": "Use the attached Halo: Reach game reference as the visual identity and armor source. Make a new single-character full-body pose of Jorge-052 for the Halo Combats 2D fighting-game asset set. Preserve Jorge-052's original 2010 Reach design and exceptionally massive Spartan-II build: exact Grenadier helmet, gold visor, ochre/yellow neck collar AND broad ochre/yellow chest protection shown in the reference, red shoulder panels, subdued green and dark metal body armor, bulky backpack and antennas. Follow the input's actual color placement and asymmetric shoulder geometry; do not turn him into a generic green Spartan. Change the articulation to a calm upright neutral stance, facing screen RIGHT, almost lateral, with the character's anatomical right side nearer the viewer and only enough three-quarter visibility to identify the helmet and torso. Hands empty and relaxed, forearms slightly away from the torso, feet planted, both boots fully visible. Remove the handheld firearm from the reference; keep only the small holstered/stowed equipment already belonging to this exact character. Preserve anatomical left/right asymmetries; do not mirror the design. Faithful detailed realistic videogame character render, readable armor plates and proportions, consistent soft neutral lighting, restrained surface wear. Exactly ONE character on a genuinely transparent alpha background, no scenery, no floor plane, no text or label, no drop-shadow panel. Full body including antennas, shoulder equipment and both soles, with comfortable clear transparent margins on every side. This is a new neutral pose derived from the attached game reference, not a redesign or a collage.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halopedia.org/File:Jorge-052.png",
+        "https://www.halopedia.org/Jorge%27s_Chaingun"
+      ],
+      "critical_checks": [
+        "Gabarit Spartan-II massif, casque Grenadier/UA, col ocre et disposition d'origine des panneaux rouges.",
+        "Grenadier anatomiquement à gauche et EVA à droite ; conserver les asymétries du rendu Bungie.",
+        "Mains vides ; Etilka/M247H non représentée dans cette pose neutre, aucun accessoire rotatif inventé.",
+        "Aucun jetpack ou élément Halo 5/Infinite ajouté ; comparer les volumes au rendu Jorge-052 du press kit.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "jorge_reach",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "archived_presskit_reference_pose_edit",
+      "reference_input": {
+        "id": "jorge_reach",
+        "character": "Jorge-052",
+        "source_page_url": "https://www.halopedia.org/File:Jorge-052.png",
+        "source_image_url": "https://www.halopedia.org/images/3/34/Jorge-052.png?ab322",
+        "original_filename": "jorge_right3.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jorge_reach_presskit_reference.png",
+        "bytes": 650161,
+        "sha256": "e63acda5b98a1a8bc11fe916a7cf34f9984e03e6f90152513a2cef6e30d2e2df",
+        "width": 880,
+        "height": 1040,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single full-body Jorge render, helmet and both broad boots visible.",
+          "Massive Reach silhouette with bulky backpack, antennas, red armor panels, large ochre/yellow collar and chest protection, gold visor and heavy leg armor.",
+          "M247H/Etilka-type heavy weapon with a single principal barrel held across the body.",
+          "Wide planted three-quarter frontal stance."
+        ],
+        "limits": [
+          "The large weapon obscures the abdomen, hands and part of the hips.",
+          "Not an orthographic lateral or rear view; some upper backpack details sit near the frame.",
+          "Archived PNG is 880 by 1040; original press-kit JPG provenance is documented by the file page, not byte-equivalence."
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4325fda0-380e-4de5-9cb3-82cf4257dafd.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "jun_reach",
+      "name": "Jun-A266",
+      "era": "Halo: Reach (2010)",
+      "prompt": "Use the attached Halo: Reach game reference as the visual identity and armor source. Make a new single-character full-body pose of Jun-A266 for the Halo Combats 2D fighting-game asset set. Preserve Jun-A266's original 2010 Reach Scout helmet and olive armor, green/earth camouflage mesh scarf, asymmetric shoulder equipment, thigh holster, field equipment and modest worn markings. The scarf is camouflage mesh as shown, not a smooth beige scarf. Raise him from the kneeling reference into a natural upright neutral stance without changing his armor identity. Change the articulation to a calm upright neutral stance, facing screen RIGHT, almost lateral, with the character's anatomical right side nearer the viewer and only enough three-quarter visibility to identify the helmet and torso. Hands empty and relaxed, forearms slightly away from the torso, feet planted, both boots fully visible. Remove the handheld firearm from the reference; keep only the small holstered/stowed equipment already belonging to this exact character. Preserve anatomical left/right asymmetries; do not mirror the design. Faithful detailed realistic videogame character render, readable armor plates and proportions, consistent soft neutral lighting, restrained surface wear. Exactly ONE character on a genuinely transparent alpha background, no scenery, no floor plane, no text or label, no drop-shadow panel. Full body including antennas, shoulder equipment and both soles, with comfortable clear transparent margins on every side. This is a new neutral pose derived from the attached game reference, not a redesign or a collage.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/halo-winter-contention",
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halopedia.org/Jun-A266"
+      ],
+      "critical_checks": [
+        "Casque Scout HU/RS de Reach, foulard et rig Patrol ; ne pas substituer Recon ou VIGILANT GEN2.",
+        "Cartouches à l'épaule gauche, couteau rengainé à l'épaule droite, UGPS à l'avant-bras gauche.",
+        "Mains vides ; SRS99-AM absent de cette référence, les cartouches et accessoires restent fixés.",
+        "Les sources officielles de contexte ne prouvent pas toutes les pièces ; contrôle sur modèle Reach nécessaire.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "jun_reach",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "archived_presskit_reference_pose_edit",
+      "reference_input": {
+        "id": "jun_reach",
+        "character": "Jun-A266",
+        "source_page_url": "https://www.halopedia.org/File:JunTP.png",
+        "source_image_url": "https://www.halopedia.org/images/2/29/JunTP.png?30252",
+        "original_filename": "Jun_right3.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jun_reach_presskit_reference.png",
+        "bytes": 1180617,
+        "sha256": "2d4ab7660f612f85eec24326602146d8e83750cf249aa0fdbb52ea7f1c3f6b05",
+        "width": 1920,
+        "height": 1080,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "One complete Jun render in a kneeling aiming pose, with helmet, legs and both boots within the canvas.",
+          "Original Reach Scout helmet, olive-green armor, camouflage mesh/scarf, shoulder equipment and thigh holster visible.",
+          "Long SRS99-AM sniper rifle held horizontally toward screen right; forearms and much of the torso are behind it.",
+          "Wide landscape canvas contains the full rifle and figure."
+        ],
+        "limits": [
+          "Kneeling, armed pose rather than upright neutral stance; generating a standing pose requires a new articulation.",
+          "Rifle and arms obscure the chest, and the crouch foreshortens some thigh and hip details.",
+          "Scarf looks like camouflage mesh in green/earth tones; use the image for material and color instead of assuming a plain tan cloth."
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-d865d2d4-229a-43c7-b3af-ff310b246701.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "carter_reach",
+      "name": "Carter-A259",
+      "era": "Halo: Reach (2010)",
+      "prompt": "Use the attached genuine Halo: Reach (2010) reference imagery to produce a single new full-body render of Carter-A259 for the Halo Combats 2D character asset set. Use Carter's exact original Reach blue Commando helmet, gold visor, blue worn plates, dark undersuit, chest pouches and lower-leg armor. The large gray Commando shoulder with the white emblem belongs to his anatomical LEFT shoulder; preserve the LEFT forearm TACPAD and the smaller opposite shoulder. Repose the character; do not simply mirror the left-facing source. ONE character only. Calm standing neutral pose facing screen RIGHT, almost a lateral fighting-game view, anatomical right side nearer the viewer with a small three-quarter angle to keep the identity legible. Hands empty and relaxed at the sides, arms slightly away from the body, feet planted with a small stagger, both boots or feet fully visible. Preserve left/right equipment asymmetry. Detailed videogame render with faithful source shapes, materials and colors, soft neutral character lighting, restrained wear. The output must be a clean isolated character with genuine transparent alpha outside its silhouette, including the gaps between the limbs: no black background, no gray backdrop, no glow or halo, no atmospheric gradient, no floor, no shadow panel, no labels or frame. Keep the entire figure and all carried equipment inside the canvas with generous clear margins. No handheld weapons in this neutral pose.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+        "https://www.halopedia.org/File:HR_PK_Six%26Carter.jpg",
+        "https://www.halopedia.org/Carter"
+      ],
+      "critical_checks": [
+        "Bleu plus soutenu que Kat, casque Commando HUL[3] de Reach, deux bras normalement blindés.",
+        "Commando à l'épaule gauche, Mark V à droite et TACPAD à gauche, sans mirroring.",
+        "Mains vides ; ni M392 DMR ni VK78 ne sont demandés dans cette référence.",
+        "Conserver les pièces Reach, sans adaptation GEN2 Halo 5 ni kit Infinite ; comparer au modèle de la capture du press kit.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "carter_reach",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "archived_presskit_reference_pose_edit",
+      "reference_input": {
+        "id": "carter_reach",
+        "character": "Carter-A259",
+        "source_page_url": "https://www.halopedia.org/File:HReach_-_A259.png",
+        "source_image_url": "https://www.halopedia.org/images/2/22/HReach_-_A259.png?808f9",
+        "original_filename": "Reach_E310_Carter.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110912110348/http://www.bungie.net/projects/reach/images.aspx?c=53&page=1",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/carter_reach_presskit_reference.png",
+        "bytes": 525130,
+        "sha256": "689764736e56888c569e631ce4423865576d301d88c716fe67ad5f99b78fd3a5",
+        "width": 770,
+        "height": 990,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted Carter-A259, full body including both boots, in blue Halo: Reach armor with gold visor and visible weathered white/gray markings.",
+          "Large gray shoulder plate with white emblem, blue forearm display, waist pouches and back equipment are visible.",
+          "Dynamic running/aiming pose toward screen left, holding an MA37 assault rifle in both hands; one knee is bent and the rear foot is raised.",
+          "The source PNG has an alpha channel. Sampled dark/white rectangular background areas have alpha 0; their RGB appearance in previews must not be copied into new art."
+        ],
+        "limits": [
+          "Not a neutral pose, not a strict side view, and faces left; use for armor identity/materials, then articulate a new right-facing neutral pose without mirroring asymmetric equipment.",
+          "Rifle and bent arms occlude parts of the chest, abdomen and hands; legs overlap, and the rear view is unavailable.",
+          "Original filename Reach_E310_Carter.jpg indicates an E3 2010 promotional render. A possible pre-release detail difference from the final campaign model is not independently ruled out.",
+          "Halopedia file history describes a later extraction with no white edges. This hosted PNG is a derivative archive copy, not a verified byte-identical original Bungie JPG.",
+          "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "johnson_h3",
+      "name": "Sergeant Avery Johnson",
+      "era": "Halo 3 (2007)",
+      "prompt": "Use the attached genuine Halo 3 (2007) reference imagery to produce a single new full-body render of Sergeant Avery Johnson for the Halo Combats 2D character asset set. Use Johnson's actual Halo 3 face, dark skin, moustache, olive UNSC field cap, military middle-aged face and proportions, olive Marine torso and shoulder plates, dark straps and camouflage uniform from the attached in-game cutout. Keep him a human Marine with a visible face, not a helmeted Spartan. Extend the source's upper-thigh crop to a plausible matching Halo 3 Marine uniform with knee armor and boots; keep the same grounded equipment language rather than adding science-fiction inventions. ONE character only. Calm standing neutral pose facing screen RIGHT, almost a lateral fighting-game view, anatomical right side nearer the viewer with a small three-quarter angle to keep the identity legible. Hands empty and relaxed at the sides, arms slightly away from the body, feet planted with a small stagger, both boots or feet fully visible. Preserve left/right equipment asymmetry. Detailed videogame render with faithful source shapes, materials and colors, soft neutral character lighting, restrained wear. The output must be a clean isolated character with genuine transparent alpha outside its silhouette, including the gaps between the limbs: no black background, no gray backdrop, no glow or halo, no atmospheric gradient, no floor, no shadow panel, no labels or frame. Keep the entire figure and all carried equipment inside the canvas with generous clear margins. No handheld weapons in this neutral pose.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/sweet-sixteenth",
+        "https://www.halopedia.org/Avery_Johnson"
+      ],
+      "critical_checks": [
+        "Visage, moustache, casquette et tenue du modèle Halo 3, pas Halo 2 Anniversary ou Johnson mécanisé Wars 2.",
+        "Proportions humaines de marine ; aucune MJOLNIR ou armure ODST ajoutée.",
+        "Mains vides ; le BR55HB n'est pas demandé pour cette pose de référence.",
+        "Ressemblance faciale, manches et micro-insignes restent à contrôler sur une capture Halo 3 ; l'illustration officielle Mythos n'est pas un turnaround du modèle.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "johnson_h3",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "game_reference_pose_edit",
+      "reference_input": {
+        "id": "johnson_h3",
+        "character": "Avery Johnson",
+        "game": "Halo 3 (2007)",
+        "source_page_url": "https://www.halopedia.org/File:Sgt_Avery_Junior_Johnson.png",
+        "source_image_url": "https://www.halopedia.org/images/6/60/Sgt_Avery_Junior_Johnson.png",
+        "kind": "downloaded_game_screenshot_cutout",
+        "source_scope": "Halo 3 game screenshot cut out by Halopedia user G35cpe, uploaded 15 October 2010. The file is categorized as Johnson in Halo 3. Not a publisher press render. Reference only; excluded from published deliverables.",
+        "observed": [
+          "Frontal Johnson image from cap to upper thighs; face and moustache are clear.",
+          "Olive UNSC cap, large olive chest and shoulder armor, dark harness straps, camouflage sleeves, forearm guards, waist pouch.",
+          "No weapon obscures the chest."
+        ],
+        "limits": [
+          "Not full body: lower thighs, knees and boots are outside the frame.",
+          "Front view only; no rear or exact lateral view.",
+          "Upstream screenshot has been cut out by its uploader; no image editing was performed in this task."
+        ],
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/johnson_h3_game_screenshot_cutout.png",
+        "bytes": 355022,
+        "sha256": "80e795110cc2d0a1e226aec84ac044585fc1b228c803e9dbeb1af03f96539ad7",
+        "width": 599,
+        "height": 944,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-970fae11-554d-4df6-99f4-e49577d51342.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "tartarus_h2",
+      "name": "Tartarus",
+      "era": "Halo 2 Classic",
+      "prompt": "Use the attached genuine Halo 2 Classic (2004) reference imagery to produce a single new full-body render of Tartarus for the Halo Combats 2D character asset set. Preserve the actual Halo 2 Classic Tartarus identity from this reference: massive broad Jiralhanae anatomy, grey-white fur, upright white crest and beard, the classic broad face, diagonal dark harness, gold anatomical LEFT shoulder plate, asymmetric forearm and leg guards, and the original clawed feet. Use this Classic model silhouette and geometry, not the Halo 2 Anniversary cinematic redesign. Change the crouched weapon pose to a calm heavy standing posture; remove the handheld Fist of Rukt from this neutral pose. ONE character only. Calm standing neutral pose facing screen RIGHT, almost a lateral fighting-game view, anatomical right side nearer the viewer with a small three-quarter angle to keep the identity legible. Hands empty and relaxed at the sides, arms slightly away from the body, feet planted with a small stagger, both boots or feet fully visible. Preserve left/right equipment asymmetry. Detailed videogame render with faithful source shapes, materials and colors, soft neutral character lighting, restrained wear. The output must be a clean isolated character with genuine transparent alpha outside its silhouette, including the gaps between the limbs: no black background, no gray backdrop, no glow or halo, no atmospheric gradient, no floor, no shadow panel, no labels or frame. Keep the entire figure and all carried equipment inside the canvas with generous clear margins. No handheld weapons in this neutral pose.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-all-about-anvil",
+        "https://www.halopedia.org/Tartarus"
+      ],
+      "critical_checks": [
+        "Halo 2 Classic verrouillé ; ne pas mélanger avec la refonte Anniversary ou l'armure motorisée Halo 3.",
+        "Grande épaulière dorée anatomiquement gauche, fourrure blanche et torse largement exposé selon le modèle classique.",
+        "Mains vides : Fist of Rukt volontairement absent ; aucune arme de remplacement ajoutée.",
+        "Aucun trophée inventé ; visage, proportions et équipement exacts restent à comparer au modèle Classic.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "tartarus_h2",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "game_reference_pose_edit",
+      "reference_input": {
+        "id": "tartarus_h2_classic",
+        "character": "Tartarus",
+        "game": "Halo 2 Classic (2004 model)",
+        "source_page_url": "https://www.halopedia.org/File:H2-Tartarus_Render.png",
+        "source_image_url": "https://www.halopedia.org/images/8/8d/H2-Tartarus_Render.png",
+        "kind": "downloaded_game_screenshot_cutout",
+        "source_scope": "File description and current categories explicitly identify a Halo 2 screenshot, uploaded by Guardian117. The visible model matches the original low-polygon Halo 2 design and the separately inspected 2011 cutout. Not a Halo 2 Anniversary cinematic render.",
+        "observed": [
+          "Complete crouched figure with visible feet, white-grey fur, upright white crest and beard, broad torso and dark diagonal straps.",
+          "Gold plate on one shoulder and asymmetric leg guards.",
+          "Fist of Rukt is held diagonally across the body; its large purple-grey multi-disc head is prominent in the foreground."
+        ],
+        "limits": [
+          "Strong perspective and crouched attack pose; not a neutral orthographic sheet.",
+          "Hammer and hands obscure part of the torso.",
+          "The 2025 initial upload comment incorrectly says Halo Infinite. Current description, categories and visual comparison support Halo 2 Classic; the original engine/build used to capture it is not independently documented."
+        ],
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/tartarus_h2_classic_game_render.png",
+        "bytes": 849199,
+        "sha256": "7158a3f576a1f665458acf734bb596fe399826b86054cdf5f284cde64fd1f896",
+        "width": 1035,
+        "height": 1031,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ]
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ac8c2139-6aeb-4f6a-8eb9-64217690e32a.png",
+      "status": "generated_candidate"
+    },
+    {
+      "id": "douglas_hw2",
+      "name": "Douglas-042",
+      "era": "Halo Wars 2 (2017), Mark IV de campagne, opérationnel",
+      "prompt": "Use the attached genuine Halo Wars 2 (2017) reference imagery to produce a single new full-body render of Douglas-042 for the Halo Combats 2D character asset set. Create only Douglas-042, helmeted in his intact Halo Wars 2 campaign Mark IV armor. The first reference is his official Phoenix Log illustration: Douglas is the kneeling green Spartan at the far right. The second reference shows Red Team in the game; use the rightmost green Spartan with the pistols as the in-game proportion and armor reference. Preserve the bulky early Mark IV green plates, gold visor, broad shoulder armor and dark undersuit shown. Keep both biological arms intact. Avoid later Mark VI/Mark VII armor, avoid copying another Red Team member, and do not invent large 042 lettering or new shoulder logos not visible in the references. ONE character only. Calm standing neutral pose facing screen RIGHT, almost a lateral fighting-game view, anatomical right side nearer the viewer with a small three-quarter angle to keep the identity legible. Hands empty and relaxed at the sides, arms slightly away from the body, feet planted with a small stagger, both boots or feet fully visible. Preserve left/right equipment asymmetry. Detailed videogame render with faithful source shapes, materials and colors, soft neutral character lighting, restrained wear. The output must be a clean isolated character with genuine transparent alpha outside its silhouette, including the gaps between the limbs: no black background, no gray backdrop, no glow or halo, no atmospheric gradient, no floor, no shadow panel, no labels or frame. Keep the entire figure and all carried equipment inside the canvas with generous clear margins. No handheld weapons in this neutral pose.",
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+        "https://www.halopedia.org/Douglas-042",
+        "https://www.halopedia.org/Douglas-042/Gameplay",
+        "https://www.teamrespawn.net/phoenix-logs/douglas-042/"
+      ],
+      "critical_checks": [
+        "Mark IV opérationnel Wars 2 et marquages propres à Douglas ; ni Commander Jerome ni recoloration d'Alice.",
+        "Aucun bras prosthétique inventé ou mélange de blessures et d'état opérationnel.",
+        "Les petits emblèmes, la bande de casque et le 042 restent à vérifier sur la même référence Wars 2.",
+        "Mains vides ; lance-roquettes M41 absent, sans imposer le nombre de tubes d'un modèle Wars 1.",
+        "Référence de personnage neutre, pas une pose armée prête pour le gameplay.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ],
+      "pose_intent": "neutral_unarmed",
+      "prompt_source": "Exact prompt executed in generation_results.json",
+      "entity_id": "douglas_hw2",
+      "attempt_kind": "neutral_unarmed",
+      "generation_method": "game_reference_pose_edit",
+      "reference_input": {
+        "id": "douglas_hw2_phoenix_log",
+        "character": "Douglas-042",
+        "game": "Halo Wars 2 (2017)",
+        "source_page_url": "https://www.halopedia.org/File:HW2_PhoenixLog_Douglas-042.png",
+        "source_image_url": "https://www.halopedia.org/images/e/ed/HW2_PhoenixLog_Douglas-042.png",
+        "original_filename": "cod_inf_unsc_douglas.png",
+        "kind": "downloaded_official_game_menu_artwork",
+        "source_scope": "Official Halo Wars 2 Phoenix Log menu artwork, rehosted on Halopedia as an asset ripped directly from the game. The original asset filename explicitly names Douglas. Not a Halo Wars 1 model or fan illustration.",
+        "observed": [
+          "Douglas appears at the right end of a wide UNSC banner.",
+          "Green Mark IV armor, dark undersuit and a shoulder-mounted rocket launcher.",
+          "Kneeling pose aiming toward screen left, viewed from a rear three-quarter angle."
+        ],
+        "limits": [
+          "Menu illustration, not a gameplay render or orthographic model sheet.",
+          "Figure occupies only the right section of the 2104 by 512 banner.",
+          "Helmet, front torso, opposite side and some lower-leg details are obscured."
+        ],
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/douglas_hw2_phoenix_log_artwork.png",
+        "bytes": 990287,
+        "sha256": "9ced8c4a0618b30ebd0de7b47ac592324fba9b09e0fce3d20e9b4e8b344f0f5c",
+        "width": 2104,
+        "height": 512,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "additional_reference": {
+          "id": "douglas_hw2_group",
+          "character": "Red Team (including Douglas-042)",
+          "game": "Halo Wars 2 (2017), The Halo",
+          "source_page_url": "https://www.halopedia.org/File:HW2_Halo_-_Red_Team_In-game.png",
+          "source_image_url": "https://www.halopedia.org/images/6/68/HW2_Halo_-_Red_Team_In-game.png",
+          "kind": "downloaded_game_screenshot",
+          "source_scope": "Screenshot by Hectorlo, uploaded 30 June 2017, identified as Red Team on Installation 09 in the Halo Wars 2 level The Halo. Current metadata identifies Halo Wars 2 Mark IV, Alice, Jerome and Douglas.",
+          "observed": [
+            "Three green-armored helmeted Spartans in an in-game environment, viewed from an elevated camera.",
+            "Left figure holds a heavy machine gun; middle figure holds a Spartan Laser; right figure holds pistols.",
+            "Boots are present but grass overlaps the lower legs; a defeated Banished enemy lies behind them."
+          ],
+          "character_identification": {
+            "rightmost_spartan": "Inferred to be Douglas from the Red Team group and the other two characters holding their signature machine gun / Spartan Laser. The file itself does not label individual positions.",
+            "corroborating_url": "https://www.halopedia.org/Douglas-042/Gameplay"
+          },
+          "limits": [
+            "Group reference, not an isolated Douglas production render.",
+            "Each figure occupies only a small part of a 965 by 561 image, with foliage occlusion and perspective.",
+            "Do not infer hidden armor panels or precise markings from this screenshot."
+          ],
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/douglas_hw2_red_team_game_screenshot.png",
+          "bytes": 1095209,
+          "sha256": "643be8b36f83bb125db5bfb560d8916974056506400a0e66c6ab08f480eab6ed",
+          "width": 965,
+          "height": 561,
+          "mode": "RGB"
+        }
+      },
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f5143a0-90d7-46ac-bc7f-7624326cb70e.png",
+      "status": "generated_candidate"
+    }
+  ]
+}

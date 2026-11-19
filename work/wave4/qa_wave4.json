@@ -1,0 +1,1352 @@
+{
+  "reviews": [
+    {
+      "entity_id": "kat_reach",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png",
+      "sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5",
+      "reviewed_utc": "2026-11-19T20:03:23+00:00",
+      "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+      "verdict": "candidate_requires_correction",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "notes": [
+        "Spartan en armure bleu acier, visière argentée fermée, bras mécanique au premier plan et autre bras normalement protégé. Le casque, les deux mains vides et les deux bottes sont entièrement dans le cadre ; aucune figure supplémentaire visible.",
+        "Dans ce profil orienté vers la droite, le bras prosthétique visible au premier plan est cohérent avec le côté anatomique droit. En revanche, le hardcase est clairement visible sur la cuisse du même flanc que la prothèse : il apparaît donc sur la cuisse droite. Le brief et le verrou de personnage demandent le hardcase à gauche. Corriger cette asymétrie en déplaçant uniquement le hardcase ; ne pas retourner tout le personnage.",
+        "Pose calme proche du profil ; jambes et bottes partiellement superposées. Le casque Air Assault, son module latéral et la géométrie exacte de la prothèse doivent encore être comparés au modèle Reach. Aucune fidélité 1:1 n’est certifiée.",
+        "PNG RGBA 1024 × 1536, alpha 0 à 254, 1248765 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; trois pixels de faible alpha atteignent le bord inférieur. Marges de 35 px au-dessus du casque et 45 px sous les bottes : la demande de 10 % de marge verticale n’est pas respectée.",
+        "Les points de fond gris/bleu examinés ont alpha 0 ; ce halo dans l’aperçu ne prouve pas un fond opaque. Les faibles résidus alpha et le contour complet restent à vérifier en composition."
+      ],
+      "required_followup": [
+        "Déplacer le hardcase de la cuisse droite apparente vers la cuisse anatomiquement gauche tout en gardant la prothèse au bras droit",
+        "Comparer le casque Air Assault, le module latéral et la prothèse au modèle Halo Reach",
+        "Prévoir 10 % de marge verticale si ce brief est conservé",
+        "Contrôler le contour alpha sur fonds clairs et sombres",
+        "Créer ensuite garde de combat, M6G et animations séparées"
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1248765,
+          "semitransparent_pixels": 324099,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 297885,
+          "alpha_nonzero_bbox": [
+            25,
+            30,
+            1010,
+            1536
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 3
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 310414,
+          "foreground_bbox_above_threshold": [
+            326,
+            35,
+            694,
+            1491
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 326,
+            "top": 35,
+            "right": 330,
+            "bottom": 45
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "10,10": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "512,0": [
+          96,
+          110,
+          124,
+          0
+        ],
+        "250,768": [
+          5,
+          5,
+          4,
+          0
+        ],
+        "750,768": [
+          26,
+          28,
+          30,
+          0
+        ]
+      },
+      "preferred_for_entity": false
+    },
+    {
+      "entity_id": "chief_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-18176e85-e84c-400f-aec1-eb82b42d1cf9.png",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Spartan olive en armure fermée, visière dorée, marquage 117 et mains vides. Le casque, les deux mains et les deux bottes sont entiers ; les pieds sont distincts. La pose est calme, vers la droite, avec une rotation modérée du torse.",
+        "Comparaison visuelle effectuée avec le rendu officiel Master Class utilisé comme référence. Le casque, les grandes plaques, les bottes et les couleurs reprennent ses principaux éléments. Le fusil tenu en main dans la référence est retiré dans la nouvelle pose ; le téléchargement de référence ne constitue pas une image générée.",
+        "La nouvelle orientation ne certifie pas les asymétries : le 117 est très visible sur la plaque proche de la caméra, tandis que le rendu officiel le montre sur la plaque anatomiquement gauche. Contrôler son côté exact, ainsi que les différences de genouillères et la géométrie du Grappleshot gauche, partiellement masqué dans cette pose. Aucune fidélité 1:1 n’est certifiée.",
+        "PNG RGBA 1024 × 1536, alpha 0 à 254, 1171444 pixels entièrement transparents. Aucun pixel d’alpha non nul ne touche le cadre. Marges de 40 px au-dessus du casque et 66 px sous les bottes : personnage entier, mais la cible d’environ 10 % de marge verticale n’est pas atteinte.",
+        "Les points gris/verts de fond examinés ont alpha 0 ; le halo de l’aperçu ne prouve pas un fond opaque. Le contour reste à contrôler en composition, puis la pose devra être déclinée en garde de combat et animations."
+      ],
+      "required_followup": [
+        "Vérification anatomique du côté du 117 et des genouillères par rapport au modèle Infinite",
+        "Validation du Grappleshot sur l’avant-bras gauche et de sa géométrie",
+        "Comparaison des parties reconstruites après retrait du fusil",
+        "Marges verticales et contour alpha de production",
+        "Garde armée MA40 et animations à produire séparément"
+      ],
+      "rgba_samples": {
+        "10,10": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "512,0": [
+          100,
+          103,
+          77,
+          0
+        ],
+        "250,768": [
+          18,
+          18,
+          15,
+          0
+        ],
+        "750,768": [
+          33,
+          32,
+          30,
+          0
+        ]
+      },
+      "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+      "reviewed_utc": "2026-11-19T20:12:52+00:00",
+      "review_method": "Individual view_image inspection, comparison to supplied reference/previous version, and read-only RGBA measurements; no image edits",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1171444,
+          "semitransparent_pixels": 401420,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 363269,
+          "alpha_nonzero_bbox": [
+            25,
+            17,
+            1010,
+            1476
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 380784,
+          "foreground_bbox_above_threshold": [
+            303,
+            40,
+            737,
+            1470
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 303,
+            "top": 40,
+            "right": 287,
+            "bottom": 66
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "comparison_reference": {
+        "source_page_url": "https://www.halowaypoint.com/en-us/news/master-class",
+        "source_image_url": "https://content.halocdn.com/media/Default/community/CANON_FODDER_Franchise/cf_chief-inf-render-f64f9b1d9b7b4a2c8d5b45240c24b91e.png",
+        "source_identification": "The official article explicitly identifies this image as the Master Chief in Mark VI [GEN3] armor from Halo Infinite.",
+        "source_scope": "Official illustrative render in an article written before the launch of Halo Infinite; not an orthographic model sheet or a complete cosplay guide.",
+        "sha256": "47e537d319ae952e17eb3d59841342ccc862a697b3c2f3aaede1a833950bd567",
+        "limits": [
+          "Not a strict right-facing lateral view; no complete rear or opposite-side view.",
+          "Rifle and hands obscure part of the chest and forearms.",
+          "Use as the armor and proportion reference when generating a new neutral pose; the download itself is not a generated character."
+        ]
+      }
+    },
+    {
+      "entity_id": "kat_reach",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-53e25a32-b105-49fc-845e-43cadfbcc721.png",
+      "verdict": "candidate_with_reservations",
+      "recommended_over_sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5",
+      "variant_recommendation": "Prefer this corrected hardcase variant; retain original with documented error.",
+      "notes": [
+        "Comparaison avec le PNG initial de Kat : le hardcase et ses sangles ont été retirés de la cuisse au premier plan, dont la plaque bleue est restaurée. Le même type de hardcase apparaît maintenant partiellement derrière cette cuisse, sur le flanc éloigné, cohérent avec la cuisse anatomiquement gauche. Son ancrage exact reste en partie occulté par la pose.",
+        "Le bras mécanique au premier plan reste anatomiquement droit dans ce profil vers la droite ; l’autre bras demeure normalement protégé. L’orientation, le casque, la silhouette, les mains vides et les bottes sont conservés. Aucun retournement du personnage n’est visible. Je recommande cette variante corrigée plutôt que l’original au hardcase du mauvais côté.",
+        "Le casque, les deux mains et les bottes sont entiers ; la pose reste une référence neutre proche du profil avec les jambes partiellement superposées. Le détail du casque Air Assault, de la prothèse et de l’équipement exige encore une comparaison au modèle Reach. Aucune certification 1:1 n’est donnée.",
+        "PNG RGBA 1024 × 1536, alpha 0 à 254, 1246433 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; sept pixels de faible alpha atteignent le bord gauche. Marges de 36 px au-dessus du casque et 45 px sous les bottes, proches de l’original et inférieures aux 10 % demandés initialement.",
+        "Les points gris/bleus du fond examinés ont alpha 0. Le contour complet et les faibles résidus restent à contrôler sur des fonds de composition clairs et sombres."
+      ],
+      "required_followup": [
+        "Valider l’ancrage du hardcase gauche sur une vue où il est moins occulté",
+        "Comparer casque Air Assault et prothèse droite au modèle Reach",
+        "Marges verticales plus larges pour la production",
+        "Contrôle du contour alpha et séparation des jambes pour la garde de combat",
+        "M6G et animations à produire séparément"
+      ],
+      "rgba_samples": {
+        "10,10": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "512,0": [
+          97,
+          108,
+          120,
+          0
+        ],
+        "250,768": [
+          6,
+          6,
+          6,
+          0
+        ],
+        "750,768": [
+          32,
+          34,
+          35,
+          0
+        ]
+      },
+      "sha256": "fc28c8a9484737f4fa5948ebc3ce3dc7d484c692abc39c522a3f6e2930a2ba47",
+      "reviewed_utc": "2026-11-19T20:12:52+00:00",
+      "review_method": "Individual view_image inspection, comparison to supplied reference/previous version, and read-only RGBA measurements; no image edits",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1246433,
+          "semitransparent_pixels": 326431,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 302098,
+          "alpha_nonzero_bbox": [
+            0,
+            33,
+            1004,
+            1512
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 7,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 313746,
+          "foreground_bbox_above_threshold": [
+            325,
+            36,
+            695,
+            1491
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 325,
+            "top": 36,
+            "right": 329,
+            "bottom": 45
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "comparison_to_previous_source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png",
+      "preferred_for_entity": true,
+      "preference_reason": "Variante corrigée retenue par le parent après inspection : hardcase sur le flanc éloigné, prothèse droite et orientation conservées."
+    },
+    {
+      "entity_id": "jun_reach",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-d865d2d4-229a-43c7-b3af-ff310b246701.png",
+      "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec",
+      "reviewed_utc": "2026-11-19T20:22:53+00:00",
+      "review_method": "Individual source PNG and supplied archived reference viewed; read-only Pillow alpha, dimensions, edge and hash inspection. No image editing or resaving.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "comparison_reference": {
+        "id": "jun_reach",
+        "character": "Jun-A266",
+        "source_page_url": "https://www.halopedia.org/File:JunTP.png",
+        "source_image_url": "https://www.halopedia.org/images/2/29/JunTP.png?30252",
+        "original_filename": "Jun_right3.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jun_reach_presskit_reference.png",
+        "bytes": 1180617,
+        "sha256": "2d4ab7660f612f85eec24326602146d8e83750cf249aa0fdbb52ea7f1c3f6b05",
+        "width": 1920,
+        "height": 1080,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "One complete Jun render in a kneeling aiming pose, with helmet, legs and both boots within the canvas.",
+          "Original Reach Scout helmet, olive-green armor, camouflage mesh/scarf, shoulder equipment and thigh holster visible.",
+          "Long SRS99-AM sniper rifle held horizontally toward screen right; forearms and much of the torso are behind it.",
+          "Wide landscape canvas contains the full rifle and figure."
+        ],
+        "limits": [
+          "Kneeling, armed pose rather than upright neutral stance; generating a standing pose requires a new articulation.",
+          "Rifle and arms obscure the chest, and the crouch foreshortens some thigh and hip details.",
+          "Scarf looks like camouflage mesh in green/earth tones; use the image for material and color instead of assuming a plain tan cloth."
+        ]
+      },
+      "notes": [
+        "Figure entière debout, orientée vers la droite en trois-quarts, mains vides et pistolet conservé au holster de cuisse. Les deux mains et les deux bottes sont dans le cadre ; cette pose n’est pas une vue latérale orthographique stricte.",
+        "Comparaison visuelle avec jun_reach_presskit_reference.png : le casque Scout, les grands volumes vert olive, le filet de camouflage, les marquages de l’épaule et le holster reprennent les repères visibles de la référence. Le matériau du tour de cou ressemble au filet de camouflage de cette référence.",
+        "La référence présente une pose agenouillée et un fusil qui occulte une partie du torse et des mains. La nouvelle station debout et les détails nouvellement visibles du plastron ne sont donc pas certifiés par cette seule vue.",
+        "Le halo sombre vu dans l’aperçu n’est pas un fond opaque général : 1 024 788 pixels sont entièrement transparents et les huit échantillons extérieurs consignés ont alpha 0 malgré leurs composantes RGB non nulles. Les 24 798 pixels d’alpha 1 à 16 justifient encore un contrôle des franges dans le moteur.",
+        "Aucun pixel alpha > 0 ne touche les bords. Le contenu alpha > 16 conserve 32 px en haut et 28 px en bas, ce qui ne respecte pas la marge verticale de 10 % demandée. Les bottes restent entières mais le cadrage bas est serré."
+      ],
+      "required_followup": [
+        "Vérifier le plastron, les plaques de jambes et les asymétries sur des vues complémentaires de Jun dans Halo: Reach.",
+        "Préparer ultérieurement une vue de combat réellement latérale et les animations ; conserver cette sortie comme référence neutre.",
+        "Prévoir davantage d’espace au-dessus et sous le personnage lors d’une future correction, sans recadrer ni retoucher ce PNG livré.",
+        "Contrôler les franges de faible alpha lors de l’intégration sur fonds clairs et sombres."
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1024788,
+          "semitransparent_pixels": 548076,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 498061,
+          "alpha_nonzero_bbox": [
+            47,
+            29,
+            1010,
+            1513
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 523278,
+          "foreground_bbox_above_threshold": [
+            209,
+            32,
+            790,
+            1508
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 209,
+            "top": 32,
+            "right": 234,
+            "bottom": 28
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Marges inférieures à 2 % du canevas ou à 8 px : bottom."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "100,500": [
+          7,
+          7,
+          7,
+          0
+        ],
+        "150,750": [
+          14,
+          14,
+          13,
+          0
+        ],
+        "870,500": [
+          4,
+          4,
+          3,
+          0
+        ],
+        "870,1000": [
+          2,
+          2,
+          2,
+          0
+        ],
+        "512,1520": [
+          38,
+          36,
+          31,
+          0
+        ],
+        "512,20": [
+          90,
+          88,
+          71,
+          0
+        ],
+        "900,768": [
+          11,
+          10,
+          9,
+          0
+        ],
+        "300,20": [
+          15,
+          14,
+          9,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "jorge_reach",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4325fda0-380e-4de5-9cb3-82cf4257dafd.png",
+      "sha256": "6ef5f8aba6b4e9f3e02be8b0d5e853bdbedab2291d1c23b6db8df2247fe4de88",
+      "reviewed_utc": "2026-11-19T20:22:53+00:00",
+      "review_method": "Individual source PNG and supplied archived reference viewed; read-only Pillow alpha, dimensions, edge and hash inspection. No image editing or resaving.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "comparison_reference": {
+        "id": "jorge_reach",
+        "character": "Jorge-052",
+        "source_page_url": "https://www.halopedia.org/File:Jorge-052.png",
+        "source_image_url": "https://www.halopedia.org/images/3/34/Jorge-052.png?ab322",
+        "original_filename": "jorge_right3.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110915013241/http://www.bungie.net/projects/reach/images.aspx?c=53&page=6",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/jorge_reach_presskit_reference.png",
+        "bytes": 650161,
+        "sha256": "e63acda5b98a1a8bc11fe916a7cf34f9984e03e6f90152513a2cef6e30d2e2df",
+        "width": 880,
+        "height": 1040,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single full-body Jorge render, helmet and both broad boots visible.",
+          "Massive Reach silhouette with bulky backpack, antennas, red armor panels, large ochre/yellow collar and chest protection, gold visor and heavy leg armor.",
+          "M247H/Etilka-type heavy weapon with a single principal barrel held across the body.",
+          "Wide planted three-quarter frontal stance."
+        ],
+        "limits": [
+          "The large weapon obscures the abdomen, hands and part of the hips.",
+          "Not an orthographic lateral or rear view; some upper backpack details sit near the frame.",
+          "Archived PNG is 880 by 1040; original press-kit JPG provenance is documented by the file page, not byte-equivalence."
+        ]
+      },
+      "notes": [
+        "Figure entière massive, debout en trois-quarts vers la droite, mains vides, deux bottes et deux antennes conservées. Le gabarit, le sac dorsal, la visière dorée, le grand col jaune et les plaques rouges restent lisibles.",
+        "Comparaison visuelle avec jorge_reach_presskit_reference.png : les grands blocs de couleur et les asymétries des protections de jambes sont repris. La silhouette est réarticulée en pose neutre et l’arme lourde de la référence a été retirée ; cette pose n’est pas une vue latérale orthographique stricte.",
+        "La référence armée masque l’abdomen, les mains et une partie des hanches ; les détails de ces zones nouvellement visibles, les proportions et les petits marquages doivent être validés avec des vues complémentaires. La ressemblance ne constitue pas une certification 1:1.",
+        "Le halo sombre vu dans l’aperçu n’est pas un fond opaque général : 951 091 pixels sont entièrement transparents et les huit échantillons extérieurs consignés ont alpha 0 malgré leurs composantes RGB non nulles. Il reste 26 728 pixels d’alpha 1 à 16 ; 56 touchent le bord gauche et 3 le bord supérieur, sans contact alpha > 16.",
+        "Le sommet de l’antenne a seulement 11 px de marge au seuil alpha > 16 ; la marge basse est de 45 px. L’antenne et les bottes restent entières, mais la marge verticale de 10 % demandée n’est pas respectée."
+      ],
+      "required_followup": [
+        "Vérifier l’abdomen, les mains, les hanches et les asymétries avec des vues supplémentaires du modèle Halo: Reach.",
+        "Prévoir un cadrage plus ample autour des antennes dans une future correction, en conservant les octets de ce candidat.",
+        "Contrôler les franges de faible alpha et les quelques pixels de bord dans une composition claire et sombre avant intégration.",
+        "Produire ultérieurement la garde de combat latérale, les animations et les collisions."
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 951091,
+          "semitransparent_pixels": 621773,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 571197,
+          "alpha_nonzero_bbox": [
+            0,
+            0,
+            1018,
+            1508
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 56,
+            "right": 0,
+            "top": 3,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 595045,
+          "foreground_bbox_above_threshold": [
+            178,
+            11,
+            835,
+            1491
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 178,
+            "top": 11,
+            "right": 189,
+            "bottom": 45
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "100,500": [
+          16,
+          16,
+          16,
+          0
+        ],
+        "150,750": [
+          30,
+          29,
+          29,
+          0
+        ],
+        "870,500": [
+          21,
+          20,
+          19,
+          0
+        ],
+        "870,1000": [
+          8,
+          8,
+          7,
+          0
+        ],
+        "512,1520": [
+          17,
+          17,
+          17,
+          0
+        ],
+        "512,20": [
+          36,
+          36,
+          37,
+          0
+        ],
+        "900,768": [
+          24,
+          24,
+          23,
+          0
+        ],
+        "300,20": [
+          34,
+          33,
+          35,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "carter_reach",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png",
+      "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
+      "reviewed_utc": "2026-11-19T20:25:15+00:00",
+      "review_method": "Individual source PNG and supplied reference input(s) viewed; read-only Pillow alpha, dimensions, edges and SHA-256 inspection. Source images unmodified.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "comparison_reference": {
+        "id": "carter_reach",
+        "character": "Carter-A259",
+        "source_page_url": "https://www.halopedia.org/File:HReach_-_A259.png",
+        "source_image_url": "https://www.halopedia.org/images/2/22/HReach_-_A259.png?808f9",
+        "original_filename": "Reach_E310_Carter.jpg",
+        "original_source_archive_url": "https://web.archive.org/web/20110912110348/http://www.bungie.net/projects/reach/images.aspx?c=53&page=1",
+        "kind": "downloaded_archived_presskit_reference",
+        "game": "Halo: Reach (2010)",
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/carter_reach_presskit_reference.png",
+        "bytes": 525130,
+        "sha256": "689764736e56888c569e631ce4423865576d301d88c716fe67ad5f99b78fd3a5",
+        "width": 770,
+        "height": 990,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "source_scope": "Halopedia-hosted PNG attributed by its file metadata to the original Bungie Halo: Reach press kit. The file page records the original JPG filename and an archived Bungie source. This copy may have been extracted or re-encoded by the archive; it is not verified byte-identical to the original JPG. Reference input only, excluded from published deliverables.",
+        "observed": [
+          "Single helmeted Carter-A259, full body including both boots, in blue Halo: Reach armor with gold visor and visible weathered white/gray markings.",
+          "Large gray shoulder plate with white emblem, blue forearm display, waist pouches and back equipment are visible.",
+          "Dynamic running/aiming pose toward screen left, holding an MA37 assault rifle in both hands; one knee is bent and the rear foot is raised.",
+          "The source PNG has an alpha channel. Sampled dark/white rectangular background areas have alpha 0; their RGB appearance in previews must not be copied into new art."
+        ],
+        "limits": [
+          "Not a neutral pose, not a strict side view, and faces left; use for armor identity/materials, then articulate a new right-facing neutral pose without mirroring asymmetric equipment.",
+          "Rifle and bent arms occlude parts of the chest, abdomen and hands; legs overlap, and the rear view is unavailable.",
+          "Original filename Reach_E310_Carter.jpg indicates an E3 2010 promotional render. A possible pre-release detail difference from the final campaign model is not independently ruled out.",
+          "Halopedia file history describes a later extraction with no white edges. This hosted PNG is a derivative archive copy, not a verified byte-identical original Bungie JPG.",
+          "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
+        ]
+      },
+      "notes": [
+        "Figure entière debout en trois-quarts vers la droite, mains vides, casque bleu et visière dorée ; deux mains et deux bottes visibles.",
+        "Comparaison avec le rendu promotionnel Carter fourni : la grande épaulière grise à emblème et le TACPAD sont portés par le bras anatomique gauche, situé du côté éloigné dans cette nouvelle orientation. Le petit volume d’épaule opposé reste distinct ; le personnage n’est pas simplement retourné comme une image miroir.",
+        "La bande rouge de cuisse est visible sur la jambe proche dans le nouveau PNG ; son attribution anatomique paraît différente de celle de la jambe proche du rendu source orienté à gauche. Ce point et les marquages asymétriques des jambes doivent être vérifiés ou corrigés à partir de vues complémentaires. Le rendu promotionnel E3 2010 ne certifie pas seul le modèle final du jeu.",
+        "Les pixels échantillonnés dans le halo extérieur ont alpha 0. La figure ne touche aucun bord au seuil alpha > 16 ; 60 pixels de faible alpha atteignent le bord gauche et 8 le bord inférieur. Les marges verticales sont serrées : 19 px en haut et 61 px en bas."
+      ],
+      "required_followup": [
+        "Contrôler le côté anatomique de la bande rouge de cuisse et les autres marquages asymétriques de jambe ; corriger si nécessaire.",
+        "Comparer l’équipement à des vues du modèle final Halo: Reach et vérifier les panneaux masqués par le fusil dans la référence.",
+        "Contrôler le détourage et les franges sur fonds clairs et sombres.",
+        "Produire une garde réellement latérale, les animations et les collisions avant intégration."
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1011291,
+          "semitransparent_pixels": 561573,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 494347,
+          "alpha_nonzero_bbox": [
+            0,
+            4,
+            1018,
+            1536
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 60,
+            "right": 0,
+            "top": 0,
+            "bottom": 8
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 523629,
+          "foreground_bbox_above_threshold": [
+            180,
+            19,
+            813,
+            1475
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 180,
+            "top": 19,
+            "right": 211,
+            "bottom": 61
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "0,0": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "1023,1535": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "100,200": [
+          3,
+          2,
+          3,
+          0
+        ],
+        "100,500": [
+          20,
+          21,
+          23,
+          0
+        ],
+        "900,200": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900,700": [
+          22,
+          22,
+          22,
+          0
+        ],
+        "512,0": [
+          107,
+          124,
+          168,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "johnson_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-970fae11-554d-4df6-99f4-e49577d51342.png",
+      "sha256": "bdf818ecad9a7dd4edd380fee874c06ac06b6c813f16be8b102a26f3422e6fa9",
+      "reviewed_utc": "2026-11-19T20:25:15+00:00",
+      "review_method": "Individual source PNG and supplied reference input(s) viewed; read-only Pillow alpha, dimensions, edges and SHA-256 inspection. Source images unmodified.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "comparison_reference": {
+        "id": "johnson_h3",
+        "character": "Avery Johnson",
+        "game": "Halo 3 (2007)",
+        "source_page_url": "https://www.halopedia.org/File:Sgt_Avery_Junior_Johnson.png",
+        "source_image_url": "https://www.halopedia.org/images/6/60/Sgt_Avery_Junior_Johnson.png",
+        "kind": "downloaded_game_screenshot_cutout",
+        "source_scope": "Halo 3 game screenshot cut out by Halopedia user G35cpe, uploaded 15 October 2010. The file is categorized as Johnson in Halo 3. Not a publisher press render. Reference only; excluded from published deliverables.",
+        "observed": [
+          "Frontal Johnson image from cap to upper thighs; face and moustache are clear.",
+          "Olive UNSC cap, large olive chest and shoulder armor, dark harness straps, camouflage sleeves, forearm guards, waist pouch.",
+          "No weapon obscures the chest."
+        ],
+        "limits": [
+          "Not full body: lower thighs, knees and boots are outside the frame.",
+          "Front view only; no rear or exact lateral view.",
+          "Upstream screenshot has been cut out by its uploader; no image editing was performed in this task."
+        ],
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/johnson_h3_game_screenshot_cutout.png",
+        "bytes": 355022,
+        "sha256": "80e795110cc2d0a1e226aec84ac044585fc1b228c803e9dbeb1af03f96539ad7",
+        "width": 599,
+        "height": 944,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ]
+      },
+      "notes": [
+        "Figure entière debout en trois-quarts vers la droite, avec casquette UNSC, moustache, plastron olive, manches camouflage, mains vides et deux bottes. La tête, les mains et les bottes ne sont pas coupées.",
+        "Comparaison visuelle avec la capture Halo 3 détourée fournie : les repères du visage, de la casquette, du plastron et des protections d’épaules sont repris dans une nouvelle orientation. La source est une capture détourée par son contributeur, et non une planche de production officielle.",
+        "La référence s’arrête au haut des cuisses. Les genouillères, les détails des jambes et les bottes du nouveau PNG ne sont donc pas validés par cette référence. La nouvelle perspective du visage demande elle aussi comparaison complémentaire.",
+        "Fond extérieur transparent aux points latéraux échantillonnés ; le point 512,0 a alpha 1. Aucun pixel alpha > 16 ne touche le cadre, mais 53 pixels de faible alpha touchent le haut et 115 le bas. Le contenu utile n’a que 8 px en haut et 7 px en bas : cadrage très serré à reprendre avant production."
+      ],
+      "required_followup": [
+        "Obtenir une référence Halo 3 entière qui montre genoux et bottes, puis contrôler les éléments extrapolés.",
+        "Prévoir davantage de marge au-dessus de la casquette et sous les semelles avant intégration.",
+        "Contrôler le détourage et les franges sur fonds clairs et sombres.",
+        "Produire une garde réellement latérale, les animations et les collisions avant intégration."
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1062472,
+          "semitransparent_pixels": 510392,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 466806,
+          "alpha_nonzero_bbox": [
+            17,
+            0,
+            1004,
+            1536
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 0,
+            "right": 0,
+            "top": 53,
+            "bottom": 115
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 488547,
+          "foreground_bbox_above_threshold": [
+            228,
+            8,
+            773,
+            1529
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 228,
+            "top": 8,
+            "right": 251,
+            "bottom": 7
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "0,0": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "1023,1535": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "100,200": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "100,500": [
+          5,
+          5,
+          5,
+          0
+        ],
+        "900,200": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900,700": [
+          5,
+          4,
+          5,
+          0
+        ],
+        "512,0": [
+          83,
+          79,
+          64,
+          1
+        ]
+      }
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ac8c2139-6aeb-4f6a-8eb9-64217690e32a.png",
+      "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31",
+      "reviewed_utc": "2026-11-19T20:25:15+00:00",
+      "review_method": "Individual source PNG and supplied reference input(s) viewed; read-only Pillow alpha, dimensions, edges and SHA-256 inspection. Source images unmodified.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "comparison_reference": {
+        "id": "tartarus_h2_classic",
+        "character": "Tartarus",
+        "game": "Halo 2 Classic (2004 model)",
+        "source_page_url": "https://www.halopedia.org/File:H2-Tartarus_Render.png",
+        "source_image_url": "https://www.halopedia.org/images/8/8d/H2-Tartarus_Render.png",
+        "kind": "downloaded_game_screenshot_cutout",
+        "source_scope": "File description and current categories explicitly identify a Halo 2 screenshot, uploaded by Guardian117. The visible model matches the original low-polygon Halo 2 design and the separately inspected 2011 cutout. Not a Halo 2 Anniversary cinematic render.",
+        "observed": [
+          "Complete crouched figure with visible feet, white-grey fur, upright white crest and beard, broad torso and dark diagonal straps.",
+          "Gold plate on one shoulder and asymmetric leg guards.",
+          "Fist of Rukt is held diagonally across the body; its large purple-grey multi-disc head is prominent in the foreground."
+        ],
+        "limits": [
+          "Strong perspective and crouched attack pose; not a neutral orthographic sheet.",
+          "Hammer and hands obscure part of the torso.",
+          "The 2025 initial upload comment incorrectly says Halo Infinite. Current description, categories and visual comparison support Halo 2 Classic; the original engine/build used to capture it is not independently documented."
+        ],
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/tartarus_h2_classic_game_render.png",
+        "bytes": 849199,
+        "sha256": "7158a3f576a1f665458acf734bb596fe399826b86054cdf5f284cde64fd1f896",
+        "width": 1035,
+        "height": 1031,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ]
+      },
+      "notes": [
+        "Figure entière massive debout vers la droite, mains vides, fourrure blanc-gris, crête haute, barbe et équipement asymétrique visibles. Les deux pieds et la crête restent dans le cadre. La sortie mesure 1056×1489, contrairement aux autres sorties 1024×1536 de ce lot.",
+        "Comparaison avec la capture du modèle Halo 2 Classic fournie : la plaque dorée, la sangle diagonale, les volumes de fourrure et les protections de jambes asymétriques reprennent les repères de la référence. Le marteau a été retiré pour la pose neutre et le corps a été réarticulé depuis la posture accroupie.",
+        "Le détail de la fourrure, de la tête et des mains est réinterprété à plus haute définition ; cette seule référence en perspective ne permet pas de certifier les proportions et l’ensemble des détails du modèle original. Les franges du poil doivent encore être contrôlées en composition.",
+        "Canal alpha réel 0–255 avec 796 776 pixels totalement transparents ; les coins et échantillons extérieurs sont transparents. Aucun contact alpha > 16 avec le cadre. Quelques pixels alpha 1–16 atteignent le bord gauche et inférieur ; marges haut/bas de 17 et 12 px, trop serrées pour une feuille de production."
+      ],
+      "required_followup": [
+        "Comparer tête, mains, proportions et asymétries à plusieurs vues du modèle Halo 2 Classic.",
+        "Contrôler les franges des poils en composition et prévoir davantage de marge verticale.",
+        "Contrôler le détourage et les franges sur fonds clairs et sombres.",
+        "Produire une garde réellement latérale, les animations et les collisions avant intégration."
+      ],
+      "technical_qa": {
+        "width": 1056,
+        "height": 1489,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 796776,
+          "semitransparent_pixels": 775558,
+          "opaque_pixels": 50,
+          "near_opaque_pixels": 698998,
+          "alpha_nonzero_bbox": [
+            0,
+            13,
+            1042,
+            1489
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 30,
+            "right": 0,
+            "top": 0,
+            "bottom": 63
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 738892,
+          "foreground_bbox_above_threshold": [
+            64,
+            17,
+            977,
+            1477
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 64,
+            "top": 17,
+            "right": 79,
+            "bottom": 12
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "0,0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1055,1488": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "100,200": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "100,500": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900,200": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900,700": [
+          187,
+          177,
+          164,
+          216
+        ],
+        "512,0": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f5143a0-90d7-46ac-bc7f-7624326cb70e.png",
+      "sha256": "836d420ea32c153e589ed56ea99e1a3722e50d3b0a2d154126e5661ea611a537",
+      "reviewed_utc": "2026-11-19T20:25:16+00:00",
+      "review_method": "Individual source PNG and supplied reference input(s) viewed; read-only Pillow alpha, dimensions, edges and SHA-256 inspection. Source images unmodified.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "comparison_reference": {
+        "id": "douglas_hw2_phoenix_log",
+        "character": "Douglas-042",
+        "game": "Halo Wars 2 (2017)",
+        "source_page_url": "https://www.halopedia.org/File:HW2_PhoenixLog_Douglas-042.png",
+        "source_image_url": "https://www.halopedia.org/images/e/ed/HW2_PhoenixLog_Douglas-042.png",
+        "original_filename": "cod_inf_unsc_douglas.png",
+        "kind": "downloaded_official_game_menu_artwork",
+        "source_scope": "Official Halo Wars 2 Phoenix Log menu artwork, rehosted on Halopedia as an asset ripped directly from the game. The original asset filename explicitly names Douglas. Not a Halo Wars 1 model or fan illustration.",
+        "observed": [
+          "Douglas appears at the right end of a wide UNSC banner.",
+          "Green Mark IV armor, dark undersuit and a shoulder-mounted rocket launcher.",
+          "Kneeling pose aiming toward screen left, viewed from a rear three-quarter angle."
+        ],
+        "limits": [
+          "Menu illustration, not a gameplay render or orthographic model sheet.",
+          "Figure occupies only the right section of the 2104 by 512 banner.",
+          "Helmet, front torso, opposite side and some lower-leg details are obscured."
+        ],
+        "generated": false,
+        "image_modified": false,
+        "visually_inspected": true,
+        "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/douglas_hw2_phoenix_log_artwork.png",
+        "bytes": 990287,
+        "sha256": "9ced8c4a0618b30ebd0de7b47ac592324fba9b09e0fce3d20e9b4e8b344f0f5c",
+        "width": 2104,
+        "height": 512,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "additional_reference": {
+          "id": "douglas_hw2_group",
+          "character": "Red Team (including Douglas-042)",
+          "game": "Halo Wars 2 (2017), The Halo",
+          "source_page_url": "https://www.halopedia.org/File:HW2_Halo_-_Red_Team_In-game.png",
+          "source_image_url": "https://www.halopedia.org/images/6/68/HW2_Halo_-_Red_Team_In-game.png",
+          "kind": "downloaded_game_screenshot",
+          "source_scope": "Screenshot by Hectorlo, uploaded 30 June 2017, identified as Red Team on Installation 09 in the Halo Wars 2 level The Halo. Current metadata identifies Halo Wars 2 Mark IV, Alice, Jerome and Douglas.",
+          "observed": [
+            "Three green-armored helmeted Spartans in an in-game environment, viewed from an elevated camera.",
+            "Left figure holds a heavy machine gun; middle figure holds a Spartan Laser; right figure holds pistols.",
+            "Boots are present but grass overlaps the lower legs; a defeated Banished enemy lies behind them."
+          ],
+          "character_identification": {
+            "rightmost_spartan": "Inferred to be Douglas from the Red Team group and the other two characters holding their signature machine gun / Spartan Laser. The file itself does not label individual positions.",
+            "corroborating_url": "https://www.halopedia.org/Douglas-042/Gameplay"
+          },
+          "limits": [
+            "Group reference, not an isolated Douglas production render.",
+            "Each figure occupies only a small part of a 965 by 561 image, with foliage occlusion and perspective.",
+            "Do not infer hidden armor panels or precise markings from this screenshot."
+          ],
+          "generated": false,
+          "image_modified": false,
+          "visually_inspected": true,
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/douglas_hw2_red_team_game_screenshot.png",
+          "bytes": 1095209,
+          "sha256": "643be8b36f83bb125db5bfb560d8916974056506400a0e66c6ab08f480eab6ed",
+          "width": 965,
+          "height": 561,
+          "mode": "RGB"
+        }
+      },
+      "notes": [
+        "Spartan vert en pose neutre entière vers la droite, visière dorée, sous-combinaison sombre, mains vides et deux bottes visibles. L’arme est absente conformément à cette pose de référence.",
+        "Les deux références ont été vues : une illustration du menu Phoenix Log nommant Douglas et une petite capture de Red Team en jeu. Elles soutiennent la famille de formes et la palette vert-or de Halo Wars 2, mais ne suffisent pas à valider cette nouvelle vue complète.",
+        "Réserve majeure de fidélité : Douglas est petit, de dos et partiellement occulté dans la bannière ; l’identification du Spartan à droite de la capture de groupe est une inférence documentée, et les détails sont peu résolus. Le casque, le plastron de face, les panneaux cachés et les marquages précis de cette sortie restent à valider sur une référence individuelle plus nette.",
+        "Les échantillons extérieurs du halo ont alpha 0. Aucun contact alpha > 16 avec le cadre ; 41 pixels de faible alpha atteignent le bord gauche et 12 le bas. Le contenu utile laisse 18 px au-dessus du casque et 52 px sous les bottes, ce qui reste un cadrage serré."
+      ],
+      "required_followup": [
+        "Obtenir une référence individuelle et lisible du modèle Douglas Halo Wars 2 avant validation de fidélité.",
+        "Vérifier casque, plastron, panneaux latéraux, jambes et marquages avec cette référence complémentaire.",
+        "Contrôler le détourage et les franges sur fonds clairs et sombres.",
+        "Produire une garde réellement latérale, les animations et les collisions avant intégration."
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1000065,
+          "semitransparent_pixels": 572799,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 523574,
+          "alpha_nonzero_bbox": [
+            0,
+            16,
+            1004,
+            1536
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 41,
+            "right": 0,
+            "top": 0,
+            "bottom": 12
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 544625,
+          "foreground_bbox_above_threshold": [
+            167,
+            18,
+            808,
+            1484
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 167,
+            "top": 18,
+            "right": 216,
+            "bottom": 52
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "0,0": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "1023,1535": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "100,200": [
+          4,
+          5,
+          3,
+          0
+        ],
+        "100,500": [
+          26,
+          32,
+          22,
+          0
+        ],
+        "900,200": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900,700": [
+          17,
+          19,
+          15,
+          0
+        ],
+        "512,0": [
+          79,
+          99,
+          66,
+          0
+        ]
+      }
+    }
+  ]
+}

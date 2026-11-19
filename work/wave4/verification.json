@@ -1,0 +1,155 @@
+{
+  "verified_utc": "2026-11-19T20:25:45+00:00",
+  "checkpoint_attempts": 21,
+  "journal_sha256": "43e3010928749738471da1de5beb82954be38a35da32b86527ac626b0e735103",
+  "syntax": "AST parse passed",
+  "prior_candidate_metadata_unchanged": 15,
+  "prior_png_sha256_unchanged": {
+    "assets/candidates/arbiter_halo3_neutral_right_v2.png": "23ac61d89be17a710936a693879ec7ddd7ce700faf4c9e9ee9c371c4e9b18486",
+    "assets/candidates/scarab_halo3_left_v2.png": "eab741ab08dea09dd82e9663709ae0fa142da38c25fa9d95bdc9dedac30e599b",
+    "assets/candidates/valhalla_halo3_master_v2.png": "a429c7661d32d116b0558d7af0a9174a1f6da72b858c532692bb351ef275f97d",
+    "assets/candidates/mombasa_odst_night_master_v2.png": "d9efeaa25e0a50f56a74405c01a69067c8814e0609a86c986dd647244d4657da",
+    "assets/characters_wave2/atriox_hw2_neutral_right_v01.png": "b28e7bf2c1f56a81469b976917ce35349c1953500acee29e495a0bb3d9d7539e",
+    "assets/characters_wave2/jerome_hw2_neutral_right_v01.png": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d",
+    "assets/characters_wave2/decimus_hw2_neutral_right_v01.png": "f8a57f210673fe93a86de7c22e306b56f27d8435f629f20f258899fbed0b9ca3",
+    "assets/characters_wave2/cethegus_h3_neutral_right_v01.png": "e79b4180b2f212d8d6beeae0a80efc8adebc9824d3b230285053d349d2664619",
+    "assets/characters_wave2/hunter_h3_neutral_right_v01.png": "ffac6d5d637decaefee23d4c5c546188254c233c394a2eabcd79fe4174c4d6da",
+    "assets/characters_wave2/rtas_h3_neutral_right_v01.png": "f9de8f58848ba89360165ee23edb8150c9a8b366298c2958ace661247783888a",
+    "assets/characters_wave2/buck_odst_neutral_right_v01.png": "72a05937f61306306e063487b3cff33b789bfd993ff05113d3b47b5c26e45155",
+    "assets/characters_wave2/zealot_reach_neutral_right_v01.png": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682",
+    "assets/characters_wave3/noble_six_neutral_right_v01.png": "cd74d83d7d6d0acf834a36306e71b6d092e484ed7eeb2ee16ccb042737aa96a6",
+    "assets/characters_wave3/rookie_odst_neutral_right_v01.png": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838",
+    "assets/characters_wave3/alice_hw2_neutral_right_v01.png": "95e8e93a88c344191a9f85eee86cab72e2546dd5c86dced7cdb9bbb2003b1f40"
+  },
+  "new_png_copies_byte_identical": [
+    {
+      "path": "assets/characters_wave4/kat_reach_neutral_right_v01.png",
+      "sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5",
+      "entity_id": "kat_reach"
+    },
+    {
+      "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+      "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+      "entity_id": "chief_infinite"
+    },
+    {
+      "path": "assets/characters_wave4/kat_reach_neutral_right_v02.png",
+      "sha256": "fc28c8a9484737f4fa5948ebc3ce3dc7d484c692abc39c522a3f6e2930a2ba47",
+      "entity_id": "kat_reach"
+    },
+    {
+      "path": "assets/characters_wave4/jorge_reach_neutral_right_v01.png",
+      "sha256": "6ef5f8aba6b4e9f3e02be8b0d5e853bdbedab2291d1c23b6db8df2247fe4de88",
+      "entity_id": "jorge_reach"
+    },
+    {
+      "path": "assets/characters_wave4/jun_reach_neutral_right_v01.png",
+      "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec",
+      "entity_id": "jun_reach"
+    },
+    {
+      "path": "assets/characters_wave4/carter_reach_neutral_right_v01.png",
+      "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
+      "entity_id": "carter_reach"
+    },
+    {
+      "path": "assets/characters_wave4/johnson_h3_neutral_right_v01.png",
+      "sha256": "bdf818ecad9a7dd4edd380fee874c06ac06b6c813f16be8b102a26f3422e6fa9",
+      "entity_id": "johnson_h3"
+    },
+    {
+      "path": "assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
+      "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31",
+      "entity_id": "tartarus_h2"
+    },
+    {
+      "path": "assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
+      "sha256": "836d420ea32c153e589ed56ea99e1a3722e50d3b0a2d154126e5661ea611a537",
+      "entity_id": "douglas_hw2"
+    }
+  ],
+  "all_9_visual_reviews_bound_to_png_sha256": true,
+  "reference_provenance_preserved": true,
+  "reference_downloads_excluded_from_generated_assets": true,
+  "kat_preferred_asset": "kat_reach_neutral_right_v02",
+  "historical_failures_preserved": 47,
+  "total_historical_failures": 59,
+  "wave2_and_wave3_counters_unchanged": true,
+  "repeat_read_only_pass": {
+    "generation_attempt_count": 21,
+    "wave4_candidate_asset_count": 9,
+    "roster_count": 24,
+    "new_candidate_assets_this_run": 0,
+    "historical_failed_attempt_count": 59,
+    "fighter_entities_with_candidates": 20,
+    "fighter_entities_without_candidates": [
+      "emile_reach",
+      "escharum_infinite",
+      "jega_infinite",
+      "chak_lok"
+    ],
+    "applied": false
+  },
+  "repeat_did_not_modify_outputs": true,
+  "append_idempotence_design": "Existing files are reused by entity plus SHA-256; existing failure entries by source journal plus record index. New records can be appended; edited historical failures are rejected. The repeat pass found no added assets and no duplicate failures.",
+  "counts": {
+    "fighters": 24,
+    "normals": 264,
+    "specials": 96,
+    "supers": 24,
+    "combos": 48,
+    "finishers": 48,
+    "story_routes": 24,
+    "boss_encounters": 20,
+    "stages": 24,
+    "planned_parallax_layers": 144,
+    "active_visual_candidates": 24,
+    "certified_visuals": 0,
+    "animation_clips": 0,
+    "planned_animation_clips": 1056,
+    "drawing_budget_both_directions": 27264,
+    "active_fighter_pose_candidates": 21,
+    "fighter_entities_with_visual_candidate": 20,
+    "fighter_entities_without_visual_candidate": 4,
+    "active_boss_visual_candidates": 1,
+    "active_stage_visual_candidates": 2,
+    "visual_candidates_pre_wave2": 4,
+    "wave2_generated_character_pngs": 8,
+    "wave2_neutral_unarmed_pngs": 3,
+    "wave2_initial_pose_pngs": 5,
+    "wave2_generation_attempts": 41,
+    "wave2_unique_fighters_requested": 23,
+    "wave2_successful_generation_attempts": 8,
+    "wave2_unique_fighters_with_new_candidates": 8,
+    "wave2_generation_failures": 33,
+    "wave2_automatic_generation_rejections": 33,
+    "updated_utc": "2026-11-19T20:25:42+00:00",
+    "visual_candidates_pre_wave3": 12,
+    "wave3_generated_character_pngs": 3,
+    "wave3_neutral_unarmed_pngs": 3,
+    "wave3_other_pose_pngs": 0,
+    "wave3_generation_attempts": 15,
+    "wave3_unique_fighters_requested": 15,
+    "wave3_successful_generation_attempts": 3,
+    "wave3_unique_fighters_with_new_candidates": 3,
+    "wave3_generation_failures": 12,
+    "wave3_automatic_generation_rejections": 12,
+    "historical_generation_failures_all_waves": 59,
+    "visual_candidates_pre_wave4": 15,
+    "wave4_generated_character_pngs": 9,
+    "wave4_neutral_unarmed_pngs": 9,
+    "wave4_other_pose_pngs": 0,
+    "wave4_generation_attempts": 21,
+    "wave4_unique_fighters_requested": 12,
+    "wave4_successful_generation_attempts": 9,
+    "wave4_unique_fighters_with_new_candidates": 8,
+    "wave4_generation_failures": 12,
+    "wave4_automatic_generation_rejections": 12
+  },
+  "missing": [
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "chak_lok"
+  ]
+}
