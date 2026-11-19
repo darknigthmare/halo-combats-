@@ -60,7 +60,8 @@
       ],
       "fidelity_status": "not_certified",
       "prototype_reference": "prototype/halo_combats_prototype.html",
-      "prototype_scope": "Mécanique partielle indépendante, visuels temporaires, fiche complète non intégrée."
+      "prototype_scope": "Mécanique partielle indépendante, visuels temporaires, fiche complète non intégrée.",
+      "preferred_visual_asset": "scarab_h3_profile_v2"
     },
     {
       "id": "boss_locust_hw",
@@ -98,7 +99,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -106,7 +107,13 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_locust_hw_profile_v01",
+        "boss_locust_hw_profile_v02"
+      ],
+      "preferred_visual_asset": "boss_locust_hw_profile_v02",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_wraith_infinite",
@@ -150,7 +157,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -158,7 +165,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Avant la phase de charge"
-      ]
+      ],
+      "visual_assets": [
+        "boss_wraith_infinite_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_wraith_infinite_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_banshee_infinite",
@@ -196,7 +208,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -204,7 +216,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_banshee_infinite_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_banshee_infinite_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_phantom_infinite",
@@ -242,7 +259,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -250,7 +267,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_phantom_infinite_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_phantom_infinite_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_phaeton_h5",
@@ -287,7 +309,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -295,7 +317,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_phaeton_h5_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_phaeton_h5_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_harvester_h4",
@@ -333,7 +360,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -341,7 +368,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_harvester_h4_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_harvester_h4_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_lich_h4",
@@ -379,7 +411,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -389,7 +421,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_lich_h4_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_lich_h4_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_kraken_h5",
@@ -433,7 +470,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -442,7 +479,12 @@
         "Début de rencontre",
         "Après abordage",
         "À l’accès au générateur encore intact"
-      ]
+      ],
+      "visual_assets": [
+        "boss_kraken_h5_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_kraken_h5_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_warden_h5",
@@ -479,7 +521,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -487,7 +529,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_warden_h5_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_warden_h5_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_hunters_ce",
@@ -531,14 +578,19 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
       "source_scope": "identity_or_family_only_not_1_to_1_visual_validation",
       "story_checkpoints": [
         "Début de la rencontre contre les deux Hunters"
-      ]
+      ],
+      "visual_assets": [
+        "boss_hunters_ce_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_hunters_ce_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_goliath_hw2",
@@ -576,7 +628,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -584,7 +636,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_goliath_hw2_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_goliath_hw2_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_abomination_hw2",
@@ -628,7 +685,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -638,7 +695,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Après fermeture initiale des accès"
-      ]
+      ],
+      "visual_assets": [
+        "boss_abomination_hw2_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_abomination_hw2_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_proto_gravemind_hw2",
@@ -676,7 +738,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -688,7 +750,12 @@
         "Après premier verrou",
         "Après deuxième verrou",
         "Après troisième verrou et avant protection finale"
-      ]
+      ],
+      "visual_assets": [
+        "boss_proto_gravemind_hw2_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_proto_gravemind_hw2_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_juggernaut_ftr",
@@ -726,7 +793,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -734,7 +801,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_juggernaut_ftr_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_juggernaut_ftr_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_enforcer_h2",
@@ -772,7 +844,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -780,7 +852,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_enforcer_h2_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_enforcer_h2_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_retriever_hw2",
@@ -818,7 +895,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -826,7 +903,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_retriever_hw2_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_retriever_hw2_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "boss_goblin_h5",
@@ -864,7 +946,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -874,7 +956,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "boss_goblin_h5_profile_v01"
+      ],
+      "preferred_visual_asset": "boss_goblin_h5_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "event_guardian_h5",
@@ -911,7 +998,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -921,7 +1008,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "event_guardian_h5_profile_v01"
+      ],
+      "preferred_visual_asset": "event_guardian_h5_profile_v01",
+      "fidelity_status": "not_certified"
     },
     {
       "id": "event_gravemind_h3",
@@ -958,7 +1050,7 @@
         "coop": "Réanimation à couvert; si les deux joueurs sont KO, reprise du même checkpoint."
       },
       "status": "planned",
-      "art_status": "not_generated",
+      "art_status": "candidate",
       "code_status": "not_implemented",
       "design_values_are_canon": false,
       "game_capture_status": "not_inspected_in_this_session",
@@ -966,7 +1058,12 @@
       "story_checkpoints": [
         "Début de rencontre",
         "Début de phase après validation de la précédente"
-      ]
+      ],
+      "visual_assets": [
+        "event_gravemind_h3_profile_v01"
+      ],
+      "preferred_visual_asset": "event_gravemind_h3_profile_v01",
+      "fidelity_status": "not_certified"
     }
   ]
 }

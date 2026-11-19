@@ -1,16 +1,31 @@
 {
-  "scope": "Corpus V1/V2/V3 et livraison V4 de 29 essais ; archive V2 reconstituable en deux parties",
-  "source_checkpoint_inventory_sha256": "227b16e5f5c8ed644d645f99c2004c8013f3e7b3359834c596a8af8ec7f37571",
+  "scope": "Corpus V1/V2/V3/V4 et livraison V5 de gardes statiques et profils Boss Battle ; archive V2 reconstituable en deux parties",
+  "source_checkpoint_inventory_sha256": "ffd1266c475d20fef9f5b5132462f7c339a054c68dd5f6741cb79078ab957a97",
   "coverage": {
     "fighters_illustrated": 24,
     "roster": 24,
-    "fighter_pose_pngs": 27,
-    "boss_pngs": 1,
+    "fighter_pose_pngs": 50,
+    "boss_pngs": 21,
     "stage_pngs": 2,
-    "total_candidate_pngs": 30,
+    "total_candidate_pngs": 73,
     "wave4_attempts": 29,
     "wave4_pngs": 15,
-    "wave4_new_fighter_ids": 12
+    "wave4_new_fighter_ids": 12,
+    "fighter_entities_with_guard_candidate": 23,
+    "boss_entities_with_visual_candidate": 20,
+    "boss_entities_with_complete_profile_candidate": 17,
+    "boss_entities_with_partial_visual_only": 3,
+    "wave5_generated_pngs": 43,
+    "wave5_generated_guard_pngs": 23,
+    "wave5_generated_boss_pngs": 20,
+    "wave5_generated_complete_boss_pngs": 17,
+    "wave5_generated_partial_boss_pngs": 3,
+    "wave5_generation_attempts": 54,
+    "wave5_successful_generation_attempts": 43,
+    "wave5_generation_failures": 11,
+    "wave5_automatic_generation_rejections": 11,
+    "wave5_unique_fighters_with_guard_candidates": 23,
+    "wave5_unique_boss_entities_with_candidates": 19
   },
   "files": [
     {
@@ -20,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4655,
-      "sha256": "ab50a1fd6afbb0e036edacc8b1a29367ebb7468b1fb4864d1462abf2be95ca1b"
+      "bytes": 3173,
+      "sha256": "7aaf7a8cc52c09f153c01b9e445b7fb3530ca6b6576b1c4bfe291f71a45f8db2"
     },
     {
       "path": "README_V2.md",
@@ -37,6 +52,111 @@
       "path": "README_V4.md",
       "bytes": 4655,
       "sha256": "ab50a1fd6afbb0e036edacc8b1a29367ebb7468b1fb4864d1462abf2be95ca1b"
+    },
+    {
+      "path": "README_V5.md",
+      "bytes": 3173,
+      "sha256": "7aaf7a8cc52c09f153c01b9e445b7fb3530ca6b6576b1c4bfe291f71a45f8db2"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_abomination_hw2_profile_v01.png",
+      "bytes": 952353,
+      "sha256": "46c2a62f1dd4cc5898e1bddafd767a8d0ba4f2202bc6dec8c48dd30ed936e54e"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_banshee_infinite_profile_v01.png",
+      "bytes": 1519978,
+      "sha256": "018ce42430dac6414cd4060ed00d92e4904cce580d46335391c291cb3c319112"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_enforcer_h2_profile_v01.png",
+      "bytes": 2249339,
+      "sha256": "b9318dd8e27b4c740df238059ee2ac205e38ea704983836a5b613aacf9bae672"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_goblin_h5_profile_v01.png",
+      "bytes": 1845156,
+      "sha256": "8d6b099e68c817d0e3f670f102cb359520b6c911648ea2c033aa0bac0e9b6549"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_goliath_hw2_profile_v01.png",
+      "bytes": 1937227,
+      "sha256": "5fd5cfbcd3711156ae66230c309647679a589bc3ed10f492af2b4e4c43b13ebc"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_harvester_h4_profile_v01.png",
+      "bytes": 1565017,
+      "sha256": "f9a21d4289d5e205b999038a3f18977cb2d4c636d30b8f608f054b2b33ea9654"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_hunters_ce_profile_v01.png",
+      "bytes": 890512,
+      "sha256": "25ac29749634a9d2dc8d27e9bdbbcea8ac9bb5f2b3781b5afb7c1a74d76704b8"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_juggernaut_ftr_profile_v01.png",
+      "bytes": 1847001,
+      "sha256": "31e7775a95a6c66fa6b56659b640a058687c5583ad41aef404262e3dd6f35a7e"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_kraken_h5_profile_v01.png",
+      "bytes": 1635366,
+      "sha256": "651f5bf445e5c1052b9369cafb3cd4fe69b6eb8b6b397b514d1a17a70d30ca24"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_lich_h4_profile_v01.png",
+      "bytes": 1428170,
+      "sha256": "26e47e491716c0dc333f6cf7fe1c22b44b530f114862cf91e4a16156603e4922"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_locust_hw_profile_v01.png",
+      "bytes": 1945559,
+      "sha256": "b6650c9af4ef3e7ad04884baef60e9553bc42f10874c87be6ca728286a5fa51d"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_locust_hw_profile_v02.png",
+      "bytes": 1965147,
+      "sha256": "5d0265c76886af93815dc778858a0686ff8f098c1800504ba11121d7f5ecdf91"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_phaeton_h5_profile_v01.png",
+      "bytes": 1191983,
+      "sha256": "a5114a885b429733df4d1ad57f8547bc8c165127d7177fffc69c4b7d1feae52f"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_phantom_infinite_profile_v01.png",
+      "bytes": 1297696,
+      "sha256": "b97380da985359fccc94e5a465c48b2c1dc17740f019aa8eec01edce99b5d266"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_proto_gravemind_hw2_profile_v01.png",
+      "bytes": 1376339,
+      "sha256": "c9112bbac1f36556a52ade4fd202a9c9232fde24f32513dc0193593a6edda202"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_retriever_hw2_profile_v01.png",
+      "bytes": 1986316,
+      "sha256": "738fddfd9c594a57d7c799b64d929d8ebf3c2e16bf70925e966492cfe48283c3"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_warden_h5_profile_v01.png",
+      "bytes": 872557,
+      "sha256": "c325a5a544f0038013082626826fb0fde91d6cc1aa6f959d705baefe250a1d9d"
+    },
+    {
+      "path": "assets/bosses_wave5/boss_wraith_infinite_profile_v01.png",
+      "bytes": 1671516,
+      "sha256": "d2a9ff9a77aaf889a967543e62168e636a5d2b512d24189beb8a992f57e4c7b9"
+    },
+    {
+      "path": "assets/bosses_wave5/event_gravemind_h3_profile_v01.png",
+      "bytes": 1663379,
+      "sha256": "2fba882383e05cd946a1520493db1867f51e50a27b4a663534b14de6189ceed9"
+    },
+    {
+      "path": "assets/bosses_wave5/event_guardian_h5_profile_v01.png",
+      "bytes": 1932530,
+      "sha256": "5146847f9c484e13c0d8168c54794ba05733229ea7ded2874c7a23c7a31d254c"
     },
     {
       "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
@@ -189,6 +309,121 @@
       "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31"
     },
     {
+      "path": "assets/characters_wave5/alice_hw2_guard_right_v01.png",
+      "bytes": 1947261,
+      "sha256": "2c08196dd19c0fddd1aa727519a80af20320147b9d6dc28cb928e4931af813f2"
+    },
+    {
+      "path": "assets/characters_wave5/arbiter_h3_guard_right_v01.png",
+      "bytes": 1754719,
+      "sha256": "50f1cafbccb36b83ddc3ce441a0f385dee7953ef16524c54890c051ccbf9b9f3"
+    },
+    {
+      "path": "assets/characters_wave5/atriox_hw2_guard_right_v01.png",
+      "bytes": 2320945,
+      "sha256": "1475103db04c3924e6e1502b7802fe75480fcaf1b81d57566f86edc60122d07c"
+    },
+    {
+      "path": "assets/characters_wave5/buck_odst_guard_right_v01.png",
+      "bytes": 858152,
+      "sha256": "82922cd2a8fec18a35933c486c1386a3f7f69a90ebba10140d1891287dc6b9ae"
+    },
+    {
+      "path": "assets/characters_wave5/carter_reach_guard_right_v01.png",
+      "bytes": 1644947,
+      "sha256": "62bb0b272f3640a97731b096755cbbcdea989d6d20f1c65ed82f1d7f1fe1585b"
+    },
+    {
+      "path": "assets/characters_wave5/cethegus_h3_guard_right_v01.png",
+      "bytes": 1899029,
+      "sha256": "42f7e20ad6d0397eb46079b288ec10d6f658fbbd28a6e1ea57333726ed634933"
+    },
+    {
+      "path": "assets/characters_wave5/chak_lok_guard_right_v01.png",
+      "bytes": 1179319,
+      "sha256": "4ed9334778dcd03189fa988bab43486a29d6f6e13d306cd7dd559ee08cf27524"
+    },
+    {
+      "path": "assets/characters_wave5/decimus_hw2_guard_right_v01.png",
+      "bytes": 2355135,
+      "sha256": "f31323c612c9e8fdb99755c185296f87d94f03fbc463e7ec3000b8d0f4da5ff3"
+    },
+    {
+      "path": "assets/characters_wave5/douglas_hw2_guard_right_v01.png",
+      "bytes": 1134169,
+      "sha256": "ab496b2d59f2e3caeb3bc887cf12bc42dfafcb06f9cb5f11baa809c65fe34da2"
+    },
+    {
+      "path": "assets/characters_wave5/emile_reach_guard_right_v01.png",
+      "bytes": 1586245,
+      "sha256": "506dc53c3774c05671b9a9121a60b1a39b5c3c24e9542223726a10e3f2993865"
+    },
+    {
+      "path": "assets/characters_wave5/escharum_infinite_guard_right_v01.png",
+      "bytes": 1881903,
+      "sha256": "d21be6179d519ec1739135bb49320c0e6815221cf61904cacd441a29798d0231"
+    },
+    {
+      "path": "assets/characters_wave5/hunter_h3_guard_right_v01.png",
+      "bytes": 2258403,
+      "sha256": "97d1282d36aaaed2848fb2ac4c55bf91b51beacb831711995b7d1af775fde41a"
+    },
+    {
+      "path": "assets/characters_wave5/jega_infinite_guard_right_v01.png",
+      "bytes": 1723578,
+      "sha256": "ff56d8ac42fa6d8becda80db0fe93400b1605c57e9e7deab939bbb396beeaa68"
+    },
+    {
+      "path": "assets/characters_wave5/jerome_hw2_guard_right_v01.png",
+      "bytes": 1213196,
+      "sha256": "45ff0ba3588c9218ca6b09395f9dcf8c72d9112ef27cfd2c30434886c12248ce"
+    },
+    {
+      "path": "assets/characters_wave5/johnson_h3_guard_right_v01.png",
+      "bytes": 1888963,
+      "sha256": "0466abdfb08b0e927701b0b1a5afcefeaf680df487d0e9dc9a9596219910c1df"
+    },
+    {
+      "path": "assets/characters_wave5/jorge_reach_guard_right_v01.png",
+      "bytes": 1344328,
+      "sha256": "0a8c70e19d8339e63599138e046db0fb51d151c8554ea01f47d09c306d237596"
+    },
+    {
+      "path": "assets/characters_wave5/jun_reach_guard_right_v01.png",
+      "bytes": 1956752,
+      "sha256": "0038b7e1ec6311bf048a3240923adcb51f2fb9328002281000b537cdf2c102d6"
+    },
+    {
+      "path": "assets/characters_wave5/kat_reach_guard_right_v01.png",
+      "bytes": 1882651,
+      "sha256": "2c7ba8e9cf51e6effa46e4606fe6089a168a4967af16b7e51a6a9fb06b29df77"
+    },
+    {
+      "path": "assets/characters_wave5/noble_six_guard_right_v01.png",
+      "bytes": 1908360,
+      "sha256": "7a36249175b02317b6a68836711a805ef8d9760c7b5f5ec7db3660e70c4d1b28"
+    },
+    {
+      "path": "assets/characters_wave5/rookie_odst_guard_right_v01.png",
+      "bytes": 1022604,
+      "sha256": "d4f9e905ce62ffa66cbd0432cc5a0d24b528dbd84955d13353d416088d964232"
+    },
+    {
+      "path": "assets/characters_wave5/rtas_h3_guard_right_v01.png",
+      "bytes": 1745854,
+      "sha256": "f9d6247308dfe733da27879d3f6b5012b85abc86bfcf9edb54a273b5306914b0"
+    },
+    {
+      "path": "assets/characters_wave5/tartarus_h2_guard_right_v01.png",
+      "bytes": 1518562,
+      "sha256": "e18f4ade74669265d875ede12462bf130f18af320f0ca91f6c5b6a2c36f66151"
+    },
+    {
+      "path": "assets/characters_wave5/zealot_reach_guard_right_v01.png",
+      "bytes": 1089906,
+      "sha256": "15d62265ee9ddc111bc94b988649278547b0980a685a140415227e1daf2ca3b2"
+    },
+    {
       "path": "data/animation_plan.csv",
       "bytes": 66235,
       "sha256": "b0e11f4cdf9ec2b9216fb20cfc35796bc671affe6b140faabc50af56a095ac0e"
@@ -200,23 +435,28 @@
     },
     {
       "path": "data/asset_manifest.json",
-      "bytes": 469806,
-      "sha256": "716835d38fbfdaf54cb47987c62c22c83173b86bec7c6d5d24dc6240e0e3e144"
+      "bytes": 1014525,
+      "sha256": "23172b6f4ccffd6877d0ee66b5cc79efda9c06d2760ca3e1052850d8dc427137"
     },
     {
       "path": "data/bosses.json",
-      "bytes": 41817,
-      "sha256": "fefbe0c4a6ef7892bb1da24b8f107a3f940fc3693f31a9c2fdca5c85eef3c97e"
+      "bytes": 45279,
+      "sha256": "c9401208d0dd30831887c287c102a272461d11ec9b52091bee8f55c900675172"
+    },
+    {
+      "path": "data/bosses_visual_inventory.csv",
+      "bytes": 30632,
+      "sha256": "0d524220d99bf1f907276142cf4e07d41f40c4fb1d4e3179b28eb770b6386a08"
     },
     {
       "path": "data/characters_visual_inventory.csv",
-      "bytes": 39625,
-      "sha256": "8d598c2a1489a1cc2aaf7f634d026436d64a0a990a15037fa8c158df71d16e39"
+      "bytes": 70596,
+      "sha256": "1c56a895b4a217f2f2ce5864fb57bc7161aa9444bcbdce05eadfae037a4271cc"
     },
     {
       "path": "data/delivery_counts.json",
-      "bytes": 1865,
-      "sha256": "d5c3bf2eb481c1e3967704cf2d5d90fa9ba4a8ddd81fef1da67981d5b75f8a14"
+      "bytes": 2743,
+      "sha256": "4b83dbe5625fdc0c8f763def5c26a438860012222290c6e1a0712cb7ff96a1ae"
     },
     {
       "path": "data/fighter_sources.json",
@@ -225,8 +465,8 @@
     },
     {
       "path": "data/fighters.json",
-      "bytes": 227647,
-      "sha256": "82a2fda56f917c3bab0734499375a466faa4c54d9e295dcb02ef0632b58abd43"
+      "bytes": 233089,
+      "sha256": "4bb2acb5d2fac586fb3efdfe5d96c5864d80d171237ed20f2c0db11366629c2e"
     },
     {
       "path": "data/stages.json",
@@ -264,6 +504,11 @@
       "sha256": "b1f8b6c9118e00ba0b5f2701baab2a201d7e987bffcb80d8e773bd282df245fd"
     },
     {
+      "path": "docs/HALO_COMBATS_GARDES_BOSS_V5.md",
+      "bytes": 68517,
+      "sha256": "d176d9f6901a163a24eb536113135a424a11fd9086db35e3cd363442ad49537c"
+    },
+    {
       "path": "docs/HALO_COMBATS_PERSONNAGES_V2.md",
       "bytes": 20872,
       "sha256": "1463af6ad5320061756815d668f454dca1253a7a3410a4786d6b8d176aec0c02"
@@ -282,6 +527,11 @@
       "path": "docs/HALO_COMBATS_PRODUCTION_V1.xlsx",
       "bytes": 57047,
       "sha256": "1d0a817c64fbc279d7fc2c1febd222652cf52f4cb7aac524ebbb5af7e547676d"
+    },
+    {
+      "path": "docs/SOURCES_BOSS_V5.md",
+      "bytes": 29539,
+      "sha256": "811b8aae9c60b818ca674fcf2566d940a134a840308d25573910b2ccbd640ef2"
     },
     {
       "path": "docs/build_bible.py",
@@ -547,6 +797,81 @@
       "path": "work/wave4/verification.json",
       "bytes": 11971,
       "sha256": "f020599538969e8921ddfb16901c26367e0c4f4cd17e43420bdef080445c57e4"
+    },
+    {
+      "path": "work/wave5/README_V4_before_wave5.md",
+      "bytes": 4655,
+      "sha256": "ab50a1fd6afbb0e036edacc8b1a29367ebb7468b1fb4864d1462abf2be95ca1b"
+    },
+    {
+      "path": "work/wave5/baseline_repository_files.json",
+      "bytes": 20453,
+      "sha256": "848c88ff59bec3eb3ac7162351587762eec7aef7597f12f4eb6d71a1a1a2d4fe"
+    },
+    {
+      "path": "work/wave5/baseline_v4.json",
+      "bytes": 14650,
+      "sha256": "f3c64af032fcd5802b2a6299aec5628ccaf290b5e62911466e2f72e42e234f81"
+    },
+    {
+      "path": "work/wave5/boss_reference_briefs.json",
+      "bytes": 92768,
+      "sha256": "87bc61a56b8c0567a302b5af26fcb96ee790162bca2eb652c7e0ea7ef4756cb9"
+    },
+    {
+      "path": "work/wave5/consolidate_wave5.py",
+      "bytes": 34993,
+      "sha256": "6c3d4b2918088030600c062541784842d9f822b1006de46d575539e12a2165fb"
+    },
+    {
+      "path": "work/wave5/consolidation_summary.json",
+      "bytes": 72602,
+      "sha256": "aebb78334c6265de7e42d1a4ec669e0407e9e1cf763c49e40e7a85ab2433b5a9"
+    },
+    {
+      "path": "work/wave5/generation_results.json",
+      "bytes": 199659,
+      "sha256": "e8d8027626d9251ea02e6e517001a90467aaf3696a9665ca8b77a0af66de4139"
+    },
+    {
+      "path": "work/wave5/generation_results_bosses_b.json",
+      "bytes": 58666,
+      "sha256": "8c9a57d8c586664c0aac0c2da6f8aa2e843119b292d13eed82d0a07e32fa8d00"
+    },
+    {
+      "path": "work/wave5/generation_results_guards_b.json",
+      "bytes": 40883,
+      "sha256": "3b6c9a628ff9841161049d87155622cc9f1d7bcc85858b4b6ad4b28d204091fc"
+    },
+    {
+      "path": "work/wave5/generation_results_retries_c.json",
+      "bytes": 14157,
+      "sha256": "301c22ee16c409060635ea8580fec9e8b27daf69adbb4d2cda60f4c9c281d598"
+    },
+    {
+      "path": "work/wave5/guard_inputs.json",
+      "bytes": 42082,
+      "sha256": "076559d133855c9a5c87fd0be42d672075f730ccdec6829e4ec5ac82807acca5"
+    },
+    {
+      "path": "work/wave5/guard_prompts.json",
+      "bytes": 74993,
+      "sha256": "3cd955d7c8e21bf90e9aa7f04f4b080b5cd34f63ab8693eeba40328c50b47882"
+    },
+    {
+      "path": "work/wave5/qa_wave5.json",
+      "bytes": 184987,
+      "sha256": "e8d1f94d42ba16ce3ef0b155572b00b27a4e3a5f99afe4a7f926faedfbaab6a1"
+    },
+    {
+      "path": "work/wave5/verification.json",
+      "bytes": 27927,
+      "sha256": "3a629727ff9fe038e61fd287cccdf415494c742599a4fa59f87206f00199e95f"
+    },
+    {
+      "path": "work/wave5/verify_wave5.py",
+      "bytes": 12262,
+      "sha256": "b152ca4e1496e763cdc81ff113592e9fad67561610b8d6cee6429e0f7de9c810"
     },
     {
       "path": "work/world/bosses.json",

@@ -1,0 +1,345 @@
+{
+  "generation_wave": 5,
+  "baseline_commit": "64d5760e262686ee0176a886c5700a3885589c0a",
+  "candidate_count": 30,
+  "candidates": [
+    {
+      "id": "arbiter_h3_neutral_v2",
+      "entity_id": "arbiter_h3",
+      "type": "fighter_pose",
+      "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
+      "sha256": "23ac61d89be17a710936a693879ec7ddd7ce700faf4c9e9ee9c371c4e9b18486",
+      "metadata_sha256": "c846fa65e4f6349f8713ebeb33f0e958976ec4acd3d1b0c2b041754abce231a0"
+    },
+    {
+      "id": "scarab_h3_profile_v2",
+      "entity_id": "boss_scarab_h3",
+      "type": "boss_profile",
+      "path": "assets/candidates/scarab_halo3_left_v2.png",
+      "sha256": "eab741ab08dea09dd82e9663709ae0fa142da38c25fa9d95bdc9dedac30e599b",
+      "metadata_sha256": "94fe98eb969f049388c2298b549eb732eb5cc8e5521f80b418a5e0f885eadb0e"
+    },
+    {
+      "id": "valhalla_h3_master_v2",
+      "entity_id": "st_valhalla_h3",
+      "type": "stage_master",
+      "path": "assets/candidates/valhalla_halo3_master_v2.png",
+      "sha256": "a429c7661d32d116b0558d7af0a9174a1f6da72b858c532692bb351ef275f97d",
+      "metadata_sha256": "733cc29d7091ca99496d8aa76db7cda49e9ce25b10b3e9107f89f7e9db6ac740"
+    },
+    {
+      "id": "mombasa_odst_master_v2",
+      "entity_id": "st_mombasa_odst",
+      "type": "stage_master",
+      "path": "assets/candidates/mombasa_odst_night_master_v2.png",
+      "sha256": "d9efeaa25e0a50f56a74405c01a69067c8814e0609a86c986dd647244d4657da",
+      "metadata_sha256": "fb3eab1e9bd0462b032eb263128ea370533b8c9a145cf25a6071a14150df9f30"
+    },
+    {
+      "id": "atriox_hw2_neutral_right_v01",
+      "entity_id": "atriox_hw2",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
+      "sha256": "b28e7bf2c1f56a81469b976917ce35349c1953500acee29e495a0bb3d9d7539e",
+      "metadata_sha256": "9c3ea7ace0e5ee0ce1937d27ddd2dc1b6dbd946c13dad02ed7023e6dde145937"
+    },
+    {
+      "id": "jerome_hw2_neutral_right_v01",
+      "entity_id": "jerome_hw2",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+      "sha256": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d",
+      "metadata_sha256": "28a06ea1a5950f8ef0509bc9675f9d36e2a8ed19e85c514b69fe6c84c2470dbf"
+    },
+    {
+      "id": "decimus_hw2_neutral_right_v01",
+      "entity_id": "decimus_hw2",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/decimus_hw2_neutral_right_v01.png",
+      "sha256": "f8a57f210673fe93a86de7c22e306b56f27d8435f629f20f258899fbed0b9ca3",
+      "metadata_sha256": "3931c6b5e745ddbe26dbe3eede7610fb7870cbdf1c72f1d3b95f170be9e1055b"
+    },
+    {
+      "id": "cethegus_h3_neutral_right_v01",
+      "entity_id": "cethegus_h3",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/cethegus_h3_neutral_right_v01.png",
+      "sha256": "e79b4180b2f212d8d6beeae0a80efc8adebc9824d3b230285053d349d2664619",
+      "metadata_sha256": "263cc2578333c09f829bd50e116925e7d9bd015565f5c5677f5610e856c00e4e"
+    },
+    {
+      "id": "hunter_h3_neutral_right_v01",
+      "entity_id": "hunter_h3",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/hunter_h3_neutral_right_v01.png",
+      "sha256": "ffac6d5d637decaefee23d4c5c546188254c233c394a2eabcd79fe4174c4d6da",
+      "metadata_sha256": "9e75e0f85a4fdc760074e071a020de4e0fc1f8b7040888852dac6df59c0001b8"
+    },
+    {
+      "id": "rtas_h3_neutral_right_v01",
+      "entity_id": "rtas_h3",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/rtas_h3_neutral_right_v01.png",
+      "sha256": "f9de8f58848ba89360165ee23edb8150c9a8b366298c2958ace661247783888a",
+      "metadata_sha256": "d9235aa147a36769e3f70db32826db2393c598d6814e2f188b4619ab80ca3f54"
+    },
+    {
+      "id": "buck_odst_neutral_right_v01",
+      "entity_id": "buck_odst",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/buck_odst_neutral_right_v01.png",
+      "sha256": "72a05937f61306306e063487b3cff33b789bfd993ff05113d3b47b5c26e45155",
+      "metadata_sha256": "d48132c354a2de539ae3d53361cf9f38ebdeefb44775609306fbfadfd9ea59cd"
+    },
+    {
+      "id": "zealot_reach_neutral_right_v01",
+      "entity_id": "zealot_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+      "sha256": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682",
+      "metadata_sha256": "2f13fe5165ae1c09fe2cdf3a87eaa2500efeeb068313d514235d5fbca5e67efa"
+    },
+    {
+      "id": "noble_six_neutral_right_v01",
+      "entity_id": "noble_six",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave3/noble_six_neutral_right_v01.png",
+      "sha256": "cd74d83d7d6d0acf834a36306e71b6d092e484ed7eeb2ee16ccb042737aa96a6",
+      "metadata_sha256": "566775380a60f1bf4b0ffa7e749480c51aebc7c7f5b3b916cf7cb12d1d5977df"
+    },
+    {
+      "id": "rookie_odst_neutral_right_v01",
+      "entity_id": "rookie_odst",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave3/rookie_odst_neutral_right_v01.png",
+      "sha256": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838",
+      "metadata_sha256": "70a8e61ff87476d343f7efe545d02e2792b86e561a2c3f274116befb1d83ae70"
+    },
+    {
+      "id": "alice_hw2_neutral_right_v01",
+      "entity_id": "alice_hw2",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave3/alice_hw2_neutral_right_v01.png",
+      "sha256": "95e8e93a88c344191a9f85eee86cab72e2546dd5c86dced7cdb9bbb2003b1f40",
+      "metadata_sha256": "d14bc3f4b19281e5973e47ff934a85ee9714e86380acb71183133ea69bc9cff0"
+    },
+    {
+      "id": "kat_reach_neutral_right_v01",
+      "entity_id": "kat_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/kat_reach_neutral_right_v01.png",
+      "sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5",
+      "metadata_sha256": "b6419110191d943a7dbd7ea4b9f96930202aad7c0e0a413f8beb56d3e86395de"
+    },
+    {
+      "id": "chief_infinite_neutral_right_v01",
+      "entity_id": "chief_infinite",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+      "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+      "metadata_sha256": "20a92835088983f6f9f6dbc19dcc1b08fd96b30a2a8d1dd84659ff08c1d30ca0"
+    },
+    {
+      "id": "kat_reach_neutral_right_v02",
+      "entity_id": "kat_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/kat_reach_neutral_right_v02.png",
+      "sha256": "fc28c8a9484737f4fa5948ebc3ce3dc7d484c692abc39c522a3f6e2930a2ba47",
+      "metadata_sha256": "87d80eee0be5274c08a0ea15c8f6da6ca110cd05f7033888ba72af265bed7aa2"
+    },
+    {
+      "id": "jorge_reach_neutral_right_v01",
+      "entity_id": "jorge_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/jorge_reach_neutral_right_v01.png",
+      "sha256": "6ef5f8aba6b4e9f3e02be8b0d5e853bdbedab2291d1c23b6db8df2247fe4de88",
+      "metadata_sha256": "3a948ba24a82633202aa775e617d467ffd986a6d0e7d7208c713fa539c64d580"
+    },
+    {
+      "id": "jun_reach_neutral_right_v01",
+      "entity_id": "jun_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/jun_reach_neutral_right_v01.png",
+      "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec",
+      "metadata_sha256": "c5f0666c9c70b9fc06de5173cbb37ae6fb8766007e4a887ba7f86ebae60f886a"
+    },
+    {
+      "id": "carter_reach_neutral_right_v01",
+      "entity_id": "carter_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/carter_reach_neutral_right_v01.png",
+      "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
+      "metadata_sha256": "3a2b021568b11ec78570b74d6a40da6f1c0411aa5839f72a71cd7b9bd20e0879"
+    },
+    {
+      "id": "johnson_h3_neutral_right_v01",
+      "entity_id": "johnson_h3",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/johnson_h3_neutral_right_v01.png",
+      "sha256": "bdf818ecad9a7dd4edd380fee874c06ac06b6c813f16be8b102a26f3422e6fa9",
+      "metadata_sha256": "e628ebedfb19f9d2f90e943d9d79152c7cca5b6bc89d45ef5713c241fea74453"
+    },
+    {
+      "id": "tartarus_h2_neutral_right_v01",
+      "entity_id": "tartarus_h2",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
+      "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31",
+      "metadata_sha256": "4eafbbae0be074331c71687411801d22e73b6a6b2df2d040045500b6d83303d6"
+    },
+    {
+      "id": "douglas_hw2_neutral_right_v01",
+      "entity_id": "douglas_hw2",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
+      "sha256": "836d420ea32c153e589ed56ea99e1a3722e50d3b0a2d154126e5661ea611a537",
+      "metadata_sha256": "425317d826b0e464f494e1e48ee9b0c448ac79c4971941b87e817eade8490ea9"
+    },
+    {
+      "id": "chak_lok_neutral_right_v01",
+      "entity_id": "chak_lok",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/chak_lok_neutral_right_v01.png",
+      "sha256": "c7d2d7b0ca710e3fc458606e6184c291ec441c1002d1c083e282401274aa9fbb",
+      "metadata_sha256": "3add3302f1afd54773f45050ff0abd5766422c673772746101bd7a6da998fcfd"
+    },
+    {
+      "id": "emile_reach_neutral_right_v01",
+      "entity_id": "emile_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/emile_reach_neutral_right_v01.png",
+      "sha256": "886408dcae827eac054061ffc9e71432fa5808b6ce0bd8b480ab02b5d66e2c92",
+      "metadata_sha256": "c5b622bb693d37b12f5de3455d35ac0e8706e236e393eaf69afbbbe685d0fa6b"
+    },
+    {
+      "id": "escharum_infinite_neutral_right_v01",
+      "entity_id": "escharum_infinite",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/escharum_infinite_neutral_right_v01.png",
+      "sha256": "7a05eb37e4990ccca3e07705ae9692785e06d9a0443a98ce003407d37d6c5f41",
+      "metadata_sha256": "0aaae44b3ab82e03c60c8f3e0d6573653bf17199425ef56fe9e7f4ec07b47cda"
+    },
+    {
+      "id": "jega_infinite_neutral_right_v01",
+      "entity_id": "jega_infinite",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/jega_infinite_neutral_right_v01.png",
+      "sha256": "ba9ee0cb9d14b01684cad1990413098a8b0172691be4a7c286f12447449f684c",
+      "metadata_sha256": "46852c3db30c1570277f2748d268dca6c46578cb2f54cef8d1a14bb024d287b6"
+    },
+    {
+      "id": "escharum_infinite_neutral_right_v02",
+      "entity_id": "escharum_infinite",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/escharum_infinite_neutral_right_v02.png",
+      "sha256": "67507612d2b7129c695b50db2c027e00517b178602a9b8ee5845dda6565fa4e0",
+      "metadata_sha256": "02c09391d88d8fe4583cc978a33a63a9cdbc36edfd75f073953359f9f253f8d4"
+    },
+    {
+      "id": "carter_reach_neutral_right_v02",
+      "entity_id": "carter_reach",
+      "type": "fighter_pose",
+      "path": "assets/characters_wave4/carter_reach_neutral_right_v02.png",
+      "sha256": "5c60d18e82f3d5fe410f54516c730b79112b2d1096c9f17071529e3610fd911b",
+      "metadata_sha256": "789dee897209ed33d459d708f3e2dcd002f596b92e28e3516ff08331452dd784"
+    }
+  ],
+  "prior_counts": {
+    "fighters": 24,
+    "normals": 264,
+    "specials": 96,
+    "supers": 24,
+    "combos": 48,
+    "finishers": 48,
+    "story_routes": 24,
+    "boss_encounters": 20,
+    "stages": 24,
+    "planned_parallax_layers": 144,
+    "active_visual_candidates": 30,
+    "certified_visuals": 0,
+    "animation_clips": 0,
+    "planned_animation_clips": 1056,
+    "drawing_budget_both_directions": 27264,
+    "active_fighter_pose_candidates": 27,
+    "fighter_entities_with_visual_candidate": 24,
+    "fighter_entities_without_visual_candidate": 0,
+    "active_boss_visual_candidates": 1,
+    "active_stage_visual_candidates": 2,
+    "visual_candidates_pre_wave2": 4,
+    "wave2_generated_character_pngs": 8,
+    "wave2_neutral_unarmed_pngs": 3,
+    "wave2_initial_pose_pngs": 5,
+    "wave2_generation_attempts": 41,
+    "wave2_unique_fighters_requested": 23,
+    "wave2_successful_generation_attempts": 8,
+    "wave2_unique_fighters_with_new_candidates": 8,
+    "wave2_generation_failures": 33,
+    "wave2_automatic_generation_rejections": 33,
+    "updated_utc": "2026-11-19T20:38:47+00:00",
+    "visual_candidates_pre_wave3": 12,
+    "wave3_generated_character_pngs": 3,
+    "wave3_neutral_unarmed_pngs": 3,
+    "wave3_other_pose_pngs": 0,
+    "wave3_generation_attempts": 15,
+    "wave3_unique_fighters_requested": 15,
+    "wave3_successful_generation_attempts": 3,
+    "wave3_unique_fighters_with_new_candidates": 3,
+    "wave3_generation_failures": 12,
+    "wave3_automatic_generation_rejections": 12,
+    "historical_generation_failures_all_waves": 61,
+    "visual_candidates_pre_wave4": 15,
+    "wave4_generated_character_pngs": 15,
+    "wave4_neutral_unarmed_pngs": 15,
+    "wave4_other_pose_pngs": 0,
+    "wave4_generation_attempts": 29,
+    "wave4_unique_fighters_requested": 12,
+    "wave4_successful_generation_attempts": 15,
+    "wave4_unique_fighters_with_new_candidates": 12,
+    "wave4_generation_failures": 14,
+    "wave4_automatic_generation_rejections": 14
+  },
+  "historical_failures": 61,
+  "prior_failed_requests_sha256": "eca4efdc2b570c793b640d0c7ba1ff70d90cb6133995ecdfe6986c5f4e868d98",
+  "registry_structure": {
+    "fighters_protected_sha256": "5c97502ce2fad2c0f455069ad4d64f8b58dc9323bc7bd8b642397fdb7ddae553",
+    "bosses_protected_sha256": "41be1242bead1f25737d9ecc6a5132262e38a7573a3e4076e8f4ac75f2e55e0b",
+    "neutral_preferences": {
+      "chief_infinite": null,
+      "arbiter_h3": null,
+      "johnson_h3": null,
+      "noble_six": null,
+      "emile_reach": null,
+      "jorge_reach": null,
+      "jun_reach": null,
+      "kat_reach": "kat_reach_neutral_right_v02",
+      "carter_reach": "carter_reach_neutral_right_v02",
+      "buck_odst": null,
+      "rookie_odst": null,
+      "rtas_h3": null,
+      "tartarus_h2": null,
+      "atriox_hw2": null,
+      "decimus_hw2": null,
+      "escharum_infinite": "escharum_infinite_neutral_right_v02",
+      "jega_infinite": null,
+      "chak_lok": null,
+      "alice_hw2": null,
+      "douglas_hw2": null,
+      "jerome_hw2": null,
+      "zealot_reach": null,
+      "cethegus_h3": null,
+      "hunter_h3": null
+    },
+    "fighter_excluded_fields": [
+      "visual_assets",
+      "guard_visual_assets",
+      "guard_art_status",
+      "preferred_guard_asset"
+    ],
+    "boss_excluded_fields": [
+      "visual_assets",
+      "preferred_visual_asset",
+      "art_status",
+      "fidelity_status"
+    ]
+  }
+}

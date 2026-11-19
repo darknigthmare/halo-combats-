@@ -261,7 +261,9 @@
       "visual_assets": [
         "chief_infinite_neutral_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [],
+      "guard_art_status": "not_generated"
     },
     {
       "id": "arbiter_h3",
@@ -512,9 +514,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "arbiter_h3_neutral_v2"
+        "arbiter_h3_neutral_v2",
+        "arbiter_h3_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "arbiter_h3_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "arbiter_h3_guard_right_v01"
     },
     {
       "id": "johnson_h3",
@@ -764,9 +772,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "johnson_h3_neutral_right_v01"
+        "johnson_h3_neutral_right_v01",
+        "johnson_h3_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "johnson_h3_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "johnson_h3_guard_right_v01"
     },
     {
       "id": "noble_six",
@@ -1016,9 +1030,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "noble_six_neutral_right_v01"
+        "noble_six_neutral_right_v01",
+        "noble_six_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "noble_six_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "noble_six_guard_right_v01"
     },
     {
       "id": "emile_reach",
@@ -1268,9 +1288,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "emile_reach_neutral_right_v01"
+        "emile_reach_neutral_right_v01",
+        "emile_reach_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "emile_reach_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "emile_reach_guard_right_v01"
     },
     {
       "id": "jorge_reach",
@@ -1520,9 +1546,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "jorge_reach_neutral_right_v01"
+        "jorge_reach_neutral_right_v01",
+        "jorge_reach_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "jorge_reach_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "jorge_reach_guard_right_v01"
     },
     {
       "id": "jun_reach",
@@ -1772,9 +1804,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "jun_reach_neutral_right_v01"
+        "jun_reach_neutral_right_v01",
+        "jun_reach_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "jun_reach_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "jun_reach_guard_right_v01"
     },
     {
       "id": "kat_reach",
@@ -2025,10 +2063,16 @@
       "art_status": "candidate",
       "visual_assets": [
         "kat_reach_neutral_right_v01",
-        "kat_reach_neutral_right_v02"
+        "kat_reach_neutral_right_v02",
+        "kat_reach_guard_right_v01"
       ],
       "preferred_visual_asset": "kat_reach_neutral_right_v02",
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "kat_reach_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "kat_reach_guard_right_v01"
     },
     {
       "id": "carter_reach",
@@ -2279,10 +2323,16 @@
       "art_status": "candidate",
       "visual_assets": [
         "carter_reach_neutral_right_v01",
-        "carter_reach_neutral_right_v02"
+        "carter_reach_neutral_right_v02",
+        "carter_reach_guard_right_v01"
       ],
       "fidelity_status": "not_certified",
-      "preferred_visual_asset": "carter_reach_neutral_right_v02"
+      "preferred_visual_asset": "carter_reach_neutral_right_v02",
+      "guard_visual_assets": [
+        "carter_reach_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "carter_reach_guard_right_v01"
     },
     {
       "id": "buck_odst",
@@ -2533,9 +2583,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "buck_odst_neutral_right_v01"
+        "buck_odst_neutral_right_v01",
+        "buck_odst_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "buck_odst_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "buck_odst_guard_right_v01"
     },
     {
       "id": "rookie_odst",
@@ -2785,9 +2841,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "rookie_odst_neutral_right_v01"
+        "rookie_odst_neutral_right_v01",
+        "rookie_odst_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "rookie_odst_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "rookie_odst_guard_right_v01"
     },
     {
       "id": "rtas_h3",
@@ -3037,9 +3099,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "rtas_h3_neutral_right_v01"
+        "rtas_h3_neutral_right_v01",
+        "rtas_h3_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "rtas_h3_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "rtas_h3_guard_right_v01"
     },
     {
       "id": "tartarus_h2",
@@ -3289,9 +3357,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "tartarus_h2_neutral_right_v01"
+        "tartarus_h2_neutral_right_v01",
+        "tartarus_h2_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "tartarus_h2_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "tartarus_h2_guard_right_v01"
     },
     {
       "id": "atriox_hw2",
@@ -3541,9 +3615,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "atriox_hw2_neutral_right_v01"
+        "atriox_hw2_neutral_right_v01",
+        "atriox_hw2_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "atriox_hw2_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "atriox_hw2_guard_right_v01"
     },
     {
       "id": "decimus_hw2",
@@ -3793,9 +3873,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "decimus_hw2_neutral_right_v01"
+        "decimus_hw2_neutral_right_v01",
+        "decimus_hw2_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "decimus_hw2_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "decimus_hw2_guard_right_v01"
     },
     {
       "id": "escharum_infinite",
@@ -4046,10 +4132,16 @@
       "art_status": "candidate",
       "visual_assets": [
         "escharum_infinite_neutral_right_v01",
-        "escharum_infinite_neutral_right_v02"
+        "escharum_infinite_neutral_right_v02",
+        "escharum_infinite_guard_right_v01"
       ],
       "preferred_visual_asset": "escharum_infinite_neutral_right_v02",
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "escharum_infinite_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "escharum_infinite_guard_right_v01"
     },
     {
       "id": "jega_infinite",
@@ -4299,9 +4391,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "jega_infinite_neutral_right_v01"
+        "jega_infinite_neutral_right_v01",
+        "jega_infinite_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "jega_infinite_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "jega_infinite_guard_right_v01"
     },
     {
       "id": "chak_lok",
@@ -4551,9 +4649,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "chak_lok_neutral_right_v01"
+        "chak_lok_neutral_right_v01",
+        "chak_lok_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "chak_lok_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "chak_lok_guard_right_v01"
     },
     {
       "id": "alice_hw2",
@@ -4803,9 +4907,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "alice_hw2_neutral_right_v01"
+        "alice_hw2_neutral_right_v01",
+        "alice_hw2_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "alice_hw2_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "alice_hw2_guard_right_v01"
     },
     {
       "id": "douglas_hw2",
@@ -5055,9 +5165,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "douglas_hw2_neutral_right_v01"
+        "douglas_hw2_neutral_right_v01",
+        "douglas_hw2_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "douglas_hw2_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "douglas_hw2_guard_right_v01"
     },
     {
       "id": "jerome_hw2",
@@ -5307,9 +5423,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "jerome_hw2_neutral_right_v01"
+        "jerome_hw2_neutral_right_v01",
+        "jerome_hw2_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "jerome_hw2_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "jerome_hw2_guard_right_v01"
     },
     {
       "id": "zealot_reach",
@@ -5559,9 +5681,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "zealot_reach_neutral_right_v01"
+        "zealot_reach_neutral_right_v01",
+        "zealot_reach_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "zealot_reach_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "zealot_reach_guard_right_v01"
     },
     {
       "id": "cethegus_h3",
@@ -5811,9 +5939,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "cethegus_h3_neutral_right_v01"
+        "cethegus_h3_neutral_right_v01",
+        "cethegus_h3_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "cethegus_h3_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "cethegus_h3_guard_right_v01"
     },
     {
       "id": "hunter_h3",
@@ -6063,9 +6197,15 @@
       "narrative_status": "adaptation originale non canonique",
       "art_status": "candidate",
       "visual_assets": [
-        "hunter_h3_neutral_right_v01"
+        "hunter_h3_neutral_right_v01",
+        "hunter_h3_guard_right_v01"
       ],
-      "fidelity_status": "not_certified"
+      "fidelity_status": "not_certified",
+      "guard_visual_assets": [
+        "hunter_h3_guard_right_v01"
+      ],
+      "guard_art_status": "static_candidate_generated",
+      "preferred_guard_asset": "hunter_h3_guard_right_v01"
     }
   ],
   "expansions": [
