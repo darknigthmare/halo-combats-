@@ -279,9 +279,129 @@
       "generation_wave": 2,
       "journal_record": 39,
       "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "chief_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c1beb288-6115-4962-9cff-ce44bb9e48fb.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "A single full-body character reference illustration of Master Chief John-117 in his Halo Infinite campaign Mark VI GEN3 armor. Faithfully reproduce the familiar olive-green armor, gold opaque visor, helmet, chest plates with small 117 marking, armored limbs, black undersuit and stowed Grappleshot on his anatomical left forearm. Calm neutral standing pose, facing screen right in a mostly lateral view, both hands empty and relaxed beside the body, both boots fully visible. No weapon and no action. Detailed realistic game-character rendering with even studio lighting. The entire figure fits comfortably within broad transparent margins. Genuine transparent background, clean cutout, no floor or cast shadow, no scene, no lettering outside the authentic small armor marking, one figure only.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 0,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f0874950-1fa1-4d21-b115-aedbe8af8e2b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create one full-body neutral character reference illustration of Sergeant Major Avery Johnson in the original Halo 3. Preserve his recognizable mature Black face, short mustache and familiar olive patrol cap. Reproduce the original Marine uniform: olive and gray chest armor over military fatigues, utility belt and pouches, rugged combat boots and normal human proportions. His expression is calm and composed. He wears Marine equipment, not Spartan armor. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 1,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e969a959-594e-4542-ac73-e43d5b941f1d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create one full-body neutral character reference illustration of Emile-A239, Noble Four, in the original Halo Reach. His charcoal-gray Mark V[B] armor has restrained red accents, a black undersuit and EVA helmet with the recognizable skull scratched into its gold visor. The skull is a surface engraving, not a mask. Keep his large Security pauldron on his anatomical RIGHT shoulder and Operator pauldron on his LEFT, and his characteristic chest rig and FJ/PARA knees. Equipment stays stowed. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 3,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 903be5cb-aec5-4ebc-8fab-ee748115e71c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create one full-body neutral character reference illustration of Jorge-052, Noble Five, in the original Halo Reach. Preserve his towering broad Spartan-II build, bulky sage-and-olive Grenadier armor with red panels and ochre high collar, original rounded Grenadier helmet with gold opaque visor, heavy legs and black undersuit. The Grenadier shoulder is anatomically LEFT and EVA shoulder RIGHT. Keep the original color placements. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 4,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jun_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a243ac51-5653-4c84-9f4e-39e47a8f5ddd.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Jun-A266, Noble Three, from the original Halo: Reach. Preserve sage-green Mark V[B] scout armor, original Scout HU/RS helmet, brown-orange visor, tan scarf, Patrol chest rig and compact rucksack. Keep spare sniper cartridges on his anatomical LEFT shoulder, the sheathed knife at his RIGHT shoulder and UGPS on his LEFT forearm. Reproduce FJ/PARA knees and his leaner Spartan silhouette, with equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 5,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "kat_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 766e1082-6d16-4657-a424-8a7684329cd5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Kat-B320, Noble Two, in her original Halo: Reach appearance after Fumirole. Reproduce pale steel-blue Mark V[B] armor, the Air Assault helmet with its correct side module, opaque silver visor and black undersuit. Her anatomical RIGHT arm is the exposed segmented mechanical prosthesis, including its robotic hand; her LEFT arm is normally armored. Preserve the hard utility case on her LEFT thigh and realistic armored proportions. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 6,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "carter_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 4d2e3ce9-6e97-4542-b633-e7ad4bfcc4f5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Carter-A259, Noble One, from the original Halo: Reach. Preserve deep-blue Mark V[B] armor, the original Commando HUL[3] helmet, opaque gold visor, Assault/Commando chest gear and black undersuit. Reproduce the anatomical LEFT Commando pauldron, RIGHT Mark V pauldron, TACPAD on the LEFT wrist and FJ/PARA knee guards. Keep both arms normally armored, the original angular Reach silhouette and equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 7,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d010d00c-0488-4678-b4bf-f8bb0528633b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Tartarus from the original Halo 2 Classic. Preserve his massive barrel-chested Jiralhanae build, dense silver-white fur, tall white mohawk crest, dark gray face and broad forearms. Reproduce the exposed fur-covered torso, sparse classic equipment, dark cross-body bandolier, metallic gold pauldron on his anatomical LEFT shoulder, belt, original lower-body protection and boots. Retain Classic geometry and a calm expression; no hammer is carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 9,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 121fa65b-dc32-4f35-b2e4-b0e98dc3cc22.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Escharum in his Halo Infinite appearance. Preserve his elderly Jiralhanae face, heavy brow, gray-white beard, broad nose and immense body proportions. Reproduce the distinctive Banished armor, with dark gunmetal layered plates, deep red accents, broad ornate shoulders, heavy bracers and greaves, and recognizable V-shaped chest plating. Keep his own aged facial likeness and armor silhouette, with all equipment inactive and no weapon carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 10,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ba744a21-d863-4499-8dec-0fe9f55c16b1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Jega 'Rdomnai in Halo Infinite. Preserve his tall lean Sangheili anatomy, digitigrade legs, split feet and black harness with deep red markings, claw-like ornaments and Banished emblem. His anatomical LEFT arm and LEFT mandibular structures are mechanical prostheses; both legs remain biological. Retain the inactive Ghostpierce emitter on the LEFT forearm, with energy blades extinguished and no separate sword carried. Armor is opaque, camouflage inactive. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 11,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "chak_lok",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID be217cb3-8fdc-497e-ba16-315d9b9dd368.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Chak 'Lok in his Halo Infinite appearance. Reproduce his distinctive metallic gold Sangheili warlord harness, correct elongated helmet, substantial shoulder plates, dark undersuit, armored forearms and long leg plates. Preserve Infinite's Sangheili proportions, strong neck, intact four-part mandibles, biological arms, digitigrade legs and broad split feet. Keep his own helmet and armor shapes, not an earlier game's gold Elite. Camouflage is inactive and armor fully opaque. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 12,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID fe2647a8-8a80-459c-872b-76ff93e1e803.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Douglas-042 in the Halo Wars 2 campaign. Reproduce his operational olive-green Mark IV armor, broad rigid chest shell, heavy shoulders, angular helmet with opaque gold visor, black undersuit and substantial boots. Preserve Douglas's own campaign markings and pale helmet stripe rather than copying Jerome's red diagonal chest design. Both arms are normally armored; show intact operational equipment, without an invented prosthesis, additional damage or large unsupported numbers. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 3,
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 14,
+      "attempt_kind": "neutral_unarmed"
     }
   ],
-  "generated_unique_entities": 12,
+  "generated_unique_entities": 15,
   "certified_assets": 0,
   "animated_assets": 0,
   "independent_parallax_layers": 0,
@@ -2021,8 +2141,646 @@
         "Preserve Reach's much bulkier Sangheili proportions rather than Halo 3's narrower armor.",
         "Final helmet and shoulder ridge placement remain direct Halo Reach model QA checks."
       ]
+    },
+    {
+      "id": "noble_six_neutral_right_v01",
+      "entity_id": "noble_six",
+      "type": "fighter_pose",
+      "prompt": "Create one full-body neutral character reference illustration of Noble Six, SPARTAN-B312, in the original Halo Reach. Use the selected male-build steel-gray promotional Mark V[B] configuration: closed Mark V[B] helmet with upper UA armor plate, gold opaque visor, plain gray chest, black undersuit, FJ/PARA knee guards and no large added shoulder pauldrons. Preserve recognizable Reach armor geometry and realistic Spartan proportions. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "output": "noble_six_neutral_right_v01.png",
+      "qa": "Spartan gris acier en armure fermée, visière dorée, combinaison noire et mains vides. Le casque, les deux mains et les deux pieds sont entièrement visibles ; aucun membre supplémentaire ou doublon évident. Pose calme de référence orientée vers la droite, plutôt latérale avec un léger trois quarts du torse. Elle ne constitue pas encore une garde de combat armée ni une animation. Le casque renforcé, le plastron, les épaulières et les genouillères doivent être comparés à la variante promotionnelle Mark V[B]/UA et FJ/PARA choisie. La protection d’épaule visible comporte plusieurs plaques ; vérifier qu’elle ne dépasse pas cette configuration. Cette apparence choisie ne doit pas être déclarée canonique unique pour Noble Six. PNG RGBA 1024 × 1536, alpha 0 à 254, 1176579 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; un seul pixel de faible alpha touche le bord gauche. La marge haute de 26 px reste inférieure à 2 % de la hauteur ; la marge basse est de 49 px. Le halo gris de l’aperçu ne prouve pas un fond opaque : les points de fond examinés sont conservés dans rgba_samples. Le détourage et les faibles résidus alpha restent à contrôler sur des fonds de composition.",
+      "required_followup": [
+        "Comparaison précise au modèle promotionnel choisi de Noble Six, sans le déclarer apparence canonique unique",
+        "Contrôle du casque Mark V[B]/UA, des épaules et des genouillères FJ/PARA",
+        "Marge supérieure plus large pour une planche de production",
+        "Contrôle du contour alpha sur fonds clairs et sombres",
+        "Déclinaison ultérieure en garde de combat avec MA37 et en animations",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 3,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave3/noble_six_neutral_right_v01.png",
+      "sha256": "cd74d83d7d6d0acf834a36306e71b6d092e484ed7eeb2ee16ccb042737aa96a6",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-27da8c4d-6cfd-4525-9195-aaed8fee4d97.png",
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 2,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1176579,
+        "semitransparent_pixels": 396285,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 367598,
+        "alpha_nonzero_bbox": [
+          0,
+          21,
+          1010,
+          1496
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 1,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 382225,
+        "foreground_bbox_above_threshold": [
+          309,
+          26,
+          687,
+          1487
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 309,
+          "top": 26,
+          "right": 337,
+          "bottom": 49
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "noble_six",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-27da8c4d-6cfd-4525-9195-aaed8fee4d97.png",
+        "sha256": "cd74d83d7d6d0acf834a36306e71b6d092e484ed7eeb2ee16ccb042737aa96a6",
+        "reviewed_utc": "2026-11-19T17:32:25+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "notes": [
+          "Spartan gris acier en armure fermée, visière dorée, combinaison noire et mains vides. Le casque, les deux mains et les deux pieds sont entièrement visibles ; aucun membre supplémentaire ou doublon évident.",
+          "Pose calme de référence orientée vers la droite, plutôt latérale avec un léger trois quarts du torse. Elle ne constitue pas encore une garde de combat armée ni une animation.",
+          "Le casque renforcé, le plastron, les épaulières et les genouillères doivent être comparés à la variante promotionnelle Mark V[B]/UA et FJ/PARA choisie. La protection d’épaule visible comporte plusieurs plaques ; vérifier qu’elle ne dépasse pas cette configuration. Cette apparence choisie ne doit pas être déclarée canonique unique pour Noble Six.",
+          "PNG RGBA 1024 × 1536, alpha 0 à 254, 1176579 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; un seul pixel de faible alpha touche le bord gauche. La marge haute de 26 px reste inférieure à 2 % de la hauteur ; la marge basse est de 49 px.",
+          "Le halo gris de l’aperçu ne prouve pas un fond opaque : les points de fond examinés sont conservés dans rgba_samples. Le détourage et les faibles résidus alpha restent à contrôler sur des fonds de composition."
+        ],
+        "required_followup": [
+          "Comparaison précise au modèle promotionnel choisi de Noble Six, sans le déclarer apparence canonique unique",
+          "Contrôle du casque Mark V[B]/UA, des épaules et des genouillères FJ/PARA",
+          "Marge supérieure plus large pour une planche de production",
+          "Contrôle du contour alpha sur fonds clairs et sombres",
+          "Déclinaison ultérieure en garde de combat avec MA37 et en animations"
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1176579,
+            "semitransparent_pixels": 396285,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 367598,
+            "alpha_nonzero_bbox": [
+              0,
+              21,
+              1010,
+              1496
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 1,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 382225,
+            "foreground_bbox_above_threshold": [
+              309,
+              26,
+              687,
+              1487
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 309,
+              "top": 26,
+              "right": 337,
+              "bottom": 49
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "512,0": [
+            115,
+            114,
+            119,
+            0
+          ],
+          "512,10": [
+            115,
+            115,
+            119,
+            0
+          ],
+          "250,768": [
+            15,
+            15,
+            14,
+            0
+          ],
+          "750,768": [
+            24,
+            23,
+            23,
+            0
+          ],
+          "500,1510": [
+            37,
+            36,
+            35,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://news.xbox.com/en-us/2019/12/03/halo-reach-available-now-with-halo-the-master-chief-collection-3/",
+        "https://www.halopedia.org/File:Reach_E310_NobleSix.png",
+        "https://www.halopedia.org/SPARTAN-B312"
+      ],
+      "critical_checks": [
+        "Aucun visage dévoilé ou inventé ; sexe et apparence sélectionnés comme variante, pas décrits comme canon universel.",
+        "Casque Mark V[B] avec plaque UA ; ne pas mélanger avec Mark V CE, Mark VI ou Mark VII.",
+        "Armure gris acier, aucune grosse épaulière personnelle de Noble ajoutée.",
+        "MA37 de Reach, pas MA40 Infinite ; arme complète dans le cadre.",
+        "Les promotions divergent sur UA et genouillères ; verrou explicite de cette variante nécessaire."
+      ]
+    },
+    {
+      "id": "rookie_odst_neutral_right_v01",
+      "entity_id": "rookie_odst",
+      "type": "fighter_pose",
+      "prompt": "Create a character reference of the Rookie from Halo 3: ODST, matching the original model shown in the official Rookie cosplay guide. Preserve the enclosed charcoal ODST helmet, blue-silver visor, compact gray chest plates, dark tactical fabric, distinctive abdominal pouch, backpack, belt equipment, knee protection and boots. Maintain normal human proportions, an anonymous covered face and the Rookie's own equipment arrangement, without adding Buck's helmet command module or chest knife. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "output": "rookie_odst_neutral_right_v01.png",
+      "qa": "ODST debout en armure gris anthracite, visière bleu-argent fermée et tissu tactique noir. Le casque, les mains vides, les bottes et le sac dorsal sont entièrement dans le cadre ; aucun membre supplémentaire ou autre personnage visible. Vue proche du profil vers la droite, pose calme sans arme. Les deux jambes et bottes se superposent en partie ; leur séparation devra être plus lisible dans une garde de combat. Cette image de référence ne représente pas encore une animation. Sac dorsal et grosse pochette abdominale visibles. Le côté de casque visible ne comporte pas le gros module de Buck et aucun couteau de torse n’est visible. La géométrie du casque, la bande claire d’épaule et la disposition précise des plaques/pochettes demandent encore une comparaison au guide officiel du Rookie ; la fidélité 1:1 n’est pas certifiée. PNG RGBA 1024 × 1536, alpha 0 à 254, 1253215 pixels entièrement transparents. Aucun pixel d’alpha non nul ne touche les quatre bords. Marges de 51 px au-dessus du casque et 53 px sous les bottes : silhouette entière, mais la demande de 10 % de marge verticale n’est pas atteinte. Les points de fond gris/noir examinés ont alpha 0. Le halo RGB visible dans l’aperçu ne démontre pas un fond opaque ; le contour complet reste à vérifier en composition.",
+      "required_followup": [
+        "Comparaison du casque, du sac dorsal et de chaque pochette avec les vues officielles du guide Rookie",
+        "Contrôle de la bande d’épaule et des plaques pour éviter une variante ODST générique",
+        "Marges verticales de production plus larges si le brief de 10 % est conservé",
+        "Garde de combat avec séparation lisible des jambes et M7S dédiée",
+        "Validation du contour alpha et création des animations",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 3,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave3/rookie_odst_neutral_right_v01.png",
+      "sha256": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4853b5a8-844c-4d26-bbe7-338695d98b23.png",
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 8,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1253215,
+        "semitransparent_pixels": 319649,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 298077,
+        "alpha_nonzero_bbox": [
+          81,
+          48,
+          1010,
+          1512
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 309539,
+        "foreground_bbox_above_threshold": [
+          267,
+          51,
+          644,
+          1483
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 267,
+          "top": 51,
+          "right": 380,
+          "bottom": 53
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "rookie_odst",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4853b5a8-844c-4d26-bbe7-338695d98b23.png",
+        "sha256": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838",
+        "reviewed_utc": "2026-11-19T17:36:15+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "notes": [
+          "ODST debout en armure gris anthracite, visière bleu-argent fermée et tissu tactique noir. Le casque, les mains vides, les bottes et le sac dorsal sont entièrement dans le cadre ; aucun membre supplémentaire ou autre personnage visible.",
+          "Vue proche du profil vers la droite, pose calme sans arme. Les deux jambes et bottes se superposent en partie ; leur séparation devra être plus lisible dans une garde de combat. Cette image de référence ne représente pas encore une animation.",
+          "Sac dorsal et grosse pochette abdominale visibles. Le côté de casque visible ne comporte pas le gros module de Buck et aucun couteau de torse n’est visible. La géométrie du casque, la bande claire d’épaule et la disposition précise des plaques/pochettes demandent encore une comparaison au guide officiel du Rookie ; la fidélité 1:1 n’est pas certifiée.",
+          "PNG RGBA 1024 × 1536, alpha 0 à 254, 1253215 pixels entièrement transparents. Aucun pixel d’alpha non nul ne touche les quatre bords. Marges de 51 px au-dessus du casque et 53 px sous les bottes : silhouette entière, mais la demande de 10 % de marge verticale n’est pas atteinte.",
+          "Les points de fond gris/noir examinés ont alpha 0. Le halo RGB visible dans l’aperçu ne démontre pas un fond opaque ; le contour complet reste à vérifier en composition."
+        ],
+        "required_followup": [
+          "Comparaison du casque, du sac dorsal et de chaque pochette avec les vues officielles du guide Rookie",
+          "Contrôle de la bande d’épaule et des plaques pour éviter une variante ODST générique",
+          "Marges verticales de production plus larges si le brief de 10 % est conservé",
+          "Garde de combat avec séparation lisible des jambes et M7S dédiée",
+          "Validation du contour alpha et création des animations"
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1253215,
+            "semitransparent_pixels": 319649,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 298077,
+            "alpha_nonzero_bbox": [
+              81,
+              48,
+              1010,
+              1512
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 309539,
+            "foreground_bbox_above_threshold": [
+              267,
+              51,
+              644,
+              1483
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 267,
+              "top": 51,
+              "right": 380,
+              "bottom": 53
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "10,10": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "512,0": [
+            50,
+            51,
+            54,
+            0
+          ],
+          "250,768": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "750,768": [
+            9,
+            8,
+            8,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/official-cosplay-guide-the-rookie",
+        "https://content.halocdn.com/media/Default/community/CosplayGuides/h3odst_cosplayguide_rookie_mobile-3205b69a031a4a4f9ced2dee4dff173a.pdf",
+        "https://content.halocdn.com/media/Default/community/CosplayGuides/h3odst_cosplayguide_rookie_full-cf711784cefd46f1942179552d484811.pdf"
+      ],
+      "critical_checks": [
+        "Casque fermé sans visage inventé ; proportions humaines ODST et non Spartan.",
+        "Disposition Rookie du sac dorsal et des pochettes ; aucun CNM ou couteau de torse de Buck ajouté.",
+        "Mains vides, M7S absent dans cette pose neutre ; aucune aura VISR ou de bouclier.",
+        "Le preview officiel du guide cosplay fournit des vues face/profil/dos ; ne pas prétendre que l'intégralité du gros guide a été inspectée.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ]
+    },
+    {
+      "id": "alice_hw2_neutral_right_v01",
+      "entity_id": "alice_hw2",
+      "type": "fighter_pose",
+      "prompt": "Create a character reference of Alice-130 in the Halo Wars 2 campaign. Reproduce her original olive-green Mark IV armor, broad chest shell, substantial shoulders, angular helmet with opaque gold visor, black flexible joints and heavy boots. Preserve robust Spartan-II proportions and Alice's own subtle campaign markings, including the pale helmet center stripe where shown in the selected reference. Do not copy Jerome's diagonal red chest stripe or invent enlarged identification numbers. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "output": "alice_hw2_neutral_right_v01.png",
+      "qa": "Spartan en armure olive fermée, visière dorée et combinaison noire, en pose calme avec les mains vides. Le casque, les deux mains et les deux bottes sont entièrement visibles. Aucun membre supplémentaire, arme ou autre personnage visible. Vue orientée vers la droite, proche du profil avec un peu de rotation du torse. Les jambes et les bottes se chevauchent en partie ; leur séparation devra être adaptée pour une garde de combat lisible. La bande claire centrale du casque et plusieurs petites barres blanches sur le casque et l’épaule sont visibles. Leur nombre, leur placement et la forme exacte du casque, du plastron et des épaules doivent être comparés à une seule référence Alice Halo Wars 2 cohérente. L’absence de diagonale rouge de Jerome et de grand chiffre 130 ne suffit pas à certifier cette identité ni une fidélité 1:1. PNG RGBA 1024 × 1536, alpha 0 à 254, 1207915 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; deux pixels de faible alpha touchent le bord gauche et un le bord inférieur. Marges de 26 px au-dessus du casque et 60 px sous les bottes : la demande de 10 % de marge verticale n’est pas atteinte. Les points de fond gris/noir examinés sont à alpha 0 ; ce halo dans l’aperçu ne prouve pas un fond opaque. Les résidus de détourage doivent encore être contrôlés en composition. La M247H n’est pas présente dans cette référence neutre, conformément au brief.",
+      "required_followup": [
+        "Comparaison précise au modèle de campagne Alice Halo Wars 2, sans mélange avec Wars 1 ou les améliorations d’unités",
+        "Validation du casque Mark IV, du plastron et de chaque petit marquage blanc",
+        "Marges verticales plus larges pour respecter le brief de production",
+        "Contrôle du contour alpha sur fonds clairs et sombres",
+        "Garde de combat avec M247H, séparation des jambes et animations",
+        "Comparaison aux références de l'épisode",
+        "Validation de la vue latérale et des asymétries",
+        "Contrôle du détourage et du cadrage",
+        "Animations, collisions et intégration au moteur"
+      ],
+      "status": "candidate",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "generation_wave": 3,
+      "attempt_kind": "neutral_unarmed",
+      "pose_scope": "neutral_unarmed_reference",
+      "path": "assets/characters_wave3/alice_hw2_neutral_right_v01.png",
+      "sha256": "95e8e93a88c344191a9f85eee86cab72e2546dd5c86dced7cdb9bbb2003b1f40",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-45c55151-8cec-46bd-8048-893a74c43439.png",
+      "source_journal": "work/wave3/generation_results.json",
+      "journal_record": 13,
+      "visual_review_status": "reviewed_candidate_with_reservations",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "technical_qa": {
+        "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+        "has_alpha": true,
+        "transparent_pixels": 1207915,
+        "semitransparent_pixels": 364949,
+        "opaque_pixels": 0,
+        "near_opaque_pixels": 339842,
+        "alpha_nonzero_bbox": [
+          0,
+          23,
+          1020,
+          1536
+        ],
+        "edge_contact_pixels_alpha_nonzero": {
+          "left": 2,
+          "right": 0,
+          "top": 0,
+          "bottom": 1
+        },
+        "foreground_alpha_threshold": 16,
+        "foreground_pixels_above_threshold": 352915,
+        "foreground_bbox_above_threshold": [
+          300,
+          26,
+          672,
+          1476
+        ],
+        "canvas_margins_px_above_threshold": {
+          "left": 300,
+          "top": 26,
+          "right": 352,
+          "bottom": 60
+        },
+        "edge_contact_pixels_above_threshold": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "edge_contact_pixels_alpha_at_least_250": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "warnings": [
+          "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+          "Marges inférieures à 2 % du canevas ou à 8 px : top."
+        ],
+        "anatomy_and_canon": "requires_visual_reference_comparison"
+      },
+      "visual_review": {
+        "entity_id": "alice_hw2",
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-45c55151-8cec-46bd-8048-893a74c43439.png",
+        "sha256": "95e8e93a88c344191a9f85eee86cab72e2546dd5c86dced7cdb9bbb2003b1f40",
+        "reviewed_utc": "2026-11-19T17:40:52+00:00",
+        "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+        "verdict": "candidate_with_reservations",
+        "canon_comparison": "not_certified",
+        "attempt_kind": "neutral_unarmed",
+        "notes": [
+          "Spartan en armure olive fermée, visière dorée et combinaison noire, en pose calme avec les mains vides. Le casque, les deux mains et les deux bottes sont entièrement visibles. Aucun membre supplémentaire, arme ou autre personnage visible.",
+          "Vue orientée vers la droite, proche du profil avec un peu de rotation du torse. Les jambes et les bottes se chevauchent en partie ; leur séparation devra être adaptée pour une garde de combat lisible.",
+          "La bande claire centrale du casque et plusieurs petites barres blanches sur le casque et l’épaule sont visibles. Leur nombre, leur placement et la forme exacte du casque, du plastron et des épaules doivent être comparés à une seule référence Alice Halo Wars 2 cohérente. L’absence de diagonale rouge de Jerome et de grand chiffre 130 ne suffit pas à certifier cette identité ni une fidélité 1:1.",
+          "PNG RGBA 1024 × 1536, alpha 0 à 254, 1207915 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; deux pixels de faible alpha touchent le bord gauche et un le bord inférieur. Marges de 26 px au-dessus du casque et 60 px sous les bottes : la demande de 10 % de marge verticale n’est pas atteinte.",
+          "Les points de fond gris/noir examinés sont à alpha 0 ; ce halo dans l’aperçu ne prouve pas un fond opaque. Les résidus de détourage doivent encore être contrôlés en composition. La M247H n’est pas présente dans cette référence neutre, conformément au brief."
+        ],
+        "required_followup": [
+          "Comparaison précise au modèle de campagne Alice Halo Wars 2, sans mélange avec Wars 1 ou les améliorations d’unités",
+          "Validation du casque Mark IV, du plastron et de chaque petit marquage blanc",
+          "Marges verticales plus larges pour respecter le brief de production",
+          "Contrôle du contour alpha sur fonds clairs et sombres",
+          "Garde de combat avec M247H, séparation des jambes et animations"
+        ],
+        "technical_qa": {
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "technical_qa": {
+            "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+            "has_alpha": true,
+            "transparent_pixels": 1207915,
+            "semitransparent_pixels": 364949,
+            "opaque_pixels": 0,
+            "near_opaque_pixels": 339842,
+            "alpha_nonzero_bbox": [
+              0,
+              23,
+              1020,
+              1536
+            ],
+            "edge_contact_pixels_alpha_nonzero": {
+              "left": 2,
+              "right": 0,
+              "top": 0,
+              "bottom": 1
+            },
+            "foreground_alpha_threshold": 16,
+            "foreground_pixels_above_threshold": 352915,
+            "foreground_bbox_above_threshold": [
+              300,
+              26,
+              672,
+              1476
+            ],
+            "canvas_margins_px_above_threshold": {
+              "left": 300,
+              "top": 26,
+              "right": 352,
+              "bottom": 60
+            },
+            "edge_contact_pixels_above_threshold": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "edge_contact_pixels_alpha_at_least_250": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            },
+            "warnings": [
+              "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+              "Marges inférieures à 2 % du canevas ou à 8 px : top."
+            ],
+            "anatomy_and_canon": "requires_visual_reference_comparison"
+          }
+        },
+        "rgba_samples": {
+          "10,10": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "512,0": [
+            108,
+            107,
+            90,
+            0
+          ],
+          "250,768": [
+            10,
+            11,
+            8,
+            0
+          ],
+          "750,768": [
+            16,
+            16,
+            15,
+            0
+          ]
+        }
+      },
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halopedia.org/File:HW2_AliceStaysBehind.png",
+        "https://www.halopedia.org/Alice-130",
+        "https://www.halopedia.org/Spartan-II"
+      ],
+      "critical_checks": [
+        "Mark IV de campagne Wars 2, masse Spartan-II réaliste ; ni GEN2 ni simple Chief recoloré.",
+        "Bande de casque et petits emblèmes d'Alice à vérifier sur une même référence Wars 2 ; pas de diagonale rouge de Jerome.",
+        "Ne pas inventer de grands chiffres 130 lorsque non établis par la référence choisie.",
+        "Mains vides, M247H absent ; ce portrait ne constitue pas encore une pose de son moveset de mitrailleuse.",
+        "Les sources couvrent parfois Wars 1, Wars 2 et des améliorations : garder un seul modèle de campagne cohérent.",
+        "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+      ]
     }
   ],
-  "updated_utc": "2026-11-19T17:06:50+00:00",
-  "generated_fighter_entities": 9
+  "updated_utc": "2026-11-19T17:40:53+00:00",
+  "generated_fighter_entities": 12
 }

@@ -1,12 +1,14 @@
-const {chromium}=require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const path=require('node:path');
+const {pathToFileURL}=require('node:url');
+const {chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES ? path.join(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES,'playwright') : 'playwright');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 (async()=>{
-  const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
+  const browser=await chromium.launch({headless:true,...(process.env.HALO_CHROMIUM_EXECUTABLE ? {executablePath:process.env.HALO_CHROMIUM_EXECUTABLE} : {}),args:['--no-sandbox']});
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.addInitScript(()=>window.requestAnimationFrame=()=>0);
-  await page.goto('file:///workspace/scratch/9d31c69eef8e/halo_combats/prototype/halo_combats_prototype.html');
+  await page.goto(pathToFileURL(path.resolve(__dirname,'../halo_combats_prototype.html')).href);
   await page.waitForFunction(()=>window.HaloCombatsTest);
   const checks=[];
   async function check(name,fn){await fn();checks.push({name,status:'passed'});}
@@ -22,14 +24,14 @@ const fs=require('node:fs');
   await check('Melee core victory works without shooting',async()=>{const s=await page.evaluate(()=>{HaloCombatsTest.place(1790,268);HaloCombatsTest.face(1);for(let n=0;n<6;n++){HaloCombatsTest.action('heavy');HaloCombatsTest.step(55);}return HaloCombatsTest.snapshot();});assert.equal(s.boss.core.hp,0);assert(s.ended);assert.equal(await page.locator('#banner-title').textContent(),'SCARAB NEUTRALISÉ');});
   await check('Restart resets boss objective state',async()=>{await page.click('#restart');const s=await page.evaluate(()=>HaloCombatsTest.snapshot());assert.equal(s.boss.phase,1);assert.equal(s.boss.core.hp,450);assert(!s.ended);});
   await page.evaluate(()=>{HaloCombatsTest.reset('boss');HaloCombatsTest.step(20);});
-  await page.screenshot({path:'/workspace/scratch/9d31c69eef8e/halo_combats/prototype/qa/desktop.png',fullPage:true});
+  await page.screenshot({path:path.join(__dirname,'desktop.png'),fullPage:true});
   await page.setViewportSize({width:390,height:844});
   await page.evaluate(()=>{HaloCombatsTest.reset('training');HaloCombatsTest.step(1);});
   await check('Mobile layout has no horizontal overflow',async()=>assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false));
   await check('On-screen jump button dispatches jump',async()=>{await page.locator('[data-action="jump"]').click();await page.evaluate(()=>HaloCombatsTest.step(10));assert((await page.evaluate(()=>HaloCombatsTest.snapshot())).player.y<515);});
-  await page.screenshot({path:'/workspace/scratch/9d31c69eef8e/halo_combats/prototype/qa/mobile.png',fullPage:true});
+  await page.screenshot({path:path.join(__dirname,'mobile.png'),fullPage:true});
   assert.deepEqual(errors,[]);
-  fs.writeFileSync('/workspace/scratch/9d31c69eef8e/halo_combats/prototype/qa/results.json',JSON.stringify({browser:'Chromium headless',checks,scriptErrors:errors},null,2));
+  fs.writeFileSync(path.join(__dirname,'results.json'),JSON.stringify({browser:'Chromium headless',checks,scriptErrors:errors},null,2));
   console.log(JSON.stringify({passed:checks.length,checks,scriptErrors:errors},null,2));
   await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

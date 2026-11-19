@@ -1,0 +1,337 @@
+{
+  "reviews": [
+    {
+      "entity_id": "noble_six",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-27da8c4d-6cfd-4525-9195-aaed8fee4d97.png",
+      "sha256": "cd74d83d7d6d0acf834a36306e71b6d092e484ed7eeb2ee16ccb042737aa96a6",
+      "reviewed_utc": "2026-11-19T17:32:25+00:00",
+      "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "notes": [
+        "Spartan gris acier en armure fermée, visière dorée, combinaison noire et mains vides. Le casque, les deux mains et les deux pieds sont entièrement visibles ; aucun membre supplémentaire ou doublon évident.",
+        "Pose calme de référence orientée vers la droite, plutôt latérale avec un léger trois quarts du torse. Elle ne constitue pas encore une garde de combat armée ni une animation.",
+        "Le casque renforcé, le plastron, les épaulières et les genouillères doivent être comparés à la variante promotionnelle Mark V[B]/UA et FJ/PARA choisie. La protection d’épaule visible comporte plusieurs plaques ; vérifier qu’elle ne dépasse pas cette configuration. Cette apparence choisie ne doit pas être déclarée canonique unique pour Noble Six.",
+        "PNG RGBA 1024 × 1536, alpha 0 à 254, 1176579 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; un seul pixel de faible alpha touche le bord gauche. La marge haute de 26 px reste inférieure à 2 % de la hauteur ; la marge basse est de 49 px.",
+        "Le halo gris de l’aperçu ne prouve pas un fond opaque : les points de fond examinés sont conservés dans rgba_samples. Le détourage et les faibles résidus alpha restent à contrôler sur des fonds de composition."
+      ],
+      "required_followup": [
+        "Comparaison précise au modèle promotionnel choisi de Noble Six, sans le déclarer apparence canonique unique",
+        "Contrôle du casque Mark V[B]/UA, des épaules et des genouillères FJ/PARA",
+        "Marge supérieure plus large pour une planche de production",
+        "Contrôle du contour alpha sur fonds clairs et sombres",
+        "Déclinaison ultérieure en garde de combat avec MA37 et en animations"
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1176579,
+          "semitransparent_pixels": 396285,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 367598,
+          "alpha_nonzero_bbox": [
+            0,
+            21,
+            1010,
+            1496
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 1,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 382225,
+          "foreground_bbox_above_threshold": [
+            309,
+            26,
+            687,
+            1487
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 309,
+            "top": 26,
+            "right": 337,
+            "bottom": 49
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "512,0": [
+          115,
+          114,
+          119,
+          0
+        ],
+        "512,10": [
+          115,
+          115,
+          119,
+          0
+        ],
+        "250,768": [
+          15,
+          15,
+          14,
+          0
+        ],
+        "750,768": [
+          24,
+          23,
+          23,
+          0
+        ],
+        "500,1510": [
+          37,
+          36,
+          35,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "rookie_odst",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4853b5a8-844c-4d26-bbe7-338695d98b23.png",
+      "sha256": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838",
+      "reviewed_utc": "2026-11-19T17:36:15+00:00",
+      "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "notes": [
+        "ODST debout en armure gris anthracite, visière bleu-argent fermée et tissu tactique noir. Le casque, les mains vides, les bottes et le sac dorsal sont entièrement dans le cadre ; aucun membre supplémentaire ou autre personnage visible.",
+        "Vue proche du profil vers la droite, pose calme sans arme. Les deux jambes et bottes se superposent en partie ; leur séparation devra être plus lisible dans une garde de combat. Cette image de référence ne représente pas encore une animation.",
+        "Sac dorsal et grosse pochette abdominale visibles. Le côté de casque visible ne comporte pas le gros module de Buck et aucun couteau de torse n’est visible. La géométrie du casque, la bande claire d’épaule et la disposition précise des plaques/pochettes demandent encore une comparaison au guide officiel du Rookie ; la fidélité 1:1 n’est pas certifiée.",
+        "PNG RGBA 1024 × 1536, alpha 0 à 254, 1253215 pixels entièrement transparents. Aucun pixel d’alpha non nul ne touche les quatre bords. Marges de 51 px au-dessus du casque et 53 px sous les bottes : silhouette entière, mais la demande de 10 % de marge verticale n’est pas atteinte.",
+        "Les points de fond gris/noir examinés ont alpha 0. Le halo RGB visible dans l’aperçu ne démontre pas un fond opaque ; le contour complet reste à vérifier en composition."
+      ],
+      "required_followup": [
+        "Comparaison du casque, du sac dorsal et de chaque pochette avec les vues officielles du guide Rookie",
+        "Contrôle de la bande d’épaule et des plaques pour éviter une variante ODST générique",
+        "Marges verticales de production plus larges si le brief de 10 % est conservé",
+        "Garde de combat avec séparation lisible des jambes et M7S dédiée",
+        "Validation du contour alpha et création des animations"
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1253215,
+          "semitransparent_pixels": 319649,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 298077,
+          "alpha_nonzero_bbox": [
+            81,
+            48,
+            1010,
+            1512
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 309539,
+          "foreground_bbox_above_threshold": [
+            267,
+            51,
+            644,
+            1483
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 267,
+            "top": 51,
+            "right": 380,
+            "bottom": 53
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "10,10": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "512,0": [
+          50,
+          51,
+          54,
+          0
+        ],
+        "250,768": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "750,768": [
+          9,
+          8,
+          8,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "alice_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-45c55151-8cec-46bd-8048-893a74c43439.png",
+      "sha256": "95e8e93a88c344191a9f85eee86cab72e2546dd5c86dced7cdb9bbb2003b1f40",
+      "reviewed_utc": "2026-11-19T17:40:52+00:00",
+      "review_method": "Individual view_image inspection plus read-only RGBA measurements; no image edits",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "attempt_kind": "neutral_unarmed",
+      "notes": [
+        "Spartan en armure olive fermée, visière dorée et combinaison noire, en pose calme avec les mains vides. Le casque, les deux mains et les deux bottes sont entièrement visibles. Aucun membre supplémentaire, arme ou autre personnage visible.",
+        "Vue orientée vers la droite, proche du profil avec un peu de rotation du torse. Les jambes et les bottes se chevauchent en partie ; leur séparation devra être adaptée pour une garde de combat lisible.",
+        "La bande claire centrale du casque et plusieurs petites barres blanches sur le casque et l’épaule sont visibles. Leur nombre, leur placement et la forme exacte du casque, du plastron et des épaules doivent être comparés à une seule référence Alice Halo Wars 2 cohérente. L’absence de diagonale rouge de Jerome et de grand chiffre 130 ne suffit pas à certifier cette identité ni une fidélité 1:1.",
+        "PNG RGBA 1024 × 1536, alpha 0 à 254, 1207915 pixels entièrement transparents. Aucun contenu alpha >16 ne touche le cadre ; deux pixels de faible alpha touchent le bord gauche et un le bord inférieur. Marges de 26 px au-dessus du casque et 60 px sous les bottes : la demande de 10 % de marge verticale n’est pas atteinte.",
+        "Les points de fond gris/noir examinés sont à alpha 0 ; ce halo dans l’aperçu ne prouve pas un fond opaque. Les résidus de détourage doivent encore être contrôlés en composition. La M247H n’est pas présente dans cette référence neutre, conformément au brief."
+      ],
+      "required_followup": [
+        "Comparaison précise au modèle de campagne Alice Halo Wars 2, sans mélange avec Wars 1 ou les améliorations d’unités",
+        "Validation du casque Mark IV, du plastron et de chaque petit marquage blanc",
+        "Marges verticales plus larges pour respecter le brief de production",
+        "Contrôle du contour alpha sur fonds clairs et sombres",
+        "Garde de combat avec M247H, séparation des jambes et animations"
+      ],
+      "technical_qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1207915,
+          "semitransparent_pixels": 364949,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 339842,
+          "alpha_nonzero_bbox": [
+            0,
+            23,
+            1020,
+            1536
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 2,
+            "right": 0,
+            "top": 0,
+            "bottom": 1
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 352915,
+          "foreground_bbox_above_threshold": [
+            300,
+            26,
+            672,
+            1476
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 300,
+            "top": 26,
+            "right": 352,
+            "bottom": 60
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "rgba_samples": {
+        "10,10": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "512,0": [
+          108,
+          107,
+          90,
+          0
+        ],
+        "250,768": [
+          10,
+          11,
+          8,
+          0
+        ],
+        "750,768": [
+          16,
+          16,
+          15,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1003,13 +1003,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "noble_six_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "emile_reach",
@@ -2750,13 +2753,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "rookie_odst_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "rtas_h3",
@@ -4751,13 +4757,16 @@
       "status": {
         "design": "proposed",
         "visual_reference": "requires_frame_by_frame_validation",
-        "sprite": "not_generated_generation_rejected",
+        "sprite": "candidate_generated",
         "animation": "not_generated",
         "gameplay": "not_implemented"
       },
       "narrative_status": "adaptation originale non canonique",
-      "art_status": "generation_failed",
-      "visual_generation_failure": "Génération refusée par le contrôle automatique ; motif précis non fourni."
+      "art_status": "candidate",
+      "visual_assets": [
+        "alice_hw2_neutral_right_v01"
+      ],
+      "fidelity_status": "not_certified"
     },
     {
       "id": "douglas_hw2",

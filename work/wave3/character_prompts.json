@@ -1,0 +1,304 @@
+[
+  {
+    "id": "chief_infinite",
+    "name": "John-117 — le Major",
+    "era": "Halo Infinite, campagne (2021)",
+    "prompt": "A single full-body character reference illustration of Master Chief John-117 in his Halo Infinite campaign Mark VI GEN3 armor. Faithfully reproduce the familiar olive-green armor, gold opaque visor, helmet, chest plates with small 117 marking, armored limbs, black undersuit and stowed Grappleshot on his anatomical left forearm. Calm neutral standing pose, facing screen right in a mostly lateral view, both hands empty and relaxed beside the body, both boots fully visible. No weapon and no action. Detailed realistic game-character rendering with even studio lighting. The entire figure fits comfortably within broad transparent margins. Genuine transparent background, clean cutout, no floor or cast shadow, no scene, no lettering outside the authentic small armor marking, one figure only.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/en-us/news/master-class",
+      "https://www.halowaypoint.com/news/customization-overview-season-5",
+      "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+    ],
+    "critical_checks": [
+      "Mark VI GEN3 de la campagne Infinite ; ne pas substituer Mark VII multijoueur, GEN2 ou série TV.",
+      "Grappleshot sur l'avant-bras anatomiquement gauche, câble rangé ; 117 petit et correctement orienté.",
+      "Mains vides : MA40 volontairement absent de cette référence neutre, pas une garde armée.",
+      "Casque fermé ; silhouette et proportions à comparer au rendu officiel Master Class.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "johnson_h3",
+    "name": "Avery Johnson",
+    "era": "Halo 3 (2007)",
+    "prompt": "Create one full-body neutral character reference illustration of Sergeant Major Avery Johnson in the original Halo 3. Preserve his recognizable mature Black face, short mustache and familiar olive patrol cap. Reproduce the original Marine uniform: olive and gray chest armor over military fatigues, utility belt and pouches, rugged combat boots and normal human proportions. His expression is calm and composed. He wears Marine equipment, not Spartan armor. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/sweet-sixteenth",
+      "https://www.halopedia.org/Avery_Johnson"
+    ],
+    "critical_checks": [
+      "Visage, moustache, casquette et tenue du modèle Halo 3, pas Halo 2 Anniversary ou Johnson mécanisé Wars 2.",
+      "Proportions humaines de marine ; aucune MJOLNIR ou armure ODST ajoutée.",
+      "Mains vides ; le BR55HB n'est pas demandé pour cette pose de référence.",
+      "Ressemblance faciale, manches et micro-insignes restent à contrôler sur une capture Halo 3 ; l'illustration officielle Mythos n'est pas un turnaround du modèle.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "noble_six",
+    "name": "Noble Six — SPARTAN-B312",
+    "era": "Halo: Reach (2010), variante promotionnelle grise choisie",
+    "prompt": "Create one full-body neutral character reference illustration of Noble Six, SPARTAN-B312, in the original Halo Reach. Use the selected male-build steel-gray promotional Mark V[B] configuration: closed Mark V[B] helmet with upper UA armor plate, gold opaque visor, plain gray chest, black undersuit, FJ/PARA knee guards and no large added shoulder pauldrons. Preserve recognizable Reach armor geometry and realistic Spartan proportions. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+    "reference_urls": [
+      "https://news.xbox.com/en-us/2019/12/03/halo-reach-available-now-with-halo-the-master-chief-collection-3/",
+      "https://www.halopedia.org/File:Reach_E310_NobleSix.png",
+      "https://www.halopedia.org/SPARTAN-B312"
+    ],
+    "critical_checks": [
+      "Variante promotionnelle masculine grise explicitement choisie ; ne pas la présenter comme apparence canonique universelle.",
+      "Mark V[B]/UA, FJ/PARA et absence de grosses épaulières supplémentaires ; contrôler le même rendu promotionnel.",
+      "Aucun visage inventé sous le casque ; mains vides, aucune arme de la pose promotionnelle à réinterpréter.",
+      "Les supports promotionnels présentent des variantes ; les pièces doivent rester cohérentes avec le choix de production.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "emile_reach",
+    "name": "Emile-A239",
+    "era": "Halo: Reach (2010)",
+    "prompt": "Create one full-body neutral character reference illustration of Emile-A239, Noble Four, in the original Halo Reach. His charcoal-gray Mark V[B] armor has restrained red accents, a black undersuit and EVA helmet with the recognizable skull scratched into its gold visor. The skull is a surface engraving, not a mask. Keep his large Security pauldron on his anatomical RIGHT shoulder and Operator pauldron on his LEFT, and his characteristic chest rig and FJ/PARA knees. Equipment stays stowed. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halowaypoint.com/news/feet-first-into-fall",
+      "https://www.halopedia.org/Emile"
+    ],
+    "critical_checks": [
+      "Crâne gravé sur la visière dorée EVA[C], pas masque en os ou casque blanc.",
+      "Security et kukri rengainé anatomiquement à droite ; Operator à gauche. Ne pas inverser en miroir.",
+      "Mains vides, shotgun absent ; le kukri reste dans son fourreau, équipement fixé au harnais.",
+      "Le fan art Spotlight ne certifie pas la géométrie ; comparer les pièces au modèle Reach.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "jorge_reach",
+    "name": "Jorge-052",
+    "era": "Halo: Reach (2010)",
+    "prompt": "Create one full-body neutral character reference illustration of Jorge-052, Noble Five, in the original Halo Reach. Preserve his towering broad Spartan-II build, bulky sage-and-olive Grenadier armor with red panels and ochre high collar, original rounded Grenadier helmet with gold opaque visor, heavy legs and black undersuit. The Grenadier shoulder is anatomically LEFT and EVA shoulder RIGHT. Keep the original color placements. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halopedia.org/File:Jorge-052.png",
+      "https://www.halopedia.org/Jorge%27s_Chaingun"
+    ],
+    "critical_checks": [
+      "Gabarit Spartan-II massif, casque Grenadier/UA, col ocre et disposition d'origine des panneaux rouges.",
+      "Grenadier anatomiquement à gauche et EVA à droite ; conserver les asymétries du rendu Bungie.",
+      "Mains vides ; Etilka/M247H non représentée dans cette pose neutre, aucun accessoire rotatif inventé.",
+      "Aucun jetpack ou élément Halo 5/Infinite ajouté ; comparer les volumes au rendu Jorge-052 du press kit.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "jun_reach",
+    "name": "Jun-A266",
+    "era": "Halo: Reach (2010)",
+    "prompt": "Create a character reference of Jun-A266, Noble Three, from the original Halo: Reach. Preserve sage-green Mark V[B] scout armor, original Scout HU/RS helmet, brown-orange visor, tan scarf, Patrol chest rig and compact rucksack. Keep spare sniper cartridges on his anatomical LEFT shoulder, the sheathed knife at his RIGHT shoulder and UGPS on his LEFT forearm. Reproduce FJ/PARA knees and his leaner Spartan silhouette, with equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/halo-winter-contention",
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halopedia.org/Jun-A266"
+    ],
+    "critical_checks": [
+      "Casque Scout HU/RS de Reach, foulard et rig Patrol ; ne pas substituer Recon ou VIGILANT GEN2.",
+      "Cartouches à l'épaule gauche, couteau rengainé à l'épaule droite, UGPS à l'avant-bras gauche.",
+      "Mains vides ; SRS99-AM absent de cette référence, les cartouches et accessoires restent fixés.",
+      "Les sources officielles de contexte ne prouvent pas toutes les pièces ; contrôle sur modèle Reach nécessaire.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "kat_reach",
+    "name": "Kat-B320",
+    "era": "Halo: Reach (2010), après Fumirole",
+    "prompt": "Create a character reference of Kat-B320, Noble Two, in her original Halo: Reach appearance after Fumirole. Reproduce pale steel-blue Mark V[B] armor, the Air Assault helmet with its correct side module, opaque silver visor and black undersuit. Her anatomical RIGHT arm is the exposed segmented mechanical prosthesis, including its robotic hand; her LEFT arm is normally armored. Preserve the hard utility case on her LEFT thigh and realistic armored proportions. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/womens-history-month-2024",
+      "https://www.halowaypoint.com/news/canon-fodder-phoenix-blog",
+      "https://www.halopedia.org/Catherine-B320"
+    ],
+    "critical_checks": [
+      "Prothèse anatomiquement droite, bras gauche normal sous armure ; ne jamais inverser ces côtés pour faire face à droite.",
+      "Casque Air Assault Reach et visière argentée ; ne pas reprendre le casque Commando de Carter.",
+      "Hardcase à la cuisse gauche ; silhouette protégée réaliste, sans mise en forme exagérée de l'armure.",
+      "Mains vides, M6G absent ; contrôler la prothèse et le casque sur le modèle Reach, pas un kit Infinite.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "carter_reach",
+    "name": "Carter-A259",
+    "era": "Halo: Reach (2010)",
+    "prompt": "Create a character reference of Carter-A259, Noble One, from the original Halo: Reach. Preserve deep-blue Mark V[B] armor, the original Commando HUL[3] helmet, opaque gold visor, Assault/Commando chest gear and black undersuit. Reproduce the anatomical LEFT Commando pauldron, RIGHT Mark V pauldron, TACPAD on the LEFT wrist and FJ/PARA knee guards. Keep both arms normally armored, the original angular Reach silhouette and equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halopedia.org/File:HR_PK_Six%26Carter.jpg",
+      "https://www.halopedia.org/Carter"
+    ],
+    "critical_checks": [
+      "Bleu plus soutenu que Kat, casque Commando HUL[3] de Reach, deux bras normalement blindés.",
+      "Commando à l'épaule gauche, Mark V à droite et TACPAD à gauche, sans mirroring.",
+      "Mains vides ; ni M392 DMR ni VK78 ne sont demandés dans cette référence.",
+      "Conserver les pièces Reach, sans adaptation GEN2 Halo 5 ni kit Infinite ; comparer au modèle de la capture du press kit.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "rookie_odst",
+    "name": "Le Rookie",
+    "era": "Halo 3: ODST (2009)",
+    "prompt": "Create a character reference of the Rookie from Halo 3: ODST, matching the original model shown in the official Rookie cosplay guide. Preserve the enclosed charcoal ODST helmet, blue-silver visor, compact gray chest plates, dark tactical fabric, distinctive abdominal pouch, backpack, belt equipment, knee protection and boots. Maintain normal human proportions, an anonymous covered face and the Rookie's own equipment arrangement, without adding Buck's helmet command module or chest knife. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/official-cosplay-guide-the-rookie",
+      "https://content.halocdn.com/media/Default/community/CosplayGuides/h3odst_cosplayguide_rookie_mobile-3205b69a031a4a4f9ced2dee4dff173a.pdf",
+      "https://content.halocdn.com/media/Default/community/CosplayGuides/h3odst_cosplayguide_rookie_full-cf711784cefd46f1942179552d484811.pdf"
+    ],
+    "critical_checks": [
+      "Casque fermé sans visage inventé ; proportions humaines ODST et non Spartan.",
+      "Disposition Rookie du sac dorsal et des pochettes ; aucun CNM ou couteau de torse de Buck ajouté.",
+      "Mains vides, M7S absent dans cette pose neutre ; aucune aura VISR ou de bouclier.",
+      "Le preview officiel du guide cosplay fournit des vues face/profil/dos ; ne pas prétendre que l'intégralité du gros guide a été inspectée.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "tartarus_h2",
+    "name": "Tartarus",
+    "era": "Halo 2 Classic",
+    "prompt": "Create a character reference of Tartarus from the original Halo 2 Classic. Preserve his massive barrel-chested Jiralhanae build, dense silver-white fur, tall white mohawk crest, dark gray face and broad forearms. Reproduce the exposed fur-covered torso, sparse classic equipment, dark cross-body bandolier, metallic gold pauldron on his anatomical LEFT shoulder, belt, original lower-body protection and boots. Retain Classic geometry and a calm expression; no hammer is carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/canon-fodder-all-about-anvil",
+      "https://www.halopedia.org/Tartarus"
+    ],
+    "critical_checks": [
+      "Halo 2 Classic verrouillé ; ne pas mélanger avec la refonte Anniversary ou l'armure motorisée Halo 3.",
+      "Grande épaulière dorée anatomiquement gauche, fourrure blanche et torse largement exposé selon le modèle classique.",
+      "Mains vides : Fist of Rukt volontairement absent ; aucune arme de remplacement ajoutée.",
+      "Aucun trophée inventé ; visage, proportions et équipement exacts restent à comparer au modèle Classic.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "escharum_infinite",
+    "name": "Escharum",
+    "era": "Halo Infinite",
+    "prompt": "Create a character reference of Escharum in his Halo Infinite appearance. Preserve his elderly Jiralhanae face, heavy brow, gray-white beard, broad nose and immense body proportions. Reproduce the distinctive Banished armor, with dark gunmetal layered plates, deep red accents, broad ornate shoulders, heavy bracers and greaves, and recognizable V-shaped chest plating. Keep his own aged facial likeness and armor silhouette, with all equipment inactive and no weapon carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+      "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+      "https://www.halopedia.org/Diminisher_of_Hope",
+      "https://halo.wiki.gallery/images/thumb/8/88/HINF_EscharumRender.png/1200px-HINF_EscharumRender.png"
+    ],
+    "critical_checks": [
+      "Visage âgé, barbe grise et plastron en V de Halo Infinite ; pas de tresses ou de plaques blanches d'Atriox Wars 2.",
+      "Mains vides ; ni Scrap Cannon ni Diminisher of Hope ne sont représentés dans cette référence.",
+      "La divergence hardlight/plasma des descriptions de Diminisher ne s'applique pas ici, puisque l'arme est absente.",
+      "Contrôler casque/épaules/plastron et silhouette sur le rendu Infinite ; génération seule non certifiante.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "jega_infinite",
+    "name": "Jega 'Rdomnai",
+    "era": "Halo Infinite",
+    "prompt": "Create a character reference of Jega 'Rdomnai in Halo Infinite. Preserve his tall lean Sangheili anatomy, digitigrade legs, split feet and black harness with deep red markings, claw-like ornaments and Banished emblem. His anatomical LEFT arm and LEFT mandibular structures are mechanical prostheses; both legs remain biological. Retain the inactive Ghostpierce emitter on the LEFT forearm, with energy blades extinguished and no separate sword carried. Armor is opaque, camouflage inactive. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/canon-fodder-decennial-delights",
+      "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+      "https://www.halopedia.org/Jega_%27Rdomnai"
+    ],
+    "critical_checks": [
+      "Bras cybernétique anatomiquement gauche et mandibules gauches prosthétiques ; ne pas confondre avec les mandibules absentes de Rtas.",
+      "Aucune jambe cybernétique inventée ; deux jambes biologiques.",
+      "Émetteur Ghostpierce conservé au bras gauche mais lames éteintes, mains vides et aucune bloodblade séparée tenue.",
+      "Armure opaque, camouflage inactif ; contrôler identité et géométrie du modèle Infinite, pas un Elite rouge générique.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "chak_lok",
+    "name": "Chak 'Lok",
+    "era": "Halo Infinite",
+    "prompt": "Create a character reference of Chak 'Lok in his Halo Infinite appearance. Reproduce his distinctive metallic gold Sangheili warlord harness, correct elongated helmet, substantial shoulder plates, dark undersuit, armored forearms and long leg plates. Preserve Infinite's Sangheili proportions, strong neck, intact four-part mandibles, biological arms, digitigrade legs and broad split feet. Keep his own helmet and armor shapes, not an earlier game's gold Elite. Camouflage is inactive and armor fully opaque. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/canon-fodder-of-protocols-and-prisons",
+      "https://www.halopedia.org/Chak_%27Lok"
+    ],
+    "critical_checks": [
+      "Armure et casque dorés de Chak 'Lok dans Infinite ; ni Zealot rouge Reach ni Elite doré de Halo CE.",
+      "Mandibules et membres biologiques intacts ; aucune prothèse de Jega ou modification de Rtas.",
+      "Mains vides, épée à énergie absente ; armure opaque et camouflage inactif.",
+      "La source officielle confirme le personnage et le contexte ; les formes exactes exigent une comparaison à la campagne Infinite.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "alice_hw2",
+    "name": "Alice-130",
+    "era": "Halo Wars 2 (2017), Mark IV de campagne",
+    "prompt": "Create a character reference of Alice-130 in the Halo Wars 2 campaign. Reproduce her original olive-green Mark IV armor, broad chest shell, substantial shoulders, angular helmet with opaque gold visor, black flexible joints and heavy boots. Preserve robust Spartan-II proportions and Alice's own subtle campaign markings, including the pale helmet center stripe where shown in the selected reference. Do not copy Jerome's diagonal red chest stripe or invent enlarged identification numbers. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/womens-history-month-2024",
+      "https://www.halopedia.org/File:HW2_AliceStaysBehind.png",
+      "https://www.halopedia.org/Alice-130",
+      "https://www.halopedia.org/Spartan-II"
+    ],
+    "critical_checks": [
+      "Mark IV de campagne Wars 2, masse Spartan-II réaliste ; ni GEN2 ni simple Chief recoloré.",
+      "Bande de casque et petits emblèmes d'Alice à vérifier sur une même référence Wars 2 ; pas de diagonale rouge de Jerome.",
+      "Ne pas inventer de grands chiffres 130 lorsque non établis par la référence choisie.",
+      "Mains vides, M247H absent ; ce portrait ne constitue pas encore une pose de son moveset de mitrailleuse.",
+      "Les sources couvrent parfois Wars 1, Wars 2 et des améliorations : garder un seul modèle de campagne cohérent.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  },
+  {
+    "id": "douglas_hw2",
+    "name": "Douglas-042",
+    "era": "Halo Wars 2 (2017), Mark IV de campagne, opérationnel",
+    "prompt": "Create a character reference of Douglas-042 in the Halo Wars 2 campaign. Reproduce his operational olive-green Mark IV armor, broad rigid chest shell, heavy shoulders, angular helmet with opaque gold visor, black undersuit and substantial boots. Preserve Douglas's own campaign markings and pale helmet stripe rather than copying Jerome's red diagonal chest design. Both arms are normally armored; show intact operational equipment, without an invented prosthesis, additional damage or large unsupported numbers. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+      "https://www.halopedia.org/Douglas-042",
+      "https://www.halopedia.org/Douglas-042/Gameplay",
+      "https://www.teamrespawn.net/phoenix-logs/douglas-042/"
+    ],
+    "critical_checks": [
+      "Mark IV opérationnel Wars 2 et marquages propres à Douglas ; ni Commander Jerome ni recoloration d'Alice.",
+      "Aucun bras prosthétique inventé ou mélange de blessures et d'état opérationnel.",
+      "Les petits emblèmes, la bande de casque et le 042 restent à vérifier sur la même référence Wars 2.",
+      "Mains vides ; lance-roquettes M41 absent, sans imposer le nombre de tubes d'un modèle Wars 1.",
+      "Référence de personnage neutre, pas une pose armée prête pour le gameplay.",
+      "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
+    ],
+    "pose_intent": "neutral_unarmed",
+    "prompt_source": "Exact prompt executed in generation_results.json"
+  }
+]

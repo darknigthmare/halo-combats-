@@ -1,0 +1,39 @@
+{
+  "prior_assets_unchanged": 12,
+  "prior_png_hashes_unchanged": 12,
+  "new_png_source_hashes_match": 3,
+  "new_pngs": [
+    {
+      "entity_id": "noble_six",
+      "path": "assets/characters_wave3/noble_six_neutral_right_v01.png",
+      "sha256": "cd74d83d7d6d0acf834a36306e71b6d092e484ed7eeb2ee16ccb042737aa96a6"
+    },
+    {
+      "entity_id": "rookie_odst",
+      "path": "assets/characters_wave3/rookie_odst_neutral_right_v01.png",
+      "sha256": "de622c046c5d45591b42c1c3eaf569580524fdbaca5f705a547f92ead1fa1838"
+    },
+    {
+      "entity_id": "alice_hw2",
+      "path": "assets/characters_wave3/alice_hw2_neutral_right_v01.png",
+      "sha256": "95e8e93a88c344191a9f85eee86cab72e2546dd5c86dced7cdb9bbb2003b1f40"
+    }
+  ],
+  "counts_verified": {
+    "fighters": 24,
+    "active_visual_candidates": 15,
+    "active_fighter_pose_candidates": 12,
+    "fighter_entities_with_visual_candidate": 12,
+    "fighter_entities_without_visual_candidate": 12,
+    "active_boss_visual_candidates": 1,
+    "active_stage_visual_candidates": 2,
+    "wave3_generation_attempts": 15,
+    "wave3_generated_character_pngs": 3,
+    "wave3_generation_failures": 12,
+    "wave3_automatic_generation_rejections": 12,
+    "certified_visuals": 0,
+    "animation_clips": 0
+  },
+  "mutated_image_bytes": false,
+  "historical_failure_entries": 47
+}
