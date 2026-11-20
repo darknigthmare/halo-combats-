@@ -1,0 +1,89 @@
+{
+  "wave": 7,
+  "state": "frozen_global_usage_limit",
+  "generated_pngs": 0,
+  "reviews": [],
+  "no_candidate_review_reason": "The only four attempted requests returned HTTP 429 usage_limit_reached without images. No pixels, alpha channels, orientation, margins, or canon fidelity of new assets can be reviewed.",
+  "reference_checks": [
+    {
+      "entity_id": "kelly_h5",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+      "expected_sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": true,
+      "visual_inspection_note": "Original reference displayed and inspected; no editing."
+    },
+    {
+      "entity_id": "linda_h5",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+      "expected_sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": true,
+      "visual_inspection_note": "Original reference displayed and inspected; no editing."
+    },
+    {
+      "entity_id": "locke_h5",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+      "expected_sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": true,
+      "visual_inspection_note": "Original reference displayed and inspected; no editing."
+    },
+    {
+      "entity_id": "tanaka_h5",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+      "expected_sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": true,
+      "visual_inspection_note": "Original reference displayed and inspected; no editing."
+    },
+    {
+      "entity_id": "dare_odst",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dare_odst_reference.png",
+      "expected_sha256": "47c279bc6bfbb9c8dd880434b197c191bbdcf0ad2e178e8c4a22962c8896767b",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": true,
+      "visual_inspection_note": "Original reference displayed and inspected; no editing."
+    },
+    {
+      "entity_id": "romeo_odst",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/romeo_odst_reference.png",
+      "expected_sha256": "72932c4b25c5fed4935c894cbf4a388310797b29f653331707b867612556cb15",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": false,
+      "visual_inspection_note": "Display output was truncated; visual inspection not asserted. No generation call made."
+    },
+    {
+      "entity_id": "mickey_odst",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/mickey_odst_reference.jpg",
+      "expected_sha256": "e0bb3182b119fb36009f28bbee898248061eadfdef65c8b6f5d2174a8cdf6f63",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": false,
+      "visual_inspection_note": "Not visually re-inspected this wave after global quota stop. No generation call made."
+    },
+    {
+      "entity_id": "agryna_infinite",
+      "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/agryna_infinite_reference.jpg",
+      "expected_sha256": "887f1eaa995b818f0e9acb69217a9617d13d48703dd050b1e9615bbfeda1949d",
+      "sha256_matches_previous_wave": true,
+      "read_only_hash_check": true,
+      "visually_reinspected_wave7": false,
+      "visual_inspection_note": "Not visually re-inspected this wave after global quota stop. No generation call made."
+    }
+  ],
+  "constraints": {
+    "reference_pixels_modified": false,
+    "output_pixels_modified": false,
+    "source_wave6_modified": false,
+    "cli_or_api_fallback_used": false,
+    "outputs_fabricated": false
+  },
+  "frozen_utc": "2026-11-20T06:39:46.476Z"
+}

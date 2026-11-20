@@ -1,0 +1,925 @@
+{
+  "wave": 8,
+  "review_policy": "SHA-bound visual reviews and read-only PNG measurements; no 1:1 certification or animation.",
+  "input_reviews": [
+    {
+      "path": "work/wave8/qa_root.json",
+      "sha256": "f8f29cd900ea4662a87183f499673579c95974b32987295d560c4502e277009c",
+      "reviews": 0
+    },
+    {
+      "path": "work/wave8/qa_unsc.json",
+      "sha256": "c36038ebdf44b6d18bdf870650daa8951453f290868df3f28fb8055eb4bbfb89",
+      "reviews": 2
+    },
+    {
+      "path": "work/wave8/qa_aliens.json",
+      "sha256": "bececed017ef564a963812d118aaa0abb79f9f935d75d311cc53b1ecb5c9cb35",
+      "reviews": 2
+    },
+    {
+      "path": "work/wave8/independent_visual_review_root.json",
+      "sha256": "869efafa456bfade23d7e2eaddc40dc90a34dc8e5f2936dec78b81dce6031219",
+      "reviews": 4
+    }
+  ],
+  "reviews": [
+    {
+      "entity_id": "bassus_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-28f7f6b2-0c70-4cd0-9d6e-4e5d226625f7.png",
+      "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+      "reviewed_utc": "2026-11-20T08:32:05.269500+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Un seul Bassus entier, casque en éventail et pieds visibles ; un seul marteau complet tenu à deux mains. La tête vise la droite mais le torse reste proche de face, sans profil latéral strict.",
+        "Comparaison aux références Infinite : casque or/rouge à crête centrale, barbe grise à attaches rouges, armure dorée et cramoisie, épauliers, brassards et grandes jambes cohérents globalement.",
+        "La tête du marteau, ses modules lumineux et plusieurs microdétails sont reconstruits à partir de vues partielles ; ils ne sont pas certifiés identiques au modèle Infinite.",
+        "Les marges alpha >16 ne sont que de 4 px en haut et 12 px en bas, sans contact direct avec les bords à ce seuil ; le cadrage reste trop serré pour une marge de production homogène.",
+        "Le halo brun du preview correspond à des couleurs RGB cachées sous alpha 0 dans les points inspectés ; aucun fond opaque n’a été établi. La silhouette est conservée sans retouche.",
+        "Inspection root individuelle du PNG et des deux références Bassus : corps, pieds, casque et marteau entiers ; tête vers la droite, torse proche frontal.",
+        "Casque éventail rouge/or, barbe blanche, armure et parties visibles du marteau cohérents globalement ; géométrie fine du marteau et parties occultées non certifiées.",
+        "Le PNG est normalement lisible côté root. Des échantillons du halo brun apparent ont alpha0 : aucune présence de fond opaque établie par ces mesures.",
+        "Mesure indépendante en lecture seule : 1536 × 1024 px, RGBA, alpha [0, 254], 1046291 pixels entièrement transparents. Marges au seuil alpha >16 : {'left': 179, 'top': 4, 'right': 143, 'bottom': 12}. Contacts du cadre : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}."
+      ],
+      "required_followup": [
+        "Reprendre le cadrage avec marges homogènes et une pose plus latérale lors d’une future variante, sans miroir horizontal.",
+        "Comparer la géométrie de la tête du marteau, les prises des mains et les panneaux d’armure aux vues Infinite supplémentaires avant toute validation 1:1.",
+        "Vérifier contours alpha en composition et produire les animations/directions séparément.",
+        "Marges verticales4/12px très faibles.",
+        "Torse proche frontal ; ce n’est pas une vue de profil strict.",
+        "Le marteau complet est en partie reconstruit depuis références partiellement occultées ; microgéométrie à valider.",
+        "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+        "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+      ],
+      "preferred_for_scope": true,
+      "observed_facing": "mostly_front_head_right",
+      "image_metrics": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1046291,
+          "semitransparent_pixels": 526573,
+          "opaque_pixels": 0,
+          "near_opaque_pixels": 475226,
+          "alpha_nonzero_bbox": [
+            33,
+            0,
+            1508,
+            1024
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 0,
+            "right": 0,
+            "top": 13,
+            "bottom": 36
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 497957,
+          "foreground_bbox_above_threshold": [
+            179,
+            4,
+            1393,
+            1012
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 179,
+            "top": 4,
+            "right": 143,
+            "bottom": 12
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "contributing_reviews": [
+        {
+          "entity_id": "bassus_infinite",
+          "asset_id": "bassus_infinite_initial_right_v01",
+          "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-28f7f6b2-0c70-4cd0-9d6e-4e5d226625f7.png",
+          "repo_path": "assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+          "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+          "reviewed_utc": "2026-11-20T08:30:37.766908+00:00",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "mostly_front_head_right",
+          "notes": [
+            "Un seul Bassus entier, casque en éventail et pieds visibles ; un seul marteau complet tenu à deux mains. La tête vise la droite mais le torse reste proche de face, sans profil latéral strict.",
+            "Comparaison aux références Infinite : casque or/rouge à crête centrale, barbe grise à attaches rouges, armure dorée et cramoisie, épauliers, brassards et grandes jambes cohérents globalement.",
+            "La tête du marteau, ses modules lumineux et plusieurs microdétails sont reconstruits à partir de vues partielles ; ils ne sont pas certifiés identiques au modèle Infinite.",
+            "Les marges alpha >16 ne sont que de 4 px en haut et 12 px en bas, sans contact direct avec les bords à ce seuil ; le cadrage reste trop serré pour une marge de production homogène.",
+            "Le halo brun du preview correspond à des couleurs RGB cachées sous alpha 0 dans les points inspectés ; aucun fond opaque n’a été établi. La silhouette est conservée sans retouche."
+          ],
+          "required_followup": [
+            "Reprendre le cadrage avec marges homogènes et une pose plus latérale lors d’une future variante, sans miroir horizontal.",
+            "Comparer la géométrie de la tête du marteau, les prises des mains et les panneaux d’armure aux vues Infinite supplémentaires avant toute validation 1:1.",
+            "Vérifier contours alpha en composition et produire les animations/directions séparément."
+          ],
+          "preferred_for_scope": true,
+          "fidelity_status": "not_certified",
+          "animation_status": "not_animated",
+          "dimensions": {
+            "width": 1536,
+            "height": 1024
+          },
+          "mode": "RGBA",
+          "alpha_read_only": {
+            "width": 1536,
+            "height": 1024,
+            "mode": "RGBA",
+            "alpha_range": [
+              0,
+              254
+            ],
+            "alpha_bbox": [
+              179,
+              4,
+              1393,
+              1012
+            ],
+            "transparent_pixels": 1046291,
+            "semi_transparent_pixels": 526573,
+            "edge_contact_pixels_above_threshold": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0
+            },
+            "margins_left_top_right_bottom_px": [
+              179,
+              4,
+              143,
+              12
+            ],
+            "foreground_alpha_threshold": 16,
+            "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+            "source_bytes_preserved": true
+          },
+          "visual_inspection_method": "Observation du résultat generatedImage et comparaison aux deux références originales inspectées par view_image ; revue indépendante root confirmée sur le PNG conservé. Lecture seule de quelques pixels RGBA pour distinguer couleur cachée et fond opaque.",
+          "references": [
+            {
+              "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+              "sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+              "page_url": "https://www.halopedia.org/File:HINF-Bassus.jpg"
+            },
+            {
+              "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+              "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+              "page_url": "https://www.halopedia.org/File:HINF_BassusHammer.jpg"
+            }
+          ],
+          "review_source": "work/wave8/qa_aliens.json"
+        },
+        {
+          "entity_id": "bassus_infinite",
+          "asset_path": "assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+          "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+          "reference_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+          "reference_sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+          "reviewed_utc": "2026-11-20T08:32:05.269500+00:00",
+          "reviewer": "root",
+          "inspection_method": "individual_view_image_of_delivered_png_and_reference",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "mostly_front_head_right",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "alpha_bbox_above16": [
+            179,
+            4,
+            1393,
+            1012
+          ],
+          "notes": [
+            "Inspection root individuelle du PNG et des deux références Bassus : corps, pieds, casque et marteau entiers ; tête vers la droite, torse proche frontal.",
+            "Casque éventail rouge/or, barbe blanche, armure et parties visibles du marteau cohérents globalement ; géométrie fine du marteau et parties occultées non certifiées.",
+            "Le PNG est normalement lisible côté root. Des échantillons du halo brun apparent ont alpha0 : aucune présence de fond opaque établie par ces mesures."
+          ],
+          "required_followup": [
+            "Marges verticales4/12px très faibles.",
+            "Torse proche frontal ; ce n’est pas une vue de profil strict.",
+            "Le marteau complet est en partie reconstruit depuis références partiellement occultées ; microgéométrie à valider."
+          ],
+          "one_to_one_certified": false,
+          "animated": false,
+          "png_modified": false,
+          "additional_reference_checks": [
+            {
+              "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+              "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+              "inspected_individually": true
+            }
+          ],
+          "read_only_alpha_samples": [
+            {
+              "xy": [
+                400,
+                50
+              ],
+              "rgba": [
+                12,
+                7,
+                4,
+                0
+              ]
+            },
+            {
+              "xy": [
+                200,
+                300
+              ],
+              "rgba": [
+                8,
+                6,
+                6,
+                0
+              ]
+            },
+            {
+              "xy": [
+                100,
+                500
+              ],
+              "rgba": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "xy": [
+                500,
+                1010
+              ],
+              "rgba": [
+                10,
+                6,
+                3,
+                0
+              ]
+            },
+            {
+              "xy": [
+                750,
+                400
+              ],
+              "rgba": [
+                243,
+                192,
+                87,
+                253
+              ]
+            }
+          ],
+          "source_path": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+          "review_source": "work/wave8/independent_visual_review_root.json"
+        }
+      ],
+      "central_independent_visual_review": true
+    },
+    {
+      "entity_id": "locke_h5",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ba4b2220-157a-4874-9df8-04ddd72c363c.png",
+      "sha256": "ec65dd5fd06a829473d3f5ed2a3edbcc361c9b67ca0cd07ad84f691e7934b916",
+      "reviewed_utc": "2026-11-20T08:27:39.661407+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Aperçu renvoyé par imagegen inspecté individuellement : un Locke complet, casque fermé HUNTER à visière cyan, armure gris acier, deux bottes et fusil vert entièrement visibles.",
+        "Deux mains tiennent un seul fusil ; silhouette, pose et tête orientées vers la droite, mais torse encore en trois-quarts, pas un profil strict.",
+        "La référence officielle est frontale/trois-quarts ; volumes de côté, petits marquages et géométrie détaillée du fusil restent à comparer au modèle.",
+        "La marge au-dessus du casque est de18px et sous les bottes de36px sur1185px ; les6% demandés ne sont pas atteints.",
+        "Quelques franges colorées fines se voient sur les contours dans l’aperçu ; détourage de production à examiner.",
+        "Inspection individuelle root du PNG livré et du rendu officiel Halo 5 : corps, deux pieds, casque et fusil entiers ; pose vers la droite en trois-quarts.",
+        "Armure HUNTER gris sombre, visière cyan et fusil vert cohérents globalement avec la référence ; microgéométrie et détails occultés non certifiés.",
+        "L’image est normalement lisible dans view_image côté root. Le rendu presque noir observé par le producteur n’est pas reproduit ici ; aucun pixel n’a été modifié.",
+        "Mesure indépendante en lecture seule : 1327 × 1185 px, RGBA, alpha [0, 255], 1209141 pixels entièrement transparents. Marges au seuil alpha >16 : {'left': 212, 'top': 18, 'right': 275, 'bottom': 36}. Contacts du cadre : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}."
+      ],
+      "required_followup": [
+        "Comparer la géométrie latérale de l’armure et du fusil à des vues canoniques supplémentaires.",
+        "Produire un cadrage avec marges verticales plus homogènes et un profil plus strict avant animation.",
+        "Marges verticales serrées, inférieures à6% demandés.",
+        "Vue trois-quarts, pas un profil latéral strict.",
+        "Validation de production du contour alpha et des détails fins encore nécessaire.",
+        "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+        "Marges inférieures à 2 % du canevas ou à 8 px : top."
+      ],
+      "preferred_for_scope": true,
+      "observed_facing": "right_three_quarter",
+      "image_metrics": {
+        "width": 1327,
+        "height": 1185,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1209141,
+          "semitransparent_pixels": 362607,
+          "opaque_pixels": 747,
+          "near_opaque_pixels": 329338,
+          "alpha_nonzero_bbox": [
+            0,
+            16,
+            1289,
+            1185
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 1,
+            "right": 0,
+            "top": 0,
+            "bottom": 1
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 345817,
+          "foreground_bbox_above_threshold": [
+            212,
+            18,
+            1052,
+            1149
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 212,
+            "top": 18,
+            "right": 275,
+            "bottom": 36
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "contributing_reviews": [
+        {
+          "entity_id": "locke_h5",
+          "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ba4b2220-157a-4874-9df8-04ddd72c363c.png",
+          "repo_path": "assets/characters_wave8/locke_h5_initial_right_v01.png",
+          "sha256": "ec65dd5fd06a829473d3f5ed2a3edbcc361c9b67ca0cd07ad84f691e7934b916",
+          "reviewed_utc": "2026-11-20T08:20:36.532697+00:00",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "right_three_quarter",
+          "notes": [
+            "Aperçu renvoyé par imagegen inspecté individuellement : un Locke complet, casque fermé HUNTER à visière cyan, armure gris acier, deux bottes et fusil vert entièrement visibles.",
+            "Deux mains tiennent un seul fusil ; silhouette, pose et tête orientées vers la droite, mais torse encore en trois-quarts, pas un profil strict.",
+            "La référence officielle est frontale/trois-quarts ; volumes de côté, petits marquages et géométrie détaillée du fusil restent à comparer au modèle.",
+            "La marge au-dessus du casque est de18px et sous les bottes de36px sur1185px ; les6% demandés ne sont pas atteints.",
+            "Quelques franges colorées fines se voient sur les contours dans l’aperçu ; détourage de production à examiner."
+          ],
+          "required_followup": [
+            "Comparer la géométrie latérale de l’armure et du fusil à des vues canoniques supplémentaires.",
+            "Produire un cadrage avec marges verticales plus homogènes et un profil plus strict avant animation."
+          ],
+          "preferred_for_scope": true,
+          "dimensions": {
+            "width": 1327,
+            "height": 1185
+          },
+          "mode": "RGBA",
+          "fidelity_status": "not_certified",
+          "animation_status": "not_animated",
+          "visual_inspection_source": "imagegen_returned_preview",
+          "local_file_view_attempted": true,
+          "local_file_view_limitation": "view_image affiche presque noir pour copie et original ; pixels RGB non nuls et alpha253 sur des zones du corps vérifiés en lecture seule. Aucun pixel modifié.",
+          "technical_qa": {
+            "width": 1327,
+            "height": 1185,
+            "mode": "RGBA",
+            "alpha_range": [
+              0,
+              255
+            ],
+            "alpha_bbox_gt16": [
+              212,
+              18,
+              1052,
+              1149
+            ],
+            "transparent_fraction": 0.7689315387330325,
+            "copied_byte_for_byte": true
+          },
+          "read_only_display_diagnostic": {
+            "bands": [
+              "R",
+              "G",
+              "B",
+              "A"
+            ],
+            "embedded_metadata_keys": [],
+            "icc_profile_present": false,
+            "gamma": null,
+            "alpha_gt200_pixels": 339416,
+            "alpha_253_pixels": 263874,
+            "alpha_255_pixels": 747,
+            "alpha_zero_pixels": 1209141,
+            "rgba_mean_on_alpha_gt200": [
+              71.3774365380536,
+              73.19776910929362,
+              75.76018219530016,
+              252.4397671294223
+            ],
+            "rgba_extrema_on_alpha_gt200": [
+              [
+                0,
+                255
+              ],
+              [
+                0,
+                255
+              ],
+              [
+                0,
+                255
+              ],
+              [
+                201,
+                255
+              ]
+            ],
+            "measurement_only": true
+          },
+          "independent_corroboration": {
+            "reviewer": "root",
+            "local_png_display": "normal",
+            "canonical_reference_compared": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+            "reported_observation": "Root a vu le PNG local normalement et comparé le rendu officiel : HUNTER gris sombre, visière cyan, fusil vert, silhouette entière droite trois-quarts ; marges serrées confirmées.",
+            "original_tool_anomaly_reproduced": false
+          },
+          "review_source": "work/wave8/qa_unsc.json"
+        },
+        {
+          "entity_id": "locke_h5",
+          "asset_path": "assets/characters_wave8/locke_h5_initial_right_v01.png",
+          "sha256": "ec65dd5fd06a829473d3f5ed2a3edbcc361c9b67ca0cd07ad84f691e7934b916",
+          "reference_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+          "reference_sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+          "reviewed_utc": "2026-11-20T08:27:39.661407+00:00",
+          "reviewer": "root",
+          "inspection_method": "individual_view_image_of_delivered_png_and_reference",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "right_three_quarter",
+          "dimensions": [
+            1327,
+            1185
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_above16": [
+            212,
+            18,
+            1052,
+            1149
+          ],
+          "notes": [
+            "Inspection individuelle root du PNG livré et du rendu officiel Halo 5 : corps, deux pieds, casque et fusil entiers ; pose vers la droite en trois-quarts.",
+            "Armure HUNTER gris sombre, visière cyan et fusil vert cohérents globalement avec la référence ; microgéométrie et détails occultés non certifiés.",
+            "L’image est normalement lisible dans view_image côté root. Le rendu presque noir observé par le producteur n’est pas reproduit ici ; aucun pixel n’a été modifié."
+          ],
+          "required_followup": [
+            "Marges verticales serrées, inférieures à6% demandés.",
+            "Vue trois-quarts, pas un profil latéral strict.",
+            "Validation de production du contour alpha et des détails fins encore nécessaire."
+          ],
+          "one_to_one_certified": false,
+          "animated": false,
+          "png_modified": false,
+          "source_path": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/locke_h5_initial_right_v01.png",
+          "review_source": "work/wave8/independent_visual_review_root.json"
+        }
+      ],
+      "central_independent_visual_review": true
+    },
+    {
+      "entity_id": "mickey_odst",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/wave8_mickey_odst_returned_original.png",
+      "sha256": "8ded78a52c5db662362c34b1cf9bce1baeeb68c584746fdd7d0a6c0d21a4ed93",
+      "reviewed_utc": "2026-11-20T08:32:05.312283+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Aperçu imagegen et PNG local via view_image inspectés individuellement : Mickey ODST2009 entier, casque, deux bottes et SPNKr complet visibles.",
+        "Lampe à la tempe anatomique droite, bande crème de casque, bandes rouges d’épaule, sac rectangulaire et cylindres sur tibia droit concordent avec la référence.",
+        "Deux mains visibles sur le lanceur et proportions humaines ; pose dirigée vers la droite mais torse encore en trois-quarts.",
+        "Les microtextes du SPNKr sont partiellement déformés ; géométrie fine du double tube et surfaces occultées non certifiables depuis cette seule référence.",
+        "Marges alpha54px en haut et48px en bas sur1437px, inférieures aux6% demandés ; fines franges colorées de détourage visibles par endroits.",
+        "Inspection root individuelle du PNG et du rendu Bungie : personnage, deux pieds et SPNKr entiers ; orientation droite trois-quarts.",
+        "Lampe de casque et cylindres du tibia du côté anatomique droit, sac et marques rouges globalement cohérents avec la référence.",
+        "Image normalement lisible dans view_image côté root ; aucun pixel modifié.",
+        "Mesure indépendante en lecture seule : 1095 × 1437 px, RGBA, alpha [0, 255], 1055635 pixels entièrement transparents. Marges au seuil alpha >16 : {'left': 149, 'top': 54, 'right': 114, 'bottom': 48}. Contacts du cadre : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}."
+      ],
+      "required_followup": [
+        "Comparer les détails et marquages du SPNKr à des vues officielles supplémentaires.",
+        "Prévoir profil strict, marges verticales homogènes et contrôle des contours alpha avant animation.",
+        "Vue trois-quarts peu latérale.",
+        "Petits marquages du SPNKr approximatifs et détails occultés à valider.",
+        "Marges verticales54/48px inférieures aux6% demandés.",
+        "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+      ],
+      "preferred_for_scope": true,
+      "observed_facing": "right_three_quarter",
+      "image_metrics": {
+        "width": 1095,
+        "height": 1437,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1055635,
+          "semitransparent_pixels": 516805,
+          "opaque_pixels": 1075,
+          "near_opaque_pixels": 473836,
+          "alpha_nonzero_bbox": [
+            0,
+            20,
+            1075,
+            1421
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 12,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 494728,
+          "foreground_bbox_above_threshold": [
+            149,
+            54,
+            981,
+            1389
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 149,
+            "top": 54,
+            "right": 114,
+            "bottom": 48
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "contributing_reviews": [
+        {
+          "entity_id": "mickey_odst",
+          "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/wave8_mickey_odst_returned_original.png",
+          "repo_path": "assets/characters_wave8/mickey_odst_initial_right_v01.png",
+          "sha256": "8ded78a52c5db662362c34b1cf9bce1baeeb68c584746fdd7d0a6c0d21a4ed93",
+          "reviewed_utc": "2026-11-20T08:28:22.703106+00:00",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "right_three_quarter",
+          "notes": [
+            "Aperçu imagegen et PNG local via view_image inspectés individuellement : Mickey ODST2009 entier, casque, deux bottes et SPNKr complet visibles.",
+            "Lampe à la tempe anatomique droite, bande crème de casque, bandes rouges d’épaule, sac rectangulaire et cylindres sur tibia droit concordent avec la référence.",
+            "Deux mains visibles sur le lanceur et proportions humaines ; pose dirigée vers la droite mais torse encore en trois-quarts.",
+            "Les microtextes du SPNKr sont partiellement déformés ; géométrie fine du double tube et surfaces occultées non certifiables depuis cette seule référence.",
+            "Marges alpha54px en haut et48px en bas sur1437px, inférieures aux6% demandés ; fines franges colorées de détourage visibles par endroits."
+          ],
+          "required_followup": [
+            "Comparer les détails et marquages du SPNKr à des vues officielles supplémentaires.",
+            "Prévoir profil strict, marges verticales homogènes et contrôle des contours alpha avant animation."
+          ],
+          "preferred_for_scope": true,
+          "dimensions": {
+            "width": 1095,
+            "height": 1437
+          },
+          "mode": "RGBA",
+          "fidelity_status": "not_certified",
+          "animation_status": "not_animated",
+          "visual_inspection_source": "imagegen_returned_preview_and_local_view_image",
+          "local_file_view_attempted": true,
+          "local_file_view_limitation": null,
+          "technical_qa": {
+            "width": 1095,
+            "height": 1437,
+            "mode": "RGBA",
+            "alpha_range": [
+              0,
+              255
+            ],
+            "alpha_bbox_gt16": [
+              149,
+              54,
+              981,
+              1389
+            ],
+            "transparent_fraction": 0.670876985602298,
+            "copied_byte_for_byte": true,
+            "exact_returned_png_bytes": true
+          },
+          "review_source": "work/wave8/qa_unsc.json"
+        },
+        {
+          "entity_id": "mickey_odst",
+          "asset_path": "assets/characters_wave8/mickey_odst_initial_right_v01.png",
+          "sha256": "8ded78a52c5db662362c34b1cf9bce1baeeb68c584746fdd7d0a6c0d21a4ed93",
+          "reference_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/mickey_odst_reference.jpg",
+          "reference_sha256": "e0bb3182b119fb36009f28bbee898248061eadfdef65c8b6f5d2174a8cdf6f63",
+          "reviewed_utc": "2026-11-20T08:32:05.312283+00:00",
+          "reviewer": "root",
+          "inspection_method": "individual_view_image_of_delivered_png_and_reference",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "right_three_quarter",
+          "dimensions": [
+            1095,
+            1437
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_above16": [
+            149,
+            54,
+            981,
+            1389
+          ],
+          "notes": [
+            "Inspection root individuelle du PNG et du rendu Bungie : personnage, deux pieds et SPNKr entiers ; orientation droite trois-quarts.",
+            "Lampe de casque et cylindres du tibia du côté anatomique droit, sac et marques rouges globalement cohérents avec la référence.",
+            "Image normalement lisible dans view_image côté root ; aucun pixel modifié."
+          ],
+          "required_followup": [
+            "Vue trois-quarts peu latérale.",
+            "Petits marquages du SPNKr approximatifs et détails occultés à valider.",
+            "Marges verticales54/48px inférieures aux6% demandés."
+          ],
+          "one_to_one_certified": false,
+          "animated": false,
+          "png_modified": false,
+          "source_path": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/mickey_odst_initial_right_v01.png",
+          "review_source": "work/wave8/independent_visual_review_root.json"
+        }
+      ],
+      "central_independent_visual_review": true
+    },
+    {
+      "entity_id": "skirmisher_champion_reach",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4ff5a831-caae-4e7b-9c4b-e5b813f6dc78.png",
+      "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+      "reviewed_utc": "2026-11-20T08:27:39.709487+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Un seul Skirmisher entier : haut de crête, plumage, deux bras, deux jambes et trois griffes visibles par pied ; pose tournée vers la droite en trois-quarts.",
+        "Comparaison à la capture Reach : armure Champion or/ocre, haute crête, collerette sombre, grands épauliers et pistolet plasma compact conservés ; absence de bouclier rond et de boucliers de Murmillo.",
+        "La tête et les talons restent dans le cadre, mais les marges mesurées ne sont que de 12 px en haut et 14 px en bas ; la marge confortable demandée n’est pas atteinte.",
+        "La référence ne mesure que341×757px et coupe le haut de la crête : sommet, microgéométrie du pistolet, doigts et détails de plumes demeurent extrapolés. Quelques franges colorées du contour restent à vérifier sur les décors.",
+        "Inspection individuelle root du PNG livré et de la petite référence canonique : silhouette entière, crête et pieds visibles, orientation droite trois-quarts.",
+        "Armure or/ocre, plumage sombre, grande crête, protections de bras et pistolet correspondent globalement au Champion Reach.",
+        "Image normalement lisible dans view_image côté root ; aucun pixel n’a été modifié.",
+        "Mesure indépendante en lecture seule : 1165 × 1350 px, RGBA, alpha [0, 255], 1123077 pixels entièrement transparents. Marges au seuil alpha >16 : {'left': 107, 'top': 12, 'right': 151, 'bottom': 14}. Contacts du cadre : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}."
+      ],
+      "required_followup": [
+        "Comparer casque/crête, arme et organisation des doigts à des vues Reach supplémentaires avant toute certification1:1.",
+        "Produire une variante avec marges haut/bas plus homogènes et vue plus latérale si nécessaire ; ne pas modifier automatiquement les pixels ou retourner la silhouette.",
+        "Valider les contours alpha en situation et créer les animations/directions séparément.",
+        "Marges haut et bas très serrées.",
+        "Référence de faible définition : microdétails et parties occultées extrapolés, pas de certification1:1.",
+        "Vue trois-quarts, pas un profil latéral strict.",
+        "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+        "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+      ],
+      "preferred_for_scope": true,
+      "observed_facing": "right_three_quarter",
+      "image_metrics": {
+        "width": 1165,
+        "height": 1350,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "technical_qa": {
+          "inspection": "Pillow read-only; copied PNG bytes remain unchanged",
+          "has_alpha": true,
+          "transparent_pixels": 1123077,
+          "semitransparent_pixels": 449141,
+          "opaque_pixels": 532,
+          "near_opaque_pixels": 395517,
+          "alpha_nonzero_bbox": [
+            0,
+            8,
+            1165,
+            1350
+          ],
+          "edge_contact_pixels_alpha_nonzero": {
+            "left": 1,
+            "right": 1,
+            "top": 0,
+            "bottom": 12
+          },
+          "foreground_alpha_threshold": 16,
+          "foreground_pixels_above_threshold": 423424,
+          "foreground_bbox_above_threshold": [
+            107,
+            12,
+            1014,
+            1336
+          ],
+          "canvas_margins_px_above_threshold": {
+            "left": 107,
+            "top": 12,
+            "right": 151,
+            "bottom": 14
+          },
+          "edge_contact_pixels_above_threshold": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "edge_contact_pixels_alpha_at_least_250": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "warnings": [
+            "Quelques pixels de faible alpha (1 à 16) atteignent le bord ; contrôler le bruit de détourage en composition.",
+            "Marges inférieures à 2 % du canevas ou à 8 px : top, bottom."
+          ],
+          "anatomy_and_canon": "requires_visual_reference_comparison"
+        }
+      },
+      "contributing_reviews": [
+        {
+          "entity_id": "skirmisher_champion_reach",
+          "asset_id": "skirmisher_champion_reach_initial_right_v01",
+          "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4ff5a831-caae-4e7b-9c4b-e5b813f6dc78.png",
+          "repo_path": "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+          "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+          "reviewed_utc": "2026-11-20T08:22:32.974087+00:00",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "right_three_quarter",
+          "notes": [
+            "Un seul Skirmisher entier : haut de crête, plumage, deux bras, deux jambes et trois griffes visibles par pied ; pose tournée vers la droite en trois-quarts.",
+            "Comparaison à la capture Reach : armure Champion or/ocre, haute crête, collerette sombre, grands épauliers et pistolet plasma compact conservés ; absence de bouclier rond et de boucliers de Murmillo.",
+            "La tête et les talons restent dans le cadre, mais les marges mesurées ne sont que de 12 px en haut et 14 px en bas ; la marge confortable demandée n’est pas atteinte.",
+            "La référence ne mesure que341×757px et coupe le haut de la crête : sommet, microgéométrie du pistolet, doigts et détails de plumes demeurent extrapolés. Quelques franges colorées du contour restent à vérifier sur les décors."
+          ],
+          "required_followup": [
+            "Comparer casque/crête, arme et organisation des doigts à des vues Reach supplémentaires avant toute certification1:1.",
+            "Produire une variante avec marges haut/bas plus homogènes et vue plus latérale si nécessaire ; ne pas modifier automatiquement les pixels ou retourner la silhouette.",
+            "Valider les contours alpha en situation et créer les animations/directions séparément."
+          ],
+          "preferred_for_scope": true,
+          "fidelity_status": "not_certified",
+          "animation_status": "not_animated",
+          "dimensions": {
+            "width": 1165,
+            "height": 1350
+          },
+          "mode": "RGBA",
+          "alpha_read_only": {
+            "width": 1165,
+            "height": 1350,
+            "mode": "RGBA",
+            "alpha_range": [
+              0,
+              255
+            ],
+            "alpha_bbox": [
+              107,
+              12,
+              1014,
+              1336
+            ],
+            "transparent_pixels": 1123077,
+            "semi_transparent_pixels": 449141,
+            "edge_contact_pixels_above_threshold": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0
+            },
+            "margins_left_top_right_bottom_px": [
+              107,
+              12,
+              151,
+              14
+            ],
+            "foreground_alpha_threshold": 16,
+            "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+            "source_bytes_preserved": true
+          },
+          "visual_inspection_method": "Image observée individuellement dans le résultat generatedImage, comparée à la référence originale inspectée via view_image ; aucune retouche des pixels.",
+          "references": [
+            {
+              "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+              "sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+              "page_url": "https://www.halopedia.org/File:HR_Skirmisher_Champion.png"
+            }
+          ],
+          "review_source": "work/wave8/qa_aliens.json"
+        },
+        {
+          "entity_id": "skirmisher_champion_reach",
+          "asset_path": "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+          "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+          "reference_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "reference_sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "reviewed_utc": "2026-11-20T08:27:39.709487+00:00",
+          "reviewer": "root",
+          "inspection_method": "individual_view_image_of_delivered_png_and_reference",
+          "verdict": "candidate_with_reservations",
+          "observed_facing": "right_three_quarter",
+          "dimensions": [
+            1165,
+            1350
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_above16": [
+            107,
+            12,
+            1014,
+            1336
+          ],
+          "notes": [
+            "Inspection individuelle root du PNG livré et de la petite référence canonique : silhouette entière, crête et pieds visibles, orientation droite trois-quarts.",
+            "Armure or/ocre, plumage sombre, grande crête, protections de bras et pistolet correspondent globalement au Champion Reach.",
+            "Image normalement lisible dans view_image côté root ; aucun pixel n’a été modifié."
+          ],
+          "required_followup": [
+            "Marges haut et bas très serrées.",
+            "Référence de faible définition : microdétails et parties occultées extrapolés, pas de certification1:1.",
+            "Vue trois-quarts, pas un profil latéral strict."
+          ],
+          "one_to_one_certified": false,
+          "animated": false,
+          "png_modified": false,
+          "source_path": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+          "review_source": "work/wave8/independent_visual_review_root.json"
+        }
+      ],
+      "central_independent_visual_review": true
+    }
+  ],
+  "merged_utc": "2026-11-20T08:32:38+00:00"
+}

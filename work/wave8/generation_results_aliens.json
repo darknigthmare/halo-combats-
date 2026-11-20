@@ -1,0 +1,577 @@
+{
+  "wave": 8,
+  "scope": "Seven missing alien extension identities; exact prepared prompts and references.",
+  "results": [
+    {
+      "entity_id": "ntho_h3",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "h3_plasma_rifle_ready",
+      "equipment_state": "Halo 3 plasma rifle held in right hand; Halo 3 Covenant carbine stowed vertically on back as in supplied capture.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: N'tho 'Sraom specifically as he appears in Halo 3 (2007). Preserve the source's blue Combat harness: elongated narrow swept-back helmet, deep cobalt blue segmented chest, green luminous chest slits, paired tall shoulder plates, blue shin and thigh armor, dark gray exposed alien skin and flexible black joints. Maintain Halo 3 Elite anatomy: forward jutting narrow head, four separated mandibles, digitigrade legs, split feet and correct distinctive hand shape. Keep exactly the same Halo 3 plasma rifle as the reference held in his right hand, with blue-purple hooked paired chassis and cyan vents. His left hand forms an open ready guard. Retain the separate Halo 3 Covenant carbine stowed on the back with only the parts naturally visible from this angle, matching reference: do not combine its shape with the plasma rifle. No sword, Spartan armor or later Halo 4 anatomical redesign. Calm focused duel stance looking right, upper body only slightly leaning forward. Do not replicate the original running pose.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3-N%27tho_%27Sraom.png",
+          "image_url": "https://www.halopedia.org/images/6/60/Halo3-N%27tho_%27Sraom.png?c440f",
+          "primary_url": null,
+          "provenance": "Détourage d’une capture du modèle Halo 3 réhébergé par Halopedia ; version haute définition mise en ligne par Shazamikaze.",
+          "sha256": "78868856f47f0a19cd174aabc72e6d2cf6a0b67f6431c34564fab2e39603c146",
+          "dimensions": {
+            "width": 1960,
+            "height": 2740
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_inspection.png",
+          "inspection_sha256": "9d62ddba05bdb55950e5be105e889f9cdf664da30ad889351e8632626e06a4f0",
+          "image_modified_locally": false,
+          "limits": "Vue de course en trois-quarts ; dos et prise exacte du fusil masqués en partie. L’inspection a utilisé la miniature du même fichier fournie par le site.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png",
+            "sha256": "78868856f47f0a19cd174aabc72e6d2cf6a0b67f6431c34564fab2e39603c146",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:17:00.771Z",
+      "status": "generation_failed",
+      "completed_utc": "2026-11-20T08:18:04.014Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6ef9e4da-755d-4811-a160-ee250a360e91.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "generated_output_count": 0
+    },
+    {
+      "entity_id": "usze_h3",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "h3_assault_harness_plasma_rifle",
+      "equipment_state": "One Halo 3 plasma rifle in right hand matching full-body source; no carbine in this selected pose.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: Usze 'Taham in the Halo 3 (2007) Assault harness, the burgundy/maroon Elite shown in the full-body source. Preserve the distinctive smooth rounded wine-red helmet dome, dark gray/silver cheek and mandible armor, exposed amber eyes, cyan tiny side vents, burgundy chest with two green light strips, rectangular broad burgundy pauldrons with pale Sangheili markings, maroon bracers, long maroon thighs, maroon shin plates and large split alien feet. No tall fin or long pointed Combat helmet: that belongs to a different armor. Keep the slim tall Halo 3 Elite anatomy and articulated four-mandible mouth under its protecting cheek plates. The full-body source's exact blue-purple Halo 3 plasma rifle is held in the right hand in a low forward ready guard. The second source is only for colors, face and chest detail; do NOT bring in its different rifle. Left hand guards the torso with clearly separated species-correct digits. No sword, extra backpack weapon or shields. Repose to the right in a planted duel stance, retaining all armor components.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:H3-Usze_Taham_Portrait.png",
+          "image_url": "https://www.halopedia.org/images/9/97/H3-Usze_Taham_Portrait.png?ff5cd",
+          "primary_url": null,
+          "provenance": "Capture du modèle entier de Usze dans Halo 3, réhébergée par Halopedia.",
+          "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "dimensions": {
+            "width": 660,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "inspection_sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "image_modified_locally": false,
+          "limits": "Détourage conservant des morceaux de décor ; ne pas reprendre le fond. Orientation trois-quarts.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+            "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+            "inspected": true,
+            "image_modified": false
+          }
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:UszeTaham_-_Profile.png",
+          "image_url": "https://www.halopedia.org/images/e/e7/UszeTaham_-_Profile.png?fce87",
+          "primary_url": null,
+          "provenance": "Capture Halo 3 rapprochée de Usze portant une carabine, réhébergée par Halopedia.",
+          "sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "dimensions": {
+            "width": 420,
+            "height": 640
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "inspection_sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "image_modified_locally": false,
+          "limits": "Utilisée seulement pour casque et couleurs ; cette arme alternative n’est pas mélangée avec le fusil à plasma de la pose choisie.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+            "sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:17:00.771Z",
+      "status": "generation_failed",
+      "completed_utc": "2026-11-20T08:18:58.382Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0a146f5d-9025-463d-aa2a-93d021593bbc.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "generated_output_count": 0
+    },
+    {
+      "entity_id": "let_volir_hw2",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "hw2_cinematic_unarmed_guard",
+      "equipment_state": "Unarmed ready guard; exact HW2 Blur cinematic armor, no invented carried weapon.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: Shipmaster Let 'Volir, exact Halo Wars 2 Blur cinematic model in the supplied David Munoz Velazquez armor render. Preserve the very tall triangular red-and-silver helmet fin, rounded bright silver brow plate with tiny rivets, dark open lower face with four mandibles, elongated Sangheili neck, broad segmented silver-and-red circular neck/collar assembly, deep scarlet painted chest and shoulders with silver edging, black abdominal plates and black flexible body suit, pointed silver forearm guards, dark thigh armor, long silver/dark shin armor and large split alien feet. Keep the unusually long elegant silhouette from the source and its precise armor panel shapes; do not borrow Ripa's ornate Arbiter armor or generic gold Elite armor. The source is an unarmed model: use an unarmed martial ready guard, hands separated at mid-torso height with species-correct digits, no additional sword, rifle, holster or insignia. Helmet fin, hands and feet entirely within frame.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_LetVolir_Render_1.jpg",
+          "image_url": "https://www.halopedia.org/images/2/28/HW2_LetVolir_Render_1.jpg?8ab29",
+          "primary_url": "https://www.artstation.com/artwork/2G2qY",
+          "provenance": "Rendu de production Blur ; armure modélisée/texturée par David Munoz Velazquez, modèle de peau Sangheili crédité à Mathieu Aerni. Réhébergement attribué Halopedia.",
+          "sha256": "6020607a90a87d903289ba27e50dceadc8d1355eb0f8b9f9714e18baa5f0f0bb",
+          "dimensions": {
+            "width": 1832,
+            "height": 2000
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_inspection.jpg",
+          "inspection_sha256": "b9e80fb69d0a7cf03f6ef197db43ad2e10b7ff09a196839fa253d231b7a4753b",
+          "image_modified_locally": false,
+          "limits": "Modèle cinématique sans arme ; les armes d’une future pose devront recevoir leurs propres références. Vue frontale trois-quarts, détails cachés non certifiés.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg",
+            "sha256": "6020607a90a87d903289ba27e50dceadc8d1355eb0f8b9f9714e18baa5f0f0bb",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:19:22.470Z",
+      "status": "generation_failed",
+      "completed_utc": "2026-11-20T08:20:24.314Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b4bea7cf-3485-4300-852f-439fc34cb539.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "generated_output_count": 0
+    },
+    {
+      "entity_id": "skirmisher_champion_reach",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "reach_champion_plasma_pistol",
+      "equipment_state": "Compact Reach plasma pistol held at ready; gold Champion armor; no wrist energy shields or active hologram.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: ONE ANONYMOUS T'vaoan Skirmisher CHAMPION class representative from Halo: Reach (2010), exactly the original gold-armored model in the supplied game capture. Retain a lean tall birdlike alien silhouette with digitigrade bent legs, three forward talons per foot, long forearms, black and dark-gray feather/quill ruff behind the head, a very tall narrow gold-and-gray helmet crest and pointed golden brow, beak-shaped lower face and yellow eyes. His specific Champion armor is worn ochre/gold, broad rounded high shoulder plates, small dark chest and abdomen sections framed in gold, long gold-tipped forearm armor with tiny cyan nodes, gold knee caps and angular gold/gray shin guards. Keep every feather and the COMPLETE top of the helmet crest inside a generous transparent margin; the source is tight-cropped, but your image is not. Hold the same compact purple-blue Reach plasma pistol from the source in a two-handed low guard aiming right, with empty fingers wrapping only their actual grip. No extra gun, no glowing forearm shields: this is Champion, not Murmillo or Infinite Skirmisher. No Jackal round shield, no tail, no wings, no humanoid feet. Maintain his actual feathered Reach species rather than the smoother Halo 3 Jackal. Full head-to-talons.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HR_Skirmisher_Champion.png",
+          "image_url": "https://www.halopedia.org/images/d/d4/HR_Skirmisher_Champion.png?c073d",
+          "primary_url": null,
+          "provenance": "Capture du modèle Champion de Halo: Reach, réhébergée par Halopedia.",
+          "sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "dimensions": {
+            "width": 341,
+            "height": 757
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "inspection_sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "image_modified_locally": false,
+          "limits": "Source étroite 341 × 757 px ; sommet de crête et microdétails de l’arme incomplets. Pas de bouclier de Murmillo à ajouter.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+            "sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:19:22.470Z",
+      "status": "generated_candidate",
+      "completed_utc": "2026-11-20T08:21:15.636Z",
+      "output_hint": "Generated images are saved to /workspace/scratch/9d31c69eef8e/generated_images as /workspace/scratch/9d31c69eef8e/generated_images/exec-4ff5a831-caae-4e7b-9c4b-e5b813f6dc78.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4ff5a831-caae-4e7b-9c4b-e5b813f6dc78.png",
+      "generated_output_count": 1,
+      "asset_id": "skirmisher_champion_reach_initial_right_v01",
+      "repo_path": "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+      "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+      "technical_qa": {
+        "width": 1165,
+        "height": 1350,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "alpha_bbox": [
+          107,
+          12,
+          1014,
+          1336
+        ],
+        "transparent_pixels": 1123077,
+        "semi_transparent_pixels": 449141,
+        "edge_contact_pixels_above_threshold": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "margins_left_top_right_bottom_px": [
+          107,
+          12,
+          151,
+          14
+        ],
+        "foreground_alpha_threshold": 16,
+        "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+        "source_bytes_preserved": true
+      }
+    },
+    {
+      "entity_id": "grunt_heavy_reach",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "reach_heavy_fuel_rod_ready",
+      "equipment_state": "Reach fuel rod gun, enclosed green Heavy breather helmet and methane backpack as in official Reach E3 2010 press render.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: ONE ANONYMOUS Unggoy GRUNT HEAVY specialized class from Halo: Reach (2010), specifically the official Bungie E3 2010 press render supplied. Retain his short stout body, disproportionately long muscular scaly arms, short thick legs, dark mottled bare skin and broad clawed alien feet. His distinctive Heavy armor is worn dull olive-green metal: an enclosed large angular helmet/breather with two very large round upper recessed optical/filter modules, smaller circular lower side units with cyan rings, the central circular lower respirator, broad green chest armor, and rounded angular methane tank on his back. Reproduce exactly the source's large gold/yellow fuel rod gun: asymmetric long slotted golden shell, dark muzzle and lower grip, green rod capsules and thin green lines, fully visible and held securely in the right hand as in the original. The free hand forms a low open guard without touching the barrel. Use a stable squat ready stance facing screen right. Keep the helmet, dorsal tank, weapon, knuckles and feet fully in-frame. No small bare-face standard Grunt mask, no pyramidal Halo CE methane tank, no added backpack cannon, no human fingers. Resolve the original green armor and yellow weapon with high quality materials while retaining their actual original design.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HReach_-_Heavy_Unggoy.png",
+          "image_url": "https://www.halopedia.org/images/4/42/HReach_-_Heavy_Unggoy.png?eed48",
+          "primary_url": "https://web.archive.org/web/20110905043313/http://www.bungie.net/projects/reach/images.aspx?c=53&page=0",
+          "provenance": "Rendu officiel Bungie du dossier de presse Reach E3 2010, réhébergé par Halopedia et relié à l’archive Bungie.",
+          "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "dimensions": {
+            "width": 920,
+            "height": 980
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "inspection_sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "image_modified_locally": false,
+          "limits": "Vue trois-quarts, pack arrière partiellement masqué ; mains et prise du canon à vérifier dans toute nouvelle pose.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+            "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:22:55.141Z",
+      "status": "generation_failed",
+      "completed_utc": "2026-11-20T08:24:34.279Z",
+      "error": "unable to read referenced image at `/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png`: exec-server transport closed",
+      "error_class": "reference_transport_closed",
+      "http_status": null,
+      "generated_output_count": 0
+    },
+    {
+      "entity_id": "pavium_hw2",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "hw2_cinematic_unarmed_ready",
+      "equipment_state": "Unarmed guard in HW2 cinematic armor; no carried mortar or shield in this deliberately selected initial asset.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_reference.jpg",
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: Pavium from Halo Wars 2: Awakening the Nightmare. Use the full-body front/back professional asset render by Frankie DeRosa as the primary authority for the exact cinematic armor and legs. The official cropped Pavium promotional render is supplemental for the matching head and chest only. Output one coherent Pavium, not a turnaround. Preserve his heavy broad Brute anatomy, exposed gray-brown muzzle and heavy jaw, low broad flat red-gray brow helmet with a short lateral cap extending over either side, huge layered red-black shoulder plates, large red-edged dark angular central chest plate with tiny red indicator lights, dark segmented armored waist, heavily armored thighs and shins, and massive split armored feet. Preserve asymmetric arm details from the source: his right forearm/hand has the more fully enclosed articulated armor; his left forearm has bladed dark guard plates above the exposed Brute hand. Match the original scarred industrial steel and subdued dark red paint. This selected asset is an UNARMED guard matching the equipment-free full-body model: two empty hands separated in front of his torso, no invented rifle, mortar, cannon or shield. The source's rear machinery should remain physically on his back, not converted into an extra arm. Mildly crouched grounded stance facing right. Entire helmet cap, shoulder plates, fingers and feet inside transparent margins.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_-_Pavium_3D_model.jpg",
+          "image_url": "https://www.halopedia.org/images/7/77/HW2_-_Pavium_3D_model.jpg?b9bc2",
+          "primary_url": "https://www.artstation.com/artwork/owVBw",
+          "provenance": "Rendu de production cinématique par Frankie DeRosa, avec vues avant et arrière, réhébergé et attribué par Halopedia.",
+          "sha256": "bf0df4ee525edbabea633fe809d08445a4a88ad6188a211bed5ef9a9aef859f1",
+          "dimensions": {
+            "width": 1920,
+            "height": 1289
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_inspection.jpg",
+          "inspection_sha256": "822f429a9d8c04c390c87dbf93660c90c21f0822fd817bcde704957fd41740eb",
+          "image_modified_locally": false,
+          "limits": "La planche contient deux vues du même personnage ; n’en produire qu’un. Aucun mortier tenu dans ce modèle.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_reference.jpg",
+            "sha256": "bf0df4ee525edbabea633fe809d08445a4a88ad6188a211bed5ef9a9aef859f1",
+            "inspected": true,
+            "image_modified": false
+          }
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HW2-Pavium.png",
+          "image_url": "https://www.halopedia.org/images/e/ec/HW2-Pavium.png?d9cad",
+          "primary_url": "https://web.archive.org/web/20210928094850/https://www.halowaypoint.com/en-us/news/the-nightmare-has-awoken",
+          "provenance": "Rendu promotionnel officiel Awakening the Nightmare, archive Halo Waypoint, utilisé seulement en complément du visage et du torse.",
+          "sha256": "14303a22dbd39f6dc3e5c6efce10ec942a23ba0e0cfc90c1f4279685cb8f4412",
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_inspection.png",
+          "inspection_sha256": "cf1381143b8d0e3d84d7a898f4cc6f26042d0ee0f36b742d368247255448d742",
+          "image_modified_locally": false,
+          "limits": "Rendu tronqué sous les cuisses ; les jambes viennent exclusivement du modèle cinématique entier.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_reference.png",
+            "sha256": "14303a22dbd39f6dc3e5c6efce10ec942a23ba0e0cfc90c1f4279685cb8f4412",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:22:55.141Z",
+      "status": "generation_failed",
+      "completed_utc": "2026-11-20T08:24:09.606Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0c7d083b-5ed0-4216-b416-aef82c654e39.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "generated_output_count": 0
+    },
+    {
+      "entity_id": "bassus_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "infinite_gravity_hammer_ready",
+      "equipment_state": "One Halo Infinite gravity hammer held with two hands; gold/crimson Captain armor and broad fan helmet as in Tom Wholley render and game capture.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: Bassus exactly as he appears in Halo Infinite (2021), based on Tom Wholley's full-body character render and the gameplay close-up of his hammer. Preserve the enormous broad Brute body; exposed gray-brown face, snout and short white-gray chin beard; unusually broad fan-shaped GOLD and CRIMSON helmet with a vertical central sharp fin; gold angular breastplate with red cheek-shaped side panels; black ribbed flexible under-armor; large gold/red shoulders; gold/red bladed forearm guards; utility belt; dark segmented thighs, gold/red shin armor and massive Brute toes. His helmet is a broad fan, NOT Tovarus's narrow two-pronged helmet or Hyperius's close skullcap. Match the exact gold-red panel placements and glyph-like marks from these sources. Hold ONE Halo Infinite gravity hammer with BOTH hands, its whole long black wrapped shaft, butt and massive silver/dark hammer head visible, at a low diagonal guard facing right. Use the gameplay close-up to preserve the head's ribbed armored framework and blue energy nodes: no extra blades, no axe conversion, no copied Voridus maul. No attack sparks, impact scene, victims or roaring scream. Neutral focused ready pose with mouth mostly closed, full helmet tips and complete hammer shaft inside a wide transparent margin.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF-Bassus.jpg",
+          "image_url": "https://www.halopedia.org/images/a/a1/HINF-Bassus.jpg?0f394",
+          "primary_url": "https://www.artstation.com/artwork/klwKRy",
+          "provenance": "Rendu entier de Bassus par Tom Wholley, réhébergé et attribué par Halopedia.",
+          "sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+          "dimensions": {
+            "width": 2480,
+            "height": 2563
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_inspection.jpg",
+          "inspection_sha256": "cfaecc1b571e5ed584365037d62fbbf98d46f838107a39a910c170264d062397",
+          "image_modified_locally": false,
+          "limits": "Marteau tenu en raccourci et éclairage promotionnel ; détails masqués non certifiés.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+            "sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+            "inspected": true,
+            "image_modified": false
+          }
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_BassusHammer.jpg",
+          "image_url": "https://www.halopedia.org/images/4/42/HINF_BassusHammer.jpg?24173",
+          "primary_url": "https://twitter.com/NakaiCanon",
+          "provenance": "Capture de Bassus et de son marteau dans Halo Infinite, attribuée à Nakai / Covenant Canon par Halopedia.",
+          "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_inspection.jpg",
+          "inspection_sha256": "e01826e3084fb18d36680c5f50d5b05a44188dcc81a00240a49618572f7ae76c",
+          "image_modified_locally": false,
+          "limits": "Gros plan avec tête du marteau et extrémité de manche en partie coupées ; complète la structure visible sans fournir un plan orthographique.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+            "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_previous_request_same_prompt",
+      "started_utc": "2026-11-20T08:25:54.081Z",
+      "status": "generated_candidate",
+      "completed_utc": "2026-11-20T08:26:45.373Z",
+      "output_hint": "Generated images are saved to /workspace/scratch/9d31c69eef8e/generated_images as /workspace/scratch/9d31c69eef8e/generated_images/exec-28f7f6b2-0c70-4cd0-9d6e-4e5d226625f7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-28f7f6b2-0c70-4cd0-9d6e-4e5d226625f7.png",
+      "generated_output_count": 1,
+      "asset_id": "bassus_infinite_initial_right_v01",
+      "repo_path": "assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+      "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+      "technical_qa": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "alpha_bbox": [
+          179,
+          4,
+          1393,
+          1012
+        ],
+        "transparent_pixels": 1046291,
+        "semi_transparent_pixels": 526573,
+        "edge_contact_pixels_above_threshold": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "margins_left_top_right_bottom_px": [
+          179,
+          4,
+          143,
+          12
+        ],
+        "foreground_alpha_threshold": 16,
+        "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+        "source_bytes_preserved": true
+      }
+    },
+    {
+      "entity_id": "grunt_heavy_reach",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": "reach_heavy_fuel_rod_ready",
+      "equipment_state": "Reach fuel rod gun, enclosed green Heavy breather helmet and methane backpack as in official Reach E3 2010 press render.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: ONE ANONYMOUS Unggoy GRUNT HEAVY specialized class from Halo: Reach (2010), specifically the official Bungie E3 2010 press render supplied. Retain his short stout body, disproportionately long muscular scaly arms, short thick legs, dark mottled bare skin and broad clawed alien feet. His distinctive Heavy armor is worn dull olive-green metal: an enclosed large angular helmet/breather with two very large round upper recessed optical/filter modules, smaller circular lower side units with cyan rings, the central circular lower respirator, broad green chest armor, and rounded angular methane tank on his back. Reproduce exactly the source's large gold/yellow fuel rod gun: asymmetric long slotted golden shell, dark muzzle and lower grip, green rod capsules and thin green lines, fully visible and held securely in the right hand as in the original. The free hand forms a low open guard without touching the barrel. Use a stable squat ready stance facing screen right. Keep the helmet, dorsal tank, weapon, knuckles and feet fully in-frame. No small bare-face standard Grunt mask, no pyramidal Halo CE methane tank, no added backpack cannon, no human fingers. Resolve the original green armor and yellow weapon with high quality materials while retaining their actual original design.",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HReach_-_Heavy_Unggoy.png",
+          "image_url": "https://www.halopedia.org/images/4/42/HReach_-_Heavy_Unggoy.png?eed48",
+          "primary_url": "https://web.archive.org/web/20110905043313/http://www.bungie.net/projects/reach/images.aspx?c=53&page=0",
+          "provenance": "Rendu officiel Bungie du dossier de presse Reach E3 2010, réhébergé par Halopedia et relié à l’archive Bungie.",
+          "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "dimensions": {
+            "width": 920,
+            "height": 980
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "inspection_sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "image_modified_locally": false,
+          "limits": "Vue trois-quarts, pack arrière partiellement masqué ; mains et prise du canon à vérifier dans toute nouvelle pose.",
+          "v8_inspection": {
+            "method": "view_image_original_file",
+            "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+            "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+            "inspected": true,
+            "image_modified": false
+          }
+        }
+      ],
+      "source_journal": "work/wave7/generation_results_aliens.json",
+      "source_journal_sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "tool_called": true,
+      "attempt_kind": "retry_same_request_after_reference_transport_failure",
+      "retry_of_journal_record": 4,
+      "retry_reason": "First image_gen invocation failed while reading the reference: exec-server transport closed. Same prompt and reference, SHA rechecked after environment restored.",
+      "started_utc": "2026-11-20T08:28:24.997Z",
+      "status": "generation_failed",
+      "completed_utc": "2026-11-20T08:29:26.824Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID aff83414-bbcd-478f-aa22-f3b33170241f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "generated_output_count": 0
+    }
+  ],
+  "deferred_requests": [],
+  "summary": {
+    "unique_requested_entities": 7,
+    "actual_tool_calls": 8,
+    "generated_pngs": 2,
+    "moderation_refusals": 5,
+    "reference_transport_failures": 1,
+    "quota_failures": 0,
+    "deferred_without_call": 0
+  },
+  "completed_utc": "2026-11-20T08:30:37.766935+00:00",
+  "stop_reason": "All seven identities attempted; one identical Grunt retry followed an internal reference-transport failure. No retries after safety refusals."
+}

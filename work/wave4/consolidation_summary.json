@@ -1,0 +1,384 @@
+{
+  "updated_utc": "2026-11-19T20:38:47+00:00",
+  "generation_wave": 4,
+  "journal_sha256": "cba92f798809d5d90eb97cf52416e5475baed525f6dcc990dc29657becb4f650",
+  "roster_count": 24,
+  "roster_unique_ids": 24,
+  "missing_before_this_run": [
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "chak_lok"
+  ],
+  "missing_before_wave4": [
+    "chief_infinite",
+    "johnson_h3",
+    "emile_reach",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "carter_reach",
+    "tartarus_h2",
+    "escharum_infinite",
+    "jega_infinite",
+    "chak_lok",
+    "douglas_hw2"
+  ],
+  "new_candidate_assets_this_run": 6,
+  "new_candidate_entities_this_run": [
+    "carter_reach",
+    "chak_lok",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite"
+  ],
+  "fighter_entities_with_candidates": 24,
+  "fighter_candidate_asset_count": 27,
+  "fighter_entities_without_candidates": [],
+  "wave4_candidate_asset_count": 15,
+  "wave4_candidate_entities": [
+    "carter_reach",
+    "chak_lok",
+    "chief_infinite",
+    "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "johnson_h3",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "tartarus_h2"
+  ],
+  "wave4_neutral_unarmed_asset_count": 15,
+  "generation_attempt_count": 29,
+  "unique_fighters_requested": [
+    "carter_reach",
+    "chak_lok",
+    "chief_infinite",
+    "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "johnson_h3",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "tartarus_h2"
+  ],
+  "successful_generation_attempts": 15,
+  "failed_attempts_in_journal": [
+    {
+      "entity_id": "chief_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5669520b-0815-49a9-887f-b60737ef32c5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "A single full-body character reference illustration of Master Chief John-117 in his Halo Infinite campaign Mark VI GEN3 armor. Faithfully reproduce the familiar olive-green armor, gold opaque visor, helmet, chest plates with small 117 marking, armored limbs, black undersuit and stowed Grappleshot on his anatomical left forearm. Calm neutral standing pose, facing screen right in a mostly lateral view, both hands empty and relaxed beside the body, both boots fully visible. No weapon and no action. Detailed realistic game-character rendering with even studio lighting. The entire figure fits comfortably within broad transparent margins. Genuine transparent background, clean cutout, no floor or cast shadow, no scene, no lettering outside the authentic small armor marking, one figure only.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 0,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "johnson_h3",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 51a080d2-9ffa-4aaf-9f1a-c1a4b778b467.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create one full-body neutral character reference illustration of Sergeant Major Avery Johnson in the original Halo 3. Preserve his recognizable mature Black face, short mustache and familiar olive patrol cap. Reproduce the original Marine uniform: olive and gray chest armor over military fatigues, utility belt and pouches, rugged combat boots and normal human proportions. His expression is calm and composed. He wears Marine equipment, not Spartan armor. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 1,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d54a44e4-b1c3-4066-ab0c-090bc81b120e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create one full-body neutral character reference illustration of Emile-A239, Noble Four, in the original Halo Reach. His charcoal-gray Mark V[B] armor has restrained red accents, a black undersuit and EVA helmet with the recognizable skull scratched into its gold visor. The skull is a surface engraving, not a mask. Keep his large Security pauldron on his anatomical RIGHT shoulder and Operator pauldron on his LEFT, and his characteristic chest rig and FJ/PARA knees. Equipment stays stowed. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 2,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jorge_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 882325a4-ba37-4c9a-9e38-93ef7731d148.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create one full-body neutral character reference illustration of Jorge-052, Noble Five, in the original Halo Reach. Preserve his towering broad Spartan-II build, bulky sage-and-olive Grenadier armor with red panels and ochre high collar, original rounded Grenadier helmet with gold opaque visor, heavy legs and black undersuit. The Grenadier shoulder is anatomically LEFT and EVA shoulder RIGHT. Keep the original color placements. Calm relaxed standing posture facing screen RIGHT in a mostly lateral view, both arms relaxed, both hands empty, no handheld weapons and no action. Entire head, feet and equipment fit inside broad clear margins. Detailed realistic game-character rendering, restrained wear, even studio lighting. Genuine transparent alpha background, no floor or cast shadow, no scenery, no labels, no frame, one figure only.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 3,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jun_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7652961a-671c-480e-a9e4-d5eb9c879ecf.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Jun-A266, Noble Three, from the original Halo: Reach. Preserve sage-green Mark V[B] scout armor, original Scout HU/RS helmet, brown-orange visor, tan scarf, Patrol chest rig and compact rucksack. Keep spare sniper cartridges on his anatomical LEFT shoulder, the sheathed knife at his RIGHT shoulder and UGPS on his LEFT forearm. Reproduce FJ/PARA knees and his leaner Spartan silhouette, with equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 4,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "carter_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f1d14a7b-5efb-4e07-a94d-ddb778b9fb4b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Carter-A259, Noble One, from the original Halo: Reach. Preserve deep-blue Mark V[B] armor, the original Commando HUL[3] helmet, opaque gold visor, Assault/Commando chest gear and black undersuit. Reproduce the anatomical LEFT Commando pauldron, RIGHT Mark V pauldron, TACPAD on the LEFT wrist and FJ/PARA knee guards. Keep both arms normally armored, the original angular Reach silhouette and equipment stowed. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 6,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 58e3d7d3-1f97-4edd-80fa-d61c16d8666e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Tartarus from the original Halo 2 Classic. Preserve his massive barrel-chested Jiralhanae build, dense silver-white fur, tall white mohawk crest, dark gray face and broad forearms. Reproduce the exposed fur-covered torso, sparse classic equipment, dark cross-body bandolier, metallic gold pauldron on his anatomical LEFT shoulder, belt, original lower-body protection and boots. Retain Classic geometry and a calm expression; no hammer is carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 7,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d124d54b-4ef0-40e9-9662-993c13b8e874.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Escharum in his Halo Infinite appearance. Preserve his elderly Jiralhanae face, heavy brow, gray-white beard, broad nose and immense body proportions. Reproduce the distinctive Banished armor, with dark gunmetal layered plates, deep red accents, broad ornate shoulders, heavy bracers and greaves, and recognizable V-shaped chest plating. Keep his own aged facial likeness and armor silhouette, with all equipment inactive and no weapon carried. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 8,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID eb716971-e94e-4c17-b857-6fcb38c5dbc6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Jega 'Rdomnai in Halo Infinite. Preserve his tall lean Sangheili anatomy, digitigrade legs, split feet and black harness with deep red markings, claw-like ornaments and Banished emblem. His anatomical LEFT arm and LEFT mandibular structures are mechanical prostheses; both legs remain biological. Retain the inactive Ghostpierce emitter on the LEFT forearm, with energy blades extinguished and no separate sword carried. Armor is opaque, camouflage inactive. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 9,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "chak_lok",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 95ea1a8b-0ae5-4423-9986-4ff631a19f2d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Chak 'Lok in his Halo Infinite appearance. Reproduce his distinctive metallic gold Sangheili warlord harness, correct elongated helmet, substantial shoulder plates, dark undersuit, armored forearms and long leg plates. Preserve Infinite's Sangheili proportions, strong neck, intact four-part mandibles, biological arms, digitigrade legs and broad split feet. Keep his own helmet and armor shapes, not an earlier game's gold Elite. Camouflage is inactive and armor fully opaque. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 10,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f297ae86-ee4f-46fb-9a4c-a7d3269e8851.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Create a character reference of Douglas-042 in the Halo Wars 2 campaign. Reproduce his operational olive-green Mark IV armor, broad rigid chest shell, heavy shoulders, angular helmet with opaque gold visor, black undersuit and substantial boots. Preserve Douglas's own campaign markings and pale helmet stripe rather than copying Jerome's red diagonal chest design. Both arms are normally armored; show intact operational equipment, without an invented prosthesis, additional damage or large unsupported numbers. Show one complete figure in a relaxed standing pose, hands empty, facing screen RIGHT in a near-orthographic profile. Keep both hands and feet readable, with minimal torso rotation. Detailed realistic game-character rendering, even studio light, restrained surface wear. Genuine transparent alpha background and at least ten percent clear padding around the entire silhouette. No floor, shadow, scenery, labels, effects or additional figure.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 11,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "emile_reach",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bc01363f-7a78-4d3c-b657-c8a22059a598.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the attached Halo: Reach game reference as the visual identity and armor source. Make a new single-character full-body pose of Emile-A239 for the Halo Combats 2D fighting-game asset set. Preserve Emile-A239's original 2010 Reach armor, weathered charcoal plates, skull etched into the gold EVA visor, the large red anatomical RIGHT Security shoulder and its stowed kukri assembly, asymmetric opposite shoulder, chest pouches and grenade belt. The carving is an engraving on a visor, not an exposed skull. Follow the input's shapes and worn paint precisely. Change the articulation to a calm upright neutral stance, facing screen RIGHT, almost lateral, with the character's anatomical right side nearer the viewer and only enough three-quarter visibility to identify the helmet and torso. Hands empty and relaxed, forearms slightly away from the torso, feet planted, both boots fully visible. Remove the handheld firearm from the reference; keep only the small holstered/stowed equipment already belonging to this exact character. Preserve anatomical left/right asymmetries; do not mirror the design. Faithful detailed realistic videogame character render, readable armor plates and proportions, consistent soft neutral lighting, restrained surface wear. Exactly ONE character on a genuinely transparent alpha background, no scenery, no floor plane, no text or label, no drop-shadow panel. Full body including antennas, shoulder equipment and both soles, with comfortable clear transparent margins on every side. This is a new neutral pose derived from the attached game reference, not a redesign or a collage.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 14,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ab333b84-5a84-4415-a423-d5d465098a68.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the attached Halo Infinite reference to make ONE new full-body neutral-pose render of Escharum for the Halo Combats 2D fighting character set. Preserve the exact elderly Jiralhanae face, bald grey head, grey beard, broad heavy build, dark charcoal armor, worn deep-red markings, distinctive engraved silver neck and shoulder panels, chest geometry, asymmetrical forearm armor and wide leg armor shown. Keep the stowed back equipment and handle visible where appropriate. Do not replace him with Atriox or a generic Brute chieftain. Re-articulate to a calm upright standing stance facing screen RIGHT, near lateral with a modest three-quarter angle for recognition. Hands empty and lowered naturally, arms slightly away from the torso, both feet planted and fully visible. Preserve all anatomical left/right asymmetries; do not mirror the character. Faithful detailed videogame rendering, exact source material language and proportions, neutral soft illumination. Isolate the character on genuine transparent alpha, including the spaces between the limbs. No scenery, promotional background, gradient, glow, floor, cast-shadow panel, logo, frame or text. Full silhouette inside the frame with at least ten percent clear transparent padding above the helmet or head and below both soles, and generous side padding. The source guides this character's identity and armor; do not redesign or combine characters.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 21,
+      "attempt_kind": "neutral_unarmed"
+    },
+    {
+      "entity_id": "jega_infinite",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d14e80c6-d844-4169-ace5-f0bc87adfec0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "prompt": "Use the TWO attached images of Jega 'Rdomnai from Halo Infinite: the official full-body promotional game render for overall armor geometry and the final-game introduction screenshot to confirm the anatomical details and left/right asymmetry. Create ONE new full-body neutral standing pose of this same character for Halo Combats. Preserve his tall Sangheili build, scarred face, black and dark-gray harness with deep-red markings, Banished chest insignia, layered high collar, angular helmet and sharp claw-like armor ornaments. His anatomical LEFT arm is the slender exposed mechanical replacement with its mechanical hand and inactive Ghostpierce wrist emitter. His anatomical RIGHT arm retains the broad armored biological form and clawed hand. Keep the anatomical LEFT mandibular prostheses exactly as visible. Match BOTH digitigrade legs to the game references: dark textured undersuit, knee coverings, shin guards and armored split feet. Do NOT turn leg armor into an exposed mechanical replacement limb. Re-articulate him into a calm upright stance facing screen RIGHT, near-lateral with a slight three-quarter angle and enough separation to see both arms and both feet. Keep all anatomical asymmetries, do not mirror them. Hands empty and lowered, no handheld bloodblade, all energy blades switched off, camouflage inactive and armor fully opaque. Faithful realistic videogame render, neutral soft lighting without the red weapon glow. Genuine transparent alpha outside the entire character and in the limb gaps; remove all source scenery, logos, promotional graphics and background. Full head, all armor tips and both complete feet within the canvas, with comfortable clear transparent padding on all four sides. No text, labels, ground plane or extra character.",
+      "generation_wave": 4,
+      "source_journal": "work/wave4/generation_results.json",
+      "journal_record": 24,
+      "attempt_kind": "neutral_unarmed"
+    }
+  ],
+  "automatic_rejections_in_journal": 14,
+  "historical_failed_attempt_count": 61,
+  "historical_failed_fighters": [
+    "alice_hw2",
+    "buck_odst",
+    "carter_reach",
+    "chak_lok",
+    "chief_infinite",
+    "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "johnson_h3",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "noble_six",
+    "rookie_odst",
+    "rtas_h3",
+    "tartarus_h2",
+    "zealot_reach"
+  ],
+  "currently_present_despite_historical_failure": [
+    "alice_hw2",
+    "buck_odst",
+    "carter_reach",
+    "chak_lok",
+    "chief_infinite",
+    "douglas_hw2",
+    "emile_reach",
+    "escharum_infinite",
+    "jega_infinite",
+    "johnson_h3",
+    "jorge_reach",
+    "jun_reach",
+    "kat_reach",
+    "noble_six",
+    "rookie_odst",
+    "rtas_h3",
+    "tartarus_h2",
+    "zealot_reach"
+  ],
+  "failed_fighters_still_without_candidate": [],
+  "missing_not_attempted_this_wave": [],
+  "duplicate_records_skipped": [],
+  "reused_prior_candidate_records": [],
+  "certified_fighter_assets": 0,
+  "animated_fighter_assets": 0,
+  "integrated_fighter_assets": 0,
+  "planned_files": [
+    {
+      "entity_id": "kat_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/kat_reach_neutral_right_v01.png",
+      "asset_id": "kat_reach_neutral_right_v01",
+      "sha256": "8b8234664bbf62cfbdfb6a22928e983eeb53e29f756f994bb69eabee80f19ae5",
+      "reused": true
+    },
+    {
+      "entity_id": "chief_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-18176e85-e84c-400f-aec1-eb82b42d1cf9.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+      "asset_id": "chief_infinite_neutral_right_v01",
+      "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+      "reused": true
+    },
+    {
+      "entity_id": "kat_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-53e25a32-b105-49fc-845e-43cadfbcc721.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/kat_reach_neutral_right_v02.png",
+      "asset_id": "kat_reach_neutral_right_v02",
+      "sha256": "fc28c8a9484737f4fa5948ebc3ce3dc7d484c692abc39c522a3f6e2930a2ba47",
+      "reused": true
+    },
+    {
+      "entity_id": "jorge_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4325fda0-380e-4de5-9cb3-82cf4257dafd.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/jorge_reach_neutral_right_v01.png",
+      "asset_id": "jorge_reach_neutral_right_v01",
+      "sha256": "6ef5f8aba6b4e9f3e02be8b0d5e853bdbedab2291d1c23b6db8df2247fe4de88",
+      "reused": true
+    },
+    {
+      "entity_id": "jun_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-d865d2d4-229a-43c7-b3af-ff310b246701.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/jun_reach_neutral_right_v01.png",
+      "asset_id": "jun_reach_neutral_right_v01",
+      "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec",
+      "reused": true
+    },
+    {
+      "entity_id": "carter_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/carter_reach_neutral_right_v01.png",
+      "asset_id": "carter_reach_neutral_right_v01",
+      "sha256": "6e179e5460dbb6d5f0d340cee9cbfea5ca17cd6a71af6e5a6f1c5f4b30f1df88",
+      "reused": true
+    },
+    {
+      "entity_id": "johnson_h3",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-970fae11-554d-4df6-99f4-e49577d51342.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/johnson_h3_neutral_right_v01.png",
+      "asset_id": "johnson_h3_neutral_right_v01",
+      "sha256": "bdf818ecad9a7dd4edd380fee874c06ac06b6c813f16be8b102a26f3422e6fa9",
+      "reused": true
+    },
+    {
+      "entity_id": "tartarus_h2",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ac8c2139-6aeb-4f6a-8eb9-64217690e32a.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
+      "asset_id": "tartarus_h2_neutral_right_v01",
+      "sha256": "1f81eadce945ce8c0893af714ce0959d6c30f4f3b5aab387ccccfb50f611ad31",
+      "reused": true
+    },
+    {
+      "entity_id": "douglas_hw2",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7f5143a0-90d7-46ac-bc7f-7624326cb70e.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
+      "asset_id": "douglas_hw2_neutral_right_v01",
+      "sha256": "836d420ea32c153e589ed56ea99e1a3722e50d3b0a2d154126e5661ea611a537",
+      "reused": true
+    },
+    {
+      "entity_id": "chak_lok",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-90f5b18c-d6be-4ad9-9c91-59ed25dc6224.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/chak_lok_neutral_right_v01.png",
+      "asset_id": "chak_lok_neutral_right_v01",
+      "sha256": "c7d2d7b0ca710e3fc458606e6184c291ec441c1002d1c083e282401274aa9fbb",
+      "reused": false
+    },
+    {
+      "entity_id": "emile_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-2f7c6c52-3484-48a5-9d8f-372fa3ce2886.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/emile_reach_neutral_right_v01.png",
+      "asset_id": "emile_reach_neutral_right_v01",
+      "sha256": "886408dcae827eac054061ffc9e71432fa5808b6ce0bd8b480ab02b5d66e2c92",
+      "reused": false
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/escharum_infinite_neutral_right_v01.png",
+      "asset_id": "escharum_infinite_neutral_right_v01",
+      "sha256": "7a05eb37e4990ccca3e07705ae9692785e06d9a0443a98ce003407d37d6c5f41",
+      "reused": false
+    },
+    {
+      "entity_id": "jega_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-23afc673-ce60-4eb3-b554-357bf1ead153.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/jega_infinite_neutral_right_v01.png",
+      "asset_id": "jega_infinite_neutral_right_v01",
+      "sha256": "ba9ee0cb9d14b01684cad1990413098a8b0172691be4a7c286f12447449f684c",
+      "reused": false
+    },
+    {
+      "entity_id": "escharum_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fee06234-cc02-4c48-a6e9-a27b4555f9ba.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/escharum_infinite_neutral_right_v02.png",
+      "asset_id": "escharum_infinite_neutral_right_v02",
+      "sha256": "67507612d2b7129c695b50db2c027e00517b178602a9b8ee5845dda6565fa4e0",
+      "reused": false
+    },
+    {
+      "entity_id": "carter_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-116bffd9-ef54-4940-b11d-475e82064352.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/carter_reach_neutral_right_v02.png",
+      "asset_id": "carter_reach_neutral_right_v02",
+      "sha256": "5c60d18e82f3d5fe410f54516c730b79112b2d1096c9f17071529e3610fd911b",
+      "reused": false
+    }
+  ],
+  "applied": true
+}

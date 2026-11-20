@@ -1,0 +1,16 @@
+{
+  "updated_on": "2026-11-19",
+  "candidate_asset_ids": [
+    "arbiter_h3_idle_v01",
+    "boss_scarab_h3_concept_v01",
+    "st_valhalla_h3_concept_v01",
+    "st_mombasa_odst_concept_v01"
+  ],
+  "notes": {
+    "chief_infinite_idle_v01": "Deux essais de génération refusés automatiquement. Image absente ; reste à produire.",
+    "arbiter_h3_idle_v01": "Pose candidate individuelle non animée. Halo alpha résiduel à contrôler et à corriger. Fidélité non validée.",
+    "boss_scarab_h3_concept_v01": "Silhouette candidate v2 avec quatre pattes corrigées. Aucune animation. Fidélité non validée.",
+    "st_valhalla_h3_concept_v01": "Concept maître v2 avec anneau incorrect retiré. Aucun calque séparé exporté sur les six prévus. Fidélité non validée.",
+    "st_mombasa_odst_concept_v01": "Concept maître candidat. Ascenseur orbital et horizon à vérifier. Aucun calque séparé exporté sur les six prévus. Fidélité non validée."
+  }
+}

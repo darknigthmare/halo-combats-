@@ -1,0 +1,154 @@
+{
+  "wave": 7,
+  "scope": "Deux identités Forerunners encore sans image, correction Dinh et garde du Major ; aucun appel root après constat du quota global.",
+  "created_utc": "2026-11-20T06:45:26+00:00",
+  "results": [],
+  "deferred_requests": [
+    {
+      "entity_id": "didact_h4",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "equipment_state": "Armure personnelle Halo 4, casque fermé, mains vides.",
+      "variant": 1,
+      "prompt": "Create a reference-guided character asset of the UR-DIDACT from HALO 4, in the exact helmeted armored incarnation in the attached Kolby Jukes render. Preserve the imposing nonhuman armored proportions, narrow mask with warm amber eyes, segmented crown and pointed mouth guard, massive separated swept shoulder assemblies, layered graphite and silver biomechanical plates with burgundy gaps, fine amber luminous lines, long armored fingers and the distinctive feet. The bright cyan in the reference is rim lighting, not a new blue armor skin. Both arms in a calm commanding combat idle, one palm slightly extended toward screen right and the other lowered; keep armor masses unmerged, hands anatomically coherent. No held weapon, no telekinetic effect. He is the Halo 4 Ur-Didact, not Bornstellar or a generic armored knight. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:Didact_Masked_Render.png",
+          "image_url": "https://www.halopedia.org/images/c/c5/Didact_Masked_Render.png?8639f",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/didact_h4_reference.png",
+          "sha256": "b6408096cb0d2fce56ffa38b08d4466c822f10a0b2e3026bb91848750a1a2bbd",
+          "dimensions": {
+            "width": 1230,
+            "height": 1857
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Cutout of the Ur-Didact . Type Render Game Halo 4 Artist Kolby Jukes Source https://www.artstation.com/artwork/RnY4D Original filename kolby-jukes-didact-2.jpg "
+        }
+      ],
+      "status": "deferred_global_usage_limit",
+      "tool_called": false,
+      "previous_wave": 6,
+      "prior_source_journal": "work/wave6/generation_results_root.json",
+      "prior_source_journal_sha256": "572951dcf511e973fe27c42557b2aff5537d6441201c2a722aaf3e3fd5c478f4",
+      "proposed_attempt_kind": "retry_previous_wave_same_prompt",
+      "reason": "Les premiers appels V7 ont confirmé un quota global HTTP429 usage_limit_reached ; aucune demande root envoyée."
+    },
+    {
+      "entity_id": "knight_h4",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "equipment_state": "Chevalier standard Halo 4 : arme à distance au bras droit, lame de lumière solide au bras gauche.",
+      "variant": 1,
+      "prompt": "Create a reference-guided full-body asset of the STANDARD PROMETHEAN KNIGHT from HALO 4, matching the first supplied standard Knight render and using the second official Halo 4 press render as corroboration. Preserve the huge angular floating grey upper carapace extending far to either side, small forward-projecting pointed closed face plate, black inner structure, orange-gold luminous seams, long outer combat arms, TWO much smaller vestigial inner arms folded under the chest, heavy angular digitigrade armored legs and clawed feet. Keep exactly the canonical four-arm organization: two primary outer arms plus two small inner arms, not duplicated primary arms. The Knight's anatomical RIGHT outer arm carries the slim dark Forerunner ranged weapon; its anatomical LEFT outer arm has the distinctive orange hard-light blade. Preserve these identities and the precise reference shapes when turning toward screen right. Weighty slightly crouched fighting idle, legs apart, orange blade held low without crossing or hiding the entire silhouette; no firing and no teleport effect. This is the Halo 4 standard model, not the enlarged Halo 5 redesign, Lancer, Battlewagon or Commander. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight-Standard.png",
+          "image_url": "https://www.halopedia.org/images/8/88/H4-Knight-Standard.png?c1c92",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_standard_h4_reference.png",
+          "sha256": "0eede0295ec260c0e6212dafcdc2751d33d4a2ec58f453d8699cede7256b2c0f",
+          "dimensions": {
+            "width": 2600,
+            "height": 2210
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": ""
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight.png",
+          "image_url": "https://www.halopedia.org/images/d/d5/H4-Knight.png?2d755",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_h4_reference.png",
+          "sha256": "39078bf47a9a207e103fca902f70c730afbab8a34e5bb7b9b0a7550c89ce45da",
+          "dimensions": {
+            "width": 1800,
+            "height": 2080
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Halo 4 press kit image featuring a Promethean Knight . Type Render Game Halo 4 Source http://halo.xbox.com/en-us/Universe/Detail/e3-2012-halo-4-renders/600518a8-d6fd-4c01-9f46-d9a97fcd9cc1 Original filename 2820821-gallery.jpg "
+        }
+      ],
+      "status": "deferred_global_usage_limit",
+      "tool_called": false,
+      "previous_wave": 6,
+      "prior_source_journal": "work/wave6/generation_results_root.json",
+      "prior_source_journal_sha256": "572951dcf511e973fe27c42557b2aff5537d6441201c2a722aaf3e3fd5c478f4",
+      "proposed_attempt_kind": "retry_previous_wave_same_prompt",
+      "reason": "Les premiers appels V7 ont confirmé un quota global HTTP429 usage_limit_reached ; aucune demande root envoyée."
+    },
+    {
+      "entity_id": "chief_infinite",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "equipment_state": "unarmed_hand_to_hand_existing_armor",
+      "variant": 1,
+      "prompt": "Edit the attached existing Halo Combats candidate into ONE new standalone static combat-guard key pose for John 117 le Major, Halo Infinite. Identity and game incarnation must be retained; match the attached armor geometry, materials, body proportions, facial anatomy, colors and all asymmetric equipment. Target visual fidelity to the exact Halo incarnation; no redesign. GEN3 Mark VI vert olive, 117 sur le plastron, visière dorée, proportions Infinite; ne pas remplacer par Mark VII multijoueur.\nChange the pose substantially from arms-at-sides neutral to this guard: Compact trained Spartan close-combat guard: left forearm leads at sternum height, right fist near lower jaw, both elbows bent; left foot a half step toward screen-right, rear foot anchored, knees slightly flexed. Keep the left-arm Grappleshot hardware and 117 chest marking.\nHands are empty, a deliberate unarmed hand-to-hand gameplay state; preserve worn equipment and holsters. Do not add a handheld weapon. Clear 2D fighting-game readability: face and torso aimed screen-right, near side profile (about 85 degrees from frontal), camera at torso height with minimal perspective, both feet visible and separated, forward and rear forearms readable without merging. This is a static key pose, not a sprite sheet or animation. Keep the FULL BODY in frame with at least 10 percent clear transparent padding around helmet, hands and boots; no cropping. Exactly one character, no inset, no duplicate, no labels, no UI, no background or floor or drop shadow. Neutral even lighting with crisp game-rendered material detail. Deliver a clean true-alpha transparent PNG.",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "chief_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+        "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+        "generation_wave": 4,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/en-us/news/master-class",
+          "https://www.halowaypoint.com/news/customization-overview-season-5",
+          "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+        ],
+        "inherited_limitations": [
+          "Vérification anatomique du côté du 117 et des genouillères par rapport au modèle Infinite",
+          "Validation du Grappleshot sur l’avant-bras gauche et de sa géométrie",
+          "Comparaison des parties reconstruites après retrait du fusil",
+          "Marges verticales et contour alpha de production",
+          "Garde armée MA40 et animations à produire séparément",
+          "Comparaison aux références de l'épisode",
+          "Validation de la vue latérale et des asymétries",
+          "Contrôle du détourage et du cadrage",
+          "Animations, collisions et intégration au moteur"
+        ]
+      },
+      "status": "deferred_global_usage_limit",
+      "tool_called": false,
+      "previous_wave": 6,
+      "prior_source_journal": "work/wave6/generation_results_root.json",
+      "prior_source_journal_sha256": "572951dcf511e973fe27c42557b2aff5537d6441201c2a722aaf3e3fd5c478f4",
+      "proposed_attempt_kind": "retry_previous_wave_same_prompt",
+      "reason": "Les premiers appels V7 ont confirmé un quota global HTTP429 usage_limit_reached ; aucune demande root envoyée."
+    },
+    {
+      "entity_id": "dinh_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "equipment_state": "Rakshasa personnalisé, casque ARTAIUS de la saison 2 ; mains libres comme le rendu officiel final, lame du concept non reprise.",
+      "variant": 2,
+      "prompt": "Edit the FIRST attached existing Hieu Dinh full-body character image, changing ONLY the belt-pouch placement to match the SECOND attached official final Halo Infinite model reference. Anatomical sides are crucial: his red trophy shoulder is his RIGHT shoulder, his radio antenna is on his LEFT shoulder. In the current first image the dominant pair/group of large blue-grey belt pouches is wrongly placed on his RIGHT hip beneath the red shoulder. Remove that large paired blue-grey pouch group from his RIGHT hip. Restore a modest dark single pouch/strap assembly on that right side as in the official reference. Put the large paired blue-grey pouches on his anatomical LEFT hip, underneath the radio shoulder; this is the farther side in this right-facing pose, so show only the amount naturally visible beyond the torso. Do not mirror the entire image or exchange the shoulders. Keep the red right shoulder, left radio/antenna, straps around LEFT thigh, central groin armor, red-orange teeth-marked visor, helmet optics, chest armor, both guarded hands, legs, boots, original pose and proportions unchanged. Only correct the waist-pouch layout. Preserve the complete character and current framing, all boots and helmet in frame. Preserve real alpha transparency outside the character; no new background, floor, halo, effects or labels.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_DinhModel.png",
+        "image_url": "https://www.halopedia.org/images/6/6a/HINF_DinhModel.png?d5884",
+        "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+        "primary_urls": [
+          "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+        ],
+        "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf",
+        "dimensions": {
+          "width": 1479,
+          "height": 2062
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+      },
+      "status": "deferred_global_usage_limit",
+      "tool_called": false,
+      "previous_wave": 6,
+      "prior_source_journal": "work/wave6/generation_results_unsc.json",
+      "prior_source_journal_sha256": "9a81d6eae07261c42ff1b9ecd8302409712b29ce950d34715fcd706023a8f2b7",
+      "proposed_attempt_kind": "retry_previous_wave_same_prompt",
+      "reason": "Les premiers appels V7 ont confirmé un quota global HTTP429 usage_limit_reached ; aucune demande root envoyée."
+    }
+  ],
+  "generation_status": "paused_global_usage_limit",
+  "fallback_used": false
+}

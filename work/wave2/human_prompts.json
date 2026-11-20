@@ -1,0 +1,264 @@
+[
+  {
+    "id": "noble_six",
+    "name": "Noble Six — SPARTAN-B312",
+    "era": "Halo: Reach (2010), variante promotionnelle grise choisie",
+    "visual_lock": "Mark V[B] gris acier, silhouette masculine de référence promotionnelle, casque Mark V[B]/UA et genouillères FJ/PARA, sans grosses épaulières ajoutées, visière or. MA37 de Reach. Ce choix de production ne définit pas une apparence canonique unique ni un visage.",
+    "reference_urls": [
+      "https://news.xbox.com/en-us/2019/12/03/halo-reach-available-now-with-halo-the-master-chief-collection-3/",
+      "https://www.halopedia.org/File:Reach_E310_NobleSix.png",
+      "https://www.halopedia.org/SPARTAN-B312"
+    ],
+    "primary_reference_scope": "Xbox confirme le jeu et Noble Team. Le fichier d'archive reproduit un rendu Bungie du press kit Reach, montrant une version précise de B312 (avec DMR dans cette pose). La personnalisation et les différences entre rendus sont décrites par la référence secondaire. Pour notre sprite, MA37 est un choix du moveset ; ne pas prétendre reproduire exactement la pose armée du rendu.",
+    "critical_checks": [
+      "Aucun visage dévoilé ou inventé ; sexe et apparence sélectionnés comme variante, pas décrits comme canon universel.",
+      "Casque Mark V[B] avec plaque UA ; ne pas mélanger avec Mark V CE, Mark VI ou Mark VII.",
+      "Armure gris acier, aucune grosse épaulière personnelle de Noble ajoutée.",
+      "MA37 de Reach, pas MA40 Infinite ; arme complète dans le cadre.",
+      "Les promotions divergent sur UA et genouillères ; verrou explicite de cette variante nécessaire."
+    ],
+    "prompt": "Create ONE full-body character sprite of Noble Six, SPARTAN-B312, from the original Halo: Reach, for a premium UHD hand-painted 2D fighting game. Choose the recognizable male-build steel-gray promotional Mark V[B] configuration: angular Mark V[B] helmet with its upper UA armor plate, opaque gold visor, plain gray chest, black articulated undersuit, FJ/PARA knee guards, and no additional large shoulder pauldrons. This is a selected customizable player appearance; keep the helmet closed and invent no face. Hold the original Reach MA37 assault rifle in two hands, muzzle directed toward screen right at a relaxed low-ready angle. Show its correct long dark barrel and gray upper housing; no weapon from later Halo games. Entire character from helmet to boot soles and the complete rifle must fit with generous transparent padding. Use a near-orthographic lateral fighting-game view, facing screen right, grounded neutral ready stance, knees softly flexed, both legs and hands readable. Preserve realistic Spartan proportions and Reach armor geometry, restrained worn metal, crisp painted forms, consistent soft upper-left studio light. Background is true transparent alpha. No ground, cast shadow, scene, text, UI, other character, duplicate pose, model sheet, collage, toy joints, muzzle flash, or perspective foreshortening."
+  },
+  {
+    "id": "emile_reach",
+    "name": "Emile-A239",
+    "era": "Halo: Reach (2010)",
+    "visual_lock": "Mark V[B] gris charbon avec accents rouges ; casque EVA[C] à crâne gravé sur visière or et module HUL. Épaulière Security anatomiquement droite portant le kukri ; Operator à gauche. M45/M45E Tactical Shotgun Reach.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halowaypoint.com/news/feet-first-into-fall",
+      "https://www.halopedia.org/Emile"
+    ],
+    "primary_reference_scope": "Waypoint confirme nom/incarnation et présente la figurine licenciée Reach. Spotlight utilise du fan art et ne prouve pas la géométrie. La nomenclature détaillée et les côtés des équipements proviennent de la page secondaire qui renvoie au jeu/profil Bungie ; un contrôle sur rendu Reach reste nécessaire.",
+    "critical_checks": [
+      "Crâne constitué de rayures sur la visière EVA, pas masque en os ni casque blanc.",
+      "Kukri dans le fourreau de l'épaule anatomiquement droite ; ne pas inverser en miroir.",
+      "Épaulière Security droite et Operator gauche ; rig Sapper et grenades présents.",
+      "M45 de Reach (nom détaillé M45E dans les références récentes), pas Bulldog Infinite.",
+      "Face fermée ; un seul fusil et un seul kukri, dans son fourreau."
+    ],
+    "prompt": "Create ONE full-body Emile-A239 sprite from the original Halo: Reach, faithfully recognizable as Noble Four, rendered as detailed UHD painted 2D fighting-game art. Preserve his charcoal-gray Mark V[B] armor with restrained red accents, black undersuit, EVA helmet with gold faceplate, and the distinctive human skull scratched into that visor. The skull is etched damage on glass, not a bone mask or white helmet. Keep his asymmetric equipment anatomically correct: large Security pauldron on HIS RIGHT shoulder with his single large kukri secured in its sheath, Operator pauldron on HIS LEFT, Assault/Sapper chest rig, grenades, Breacher wrist hardware, soft utility pouch, FJ/PARA knees. Hold one accurate Halo: Reach M45 tactical shotgun in both hands at low ready, pointing screen right. Do not also put the knife in a hand. Show the entire body, both boots, and complete shotgun without cropping. Use a near-orthographic lateral view facing screen right, with a slight torso opening only for clear silhouette; knees bent in a compact controlled idle stance. Realistic Spartan scale, hard painted armor edges, subtle scratches and neutral upper-left lighting. True transparent alpha background, clean silhouette. No scene, floor, shadow, labels, captions, UI, additional figure, pose sheet, muzzle flash, gore, or armor from Halo Infinite or Halo 5."
+  },
+  {
+    "id": "jorge_reach",
+    "name": "Jorge-052",
+    "era": "Halo: Reach (2010)",
+    "visual_lock": "Spartan-II massif de Noble Team, armure Grenadier vert olive/sauge avec panneaux rouges et col ocre, casque Grenadier/UA, visière dorée, épaulières différentes. Mitrailleuse Etilka dérivée du M247H de Reach, pas gatling rotative.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halopedia.org/File:Jorge-052.png",
+      "https://www.halopedia.org/Jorge%27s_Chaingun"
+    ],
+    "primary_reference_scope": "Nom confirmé sur Waypoint. Le fichier Jorge-052.png archive un rendu officiel Bungie du press kit Reach, source originale jorge_right3.jpg. La page Etilka est secondaire ; elle distingue le modèle unique du M247H et précise que son nom n'est pas employé dans Reach.",
+    "critical_checks": [
+      "Gabarit nettement plus massif que les autres Noble ; ne pas fabriquer un simple Chief recoloré.",
+      "Casque Grenadier/UA et col haut caractéristiques, pas EVA ou Mark VI.",
+      "Préserver la disposition asymétrique Grenadier gauche/EVA droite d'après le rendu.",
+      "Mitrailleuse portable Etilka/M247H à canon unique, pas minigun à six tubes.",
+      "Éviter jetpack et accessoires Halo 5/Infinite."
+    ],
+    "prompt": "Create ONE full-body sprite of Jorge-052, Noble Five, specifically his original Halo: Reach campaign incarnation, for a highly detailed UHD painted 2D fighting game. He is a towering, unusually broad Spartan-II heavy weapons specialist. Reproduce his bulky sage-and-olive Grenadier armor, red armor panels, ochre reinforced high collar, rounded Grenadier helmet with upper reinforcement, opaque gold visor, black undersuit, heavy leg plates and distinctive asymmetric shoulder armor. Keep the anatomical LEFT Grenadier shoulder and RIGHT EVA shoulder consistent with the Reach model; preserve the original color placement instead of making the suit uniformly green. Jorge carries his characteristic Etilka heavy machine gun, the modified Reach M247H: a large single-barrel belt-fed weapon held in both hands at waist level, muzzle facing screen right. It is not a rotating six-barrel minigun. Build a heavy planted idle stance with slightly bent knees, immense upper-body mass, and clear hands and feet. Near-orthographic lateral camera facing right, slight torso opening for readability, no dramatic lens perspective. Fit the entire armored body, full gun, barrel and ammunition assembly inside the frame with transparent margins. Painted realistic materials, subtle battle wear and soft upper-left lighting. True transparent alpha; no floor, shadows, environment, text, graphic frame, duplicates, sheet, explosions or gunfire."
+  },
+  {
+    "id": "kat_reach",
+    "name": "Kat-B320",
+    "era": "Halo: Reach (2010), après Fumirole",
+    "visual_lock": "Mark V[B] bleu clair/bleu acier, casque Air Assault avec module latéral, visière argentée, bras anatomiquement DROIT prosthétique, bras gauche normal sous armure. Pistolet M6G de Reach tenu par la main droite.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/womens-history-month-2024",
+      "https://www.halowaypoint.com/news/canon-fodder-phoenix-blog",
+      "https://www.halopedia.org/Catherine-B320"
+    ],
+    "primary_reference_scope": "Waypoint confirme Kat, son rôle, sa représentation et la perte du bras à Fumirole. La page secondaire précise explicitement le côté droit, le M6G adapté à la prothèse et les pièces d'armure ; vérifier les formes finales sur le modèle Reach plutôt que le kit Infinite.",
+    "critical_checks": [
+      "Bras prosthétique anatomiquement droit, pas gauche ; son pistolet reste dans la main droite.",
+      "Casque Air Assault Reach et visière argentée, pas casque Commando de Carter.",
+      "Plaques bleu pâle / bleu acier, silhouette blindée réaliste, aucune sexualisation.",
+      "M6G Reach ; pas Sidekick MK50 ni automag ODST.",
+      "M45 Hardcase à la cuisse gauche ; ne pas miroiter les détails pour la direction opposée."
+    ],
+    "prompt": "Create ONE full-body Kat-B320 sprite, Noble Two from the original Halo: Reach, after the Fumirole mission, in polished UHD hand-painted 2D fighting-game style. Reproduce her pale steel-blue and blue-gray Mark V[B] armor, black undersuit, Air Assault helmet with its correct side module and opaque silver visor, compact chest armor, FJ/PARA shoulder pieces and hard utility case on her anatomical LEFT thigh. Her anatomical RIGHT arm is the exposed mechanical prosthetic: a slim segmented metal upper arm and forearm, visible joints and robotic right hand. Her LEFT arm is the normal fully armored arm. Never swap these sides. Put the recognizable Reach M6G magnum in her RIGHT prosthetic hand, held low and pointing toward screen right; her other hand forms a practical open guard. Keep the pistol recognizable and separate from the torso. Show a balanced alert neutral stance, whole body and both boots fully visible. Near-orthographic lateral fighting-game camera, facing screen right, subtle torso opening only for silhouette clarity. Realistic armored proportions, no exaggerated curves, exact Reach-era armor shapes, restrained scratches, crisp painted edges and soft upper-left light. True transparent alpha with generous clear margins. No stage, floor, cast shadow, titles, UI, sheet, duplicate poses, muzzle flash, or later-game armor parts."
+  },
+  {
+    "id": "chief_infinite",
+    "name": "John-117 — le Major",
+    "era": "Halo Infinite, campagne (2021)",
+    "visual_lock": "Armure Mark VI GEN3 de campagne, vert olive, casque Infinite et visière dorée, plastron gravé 117, Grappleshot à l'avant-bras gauche. MA40 Infinite. Pas kit Mark VII, GEN2 Halo 4/5 ou version série TV.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/en-us/news/master-class",
+      "https://www.halowaypoint.com/news/customization-overview-season-5",
+      "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+    ],
+    "primary_reference_scope": "Master Class distingue explicitement les incarnations de John et fournit le rendu Mark VI GEN3 Infinite. Customization Overview distingue le kit multijoueur du modèle campagne. L'article support documente les équipements ; il ne prouve pas à lui seul la topologie précise du Grappleshot.",
+    "critical_checks": [
+      "GEN3 Mark VI de John, pas Mark VII multijoueur ni GEN2.",
+      "117 petit et correctement orienté sur le plastron campagne ; pas de texte flottant.",
+      "Grappleshot anatomiquement à gauche, câble rangé dans la pose idle.",
+      "MA40 avec silhouette Infinite ; ne pas substituer un MA5B ou MA37.",
+      "Visière fermée, aucun visage inventé ; les proportions doivent être comparées au rendu officiel."
+    ],
+    "prompt": "Create ONE complete character sprite of Master Chief John-117, specifically his Halo Infinite campaign appearance, for premium UHD hand-painted 2D fighting-game art. Reproduce the recognizable olive-green Mark VI GEN3 armor from Infinite: correct broad angular chest and shoulders, layered abdominal plating, black articulated undersuit, heavy green boots, exact helmet silhouette and opaque amber-gold visor. Include the small authentic 117 engraving on the campaign chest plate and the compact Grappleshot assembly on his anatomical LEFT forearm, with cable stowed. Hold one faithful Halo Infinite MA40 assault rifle in both hands at a relaxed low-ready position, muzzle pointing toward screen right. Retain its correct bullpup receiver and upper housing, without adding sights from other rifles. Show a calm sturdy neutral combat stance with slightly flexed knees, both feet and hands readable. Near-orthographic lateral fighting-game camera facing screen right, modest torso opening only, with no extreme perspective. Keep the entire helmet, body, boot soles and complete rifle within generous clear margins. Realistic Spartan proportions, crisp painted metal, controlled scuffs and soft upper-left light. True transparent alpha. No stage, floor, shadow, UI, titles, other characters, duplicate poses, collage, firing effects, face reveal, television design, Mark VII multiplayer armor or Halo 4/5 GEN2 parts."
+  },
+  {
+    "id": "johnson_h3",
+    "name": "Avery Johnson",
+    "era": "Halo 3 (2007)",
+    "visual_lock": "Johnson du modèle Halo 3 : visage découvert, peau noire, moustache courte, casquette militaire, gilet de marine olive/gris, uniforme et bottes de marine. BR55HB SR de Halo 3, pas MJOLNIR ni tenue ODST.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/sweet-sixteenth",
+      "https://www.halopedia.org/Avery_Johnson"
+    ],
+    "primary_reference_scope": "Sweet Sixteenth confirme Johnson et la scène Halo 3 à travers une illustration Halo Mythos officielle ; ce n'est pas un turnaround du modèle. La ressemblance faciale, la coupe exacte des manches et les micro-insignes devront être contrôlés sur une capture de Johnson dans Halo 3.",
+    "critical_checks": [
+      "Casquette de Johnson Halo 3, visage découvert et moustache courte ; pas casque ou visage générique de Spartan.",
+      "Tenue et proportions de marine, gilet souple/plaques limitées ; ne pas transformer en MJOLNIR.",
+      "BR55HB de Halo 3, pas BR85 de Halo 4/5 ; BR55 dans la bible est un raccourci à préciser.",
+      "Le visage, les manches et insignes restent des points de validation visuelle à partir du jeu.",
+      "Pas de plate-forme mécanique du Johnson DLC Halo Wars 2."
+    ],
+    "prompt": "Create ONE full-body sprite of Sergeant Major Avery Johnson as he appears in the original Halo 3, rendered as premium UHD painted 2D fighting-game art. Preserve his recognizable mature Black face, strong features, short mustache and serious confident expression beneath the familiar olive military patrol cap. Match the Halo 3 Marine uniform: practical olive and gray body armor over military fatigues, correct modest chest protection, utility belt and pouches, human-scale limbs and rugged combat boots. He is an experienced Marine, with no Spartan power-armor limbs or helmet. Hold one accurate Halo 3 BR55HB battle rifle in both hands, with its recognizable carry handle, mounted optic and bullpup silhouette, resting at low ready and pointing screen right. Keep the rifle separate enough from the chest to read the hands clearly. Entire cap, face, body, both boot soles and complete weapon fit comfortably inside the frame. Near-orthographic lateral fighting-game view facing right, with a slight torso opening and grounded alert idle stance. Retain his original game-era facial likeness, realistic cloth folds and worn armor materials, crisp painted detail and soft upper-left lighting. True transparent alpha background. No scenery, floor, cast shadow, HUD, caption, nameplate, second pose, additional figure, firing effect, cigar smoke, mech, or Halo 2 Anniversary redesign."
+  },
+  {
+    "id": "jun_reach",
+    "name": "Jun-A266",
+    "era": "Halo: Reach (2010)",
+    "visual_lock": "Mark V[B] vert sauge de reconnaissance, casque Scout HU/RS à visière brun orangé, foulard beige, rig Patrol et sac. Munitions de sniper épaule gauche, couteau épaule droite, UGPS avant-bras gauche. SRS99-AM Reach.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/halo-winter-contention",
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halopedia.org/Jun-A266"
+    ],
+    "primary_reference_scope": "Winter Contention est un texte officiel confirmant Jun comme tireur équipé d'un sniper mais se situe avant Reach. Spotlight confirme son nom, avec fan art. La page secondaire détaille la configuration Reach ; éviter de substituer sa tenue VIGILANT GEN2 postérieure.",
+    "critical_checks": [
+      "Casque Scout de Reach, pas Recon et pas VIGILANT GEN2.",
+      "Visière brun/orange discrète, foulard de reconnaissance présent.",
+      "Cartouches de sniper épaule anatomiquement gauche, couteau épaule droite, UGPS avant-bras gauche.",
+      "SRS99-AM de Reach avec grande lunette et long canon ; pas sniper de Halo 5.",
+      "Sling/pochette/sac cohérents, sans cape fantaisie ni surcharger les munitions."
+    ],
+    "prompt": "Create ONE full-body Jun-A266 character sprite from the original Halo: Reach, Noble Three, for detailed UHD hand-painted 2D fighting-game art. Reproduce his sage-green Mark V[B] scout configuration with the original Reach Scout helmet and HU/RS attachment, brown-orange reflective visor, black undersuit, tan fabric scarf, Tactical/Patrol chest gear and compact rucksack. Preserve the asymmetric equipment: spare sniper cartridges on his anatomical LEFT shoulder, sheathed combat knife at his RIGHT shoulder, UGPS device on his LEFT forearm, and FJ/PARA knee guards. His profile should feel leaner and more mobile than Jorge while remaining a realistically armored Spartan. Hold the correct Reach SRS99-AM sniper rifle in both hands at low ready, barrel pointing screen right. Show the long barrel, prominent scope, receiver and complete stock clearly; no shortened or futuristic replacement rifle. Compose a controlled balanced idle stance, helmet looking right, feet apart and knees softly bent. Use a near-orthographic lateral fighting-game camera with only slight torso opening, no strong foreshortening. Entire character, backpack outline, both boots and complete rifle fit inside the frame with transparent padding. Crisp painterly armor forms, restrained wear, readable cloth and soft upper-left studio light. True transparent alpha; no scenery, ground, shadow, UI, captions, second character, pose sheet, firing effect or later VIGILANT armor."
+  },
+  {
+    "id": "carter_reach",
+    "name": "Carter-A259",
+    "era": "Halo: Reach (2010)",
+    "visual_lock": "Mark V[B] bleu de Noble One, casque Commando HUL[3], visière dorée, torse Assault/Commando, épaule gauche Commando et droite Mark V, TACPAD poignet gauche, genouillères FJ/PARA. M392 DMR.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "https://www.halopedia.org/File:HR_PK_Six%26Carter.jpg",
+      "https://www.halopedia.org/Carter"
+    ],
+    "primary_reference_scope": "Le fichier HR_PK_Six&Carter archive une capture officielle du press kit Reach (Long Night of Solace), qui distingue Carter et B312 avec leurs armes. La nomenclature détaillée des pièces provient de la page secondaire. Spotlight confirme identité, pas géométrie.",
+    "critical_checks": [
+      "Bleu Carter plus soutenu que le bleu pâle de Kat ; deux bras normaux.",
+      "Casque Commando Reach avec module HUL[3], pas Air Assault de Kat.",
+      "Épaule gauche Commando, droite Mark V ; TACPAD anatomiquement à gauche.",
+      "M392 DMR Reach, pas VK78 Commando malgré le nom du casque.",
+      "Pas adaptation NOBLE GEN2 Halo 5 ou kit Infinite."
+    ],
+    "prompt": "Create ONE full-body Carter-A259 sprite, Noble One from the original Halo: Reach, in premium UHD hand-painted 2D fighting-game style. Reproduce his muted deep-blue Mark V[B] armor and black undersuit, original Commando helmet with HUL[3] communications attachment, opaque gold visor, Assault/Commando chest equipment and angular Reach leg armor. Keep his asymmetric equipment precise: Commando pauldron on his anatomical LEFT shoulder, Mark V pauldron on his RIGHT shoulder, Tactical TACPAD on his LEFT wrist, and FJ/PARA knee guards. Both arms are ordinary armored Spartan arms. His build is broad and athletic, distinct from Kat and the much heavier Jorge. Carry one accurate Halo: Reach M392 DMR in both hands at low ready, muzzle aimed screen right, with its recognizable top optic, long barrel and bullpup receiver. Keep the complete weapon and fingers clearly readable. Pose him in a calm authoritative neutral ready stance, knees slightly flexed, entire body and both boot soles visible. Near-orthographic lateral view facing right, slight torso opening, no dynamic perspective. Leave transparent margins around all gear. Crisp painted hard-surface details, restrained blue paint wear, readable black joints and soft upper-left lighting. True transparent alpha. No environment, floor, cast shadow, HUD, text, additional characters, collage, duplicate pose, muzzle flash, or Halo 5/Infinite reinterpretation."
+  },
+  {
+    "id": "buck_odst",
+    "name": "Edward Buck — ODST",
+    "era": "Halo 3: ODST (2009)",
+    "visual_lock": "Buck ODST, armure noire/gris ardoise sur uniforme sombre, visière bleu argenté, CNM côté droit du casque, couteau côté droit du plastron. MA5C ; pas Helljumper MJOLNIR de Halo 5.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/feet-first-into-fall",
+      "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+      "https://www.halopedia.org/Edward_Buck"
+    ],
+    "primary_reference_scope": "Waypoint confirme Buck dans Alpha-Nine et la version ODST, ainsi qu'une statue licenciée avec M7S. Le MA5C est le choix du moveset et l'arme de sa représentation campagne, sans prétendre copier cette statue. Côtés CNM/couteau confirmés par la référence secondaire ; micro-marquages à relever sur le modèle.",
+    "critical_checks": [
+      "ODST 2009, pas Spartan-IV Helljumper Halo 5.",
+      "CNM sur côté anatomiquement droit du casque ; couteau fixé à droite du torse.",
+      "MA5C assorti à la fiche actuelle, pas MA40 Infinite.",
+      "Gabarit humain ODST, pas épaules et jambes MJOLNIR surdimensionnées.",
+      "Les petits marquages et traces d'usure doivent être comparés à une même phase de campagne."
+    ],
+    "prompt": "Create ONE full-body Edward Buck character sprite specifically in his Halo 3: ODST armor from 2009, for a polished UHD hand-painted 2D fighting game. Use the original ODST human-scale proportions, charcoal and slate-gray armored vest and plates over dark tactical fabric, enclosed ODST helmet and cool blue-silver visor. Preserve Buck's recognizable individual equipment: the command network module on the anatomical RIGHT side of his helmet and his sheathed combat knife on the RIGHT side of his chest plate. Include the correct practical pouches, belt, knee protection and combat boots without turning the suit into Spartan armor. Hold one Halo 3-era MA5C assault rifle in both hands at a relaxed low-ready angle, pointed toward screen right, with its distinct upper ammo-display housing and complete barrel. Keep both hands, the chest knife and weapon silhouette legible. Compose a near-orthographic lateral fighting-game view facing right, grounded controlled idle stance with knees flexed and a modest torso opening. Fit the entire helmet, body, both boot soles and complete rifle with clear padding. Realistic cloth, scuffed ballistic plates, crisp painted edges and soft upper-left studio light. True transparent alpha background. No floor, shadows, stage, HUD, text, second pose, other figure, gunfire, or Halo 5 Helljumper MJOLNIR parts."
+  },
+  {
+    "id": "rookie_odst",
+    "name": "Le Rookie",
+    "era": "Halo 3: ODST (2009)",
+    "visual_lock": "Modèle Rookie du guide cosplay officiel : casque ODST fermé visière bleu argent, plaques gris charbon, tenue sombre, pochette ventrale et sac dorsal propres. M7S à silencieux et viseur. Aucun visage inventé.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/official-cosplay-guide-the-rookie",
+      "https://content.halocdn.com/media/Default/community/CosplayGuides/h3odst_cosplayguide_rookie_mobile-3205b69a031a4a4f9ced2dee4dff173a.pdf",
+      "https://content.halocdn.com/media/Default/community/CosplayGuides/h3odst_cosplayguide_rookie_full-cf711784cefd46f1942179552d484811.pdf"
+    ],
+    "primary_reference_scope": "Guide officiel composé à partir des anciens modèles et textures du jeu ; vues profil/dos/face du preview inspectées. Le guide complet est lié officiellement, mais son volume dépasse la limite du navigateur utilisé ; ne pas prétendre en avoir inspecté toutes les pages.",
+    "critical_checks": [
+      "Casque fermé sans visage ; pas tête inventée.",
+      "Modèle Rookie distinct de Buck : pas CNM ni couteau de Buck ajoutés arbitrairement.",
+      "M7S avec silencieux et viseur ; pas SMG M7 nu ou fusil d'assaut.",
+      "Sac dorsal, pochettes et plaques ODST cohérents avec les trois vues officielles.",
+      "Silhouette humaine ODST ; pas bouclier énergétique ou anneau lumineux dans l'idle."
+    ],
+    "prompt": "Create ONE full-body character sprite of the Rookie from the original Halo 3: ODST, matching the official Rookie cosplay-guide model, in detailed UHD hand-painted 2D fighting-game style. Preserve the enclosed charcoal ODST helmet, cool blue-silver visor, compact gray armored chest, dark tactical undersuit, distinct abdominal storage pouch, belt equipment, knee plates, combat boots and recognizable backpack. Keep his identity anonymous behind the visor. Reproduce the Rookie's own equipment arrangement, not Buck's helmet command module or chest-mounted knife. He is a normal-sized ODST soldier with practical ballistic armor and fabric joints, not a massive MJOLNIR Spartan. Carry the accurate M7S suppressed submachine gun in both hands at low ready, including its long cylindrical suppressor, compact receiver and reflex optic, pointed toward screen right. Show the complete weapon, hands, helmet, body and both boot soles without cropping. Use a near-orthographic lateral fighting-game view facing right with a slight torso opening, quiet alert idle stance and softly flexed knees. Add realistic restrained scuffs and fabric folds, crisp painted contours and soft upper-left studio lighting. Leave generous transparent margins around the silhouette. True transparent alpha; no scene, ground, shadow, nameplate, HUD, VISR overlay, second pose, other character, firing effect or shield aura."
+  },
+  {
+    "id": "alice_hw2",
+    "name": "Alice-130",
+    "era": "Halo Wars 2 (2017), Mark IV de campagne",
+    "visual_lock": "Mark IV olive de Red Team dans Wars 2, visière dorée, silhouette lourde réaliste, marquages Alice distincts. M247H de Wars 2 à canon unique, pas AIE-486H rotatif de Wars 1 ; pas recoloration de Jerome.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/womens-history-month-2024",
+      "https://www.halopedia.org/File:HW2_AliceStaysBehind.png",
+      "https://www.halopedia.org/Alice-130",
+      "https://www.halopedia.org/Spartan-II"
+    ],
+    "primary_reference_scope": "Waypoint confirme l'identité et l'incarnation Wars 2. La capture de The Signal est une image du jeu archivée par un tiers et montre Alice avec le M247H. Les descriptions détaillées mêlent parfois Wars 1, Wars 2 et améliorations ultérieures ; placement exact des petits insignes non certifié par ces seuls textes.",
+    "critical_checks": [
+      "M247H Wars 2 à canon unique ; ne pas reprendre l'AIE-486H rotatif de Wars 1.",
+      "Armure Mark IV de campagne, pas variante GEN2/hybride tardive ou Mark VI de Chief.",
+      "Bande blanche de casque et emblème personnel à contrôler sur capture Wars 2 ; ne pas copier bande rouge de Jerome.",
+      "Pas d'armure cintrée/féminisée artificiellement ; vraie masse Spartan-II.",
+      "Identification 130 seulement si présente et lisible sur la référence choisie ; ne pas inventer de grands chiffres de plastron."
+    ],
+    "prompt": "Create ONE full-body Alice-130 sprite from the Halo Wars 2 campaign, rendered as highly detailed UHD hand-painted 2D fighting-game art. Reproduce Red Team's original campaign olive-green Mark IV MJOLNIR design: broad heavy chest shell, substantial shoulder armor, angular helmet with gold visor, black flexible joints and large armored boots. Keep Alice's own subtle identification details and pale helmet center stripe, rather than copying Jerome's diagonal red chest stripe. Her protective armor remains robust and realistically proportioned, without exaggerated feminine shaping or an exposed face. She holds the Halo Wars 2 M247H heavy machine gun in both hands at waist level, single barrel directed toward screen right; use the chunky receiver, carry grip and ammunition feed of the weapon seen when she covers the evacuation in The Signal. This is not the rotary machine gun from the first Halo Wars and not Jorge's custom Etilka. Give her a confident forward-balanced idle stance with bent knees and a stable heavy silhouette. Near-orthographic lateral view facing right, slight torso opening. Include the entire helmet, body, boot soles and complete machine gun with transparent margins. Crisp painted materials, controlled battle wear, soft upper-left light. True transparent alpha; no environment, floor, shadow, labels, HUD, duplicate poses, other figures, firing effects or later hybrid armor."
+  },
+  {
+    "id": "douglas_hw2",
+    "name": "Douglas-042",
+    "era": "Halo Wars 2 (2017), Mark IV de campagne, opérationnel",
+    "visual_lock": "Grand Spartan-II Mark IV olive de Red Team, visière or, marquages Douglas à distinguer d'Alice/Jerome ; lance-roquettes M41 de Wars 2. Version opérationnelle sans mélange blessure ouverte/prothèse.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+      "https://www.halopedia.org/Douglas-042",
+      "https://www.halopedia.org/Douglas-042/Gameplay",
+      "https://www.teamrespawn.net/phoenix-logs/douglas-042/"
+    ],
+    "primary_reference_scope": "Waypoint confirme le trio. La transcription du Phoenix Log confirme le rôle anti-véhicules et le lance-roquettes amélioré. La référence secondaire identifie M41 et signale un M41 à quatre tubes pour les événements de Wars 1 ; cette donnée Wars 1 ne doit pas être transférée aveuglément à Wars 2. La configuration de tubes du modèle Wars 2 doit être contrôlée visuellement.",
+    "critical_checks": [
+      "Mark IV de campagne et identité Douglas, pas Commander Jerome ou simple Alice recolorée.",
+      "Lance-roquettes M41 de la référence Wars 2 ; nombre de tubes et bloc arrière à vérifier, sans supposer le quatre-tubes Wars 1.",
+      "Pas Hydra, SPNKr d'une autre version ni roquettes ajoutées hors de l'arme.",
+      "Pas bras prothétique inventé ; état opérationnel cohérent choisi.",
+      "Les petits emblèmes de l'épaule, la bande de casque et le 042 restent à contrôler sur le même modèle Wars 2."
+    ],
+    "prompt": "Create ONE full-body Douglas-042 sprite, the heavy anti-vehicle Spartan of Red Team from the Halo Wars 2 campaign, in UHD hand-painted 2D fighting-game style. Use his original campaign olive-green Mark IV armor, broad rigid chest shell, heavy shoulders, angular Mark IV helmet with gold visor, subtle pale center stripe, black undersuit and massive armored boots. Preserve Douglas's personal markings without copying Jerome's red diagonal chest design or adding invented large identification text. Show him operational and intact, without mixing in the severe damage from his earlier encounter with Atriox or inventing a prosthetic arm. Carry the recognizable Halo Wars 2 M41 rocket launcher in both hands at a stable low-ready shoulder-height hold, muzzle directed screen right; reproduce that game's complete launcher silhouette, handle, support grip and rear assembly. Do not substitute a Hydra or redesign the launcher. Use a near-orthographic lateral fighting-game view facing right, strong planted idle stance and slightly bent knees, with both hands and feet readable. Entire armor and full launcher fit within clear transparent padding. Realistic Spartan-II proportions, crisp painted metal, restrained scratches and neutral upper-left light. True transparent alpha. No background, floor, cast shadow, UI, labels, second character, sheet, extra pose, rocket in flight or explosive effects."
+  },
+  {
+    "id": "jerome_hw2",
+    "name": "Jerome-092",
+    "era": "Halo Wars 2 (2017), profil campagne / Captain Cutter",
+    "visual_lock": "Mark IV olive du Jerome de campagne, visière dorée, bande rouge du plastron droit descendant vers l'abdomen selon Wars 2, 092 et losange rouge sur plastron gauche, emblème casque corinthien épaule droite. M6 Spartan Laser ; pas Commander Jerome Hydra/sac/Mantis.",
+    "reference_urls": [
+      "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+      "https://news.xbox.com/en-us/2017/06/28/hw2-icons-of-war-dlc/",
+      "https://www.halopedia.org/Jerome-092",
+      "https://www.halopedia.org/Jerome-092/Gameplay"
+    ],
+    "primary_reference_scope": "Waypoint confirme Jerome/Red Team ; Xbox confirme que Commander Jerome est une variante de leader DLC. La page secondaire distingue visuellement les bandes Wars 1 et Wars 2 et le 092/losange, ainsi que le laser campagne versus Hydra Commander. Les marquages doivent néanmoins être validés sur capture du jeu avant statut final.",
+    "critical_checks": [
+      "M6 Spartan Laser, pas Hydra MLRS ni fusil d'assaut.",
+      "Bande rouge sur plastron anatomiquement droit selon Wars 2 : son tracé diffère de Wars 1.",
+      "092 et losange rouge sur plastron gauche, pas 117 de Chief.",
+      "Pas sac spécifique Commander Jerome, Mantis Theseus ou armure hybride du leader DLC.",
+      "Emblème corinthien épaule droite ; aucun miroir automatique des insignes."
+    ],
+    "prompt": "Create ONE full-body Jerome-092 sprite specifically as the standard Halo Wars 2 campaign Spartan assigned to Captain Cutter, in premium UHD painted 2D fighting-game art. Reproduce his original olive-green Mark IV MJOLNIR armor, broad chest, heavy shoulder plates, angular Mark IV helmet, opaque gold visor and black undersuit. Keep the Halo Wars 2 markings anatomically correct: the red stripe on his RIGHT breastplate descends diagonally toward the abdominal plating, while the small 092 identification and red diamond sit on his LEFT breastplate; retain the Corinthian-helmet emblem on his RIGHT shoulder. Match the sequel's stripe direction rather than the first Halo Wars version. Hold one recognizable M6 Spartan Laser in both hands at low ready, its complete bulky rectangular weapon housing and muzzle pointing screen right. This is the campaign laser-equipped incarnation; omit the Commander Jerome Hydra, added command backpack and Mantis. Pose him with a composed commanding idle stance, knees slightly bent and feet clearly separated. Near-orthographic lateral fighting-game camera facing right, slight torso opening and no extreme foreshortening. Include entire body, boots and full weapon within transparent margins. Crisp painted geometry, restrained wear, soft upper-left studio lighting. True transparent alpha; no floor, shadow, stage, captions, UI, extra character, pose sheet, firing beam or glowing aura."
+  }
+]

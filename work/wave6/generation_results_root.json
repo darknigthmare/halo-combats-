@@ -1,0 +1,306 @@
+{
+  "wave": 6,
+  "task": "Générer les 33 identités/classes manquantes des extensions déjà listées, reprendre la garde du Major et publier dans la PR existante ; Warden réutilisé sans nouvelle génération.",
+  "results": [
+    {
+      "entity_id": "chief_infinite",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "variant": 1,
+      "equipment_state": "unarmed_hand_to_hand_existing_armor",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "chief_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+        "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+        "generation_wave": 4,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/en-us/news/master-class",
+          "https://www.halowaypoint.com/news/customization-overview-season-5",
+          "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+        ],
+        "inherited_limitations": [
+          "Vérification anatomique du côté du 117 et des genouillères par rapport au modèle Infinite",
+          "Validation du Grappleshot sur l’avant-bras gauche et de sa géométrie",
+          "Comparaison des parties reconstruites après retrait du fusil",
+          "Marges verticales et contour alpha de production",
+          "Garde armée MA40 et animations à produire séparément",
+          "Comparaison aux références de l'épisode",
+          "Validation de la vue latérale et des asymétries",
+          "Contrôle du détourage et du cadrage",
+          "Animations, collisions et intégration au moteur"
+        ]
+      },
+      "prompt": "Edit the attached existing Halo Combats candidate into ONE new standalone static combat-guard key pose for John 117 le Major, Halo Infinite. Identity and game incarnation must be retained; match the attached armor geometry, materials, body proportions, facial anatomy, colors and all asymmetric equipment. Target visual fidelity to the exact Halo incarnation; no redesign. GEN3 Mark VI vert olive, 117 sur le plastron, visière dorée, proportions Infinite; ne pas remplacer par Mark VII multijoueur.\nChange the pose substantially from arms-at-sides neutral to this guard: Compact trained Spartan close-combat guard: left forearm leads at sternum height, right fist near lower jaw, both elbows bent; left foot a half step toward screen-right, rear foot anchored, knees slightly flexed. Keep the left-arm Grappleshot hardware and 117 chest marking.\nHands are empty, a deliberate unarmed hand-to-hand gameplay state; preserve worn equipment and holsters. Do not add a handheld weapon. Clear 2D fighting-game readability: face and torso aimed screen-right, near side profile (about 85 degrees from frontal), camera at torso height with minimal perspective, both feet visible and separated, forward and rear forearms readable without merging. This is a static key pose, not a sprite sheet or animation. Keep the FULL BODY in frame with at least 10 percent clear transparent padding around helmet, hands and boots; no cropping. Exactly one character, no inset, no duplicate, no labels, no UI, no background or floor or drop shadow. Neutral even lighting with crisp game-rendered material detail. Deliver a clean true-alpha transparent PNG.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 83054d30-294f-4384-8a54-9a4f51bf9799.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "retry_index": 3,
+      "prior_wave_failures": 3
+    },
+    {
+      "entity_id": "didact_h4",
+      "name": "Ur-Didact",
+      "reference_ids": [
+        "didact_h4"
+      ],
+      "equipment_state": "Armure personnelle Halo 4, casque fermé, mains vides.",
+      "prompt": "Create a reference-guided character asset of the UR-DIDACT from HALO 4, in the exact helmeted armored incarnation in the attached Kolby Jukes render. Preserve the imposing nonhuman armored proportions, narrow mask with warm amber eyes, segmented crown and pointed mouth guard, massive separated swept shoulder assemblies, layered graphite and silver biomechanical plates with burgundy gaps, fine amber luminous lines, long armored fingers and the distinctive feet. The bright cyan in the reference is rim lighting, not a new blue armor skin. Both arms in a calm commanding combat idle, one palm slightly extended toward screen right and the other lowered; keep armor masses unmerged, hands anatomically coherent. No held weapon, no telekinetic effect. He is the Halo 4 Ur-Didact, not Bornstellar or a generic armored knight. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:Didact_Masked_Render.png",
+          "image_url": "https://www.halopedia.org/images/c/c5/Didact_Masked_Render.png?8639f",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/didact_h4_reference.png",
+          "sha256": "b6408096cb0d2fce56ffa38b08d4466c822f10a0b2e3026bb91848750a1a2bbd",
+          "dimensions": {
+            "width": 1230,
+            "height": 1857
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Cutout of the Ur-Didact . Type Render Game Halo 4 Artist Kolby Jukes Source https://www.artstation.com/artwork/RnY4D Original filename kolby-jukes-didact-2.jpg "
+        }
+      ],
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ed0635ee-d044-42e4-968d-02e36b80f0b7.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "harbinger_infinite",
+      "name": "Harbinger",
+      "reference_ids": [
+        "harbinger_full_infinite",
+        "harbinger_infinite"
+      ],
+      "equipment_state": "Armure bordeaux de Halo Infinite, mains vides, lévitation basse.",
+      "prompt": "Create a reference-guided full-body character asset of THE HARBINGER, the Xalanyn from HALO INFINITE, using the supplied official full-body render as geometry authority and the second portrait only for face and armor details. Preserve her very tall slender alien proportions, pale blue-grey angular alien face and large violet eyes, broad diamond-shaped burgundy headdress, matching curved shoulder armor, bright circular gold-white chest aperture, narrow dark waist, long segmented arms, four digits on each hand, burgundy forearm and hip shells with fine gold tracery, split dark-violet hanging front panels, very long narrow legs and exact unusual backward-pointing foot shapes from the full-body reference. The lower limbs are not ordinary human booted feet. Show one calm low-hover combat idle with torso upright, hands slightly lifted and separated, both legs fully visible beneath the hanging panels. Preserve her back thruster assembly where exposed by the new angle without adding wings. No separate magical aura or environment. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_HarbingerRender.png",
+          "image_url": "https://www.halopedia.org/images/1/1a/HINF_HarbingerRender.png?d908d",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/harbinger_full_infinite_reference.png",
+          "sha256": "e74a98b9bdddda90c8f24d9ed13539a7a085e28664b61f8d62c9ed0bf119a6ca",
+          "dimensions": {
+            "width": 1512,
+            "height": 3840
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Render of The Harbinger . Included as part of the magazine kit linked to in this tweet. Type Render Game Halo Infinite Source https://t.co/b2mi2bDnQv Original filename Harbinger.png "
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:Harbinger_Enc22_Render.png",
+          "image_url": "https://www.halopedia.org/images/3/31/Harbinger_Enc22_Render.png?16b53",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/harbinger_infinite_reference.png",
+          "sha256": "8409d684e9bf018cb0bfda5660aa3949f416fb36ac7be261c66d4b8a0badf724",
+          "dimensions": {
+            "width": 749,
+            "height": 1082
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Cutout render of Harbinger . Type Render Game Halo Infinite Artist Josh Gregory Source Halo Encyclopedia 2022 "
+        }
+      ],
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-f742b47a-662a-462c-9d88-94e0753c1653.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/9d31c69eef8e/generated_images as /workspace/scratch/9d31c69eef8e/generated_images/exec-f742b47a-662a-462c-9d88-94e0753c1653.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "entity_id": "knight_h4",
+      "name": "Chevalier prométhéen",
+      "reference_ids": [
+        "knight_standard_h4",
+        "knight_h4"
+      ],
+      "equipment_state": "Chevalier standard Halo 4 : arme à distance au bras droit, lame de lumière solide au bras gauche.",
+      "prompt": "Create a reference-guided full-body asset of the STANDARD PROMETHEAN KNIGHT from HALO 4, matching the first supplied standard Knight render and using the second official Halo 4 press render as corroboration. Preserve the huge angular floating grey upper carapace extending far to either side, small forward-projecting pointed closed face plate, black inner structure, orange-gold luminous seams, long outer combat arms, TWO much smaller vestigial inner arms folded under the chest, heavy angular digitigrade armored legs and clawed feet. Keep exactly the canonical four-arm organization: two primary outer arms plus two small inner arms, not duplicated primary arms. The Knight's anatomical RIGHT outer arm carries the slim dark Forerunner ranged weapon; its anatomical LEFT outer arm has the distinctive orange hard-light blade. Preserve these identities and the precise reference shapes when turning toward screen right. Weighty slightly crouched fighting idle, legs apart, orange blade held low without crossing or hiding the entire silhouette; no firing and no teleport effect. This is the Halo 4 standard model, not the enlarged Halo 5 redesign, Lancer, Battlewagon or Commander. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight-Standard.png",
+          "image_url": "https://www.halopedia.org/images/8/88/H4-Knight-Standard.png?c1c92",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_standard_h4_reference.png",
+          "sha256": "0eede0295ec260c0e6212dafcdc2751d33d4a2ec58f453d8699cede7256b2c0f",
+          "dimensions": {
+            "width": 2600,
+            "height": 2210
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": ""
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight.png",
+          "image_url": "https://www.halopedia.org/images/d/d5/H4-Knight.png?2d755",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_h4_reference.png",
+          "sha256": "39078bf47a9a207e103fca902f70c730afbab8a34e5bb7b9b0a7550c89ce45da",
+          "dimensions": {
+            "width": 1800,
+            "height": 2080
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Halo 4 press kit image featuring a Promethean Knight . Type Render Game Halo 4 Source http://halo.xbox.com/en-us/Universe/Detail/e3-2012-halo-4-renders/600518a8-d6fd-4c01-9f46-d9a97fcd9cc1 Original filename 2820821-gallery.jpg "
+        }
+      ],
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 41b0d794-4467-4f4e-bc98-af99eb93ffc8.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "flood_human_h3",
+      "name": "Flood — forme de combat humaine",
+      "reference_ids": [
+        "flood_human_h3"
+      ],
+      "equipment_state": "Hôte Marine humain Halo 3, aucun objet tenu, bras gauche mutant et bras droit humain conservé.",
+      "prompt": "Create ONE reference-guided full-body character asset of the HUMAN-HOST FLOOD COMBAT FORM from HALO 3, matching the authentic developer presentation image supplied. The input is a two-view reference sheet; output only one single organism, no sheet, labels or second view. Preserve the canonical human Marine host proportions and exact recognizable asymmetry: residual armoured human RIGHT arm and hand, enlarged mutant LEFT arm ending in the several thick folded whip tendrils shown in the reference, swollen yellow-olive fungal upper body, displaced host head drooping toward its right shoulder, small characteristic red-brown sensory fronds at the chest, worn olive Marine armor fragments, camouflage trousers, leg plates and both dark combat boots. Match the restrained original game-model material and color treatment, without inventing additional wounds or battle effects. A hunched idle stance with feet apart and left tendrils resting forward, no attack in progress and no victim. Keep both boots and every tendril tip inside the frame. This is the Halo 3 human combat-form class, not an Elite or Brute host and not a Flood pure form. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:Humanflood.png",
+          "image_url": "https://www.halopedia.org/images/8/85/Humanflood.png?7d465",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/flood_human_h3_reference.png",
+          "sha256": "af54efd2760f63d707b4db22b97d480df12ad0c8132bff387e574e9eca9ea07a",
+          "dimensions": {
+            "width": 1449,
+            "height": 643
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": ""
+        }
+      ],
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/9d31c69eef8e/generated_images as /workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "entity_id": "didact_h4",
+      "name": "Ur-Didact",
+      "reference_ids": [
+        "didact_h4"
+      ],
+      "equipment_state": "Armure personnelle Halo 4, casque fermé, mains vides.",
+      "prompt": "Create a reference-guided character asset of the UR-DIDACT from HALO 4, in the exact helmeted armored incarnation in the attached Kolby Jukes render. Preserve the imposing nonhuman armored proportions, narrow mask with warm amber eyes, segmented crown and pointed mouth guard, massive separated swept shoulder assemblies, layered graphite and silver biomechanical plates with burgundy gaps, fine amber luminous lines, long armored fingers and the distinctive feet. The bright cyan in the reference is rim lighting, not a new blue armor skin. Both arms in a calm commanding combat idle, one palm slightly extended toward screen right and the other lowered; keep armor masses unmerged, hands anatomically coherent. No held weapon, no telekinetic effect. He is the Halo 4 Ur-Didact, not Bornstellar or a generic armored knight. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_same_prompt",
+      "variant": 1,
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:Didact_Masked_Render.png",
+          "image_url": "https://www.halopedia.org/images/c/c5/Didact_Masked_Render.png?8639f",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/didact_h4_reference.png",
+          "sha256": "b6408096cb0d2fce56ffa38b08d4466c822f10a0b2e3026bb91848750a1a2bbd",
+          "dimensions": {
+            "width": 1230,
+            "height": 1857
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Cutout of the Ur-Didact . Type Render Game Halo 4 Artist Kolby Jukes Source https://www.artstation.com/artwork/RnY4D Original filename kolby-jukes-didact-2.jpg "
+        }
+      ],
+      "retry_index": 1,
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 435b6d5b-d229-4214-ac13-be893678eed2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "knight_h4",
+      "name": "Chevalier prométhéen",
+      "reference_ids": [
+        "knight_standard_h4",
+        "knight_h4"
+      ],
+      "equipment_state": "Chevalier standard Halo 4 : arme à distance au bras droit, lame de lumière solide au bras gauche.",
+      "prompt": "Create a reference-guided full-body asset of the STANDARD PROMETHEAN KNIGHT from HALO 4, matching the first supplied standard Knight render and using the second official Halo 4 press render as corroboration. Preserve the huge angular floating grey upper carapace extending far to either side, small forward-projecting pointed closed face plate, black inner structure, orange-gold luminous seams, long outer combat arms, TWO much smaller vestigial inner arms folded under the chest, heavy angular digitigrade armored legs and clawed feet. Keep exactly the canonical four-arm organization: two primary outer arms plus two small inner arms, not duplicated primary arms. The Knight's anatomical RIGHT outer arm carries the slim dark Forerunner ranged weapon; its anatomical LEFT outer arm has the distinctive orange hard-light blade. Preserve these identities and the precise reference shapes when turning toward screen right. Weighty slightly crouched fighting idle, legs apart, orange blade held low without crossing or hiding the entire silhouette; no firing and no teleport effect. This is the Halo 4 standard model, not the enlarged Halo 5 redesign, Lancer, Battlewagon or Commander. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_same_prompt",
+      "variant": 1,
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight-Standard.png",
+          "image_url": "https://www.halopedia.org/images/8/88/H4-Knight-Standard.png?c1c92",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_standard_h4_reference.png",
+          "sha256": "0eede0295ec260c0e6212dafcdc2751d33d4a2ec58f453d8699cede7256b2c0f",
+          "dimensions": {
+            "width": 2600,
+            "height": 2210
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": ""
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight.png",
+          "image_url": "https://www.halopedia.org/images/d/d5/H4-Knight.png?2d755",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_h4_reference.png",
+          "sha256": "39078bf47a9a207e103fca902f70c730afbab8a34e5bb7b9b0a7550c89ce45da",
+          "dimensions": {
+            "width": 1800,
+            "height": 2080
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Halo 4 press kit image featuring a Promethean Knight . Type Render Game Halo 4 Source http://halo.xbox.com/en-us/Universe/Detail/e3-2012-halo-4-renders/600518a8-d6fd-4c01-9f46-d9a97fcd9cc1 Original filename 2820821-gallery.jpg "
+        }
+      ],
+      "retry_index": 1,
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f2bc3703-6034-4040-bb5e-155b03b75ac1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "flood_human_h3",
+      "name": "Flood — forme de combat humaine",
+      "reference_ids": [
+        "flood_human_h3"
+      ],
+      "equipment_state": "Hôte Marine humain Halo 3, aucun objet tenu, bras gauche mutant et bras droit humain conservé.",
+      "prompt": "Edit the FIRST supplied generated Halo 3 human-host Flood candidate to correct only its fighting-game view and framing, using the SECOND supplied authentic Halo 3 developer reference sheet to preserve anatomy and armor. Keep the same single creature and exact design. The current candidate is nearly frontal; rotate the WHOLE body into a clear RIGHT-FACING SIDE PROFILE, about 85 degrees away from frontal. Head/chest orientation, hips, both knees and both boot toes should all read as facing screen right, with the nearer and farther legs staggered so both are visible. The mutant arm is the creature's anatomical LEFT arm and must stay on that side; the anatomical RIGHT arm remains the armored human arm. Preserve the drooping host head, reference biomass, chest sensory fronds, camouflage trousers, armor pieces, two boots, and the exact count and shapes of the long folded left-arm tendrils. No extra limb, no second entity, no new wound or battle effect. This is a static idle, not an attack scene. Show every tendril tip and both boots without cropping, use a wide enough canvas, occupy at most 80 percent of canvas width and height with transparent padding. Keep the original high-detail Halo 3 game-model finish. Actual transparent alpha background, no cast shadow, no ground, no backdrop, no text, no inset or labels.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "orientation_correction",
+      "variant": 2,
+      "reference_input": [
+        {
+          "kind": "previous_generated_candidate",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png",
+          "generated": true,
+          "fidelity_status": "not_certified"
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:Humanflood.png",
+          "image_url": "https://www.halopedia.org/images/8/85/Humanflood.png?7d465",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/flood_human_h3_reference.png",
+          "sha256": "af54efd2760f63d707b4db22b97d480df12ad0c8132bff387e574e9eca9ea07a",
+          "dimensions": {
+            "width": 1449,
+            "height": 643
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": ""
+        }
+      ],
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-8d4fe570-1f07-46c1-ba05-6ea1edc060cb.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/9d31c69eef8e/generated_images as /workspace/scratch/9d31c69eef8e/generated_images/exec-8d4fe570-1f07-46c1-ba05-6ea1edc060cb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ]
+}

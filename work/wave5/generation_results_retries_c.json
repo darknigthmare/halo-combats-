@@ -1,0 +1,155 @@
+{
+  "wave": 5,
+  "task": "Dernière reprise identique des quatre gardes manquantes ; troisième tentative globale maximum par entité.",
+  "results": [
+    {
+      "entity_id": "chief_infinite",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "attempt_kind": "retry_same_prompt",
+      "retry_index": 2,
+      "variant": 1,
+      "equipment_state": "unarmed_hand_to_hand_existing_armor",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "chief_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+        "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+        "generation_wave": 4,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/en-us/news/master-class",
+          "https://www.halowaypoint.com/news/customization-overview-season-5",
+          "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+        ],
+        "inherited_limitations": [
+          "Vérification anatomique du côté du 117 et des genouillères par rapport au modèle Infinite",
+          "Validation du Grappleshot sur l’avant-bras gauche et de sa géométrie",
+          "Comparaison des parties reconstruites après retrait du fusil",
+          "Marges verticales et contour alpha de production",
+          "Garde armée MA40 et animations à produire séparément",
+          "Comparaison aux références de l'épisode",
+          "Validation de la vue latérale et des asymétries",
+          "Contrôle du détourage et du cadrage",
+          "Animations, collisions et intégration au moteur"
+        ]
+      },
+      "prompt": "Edit the attached existing Halo Combats candidate into ONE new standalone static combat-guard key pose for John 117 le Major, Halo Infinite. Identity and game incarnation must be retained; match the attached armor geometry, materials, body proportions, facial anatomy, colors and all asymmetric equipment. Target visual fidelity to the exact Halo incarnation; no redesign. GEN3 Mark VI vert olive, 117 sur le plastron, visière dorée, proportions Infinite; ne pas remplacer par Mark VII multijoueur.\nChange the pose substantially from arms-at-sides neutral to this guard: Compact trained Spartan close-combat guard: left forearm leads at sternum height, right fist near lower jaw, both elbows bent; left foot a half step toward screen-right, rear foot anchored, knees slightly flexed. Keep the left-arm Grappleshot hardware and 117 chest marking.\nHands are empty, a deliberate unarmed hand-to-hand gameplay state; preserve worn equipment and holsters. Do not add a handheld weapon. Clear 2D fighting-game readability: face and torso aimed screen-right, near side profile (about 85 degrees from frontal), camera at torso height with minimal perspective, both feet visible and separated, forward and rear forearms readable without merging. This is a static key pose, not a sprite sheet or animation. Keep the FULL BODY in frame with at least 10 percent clear transparent padding around helmet, hands and boots; no cropping. Exactly one character, no inset, no duplicate, no labels, no UI, no background or floor or drop shadow. Neutral even lighting with crisp game-rendered material detail. Deliver a clean true-alpha transparent PNG.",
+      "source_path": null,
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 79bd48e7-ef34-4ef6-bac2-388352a908dc.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "jun_reach",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "attempt_kind": "retry_same_prompt",
+      "retry_index": 2,
+      "variant": 1,
+      "equipment_state": "unarmed_hand_to_hand_existing_armor",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "jun_reach_neutral_right_v01",
+        "path": "assets/characters_wave4/jun_reach_neutral_right_v01.png",
+        "sha256": "fb179d93e5852beec44a5f66bd7b02f49974a4903c3023530f813f0a11e3e8ec",
+        "generation_wave": 4,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/news/halo-winter-contention",
+          "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+          "https://www.halopedia.org/Jun-A266"
+        ],
+        "inherited_limitations": [
+          "Vérifier le plastron, les plaques de jambes et les asymétries sur des vues complémentaires de Jun dans Halo: Reach.",
+          "Préparer ultérieurement une vue de combat réellement latérale et les animations ; conserver cette sortie comme référence neutre.",
+          "Prévoir davantage d’espace au-dessus et sous le personnage lors d’une future correction, sans recadrer ni retoucher ce PNG livré.",
+          "Contrôler les franges de faible alpha lors de l’intégration sur fonds clairs et sombres.",
+          "Comparaison aux références de l'épisode",
+          "Validation de la vue latérale et des asymétries",
+          "Contrôle du détourage et du cadrage",
+          "Animations, collisions et intégration au moteur"
+        ]
+      },
+      "prompt": "Edit the attached existing Halo Combats candidate into ONE standalone static fighting-game combat-guard key pose, keeping its exact identity, game incarnation, material detail, body proportions and asymmetries. Jun-A266 in Halo Reach. Preserve Scout helmet and olive armor, green/earth CAMOUFLAGE MESH scarf around neck and shoulders, right shoulder accessories and backpack antenna. Agile cautious close-combat guard with both gloved hands up at chest/visor height and elbows bent, staggered feet. Hands empty.\nMake an unmistakable defensive pose, not arms-at-sides neutral. Rotate the stance toward a near side profile, facing screen RIGHT, camera at torso height with very little perspective. Both arms and both legs need clear separate silhouettes, both feet visible and grounded on the same imaginary plane. Preserve armor panel design and weathering; do not copy the neutral pose. FULL BODY with at least 10 percent empty padding around every extremity including antennas, helmet and boots. True transparent alpha background, no floor, no drop shadow, no labels, no secondary figure, no portrait insert or sprite sheet. Even neutral lighting, crisp high-detail game-rendered materials. This is one static unarmed guard illustration, not an animation.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fb62a2d8-4624-481d-8551-52cf4f5495d6.png",
+      "status": "generated_candidate",
+      "error": null
+    },
+    {
+      "entity_id": "jerome_hw2",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "attempt_kind": "retry_same_prompt",
+      "retry_index": 2,
+      "variant": 1,
+      "equipment_state": "armed_existing_spartan_laser",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "jerome_hw2_neutral_right_v01",
+        "path": "assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+        "sha256": "0559322aa3a021736df018fcb9d8f51bd9e19fd960cad43eed05c5098136675d",
+        "generation_wave": 2,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+          "https://news.xbox.com/en-us/2017/06/28/hw2-icons-of-war-dlc/",
+          "https://www.halopedia.org/Jerome-092",
+          "https://www.halopedia.org/Jerome-092/Gameplay"
+        ],
+        "inherited_limitations": [
+          "Profil de combat plus latéral",
+          "Marges supplémentaires au-dessus du casque et sous les bottes",
+          "Comparaison des marquages 092, de l’armure et du Spartan Laser aux références Halo Wars 2",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+          "Comparaison aux références de l'épisode",
+          "Validation du profil latéral et de l'anatomie",
+          "Vérification du détourage et des armes",
+          "Animations et sprites de combat",
+          "Collisions et intégration au moteur"
+        ]
+      },
+      "prompt": "Use case: identity-preserve. Edit the attached existing Halo Combats candidate into ONE full-body standalone static fighting-game guard pose for Jerome 092, Halo Wars 2. The input is the edit target and appearance reference. Keep this exact character identity and game incarnation, armor geometry, materials, proportions, colors, surface wear, facial anatomy and every asymmetric equipment placement. Do not redesign the armor or mirror its anatomical sides.\nChange the pose substantially: Defensive heavy-weapon guard clearly different from the existing relaxed carry: widen and stagger the feet, flex knees and lean the upper torso forward slightly; raise the existing Spartan Laser across the upper torso in a compact two-handed ready position, barrel directed screen-right, stock seated naturally. Preserve the complete shape and proportions of this exact existing weapon, its handle and yellow stripe detail. Preserve the armor's red diagonal chest stripe, white 092, red diamond and white shoulder emblem on their original anatomical sides. No firing or new weapon.\nCompose for a side-view 2D fighting game: head, torso and feet aim screen-right, near side profile about 80 to 85 degrees from frontal; camera at torso height, minimal perspective. Both separated feet must remain visible; hands and forearms must read as separate limbs. One static key pose, not a sheet or animation. Retain the full figure and any existing weapon, with at least 10 percent empty padding on all sides. True transparent alpha background, no glow, no backdrop, no floor or cast shadow. Neutral even lighting, crisp game-rendered materials. Exactly one character; no duplicate or inset, no labels, UI, particles or effects. Deliver a clean transparent PNG.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c7b653ca-37b0-4190-9df4-c331259456a4.png",
+      "status": "generated_candidate",
+      "error": null
+    },
+    {
+      "entity_id": "zealot_reach",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "attempt_kind": "retry_same_prompt",
+      "retry_index": 2,
+      "variant": 1,
+      "equipment_state": "unarmed_hand_to_hand_existing_armor",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "zealot_reach_neutral_right_v01",
+        "path": "assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+        "sha256": "2d5b7641c41308e33a334cb9fc1b4bc4dfe18bd1c8fc81ca312e9a54663b5682",
+        "generation_wave": 2,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/news/canon-fodder-fighting-words",
+          "https://support.halowaypoint.com/hc/en-us/articles/360037081152-Halo-Reach-Achievements-List",
+          "https://www.halopedia.org/Sangheili_Zealot"
+        ],
+        "inherited_limitations": [
+          "Comparaison du casque, des épaules et de la teinte au Zealot Halo Reach",
+          "Validation du visage et des mandibules sur une vue lisible",
+          "Marges plus larges au-dessus du casque et sous les pieds",
+          "Contrôle du contour alpha sur fonds de composition clairs et sombres",
+          "Déclinaison ultérieure en garde de combat et animations",
+          "Comparaison aux références de l'épisode",
+          "Validation du profil latéral et de l'anatomie",
+          "Vérification du détourage et des armes",
+          "Animations et sprites de combat",
+          "Collisions et intégration au moteur"
+        ]
+      },
+      "prompt": "Use case: identity-preserve. Edit the attached existing Halo Combats candidate into ONE full-body standalone static fighting-game guard pose for Elite Zealot, Halo Reach. The input is the edit target and appearance reference. Keep this exact character identity and game incarnation, armor geometry, materials, proportions, colors, surface wear, facial anatomy and every asymmetric equipment placement. Do not redesign the armor or mirror its anatomical sides.\nChange the pose substantially: Empty-handed Sangheili defensive guard: lower the center of gravity through the digitigrade legs, stagger the clawed feet toward screen-right; one open claw guards in front of the chest and the rear bent forearm guards just below the mandibles. Preserve the four-mandibled alien facial anatomy, long dark-red Reach Zealot helmet fins, burgundy overlapping shoulder plates and rear-bent leg anatomy. No sword or pistol added.\nCompose for a side-view 2D fighting game: head, torso and feet aim screen-right, near side profile about 80 to 85 degrees from frontal; camera at torso height, minimal perspective. Both separated feet must remain visible; hands and forearms must read as separate limbs. One static key pose, not a sheet or animation. Retain the full figure and any existing weapon, with at least 10 percent empty padding on all sides. True transparent alpha background, no glow, no backdrop, no floor or cast shadow. Neutral even lighting, crisp game-rendered materials. Exactly one character; no duplicate or inset, no labels, UI, particles or effects. Deliver a clean transparent PNG.",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-0d30595a-0700-4ea0-b94b-c4208e5a2cb9.png",
+      "status": "generated_candidate",
+      "error": null
+    }
+  ]
+}

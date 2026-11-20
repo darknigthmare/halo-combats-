@@ -1,0 +1,156 @@
+{
+  "checked_on": "2026-11-19",
+  "policy": "Sources web vérifiées et références primaires de jeux sont distinguées; aucune capture 1 à 1 n’est déclarée validée ici.",
+  "sources": [
+    {
+      "id": "W01",
+      "title": "Canon Fodder If They Want Lore We Will Give Em Lore",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-give-em-lore",
+      "ref": "turn616691742view0",
+      "status": "web_verified",
+      "supports": [
+        "Différenciation Scarab Halo 2 et Halo 3",
+        "Scarab paria Halo Wars 2",
+        "Super Scarab et excavation"
+      ]
+    },
+    {
+      "id": "W02",
+      "title": "Halo Infinite Weapon Equipment and Vehicle Inventory",
+      "publisher": "Halo Support",
+      "url": "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+      "ref": "turn633669972search0",
+      "status": "web_verified",
+      "supports": [
+        "Wraith Infinite",
+        "Banshee Infinite",
+        "Phantom Infinite"
+      ]
+    },
+    {
+      "id": "W03",
+      "title": "Canon Fodder High Value Histories",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "ref": "turn216923027view2",
+      "status": "web_verified",
+      "supports": [
+        "Paire de Hunters du Cartographe silencieux",
+        "Kraken dans Halo 5 Osiris",
+        "Repères de lieux et personnages"
+      ]
+    },
+    {
+      "id": "W04",
+      "title": "Canon Fodder Fiction Festivities",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+      "ref": "turn791462962view0",
+      "status": "web_verified",
+      "supports": [
+        "Harvester dans Halo 4 Spartan Ops",
+        "House of Reckoning Halo Infinite",
+        "Mammoth Halo 4 Reclaimer"
+      ]
+    },
+    {
+      "id": "W05",
+      "title": "First Look at Warzone Firefight in Halo 5 Guardians",
+      "publisher": "Xbox Wire",
+      "url": "https://news.xbox.com/en-us/2016/03/20/first-look-at-warzone-firefight-in-halo-5-guardians/",
+      "ref": "turn399273014view2",
+      "status": "web_verified",
+      "supports": [
+        "Warden Eternal",
+        "Phaeton dans Halo 5",
+        "Combats PvE à objectifs"
+      ]
+    },
+    {
+      "id": "W06",
+      "title": "Pack de chef Colony",
+      "publisher": "Xbox Store Microsoft Studios",
+      "url": "https://www.xbox.com/fr-fr/games/store/pack-de-chef-colony/bw74dckrsq4r",
+      "ref": "turn399273014view1",
+      "status": "web_verified",
+      "supports": [
+        "Goliath Halo Wars 2",
+        "Colony et Lekgolo"
+      ]
+    },
+    {
+      "id": "W07",
+      "title": "The Nightmare Has Awoken",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/en-us/news/the-nightmare-has-awoken",
+      "ref": "turn616691742view3",
+      "status": "web_verified",
+      "supports": [
+        "Awakening the Nightmare campagne paria contre Flood",
+        "Lich Vanguard Halo Wars 2",
+        "Scarab volatile",
+        "Terminus Firefight"
+      ]
+    },
+    {
+      "id": "W08",
+      "title": "That Is So Raven",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/thats-so-raven",
+      "ref": "turn399273014view0",
+      "status": "web_verified",
+      "supports": [
+        "Juggernaut coupé de Halo 2",
+        "Juggernaut canonique dans Fireteam Raven",
+        "Lich dans Fireteam Raven"
+      ]
+    },
+    {
+      "id": "W09",
+      "title": "Digsite Discoveries Halo MCC",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/digsite-discoveries",
+      "ref": "turn791462962view1",
+      "status": "web_verified",
+      "supports": [
+        "Guardian de Halo 3 supprimé distinct du Guardian de Halo 5",
+        "Contenu prototype et restaurations identifiés"
+      ]
+    },
+    {
+      "id": "W10",
+      "title": "Digsite Deep Dive",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/digsite-deep-dive",
+      "ref": "turn216923027view3",
+      "status": "web_verified",
+      "supports": [
+        "Séparation prototype Halo 1.5 Halo 2 et contenu sorti"
+      ]
+    },
+    {
+      "id": "W11",
+      "title": "Halo Wars 2 Awakening the Nightmare",
+      "publisher": "Xbox Store Microsoft Studios",
+      "url": "https://www.xbox.com/en-US/games/store/halo-wars-2-awakening-the-nightmare/9NBLGGH4TQDD",
+      "ref": "turn425180909search7",
+      "status": "web_verified",
+      "supports": [
+        "Existence de l’extension et du Flood",
+        "Ne valide pas seul chaque modèle de boss"
+      ]
+    },
+    {
+      "id": "W12",
+      "title": "Anniversary Angle Memorable Campaign Moments",
+      "publisher": "Halo Waypoint",
+      "url": "https://www.halowaypoint.com/news/anniversary-angle-memorable-campaign-moments",
+      "ref": "turn546312156search16",
+      "status": "web_verified",
+      "supports": [
+        "Abordage du Kraken et bataille de Sunaion Halo 5"
+      ]
+    }
+  ]
+}

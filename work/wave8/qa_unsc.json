@@ -1,0 +1,267 @@
+{
+  "wave": 8,
+  "scope": "Inspection des références UNSC V8 ; aucune sortie à ce stade.",
+  "reference_checks": [
+    {
+      "entity_id": "linda_h5",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+      "sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+      "dimensions": [
+        800,
+        1060
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Casque ARGUS à plusieurs lentilles dorées distinctes, grands boîtiers optiques asymétriques et sac rectangulaire haut visibles.",
+        "Armure taupe-grise, fusil de précision long, deux bottes visibles ; détails cachés du côté opposé non documentés."
+      ]
+    },
+    {
+      "entity_id": "locke_h5",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+      "sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+      "dimensions": [
+        520,
+        1040
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Casque HUNTER fermé, visière cyan étroite, armure gris acier et fusil vert sombre à marquages jaunes visibles.",
+        "Rendu complet de face/trois-quarts ; conversion latérale ne peut certifier les volumes cachés."
+      ]
+    },
+    {
+      "entity_id": "tanaka_h5",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+      "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+      "dimensions": [
+        540,
+        1070
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Armure claire TECHNICIAN, conduites cyan au casque et sous le plastron, visière rose/cuivrée, emblème rouge sur épaule anatomique gauche visibles.",
+        "DMR noir long dans la main droite du rendu ; pose nouvelle demandée à deux mains sans changer armure."
+      ]
+    },
+    {
+      "entity_id": "dare_odst",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dare_odst_reference.png",
+      "sha256": "47c279bc6bfbb9c8dd880434b197c191bbdcf0ad2e178e8c4a22962c8896767b",
+      "dimensions": [
+        1200,
+        2843
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Casque RECON 2009 avec marquage DARE et lampe frontale, visière ambre, lumière verte abdominale, doigts découverts et pistolet noir visibles.",
+        "Personnage complet mais source presque frontale ; géométrie arrière et côté occulté non certifiables."
+      ]
+    },
+    {
+      "entity_id": "romeo_odst",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/romeo_odst_reference.png",
+      "sha256": "72932c4b25c5fed4935c894cbf4a388310797b29f653331707b867612556cb15",
+      "dimensions": [
+        1985,
+        2674
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Plastron bleu usé, grande épaulette bleue anatomique gauche, optique de casque décalée vers sa droite et doigts découverts visibles.",
+        "SRS99D entier à long canon et bipied visible ; variante ODST 2009, pas Spartan ultérieur."
+      ]
+    },
+    {
+      "entity_id": "mickey_odst",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/mickey_odst_reference.jpg",
+      "sha256": "e0bb3182b119fb36009f28bbee898248061eadfdef65c8b6f5d2174a8cdf6f63",
+      "dimensions": [
+        1144,
+        1500
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Bande crème du casque, lampe à la tempe anatomique droite, bandes rouges épaules, sac et rangées de cylindres au tibia droit visibles.",
+        "M41 SPNKr à double tube tenu devant le corps ; environnement et watermark présents seulement dans la référence."
+      ]
+    },
+    {
+      "entity_id": "agryna_infinite",
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/agryna_infinite_reference.jpg",
+      "sha256": "887f1eaa995b818f0e9acb69217a9617d13d48703dd050b1e9615bbfeda1949d",
+      "dimensions": [
+        999,
+        1992
+      ],
+      "sha256_matches_prior_record": true,
+      "individual_view_image_inspected": true,
+      "notes": [
+        "Visière bleue large, module sombre à tempe anatomique droite, armure ivoire/vert-gris, badge jaune central et bottes visibles.",
+        "Source réelle en jeu, bras croisés ; dessous des bras et flancs occultés ne peuvent être certifiés dans la nouvelle garde."
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "entity_id": "locke_h5",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ba4b2220-157a-4874-9df8-04ddd72c363c.png",
+      "repo_path": "assets/characters_wave8/locke_h5_initial_right_v01.png",
+      "sha256": "ec65dd5fd06a829473d3f5ed2a3edbcc361c9b67ca0cd07ad84f691e7934b916",
+      "reviewed_utc": "2026-11-20T08:20:36.532697+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Aperçu renvoyé par imagegen inspecté individuellement : un Locke complet, casque fermé HUNTER à visière cyan, armure gris acier, deux bottes et fusil vert entièrement visibles.",
+        "Deux mains tiennent un seul fusil ; silhouette, pose et tête orientées vers la droite, mais torse encore en trois-quarts, pas un profil strict.",
+        "La référence officielle est frontale/trois-quarts ; volumes de côté, petits marquages et géométrie détaillée du fusil restent à comparer au modèle.",
+        "La marge au-dessus du casque est de18px et sous les bottes de36px sur1185px ; les6% demandés ne sont pas atteints.",
+        "Quelques franges colorées fines se voient sur les contours dans l’aperçu ; détourage de production à examiner."
+      ],
+      "required_followup": [
+        "Comparer la géométrie latérale de l’armure et du fusil à des vues canoniques supplémentaires.",
+        "Produire un cadrage avec marges verticales plus homogènes et un profil plus strict avant animation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1327,
+        "height": 1185
+      },
+      "mode": "RGBA",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "visual_inspection_source": "imagegen_returned_preview",
+      "local_file_view_attempted": true,
+      "local_file_view_limitation": "view_image affiche presque noir pour copie et original ; pixels RGB non nuls et alpha253 sur des zones du corps vérifiés en lecture seule. Aucun pixel modifié.",
+      "technical_qa": {
+        "width": 1327,
+        "height": 1185,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "alpha_bbox_gt16": [
+          212,
+          18,
+          1052,
+          1149
+        ],
+        "transparent_fraction": 0.7689315387330325,
+        "copied_byte_for_byte": true
+      },
+      "read_only_display_diagnostic": {
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ],
+        "embedded_metadata_keys": [],
+        "icc_profile_present": false,
+        "gamma": null,
+        "alpha_gt200_pixels": 339416,
+        "alpha_253_pixels": 263874,
+        "alpha_255_pixels": 747,
+        "alpha_zero_pixels": 1209141,
+        "rgba_mean_on_alpha_gt200": [
+          71.3774365380536,
+          73.19776910929362,
+          75.76018219530016,
+          252.4397671294223
+        ],
+        "rgba_extrema_on_alpha_gt200": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            201,
+            255
+          ]
+        ],
+        "measurement_only": true
+      },
+      "independent_corroboration": {
+        "reviewer": "root",
+        "local_png_display": "normal",
+        "canonical_reference_compared": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+        "reported_observation": "Root a vu le PNG local normalement et comparé le rendu officiel : HUNTER gris sombre, visière cyan, fusil vert, silhouette entière droite trois-quarts ; marges serrées confirmées.",
+        "original_tool_anomaly_reproduced": false
+      }
+    },
+    {
+      "entity_id": "mickey_odst",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/wave8_mickey_odst_returned_original.png",
+      "repo_path": "assets/characters_wave8/mickey_odst_initial_right_v01.png",
+      "sha256": "8ded78a52c5db662362c34b1cf9bce1baeeb68c584746fdd7d0a6c0d21a4ed93",
+      "reviewed_utc": "2026-11-20T08:28:22.703106+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Aperçu imagegen et PNG local via view_image inspectés individuellement : Mickey ODST2009 entier, casque, deux bottes et SPNKr complet visibles.",
+        "Lampe à la tempe anatomique droite, bande crème de casque, bandes rouges d’épaule, sac rectangulaire et cylindres sur tibia droit concordent avec la référence.",
+        "Deux mains visibles sur le lanceur et proportions humaines ; pose dirigée vers la droite mais torse encore en trois-quarts.",
+        "Les microtextes du SPNKr sont partiellement déformés ; géométrie fine du double tube et surfaces occultées non certifiables depuis cette seule référence.",
+        "Marges alpha54px en haut et48px en bas sur1437px, inférieures aux6% demandés ; fines franges colorées de détourage visibles par endroits."
+      ],
+      "required_followup": [
+        "Comparer les détails et marquages du SPNKr à des vues officielles supplémentaires.",
+        "Prévoir profil strict, marges verticales homogènes et contrôle des contours alpha avant animation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1095,
+        "height": 1437
+      },
+      "mode": "RGBA",
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "visual_inspection_source": "imagegen_returned_preview_and_local_view_image",
+      "local_file_view_attempted": true,
+      "local_file_view_limitation": null,
+      "technical_qa": {
+        "width": 1095,
+        "height": 1437,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "alpha_bbox_gt16": [
+          149,
+          54,
+          981,
+          1389
+        ],
+        "transparent_fraction": 0.670876985602298,
+        "copied_byte_for_byte": true,
+        "exact_returned_png_bytes": true
+      }
+    }
+  ],
+  "status": "completed",
+  "summary": {
+    "reference_images_individually_inspected": 7,
+    "generated_outputs_reviewed": 2,
+    "candidate_with_reservations": 2,
+    "certified_one_to_one": 0,
+    "animated_outputs": 0,
+    "original_png_bytes_preserved": true
+  },
+  "frozen_utc": "2026-11-20T08:29:55.079868+00:00"
+}

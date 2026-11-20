@@ -1,0 +1,145 @@
+{
+  "wave": 6,
+  "reviews": [
+    {
+      "entity_id": "fred_h5",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a61248be-45ba-4b1f-b81e-dc4029acca44.png",
+      "sha256": "0f668d49dae5ae2abd7a5f360fb498e267496730e0a633d9ae95f2199e01b9aa",
+      "reviewed_utc": "2026-11-20T04:21:11.283860+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Référence officielle inspectée ; armure CENTURION bleu gris, repères jaunes/cyan et casque à viseur ambre identifiable.",
+        "Un personnage et une arme visibles en entier ; deux mains sur l’arme ; orientation vers la droite mais torse encore en trois-quarts.",
+        "Détails de l’optique du fusil et surfaces occultées dans la source extrapolés ; marge supérieure et inférieure réduite."
+      ],
+      "required_followup": [
+        "Validation artistique détaillée de la géométrie de l’arme et de l’armure ; profil strict et marges homogènes à prévoir pour la phase animation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "mode": "RGBA"
+    },
+    {
+      "entity_id": "vale_h5",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c3dc7c5f-2271-4674-9e72-ff15cf4c8274.png",
+      "sha256": "c693b9d73a1e1747e70307dd016ff42a7a31d07d2b02f9dac79a37ff3f22ce38",
+      "reviewed_utc": "2026-11-20T04:28:19.671631+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "COPPERHEAD rouge et or, viseur à mailles et pose droite reconnaissables ; silhouette complète visible.",
+        "Le halo coloré affiché dans l’aperçu correspond majoritairement à du RGB sous alpha nul, selon contrôle numérique indépendant du QA central ; il ne démontre pas un fond visible.",
+        "Alpha réel 0–254, 1 170 621 pixels alpha 0 selon le QA central ; 19 798 pixels de faible alpha 1–16 requièrent examen des franges.",
+        "Révision de la première appréciation visuelle : pas de défaut global de transparence confirmé. Une tentative d’édition du détourage a néanmoins été lancée et demeure journalisée."
+      ],
+      "required_followup": [
+        "Vérifier les franges sur composition réelle avant animation ; valider géométrie fine du M20 et micro-marquages."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "mode": "RGBA",
+      "qa_revision_reason": "Les valeurs alpha mesurées ne confirmaient pas la première hypothèse tirée de l’aperçu RGB."
+    },
+    {
+      "entity_id": "dutch_odst",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-70053581-3dfa-4053-a2e4-3aea2ecea4fc.png",
+      "sha256": "3cac3de02d62168534a15cefcec0553b2ce92a5ff3802c894efc6b09558d2aeb",
+      "reviewed_utc": "2026-11-20T04:28:19.673360+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Casque ODST à bande orange et dents peintes, silhouette humaine lourde, laser Spartan et bras exposés conservés.",
+        "Un personnage et une arme entiers, orientés vers la droite ; jambes encore en trois-quarts.",
+        "Port du laser proche de la référence, mais prise de main et mécanique de l’arme à contrôler en préparation animation."
+      ],
+      "required_followup": [
+        "Valider les doigts et les prises du laser ; compléter les vues latérales et la géométrie masquée."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1301,
+        "height": 1209
+      },
+      "mode": "RGBA"
+    },
+    {
+      "entity_id": "forge_hw",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c52ea9b5-ffe5-4f68-b80c-c3e4e0f803da.png",
+      "sha256": "fadb78c8539a4e7b314e8312796ee34e10b21885e78a29a6d0145d9c36bfbdfe",
+      "reviewed_utc": "2026-11-20T04:36:46.846346+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Incarnation Marine de Halo Wars 2009 conservée : visage rasé court, armure brun bronze, insigne et holster anatomiques droits.",
+        "Garde mains libres, corps entier et orientation droite ; torse en trois-quarts et pied arrière frontal.",
+        "La référence de visage complète le plastron masqué sur le rendu entier ; petits insignes, stubble et volumes latéraux demeurent des interprétations."
+      ],
+      "required_followup": [
+        "Contrôle de ressemblance sur une vue latérale canonique et des micro-marquages ; uniformiser l’angle pour un futur rig de combat."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1129,
+        "height": 1393
+      },
+      "mode": "RGBA"
+    },
+    {
+      "entity_id": "dinh_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7dee4e0e-a992-45a6-abda-79ce821a7636.png",
+      "sha256": "7c3485787dc8d7bac25eb915443f89ea7de0cb89d312036255e601640df11725",
+      "reviewed_utc": "2026-11-20T04:45:52.253066+00:00",
+      "verdict": "candidate_requires_correction",
+      "notes": [
+        "Casque ARTAIUS à viseur rouge, épaule rouge droite et radio gauche conservés ; jambes reprises du concept officiel.",
+        "Asymétrie incorrecte confirmée par deux revues : le groupe de grosses poches bleues est placé sur la hanche anatomique droite sous l’épaule rouge, au lieu de la hanche gauche côté radio du rendu final.",
+        "Le halo RGB de l’aperçu ne démontre pas un fond visible : points externes contrôlés par QA centrale avec alpha 0 ; aucune coupe alpha >16 au cadre.",
+        "La correction ciblée V02 a été demandée au service imagegen et rejetée ; aucun fichier V02 n’a été produit, V01 n’est ni écrasée ni déclarée corrigée."
+      ],
+      "required_followup": [
+        "Déplacer le groupe de grosses poches sur la hanche anatomique gauche, conserver le reste.",
+        "Vérifier les jambes contre une capture retail entière, actuellement absente."
+      ],
+      "preferred_for_scope": false,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "retail_lower_legs_verified": false
+    },
+    {
+      "entity_id": "eklund_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fac749bc-482b-4b3c-ae24-4683dc0712d6.png",
+      "sha256": "49d4cfd47f1bfea4c3ce608a9168916c1cff206e7024b18dbe3aa524bf24ca4d",
+      "reviewed_utc": "2026-11-20T04:45:52.315120+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Casque STRIBOG à grand viseur bleu, harnais vert, boîtier thoracique à liens rouges et cartouches frontales préservés.",
+        "Dissymétrie des avant-bras guidée par le modèle final ; jambes complétées depuis le concept officiel, pas depuis une capture retail.",
+        "Silhouette entière vers la droite avec torse en trois-quarts ; points du halo hors silhouette à alpha 0 et aucune coupe alpha >16 selon QA centrale."
+      ],
+      "required_followup": [
+        "Valider bas des jambes/bottes contre une capture finale entière et examiner les petits accessoires latéraux avant animation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "retail_lower_legs_verified": false
+    }
+  ]
+}

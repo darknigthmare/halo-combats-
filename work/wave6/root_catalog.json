@@ -1,0 +1,277 @@
+{
+  "wave": 6,
+  "scope": "Cinq entrées Forerunners/Xalanyn/Flood de l’extension ; quatre identités à générer, un Warden réutilisé.",
+  "entries": [
+    {
+      "generation_required": true,
+      "selected_representation": "Une seule entité, silhouette entière candidate ; pose initiale statique, orientation cible droite et transparence réelle. Les écarts observés sont consignés en QA.",
+      "fidelity_scope": "Fidélité visuelle visée à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "id": "didact_h4",
+      "name": "Ur-Didact",
+      "category": "Forerunners, Xalanyn et Flood",
+      "game_version": "Halo 4 (2012), incarnation casquée de l’Ur-Didact",
+      "species": "Forerunner",
+      "entry_kind": "named_character",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Didact_Masked_Render.png",
+          "image_url": "https://www.halopedia.org/images/c/c5/Didact_Masked_Render.png?8639f",
+          "provenance": "Rendu de l’Ur-Didact Halo 4 par Kolby Jukes, réhébergé avec attribution.",
+          "primary_url": "https://www.artstation.com/artwork/RnY4D",
+          "limits": "Vue frontale de trois-quarts ; les faces arrière et cachées ne certifient pas un profil complet.",
+          "sha256": "b6408096cb0d2fce56ffa38b08d4466c822f10a0b2e3026bb91848750a1a2bbd",
+          "dimensions": {
+            "width": 1230,
+            "height": 1857
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/didact_h4_reference.png",
+          "generated": false,
+          "inspected": true
+        }
+      ],
+      "visual_lock": "Armure personnelle grise et noire à volumes flottants, détails bordeaux et lumineux ambre, masque fermé à yeux ambre et mains non humaines. Conserver le modèle de Halo 4 ; ne pas confondre avec l’IsoDidact.",
+      "equipment_state": "Armure complète, casque fermé, mains vides.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique, non implémentée",
+        "priority": "boss_candidate_first",
+        "description": "Boss de contrôle : grandes zones annoncées, fenêtres de vulnérabilité après déplacement de matière. Déblocage jouable éventuel à équilibrer séparément."
+      },
+      "combat_brief": {
+        "specials_proposed": [
+          "Poussée frontale annoncée : repousse, punissable au saut.",
+          "Suspension de matière : piège bref évitable, coût de jauge.",
+          "Pas de commandement : déplacement court avec récupération visible.",
+          "Onde de clôture : couverture au sol, ouverture à l’atterrissage."
+        ],
+        "boss_readability": "La main tendue prépare la zone ; un effet de sol séparé doit afficher le délai et les limites actives. Aucun dégât sans annonce.",
+        "story_proposal": "Introduction : reprise de contrôle d’une salle de Requiem. Rival proposé : le Major. Fin originale : l’archive de combat coupe le lien avec le champ de simulation.",
+        "counterplay": "Approcher pendant la récupération après une poussée ; saut et déplacement latéral pour quitter les zones annoncées. Résistance de boss à définir séparément du futur équilibrage jouable.",
+        "super_proposed": "Confinement de Requiem : trois cloisons lumineuses convergent après une annonce visible ; le couloir libre change une seule fois, puis le Didact subit une longue récupération.",
+        "finisher_proposed": "Sentence du Didact : la cible est suspendue dans une cage de lumière ; une fermeture lumineuse masque l’impact, puis la caméra revient sur le Didact immobile. Séquence de fin de manche, sans réemploi comme attaque normale."
+      }
+    },
+    {
+      "generation_required": true,
+      "selected_representation": "Une seule entité, silhouette entière candidate ; pose initiale statique, orientation cible droite et transparence réelle. Les écarts observés sont consignés en QA.",
+      "fidelity_scope": "Fidélité visuelle visée à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "id": "harbinger_infinite",
+      "name": "Harbinger",
+      "category": "Forerunners, Xalanyn et Flood",
+      "game_version": "Halo Infinite (2021), rendu officiel complet diffusé en 2023",
+      "species": "Xalanyn",
+      "entry_kind": "named_character",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_HarbingerRender.png",
+          "image_url": "https://www.halopedia.org/images/1/1a/HINF_HarbingerRender.png?d908d",
+          "provenance": "Rendu du kit de presse officiel Halo Infinite diffusé par le compte Halo, réhébergé.",
+          "primary_url": "https://twitter.com/Halo/status/1689687048674844673?s=20",
+          "limits": "Rendu frontal complet ; certains propulseurs dorsaux et la profondeur des pieds sont peu lisibles.",
+          "sha256": "e74a98b9bdddda90c8f24d9ed13539a7a085e28664b61f8d62c9ed0bf119a6ca",
+          "dimensions": {
+            "width": 1512,
+            "height": 3840
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/harbinger_full_infinite_reference.png",
+          "generated": false,
+          "inspected": true
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:Harbinger_Enc22_Render.png",
+          "image_url": "https://www.halopedia.org/images/3/31/Harbinger_Enc22_Render.png?16b53",
+          "provenance": "Détail de rendu publié dans Halo Encyclopedia (2022), réhébergé ; la page attribue le rendu à Josh Gregory.",
+          "primary_url": null,
+          "limits": "Portrait tronqué au haut des cuisses ; employé uniquement pour les détails supérieurs, pas pour reconstituer les jambes.",
+          "sha256": "8409d684e9bf018cb0bfda5660aa3949f416fb36ac7be261c66d4b8a0badf724",
+          "dimensions": {
+            "width": 749,
+            "height": 1082
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/harbinger_infinite_reference.png",
+          "generated": false,
+          "inspected": true
+        }
+      ],
+      "visual_lock": "Silhouette élancée en lévitation, peau bleu-gris, grand couvre-chef bordeaux, armure courbe bordeaux à tracés dorés, ouverture lumineuse circulaire du torse, pans violets, longs membres et pieds orientés vers l’arrière. Elle n’est pas classée comme Forerunner.",
+      "equipment_state": "Armure complète de Halo Infinite, mains vides, lévitation basse.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique, non implémentée",
+        "priority": "boss_candidate_first",
+        "description": "Boss mobile : téléportations annoncées, orbes évitables et phase rapprochée vulnérable. La lévitation visuelle ne dispense pas des règles de garde et de collision à définir."
+      },
+      "combat_brief": {
+        "specials_proposed": [
+          "Orbe de poursuite lente : trajectoire lisible et durée limitée.",
+          "Translation : marque préalable du point d’arrivée.",
+          "Paume de répulsion : anti-approche court, récupération longue.",
+          "Croisement d’orbes : couloirs d’esquive explicites."
+        ],
+        "boss_readability": "Séparer FX, noyau, silhouette et collision ; limiter la téléportation derrière le joueur et signaler son côté de réapparition.",
+        "story_proposal": "Introduction : salle des Auditoires recréée par l’archive. Rival proposé : le Major. Fin originale : une transmission fragmentaire subsiste après l’arrêt du combat.",
+        "counterplay": "Suivre la marque d’arrivée plutôt que poursuivre l’image résiduelle ; l’approcher pendant le délai entre deux séries d’orbes. La téléportation ne doit pas permettre d’annuler toute récupération.",
+        "super_proposed": "Convergence des Auditoires : apparition de trois orbes avec un intervalle d’évitement visible ; explosion séquentielle et réapparition de la Harbinger à un point annoncé.",
+        "finisher_proposed": "Dernier écho : la cible est entourée d’anneaux dorés, soulevée et engloutie par un bref éclat ; l’armure retombe hors champ tandis que la Harbinger reprend sa lévitation. Fin de manche uniquement."
+      }
+    },
+    {
+      "generation_required": true,
+      "selected_representation": "Une seule entité, silhouette entière candidate ; pose initiale statique, orientation cible droite et transparence réelle. Les écarts observés sont consignés en QA.",
+      "fidelity_scope": "Fidélité visuelle visée à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "id": "knight_h4",
+      "name": "Chevalier prométhéen — standard",
+      "category": "Forerunners, Xalanyn et Flood",
+      "game_version": "Halo 4 (2012), classe standard ; pas le modèle Halo 5",
+      "species": "Construction prométhéenne",
+      "entry_kind": "enemy_class",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight-Standard.png",
+          "image_url": "https://www.halopedia.org/images/8/88/H4-Knight-Standard.png?c1c92",
+          "provenance": "Rendu du Chevalier standard Halo 4 réhébergé dans le fichier H4-Knight-Standard.png ; origine primaire non précisée sur cette ancienne page.",
+          "primary_url": null,
+          "limits": "Source secondaire pour cette vue ; la structure et l’équipement sont corroborés par le rendu officiel E3 2012, sans certification de chaque détail retail.",
+          "sha256": "0eede0295ec260c0e6212dafcdc2751d33d4a2ec58f453d8699cede7256b2c0f",
+          "dimensions": {
+            "width": 2600,
+            "height": 2210
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_standard_h4_reference.png",
+          "generated": false,
+          "inspected": true
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight.png",
+          "image_url": "https://www.halopedia.org/images/d/d5/H4-Knight.png?2d755",
+          "provenance": "Rendu du kit de presse officiel Halo 4 E3 2012, réhébergé.",
+          "primary_url": "http://halo.xbox.com/en-us/Universe/Detail/e3-2012-halo-4-renders/600518a8-d6fd-4c01-9f46-d9a97fcd9cc1",
+          "limits": "Rendu promotionnel antérieur à la sortie ; ne suffit pas seul à certifier le modèle commercialisé.",
+          "sha256": "39078bf47a9a207e103fca902f70c730afbab8a34e5bb7b9b0a7550c89ce45da",
+          "dimensions": {
+            "width": 1800,
+            "height": 2080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_h4_reference.png",
+          "generated": false,
+          "inspected": true
+        }
+      ],
+      "visual_lock": "Carapace grise très large et séparée, cœur sombre lumineux ambre, masque pointu, deux grands bras de combat et deux petits bras internes, jambes angulaires et pieds griffus. Arme distante au bras droit ; lame orange au bras gauche. Aucun ornement de Lancer, Battlewagon ou Commander ajouté.",
+      "equipment_state": "Arme distante droite et lame de lumière solide gauche, géométrie des références.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique, non implémentée",
+        "priority": "elite_enemy_then_playable_candidate",
+        "description": "Classe de combattant lourd à portée variable ; alternance tir/lame et déplacement télégraphié. Une instance représente la classe, sans identité individuelle inventée."
+      },
+      "combat_brief": {
+        "specials_proposed": [
+          "Tir mesuré : projectile à cadence lente, récupération visible.",
+          "Fente de lame : avance limitée et garde punissable.",
+          "Translocation : marque de départ et d’arrivée, aucune invulnérabilité infinie.",
+          "Déploiement de carapace : contre haut limité, vulnérable au bas."
+        ],
+        "boss_readability": "Le masque et les extrémités lumineuses sont des repères visuels ; les surfaces flottantes décoratives ne deviennent pas automatiquement des hitboxes.",
+        "story_proposal": "Route de classe : activation dans Requiem, duel miroir contre un autre automate, puis désactivation du relais. Rival de gameplay proposé : Jérôme ou le Major ; fiction de simulation explicitement séparée du canon.",
+        "counterplay": "Punir le tir à distance par un saut annoncé, le déplacement par une garde au point d’arrivée et la protection haute par une attaque basse. Les deux petits bras restent décoratifs dans cette proposition.",
+        "super_proposed": "Assaut de translocation : une marque au sol précède une arrivée latérale et un enchaînement court de lame ; la garde du premier contact empêche la suite automatique.",
+        "finisher_proposed": "Verdict prométhéen : le Chevalier verrouille la cible, avance sa lame puis un éclat orange couvre le contact ; la silhouette adverse se dissout en fragments lumineux. FX séparés à produire."
+      }
+    },
+    {
+      "generation_required": true,
+      "selected_representation": "Une seule entité, silhouette entière candidate ; pose initiale statique, orientation cible droite et transparence réelle. Les écarts observés sont consignés en QA.",
+      "fidelity_scope": "Fidélité visuelle visée à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "id": "flood_human_h3",
+      "name": "Flood — forme de combat humaine",
+      "category": "Forerunners, Xalanyn et Flood",
+      "game_version": "Halo 3 (2007), hôte Marine humain",
+      "species": "Flood sur hôte humain",
+      "entry_kind": "enemy_class",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Humanflood.png",
+          "image_url": "https://www.halopedia.org/images/8/85/Humanflood.png?7d465",
+          "provenance": "Planche de modèle provenant de la présentation de Vic DeLeon « Halo 3 Flood Alien Level Autopsy », historiquement publiée par Bungie, réhébergée.",
+          "primary_url": "http://www.bungie.net/Inside/publications.aspx",
+          "limits": "Planche de développement à deux vues ; vérification supplémentaire des détails par capture du jeu commercialisé nécessaire.",
+          "sha256": "af54efd2760f63d707b4db22b97d480df12ad0c8132bff387e574e9eca9ea07a",
+          "dimensions": {
+            "width": 1449,
+            "height": 643
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/flood_human_h3_reference.png",
+          "generated": false,
+          "inspected": true
+        }
+      ],
+      "visual_lock": "Hôte humain reconnaissable : bras droit humain et armuré conservé, bras gauche mutant à appendices épais, tête déportée vers l’épaule droite, biomasse jaune-olive et frondes thoraciques, restes d’armure Marine, pantalon camouflage et bottes. Ne pas mélanger anatomie Sangheili, Jiralhanae et forme pure.",
+      "equipment_state": "Sans arme tenue ; équipement résiduel du Marine et appendices de la référence conservés.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique, non implémentée",
+        "priority": "enemy_class",
+        "description": "Classe de pression à portée asymétrique ; bond risqué, balayages de tentacules et reprise d’équilibre lente. Le retournement doit disposer d’un dessin distinct pour préserver le bras mutant gauche."
+      },
+      "combat_brief": {
+        "specials_proposed": [
+          "Fouet horizontal : portée longue, membre vulnérable pendant la récupération.",
+          "Bond courbe : trajectoire fixe et point de chute lisible.",
+          "Rampe basse : approche basse sans traverser les collisions.",
+          "Relève : option de relevée lente, coût limité et punissable."
+        ],
+        "boss_readability": "Les appendices reçoivent des boîtes actives uniquement durant les attaques ; les frondes décoratives n’infligent aucun dégât.",
+        "story_proposal": "Route de classe sans dialogues inventés : contamination simulée, duel de contrôle contre une sentinelle, confinement final. Son introduction et sa fin utilisent sons et mise en scène plutôt qu’une personnalité humaine retrouvée.",
+        "counterplay": "Rester hors de portée des tentacules pendant l’armement, puis punir la récupération ; anti-air sur le bond et attaque basse sur la relève. Pas de résurrection gratuite ni de stun infini.",
+        "super_proposed": "Ruée de l’hôte : bond à trajectoire fixe suivi d’un large balayage ; si le bond manque ou est gardé, la forme termine vulnérable au sol.",
+        "finisher_proposed": "Emprise du Parasite : les appendices encerclent la cible, l’entraînent hors du cadrage rapproché ; la scène s’achève sur le casque ou l’arme adverse abandonné au sol, puis retour au résultat du match."
+      }
+    },
+    {
+      "generation_required": false,
+      "selected_representation": "Réemploi du candidat statique de boss V5 entier, tourné vers la gauche ; aucune nouvelle génération ni inversion horizontale. L’orientation droite ne s’applique pas à ce réemploi.",
+      "fidelity_scope": "Fidélité visuelle visée à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "animation_status": "not_animated",
+      "integration_status": "not_integrated",
+      "id": "warden_eternal_h5",
+      "name": "Warden Eternal",
+      "category": "Forerunners, Xalanyn et Flood",
+      "game_version": "Halo 5: Guardians (2015), apparence de base",
+      "species": "Construction forerunner",
+      "entry_kind": "named_entity",
+      "reused_visual_asset": "boss_warden_h5_profile_v01",
+      "source_entity_id": "boss_warden_h5",
+      "reused_visual_path": "assets/bosses_wave5/boss_warden_h5_profile_v01.png",
+      "reused_visual_sha256": "c325a5a544f0038013082626826fb0fde91d6cc1aa6f959d705baefe250a1d9d",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G_Warden_render.png",
+          "image_url": "https://www.halopedia.org/images/8/89/H5G_Warden_render.png?2d8c6",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "provenance": "Rendu officiel de presse Halo 5, déjà inspecté et documenté dans la vague V5.",
+          "sha256": "ec36c96b70cbac367a1d326f9f04665a01cec949fa5667e5e2dae89210a30b26",
+          "generated": false,
+          "inspected": true,
+          "inspection_wave": 5,
+          "limits": "Rendu non orthographique ; halo et pièces flottantes à distinguer des membres. Aucun coloriage Mythic."
+        }
+      ],
+      "visual_lock": "Apparence de base argentée et noire de Halo 5, lignes orange, casque annulaire, grandes plaques séparées et longue arme orange. Réemploi exact du candidat V5 avec toutes ses réserves de fidélité.",
+      "equipment_state": "Arme de lumière solide tenue au repos ; silhouette entière de boss déjà disponible.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats ; boss déjà documenté, variante jouable non implémentée",
+        "priority": "boss_existing_reuse",
+        "description": "Relier l’extension au boss Warden existant. Un éventuel équilibrage jouable sera une fiche distincte ; aucun doublon de PNG ou de compteur."
+      },
+      "combat_brief": {
+        "existing_boss_link": "data/bosses.json#boss_warden_h5",
+        "reuse_scope": "Candidat statique V5, face gauche. Il ne fournit ni miroir anatomique validé, ni nouvelle animation, ni fiche de combattant complète."
+      }
+    }
+  ]
+}

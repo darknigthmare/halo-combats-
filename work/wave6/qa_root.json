@@ -1,0 +1,193 @@
+{
+  "wave": 6,
+  "reviews": [
+    {
+      "entity_id": "harbinger_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-f742b47a-662a-462c-9d88-94e0753c1653.png",
+      "variant": 1,
+      "reviewed_utc": "2026-11-20T04:33:16.592Z",
+      "review_method": "Comparaison visuelle individuelle des PNG affichés par imagegen avec les références inspectées ; mesures Pillow en lecture seule dans root_image_metrics.json.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "complete_silhouette": true,
+      "preferred_for_scope": true,
+      "notes": [
+        "Une seule Harbinger entière, deux bras et deux jambes, tête et extrémités dans le cadre. Le casque bordeaux, la poitrine lumineuse, les pans violets et les jambes longues correspondent à la famille visuelle des rendus officiels.",
+        "Le personnage regarde vers la droite mais reste en trois-quarts, sans profil orthographique. La profondeur de la coiffe et les propulseurs partiellement révélés exigent une autre vue de référence.",
+        "Les pieds sont dirigés vers l’arrière relativement au regard, comme demandé ; leur géométrie exacte et les doigts ne sont pas certifiés.",
+        "Alpha réel 0–255 ; aucun contact au seuil alpha >16. Marges G/H/D/B : 37/17/33/74 px sur 787×1998 ; la marge de 10 % demandée n’est pas obtenue.",
+        "Franges de couleur aux arêtes à contrôler en composition, notamment sur fond clair. Aucun détourage ou pixel retouché localement."
+      ],
+      "required_followup": [
+        "Profil complet comparé au modèle final et à une vue dorsale officielle.",
+        "Marges de production homogènes et contours vérifiés sur plusieurs fonds.",
+        "Animation et intégration moteur, non réalisées par ce PNG."
+      ],
+      "sha256": "a1e6254be07ae7e7e2a4866a7a57cb29d55c8e691b3c1f6363c5984ce4edc3e9",
+      "image_metrics": {
+        "id": "harbinger_infinite",
+        "variant": 1,
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-f742b47a-662a-462c-9d88-94e0753c1653.png",
+        "sha256": "a1e6254be07ae7e7e2a4866a7a57cb29d55c8e691b3c1f6363c5984ce4edc3e9",
+        "width": 787,
+        "height": 1998,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_pixels": 957252,
+        "opaque_pixels": 1359,
+        "bbox_gt16": [
+          37,
+          17,
+          754,
+          1924
+        ],
+        "margins_gt16": [
+          37,
+          17,
+          33,
+          74
+        ],
+        "center_top_pixel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_left_halo_sample": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "entity_id": "flood_human_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png",
+      "variant": 1,
+      "reviewed_utc": "2026-11-20T04:33:16.592Z",
+      "review_method": "Comparaison visuelle individuelle des PNG affichés par imagegen avec les références inspectées ; mesures Pillow en lecture seule dans root_image_metrics.json.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "complete_silhouette": true,
+      "preferred_for_scope": false,
+      "notes": [
+        "Une forme humaine Flood entière, deux bottes, bras droit humain conservé et bras gauche mutant identifiables ; aucune hybridation visible avec un hôte Élite ou Brute.",
+        "La silhouette demeure presque frontale malgré la consigne droite. Candidat documentaire conservé, non préféré pour la pose de combat ; une correction d’orientation V02 a été produite.",
+        "Matériaux et appendices proches de la planche de Vic DeLeon ; longueur/épaisseur des tentacules et frondes interprétées. Le rendu n’est pas certifié 1:1.",
+        "Alpha réel 0–255 ; marges G/H/D/B au seuil >16 : 224/15/158/15 px sur 1312×1199 ; pas de coupe au seuil, espace vertical très réduit."
+      ],
+      "required_followup": [
+        "Profil latéral strict et vue opposée dessinée séparément pour respecter l’asymétrie.",
+        "Validation des tentacules, du détail d’armure et des contours contre des captures retail de Halo 3.",
+        "Animation, boîtes de collision et intégration moteur encore à produire."
+      ],
+      "sha256": "797977d2db5522459e9301ea199666380651edd0a56e6e02731338e14628bf6a",
+      "image_metrics": {
+        "id": "flood_human_h3",
+        "variant": 1,
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png",
+        "sha256": "797977d2db5522459e9301ea199666380651edd0a56e6e02731338e14628bf6a",
+        "width": 1312,
+        "height": 1199,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_pixels": 1078550,
+        "opaque_pixels": 247,
+        "bbox_gt16": [
+          224,
+          15,
+          1154,
+          1184
+        ],
+        "margins_gt16": [
+          224,
+          15,
+          158,
+          15
+        ],
+        "center_top_pixel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_left_halo_sample": [
+          102,
+          80,
+          44,
+          252
+        ]
+      }
+    },
+    {
+      "entity_id": "flood_human_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-8d4fe570-1f07-46c1-ba05-6ea1edc060cb.png",
+      "variant": 2,
+      "reviewed_utc": "2026-11-20T04:33:16.592Z",
+      "review_method": "Comparaison visuelle individuelle des PNG affichés par imagegen avec les références inspectées ; mesures Pillow en lecture seule dans root_image_metrics.json.",
+      "verdict": "candidate_with_reservations",
+      "canon_comparison": "not_certified",
+      "complete_silhouette": true,
+      "preferred_for_scope": true,
+      "notes": [
+        "Silhouette entière et une seule entité ; bras droit humain et bras gauche mutant préservés. Les bottes et les appendices restent dans le cadre.",
+        "Les jambes et les bottes lisent mieux une direction droite que V01 ; le thorax demeure en trois-quarts et la tête conserve son inclinaison de référence. La correction est partielle, pas un profil de jeu validé.",
+        "V02 préférée entre les deux candidats disponibles pour l’orientation et l’espace de cadrage. V01 est conservée avec sa réserve frontale.",
+        "L’aperçu montre un halo brun RGB, mais les pixels testés hors silhouette ont alpha 0. Cela ne prouve pas un fond opaque ; alpha réel 0–254, 1262097 pixels entièrement transparents.",
+        "Marges G/H/D/B au seuil alpha >16 : 449/36/416/34 px sur 1536×1024 ; aucune coupe détectée, marge verticale encore inférieure à la demande. Les valeurs alpha de premier plan et les franges nécessitent contrôle en composition."
+      ],
+      "required_followup": [
+        "Profil latéral strict et vue opposée dessinée séparément pour respecter l’asymétrie.",
+        "Validation des tentacules, du détail d’armure et des contours contre des captures retail de Halo 3.",
+        "Animation, boîtes de collision et intégration moteur encore à produire."
+      ],
+      "sha256": "878582f35c0c1fdc86aa6c4c8bccb0e06df7360e92f6aa573b7f7fb4f0773c92",
+      "image_metrics": {
+        "id": "flood_human_h3",
+        "variant": 2,
+        "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-8d4fe570-1f07-46c1-ba05-6ea1edc060cb.png",
+        "sha256": "878582f35c0c1fdc86aa6c4c8bccb0e06df7360e92f6aa573b7f7fb4f0773c92",
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "transparent_pixels": 1262097,
+        "opaque_pixels": 0,
+        "bbox_gt16": [
+          449,
+          36,
+          1120,
+          990
+        ],
+        "margins_gt16": [
+          449,
+          36,
+          416,
+          34
+        ],
+        "center_top_pixel": [
+          151,
+          132,
+          95,
+          0
+        ],
+        "upper_left_halo_sample": [
+          56,
+          48,
+          29,
+          0
+        ]
+      }
+    }
+  ]
+}

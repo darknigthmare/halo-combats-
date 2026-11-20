@@ -1,0 +1,307 @@
+{
+  "core": [
+    {
+      "id": "S01",
+      "title": "Master Class",
+      "url": "https://www.halowaypoint.com/en-us/news/master-class",
+      "supports": "Incarnations visuelles du Master Chief."
+    },
+    {
+      "id": "S02",
+      "title": "Canon Fodder Foundations",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-foundations",
+      "supports": "Distinction entre exploration artistique et contenu produit."
+    }
+  ],
+  "roster": [
+    {
+      "title": "Customization Overview Season 5",
+      "url": "https://www.halowaypoint.com/news/customization-overview-season-5",
+      "ref": "turn460148904search0",
+      "supports": "Armure GEN3 Mark VI du Major dans Halo Infinite; différences avec les kits multijoueur.",
+      "id": "R01"
+    },
+    {
+      "title": "Equipment in Halo Infinite",
+      "url": "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite",
+      "ref": "turn460148904search2",
+      "supports": "Fonctions du Grappleshot et du Drop Wall; distinction campagne et multijoueur.",
+      "id": "R02"
+    },
+    {
+      "title": "Spotlight May 19 2022",
+      "url": "https://www.halowaypoint.com/news/spotlight-may-19-2022",
+      "ref": "turn291509373search14",
+      "supports": "Noms et indicatifs des membres de Noble Team. Les illustrations communautaires ne remplacent pas des captures du jeu pour valider les armures.",
+      "id": "R03"
+    },
+    {
+      "title": "Halo Reach Available Now With Halo The Master Chief Collection",
+      "url": "https://news.xbox.com/en-us/2019/12/03/halo-reach-available-now-with-halo-the-master-chief-collection-3/",
+      "ref": "turn664862621search27",
+      "supports": "Noble Team et cadre de Halo Reach.",
+      "id": "R04"
+    },
+    {
+      "title": "Women’s History Month 2024",
+      "url": "https://www.halowaypoint.com/news/womens-history-month-2024",
+      "ref": "turn671005482view1",
+      "supports": "Identité et spécialités de Kat et Alice; les règles de combat proposées restent originales.",
+      "id": "R05"
+    },
+    {
+      "title": "Official Cosplay Guide The Rookie",
+      "url": "https://www.halowaypoint.com/news/official-cosplay-guide-the-rookie",
+      "ref": "turn671005482view2",
+      "supports": "Références officielles détaillées de l’armure du Rookie de Halo 3 ODST.",
+      "id": "R06"
+    },
+    {
+      "title": "Canon Fodder Feet First Into Fall",
+      "url": "https://www.halowaypoint.com/en-us/news/canon-fodder-feet-first-into-fall",
+      "ref": "turn460148904search9",
+      "supports": "Identité visuelle Rookie et armes M7S, M6C SOCOM, MA5C et M90A; Devoted Sentries de Reach.",
+      "id": "R07"
+    },
+    {
+      "title": "Anniversary Angle March of the Dream Teams",
+      "url": "https://www.halowaypoint.com/news/anniversary-angle-march-of-the-dream-teams",
+      "ref": "turn671005482view0",
+      "supports": "Red Team composée de Jerome, Alice, Douglas; Alpha Nine issue des ODST.",
+      "id": "R08"
+    },
+    {
+      "title": "Customization Overview Great Journey",
+      "url": "https://www.halowaypoint.com/news/customization-overview-great-journey",
+      "ref": "turn671005482view3",
+      "supports": "Identité, histoire et rôle de Rtas Vadum; comparaison Mark VI Halo 2.",
+      "id": "R09"
+    },
+    {
+      "title": "Sweet Sixteenth",
+      "url": "https://www.halowaypoint.com/news/sweet-sixteenth",
+      "ref": "turn664862621search13",
+      "supports": "Major, Arbiter Thel Vadam et Avery Johnson dans Halo 3.",
+      "id": "R10"
+    },
+    {
+      "title": "Canon Fodder All About Anvil",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-all-about-anvil",
+      "ref": "turn460148904search5",
+      "supports": "Fist of Rukt de Tartarus et introduction du marteau gravitationnel.",
+      "id": "R11"
+    },
+    {
+      "title": "Canon Fodder Encyclopedic Enlightenment",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-encyclopedic-enlightenment",
+      "ref": "turn291509373search0",
+      "supports": "Atriox, Red Team et Chainbreaker; comparaison des apparitions Wars 2 et Infinite.",
+      "id": "R12"
+    },
+    {
+      "title": "Halo Wars 2 Releases Original Art Collection",
+      "url": "https://news.xbox.com/en-us/2017/02/02/halo-wars-2-releases-original-art-collection-featuring-gabz-craig-drake-kevin-tong/",
+      "ref": "turn291509373search18",
+      "supports": "Illustration officielle de Decimus et appartenance aux Parias.",
+      "id": "R13"
+    },
+    {
+      "title": "Canon Fodder Of Protocols and Prisons",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-of-protocols-and-prisons",
+      "ref": "turn291509373search16",
+      "supports": "Chak Lok, Escharum, Tour et House of Reckoning.",
+      "id": "R14"
+    },
+    {
+      "title": "Canon Fodder O Come All Ye Fiction",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-o-come-all-ye-fiction",
+      "ref": "turn909270892view0",
+      "supports": "Diminisher of Hope est la hache gravitationnelle personnelle d’Escharum.",
+      "id": "R15"
+    },
+    {
+      "title": "Halo Edge of Dawn Out Now",
+      "url": "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+      "ref": "turn671005482view4",
+      "supports": "Jega Rdomnai demeure présent après la campagne Infinite; son sort ne doit pas être inventé.",
+      "id": "R16"
+    },
+    {
+      "title": "Canon Fodder High Value Histories",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "ref": "turn664862621search24",
+      "supports": "Cethegus est le chef Brute du duel dans la mission The Ark de Halo 3.",
+      "id": "R17"
+    },
+    {
+      "title": "The New Halo Encyclopedia is Out Today",
+      "url": "https://www.halowaypoint.com/news/the-new-halo-encyclopedia-is-out-today",
+      "ref": "turn664862621search5",
+      "supports": "Nomenclature Mgalekgolo et classification Lekgolo; validation visuelle Halo 3 encore requise.",
+      "id": "R18"
+    },
+    {
+      "title": "Halo Reach Achievements List",
+      "url": "https://support.halowaypoint.com/hc/en-us/articles/360037081152-Halo-Reach-Achievements-List",
+      "ref": "turn664862621search2",
+      "supports": "Présence d’un Elite Zealot dans Tip of the Spear; modèle à relever dans Reach.",
+      "id": "R19"
+    }
+  ],
+  "world": {
+    "checked_on": "2026-11-19",
+    "policy": "Sources web vérifiées et références primaires de jeux sont distinguées; aucune capture 1 à 1 n’est déclarée validée ici.",
+    "sources": [
+      {
+        "id": "W01",
+        "title": "Canon Fodder If They Want Lore We Will Give Em Lore",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/canon-fodder-give-em-lore",
+        "ref": "turn616691742view0",
+        "status": "web_verified",
+        "supports": [
+          "Différenciation Scarab Halo 2 et Halo 3",
+          "Scarab paria Halo Wars 2",
+          "Super Scarab et excavation"
+        ]
+      },
+      {
+        "id": "W02",
+        "title": "Halo Infinite Weapon Equipment and Vehicle Inventory",
+        "publisher": "Halo Support",
+        "url": "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "ref": "turn633669972search0",
+        "status": "web_verified",
+        "supports": [
+          "Wraith Infinite",
+          "Banshee Infinite",
+          "Phantom Infinite"
+        ]
+      },
+      {
+        "id": "W03",
+        "title": "Canon Fodder High Value Histories",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+        "ref": "turn216923027view2",
+        "status": "web_verified",
+        "supports": [
+          "Paire de Hunters du Cartographe silencieux",
+          "Kraken dans Halo 5 Osiris",
+          "Repères de lieux et personnages"
+        ]
+      },
+      {
+        "id": "W04",
+        "title": "Canon Fodder Fiction Festivities",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+        "ref": "turn791462962view0",
+        "status": "web_verified",
+        "supports": [
+          "Harvester dans Halo 4 Spartan Ops",
+          "House of Reckoning Halo Infinite",
+          "Mammoth Halo 4 Reclaimer"
+        ]
+      },
+      {
+        "id": "W05",
+        "title": "First Look at Warzone Firefight in Halo 5 Guardians",
+        "publisher": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2016/03/20/first-look-at-warzone-firefight-in-halo-5-guardians/",
+        "ref": "turn399273014view2",
+        "status": "web_verified",
+        "supports": [
+          "Warden Eternal",
+          "Phaeton dans Halo 5",
+          "Combats PvE à objectifs"
+        ]
+      },
+      {
+        "id": "W06",
+        "title": "Pack de chef Colony",
+        "publisher": "Xbox Store Microsoft Studios",
+        "url": "https://www.xbox.com/fr-fr/games/store/pack-de-chef-colony/bw74dckrsq4r",
+        "ref": "turn399273014view1",
+        "status": "web_verified",
+        "supports": [
+          "Goliath Halo Wars 2",
+          "Colony et Lekgolo"
+        ]
+      },
+      {
+        "id": "W07",
+        "title": "The Nightmare Has Awoken",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/en-us/news/the-nightmare-has-awoken",
+        "ref": "turn616691742view3",
+        "status": "web_verified",
+        "supports": [
+          "Awakening the Nightmare campagne paria contre Flood",
+          "Lich Vanguard Halo Wars 2",
+          "Scarab volatile",
+          "Terminus Firefight"
+        ]
+      },
+      {
+        "id": "W08",
+        "title": "That Is So Raven",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/thats-so-raven",
+        "ref": "turn399273014view0",
+        "status": "web_verified",
+        "supports": [
+          "Juggernaut coupé de Halo 2",
+          "Juggernaut canonique dans Fireteam Raven",
+          "Lich dans Fireteam Raven"
+        ]
+      },
+      {
+        "id": "W09",
+        "title": "Digsite Discoveries Halo MCC",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/digsite-discoveries",
+        "ref": "turn791462962view1",
+        "status": "web_verified",
+        "supports": [
+          "Guardian de Halo 3 supprimé distinct du Guardian de Halo 5",
+          "Contenu prototype et restaurations identifiés"
+        ]
+      },
+      {
+        "id": "W10",
+        "title": "Digsite Deep Dive",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/digsite-deep-dive",
+        "ref": "turn216923027view3",
+        "status": "web_verified",
+        "supports": [
+          "Séparation prototype Halo 1.5 Halo 2 et contenu sorti"
+        ]
+      },
+      {
+        "id": "W11",
+        "title": "Halo Wars 2 Awakening the Nightmare",
+        "publisher": "Xbox Store Microsoft Studios",
+        "url": "https://www.xbox.com/en-US/games/store/halo-wars-2-awakening-the-nightmare/9NBLGGH4TQDD",
+        "ref": "turn425180909search7",
+        "status": "web_verified",
+        "supports": [
+          "Existence de l’extension et du Flood",
+          "Ne valide pas seul chaque modèle de boss"
+        ]
+      },
+      {
+        "id": "W12",
+        "title": "Anniversary Angle Memorable Campaign Moments",
+        "publisher": "Halo Waypoint",
+        "url": "https://www.halowaypoint.com/news/anniversary-angle-memorable-campaign-moments",
+        "ref": "turn546312156search16",
+        "status": "web_verified",
+        "supports": [
+          "Abordage du Kraken et bataille de Sunaion Halo 5"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1343 @@
+{
+  "wave": 6,
+  "entries": [
+    {
+      "id": "fred_h5",
+      "name": "Fred-104",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Fred.png",
+          "image_url": "https://www.halopedia.org/images/9/96/H5G-Render-Fred.png?af539",
+          "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "sha256": "a7e3cce9dc508a13fa7a7ef1ad28b8db43f6ca56509d9936e678fcfb29423107",
+          "dimensions": {
+            "width": 550,
+            "height": 1040
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/fred_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+        }
+      ],
+      "visual_lock": "Armure CENTURION GEN2 bleu gris désaturé, casque fermé à viseur ambre étroit et mentonnière segmentée, petits repères jaunes et cyan, plaques épaisses et non interchangeables ; arme et asymétries du rendu officiel conservées.",
+      "selected_representation": "Une pose de combat initiale indépendante, corps entier, casquée, orientée vers la droite, fond transparent. Candidat illustré, pas un sprite animé.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Combattant tactique à portée intermédiaire ; contres et contrôle méthodique proposés pour Halo Combats."
+      },
+      "equipment_state": "Armure CENTURION GEN2 casquée ; une arme longue noire issue du rendu officiel tenue à deux mains.",
+      "fidelity_scope": "Fidélité visuelle visée à l'incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Rafale d'arrêt",
+            "function_proposed": "Tir bref qui casse une approche au sol après une préparation visible.",
+            "counterplay_proposed": "Saut ou approche décalée ; récupération exposée si la rafale manque."
+          },
+          {
+            "name": "Parade CENTURION",
+            "function_proposed": "Parade haute suivie d'un coup d'avant-bras si l'adversaire s'engage.",
+            "counterplay_proposed": "Choppe ou attaque basse ; aucune couverture universelle."
+          },
+          {
+            "name": "Entrée basse",
+            "function_proposed": "Pas avancé compact suivi d'une frappe au corps.",
+            "counterplay_proposed": "Portée courte et fin de mouvement punissable sur garde."
+          },
+          {
+            "name": "Relève tactique",
+            "function_proposed": "Annulation d'une préparation de tir en recul court, avec coût de ressource.",
+            "counterplay_proposed": "Lire le recul puis reprendre l'espace ; pas d'invulnérabilité gratuite."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Vitesse de déplacement modérée et tirs préparés ; doit gagner l'espace par lecture.",
+        "intro_proposed": "Fred vérifie son arme puis indique silencieusement une ligne à tenir.",
+        "rival_proposed": {
+          "name": "Jameson Locke",
+          "premise": "Duel d'exercice entre discipline d'équipe et poursuite individuelle.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Dans cette branche de tournoi, Fred ferme le canal d'entraînement et rejoint Blue Team ; aucune victoire ne réécrit l'histoire officielle.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Ligne tenue",
+          "sequence": "Une interception réussie ouvre une courte séquence alternant crosse et tir contrôlé, puis rend la distance neutre.",
+          "counterplay": "Activation lisible ; la séquence ne démarre que sur un premier contact confirmé.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Dernier ordre",
+          "sequence": "Fred désarme la cible compatible, la repousse au sol et reprend la couverture ; une cible de simulation se désactive à l'impact final.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "generated_candidate_with_reservations",
+        "initial_character_images_generated": 1,
+        "attempts_recorded": 1,
+        "failed_attempts": 0,
+        "generated_source_paths": [
+          "/workspace/scratch/9d31c69eef8e/generated_images/exec-a61248be-45ba-4b1f-b81e-dc4029acca44.png"
+        ],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "kelly_h5",
+      "name": "Kelly-087",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Kelly.png",
+          "image_url": "https://www.halopedia.org/images/b/b6/H5G-Render-Kelly.png?71a63",
+          "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+          "dimensions": {
+            "width": 540,
+            "height": 1020
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+        }
+      ],
+      "visual_lock": "Armure HERMES GEN2 bleu gris, grand viseur doré bombé, casque lisse et module circulaire latéral, filet jaune fin sur plastron/épaules, proportions élancées, fusil à pompe du rendu.",
+      "selected_representation": "Une pose de combat initiale indépendante, corps entier, casquée, orientée vers la droite, fond transparent. Candidat illustré, pas un sprite animé.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Mobilité et engagement à courte portée ; feintes de déplacement et pression rapprochée proposées."
+      },
+      "equipment_state": "Armure HERMES GEN2 casquée ; fusil à pompe noir du rendu officiel, deux mains.",
+      "fidelity_scope": "Fidélité visuelle visée à l'incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Pas de lièvre",
+            "function_proposed": "Accélération courte qui peut finir en arrêt ou en attaque.",
+            "counterplay_proposed": "Ne traverse pas l'adversaire ; attaque d'anticipation sur sa trajectoire."
+          },
+          {
+            "name": "Décharge proche",
+            "function_proposed": "Tir de fusil à pompe efficace dans une courte bande de distance.",
+            "counterplay_proposed": "Faible pression à distance ; recul et récupération lisibles."
+          },
+          {
+            "name": "Crochet de course",
+            "function_proposed": "Frappe latérale après une course confirmée.",
+            "counterplay_proposed": "Faible si la course a été arrêtée ; garde puis riposte."
+          },
+          {
+            "name": "Repli élastique",
+            "function_proposed": "Petit bond de recul suivi d'un choix entre réengagement et attente.",
+            "counterplay_proposed": "L'adversaire gagne du terrain ; bord de scène dangereux."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Doit s'exposer pour obtenir sa meilleure portée ; pression limitée sans élan.",
+        "intro_proposed": "Kelly teste ses appuis, relève le fusil à pompe et prend un léger départ arrêté.",
+        "rival_proposed": {
+          "name": "Olympia Vale",
+          "premise": "Épreuve amicale de mobilité et de lecture des changements de rythme.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Kelly termine le parcours d'évaluation puis revient chercher les retardataires de son escouade.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Accélération maximale",
+          "sequence": "Une course brève enchaîne deux changements de rythme et une décharge rapprochée si l'entrée touche.",
+          "counterplay": "La course initiale peut être arrêtée ; aucune téléportation ni invulnérabilité complète.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Passage éclair",
+          "sequence": "Kelly dépasse la garde par un déplacement lisible, revient dans le champ et termine sur un coup de crosse qui neutralise la cible.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "linda_h5",
+      "name": "Linda-058",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Linda.png",
+          "image_url": "https://www.halopedia.org/images/2/21/H5G-Render-Linda.png?65c35",
+          "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+          "dimensions": {
+            "width": 800,
+            "height": 1060
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+        }
+      ],
+      "visual_lock": "Armure ARGUS GEN2 taupe gris, casque optique à plusieurs lentilles dorées et boîtiers asymétriques, haut bloc dorsal rectangulaire, fin repérage orange et très long fusil de précision.",
+      "selected_representation": "Une pose de combat initiale indépendante, corps entier, casquée, orientée vers la droite, fond transparent. Candidat illustré, pas un sprite animé.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Contrôle à longue portée avec préparation lisible et ouvertures au corps à corps ; adaptation originale proposée."
+      },
+      "equipment_state": "Armure ARGUS GEN2 casquée ; fusil de précision du rendu officiel à deux mains, canon entier visible.",
+      "fidelity_scope": "Fidélité visuelle visée à l'incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Ligne d'ARGUS",
+            "function_proposed": "Préparation fixe puis tir unique sur une ligne horizontale clairement annoncée.",
+            "counterplay_proposed": "Approche pendant la préparation ou passage hors de la ligne."
+          },
+          {
+            "name": "Visée patiente",
+            "function_proposed": "Posture de visée dont la puissance dépend d'un maintien immobile.",
+            "counterplay_proposed": "Perd la préparation sous pression ; vulnérable à la choppe."
+          },
+          {
+            "name": "Décalage calculé",
+            "function_proposed": "Pas arrière minimal qui conserve la possibilité de tirer.",
+            "counterplay_proposed": "Aucune invulnérabilité ; efficace seulement sur une attaque mal espacée."
+          },
+          {
+            "name": "Crosse de secours",
+            "function_proposed": "Frappe courte qui repousse sans donner de longue séquence offensive.",
+            "counterplay_proposed": "Portée faible ; garde proche et punition si elle est répétée."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Récupération des tirs et faible rendement au corps à corps ; doit choisir ses moments.",
+        "intro_proposed": "Les lentilles du casque s'alignent ; Linda abaisse le canon à hauteur de la voie de combat.",
+        "rival_proposed": {
+          "name": "Kojo « Romeo » Agu",
+          "premise": "Défi de précision où la patience compte davantage que la cadence.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Linda consigne les trajectoires du parcours, puis quitte l'arène sans cérémonie pour retrouver son équipe.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Fenêtre parfaite",
+          "sequence": "Après une visée clairement annoncée, un tir unique à forte dépense de ressource récompense la bonne ligne.",
+          "counterplay": "Si le tir manque, l'animation de sortie laisse une punition nette.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Silence d'ARGUS",
+          "sequence": "Les optiques se verrouillent ; un tir de précision neutralise l'unité adverse, puis Linda remet son arme au repos sans insister sur les blessures.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "locke_h5",
+      "name": "Jameson Locke",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Locke-fullbody.png",
+          "image_url": "https://www.halopedia.org/images/2/20/H5G-Render-Locke-fullbody.png?44244",
+          "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+          "dimensions": {
+            "width": 520,
+            "height": 1040
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+        }
+      ],
+      "visual_lock": "Armure HUNTER GEN2 sombre, surfaces gris acier arrondies, viseur cyan étroit, petit appendice arrière d'épaule et mentonnière complexe ; aucun casque générique.",
+      "selected_representation": "Une pose de combat initiale indépendante, corps entier, casquée, orientée vers la droite, fond transparent. Candidat illustré, pas un sprite animé.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Interception à moyenne portée et poursuite contrôlée ; boucles de combat proposées pour Halo Combats."
+      },
+      "equipment_state": "Armure HUNTER GEN2 casquée ; fusil d'assaut vert sombre du rendu officiel à deux mains.",
+      "fidelity_scope": "Fidélité visuelle visée à l'incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Poursuite HUNTER",
+            "function_proposed": "Avancée rapide pouvant déboucher sur une frappe directe.",
+            "counterplay_proposed": "Arrêt prévisible, interceptable par une attaque préparée."
+          },
+          {
+            "name": "Rafale rompue",
+            "function_proposed": "Deux temps de tir avec un intervalle où Locke doit choisir de poursuivre.",
+            "counterplay_proposed": "L'adversaire peut contester l'intervalle ; poursuite non sûre sur garde."
+          },
+          {
+            "name": "Verrou de bras",
+            "function_proposed": "Choppe de proximité après contact, avec déchoppe lisible.",
+            "counterplay_proposed": "S'éloigner ou esquiver avant la saisie ; manque punissable."
+          },
+          {
+            "name": "Arrêt de chasse",
+            "function_proposed": "Freinage court depuis une avancée, servant de feinte.",
+            "counterplay_proposed": "Ne produit pas de dégâts ; l'adversaire peut rester patient et garder l'espace."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Engagements lisibles et besoin de confirmer la poursuite ; mauvaise lecture coûte la position.",
+        "intro_proposed": "Locke range son analyse de mission et annonce le début d'un exercice de capture.",
+        "rival_proposed": {
+          "name": "Fred-104",
+          "premise": "Simulation d'interception où chaque combattant défend sa méthode.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Locke remet un rapport d'exercice à Osiris, en soulignant les ouvertures qu'il doit encore corriger.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Interception Osiris",
+          "sequence": "Une avancée confirmée conduit à une prise et à une projection contrôlée qui replace l'adversaire.",
+          "counterplay": "L'entrée se garde ou s'évite ; la projection ne se déclenche pas sur simple proximité.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Cible maîtrisée",
+          "sequence": "Locke bloque le bras armé d'une cible compatible, la couche et confirme la fin de l'exercice sur son canal.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "vale_h5",
+      "name": "Olympia Vale",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Vale.png",
+          "image_url": "https://www.halopedia.org/images/9/9b/H5G-Render-Vale.png?6a427",
+          "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+          ],
+          "sha256": "ae14233554460df98aa5c35689decb5186e797da9563734737f9aa7f5097fa16",
+          "dimensions": {
+            "width": 460,
+            "height": 1000
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/vale_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+        }
+      ],
+      "visual_lock": "COPPERHEAD GEN2 rouge corail, viseur ajouré multicolore à petites cellules, dôme rouge, mentonnière pointue cerclée d'or, modules ronds latéraux, silhouette élancée ; marques personnelles du rendu préservées.",
+      "selected_representation": "Pose de combat initiale, corps entier, casque conservé, orientée vers la droite, transparence réelle recherchée. Image candidate indépendante.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Mobilité, relances et techniques de rapprochement proposées."
+      },
+      "equipment_state": "Armure COPPERHEAD casquée ; pistolet-mitrailleur compact M20 issu du rendu officiel.",
+      "fidelity_scope": "Fidélité visuelle visée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Pas COPPERHEAD",
+            "function_proposed": "Court déplacement oblique traduit en variation de distance sur le plan 2D.",
+            "counterplay_proposed": "Sans traversée automatique ; une attaque large couvre sa sortie."
+          },
+          {
+            "name": "Rafale de proximité",
+            "function_proposed": "Petite séquence de M20 pendant un appui stable.",
+            "counterplay_proposed": "Distance limitée et récupération si les premiers tirs manquent."
+          },
+          {
+            "name": "Double pivot",
+            "function_proposed": "Deux frappes de directions haut/bas annoncées par une animation différente.",
+            "counterplay_proposed": "Séquence interrompable entre les deux temps."
+          },
+          {
+            "name": "Renversement de rythme",
+            "function_proposed": "Saisie légère disponible après une feinte réussie de frappe.",
+            "counterplay_proposed": "Nécessite la proximité ; recul ou déchoppe bat la tentative."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Dégâts modestes sans ouverture confirmée ; les feintes perdent contre une défense patiente.",
+        "intro_proposed": "Vale règle son casque, salue l'adversaire et ajuste sa garde.",
+        "rival_proposed": {
+          "name": "Kelly-087",
+          "premise": "Duel d'entraînement fondé sur la vitesse et l'anticipation.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Vale transforme les observations du tournoi en exercice commun pour plusieurs styles de combat.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Cadence COPPERHEAD",
+          "sequence": "Une série courte de pivots et de frappes termine sur une rafale compacte seulement si l'ouverture initiale réussit.",
+          "counterplay": "Départ contestable ; animation abrégée si l'adversaire garde ou évite.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Salut de fin",
+          "sequence": "Vale détourne l'arme adverse, place une dernière frappe de neutralisation puis recule avec un salut bref.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "generated_candidate_with_reservations",
+        "initial_character_images_generated": 1,
+        "attempts_recorded": 2,
+        "failed_attempts": 1,
+        "generated_source_paths": [
+          "/workspace/scratch/9d31c69eef8e/generated_images/exec-c3dc7c5f-2271-4674-9e72-ff15cf4c8274.png"
+        ],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "tanaka_h5",
+      "name": "Holly Tanaka",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Tanaka-fullbody.png",
+          "image_url": "https://www.halopedia.org/images/e/e0/H5G-Render-Tanaka-fullbody.png?5e9fb",
+          "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+          ],
+          "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+          "dimensions": {
+            "width": 540,
+            "height": 1070
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+        }
+      ],
+      "visual_lock": "TECHNICIAN GEN2 ivoire gris usé, lignes cyan autour du casque et du thorax, viseur rose cuivre, petites marques rouges et emblème rouge sur épaule anatomique gauche, cuirasse et genouillères spécifiques.",
+      "selected_representation": "Pose de combat initiale, corps entier, casque conservé, orientée vers la droite, transparence réelle recherchée. Image candidate indépendante.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Défense, contrôle de terrain et conversions sur interception proposés."
+      },
+      "equipment_state": "Armure TECHNICIAN casquée ; DMR noir du rendu officiel, deux mains.",
+      "fidelity_scope": "Fidélité visuelle visée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Tir d'appui",
+            "function_proposed": "Tir de DMR précédé d'une posture stable pour contrôler un couloir précis.",
+            "counterplay_proposed": "Contournement vertical et pression avant la stabilisation."
+          },
+          {
+            "name": "Garde technique",
+            "function_proposed": "Posture qui réduit le recul d'une seule attaque correctement lue.",
+            "counterplay_proposed": "Choppe ou attaque retardée ; ne protège pas de toutes les directions."
+          },
+          {
+            "name": "Balise d'atelier",
+            "function_proposed": "Repère de gameplay au sol qui améliore une seule interception dans sa zone.",
+            "counterplay_proposed": "Repère très visible, temporaire et évitable ; aucun piège invisible."
+          },
+          {
+            "name": "Percée courte",
+            "function_proposed": "Coup d'épaule lent pour reprendre une petite distance.",
+            "counterplay_proposed": "Démarrage annoncé ; recul puis punition."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "A besoin de temps pour établir sa zone ; moins efficace lorsqu'elle doit poursuivre.",
+        "intro_proposed": "Tanaka inspecte une fixation d'armure et choisit un point d'appui dans le décor.",
+        "rival_proposed": {
+          "name": "Laurette Agryna",
+          "premise": "Évaluation de tenue de position face à une commandante qui change le tempo.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Tanaka réorganise le parcours d'entraînement afin que ses angles morts deviennent des exercices utiles.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Point d'appui",
+          "sequence": "Une posture d'interception renforcée transforme une attaque adverse correctement lue en contre puissant.",
+          "counterplay": "Les choppes et les temporisations battent l'attente ; pas de contre automatique universel.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Zone sécurisée",
+          "sequence": "Tanaka repousse la cible dans une aire de simulation matérialisée, l'immobilise et ferme l'exercice.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "dare_odst",
+      "name": "Veronica Dare",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 3: ODST (2009), rendu promotionnel officiel",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3_ODST_Dare.png",
+          "image_url": "https://www.halopedia.org/images/a/a8/Halo3_ODST_Dare.png?342e9",
+          "provenance": "Visuel officiel promotionnel Bungie pour Halo 3: ODST ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "https://files.bungie.org/odst_assets/"
+          ],
+          "sha256": "47c279bc6bfbb9c8dd880434b197c191bbdcf0ad2e178e8c4a22962c8896767b",
+          "dimensions": {
+            "width": 1200,
+            "height": 2843
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dare_odst_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+        }
+      ],
+      "visual_lock": "Armure RECON sombre non-Spartan, visière ambre étroite, casque anguleux avec marquage DARE, plastron et abdomen distincts à voyant vert circulaire, protections d'avant-bras, doigts nus des gants partiels.",
+      "selected_representation": "Pose de combat initiale, corps entier, casque conservé, orientée vers la droite, transparence réelle recherchée. Image candidate indépendante.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Discrétion et précision à courte portée ; esquives et ouvertures tactiques proposées."
+      },
+      "equipment_state": "Armure RECON casquée de Halo 3: ODST ; pistolet noir à silencieux du rendu officiel.",
+      "fidelity_scope": "Fidélité visuelle visée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Point discret",
+            "function_proposed": "Tir unique de pistolet avec une préparation courte mais visible.",
+            "counterplay_proposed": "Faible avantage si anticipé ; garde puis avance."
+          },
+          {
+            "name": "Bascule RECON",
+            "function_proposed": "Changement de hauteur bref suivi d'un retour à la garde.",
+            "counterplay_proposed": "Pas d'invisibilité ; attaque basse ou retardée couvre le mouvement."
+          },
+          {
+            "name": "Double observation",
+            "function_proposed": "Feinte de visée puis second choix entre tir et arrêt.",
+            "counterplay_proposed": "Un adversaire patient conserve sa défense ; ressource dépensée sans ouverture."
+          },
+          {
+            "name": "Extraction",
+            "function_proposed": "Déplacement défensif court après une lecture correcte de saisie.",
+            "counterplay_proposed": "Ne sauve pas d'une attaque déjà confirmée ; espace gagné au prix de la pression."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Résistance et portée de contact limitées ; dépend de décisions précises.",
+        "intro_proposed": "Dare coupe une communication ONI et prend sa garde sans retirer le casque.",
+        "rival_proposed": {
+          "name": "Michael « Mickey » Crespo",
+          "premise": "Scénario fictif de sécurisation d'objectif opposant discrétion et démolition.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Dare archive le résultat sous un code de simulation et rejoint son point d'extraction.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Priorité ONI",
+          "sequence": "Un changement d'appui confirmé ouvre une courte séquence pistolet et neutralisation rapprochée.",
+          "counterplay": "Allonge limitée et démarrage vulnérable à une attaque de couverture.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Extraction confirmée",
+          "sequence": "Dare fait tomber l'arme d'une cible compatible, termine l'affrontement par une neutralisation sobre et annonce son départ.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "dutch_odst",
+      "name": "Taylor « Dutch » Miles",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 3: ODST (2009), capture promotionnelle officielle Bungie",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3_ODST-Dutch.jpg",
+          "image_url": "https://www.halopedia.org/images/2/2f/Halo3_ODST-Dutch.jpg?7362f",
+          "provenance": "Visuel officiel promotionnel Bungie pour Halo 3: ODST ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "http://halo.bungie.net/projects/odst/images.aspx"
+          ],
+          "sha256": "05485fa8250c5bfe3f8230c2358ee31abaebb296604726e3b606e68f50602919",
+          "dimensions": {
+            "width": 1144,
+            "height": 1500
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dutch_odst_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+        }
+      ],
+      "visual_lock": "ODST massif humain, casque à bande orange et peinture de dents sur mentonnière, visière gris-bleu sombre, armure usée olive, bandes orange sur épaules et bras, bras en partie découverts, laser Spartan.",
+      "selected_representation": "Pose de combat initiale, corps entier, casque conservé, orientée vers la droite, transparence réelle recherchée. Image candidate indépendante.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Pression lourde et garde robuste ; charge du laser lisible et punissable proposée."
+      },
+      "equipment_state": "Armure ODST personnalisée casquée ; laser Spartan du rendu officiel, porté à deux mains.",
+      "fidelity_scope": "Fidélité visuelle visée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Montée en charge",
+            "function_proposed": "Charge du laser clairement lumineuse puis tir sur une ligne fixe.",
+            "counterplay_proposed": "Long engagement ; esquive de la ligne avant le départ."
+          },
+          {
+            "name": "Bélier ODST",
+            "function_proposed": "Avancée lourde suivie d'un coup d'épaule.",
+            "counterplay_proposed": "Déplacement lent et arrêt punissable si évité."
+          },
+          {
+            "name": "Crosse lourde",
+            "function_proposed": "Frappe montante avec le corps du laser contre une approche aérienne.",
+            "counterplay_proposed": "Faible portée horizontale et récupération importante."
+          },
+          {
+            "name": "Ancrage",
+            "function_proposed": "Posture stationnaire renforçant la tenue de garde au prix d'une jauge.",
+            "counterplay_proposed": "Choppe, recul ou attente épuisent son avantage ; aucun blocage absolu."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Mobilité faible et outils lourds ; les changements de distance le forcent à se réengager.",
+        "intro_proposed": "Dutch cale le laser contre son équipement et plante ses deux pieds.",
+        "rival_proposed": {
+          "name": "John Forge",
+          "premise": "Concours d'exercice entre deux soldats humains, construit pour le mode tournoi.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Dutch réserve les derniers packs de ravitaillement à son escouade avant de quitter l'arène.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Éclair lourd",
+          "sequence": "Une charge de laser longue et fortement annoncée libère un tir puissant sur une ligne fixe.",
+          "counterplay": "L'adversaire peut quitter la ligne ; récupération forte si la charge est engagée à tort.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Dernière charge",
+          "sequence": "Dutch cale le laser, la lumière remplit brièvement le cadrage et la cible de simulation se désactive ; retour immédiat au soldat debout.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "generated_candidate_with_reservations",
+        "initial_character_images_generated": 1,
+        "attempts_recorded": 1,
+        "failed_attempts": 0,
+        "generated_source_paths": [
+          "/workspace/scratch/9d31c69eef8e/generated_images/exec-70053581-3dfa-4053-a2e4-3aea2ecea4fc.png"
+        ],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "romeo_odst",
+      "name": "Kojo « Romeo » Agu",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 3: ODST (2009), rendu promotionnel officiel",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3_ODST_Romeo.png",
+          "image_url": "https://www.halopedia.org/images/4/48/Halo3_ODST_Romeo.png?78bb8",
+          "provenance": "Visuel promotionnel officiel Halo 3: ODST de Bungie ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "https://files.bungie.org/odst_assets/"
+          ],
+          "sha256": "72932c4b25c5fed4935c894cbf4a388310797b29f653331707b867612556cb15",
+          "dimensions": {
+            "width": 1985,
+            "height": 2674
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/romeo_odst_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+        }
+      ],
+      "visual_lock": "ODST olive à plastron bleu usé, casque fermé muni de deux optiques décalées sur le front anatomique droit, épaule anatomique gauche protégée de bleu et épaule droite peu protégée ; gants sans doigts et long fusil de précision.",
+      "selected_representation": "Pose de combat initiale autonome, corps entier orienté vers la droite ; aucune animation ou intégration jouable impliquée.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Tireur de précision vulnérable à l’approche ; visée préparée, recul et contre-attaque proposés."
+      },
+      "equipment_state": "ODST 2009 casqué, SRS99D du rendu officiel tenu à deux mains.",
+      "fidelity_scope": "Cible de fidélité à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Appui du tireur",
+            "function_proposed": "Position basse de visée qui stabilise un tir après un délai.",
+            "counterplay_proposed": "L'approche rapprochée et les choppes punissent l'immobilité."
+          },
+          {
+            "name": "Angle haut",
+            "function_proposed": "Tir dirigé sur un couloir aérien prédéfini.",
+            "counterplay_proposed": "L'adversaire peut rester au sol et avancer pendant la récupération."
+          },
+          {
+            "name": "Retrait du viseur",
+            "function_proposed": "Sortie de visée accompagnée d'un recul limité.",
+            "counterplay_proposed": "Abandonne son avantage de portée ; le coin réduit son utilité."
+          },
+          {
+            "name": "Crosse basse",
+            "function_proposed": "Frappe de dégagement destinée à stopper une course trop directe.",
+            "counterplay_proposed": "Pas de longue conversion automatique ; attaque espacée la bat."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Lecture de trajectoire exigeante ; garde de contact et déplacements moins souples que les Spartans.",
+        "intro_proposed": "Romeo vérifie son optique, puis abaisse le fusil pour garder l'adversaire dans son champ.",
+        "rival_proposed": {
+          "name": "Linda-058",
+          "premise": "Simulation de duel de tireurs avec avantages de portée symétriquement annoncés.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Romeo fournit un rapport excessivement assuré, puis recommence l'exercice pour améliorer son résultat.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Une seule ouverture",
+          "sequence": "Une posture de tir engagée convertit une bonne lecture de trajectoire en tir de précision renforcé.",
+          "counterplay": "Faible rendement sans ligne libre ; une approche au contact interrompt la préparation.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Optique claire",
+          "sequence": "Romeo recule d'un pas, aligne le viseur puis neutralise l'unité cible avec un tir unique, sans gros plan de blessure.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "mickey_odst",
+      "name": "Michael « Mickey » Crespo",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo 3: ODST (2009), capture promotionnelle officielle Bungie",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3_ODST-Mickey.jpg",
+          "image_url": "https://www.halopedia.org/images/d/da/Halo3_ODST-Mickey.jpg?c3295",
+          "provenance": "Visuel promotionnel officiel Halo 3: ODST de Bungie ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "http://halo.bungie.net/projects/odst/images.aspx"
+          ],
+          "sha256": "e0bb3182b119fb36009f28bbee898248061eadfdef65c8b6f5d2174a8cdf6f63",
+          "dimensions": {
+            "width": 1144,
+            "height": 1500
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/mickey_odst_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+        }
+      ],
+      "visual_lock": "ODST olive avec bande claire au sommet du casque, projecteur sur tempe anatomique droite, plaques d'épaules à bandes rouges, large paquetage dorsal rectangulaire et grenades sur le tibia anatomique droit ; lance-roquettes SPNKr.",
+      "selected_representation": "Pose de combat initiale autonome, corps entier orienté vers la droite ; aucune animation ou intégration jouable impliquée.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Démolition et contrôle différé de l’espace ; roquettes annoncées, recul et vulnérabilité de récupération proposés."
+      },
+      "equipment_state": "ODST 2009 casqué ; un lance-roquettes M41 SPNKr à deux tubes, porté à deux mains.",
+      "fidelity_scope": "Cible de fidélité à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Tube d'ouverture",
+            "function_proposed": "Roquette unique suivant une trajectoire droite lente et annoncée.",
+            "counterplay_proposed": "Préparation et récupération longues ; saut ou garde hors de sa zone finale."
+          },
+          {
+            "name": "Trajectoire haute",
+            "function_proposed": "Tir vers une voie aérienne fixe, au prix du contrôle au sol.",
+            "counterplay_proposed": "Course basse sous le couloir ; ne suit pas automatiquement la cible."
+          },
+          {
+            "name": "Double engagement",
+            "function_proposed": "Deux projectiles séparés par un délai choisi, consommant les deux charges de la jauge.",
+            "counterplay_proposed": "L'adversaire peut profiter du temps de rechargement après la séquence."
+          },
+          {
+            "name": "Pas de rechargement",
+            "function_proposed": "Petit recul en préparation d'une nouvelle charge de gameplay.",
+            "counterplay_proposed": "Aucun projectile pendant le recul ; poursuite prudente possible."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Cadence rare et forte dépendance à l'espace ; doit défendre ses phases de recharge.",
+        "intro_proposed": "Mickey vérifie le verrou du SPNKr puis se place à distance de sécurité dans l'arène fictive.",
+        "rival_proposed": {
+          "name": "Veronica Dare",
+          "premise": "Exercice d'objectif où un spécialiste des gros moyens doit affronter une défense mobile.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Mickey prend en charge la remise en état du champ d'exercice après son passage.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Deux tubes",
+          "sequence": "Deux roquettes occupent successivement deux couloirs annoncés après un engagement visible.",
+          "counterplay": "Consomme les charges de gameplay ; éviter le premier couloir conserve une chance d'évasion.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Champ dégagé",
+          "sequence": "Mickey se met à couvert dans la mise en scène, puis une explosion à distance clôt la simulation adverse et laisse le champ libre.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "forge_hw",
+      "name": "Sergent John Forge",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo Wars (2009), incarnation cinématique/promotionnelle du Marine John Forge",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW-SgtJohnForge-FullBody.png",
+          "image_url": "https://www.halopedia.org/images/6/6b/HW-SgtJohnForge-FullBody.png?a1012",
+          "provenance": "Rendu du personnage de Halo Wars réhébergé par Halopedia, galerie John Forge ; page sans lien vers l’archive primaire. Corroboré par le rendu promotionnel du visage et du torse.",
+          "primary_urls": [],
+          "sha256": "e1632cd3aeea92494c4e2bb16e03802b2a1b39e8a79dc86cb69dd6a4e3b1abbc",
+          "dimensions": {
+            "width": 520,
+            "height": 1320
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/forge_hw_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HW_-_Sergeant_Forge.jpg",
+          "image_url": "https://www.halopedia.org/images/7/76/HW_-_Sergeant_Forge.jpg?f8971",
+          "provenance": "Rendu promotionnel Halo Wars documenté dans la galerie John Forge de Halopedia ; source primaire non liée.",
+          "primary_urls": [],
+          "sha256": "c6392eb080b17256023c4eb0619131706e2c68cad7dbb935ae936b1a2baed908",
+          "dimensions": {
+            "width": 542,
+            "height": 542
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/forge_hw_promo_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "limits": "Visage et torse seulement, corroboration des plaques masquées sur le rendu complet."
+        }
+      ],
+      "visual_lock": "Visage de Forge au crâne rasé très court et barbe légère, armure de Marine brun bronze usée, plaques et col caractéristiques, insigne rond sur épaule anatomique droite, poches de taille, holster de cuisse droite et treillis camouflage ; aucun élément Spartan.",
+      "selected_representation": "Pose de combat initiale autonome, corps entier orienté vers la droite ; aucune animation ou intégration jouable impliquée.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Bagarreur humain robuste ; contre, lutte et usage opportuniste de l’équipement proposés."
+      },
+      "equipment_state": "Armure de Marine de Halo Wars 2009, tête nue canonique ; mains libres, holster conservé.",
+      "fidelity_scope": "Cible de fidélité à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Poing de quart",
+            "function_proposed": "Court direct avançant pour punir une récupération proche.",
+            "counterplay_proposed": "Portée humaine limitée ; battu par une attaque correctement espacée."
+          },
+          {
+            "name": "Clé de Marine",
+            "function_proposed": "Saisie avec changement de côté après une entrée réussie.",
+            "counterplay_proposed": "Déchoppe et recul ; aucune saisie à longue distance."
+          },
+          {
+            "name": "Épaule du Spirit",
+            "function_proposed": "Avancée robuste servant à repousser, sans traversée de projectile garantie.",
+            "counterplay_proposed": "Démarrage lisible et récupération exposée sur échec."
+          },
+          {
+            "name": "Dégainé bref",
+            "function_proposed": "Transition distincte de la garde vers le pistolet du holster puis retour à la garde.",
+            "counterplay_proposed": "Nécessite une animation dédiée et laisse un intervalle contestable."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Allonge et mobilité inférieures aux super-soldats ; exige anticipation et proximité.",
+        "intro_proposed": "Forge desserre ses épaules, ferme les poings et demande de commencer l'exercice.",
+        "rival_proposed": {
+          "name": "Taylor « Dutch » Miles",
+          "premise": "Rencontre de simulation entre garde légère et équipement lourd.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "La branche de tournoi se ferme comme une simulation mémorielle de Forge ; aucun changement à son destin canonique n'est posé.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Pas encore fini",
+          "sequence": "Une courte défense réussie mène à un enchaînement humain de frappes et à une projection, sans capacité surnaturelle ajoutée.",
+          "counterplay": "Déclenchement au contact uniquement ; une feinte ou une saisie bat la préparation.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Service terminé",
+          "sequence": "Forge neutralise une cible de taille compatible avec une projection brève, récupère son appui et remet son équipement en place.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "generated_candidate_with_reservations",
+        "initial_character_images_generated": 1,
+        "attempts_recorded": 1,
+        "failed_attempts": 0,
+        "generated_source_paths": [
+          "/workspace/scratch/9d31c69eef8e/generated_images/exec-c52ea9b5-ffe5-4f68-b80c-c3e4e0f803da.png"
+        ],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "agryna_infinite",
+      "name": "Commandante Laurette Agryna",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo Infinite (2021), armure personnelle casquée du tutoriel de l’Académie",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_Commander_Agryna_armor.jpg",
+          "image_url": "https://www.halopedia.org/images/a/a1/HINF_Commander_Agryna_armor.jpg?6d856",
+          "provenance": "Capture effective de Halo Infinite par le contributeur Necrontir, publiée le 26 novembre 2021 ; visuel du personnage du jeu, pas un rendu de fan.",
+          "primary_urls": [],
+          "sha256": "887f1eaa995b818f0e9acb69217a9617d13d48703dd050b1e9615bbfeda1949d",
+          "dimensions": {
+            "width": 999,
+            "height": 1992
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/agryna_infinite_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+        }
+      ],
+      "visual_lock": "Armure personnelle blanc ivoire et gris vert pâle, grand viseur bleu, module latéral sur tempe anatomique droite, marques jaunes sternum/ceinture, épaules et genoux ivoire, panneaux longs des cuisses ; tête entièrement casquée.",
+      "selected_representation": "Pose de combat initiale autonome, corps entier orienté vers la droite ; aucune animation ou intégration jouable impliquée.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Commandement et défense méthodique ; garde stable, interception et pression courte proposés."
+      },
+      "equipment_state": "Armure personnelle casquée de l’Académie ; mains libres, aucun équipement offensif ajouté.",
+      "fidelity_scope": "Cible de fidélité à l’incarnation indiquée ; conformité 1:1 non certifiée.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Correction de garde",
+            "function_proposed": "Parade ciblée suivie d'une poussée courte si la lecture est juste.",
+            "counterplay_proposed": "Choppe et temporisation ; vulnérabilité à une direction non couverte."
+          },
+          {
+            "name": "Pas d'encadrement",
+            "function_proposed": "Avancée mesurée qui réduit l'espace sans frapper immédiatement.",
+            "counterplay_proposed": "N'accorde aucun avantage gratuit ; peut être contestée à distance."
+          },
+          {
+            "name": "Contre de lecture",
+            "function_proposed": "Réponse au contact précédée d'un signe de préparation identifiable.",
+            "counterplay_proposed": "Feinte ou attaque retardée fait manquer le contre."
+          },
+          {
+            "name": "Ralliement",
+            "function_proposed": "Brève posture récupérant une partie de la ressource de garde du jeu.",
+            "counterplay_proposed": "Aucun soin gratuit ; une attaque interrompt la posture."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Outils réactifs moins efficaces face à un adversaire qui alterne feintes et saisies.",
+        "intro_proposed": "Agryna énonce l'objectif de l'exercice, décroise les bras et prend sa garde.",
+        "rival_proposed": {
+          "name": "Holly Tanaka",
+          "premise": "Évaluation de décision et de discipline défensive.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Agryna réunit les participants pour revoir leurs choix et préparer le prochain groupe de recrues.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Leçon de terrain",
+          "sequence": "Une parade confirmée entraîne une séquence de contrôle avec repositionnement et coup de fin, puis retour en garde.",
+          "counterplay": "Exige une lecture correcte ; une attaque retardée ou une saisie fait échouer l'ouverture.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Exercice clos",
+          "sequence": "Agryna immobilise proprement une cible compatible, relâche la prise au signal de fin et lui tend la main dans la version d'entraînement.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "missing_after_service_rejections",
+        "initial_character_images_generated": 0,
+        "attempts_recorded": 2,
+        "failed_attempts": 2,
+        "generated_source_paths": [],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "dinh_infinite",
+      "name": "Hieu Dinh",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo Infinite, saison 2 Lone Wolves (2022), équipement personnel présenté officiellement en mai 2022",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_DinhModel.png",
+          "image_url": "https://www.halopedia.org/images/6/6a/HINF_DinhModel.png?d5884",
+          "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+          "primary_urls": [
+            "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+          ],
+          "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf",
+          "dimensions": {
+            "width": 1479,
+            "height": 2062
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_HieuDinh_Concept.png",
+          "image_url": "https://www.halopedia.org/images/f/f6/HINF_HieuDinh_Concept.png?f7e80",
+          "provenance": "Concept de développement officiel publié par Halo Waypoint en mars 2022 ; direction des personnages David Heidhoff, base Rakshasa Molly McLaughlin, image de détail réhébergée Halopedia.",
+          "primary_urls": [
+            "https://www.artstation.com/artwork/blVNGv",
+            "https://www.halowaypoint.com/news/halo-infinite-update-march-2022"
+          ],
+          "sha256": "4e5ed8e3c3a7a780ea485a3e64fc4b23ef9691f4959649facb11a72fae33efcc",
+          "dimensions": {
+            "width": 468,
+            "height": 991
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_concept_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Concept non équivalent au modèle final : utilisé seulement pour compléter les jambes non visibles. Divergences d’accessoires et de couleur explicitement subordonnées à la première référence."
+        }
+      ],
+      "visual_lock": "ARTAIUS final de la saison 2, casque beige à optiques frontales, visière rouge orangée marquée de dents blanches ; cuirasse rouge récupérée à dents peintes, épaule anatomique droite rouge, radio/antenne sur épaule anatomique gauche, équipement asymétrique et tissu kaki.",
+      "selected_representation": "Candidat entier orienté vers la droite, casque conservé. Haut du corps guidé par le modèle final ; bas des jambes complété à partir du concept officiel, à revalider contre une capture finale entière.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Pression de proximité et récupération d’espace ; coups d’épaule et parades risquées proposés."
+      },
+      "equipment_state": "Rakshasa personnalisé, casque ARTAIUS de la saison 2 ; mains libres comme le rendu officiel final, lame du concept non reprise.",
+      "fidelity_scope": "La fidélité 1:1 n’est pas certifiable avec le bas des jambes absent de la référence finale. Candidat documenté, validation complémentaire requise.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Épaule récupérée",
+            "function_proposed": "Pression courte avec l'épaule protégée de la pièce rouge.",
+            "counterplay_proposed": "Départ annoncé ; une esquive en retrait ouvre une punition."
+          },
+          {
+            "name": "Entrée à risque",
+            "function_proposed": "Avancée basse vers la proximité avec coût de ressource défensive.",
+            "counterplay_proposed": "Ne neutralise pas toute attaque ; lecture adverse peut la stopper."
+          },
+          {
+            "name": "Crochet d'abordage",
+            "function_proposed": "Saisie courte qui rapproche et change la position relative.",
+            "counterplay_proposed": "Échec très exposé ; déchoppe et distance la battent."
+          },
+          {
+            "name": "Contre improvisé",
+            "function_proposed": "Riposte brève après une garde précisément synchronisée.",
+            "counterplay_proposed": "Aucun déclenchement automatique sur garde normale ; feinte efficace."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Dépendance à l'engagement et à la ressource ; une mauvaise entrée le laisse en difficulté.",
+        "intro_proposed": "Dinh tape sa plaque d'épaule, vérifie son équilibre et avance d'un pas.",
+        "rival_proposed": {
+          "name": "Sigrid Eklund",
+          "premise": "Duel d'entraînement opposant improvisation rapprochée et lecture du terrain.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Dinh et Eklund comparent leurs erreurs d'exercice avant de reprendre leur mission commune.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "À bout portant",
+          "sequence": "Une avancée d'épaule confirmée ouvre une séquence courte de pression rapprochée au coût d'une ressource élevée.",
+          "counterplay": "Entrée très engagée ; retrait anticipé ou garde patiente permet la punition.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Tenir encore",
+          "sequence": "Dinh encaisse la réaction de la scène, se rétablit puis projette la cible au sol pour terminer, sans transformer l'armure en pouvoir inédit.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "generated_candidate_requires_correction",
+        "initial_character_images_generated": 1,
+        "attempts_recorded": 2,
+        "failed_attempts": 1,
+        "generated_source_paths": [
+          "/workspace/scratch/9d31c69eef8e/generated_images/exec-7dee4e0e-a992-45a6-abda-79ce821a7636.png"
+        ],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "id": "eklund_infinite",
+      "name": "Sigrid Eklund",
+      "category": "UNSC et Spartans",
+      "game_version": "Halo Infinite, saison 2 Lone Wolves (2022), équipement personnel présenté officiellement en mai 2022",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_EklundModel.png",
+          "image_url": "https://www.halopedia.org/images/f/f6/HINF_EklundModel.png?97c86",
+          "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+          "primary_urls": [
+            "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+          ],
+          "sha256": "acc50d4d636a9a8d60f908b8aa4d0b7b4555b714bfa61001884b4089c8d6e159",
+          "dimensions": {
+            "width": 1484,
+            "height": 2150
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/eklund_infinite_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_SigridEklund_Concept.png",
+          "image_url": "https://www.halopedia.org/images/3/33/HINF_SigridEklund_Concept.png?c0306",
+          "provenance": "Concept de développement officiel publié par Halo Waypoint en mars 2022 ; direction des personnages David Heidhoff, base Rakshasa Molly McLaughlin, image de détail réhébergée Halopedia.",
+          "primary_urls": [
+            "https://www.halowaypoint.com/news/halo-infinite-update-march-2022"
+          ],
+          "sha256": "1286d7aa47ed0963bc3ac9b9f65de7ecad8bfa901b3283222f221f3da3043c68",
+          "dimensions": {
+            "width": 468,
+            "height": 991
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/eklund_infinite_concept_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Concept non équivalent au modèle final : utilisé seulement pour compléter les jambes non visibles. Divergences d’accessoires et de couleur explicitement subordonnées à la première référence."
+        }
+      ],
+      "visual_lock": "STRIBOG de la saison 2, grand viseur bleu réfléchissant continu, casque vert et module au sommet, harnais vert, boîtier thoracique horizontal à liens rouges, cartouches or à bases rouges sur abdomen, avant-bras asymétriques selon rendu final.",
+      "selected_representation": "Candidat entier orienté vers la droite, casque conservé. Haut du corps guidé par le modèle final ; bas des jambes complété à partir du concept officiel, à revalider contre une capture finale entière.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique",
+        "description": "Reconnaissance et contre-positionnement ; feintes de garde, pièges lisibles et punition à distance proposés."
+      },
+      "equipment_state": "Rakshasa personnalisé, casque STRIBOG de la saison 2 ; mains libres comme le rendu officiel final.",
+      "fidelity_scope": "La fidélité 1:1 n’est pas certifiable avec le bas des jambes absent de la référence finale. Candidat documenté, validation complémentaire requise.",
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats ; non canonique, non implémentée, non équilibrée et non testée.",
+        "scope": "Quatre pistes de spéciaux, une super, un finisher et trois scènes courtes ; pas un moveset complet ni une intégration jouable.",
+        "specials_proposed": [
+          {
+            "name": "Observation",
+            "function_proposed": "Posture brève qui prépare un bonus limité sur la prochaine lecture défensive.",
+            "counterplay_proposed": "L'adversaire peut occuper le terrain ou interrompre sa préparation."
+          },
+          {
+            "name": "Bris de ligne",
+            "function_proposed": "Pas rapide de retrait ou d'arrêt, sans attaque automatique.",
+            "counterplay_proposed": "Ne traverse pas les coups actifs ; reste vulnérable en coin."
+          },
+          {
+            "name": "Riposte de Ranger",
+            "function_proposed": "Frappe de jambe espacée après confirmation d'un manque adverse.",
+            "counterplay_proposed": "Récupération punissable sur garde ; exige une bonne distance."
+          },
+          {
+            "name": "Projection de contrôle",
+            "function_proposed": "Saisie courte destinée à replacer l'adversaire dans une zone annoncée.",
+            "counterplay_proposed": "Déchoppe et recul ; faible rendement si forcée hors de sa bonne portée."
+          }
+        ],
+        "weakness_and_counterplay_proposed": "Rendement fondé sur la lecture et le placement ; peine à forcer une ouverture sans préparation.",
+        "intro_proposed": "Eklund observe les deux issues du décor puis se place, mains libres, face à l'adversaire.",
+        "rival_proposed": {
+          "name": "Hieu Dinh",
+          "premise": "Exercice de complémentarité où chacun teste les limites de la méthode de l'autre.",
+          "continuity": "Scénario d’exercice ou de tournoi propre à Halo Combats ; rencontre non affirmée dans le canon."
+        },
+        "ending_proposed": "Eklund transforme le résultat en plan d'entraînement commun ; la scène reste une proposition propre à Halo Combats.",
+        "frame_data_status": "Aucune frame data attribuée ; valeurs, ressources, priorités, hitboxes et règles d'annulation à prototyper et tester.",
+        "super_proposed": {
+          "name": "Lecture du terrain",
+          "sequence": "Une courte observation prépare un contre qui déplace l'adversaire, puis une frappe de contrôle clôt la séquence.",
+          "counterplay": "L'observation peut être interrompue ; le contre échoue si l'adversaire retarde son engagement.",
+          "implementation_status": "Design original non canonique, non implémenté ; coût, dégâts, timings, priorités et compatibilités à tester."
+        },
+        "finisher_proposed": {
+          "name": "Angle fermé",
+          "sequence": "Eklund retire l'arme d'une cible compatible, ferme sa voie de sortie et la neutralise par une prise courte avant de reprendre sa surveillance.",
+          "trigger": "Après victoire définitive uniquement, selon la grammaire V1 ; aucun effet sur résultat ou classement.",
+          "target_adaptation": "Chorégraphie à adapter séparément aux familles de squelettes ; ne pas réutiliser telle quelle sur Hunter, construction ou véhicule.",
+          "presentation": "Cadrage bref et lisible, retour à l’ancrage de combat ; variante abrégée et fin de simulation possibles.",
+          "implementation_status": "Une proposition originale non canonique et non implémentée ; aucune animation ni image d’action produite ici."
+        }
+      },
+      "production_status": {
+        "status": "generated_candidate_with_reservations",
+        "initial_character_images_generated": 1,
+        "attempts_recorded": 1,
+        "failed_attempts": 0,
+        "generated_source_paths": [
+          "/workspace/scratch/9d31c69eef8e/generated_images/exec-fac749bc-482b-4b3c-ae24-4683dc0712d6.png"
+        ],
+        "animation_complete": false,
+        "playable_integration_complete": false,
+        "fidelity_1_to_1_certified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "wave": 8,
+  "reviews": [],
+  "reference_checks": [
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+      "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+      "dimensions": [
+        540,
+        1020
+      ],
+      "inspected_individually": true,
+      "kind": "canonical_reference"
+    },
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/didact_h4_reference.png",
+      "sha256": "b6408096cb0d2fce56ffa38b08d4466c822f10a0b2e3026bb91848750a1a2bbd",
+      "dimensions": [
+        1230,
+        1857
+      ],
+      "inspected_individually": true,
+      "kind": "canonical_reference"
+    },
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_standard_h4_reference.png",
+      "sha256": "0eede0295ec260c0e6212dafcdc2751d33d4a2ec58f453d8699cede7256b2c0f",
+      "dimensions": [
+        2600,
+        2210
+      ],
+      "inspected_individually": true,
+      "kind": "canonical_reference"
+    },
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_h4_reference.png",
+      "sha256": "39078bf47a9a207e103fca902f70c730afbab8a34e5bb7b9b0a7550c89ce45da",
+      "dimensions": [
+        1800,
+        2080
+      ],
+      "inspected_individually": true,
+      "kind": "canonical_reference"
+    },
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+      "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "inspected_individually": true,
+      "kind": "previous_generated_candidate"
+    },
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+      "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf",
+      "dimensions": [
+        1479,
+        2062
+      ],
+      "inspected_individually": true,
+      "kind": "canonical_reference"
+    },
+    {
+      "path": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave6/dinh_infinite_initial_right_v01.png",
+      "sha256": "7c3485787dc8d7bac25eb915443f89ea7de0cb89d312036255e601640df11725",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "inspected_individually": true,
+      "kind": "previous_generated_candidate"
+    }
+  ],
+  "note": "Cinq appels réels, cinq refus de sortie moderation_blocked ; aucune image livrée, aucune QA de sortie inventée. Références et cibles inspectées individuellement avant appels."
+}

@@ -1,0 +1,62 @@
+{
+  "wave": 8,
+  "status": "passed_after_provenance_correction",
+  "recorded_utc": "2026-11-20T08:45:42+00:00",
+  "reviewer": "/root/wave8_tracking/audit_v8_tracking",
+  "review_mode": "read_only",
+  "new_browser_attempts": 0,
+  "initial_finding": "Derived journal provenance mixed V7 hashes with V8 paths; Grunt retry retained a producer index after changing the journal scope.",
+  "correction_scope": "Only the six derived provenance fields in new V8 suffixes; frozen producers and all historical prefixes preserved.",
+  "recheck_result": "All previous, producer and central journal paths, hashes and indices resolve correctly; exact journal reconstruction passes.",
+  "generation_journal_sha256": "27854ae7ca53aedea5c1bf2dabc60c3f819225732a584ab46dab4ae277869b2e",
+  "manifest_sha256": "15228fd94f123339bf86893ef0bda59d4382f68f641ea24a63882d9375d0cee6",
+  "counts": {
+    "actual_calls": 20,
+    "distinct_targets": 19,
+    "new_pngs": 4,
+    "moderation_refusals": 15,
+    "technical_failures": 1,
+    "quota_failures": 0,
+    "deferred": 0
+  },
+  "preservation": {
+    "historical_active_records": 90,
+    "historical_pngs": 90,
+    "historical_failure_records": 118,
+    "frozen_files": 8,
+    "historical_source_files": 250
+  },
+  "retry": {
+    "entity_id": "grunt_heavy_reach",
+    "producer_record": 4,
+    "central_record": 16,
+    "error_class": "reference_transport_closed"
+  },
+  "bassus_alpha_preserved": [
+    0,
+    254
+  ],
+  "remaining_findings": [],
+  "checked_paths_at_provenance_review": {
+    "work/wave8/merge_generation_journals.py": "c4f0aa21691ccbd8983eac31fef56aec886b1c783497fe7b6342de501a14473e",
+    "work/wave8/consolidate_wave8.py": "6255487b484eddb1753db631c2b4733ac2a648165a60c1e08668ab81bb9cc034",
+    "work/wave8/verify_wave8.py": "acb2e8f4b7521856bd3a2eab8cf0e369ca30baa4645c8ae0c398e2892f1dec7d"
+  },
+  "cumulative_counter_followup": {
+    "reviewer": "/root/wave8_tracking/audit_v8_tracking",
+    "mode": "read_only",
+    "finding": "The existing all_waves rejection counter must include V8, preserving 111 in the V7 baseline.",
+    "historical_prefix": {
+      "moderation_rejections": 111,
+      "service_quota": 7
+    },
+    "current_partition": {
+      "moderation_rejections": 126,
+      "service_quota": 7,
+      "other_failures": 1,
+      "total": 134
+    },
+    "legacy_classification": "109 prior moderation_blocked errors plus 2 generation_rejected records with explicit moderation reasons.",
+    "verification": "Final verification.json recalculates the partition from failed_requests and checks the corrected global counter."
+  }
+}

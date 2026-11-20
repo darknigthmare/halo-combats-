@@ -1,0 +1,25 @@
+{
+  "wave": 7,
+  "checked_utc": "2026-11-20T06:56:30+00:00",
+  "command": "python work/wave7/build_prototype_bindings.py --check",
+  "exit_code": 0,
+  "scope": "Deterministic rebuild after the two authorized integration metadata changes; all 90 PNG hashes and alpha measurements checked read-only; no browser claim.",
+  "tested_files": [
+    {
+      "path": "data/asset_manifest.json",
+      "sha256": "4b3c746d1ccb345e18af4ab9a7667cefaa3a0446175ca98f6b61965c68a49efa"
+    },
+    {
+      "path": "data/prototype_asset_bindings_v7.json",
+      "sha256": "ccfec25f637a054bbf6df5a48f0cbad824233178dab80098c756d9438145200b"
+    },
+    {
+      "path": "prototype/lab_v7/catalog.js",
+      "sha256": "380a7d1368bedc5ea3842e6c76fde32e781b641f4ed89cda6f2e27af6ab10e6c"
+    },
+    {
+      "path": "work/wave7/build_prototype_bindings.py",
+      "sha256": "e0227bc12c87a1622cd090c8296af4a79fa44147378b34fd592ec4bedf636808"
+    }
+  ]
+}

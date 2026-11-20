@@ -1,0 +1,24 @@
+{
+  "status": "not_executed",
+  "reason": "Hunter Captains sont des officiers déployés par Colony et ne doivent pas être comptés comme un corps des deux leaders. Proposition écartée avant toute génération ; aucune image liée à ce prompt.",
+  "superseded_by": "colony_single_body_hw2",
+  "prepared_job": {
+    "entity_id": "colony_hunter_captain_hw2",
+    "entity_type": "expansion_character",
+    "pose_scope": "initial_character_pose",
+    "attempt_kind": "initial_generation",
+    "variant": "hw2_single_hunter_captain_proxy",
+    "equipment_state": "Single HW2 Hunter Captain representative: right-arm siphon cannon, left-arm massive solid shield, red armor, dorsal spines; no Goliath or second Hunter.",
+    "reference_input": [
+      "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_captain_art_reference.jpg",
+      "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_captain_full_reference.png",
+      "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_captain_press_reference.jpg"
+    ],
+    "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: ONE Hunter Captain unit commanded by Colony in Halo Wars 2 (2017), specifically the red heavy Mgalekgolo Captain depicted in the official Blitz card artwork (first reference) and original game captures (second and third references). This asset represents a single operational Captain for the fighting-game adaptation; Colony itself is a PAIR of leaders, so do NOT depict two Hunters, fuse two bodies, or claim this one unit is the whole Colony pair. The official card's central huge Hunter is the ONLY subject. Exclude all Marines, explosions, beams, scenery and HUD. Preserve the heavy hunched armored colony-of-worms body: massive layered dark steel and dull crimson red carapace, a broad red angular hammerhead-like head plate with a single central small luminous sensor, a small deeply recessed dark neck, thick brown/orange Lekgolo bundles in natural armor gaps, tall dorsal armored spines, thick two legs and huge armored feet. Preserve the essential ASYMMETRY: his physical RIGHT ARM ends in the built-in heavy siphon CANNON seen on viewer-left in the card and frontal screenshot, a black/crimson armored rounded emitter housing with bright red cylindrical power nodes and one central red emitter. His physical LEFT ARM carries the huge solid gray/crimson rectangular armored SHIELD seen on viewer-right, a heavy slab with angular edges. Do NOT replace shield with another gun, give the cannon a human hand, add a third arm, create a symmetrical two-cannon Hunter, or use a Goliath's fists. Pose the shield slightly forward toward screen right, siphon cannon held ready just behind it but fully readable; no firing beam. The outer silhouette, whole shield, cannon, all dorsal spine tips, both feet and body must all fit with generous clear transparent margins. Source screenshots are low-resolution and some card regions occluded: preserve the visible design and do not invent decorative motifs. Steel material clarity rather than new ornament."
+  },
+  "source_urls": [
+    "https://news.xbox.com/en-us/2017/04/28/colony-swarms-halo-wars-2-xbox-one-windows-10-today/",
+    "https://www.halopedia.org/Phoenix_Logs/Leaders",
+    "https://www.halopedia.org/Captain_(Covenant)"
+  ]
+}

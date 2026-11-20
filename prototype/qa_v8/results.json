@@ -1,0 +1,206 @@
+{
+  "status": "passed_with_browser_not_run",
+  "runtime": "Node VM; simulated DOM, canvas and image lifecycle; PNG headers and source hashes read from the actual files",
+  "passed": 38,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Standalone catalog.js initializes without fetch or network",
+      "status": "passed"
+    },
+    {
+      "name": "Bindings and bootstrap JSON remain identical",
+      "status": "passed"
+    },
+    {
+      "name": "V8 catalog contains 94 PNGs, 21 illustrated expansions and 13 missing images",
+      "status": "passed"
+    },
+    {
+      "name": "Four V8 candidates resolve to their exact incarnation and remain catalogue only",
+      "status": "passed"
+    },
+    {
+      "name": "Missing bootstrap over HTTP loads only the V8 JSON with all new candidates",
+      "status": "passed"
+    },
+    {
+      "name": "V8 app changes only version text and JSON fallback; V7 CSS is reused unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "Exactly 24 base identities are selectable; 34 extensions are catalogue only",
+      "status": "passed"
+    },
+    {
+      "name": "Two existing stage masters are offered without extra parallax layers",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard movement preserves the V1 mechanical displacement",
+      "status": "passed"
+    },
+    {
+      "name": "Light and heavy attacks damage the enemy with retained timing",
+      "status": "passed"
+    },
+    {
+      "name": "Frontal guard reduces damage and shield recharge still works",
+      "status": "passed"
+    },
+    {
+      "name": "Grenade and rifle projectile lifecycles are preserved",
+      "status": "passed"
+    },
+    {
+      "name": "Jump lands on the original floor and dash keeps its displacement",
+      "status": "passed"
+    },
+    {
+      "name": "Pause and blur clear held input and freeze simulation",
+      "status": "passed"
+    },
+    {
+      "name": "Search, selects and dialogue ignore combat and P shortcuts",
+      "status": "passed"
+    },
+    {
+      "name": "Space and Enter retain native button activation instead of jumping",
+      "status": "passed"
+    },
+    {
+      "name": "Catalogue transition pauses combat and ignores shortcuts",
+      "status": "passed"
+    },
+    {
+      "name": "Scarab legs break using melee only",
+      "status": "passed"
+    },
+    {
+      "name": "Boarding and core melee finish all three Scarab phases",
+      "status": "passed"
+    },
+    {
+      "name": "Restart resets the Scarab objectives and duel AI still attacks",
+      "status": "passed"
+    },
+    {
+      "name": "Catalog filters expose 58 characters, 20 bosses and 24 separate stages",
+      "status": "passed"
+    },
+    {
+      "name": "Filtering updates both the detail and active/aria-pressed card",
+      "status": "passed"
+    },
+    {
+      "name": "Dinh correction is explicit and the variant is consultation only",
+      "status": "passed"
+    },
+    {
+      "name": "Changing to an older rejected variant updates its visible status",
+      "status": "passed"
+    },
+    {
+      "name": "Correction filter finds all six affected entities and selects the matching variant",
+      "status": "passed"
+    },
+    {
+      "name": "Missing PNG entries show no invented character image",
+      "status": "passed"
+    },
+    {
+      "name": "Partial boss modules are labeled as incomplete silhouettes",
+      "status": "passed"
+    },
+    {
+      "name": "All original PNG references exist and match their declared SHA256",
+      "status": "passed"
+    },
+    {
+      "name": "Image loading mock uses complete sources and never flips or crops them",
+      "status": "passed"
+    },
+    {
+      "name": "Chief uses neutral pose during guard with an explicit missing-pose label",
+      "status": "passed"
+    },
+    {
+      "name": "Visual zoom changes no collision, position or attack constants",
+      "status": "passed"
+    },
+    {
+      "name": "Camera envelope contains tall jumping PNGs and a jump above the Scarab deck",
+      "status": "passed"
+    },
+    {
+      "name": "Full Decimus PNG remains inside projection at both mechanical world limits",
+      "status": "passed"
+    },
+    {
+      "name": "LRU cache stays within ten retained images and two concurrent requests",
+      "status": "passed"
+    },
+    {
+      "name": "Unavailable PNG reports explicit fallback and does not retry every frame",
+      "status": "passed"
+    },
+    {
+      "name": "Missing standalone bootstrap explains the problem without fetching remotely",
+      "status": "passed"
+    },
+    {
+      "name": "Asset URL guard rejects traversal and remote image URLs",
+      "status": "passed"
+    },
+    {
+      "name": "HTML loads local classic scripts in bootstrap order; canvas keeps its aspect ratio",
+      "status": "passed"
+    }
+  ],
+  "image_rendering_validation": "NOT performed: the image mock verifies loading/error paths and drawing arguments, not raster appearance.",
+  "browser_validation": {
+    "status": "not_run",
+    "attempted_by_this_script": false,
+    "attempts_v8": 0,
+    "reason": "No browser was launched for V8. Node tests simulate DOM, canvas and image loading only.",
+    "historical_context": {
+      "wave": 7,
+      "status": "blocked_before_page_load",
+      "evidence": "prototype/qa_v7/browser_block.json",
+      "applies_to_current_v8_run": false
+    },
+    "desktop_visual_review": "not_performed",
+    "mobile_visual_review": "not_performed",
+    "reproduction_script": "prototype/qa_v8/verify_browser.cjs"
+  },
+  "tested_files": [
+    {
+      "path": "prototype/halo_combats_lab_v8.html",
+      "sha256": "b80031f1a4bdaa57470f62d16411ef92093dabd557bf935a8f186dc1d1ba6923"
+    },
+    {
+      "path": "prototype/lab_v8/app.js",
+      "sha256": "119273ac8db330ba7fefae155a4946c2162c15589d99c025bcedb36fbb3233a3"
+    },
+    {
+      "path": "prototype/lab_v7/style.css",
+      "sha256": "975dd7f6de114c2f50ef55824d950330076fcd26daaf2175d2387f884dc3a9ee"
+    },
+    {
+      "path": "prototype/lab_v8/catalog.js",
+      "sha256": "5c98b6e3783267dfe1f4ec079e836440dd5967152e5424f795e73c89c19fea18"
+    },
+    {
+      "path": "data/prototype_asset_bindings_v8.json",
+      "sha256": "5c9cb147daab1847db12e89afccf47d3bd375f8d9b7045c731cb3e7afe96405b"
+    },
+    {
+      "path": "prototype/qa_v8/logic.cjs",
+      "sha256": "87ecba4bba6f025b6c238805bfd2600b09770092a7a71148e6ce46e256964ede"
+    },
+    {
+      "path": "prototype/qa_v8/verify_browser.cjs",
+      "sha256": "8297a694b82c99c232c06eea1d0d4ac099e5304416046b60f056f214c1fdf16b"
+    }
+  ]
+}

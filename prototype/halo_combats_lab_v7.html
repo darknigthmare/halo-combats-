@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071417">
+  <meta name="description" content="Laboratoire local Halo Combats : mécaniques de combat, poses candidates et catalogue documenté.">
+  <title>Halo Combats — Laboratoire V7</title>
+  <link rel="stylesheet" href="lab_v7/style.css">
+  <script src="lab_v7/catalog.js" defer></script>
+  <script src="lab_v7/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#workspace">Aller au laboratoire</a>
+<header class="site-header">
+  <a class="brand" href="halo_combats_lab_v7.html"><span class="brand-mark" aria-hidden="true">H</span><span>HALO <strong>COMBATS</strong><small>LABORATOIRE / V7</small></span></a>
+  <nav class="view-tabs" aria-label="Espaces"><button id="tab-lab" class="active" data-view="lab" aria-pressed="true">Combat</button><button id="tab-catalog" data-view="catalog" aria-pressed="false">Catalogue visuel</button></nav>
+  <span class="project-tag">PROJET DE FAN · NON OFFICIEL</span>
+</header>
+<main id="workspace">
+  <section class="intro"><div><p class="eyebrow">SIMULATION TACTIQUE / IMAGES CANDIDATES</p><h1>Le terrain d’essai.</h1><p class="lede">Explorez les poses disponibles, testez le combat et affrontez le Scarab.</p></div><div class="counts"><div><strong id="count-base">—</strong><span>identités de base</span></div><div><strong id="count-catalog">—</strong><span>personnages catalogués</span></div><div><strong id="count-boss">—</strong><span>boss documentés</span></div></div></section>
+  <div id="load-message" class="notice" role="status">Chargement du catalogue local…</div>
+  <section id="lab-view" aria-label="Laboratoire jouable">
+    <section class="selection-panel" aria-label="Sélection des identités et du décor">
+      <label><span class="field-title">JOUEUR 1</span><select id="p1-select" disabled aria-label="Identité du joueur 1"></select><small id="p1-source">Chargement…</small></label>
+      <div class="versus" aria-hidden="true">VS</div>
+      <label><span class="field-title">ADVERSAIRE · IA / MANNEQUIN</span><select id="p2-select" disabled aria-label="Identité de l’adversaire"></select><small id="p2-source">Chargement…</small></label>
+      <label class="stage-field"><span class="field-title">DÉCOR · UN PLAN DE FOND</span><select id="stage-select" disabled aria-label="Image de fond"></select><small>Masters complets existants</small></label>
+    </section>
+    <div class="scope-line"><span class="dot"></span><span>24 identités sélectionnables, mécanique commune. Les movesets propres à chaque personnage restent à implémenter.</span></div>
+    <nav class="toolbar" aria-label="Modes de simulation"><div class="mode-buttons"><button data-mode="training" class="active" aria-pressed="true"><span>01</span> Entraînement</button><button data-mode="duel" aria-pressed="false"><span>02</span> Duel IA</button><button data-mode="boss" aria-pressed="false"><span>03</span> Scarab</button></div><div class="tools"><button id="pause">Pause</button><button id="restart">Recommencer</button><button id="help">Commandes</button></div></nav>
+    <section class="game" aria-label="Aire de combat">
+      <canvas id="game" width="1280" height="650" tabindex="0" aria-label="Simulation de combat. Flèches pour se déplacer, Espace pour sauter, J et K pour frapper, O pour garder."></canvas>
+      <div class="top-hud"><div><div id="player-name" class="fighter-name">JOUEUR 1</div><div class="bar"><i id="phealth"></i></div><div class="bar shield"><i id="pshield"></i></div><div id="pvalue" class="value"></div></div><div class="clock"><span id="timer">∞</span><small id="mode-label">ENTRAÎNEMENT</small></div><div class="enemy"><div id="enemy-name" class="fighter-name">ADVERSAIRE</div><div class="bar"><i id="ehealth"></i></div><div class="bar shield"><i id="eshield"></i></div><div id="evalue" class="value"></div></div></div>
+      <div class="objective"><div><strong id="objective-title"></strong><span id="objective-text"></span></div><div class="resource-panel"><div class="energy" aria-label="Énergie"><i></i><i></i><i></i></div><span id="resources"></span></div></div>
+      <div id="banner" class="round-banner hidden"><div><h2 id="banner-title"></h2><p id="banner-text"></p></div></div>
+    </section>
+    <div class="render-strip"><span id="pose-state">Chargement des poses…</span><span id="stage-state">Un plan de fond</span></div>
+    <div class="touch" aria-label="Commandes tactiles"><div class="touch-group movement"><button data-action="left" aria-label="Aller à gauche">◀</button><button data-action="right" aria-label="Aller à droite">▶</button><button data-action="jump">Saut</button><button data-action="dash">Dash</button></div><div class="touch-group"><button data-action="light">Léger</button><button data-action="heavy">Lourd</button><button data-action="shoot">Tir</button><button data-action="grenade">Grenade</button><button data-action="guard">Garde</button><button data-action="special">Énergie</button><button data-action="interact">Monter</button></div></div>
+    <div class="bottom"><section class="info"><h2 class="eyebrow">COMMANDES ET AFFICHAGE</h2><div class="keys"><span><kbd>← →</kbd> / <kbd>Q D</kbd> déplacer</span><span><kbd>Espace</kbd> sauter</span><span><kbd>Maj</kbd> dash</span><span><kbd>J</kbd> léger</span><span><kbd>K</kbd> lourd</span><span><kbd>L</kbd> tir</span><span><kbd>U</kbd> grenade</span><span><kbd>O</kbd> garde</span><span><kbd>I</kbd> énergie</span><span><kbd>E</kbd> monter</span><span><kbd>P</kbd> pause</span></div><div class="settings"><label><input id="hitboxes" type="checkbox"> Collisions de simulation</label><label><input id="zoom" type="checkbox" checked> Caméra rapprochée</label><label><input id="motion" type="checkbox"> Secousses légères</label></div></section><section class="info"><h2 class="eyebrow" id="report-label">RETOUR D’ENTRAÎNEMENT</h2><p id="report">Simulation à 60 Hz. Bouclier rechargeable après quatre secondes sans impact.</p><p id="status" role="status"></p></section></div>
+    <p class="method-note">Les PNG sont des <strong>poses statiques d’étude</strong>. Déplacement, saut et effets de frappe sont simulés ; aucune animation de personnage n’est annoncée. Les flèches au sol indiquent la direction mécanique. L’orientation native des images reste inchangée, même lorsqu’elle diffère.</p>
+  </section>
+  <section id="catalog-view" hidden aria-label="Catalogue des visuels">
+    <div class="catalog-heading"><div><p class="eyebrow">ARCHIVES VISUELLES</p><h2>Identités, variantes et sources.</h2><p>Les extensions sont consultables ici. Seul le roster de base est sélectionnable dans le laboratoire.</p></div><span id="catalog-count" class="catalog-count"></span></div>
+    <div class="catalog-filters"><label class="search-field"><span>Rechercher</span><input id="catalog-search" type="search" placeholder="Nom, jeu d’origine ou identifiant…" autocomplete="off"></label><label><span>Catégorie</span><select id="catalog-kind"><option value="all">Personnages et boss</option><option value="base">24 identités de base</option><option value="expansion">34 extensions</option><option value="boss">Boss et véhicules</option><option value="stage">Décors</option></select></label><label><span>État du visuel</span><select id="catalog-status"><option value="all">Tous les états</option><option value="candidate">Candidat</option><option value="needs_correction">À corriger</option><option value="missing">Manquant</option></select></label></div>
+    <div class="catalog-layout"><div><div id="catalog-list" class="catalog-list" aria-label="Entrées du catalogue"></div><p id="catalog-empty" hidden>Aucune entrée ne correspond à ces filtres.</p></div><article id="catalog-detail" class="catalog-detail" aria-label="Détail du visuel"><div class="detail-heading"><p id="detail-kind" class="eyebrow"></p><h3 id="detail-name">Choisissez une entrée</h3><p id="detail-origin"></p><span id="detail-status" class="status-pill"></span></div><div id="catalog-preview" class="catalog-preview"><div id="preview-message" class="preview-message">Sélectionnez une identité.</div></div><label class="variant-field"><span>Variante disponible</span><select id="variant-select" aria-label="Variante du visuel"></select></label><div id="detail-warning" class="detail-warning" hidden></div><dl id="detail-facts" class="detail-facts"></dl><div id="detail-notes" class="detail-notes"></div><div id="detail-sources" class="detail-sources"></div><p class="detail-footnote">Images candidates, fidélité non certifiée. Affichage entier, sans miroir, sans découpe de sprite.</p></article></div>
+  </section>
+  <footer><span>HALO COMBATS / LABORATOIRE V7</span><span>Projet de fan non officiel · Catalogue et images locaux · Serveur statique facultatif</span></footer>
+</main>
+<dialog id="help-dialog"><button id="help-close" class="close">Fermer</button><p class="eyebrow">PRISE EN MAIN</p><h2>Lire la simulation.</h2><p>Choisissez deux identités de base. Elles utilisent le même jeu de commandes et les mêmes règles mécaniques. Les images sont affichées dans leur orientation native ; suivez la petite flèche au sol pour la direction des attaques.</p><ul><li><strong>Entraînement</strong> : mannequin immobile, énergie renouvelée, remise à zéro après KO.</li><li><strong>Duel IA</strong> : une manche de 99 secondes. Les coups remplissent l’énergie ; une barre permet l’impulsion.</li><li><strong>Bouclier</strong> : recharge après quatre secondes sans impact. La garde réduit les dégâts venant de face.</li><li><strong>Scarab</strong> : brisez les deux cibles cyan, rejoignez la balise centrale, puis appuyez sur E ou Monter. Sur le pont, brisez la cible du noyau. Le parcours reste accessible au corps à corps.</li><li><strong>Zones rouges</strong> : elles annoncent les attaques du boss. Le dash n’est pas invincible.</li><li><strong>Pause</strong> : P, bouton Pause, changement d’onglet ou ouverture du catalogue.</li></ul><p>Les cibles, dimensions et collisions sont celles du prototype mécanique. L’illustration du Scarab reste entière et statique. Campagne, tournoi, fatalités, movesets individuels, animations et multijoueur ne sont pas implémentés dans ce laboratoire.</p></dialog>
+</body>
+</html>

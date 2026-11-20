@@ -1,0 +1,743 @@
+{
+  "wave": 6,
+  "results": [
+    {
+      "entity_id": "fred_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure CENTURION GEN2 casquée ; une arme longue noire issue du rendu officiel tenue à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Fred.png",
+        "image_url": "https://www.halopedia.org/images/9/96/H5G-Render-Fred.png?af539",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "a7e3cce9dc508a13fa7a7ef1ad28b8db43f6ca56509d9936e678fcfb29423107",
+        "dimensions": {
+          "width": 550,
+          "height": 1040
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/fred_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Fred-104 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. His specific blue-grey CENTURION GEN2 armor with narrow amber visor under the raised segmented brow, broad armored jaw, bulky shoulder armor, subtle yellow trim and cyan identifiers; do not replace this helmet with Master Chief's or generic MJOLNIR. Preserve the reference's large black long rifle, recognizable silhouette, existing fittings and proportions. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a61248be-45ba-4b1f-b81e-dc4029acca44.png"
+    },
+    {
+      "entity_id": "kelly_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure HERMES GEN2 casquée ; fusil à pompe noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Kelly.png",
+        "image_url": "https://www.halopedia.org/images/b/b6/H5G-Render-Kelly.png?71a63",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+        "dimensions": {
+          "width": 540,
+          "height": 1020
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Kelly-087 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific blue-grey HERMES GEN2 armor with the exceptionally large curved gold visor wrapping over the forehead, smooth rounded helmet and round side module, very thin yellow armor edging, slim athletic armored silhouette and long shaped shin guards. Preserve the reference's single black shotgun and all its recognizable geometry. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0226f239-0aad-40f1-8aac-bd3c1e724ace.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "linda_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure ARGUS GEN2 casquée ; fusil de précision du rendu officiel à deux mains, canon entier visible.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Linda.png",
+        "image_url": "https://www.halopedia.org/images/2/21/H5G-Render-Linda.png?65c35",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+        "dimensions": {
+          "width": 800,
+          "height": 1060
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Linda-058 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific taupe-grey ARGUS GEN2 armor with multi-optic helmet: several small gold lenses and large asymmetrical optical housings instead of a single conventional visor; rectangular tall backpack module; subtle orange lines; slim armored build. Preserve the exact very long sniper rifle and scope shown by the reference, with the entire muzzle inside the canvas. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID deea6841-aec2-49f9-a3d8-67fb296df7ec.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "locke_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure HUNTER GEN2 casquée ; fusil d'assaut vert sombre du rendu officiel à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Locke-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/2/20/H5G-Render-Locke-fullbody.png?44244",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+        "dimensions": {
+          "width": 520,
+          "height": 1040
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Jameson Locke exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. His specific dark steel-grey HUNTER GEN2 armor, slender horizontally glowing cyan visor, highly mechanical closed jaw, smoothly sculpted thighs and angular clavicle plates, small rear shoulder fin. Preserve the reference's olive-green assault rifle including its broad body, yellow markings and short forward barrel. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ea6d3f6b-0d33-4f2c-9fc6-3d686b323421.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "kelly_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "Armure HERMES GEN2 casquée ; fusil à pompe noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Kelly.png",
+        "image_url": "https://www.halopedia.org/images/b/b6/H5G-Render-Kelly.png?71a63",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+        "dimensions": {
+          "width": 540,
+          "height": 1020
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Kelly-087 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific blue-grey HERMES GEN2 armor with the exceptionally large curved gold visor wrapping over the forehead, smooth rounded helmet and round side module, very thin yellow armor edging, slim athletic armored silhouette and long shaped shin guards. Preserve the reference's single black shotgun and all its recognizable geometry. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9147a9f9-3c95-436e-a7f7-588b29ee96c0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "linda_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "Armure ARGUS GEN2 casquée ; fusil de précision du rendu officiel à deux mains, canon entier visible.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Linda.png",
+        "image_url": "https://www.halopedia.org/images/2/21/H5G-Render-Linda.png?65c35",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+        "dimensions": {
+          "width": 800,
+          "height": 1060
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Linda-058 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific taupe-grey ARGUS GEN2 armor with multi-optic helmet: several small gold lenses and large asymmetrical optical housings instead of a single conventional visor; rectangular tall backpack module; subtle orange lines; slim armored build. Preserve the exact very long sniper rifle and scope shown by the reference, with the entire muzzle inside the canvas. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bdf0c0ab-4f22-4df7-964d-70b4a737331d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "locke_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "Armure HUNTER GEN2 casquée ; fusil d'assaut vert sombre du rendu officiel à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Locke-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/2/20/H5G-Render-Locke-fullbody.png?44244",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+        "dimensions": {
+          "width": 520,
+          "height": 1040
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Jameson Locke exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. His specific dark steel-grey HUNTER GEN2 armor, slender horizontally glowing cyan visor, highly mechanical closed jaw, smoothly sculpted thighs and angular clavicle plates, small rear shoulder fin. Preserve the reference's olive-green assault rifle including its broad body, yellow markings and short forward barrel. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 63a6502c-d767-4769-b760-7accd5d44f34.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "vale_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure COPPERHEAD casquée ; pistolet-mitrailleur compact M20 issu du rendu officiel.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Vale.png",
+        "image_url": "https://www.halopedia.org/images/9/9b/H5G-Render-Vale.png?6a427",
+        "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+        ],
+        "sha256": "ae14233554460df98aa5c35689decb5186e797da9563734737f9aa7f5097fa16",
+        "dimensions": {
+          "width": 460,
+          "height": 1000
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/vale_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Olympia Vale, faithfully matching the attached official Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015 reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve her exact distinctive coral-red COPPERHEAD GEN2 armor, delicate gold trim, rounded red helmet dome, tapered gold-outlined chin, perforated multi-colour honeycomb visor and round side discs. Slender athletic armored proportions, black undersuit and individual red armor panels. Preserve the single compact M20 submachine gun shown in the reference; hold it with her right hand supported by her left hand at low ready toward screen right. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c3dc7c5f-2271-4674-9e72-ff15cf4c8274.png"
+    },
+    {
+      "entity_id": "tanaka_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure TECHNICIAN casquée ; DMR noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Tanaka-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/e/e0/H5G-Render-Tanaka-fullbody.png?5e9fb",
+        "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+        ],
+        "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+        "dimensions": {
+          "width": 540,
+          "height": 1070
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Holly Tanaka, faithfully matching the attached official Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015 reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve her exact ivory/grey TECHNICIAN GEN2 armor with vivid cyan piping around the helmet's cheek respirator and lower chest, pink-copper visor, small red markings, red emblem on her anatomical LEFT shoulder and chunky circular upper chest structure. Preserve the asymmetry rather than mirroring her. Preserve the single long black DMR shown in the reference; both hands hold it at low ready toward screen right. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0f36ba92-c80d-41d7-8fc0-f7c977ee8eec.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "dare_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure RECON casquée de Halo 3: ODST ; pistolet noir à silencieux du rendu officiel.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST_Dare.png",
+        "image_url": "https://www.halopedia.org/images/a/a8/Halo3_ODST_Dare.png?342e9",
+        "provenance": "Visuel officiel promotionnel Bungie pour Halo 3: ODST ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://files.bungie.org/odst_assets/"
+        ],
+        "sha256": "47c279bc6bfbb9c8dd880434b197c191bbdcf0ad2e178e8c4a22962c8896767b",
+        "dimensions": {
+          "width": 1200,
+          "height": 2843
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dare_odst_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Veronica Dare, faithfully matching the attached official Halo 3: ODST (2009), rendu promotionnel officiel reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve her exact 2009 RECON helmet and ODST-era body armor, NOT a later Spartan MJOLNIR incarnation: charcoal olive armor, angular helmet with narrow amber visor and forehead light/name stencil, specific ribbed chest plates, green circular abdominal equipment light, small hip holster and fingerless gloves revealing fingers. Preserve the single black suppressed pistol shown by the official render, in her right hand with the left hand supporting a low-ready pistol stance toward screen right. Human ODST proportions, no oversized Spartan physique. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 07a05340-86a1-4c73-804d-28c6d2588b47.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "dutch_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure ODST personnalisée casquée ; laser Spartan du rendu officiel, porté à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST-Dutch.jpg",
+        "image_url": "https://www.halopedia.org/images/2/2f/Halo3_ODST-Dutch.jpg?7362f",
+        "provenance": "Visuel officiel promotionnel Bungie pour Halo 3: ODST ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "http://halo.bungie.net/projects/odst/images.aspx"
+        ],
+        "sha256": "05485fa8250c5bfe3f8230c2358ee31abaebb296604726e3b606e68f50602919",
+        "dimensions": {
+          "width": 1144,
+          "height": 1500
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dutch_odst_reference.jpg",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Taylor « Dutch » Miles, faithfully matching the attached official Halo 3: ODST (2009), capture promotionnelle officielle Bungie reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve Dutch's exact Halo 3 ODST 2009 personal armor: his stocky muscular human ODST build, olive weathered armor, broad orange stripe along the top of his closed ODST helmet, distinctive painted grinning teeth on the lower helmet jaw, dark blue-grey visor, orange accents on shoulder/upper-arm equipment and exposed parts of his forearms. NOT a later Spartan version. Preserve the one bulky green Spartan Laser weapon from this official screenshot, with correct large body silhouette and forward emitter; carry it in both hands across the torso at low ready toward screen right, no charging or firing. Ignore the background and Bungie watermark in the source. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-70053581-3dfa-4053-a2e4-3aea2ecea4fc.png"
+    },
+    {
+      "entity_id": "tanaka_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "Armure TECHNICIAN casquée ; DMR noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Tanaka-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/e/e0/H5G-Render-Tanaka-fullbody.png?5e9fb",
+        "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+        ],
+        "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+        "dimensions": {
+          "width": 540,
+          "height": 1070
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Holly Tanaka, faithfully matching the attached official Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015 reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve her exact ivory/grey TECHNICIAN GEN2 armor with vivid cyan piping around the helmet's cheek respirator and lower chest, pink-copper visor, small red markings, red emblem on her anatomical LEFT shoulder and chunky circular upper chest structure. Preserve the asymmetry rather than mirroring her. Preserve the single long black DMR shown in the reference; both hands hold it at low ready toward screen right. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2ca45ad4-0339-4e46-a195-7e385890c9cd.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "dare_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "Armure RECON casquée de Halo 3: ODST ; pistolet noir à silencieux du rendu officiel.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST_Dare.png",
+        "image_url": "https://www.halopedia.org/images/a/a8/Halo3_ODST_Dare.png?342e9",
+        "provenance": "Visuel officiel promotionnel Bungie pour Halo 3: ODST ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://files.bungie.org/odst_assets/"
+        ],
+        "sha256": "47c279bc6bfbb9c8dd880434b197c191bbdcf0ad2e178e8c4a22962c8896767b",
+        "dimensions": {
+          "width": 1200,
+          "height": 2843
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dare_odst_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Veronica Dare, faithfully matching the attached official Halo 3: ODST (2009), rendu promotionnel officiel reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve her exact 2009 RECON helmet and ODST-era body armor, NOT a later Spartan MJOLNIR incarnation: charcoal olive armor, angular helmet with narrow amber visor and forehead light/name stencil, specific ribbed chest plates, green circular abdominal equipment light, small hip holster and fingerless gloves revealing fingers. Preserve the single black suppressed pistol shown by the official render, in her right hand with the left hand supporting a low-ready pistol stance toward screen right. Human ODST proportions, no oversized Spartan physique. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d6de67b1-32fc-438f-944b-4d4ef492c5b5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "vale_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "targeted_alpha_background_correction",
+      "variant": 2,
+      "equipment_state": "Armure COPPERHEAD casquée ; pistolet-mitrailleur compact M20 issu du rendu officiel.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Vale.png",
+        "image_url": "https://www.halopedia.org/images/9/9b/H5G-Render-Vale.png?6a427",
+        "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+        ],
+        "sha256": "ae14233554460df98aa5c35689decb5186e797da9563734737f9aa7f5097fa16",
+        "dimensions": {
+          "width": 460,
+          "height": 1000
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/vale_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Edit only the background of the first attached Olympia Vale character image. It currently has an unwanted broad red/grey halo and haze around the figure. Remove that halo, glow, grey haze and all background completely, yielding a clean isolated character cutout with real alpha transparency. Every area outside the actual solid character and weapon silhouette must be fully transparent, including the space between the legs, beneath the boots and around the helmet. Retain only natural one-pixel antialiasing at the armor edge, no glow or colored fringe. Preserve the character's exact current geometry, body pose facing right, individual armor panels, red and gold materials, visor pattern, both hands and weapon; do not redraw or redesign them. The second image is the official canonical Vale reference for identity only. Keep the full-body silhouette and full weapon visible and retain at least six percent empty transparent padding around it. One character only, no floor, no shadow, no text, no border.",
+      "status": "generation_failed",
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c3dc7c5f-2271-4674-9e72-ff15cf4c8274.png",
+      "additional_reference_inputs": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c3dc7c5f-2271-4674-9e72-ff15cf4c8274.png",
+          "generated": true,
+          "purpose": "Generated candidate with unwanted background halo"
+        }
+      ],
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1c98a99f-531a-4321-a9f4-6a1a38efdada.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "romeo_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "ODST 2009 casqué, SRS99D du rendu officiel tenu à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST_Romeo.png",
+        "image_url": "https://www.halopedia.org/images/4/48/Halo3_ODST_Romeo.png?78bb8",
+        "provenance": "Visuel promotionnel officiel Halo 3: ODST de Bungie ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://files.bungie.org/odst_assets/"
+        ],
+        "sha256": "72932c4b25c5fed4935c894cbf4a388310797b29f653331707b867612556cb15",
+        "dimensions": {
+          "width": 1985,
+          "height": 2674
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/romeo_odst_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [],
+      "prompt": "Create one full-body transparent-background character image of Kojo « Romeo » Agu in the exact incarnation Halo 3: ODST (2009), rendu promotionnel officiel, using the attached authentic game image(s) as strict visual references. Preserve Romeo's exact personal Halo 3 ODST 2009 armor, not his later Spartan form: blue worn chest plates, asymmetric shoulders (a blue armored plate on his anatomical LEFT, the anatomical right upper arm much less covered), dark olive ODST helmet with its raised forehead optical attachment and two optical circles offset toward his anatomical right, dark blue-grey visor, fingerless gloves, olive leg equipment. Keep the exact long SRS99D sniper rifle, scope, folded/deployed bipod details and muzzle shape from the reference. Hold this single sniper rifle naturally in two hands at low ready toward screen right; entire muzzle must fit. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 99c7cfca-5225-4393-a481-454c7ef27c3c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "mickey_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "ODST 2009 casqué ; un lance-roquettes M41 SPNKr à deux tubes, porté à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST-Mickey.jpg",
+        "image_url": "https://www.halopedia.org/images/d/da/Halo3_ODST-Mickey.jpg?c3295",
+        "provenance": "Visuel promotionnel officiel Halo 3: ODST de Bungie ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "http://halo.bungie.net/projects/odst/images.aspx"
+        ],
+        "sha256": "e0bb3182b119fb36009f28bbee898248061eadfdef65c8b6f5d2174a8cdf6f63",
+        "dimensions": {
+          "width": 1144,
+          "height": 1500
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/mickey_odst_reference.jpg",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [],
+      "prompt": "Create one full-body transparent-background character image of Michael « Mickey » Crespo in the exact incarnation Halo 3: ODST (2009), capture promotionnelle officielle Bungie, using the attached authentic game image(s) as strict visual references. Preserve Mickey's personal Halo 3 ODST 2009 armor, not any later Spartan incarnation: worn olive armor, light cream stripe along the helmet top, single small lit lamp on the anatomical RIGHT temple, red diagonal bands on shoulder equipment, large rectangular dark backpack, cylindrical grenade rows strapped to the anatomical RIGHT shin only. Preserve the canonical two-tube M41 SPNKr rocket launcher shown in the source, with its boxy central housing and correct tube geometry. Carry it securely in two hands diagonally across the torso, nose directed screen right and slightly downward, no projectile or firing. Human ODST proportions. Ignore the scenery and Bungie watermark. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9eaf3f38-7547-4b33-8f12-3fef4da0662a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "forge_hw",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure de Marine de Halo Wars 2009, tête nue canonique ; mains libres, holster conservé.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HW-SgtJohnForge-FullBody.png",
+        "image_url": "https://www.halopedia.org/images/6/6b/HW-SgtJohnForge-FullBody.png?a1012",
+        "provenance": "Rendu du personnage de Halo Wars réhébergé par Halopedia, galerie John Forge ; page sans lien vers l’archive primaire. Corroboré par le rendu promotionnel du visage et du torse.",
+        "primary_urls": [],
+        "sha256": "e1632cd3aeea92494c4e2bb16e03802b2a1b39e8a79dc86cb69dd6a4e3b1abbc",
+        "dimensions": {
+          "width": 520,
+          "height": 1320
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/forge_hw_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW_-_Sergeant_Forge.jpg",
+          "image_url": "https://www.halopedia.org/images/7/76/HW_-_Sergeant_Forge.jpg?f8971",
+          "provenance": "Rendu promotionnel Halo Wars documenté dans la galerie John Forge de Halopedia ; source primaire non liée.",
+          "primary_urls": [],
+          "sha256": "c6392eb080b17256023c4eb0619131706e2c68cad7dbb935ae936b1a2baed908",
+          "dimensions": {
+            "width": 542,
+            "height": 542
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/forge_hw_promo_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "limits": "Visage et torse seulement, corroboration des plaques masquées sur le rendu complet."
+        }
+      ],
+      "prompt": "Create one full-body transparent-background character image of Sergent John Forge in the exact incarnation Halo Wars (2009), incarnation cinématique/promotionnelle du Marine John Forge, using the attached authentic game image(s) as strict visual references. Preserve Sergeant John Forge's exact Halo Wars 2009 cinematic/promotion incarnation, NOT a Spartan and NOT Halo Wars 2 armor. The attached full-body and portrait game renders depict the same canonical fictional man. Match his very short close-cropped hair, squared face, faint stubble, medium muscular human build, weathered bronze-brown UNSC Marine armor with high collar and individually shaped plates, chest fittings, circular insignia on anatomical RIGHT shoulder, camouflaged trousers, tactical belt pouches and holster strapped on anatomical RIGHT thigh. Do not invent a helmet or replace his face. Hands empty, holstered gear remains holstered: make a practical two-hand guard with open relaxed fists near chest height, two distinct anatomical arms/hands. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c52ea9b5-ffe5-4f68-b80c-c3e4e0f803da.png"
+    },
+    {
+      "entity_id": "agryna_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure personnelle casquée de l’Académie ; mains libres, aucun équipement offensif ajouté.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_Commander_Agryna_armor.jpg",
+        "image_url": "https://www.halopedia.org/images/a/a1/HINF_Commander_Agryna_armor.jpg?6d856",
+        "provenance": "Capture effective de Halo Infinite par le contributeur Necrontir, publiée le 26 novembre 2021 ; visuel du personnage du jeu, pas un rendu de fan.",
+        "primary_urls": [],
+        "sha256": "887f1eaa995b818f0e9acb69217a9617d13d48703dd050b1e9615bbfeda1949d",
+        "dimensions": {
+          "width": 999,
+          "height": 1992
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/agryna_infinite_reference.jpg",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [],
+      "prompt": "Create one full-body transparent-background character image of Commandante Laurette Agryna in the exact incarnation Halo Infinite (2021), armure personnelle casquée du tutoriel de l’Académie, using the attached authentic game image(s) as strict visual references. Preserve Commander Laurette Agryna's exact helmeted Academy appearance from Halo Infinite 2021 in the attached genuine in-game screenshot: pale grey-green and ivory-white armor, wide vivid blue visor, ivory squared helmet with a small dark camera module on her anatomical RIGHT temple, ivory shoulder caps, pale chest yoke with small yellow UNSC marking, yellow badge on the central waist, long sculpted thigh plates and ivory knee caps. Keep her helmet on; no invented face, no weapon. Change crossed arms into a practical empty-handed guard at chest height, two separate gloved hands with natural fingers, while preserving all armor shapes and her athletic proportions. Ignore the screenshot environment. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generation_failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 68948a42-0c80-4462-8f7c-c4cd2ed5e0a1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "dinh_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Rakshasa personnalisé, casque ARTAIUS de la saison 2 ; mains libres comme le rendu officiel final, lame du concept non reprise.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_DinhModel.png",
+        "image_url": "https://www.halopedia.org/images/6/6a/HINF_DinhModel.png?d5884",
+        "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+        "primary_urls": [
+          "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+        ],
+        "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf",
+        "dimensions": {
+          "width": 1479,
+          "height": 2062
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+      },
+      "additional_reference_inputs": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_HieuDinh_Concept.png",
+          "image_url": "https://www.halopedia.org/images/f/f6/HINF_HieuDinh_Concept.png?f7e80",
+          "provenance": "Concept de développement officiel publié par Halo Waypoint en mars 2022 ; direction des personnages David Heidhoff, base Rakshasa Molly McLaughlin, image de détail réhébergée Halopedia.",
+          "primary_urls": [
+            "https://www.artstation.com/artwork/blVNGv",
+            "https://www.halowaypoint.com/news/halo-infinite-update-march-2022"
+          ],
+          "sha256": "4e5ed8e3c3a7a780ea485a3e64fc4b23ef9691f4959649facb11a72fae33efcc",
+          "dimensions": {
+            "width": 468,
+            "height": 991
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_concept_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Concept non équivalent au modèle final : utilisé seulement pour compléter les jambes non visibles. Divergences d’accessoires et de couleur explicitement subordonnées à la première référence."
+        }
+      ],
+      "prompt": "Generate one standalone full-body character asset of Hieu Dinh for a 2D fighting game, based closely on the attached authentic Halo Infinite references. Preserve Hieu Dinh's exact released Halo Infinite Season 2 appearance from the FIRST image: sand/tan ARTAIUS helmet with asymmetrical top-mounted optical modules; RED-ORANGE visor with painted white teeth, not the purple concept visor; reclaimed red chest armor with white teeth painted on the upper plate; red trophy shoulder on his anatomical RIGHT only; tan radio/antenna shoulder on his anatomical LEFT only; olive padded undersuit, grey-blue forearm and hip plates, straps and pouches. Keep empty gloved hands as in the released reference, raised into a practical close-combat guard; do NOT add the concept's blade. The SECOND attached image is official development concept art and may be used ONLY to guide missing lower legs: angular grey-blue shin armor, small red knee panels, sand-colored armored boots. Wherever a feature is visible in the first final model image it overrides the concept; do not copy any conflicting visor colour, limb attachment or weapon from the concept. Pose the whole person facing screen RIGHT in near side view with a small three-quarter angle only to show essential identity details; mildly flexed knees, balanced staggered feet, calm ready stance. Preserve the character's exact colors, personal asymmetry, realistic proportions and Halo Infinite material language. One person, exactly two arms, two hands and two legs. Entire helmet, hands, legs and both boots must be visible, with at least six percent empty transparent margin on all four sides. Render with real alpha transparency and clean silhouette edges; no background scenery, no floor, no pedestal, no cast shadow plane, no colored halo, no effects, no name label, no duplicate and no reference-sheet panels.",
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7dee4e0e-a992-45a6-abda-79ce821a7636.png"
+    },
+    {
+      "entity_id": "eklund_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Rakshasa personnalisé, casque STRIBOG de la saison 2 ; mains libres comme le rendu officiel final.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_EklundModel.png",
+        "image_url": "https://www.halopedia.org/images/f/f6/HINF_EklundModel.png?97c86",
+        "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+        "primary_urls": [
+          "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+        ],
+        "sha256": "acc50d4d636a9a8d60f908b8aa4d0b7b4555b714bfa61001884b4089c8d6e159",
+        "dimensions": {
+          "width": 1484,
+          "height": 2150
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/eklund_infinite_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+      },
+      "additional_reference_inputs": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_SigridEklund_Concept.png",
+          "image_url": "https://www.halopedia.org/images/3/33/HINF_SigridEklund_Concept.png?c0306",
+          "provenance": "Concept de développement officiel publié par Halo Waypoint en mars 2022 ; direction des personnages David Heidhoff, base Rakshasa Molly McLaughlin, image de détail réhébergée Halopedia.",
+          "primary_urls": [
+            "https://www.halowaypoint.com/news/halo-infinite-update-march-2022"
+          ],
+          "sha256": "1286d7aa47ed0963bc3ac9b9f65de7ecad8bfa901b3283222f221f3da3043c68",
+          "dimensions": {
+            "width": 468,
+            "height": 991
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/eklund_infinite_concept_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Concept non équivalent au modèle final : utilisé seulement pour compléter les jambes non visibles. Divergences d’accessoires et de couleur explicitement subordonnées à la première référence."
+        }
+      ],
+      "prompt": "Generate one standalone full-body character asset of Sigrid Eklund for a 2D fighting game, based closely on the attached authentic Halo Infinite references. Preserve Sigrid Eklund's exact released Halo Infinite Season 2 appearance from the FIRST image: olive-green STRIBOG helmet with a very large continuous blue reflective face visor and small top module; green harness and weathered green shoulder armor, horizontal grey-green chest equipment box bound with fine RED cords, a visible neat row of gold cartridges with red bases on the front abdomen, dark fabric undersuit, steel-grey thigh armor and green straps. Preserve the asymmetrical forearm and shoulder equipment on the correct anatomical sides from the final model image, including the heavily padded/overlapping plate forearm shown nearer the viewer; do not swap the arms to match the concept. Keep both gloved hands empty as in the released model, raised into a measured defensive guard. The SECOND image is official development concept art and may be used ONLY to guide the missing lower legs: dark segmented padded knees, olive/grey shin plates and camouflaged olive armored boots. The first final model image overrides the concept for every visible feature; do not add the concept's rifle or copy conflicting arm attachments or visor colour. Pose the whole person facing screen RIGHT in near side view with a small three-quarter angle only to show essential identity details; mildly flexed knees, balanced staggered feet, calm ready stance. Preserve the character's exact colors, personal asymmetry, realistic proportions and Halo Infinite material language. One person, exactly two arms, two hands and two legs. Entire helmet, hands, legs and both boots must be visible, with at least six percent empty transparent margin on all four sides. Render with real alpha transparency and clean silhouette edges; no background scenery, no floor, no pedestal, no cast shadow plane, no colored halo, no effects, no name label, no duplicate and no reference-sheet panels.",
+      "status": "generated_candidate",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fac749bc-482b-4b3c-ae24-4683dc0712d6.png"
+    },
+    {
+      "entity_id": "romeo_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "ODST 2009 casqué, SRS99D du rendu officiel tenu à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST_Romeo.png",
+        "image_url": "https://www.halopedia.org/images/4/48/Halo3_ODST_Romeo.png?78bb8",
+        "provenance": "Visuel promotionnel officiel Halo 3: ODST de Bungie ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://files.bungie.org/odst_assets/"
+        ],
+        "sha256": "72932c4b25c5fed4935c894cbf4a388310797b29f653331707b867612556cb15",
+        "dimensions": {
+          "width": 1985,
+          "height": 2674
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/romeo_odst_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [],
+      "prompt": "Create one full-body transparent-background character image of Kojo « Romeo » Agu in the exact incarnation Halo 3: ODST (2009), rendu promotionnel officiel, using the attached authentic game image(s) as strict visual references. Preserve Romeo's exact personal Halo 3 ODST 2009 armor, not his later Spartan form: blue worn chest plates, asymmetric shoulders (a blue armored plate on his anatomical LEFT, the anatomical right upper arm much less covered), dark olive ODST helmet with its raised forehead optical attachment and two optical circles offset toward his anatomical right, dark blue-grey visor, fingerless gloves, olive leg equipment. Keep the exact long SRS99D sniper rifle, scope, folded/deployed bipod details and muzzle shape from the reference. Hold this single sniper rifle naturally in two hands at low ready toward screen right; entire muzzle must fit. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2c753a53-ec1c-4d8f-ada8-73e73cf8bae1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "mickey_odst",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "ODST 2009 casqué ; un lance-roquettes M41 SPNKr à deux tubes, porté à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:Halo3_ODST-Mickey.jpg",
+        "image_url": "https://www.halopedia.org/images/d/da/Halo3_ODST-Mickey.jpg?c3295",
+        "provenance": "Visuel promotionnel officiel Halo 3: ODST de Bungie ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "http://halo.bungie.net/projects/odst/images.aspx"
+        ],
+        "sha256": "e0bb3182b119fb36009f28bbee898248061eadfdef65c8b6f5d2174a8cdf6f63",
+        "dimensions": {
+          "width": 1144,
+          "height": 1500
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/mickey_odst_reference.jpg",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [],
+      "prompt": "Create one full-body transparent-background character image of Michael « Mickey » Crespo in the exact incarnation Halo 3: ODST (2009), capture promotionnelle officielle Bungie, using the attached authentic game image(s) as strict visual references. Preserve Mickey's personal Halo 3 ODST 2009 armor, not any later Spartan incarnation: worn olive armor, light cream stripe along the helmet top, single small lit lamp on the anatomical RIGHT temple, red diagonal bands on shoulder equipment, large rectangular dark backpack, cylindrical grenade rows strapped to the anatomical RIGHT shin only. Preserve the canonical two-tube M41 SPNKr rocket launcher shown in the source, with its boxy central housing and correct tube geometry. Carry it securely in two hands diagonally across the torso, nose directed screen right and slightly downward, no projectile or firing. Human ODST proportions. Ignore the scenery and Bungie watermark. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3cf5dcb2-ddb8-4337-b2c6-61e0e2993635.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "agryna_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "identical_retry_after_generic_output_rejection",
+      "variant": 1,
+      "equipment_state": "Armure personnelle casquée de l’Académie ; mains libres, aucun équipement offensif ajouté.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_Commander_Agryna_armor.jpg",
+        "image_url": "https://www.halopedia.org/images/a/a1/HINF_Commander_Agryna_armor.jpg?6d856",
+        "provenance": "Capture effective de Halo Infinite par le contributeur Necrontir, publiée le 26 novembre 2021 ; visuel du personnage du jeu, pas un rendu de fan.",
+        "primary_urls": [],
+        "sha256": "887f1eaa995b818f0e9acb69217a9617d13d48703dd050b1e9615bbfeda1949d",
+        "dimensions": {
+          "width": 999,
+          "height": 1992
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/agryna_infinite_reference.jpg",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de face ou trois-quarts, zones occultées non certifiables ; représentation ciblée explicitement indiquée."
+      },
+      "additional_reference_inputs": [],
+      "prompt": "Create one full-body transparent-background character image of Commandante Laurette Agryna in the exact incarnation Halo Infinite (2021), armure personnelle casquée du tutoriel de l’Académie, using the attached authentic game image(s) as strict visual references. Preserve Commander Laurette Agryna's exact helmeted Academy appearance from Halo Infinite 2021 in the attached genuine in-game screenshot: pale grey-green and ivory-white armor, wide vivid blue visor, ivory squared helmet with a small dark camera module on her anatomical RIGHT temple, ivory shoulder caps, pale chest yoke with small yellow UNSC marking, yellow badge on the central waist, long sculpted thigh plates and ivory knee caps. Keep her helmet on; no invented face, no weapon. Change crossed arms into a practical empty-handed guard at chest height, two separate gloved hands with natural fingers, while preserving all armor shapes and her athletic proportions. Ignore the screenshot environment. Repose to a stable fighting-game idle facing screen RIGHT, near side-on where the references support it, knees slightly flexed and feet staggered. Preserve anatomical left-right asymmetry; do not simply mirror armor. One complete person only, exactly two arms, two hands, two legs; all helmet or head, fingertips, boots and equipment fully within the image. Match realistic Halo game-render material style and canonical proportions, not a generic sci-fi redesign. At least six percent clear transparent padding around the complete figure on every edge. Real alpha background; no environment, no floor, no shadow plane, no aura, no smoke, no glow, no checkerboard pixels, no text labels, no border, no duplicate views.",
+      "status": "generation_failed",
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ab22e75c-6a71-404d-8bcb-e6e451eff223.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "entity_id": "dinh_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "targeted_anatomical_pouch_side_correction",
+      "variant": 2,
+      "equipment_state": "Rakshasa personnalisé, casque ARTAIUS de la saison 2 ; mains libres comme le rendu officiel final, lame du concept non reprise.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_DinhModel.png",
+        "image_url": "https://www.halopedia.org/images/6/6a/HINF_DinhModel.png?d5884",
+        "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+        "primary_urls": [
+          "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+        ],
+        "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf",
+        "dimensions": {
+          "width": 1479,
+          "height": 2062
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+      },
+      "additional_reference_inputs": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7dee4e0e-a992-45a6-abda-79ce821a7636.png",
+          "generated": true,
+          "purpose": "Candidate V01 with confirmed anatomically swapped belt pouch group"
+        }
+      ],
+      "prompt": "Edit the FIRST attached existing Hieu Dinh full-body character image, changing ONLY the belt-pouch placement to match the SECOND attached official final Halo Infinite model reference. Anatomical sides are crucial: his red trophy shoulder is his RIGHT shoulder, his radio antenna is on his LEFT shoulder. In the current first image the dominant pair/group of large blue-grey belt pouches is wrongly placed on his RIGHT hip beneath the red shoulder. Remove that large paired blue-grey pouch group from his RIGHT hip. Restore a modest dark single pouch/strap assembly on that right side as in the official reference. Put the large paired blue-grey pouches on his anatomical LEFT hip, underneath the radio shoulder; this is the farther side in this right-facing pose, so show only the amount naturally visible beyond the torso. Do not mirror the entire image or exchange the shoulders. Keep the red right shoulder, left radio/antenna, straps around LEFT thigh, central groin armor, red-orange teeth-marked visor, helmet optics, chest armor, both guarded hands, legs, boots, original pose and proportions unchanged. Only correct the waist-pouch layout. Preserve the complete character and current framing, all boots and helmet in frame. Preserve real alpha transparency outside the character; no new background, floor, halo, effects or labels.",
+      "status": "generation_failed",
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7dee4e0e-a992-45a6-abda-79ce821a7636.png",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 89ae16e8-93b3-4d67-8128-40d1077caa8f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

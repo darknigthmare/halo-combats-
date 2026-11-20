@@ -1,0 +1,2035 @@
+{
+  "schema_version": "1.0",
+  "planned_count": 24,
+  "planned_layer_count": 144,
+  "stages": [
+    {
+      "id": "st_autumn_ce",
+      "name": "Hangar du Pillar of Autumn",
+      "origin": "Halo Combat Evolved classique",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "horizon orbital",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "vaisseaux éloignés",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "coque derrière le hangar",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "passerelles et monte-charges",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme métallique",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "cadres et câbles proches",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Décompression sectorisée",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Alarmes puis départ du personnel",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Conserver la géométrie militaire et les lumières de la version classique.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_blood_gulch_ce",
+      "name": "Blood Gulch",
+      "origin": "Halo Combat Evolved classique",
+      "era": "simulation multijoueur",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de l’anneau",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "falaises lointaines",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "parois du canyon",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "bases rouge et bleue",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "terre de la vallée",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "rochers latéraux",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Passage de véhicule balisé",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Convoi lointain sans collision",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Ne pas remplacer les deux bases basses par les structures de Valhalla.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_cartographer_ce",
+      "name": "Plage du Cartographe silencieux",
+      "origin": "Halo Combat Evolved classique",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "arc de Halo",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "côte et océan",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "falaise boisée",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "façade forerunner",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plage nivelée",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "végétation des bords",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Ressac sur une bordure",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Pelican lointain",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Repère de porte forerunner et plage large; aucune jungle tropicale ajoutée.",
+      "source_type": "primary_game_level_reference",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_control_room_ce",
+      "name": "Vallée de la salle de contrôle",
+      "origin": "Halo Combat Evolved classique",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel pâle",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "pics enneigés",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "crête de l’anneau",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "pont et blocs forerunners",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "neige tassée",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "congères et roches",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Chute de neige depuis une corniche",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Brume et passage lointain",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Verrouiller les silhouettes anguleuses et la neige de CE.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_cairo_h2",
+      "name": "Station Le Caire",
+      "origin": "Halo 2 classique",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "Terre depuis baie",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "défense orbitale",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "superstructure extérieure",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "parois et panneaux",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "coursive stable",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "rails au premier plan",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Salve extérieure annonçant une secousse",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Bataille orbitale",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Les explosions restent derrière la baie dans la version classée.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_metropolis_h2",
+      "name": "Pont de New Mombasa",
+      "origin": "Halo 2 classique",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel urbain",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "silhouette de la ville",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "tours et pont parallèle",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "chaussées en contrebas",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "route latérale",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "barrières proches",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Débris de chaussée balisés",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Passage du Scarab en fond",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Employer Scarab Protos si visible, jamais Deutoros de Halo 3.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_delta_halo_h2",
+      "name": "Ruines de Delta Halo",
+      "origin": "Halo 2 classique",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "anneau dans le ciel",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "montagnes",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "structures enfouies",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "temple et colonnes",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "dalles usées",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "frondes et pierres",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Passage d’une gondole au bord",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Lumière changeante",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Distinguer cet environnement des îles de CE.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_high_charity_h2",
+      "name": "Grand hall de Grande Bonté",
+      "origin": "Halo 2 classique",
+      "era": "2552 avant infection",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "voûte de la cité",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "flèches lointaines",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "volumes covenants",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "arcades pourpres",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "sol de cérémonie",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "ornements latéraux",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Champ énergétique d’une porte",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Mouvements de flotte",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Aucune biomasse Flood dans cette variante.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_lockout_h2",
+      "name": "Lockout",
+      "origin": "Halo 2 classique",
+      "era": "simulation multijoueur",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel neigeux",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "abîme et relief",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "massif rocheux",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "tours et passerelles",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme du duel",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "givre et garde-corps",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Jet glacé sur bordure",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Neige",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Plateforme 2D adaptée explicitement, sans prétendre reproduire le parcours FPS.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_valhalla_h3",
+      "name": "Valhalla",
+      "origin": "Halo 3",
+      "era": "simulation multijoueur",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de l’Arche sans anneau",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "montagnes",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "chute et rivière",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "tours forerunners",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "berges nivelées",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "herbes et rochers",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Jet de man-cannon latéral",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Transport au loin",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Préserver vallée, rivière et tours sans copier Blood Gulch; ciel de l’Arche sans arc de Halo.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "candidate",
+      "code_status": "not_implemented",
+      "visual_assets": [
+        "valhalla_h3_master_v2"
+      ],
+      "fidelity_status": "not_certified",
+      "independent_layers_generated": 0,
+      "master_concept_generated": true
+    },
+    {
+      "id": "st_ark_h3",
+      "name": "Cartographe de l’Arche",
+      "origin": "Halo 3",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de l’Arche",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "désert lointain",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "escarpements",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "façade du Cartographe",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "terrasse minérale",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "débris latéraux",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Poussée d’air du bord",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Machines lointaines",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Le ciel appartient à l’Arche, ne pas ajouter un anneau complet de CE.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_citadel_h3",
+      "name": "Citadelle de l’Alliance",
+      "origin": "Halo 3",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel clair",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "massif enneigé",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "tours de barrière",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "entrée de la Citadelle",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme enneigée",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "structures de bord",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Onde d’un pylône",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Rayon lointain de barrière",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Hommage au niveau The Covenant; spectacle séparé de la collision.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_cortana_h3",
+      "name": "Grande Bonté infectée",
+      "origin": "Halo 3",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "lueur diffuse",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "voûtes contaminées",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "réservoirs de biomasse",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "parois organiques",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "passerelle sèche",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "filaments périphériques",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Poche de contamination annoncée",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Pulsation de biomasse",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Pas de copie du hall intact recolorée; architecture déformée lisible.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_guardian_h3",
+      "name": "Guardian la forêt",
+      "origin": "Halo 3",
+      "era": "simulation multijoueur",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel filtré",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "canopée lointaine",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "troncs géants",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "structures suspendues",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme centrale",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "feuillage latéral",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Ascenseur secondaire",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Lumières forestières",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Guardian est ici une carte; aucun lien automatique avec Guardian Custodes.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_mombasa_odst",
+      "name": "Rues de Mombasa",
+      "origin": "Halo 3 ODST",
+      "era": "2552 nuit",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de nuit",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "gratte-ciels",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "tours et écrans",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "façades de rue",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "chaussée mouillée",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "barrières et déchets",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Survol signalé puis projecteur",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Pluie et écrans du Surintendant",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Maintenir contraste des armures dans la nuit; texte original à refaire proprement.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "candidate",
+      "code_status": "not_implemented",
+      "visual_assets": [
+        "mombasa_odst_master_v2"
+      ],
+      "fidelity_status": "not_certified",
+      "independent_layers_generated": 0,
+      "master_concept_generated": true
+    },
+    {
+      "id": "st_nmpd_odst",
+      "name": "Toit du NMPD",
+      "origin": "Halo 3 ODST",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel urbain",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "skyline",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "toits en contrebas",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "héliport et passerelles",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "toiture stable",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "antennes latérales",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Balayage de canon de Phantom",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Défense de toit",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Les portes de soute constituent seulement un événement visuel en classé.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_new_alex_reach",
+      "name": "Toit de Nouvelle Alexandrie",
+      "origin": "Halo Reach",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de guerre",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "ville lointaine",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "tours endommagées",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "façade de toit",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme béton",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "structures en bord",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Débris annoncés",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Lueurs du siège",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Respecter la palette Reach et éviter la végétation de Zeta Halo.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_sword_reach",
+      "name": "Cour de Sword Base",
+      "origin": "Halo Reach",
+      "era": "2552",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel couvert",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "montagnes",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "falaises enneigées",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "façade de la base",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "cour béton",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "palissades et équipements",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Porte de sécurité",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Manœuvre de transport",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Signalétique militaire fonctionnelle; pas de faux logos mélangés.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_boneyard_reach",
+      "name": "Boneyard",
+      "origin": "Halo Reach",
+      "era": "simulation multijoueur",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel industriel",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "montagnes",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "chantier naval",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "coque de frégate",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "sol d’atelier",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "grues et câbles",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Chute contrôlée de matériel",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Équipe de chantier en fond",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Conserver l’échelle navale; le vaisseau reste un massif de décor.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_requiem_h4",
+      "name": "Antichambre de Requiem",
+      "origin": "Halo 4",
+      "era": "2557",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel artificiel",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "montagnes suspendues",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "architecture lointaine",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "structures forerunners",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme en alliage",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "plaques proches",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Portail énergétique annoncé",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Déplacement des structures lointaines",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Adopter formes et matériaux Halo 4 sans les substituer à Halo 3.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_sunaion_h5",
+      "name": "Passerelle de Sunaion",
+      "origin": "Halo 5 Guardians",
+      "era": "2558",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de Sanghelios",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "océan",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "flèches de la ville",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "plateformes du temple",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "passerelle large",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "ornements aux bords",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Onde environnementale",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Guardian lointain",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Le Guardian monumental reste dans les couches diégétiques, pas dans la lane.",
+      "source_type": "primary_game_level_reference",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_ark_hw2",
+      "name": "Avant poste de l’Arche",
+      "origin": "Halo Wars 2",
+      "era": "2559",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "ciel de l’Arche",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "reliefs",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "faune et végétation lointaines",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "fortifications parias",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme de campagne",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "barrières proches",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Impact d’artillerie annoncé",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Patrouille au loin",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Distinguer formes parias, UNSC et forerunners dans les matériaux.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_zeta_infinite",
+      "name": "Plateau fracturé de Zeta Halo",
+      "origin": "Halo Infinite",
+      "era": "2560",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "courbure brisée de Halo",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "fragments du paysage",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "colonnes hexagonales",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "structures et pins",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "terrasse rocheuse",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "herbes et caisses",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Rupture d’une bordure hors classé",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Nuages et fragments",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "La cassure du ring est structurante; ne pas employer un arc intact.",
+      "source_type": "primary_game_level_reference",
+      "source_url": null,
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    },
+    {
+      "id": "st_reckoning_infinite",
+      "name": "Maison du Jugement",
+      "origin": "Halo Infinite",
+      "era": "2560",
+      "canon_status": "released_location_adapted_to_2d",
+      "layers": [
+        {
+          "index": 0,
+          "name": "ciel",
+          "parallax": 0.04,
+          "content": "voûte sombre",
+          "collision": false
+        },
+        {
+          "index": 1,
+          "name": "lointain",
+          "parallax": 0.12,
+          "content": "charpente paria",
+          "collision": false
+        },
+        {
+          "index": 2,
+          "name": "fond",
+          "parallax": 0.28,
+          "content": "projecteurs",
+          "collision": false
+        },
+        {
+          "index": 3,
+          "name": "plan_intermediaire",
+          "parallax": 0.55,
+          "content": "décor d’entraînement militaire",
+          "collision": false
+        },
+        {
+          "index": 4,
+          "name": "plan_jouable",
+          "parallax": 1.0,
+          "content": "plateforme de combat",
+          "collision": true
+        },
+        {
+          "index": 5,
+          "name": "premier_plan",
+          "parallax": 1.15,
+          "content": "barrières proches",
+          "collision": false
+        }
+      ],
+      "hazard": {
+        "casual_enabled_by_default": false,
+        "optional_design": "Piège du simulateur",
+        "competitive_enabled": false,
+        "minimum_warning_frames": 90
+      },
+      "transition": {
+        "visual": "Surveillance et signaux",
+        "ranked_collision_changes": false,
+        "ranked_camera_cut": false
+      },
+      "anchors": {
+        "authoring_canvas_px": [
+          3840,
+          2160
+        ],
+        "ground_y_px": 1680,
+        "left_bound_x": 0.08,
+        "right_bound_x": 0.92,
+        "spawn_x": [
+          0.35,
+          0.65
+        ],
+        "character_feet": "ground_y",
+        "foreground_safe_height_above_ground": 0.0
+      },
+      "fidelity_rule": "Conserver le caractère d’arène organisée par les Parias.",
+      "source_type": "primary_game_level_reference",
+      "source_url": "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+      "reference_validation": "source_game_identified_exact_angle_and_layer_captures_pending",
+      "status": "planned",
+      "art_status": "not_generated",
+      "code_status": "not_implemented"
+    }
+  ]
+}

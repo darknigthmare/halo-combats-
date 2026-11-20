@@ -1,0 +1,83 @@
+{
+  "wave": 8,
+  "baseline_commit": "6c719b3041c04f75f7443135dd1b9f1d638bbe1d",
+  "generation": {
+    "planned_targets": 19,
+    "actual_tool_calls": 20,
+    "unique_called_targets": 19,
+    "generated_pngs": 4,
+    "generation_failures": 16,
+    "quota_failures": 0,
+    "moderation_refusals": 15,
+    "other_generation_failures": 1,
+    "deferred_without_call": 0
+  },
+  "journal_sha256": "27854ae7ca53aedea5c1bf2dabc60c3f819225732a584ab46dab4ae277869b2e",
+  "qa_sha256": "e0a96445f48136edcea915c1c7c805394eab14a4a13bc4a7a0a0fffdd0547d74",
+  "new_candidate_ids": [
+    "locke_h5_initial_right_v01",
+    "mickey_odst_initial_right_v01",
+    "skirmisher_champion_reach_initial_right_v01",
+    "bassus_infinite_initial_right_v01"
+  ],
+  "planned_copies": [
+    {
+      "asset_id": "locke_h5_initial_right_v01",
+      "entity_id": "locke_h5",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-ba4b2220-157a-4874-9df8-04ddd72c363c.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/locke_h5_initial_right_v01.png",
+      "path": "assets/characters_wave8/locke_h5_initial_right_v01.png",
+      "sha256": "ec65dd5fd06a829473d3f5ed2a3edbcc361c9b67ca0cd07ad84f691e7934b916"
+    },
+    {
+      "asset_id": "mickey_odst_initial_right_v01",
+      "entity_id": "mickey_odst",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/wave8_mickey_odst_returned_original.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/mickey_odst_initial_right_v01.png",
+      "path": "assets/characters_wave8/mickey_odst_initial_right_v01.png",
+      "sha256": "8ded78a52c5db662362c34b1cf9bce1baeeb68c584746fdd7d0a6c0d21a4ed93"
+    },
+    {
+      "asset_id": "skirmisher_champion_reach_initial_right_v01",
+      "entity_id": "skirmisher_champion_reach",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4ff5a831-caae-4e7b-9c4b-e5b813f6dc78.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+      "path": "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+      "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d"
+    },
+    {
+      "asset_id": "bassus_infinite_initial_right_v01",
+      "entity_id": "bassus_infinite",
+      "source": "/workspace/scratch/9d31c69eef8e/generated_images/exec-28f7f6b2-0c70-4cd0-9d6e-4e5d226625f7.png",
+      "destination": "/workspace/scratch/9d31c69eef8e/halo_combats/assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+      "path": "assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+      "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd"
+    }
+  ],
+  "newly_illustrated_extension_ids": [
+    "locke_h5",
+    "mickey_odst",
+    "skirmisher_champion_reach",
+    "bassus_infinite"
+  ],
+  "remaining_missing_extension_ids": [
+    "kelly_h5",
+    "linda_h5",
+    "tanaka_h5",
+    "dare_odst",
+    "romeo_odst",
+    "agryna_infinite",
+    "ntho_h3",
+    "usze_h3",
+    "let_volir_hw2",
+    "grunt_heavy_reach",
+    "pavium_hw2",
+    "didact_h4",
+    "knight_h4"
+  ],
+  "new_candidates_needing_correction": [],
+  "old_asset_records_unchanged": 90,
+  "old_pngs_unchanged": 90,
+  "new_extension_gameplay_activations": 0,
+  "new_animation_clips": 0
+}

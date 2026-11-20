@@ -1,0 +1,75 @@
+{
+  "runtime": "Node VM with simulated DOM and canvas",
+  "browserValidation": "Not completed: Chromium could not start because socket creation is denied in the execution environment.",
+  "checks": [
+    {
+      "name": "JavaScript initializes and exposes state",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard movement maps and advances position",
+      "status": "passed"
+    },
+    {
+      "name": "Light attack hits enemy shield",
+      "status": "passed"
+    },
+    {
+      "name": "Heavy attack has recovery and deals greater damage",
+      "status": "passed"
+    },
+    {
+      "name": "Frontal guard reduces damage",
+      "status": "passed"
+    },
+    {
+      "name": "Shield recharges after safe delay",
+      "status": "passed"
+    },
+    {
+      "name": "Pause freezes simulation then resumes",
+      "status": "passed"
+    },
+    {
+      "name": "Grenade creates and expires projectile",
+      "status": "passed"
+    },
+    {
+      "name": "Rifle projectile damages distant enemy",
+      "status": "passed"
+    },
+    {
+      "name": "Jump leaves ground and lands",
+      "status": "passed"
+    },
+    {
+      "name": "Dash moves player farther than walking",
+      "status": "passed"
+    },
+    {
+      "name": "Scarab legs break using melee only",
+      "status": "passed"
+    },
+    {
+      "name": "Boarding interaction unlocks core phase",
+      "status": "passed"
+    },
+    {
+      "name": "Core can be destroyed using melee only",
+      "status": "passed"
+    },
+    {
+      "name": "Restart resets boss objectives and life",
+      "status": "passed"
+    },
+    {
+      "name": "Duel AI attacks an idle player",
+      "status": "passed"
+    },
+    {
+      "name": "No external dependencies in HTML",
+      "status": "passed"
+    }
+  ],
+  "passed": 17
+}

@@ -1,0 +1,1252 @@
+{
+  "schema_version": 1,
+  "wave": "V5",
+  "updated_utc": "2026-11-19T22:11:38.531985+00:00",
+  "scope": {
+    "total_registered_encounters": 20,
+    "already_has_visual_at_v4": [
+      "boss_scarab_h3"
+    ],
+    "missing_visual_encounters_at_v4": 19,
+    "covered_reference_briefs": 19,
+    "candidate_ready_briefs": 16,
+    "briefs_waiting_for_complete_reference": [
+      "boss_proto_gravemind_hw2",
+      "event_guardian_h5",
+      "event_gravemind_h3"
+    ],
+    "partial_scope_ready_briefs": [
+      "event_gravemind_h3"
+    ]
+  },
+  "reference_root": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses",
+  "reference_policy": {
+    "source_images_generated": false,
+    "source_images_modified_locally": false,
+    "source_images_committed": false,
+    "source_images_usage": "Private generation inputs only; publish provenance and briefs, not downloaded sources.",
+    "candidate_readiness_is_not_fidelity_certification": true
+  },
+  "shared_generation_brief": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. ",
+  "records": [
+    {
+      "id": "boss_warden_h5",
+      "page_url": "https://www.halopedia.org/File:H5G_Warden_render.png",
+      "image_url": "https://www.halopedia.org/images/8/89/H5G_Warden_render.png?2d8c6",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_warden_h5_reference.png",
+      "bytes": 1265066,
+      "sha256": "ec36c96b70cbac367a1d326f9f04665a01cec949fa5667e5e2dae89210a30b26",
+      "game_version": "Halo 5: Guardians",
+      "generated": false,
+      "image_modified_locally": false,
+      "source_kind": "official_press_render_rehosted",
+      "primary_source_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+      "dimensions": {
+        "width": 1040,
+        "height": 1080
+      },
+      "color_mode": "RGBA",
+      "inspected": true,
+      "inspection_method": "view_image; downloaded source-host thumbnail for files larger than 1200 px, original preserved",
+      "observations": [
+        "Corps humanoïde Forerunner argenté et noir, segments d’armure flottants ou séparés, accents ambre, grande arme lumineuse orange.",
+        "Silhouette entière visible : tête à large couronne, deux jambes à pieds segmentés, deux bras ; pose dynamique en trois quarts.",
+        "Rendu du kit de presse H5 explicitement identifié par la page source."
+      ],
+      "limits": [
+        "Le rendu n’est pas un profil orthographique ; un profil strict nécessite une seconde vue.",
+        "Effets de lumière étendus autour du corps ; ne pas transformer ces halos en appendices.",
+        "La page signale une modification historique du cadrage ; téléchargement local conservé sans modification.",
+        "Ne pas utiliser les couleurs ou accessoires du Mythic Warden."
+      ],
+      "readiness": "candidate_reference_ready",
+      "prompt": "Produce one isolated complete boss asset for a 2D side-view fighting game. Faithfully use the attached authentic reference for anatomy, materials, equipment and proportions. Face screen-left; strict side profile where the source supports it, very slight three-quarter only when needed to avoid inventing an unseen structure. Entire body, feet, appendages and equipment inside frame, generous clear margin. Transparent RGBA background, no floor, no scenery, no text, no UI, no second entity. Keep original game design and material colors; no redesign, no modern variant, no invented armor. This is a visual candidate, not an animation sheet or a fidelity certification. Warden Eternal BASE appearance from Halo 5: Guardians only. Preserve the silver-white segmented Forerunner plates, black structural gaps, amber facial lights and energy accents, broad crown-shaped helmet, angular shoulders and segmented feet. Hold his long orange hard-light weapon fully within frame, at rest and readable. Use a grounded, threatening idle stance, knees bent. Do not add a shield, mythic colors, human hands or extra armor plates.",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:H5G_Warden_render.png"
+    },
+    {
+      "id": "boss_abomination_hw2",
+      "page_url": "https://www.halopedia.org/File:HW2_FloodAbomination_Profile.png",
+      "image_url": "https://www.halopedia.org/images/4/4a/HW2_FloodAbomination_Profile.png?ee998",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_abomination_hw2_reference.png",
+      "bytes": 1656762,
+      "sha256": "9cbb4d8eacda5f41100a3284af7679735275d3c6ddde3d6c03746fec68df3b1f",
+      "game_version": "Halo Wars 2: Awakening the Nightmare",
+      "generated": false,
+      "image_modified_locally": false,
+      "source_kind": "game_screenshot_rehosted",
+      "primary_source_url": "https://www.halopedia.org/File:HW2_FloodAbomination_Profile.png",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "color_mode": "RGBA",
+      "inspected": true,
+      "inspection_method": "view_image; downloaded source-host thumbnail for files larger than 1200 px, original preserved",
+      "observations": [
+        "Capture du modèle de jeu dans Light the Fuse, attribuée à JackVibe sur Halopedia.",
+        "Masse supérieure bombée couverte de poches jaunes, tissus fibreux sombres et rouges, bras allongés et jambes ployées.",
+        "Profil presque latéral utile pour conserver la silhouette du modèle RTS."
+      ],
+      "limits": [
+        "Vue de dessus oblique RTS, arrière partiellement masqué.",
+        "Flammes, ombre et débris du niveau ne font pas partie du boss.",
+        "Ne pas confondre avec le Gaunt de cinématique ni avec le Juggernaut Fireteam Raven ; les rendus Flood Commander peuvent représenter une autre variante.",
+        "L’articulation la plus lointaine est partiellement cachée : contrôle complémentaire avant validation 1:1."
+      ],
+      "readiness": "candidate_reference_ready",
+      "prompt": "Produce one isolated complete boss asset for a 2D side-view fighting game. Faithfully use the attached authentic reference for anatomy, materials, equipment and proportions. Face screen-left; strict side profile where the source supports it, very slight three-quarter only when needed to avoid inventing an unseen structure. Entire body, feet, appendages and equipment inside frame, generous clear margin. Transparent RGBA background, no floor, no scenery, no text, no UI, no second entity. Keep original game design and material colors; no redesign, no modern variant, no invented armor. This is a visual candidate, not an animation sheet or a fidelity certification. Flood Abomination exactly as the GAMEPLAY model in Halo Wars 2: Awakening the Nightmare, Light the Fuse. Preserve the enormously swollen yellow infection sacs across the hunched upper body, the narrow fibrous dark ribbed trunk, long reddish fleshy arms and bent legs in the attached game screenshot. Remove only the battlefield and fire; maintain the shown anatomy. Complete idle side silhouette, planted feet and lowered long arms. Do not substitute the Gaunt cinematic model, a Fireteam Raven Juggernaut, a humanoid zombie, or symmetrical generic spikes.",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:HW2_FloodAbomination_Profile.png",
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_abomination_hw2_inspection.png"
+    },
+    {
+      "id": "boss_juggernaut_ftr",
+      "page_url": "https://www.halopedia.org/File:HFR_Juggernaught_Render_2.png",
+      "image_url": "https://www.halopedia.org/images/f/f7/HFR_Juggernaught_Render_2.png?e2dbf",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_juggernaut_ftr_reference.png",
+      "bytes": 7021365,
+      "sha256": "3d6fd226cd9a0757169f077a7129a4e363c62dc64415803be24e72ec4b0fa646",
+      "game_version": "Halo: Fireteam Raven",
+      "generated": false,
+      "image_modified_locally": false,
+      "source_kind": "official_press_render_rehosted",
+      "primary_source_url": "https://www.halowaypoint.com/en-us/forums/92f069f023a1483db48c88ce05eb4ccf/topics/halo-fireteam-raven-community-content-care-pack/f38ead46-d2bd-4813-9ef3-7dd1f8c82ccf/posts",
+      "dimensions": {
+        "width": 4096,
+        "height": 4096
+      },
+      "color_mode": "RGBA",
+      "inspected": true,
+      "inspection_method": "view_image; downloaded source-host thumbnail for files larger than 1200 px, original preserved",
+      "observations": [
+        "Rendu explicitement issu du kit officiel Fireteam Raven, nom original FireteamRaven_Render_FloodJuggernaut_Pose.png.",
+        "Corps massif bulbeux chair brune pâle, deux grandes jambes digitigrades terminées par des pieds larges.",
+        "Deux longs appendices fouets latéraux à extrémités sombres pointues ; tête intégrée à la masse et côtes fibreuses visibles."
+      ],
+      "limits": [
+        "Rendu frontal en trois quarts ; le flanc caché n’est pas documenté.",
+        "Ne pas utiliser le prototype coupé de Halo 2 ni l’Abomination de Halo Wars 2.",
+        "Conserver l’intégralité des fouets, sans agrandir artificiellement leurs pointes."
+      ],
+      "readiness": "candidate_reference_ready",
+      "prompt": "Produce one isolated complete boss asset for a 2D side-view fighting game. Faithfully use the attached authentic reference for anatomy, materials, equipment and proportions. Face screen-left; strict side profile where the source supports it, very slight three-quarter only when needed to avoid inventing an unseen structure. Entire body, feet, appendages and equipment inside frame, generous clear margin. Transparent RGBA background, no floor, no scenery, no text, no UI, no second entity. Keep original game design and material colors; no redesign, no modern variant, no invented armor. This is a visual candidate, not an animation sheet or a fidelity certification. Flood Juggernaut specifically from Halo: Fireteam Raven, matching this official press render. Preserve its enormous bulbous pale brown fleshy upper mass, small embedded face/mouth, hanging dark ribbed trunk, TWO thick bent legs with broad toe pads, and TWO very long tentacle-like arms ending in dark sharp hooks. Complete screen-left idle silhouette with both arm tips and feet inside frame. Do not add yellow Abomination sacs or Halo 2 prototype anatomy. No blood spray or scene elements.",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:HFR_Juggernaught_Render_2.png",
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_juggernaut_ftr_inspection.png"
+    },
+    {
+      "id": "boss_goblin_h5",
+      "page_url": "https://www.halopedia.org/File:H5G_-_Goblin_render.png",
+      "image_url": "https://www.halopedia.org/images/a/a4/H5G_-_Goblin_render.png?d12e2",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goblin_h5_reference.png",
+      "bytes": 4120838,
+      "sha256": "86ac4ceef22991b19094292b21df91c1f7018ca92fbdfa0ce79cc154b29bc130",
+      "game_version": "Halo 5: Guardians — Warzone Firefight",
+      "generated": false,
+      "image_modified_locally": false,
+      "source_kind": "game_render_corroborated_by_official_xbox_screenshot",
+      "primary_source_url": "https://news.xbox.com/en-us/2016/06/29/warzone-firefight-available-now-halo-5-guardians-download-halo-5-guardians-free-today/",
+      "dimensions": {
+        "width": 1920,
+        "height": 1920
+      },
+      "color_mode": "RGBA",
+      "inspected": true,
+      "inspection_method": "view_image; downloaded source-host thumbnail for files larger than 1200 px, original preserved",
+      "observations": [
+        "Rendu catégorisé Halo 5: Guardians et Pnap-pattern Goblin par Halopedia.",
+        "Mech bipède violet avec pilote Unggoy visible derrière un dôme frontal bleu ; canon à aiguilles sur un bras et gros poing sur l’autre.",
+        "Deux jambes mécaniques courtes et larges ; épaulière volumineuse et plusieurs ouvertures dorsales.",
+        "Une capture primaire Xbox Wire du 29 juin 2016 corrobore le design et l’asymétrie du mech."
+      ],
+      "limits": [
+        "Origine précise du rendu détouré non indiquée, mais silhouette et équipement corroborés par la capture officielle Xbox.",
+        "Le cadre touche les pieds, donc vérifier le rendu final avec une marge complète.",
+        "Vue en trois quarts ; ne pas certifier un profil 1:1 sur cette seule référence.",
+        "Ne pas confondre le mech Goblin avec l’armure MJOLNIR Goblin ou la variante Temple."
+      ],
+      "readiness": "candidate_reference_ready",
+      "prompt": "Produce one isolated complete boss asset for a 2D side-view fighting game. Faithfully use the attached authentic reference for anatomy, materials, equipment and proportions. Face screen-left; strict side profile where the source supports it, very slight three-quarter only when needed to avoid inventing an unseen structure. Entire body, feet, appendages and equipment inside frame, generous clear margin. Transparent RGBA background, no floor, no scenery, no text, no UI, no second entity. Keep original game design and material colors; no redesign, no modern variant, no invented armor. This is a visual candidate, not an animation sheet or a fidelity certification. BASE Grunt Goblin mech from Halo 5: Guardians Warzone Firefight, with the actual Unggoy pilot visible through the curved blue energy cockpit. Preserve the bulky purple Covenant shell, short broad two-legged stance, needle cannon on one arm and huge mechanical fist on the other; retain exact asymmetry of the reference. Full body including feet, backpack and all needles, screen-left guarded idle pose. No Temple variant, no Spartan armor, no additional pilot standing beside it.",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "additional_references": [
+        {
+          "id": "boss_goblin_h5_xbox",
+          "page_url": "https://news.xbox.com/en-us/2016/06/29/warzone-firefight-available-now-halo-5-guardians-download-halo-5-guardians-free-today/",
+          "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/Halo-5-Guardians-Warzone-Firefight-Giant-Mech-Grunt.jpg",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goblin_h5_xbox_reference.jpg",
+          "bytes": 1308482,
+          "sha256": "24327d9616fa78b160e6ebb41907eb8dab5250711ed35b24b78fe4f5fb34985e",
+          "dimensions": {
+            "width": 2560,
+            "height": 1440
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspected": true,
+          "source_kind": "official_xbox_press_screenshot",
+          "primary_source_url": "https://news.xbox.com/en-us/2016/06/29/warzone-firefight-available-now-halo-5-guardians-download-halo-5-guardians-free-today/",
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 5: Guardians — Warzone Firefight",
+          "provenance_note": "Microsoft / 343 Industries, Xbox Wire, 29 juin 2016",
+          "observations": [
+            "Capture officielle entière du mech et de ses deux bras asymétriques."
+          ],
+          "limits": [
+            "Éclairage extérieur et sol masquant une partie des pieds."
+          ],
+          "source_page_url": "https://news.xbox.com/en-us/2016/06/29/warzone-firefight-available-now-halo-5-guardians-download-halo-5-guardians-free-today/"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:H5G_-_Goblin_render.png",
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goblin_h5_inspection.png"
+    },
+    {
+      "id": "boss_retriever_hw2",
+      "page_url": "https://www.halopedia.org/File:HW2-Retriever.jpg",
+      "image_url": "https://www.halopedia.org/images/b/bb/HW2-Retriever.jpg?56919",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_retriever_hw2_reference.jpg",
+      "bytes": 760750,
+      "sha256": "8c22d0b8fa805a47f17b27c11a19832940ec58d5650affa2c5950a2062d265ed",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_retriever_hw2_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/b/bb/HW2-Retriever.jpg/800px-HW2-Retriever.jpg?20170722015615",
+      "inspection_sha256": "b229bd56445bde6f0a9cbc5c022d4d64f6777223806a588d53542841284e8357",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Wars 2",
+      "source_kind": "developer_asset_screenshot_rehosted",
+      "primary_source_url": "https://www.artstation.com/artwork/96q8a",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Modèle en jeu présenté par son créateur Gerard Muntés ; matériaux et shaders attribués à l’équipe environnement.",
+        "Sentinelle volante : deux grandes surfaces latérales segmentées, corps central allongé et plusieurs appendices mécaniques inférieurs ; accents cyan."
+      ],
+      "limits": [
+        "Vue oblique de dessus, arrière caché ; aucune vue de profil orthographique.",
+        "Ne pas utiliser les captures HW2 du design préliminaire signalé PRD."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Retriever Sentinel from the released Halo Wars 2 gameplay model. Huge levitating grey Forerunner machine, broad layered lateral plating around a long central head/body, circular cyan emitters, mechanical lower pincers/appendages. Match this exact silhouette and panel arrangement. Floating idle pose, full extremities contained. No walking legs, Scarab body, early PRD design or generic flying saucer.",
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:HW2-Retriever.jpg"
+    },
+    {
+      "id": "boss_wraith_infinite",
+      "page_url": "https://www.halopedia.org/File:HINF_BanishedWraith_Render_1.jpg",
+      "image_url": "https://www.halopedia.org/images/4/40/HINF_BanishedWraith_Render_1.jpg?1d566",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_wraith_infinite_reference.jpg",
+      "bytes": 371746,
+      "sha256": "3133a933add32a28d529d1f8041b92c47180d0e047c2ef3392dd1dc0c929570e",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_wraith_infinite_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/4/40/HINF_BanishedWraith_Render_1.jpg/800px-HINF_BanishedWraith_Render_1.jpg?20230904204432",
+      "inspection_sha256": "1237686c14fd43ca86ef5c4c551ef19680ab4ca181b3d713d189e29f21508de0",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Infinite — Wraith paria",
+      "source_kind": "developer_asset_render_rehosted",
+      "primary_source_url": "https://www.artstation.com/artwork/LeZaGl",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Rendu du modèle par Dan Sarkar, créateur de cet asset Infinite.",
+        "Carrosserie rouge usée, plaques acier/noires, deux larges lobes latéraux, mortier dorsal et petite tourelle supérieure."
+      ],
+      "limits": [
+        "Présentation du modèle haute résolution ; comparer ensuite les détails au modèle en jeu.",
+        "Angle trois quarts, pas une vue latérale ; conserver le Wraith Infinite plutôt que celui de HW2."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Banished Wraith from Halo Infinite, matching Dan Sarkar’s model. Low anti-gravity tank with heavy red worn armor, dark and exposed steel plates, two wide side hull pods, dorsal mortar housing and small top gun. Entire vehicle in hover idle pose, front toward screen-left, no firing effects. No tracks, wheels, turret from a human tank, purple Covenant paint or Halo Wars 2 substitutions.",
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:HINF_BanishedWraith_Render_1.jpg"
+    },
+    {
+      "id": "boss_lich_h4",
+      "page_url": "https://www.halopedia.org/File:H4IG_-_Lich.png",
+      "image_url": "https://www.halopedia.org/images/1/19/H4IG_-_Lich.png?83429",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_lich_h4_reference.png",
+      "bytes": 581994,
+      "sha256": "385fd6a87f6f8de44022afb7181557ae7a0d40501ac2a002d151b9b9f1cf7d6b",
+      "dimensions": {
+        "width": 1170,
+        "height": 385
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_lich_h4_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/1/19/H4IG_-_Lich.png/800px-H4IG_-_Lich.png?20160318193411",
+      "inspection_sha256": "59188e26d802bea2262039b490d82d7fa3aec412f42eff3cda7ade87d9c8c6d6",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 4 — Reclaimer",
+      "source_kind": "official_interactive_guide_rehosted",
+      "primary_source_url": "https://www.halopedia.org/Halo_4_Interactive_Guide",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture du guide interactif promotionnel Halo 4, section véhicule Lich.",
+        "Coque Covenant violette bombée, longues pointes/mandibules avant et ventre sombre mécanique."
+      ],
+      "limits": [
+        "Le fichier source est une capture du guide ; le vaisseau occupe seulement une partie des 1170×385 pixels.",
+        "Source primaire historique Halo Waypoint dépubliée ; pas de référence latérale haute résolution.",
+        "La variante paria de HW2 et le Lich de cinématique H2A ne sont pas les sources retenues."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Halo 4 Kmiro’sish-pattern Lich from the Reclaimer era, matching the Halo 4 Interactive Guide image. Preserve its deep purple bulbous armored hull, long forward mandibular prongs, layered rear shell and dark weapon-bearing underside. Whole heavy Covenant dropship hovering, nose facing screen-left. No Banished red plating, human aircraft components, extra engines, transparent glass cockpit or HW2 Lich model.",
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:H4IG_-_Lich.png"
+    },
+    {
+      "id": "boss_locust_hw",
+      "page_url": "https://www.halopedia.org/File:HW_Locust_Render.jpg",
+      "image_url": "https://www.halopedia.org/images/c/ca/HW_Locust_Render.jpg?d4c32",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_locust_hw_reference.jpg",
+      "bytes": 119612,
+      "sha256": "135725d023d5b04906e6bf7e006dc2a30e0711e6076deed6d07e29c1344c3902",
+      "dimensions": {
+        "width": 1020,
+        "height": 600
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_locust_hw_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/c/ca/HW_Locust_Render.jpg/800px-HW_Locust_Render.jpg?20131109231415",
+      "inspection_sha256": "653f3f3c981505c210c0114c2f6a92f45f1ca21a00abce82327f78d9b11b9de7",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Wars — version Covenant originale",
+      "source_kind": "official_game_website_render_rehosted",
+      "primary_source_url": "https://web.archive.org/web/20110324040203/http://www.halowars.com/GameInfo/Factory.aspx",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Rendu publié sur le site officiel Halo Wars, corroboré par une capture du jeu sur Chasms.",
+        "Coque/canon violet allongé incliné vers l’avant, articulations mécaniques sombres, accents cyan, marcheur à quatre pattes."
+      ],
+      "limits": [
+        "Les références restent en trois quarts ; le nouveau détourage montre le flanc mais manque d’origine primaire détaillée.",
+        "Le suffixe local side désigne une seconde vue frontale, pas un profil orthographique.",
+        "Le modèle officiel et la capture en jeu corroborent le détourage ; conserver quatre pattes, jamais la variante paria HW2."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Original Covenant Locust from Halo Wars, not Halo Wars 2. Four-legged purple walker with long elevated armored cannon/head, compact central mechanical body and cyan light strips. Preserve the four leg attachment points even when the far legs overlap in side view; show all four feet with subtle depth separation. Complete idle stance, cannon facing screen-left. No Scarab deck, two-legged mech or Banished armor.",
+      "additional_references": [
+        {
+          "id": "boss_locust_hw_side",
+          "page_url": "https://www.halopedia.org/File:HW_Locust.png",
+          "image_url": "https://www.halopedia.org/images/8/84/HW_Locust.png?de994",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_locust_hw_side_reference.png",
+          "bytes": 2363784,
+          "sha256": "80a14b44720e714c5efecde0a62d5904f00538e7d875a78ef08611e0ff902d67",
+          "dimensions": {
+            "width": 1400,
+            "height": 1050
+          },
+          "color_mode": "RGBA",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_locust_hw_side_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/8/84/HW_Locust.png/800px-HW_Locust.png?20231220234652",
+          "inspection_sha256": "e2c0a0c5880966e1ee6eecf60601bd48d3171f28014b4c064a66b85148312348",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo Wars",
+          "source_kind": "game_screenshot_rehosted",
+          "provenance_note": "Capture en jeu de JackVibe, Chasms, publiée le 20 décembre 2023",
+          "observations": [
+            "Vue frontale en trois quarts du modèle du jeu."
+          ],
+          "limits": [
+            "Le nom local side est historique ; il ne désigne pas une vue de profil."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HW_Locust.png"
+        },
+        {
+          "id": "boss_locust_hw_profile",
+          "page_url": "https://www.halopedia.org/File:HW-T30-Locust.png",
+          "image_url": "https://www.halopedia.org/images/3/37/HW-T30-Locust.png?98203",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_locust_hw_profile_reference.png",
+          "bytes": 657359,
+          "sha256": "b862ca223df17c1677cc4c568c8ef3baadf3835a84333f3c03499e40de66ce8b",
+          "dimensions": {
+            "width": 800,
+            "height": 720
+          },
+          "color_mode": "RGBA",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_locust_hw_profile_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/3/37/HW-T30-Locust.png/666px-HW-T30-Locust.png?20140907132513",
+          "inspection_sha256": "d05533a922b549e9c61e384cf2cae765c989063b626ddb71f036c7d0ab57b0b5",
+          "inspected": true,
+          "inspection_method": "view_image on source-host thumbnail; original bytes preserved",
+          "game_version": "Halo Wars",
+          "source_kind": "game_render_cutout_primary_source_missing",
+          "provenance_note": "Rendu catégorisé Halo Wars sur Halopedia, recadré par Shazamikaze en 2014",
+          "observations": [
+            "Flanc oblique de la coque, canon et disposition des pattes."
+          ],
+          "limits": [
+            "Origine primaire précise non renseignée ; à corroborer par le rendu officiel et le screenshot."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HW-T30-Locust.png"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:HW_Locust_Render.jpg"
+    },
+    {
+      "id": "boss_harvester_h4",
+      "page_url": "https://www.halopedia.org/File:HTMCC_H4_Harvester_Screenshot_Side.jpg",
+      "image_url": "https://www.halopedia.org/images/a/a0/HTMCC_H4_Harvester_Screenshot_Side.jpg?cfd54",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_harvester_h4_reference.jpg",
+      "bytes": 342141,
+      "sha256": "3ccb2241acb5d1152c17b6c79baa545ad89f22ee0184425a0d04ff2afd6c0025",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_harvester_h4_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/a/a0/HTMCC_H4_Harvester_Screenshot_Side.jpg/800px-HTMCC_H4_Harvester_Screenshot_Side.jpg?20241121134620",
+      "inspection_sha256": "758d4bbba4ad32192972a0a0c447f62bfcf126cf36316cbcbdb628218fd2936d",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 4 — Spartan Ops, capture MCC",
+      "source_kind": "game_screenshot_plus_developer_sculpt",
+      "primary_source_url": "https://www.artstation.com/artwork/RnY4D",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Vue en jeu de H4 Spartan Ops portée dans MCC ; géométrie corroborée par le sculpt de Kolby Jukes.",
+        "Immense carapace organique métallique sombre, six longues pattes et assemblage de forage central."
+      ],
+      "limits": [
+        "Le screenshot coupe les extrémités ; le sculpt entier en quatre vues complète la structure.",
+        "Le sculpt est gris et ne documente pas les textures ; reprendre les matériaux du jeu, sans recoloration arbitraire.",
+        "L’éclairage verdâtre du niveau influence la couleur apparente."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Halo 4 Spartan Ops Harvester, matching the provided released-game screenshot for materials and Kolby Jukes sculpt for complete anatomy. SIX articulated legs, three per side, a huge dark organically curved armored carapace and the central excavation assembly. Entire six-legged machine with all foot tips contained, stationary side stance facing screen-left. No Scarab four-leg layout, insect antennae, organic skin, extra legs or Banished mining building.",
+      "additional_references": [
+        {
+          "id": "boss_harvester_h4_sculpt",
+          "page_url": "https://www.halopedia.org/File:Harvester_Sculpt.jpg",
+          "image_url": "https://www.halopedia.org/images/b/b4/Harvester_Sculpt.jpg?ee671",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_harvester_h4_sculpt_reference.jpg",
+          "bytes": 4444850,
+          "sha256": "a0143dd6de8d8bb1ead6cca8bb13253d5c33a7c3ce162311b34669f0f0aa3fb8",
+          "dimensions": {
+            "width": 4392,
+            "height": 2788
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_harvester_h4_sculpt_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/b/b4/Harvester_Sculpt.jpg/800px-Harvester_Sculpt.jpg?20130203015720",
+          "inspection_sha256": "89ba2c31b55d5b1d1d34ae8ff1bea87f7dc671b37fc93a1f4725afdea9e4b4bb",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 4 — Spartan Ops",
+          "source_kind": "developer_high_poly_sculpt_rehosted",
+          "provenance_note": "Kolby Jukes, ArtStation RnY4D",
+          "observations": [
+            "Quatre vues du sculpt montrant la géométrie entière et les six pattes."
+          ],
+          "limits": [
+            "Sculpt gris ; les textures finales ne sont pas documentées par cette image."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:Harvester_Sculpt.jpg"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:HTMCC_H4_Harvester_Screenshot_Side.jpg"
+    },
+    {
+      "id": "boss_goliath_hw2",
+      "page_url": "https://www.halopedia.org/File:HW2_PK_Colony_Goliaths_1.jpg",
+      "image_url": "https://www.halopedia.org/images/d/d6/HW2_PK_Colony_Goliaths_1.jpg?97ce9",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goliath_hw2_reference.jpg",
+      "bytes": 258963,
+      "sha256": "4a5ba53b0682c90f9725198319a6fd952ebbc1f38a752bc925766e12f60987b6",
+      "dimensions": {
+        "width": 1366,
+        "height": 768
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goliath_hw2_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/d/d6/HW2_PK_Colony_Goliaths_1.jpg/800px-HW2_PK_Colony_Goliaths_1.jpg?20260327123559",
+      "inspection_sha256": "639fae670fb5bb81984abe08e584ba01a88cc201f2966997c50d06016baf5143",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Wars 2 — pack Colony",
+      "source_kind": "official_press_screenshot_plus_official_blitz_art",
+      "primary_source_url": "https://www.xbox.com/en-GB/games/store/colony-leader-pack/9NBLGGH4TQNR/0010",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture officielle du pack Colony et illustration Blitz par Luke Kopycinski publiée sur Halo Waypoint.",
+        "Énorme masse Lekgolo penchée vers l’avant, armure rouge/acier, grands pics dorsaux, lueurs vertes et lourds membres de mêlée."
+      ],
+      "limits": [
+        "Les unités de la capture sont petites ; l’illustration Blitz apporte des détails mais ne remplace pas le modèle 3D final.",
+        "La source illustrée montre un Marine saisi : le futur asset doit contenir le Goliath seul.",
+        "Ne pas reprendre le canon du Hunter Captain."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. One Goliath from Halo Wars 2 Colony. Match the actual unit silhouette in the official gameplay screenshot and the official Blitz art details: huge hunched Lekgolo worm mass, massive forelimbs used for melee, Banished red and steel armor, dorsal spikes and green illuminated elements. Complete crouched idle creature facing screen-left, all limbs inside frame. No captive Marine, no extra characters, no Hunter assault cannon or Hunter Captain shield.",
+      "additional_references": [
+        {
+          "id": "boss_goliath_hw2_blitz",
+          "page_url": "https://www.halopedia.org/File:HW2_-_Goliath.jpg",
+          "image_url": "https://www.halopedia.org/images/0/0e/HW2_-_Goliath.jpg?ae3bb",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goliath_hw2_blitz_reference.jpg",
+          "bytes": 1935882,
+          "sha256": "5033ba2e66f31f95e38118cdfe9c826dacc7b157f20ef0b5c1ee2e3eb44b7713",
+          "dimensions": {
+            "width": 1896,
+            "height": 1351
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_goliath_hw2_blitz_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/0/0e/HW2_-_Goliath.jpg/800px-HW2_-_Goliath.jpg?20180515223205",
+          "inspection_sha256": "38586e9f2d38d699757f9209a57d33d7b69e878884f4a84469ffb7f22fed64e1",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo Wars 2 — Colony",
+          "source_kind": "official_blitz_illustration_rehosted",
+          "provenance_note": "Luke Kopycinski ; portfolio et Halo Waypoint Leggo My Lekgolo",
+          "observations": [
+            "Détails illustrés du Goliath rouge/acier, masses Lekgolo et pics dorsaux."
+          ],
+          "limits": [
+            "Illustration de carte Blitz, pas vue technique du modèle ; Marine de la scène à exclure."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HW2_-_Goliath.jpg"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:HW2_PK_Colony_Goliaths_1.jpg"
+    },
+    {
+      "id": "boss_phaeton_h5",
+      "page_url": "https://www.halopedia.org/File:H5G-Phaeton.png",
+      "image_url": "https://www.halopedia.org/images/1/1e/H5G-Phaeton.png?5a271",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phaeton_h5_reference.png",
+      "bytes": 1041275,
+      "sha256": "e9b487ca50c5fd1ff9ec1b28c7175f4e4fb1c07a47f4cd04cd189b6deba9c40e",
+      "dimensions": {
+        "width": 1640,
+        "height": 840
+      },
+      "color_mode": "RGBA",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phaeton_h5_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/1/1e/H5G-Phaeton.png/800px-H5G-Phaeton.png?20180412234119",
+      "inspection_sha256": "4be2dede2993f0582bf26fce36fcd07d621061b6aa9fe6747bfa8f4101e1bb91",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 5: Guardians — Phaeton de base",
+      "source_kind": "game_cutout_plus_developer_sculpt",
+      "primary_source_url": "https://www.artstation.com/artwork/Xdwg0",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture détourée H5, corroborée par le modèle haute résolution de Dan Sarkar.",
+        "Corps gris clair effilé, deux ensembles circulaires latéraux, ouvertures mécaniques et lueurs orange."
+      ],
+      "limits": [
+        "La capture détourée ne renseigne pas sa provenance primaire ; le sculpt confirme la géométrie mais pas les textures.",
+        "Le Phaeton Helios est une variante différente à exclure."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Base Phaeton from Halo 5: Guardians, not Helios. Preserve the sleek elongated pale-grey Forerunner body, paired circular lateral propulsion assemblies, angular fins and orange energy channels. Use the game cutout for final colors and Dan Sarkar’s sculpt for structural arrangement. Complete flying idle profile, nose to screen-left, both engine assemblies and fins contained, no missiles or pilot.",
+      "additional_references": [
+        {
+          "id": "boss_phaeton_h5_sculpt",
+          "page_url": "https://www.halopedia.org/File:H5G_-_Phaeton_hig-res_model.jpg",
+          "image_url": "https://www.halopedia.org/images/7/77/H5G_-_Phaeton_hig-res_model.jpg?5ce20",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phaeton_h5_sculpt_reference.jpg",
+          "bytes": 1994759,
+          "sha256": "57a48b1bc734e576686c78c617b1869d1c04dbe0f02a1fd7807dd0ba0e5c8a85",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phaeton_h5_sculpt_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/7/77/H5G_-_Phaeton_hig-res_model.jpg/800px-H5G_-_Phaeton_hig-res_model.jpg?20160410173407",
+          "inspection_sha256": "d04c1e50c5a6f652a4e9212ffb5c465ee23e8b651b2b4eb0c1e9231c87c7e8d3",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 5: Guardians",
+          "source_kind": "developer_high_poly_sculpt_rehosted",
+          "provenance_note": "Dan Sarkar, ArtStation Xdwg0",
+          "observations": [
+            "Dessus et trois quarts du modèle avec ses deux ensembles circulaires."
+          ],
+          "limits": [
+            "Sans textures ; la capture du jeu doit donner les couleurs."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:H5G_-_Phaeton_hig-res_model.jpg"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:H5G-Phaeton.png"
+    },
+    {
+      "id": "boss_enforcer_h2",
+      "page_url": "https://www.halopedia.org/File:H2_Sentinel_Enforcer_AngleView.png",
+      "image_url": "https://www.halopedia.org/images/0/07/H2_Sentinel_Enforcer_AngleView.png?66c52",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_enforcer_h2_reference.png",
+      "bytes": 1109154,
+      "sha256": "b7c96fc95be0bb16c69b004b347852b711dd15ed0cc06fe5695dc05ed1a18df8",
+      "dimensions": {
+        "width": 878,
+        "height": 718
+      },
+      "color_mode": "RGBA",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_enforcer_h2_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/0/07/H2_Sentinel_Enforcer_AngleView.png/733px-H2_Sentinel_Enforcer_AngleView.png?20121215170113",
+      "inspection_sha256": "c3cae475e7b0e98fe3f3f280400e7b50294c0bc85e77d1b39eb13ccc52898e88",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 2 Classic — Sacred Icon / Quarantine Zone",
+      "source_kind": "game_screenshot_rehosted",
+      "primary_source_url": null,
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture explicitement identifiée Halo 2, Sacred Icon ; silhouette anguleuse Classic.",
+        "Drone flottant gris/brun, grande coque centrale, bras-pinces inférieurs et double protection énergétique frontale."
+      ],
+      "limits": [
+        "Les effets lumineux masquent partiellement la face et les émetteurs.",
+        "Ne pas mélanger les panneaux de l’Enforcer H2 Anniversary ; un profil propre reste à contrôler."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Enforcer Sentinel from Halo 2 CLASSIC, using the Sacred Icon gameplay reference. Preserve the original angular grey-brown body, central suspended shell, large lower mechanical pincer arms, frontal weapon emitters and two distinct front energy-shield panels. Floating idle stance facing screen-left, entire silhouette in frame. Shield energy should remain translucent. No Halo 2 Anniversary redesign or bipedal robot legs.",
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:H2_Sentinel_Enforcer_AngleView.png"
+    },
+    {
+      "id": "boss_banshee_infinite",
+      "page_url": "https://www.halopedia.org/File:HINF_Banished_Banshee_Transparent.png",
+      "image_url": "https://www.halopedia.org/images/a/ad/HINF_Banished_Banshee_Transparent.png?aa5bc",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_banshee_infinite_reference.png",
+      "bytes": 397839,
+      "sha256": "a93f04fb85c8e31f698e865f6b2cb99ba90fd65b1eb2a35eee416c1c4365a592",
+      "dimensions": {
+        "width": 855,
+        "height": 378
+      },
+      "color_mode": "RGBA",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_banshee_infinite_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/a/ad/HINF_Banished_Banshee_Transparent.png/800px-HINF_Banished_Banshee_Transparent.png?20210616205444",
+      "inspection_sha256": "3fad054fe7b1422bb40db66330b82a8a9cec78650c716dd64896099bc3bf0b1c",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Infinite — Banshee paria",
+      "source_kind": "prerelease_reference_corroborated_by_released_campaign_screenshot",
+      "primary_source_url": null,
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Vues de juin 2021 corroborées par une capture de la campagne publiée en janvier 2022, Annex Ridge.",
+        "Même Banshee paria rouge/acier à coque compacte et ailes écartées ; les images montrent aussi la canopée ouverte."
+      ],
+      "limits": [
+        "Le Banshee d’Annex Ridge est partiellement masqué par des caisses ; la vue détourée apporte la silhouette.",
+        "Pas de vue latérale orthographique complète de la campagne ; les détails du flanc opposé restent à vérifier.",
+        "Le détourage de 2021 est fourni par un contributeur ; aucune modification locale des pixels."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Banished Banshee from the released Halo Infinite campaign. Use the complete cutout for silhouette and the Annex Ridge campaign screenshot to corroborate final red and steel armor. One entire aircraft with canopy CLOSED in level hover idle stance, front facing screen-left, all wingtips and lower weapons inside frame. No pilot, no ground, no purple Covenant paint and no Halo Wars 2 geometry.",
+      "additional_references": [
+        {
+          "id": "boss_banshee_infinite_game",
+          "page_url": "https://www.halopedia.org/File:HINF_BanishedBanshee.png",
+          "image_url": "https://www.halopedia.org/images/3/33/HINF_BanishedBanshee.png?8333b",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_banshee_infinite_game_reference.png",
+          "bytes": 3047750,
+          "sha256": "e50040fdbe85c24fbad1d43ec6dac47c249ee701cdcfa5eeb669d76f423f22cf",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "color_mode": "RGBA",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_banshee_infinite_game_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/3/33/HINF_BanishedBanshee.png/800px-HINF_BanishedBanshee.png?20210614210326",
+          "inspection_sha256": "a75a1ea0f108f7da1bb26fa6e30cde32fc48b82efd126994d3f048c6a20da262",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo Infinite — présentation multijoueur juin 2021",
+          "source_kind": "prerelease_game_screenshot_rehosted",
+          "provenance_note": "Capture de TheArb1ter117, 14 juin 2021",
+          "observations": [
+            "Coque rouge et canopée ouverte."
+          ],
+          "limits": [
+            "Source pré-sortie ; extrémités partiellement coupées."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HINF_BanishedBanshee.png"
+        },
+        {
+          "id": "boss_banshee_infinite_final",
+          "page_url": "https://www.halopedia.org/File:HINF-AnnexRidgeBanshee.png",
+          "image_url": "https://www.halopedia.org/images/3/36/HINF-AnnexRidgeBanshee.png?3a913",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_banshee_infinite_final_reference.png",
+          "bytes": 13588493,
+          "sha256": "7a0e88d64594720eabd47d436b6649c7fc841e3c9beaba3c045efe13ec8839d5",
+          "dimensions": {
+            "width": 3840,
+            "height": 2160
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_banshee_infinite_final_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/3/36/HINF-AnnexRidgeBanshee.png/800px-HINF-AnnexRidgeBanshee.png?20220116223409",
+          "inspection_sha256": "ffc27f17fa4ca7bc2899d8f120528d50c3860090544f8f6fb02e2774d5d8639f",
+          "inspected": true,
+          "inspection_method": "view_image on source-host thumbnail; original bytes preserved",
+          "game_version": "Halo Infinite — campagne finale, Annex Ridge",
+          "source_kind": "released_campaign_screenshot_rehosted",
+          "provenance_note": "Capture de Sith Venator publiée le 16 janvier 2022",
+          "observations": [
+            "Le Banshee rouge final de la campagne corrobore les vues de 2021."
+          ],
+          "limits": [
+            "Le véhicule est partiellement caché par les caisses ; référence de corroboration."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HINF-AnnexRidgeBanshee.png"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:HINF_Banished_Banshee_Transparent.png"
+    },
+    {
+      "id": "boss_phantom_infinite",
+      "page_url": "https://www.halopedia.org/File:HINF_Phantom.png",
+      "image_url": "https://www.halopedia.org/images/2/22/HINF_Phantom.png?5756d",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phantom_infinite_reference.png",
+      "bytes": 394311,
+      "sha256": "446242789db038e2c5f0bee22826a7352f57925afdb791ab5604441a4e7678fd",
+      "dimensions": {
+        "width": 699,
+        "height": 716
+      },
+      "color_mode": "RGBA",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phantom_infinite_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/2/22/HINF_Phantom.png/585px-HINF_Phantom.png?20211115072850",
+      "inspection_sha256": "98888311152710d99f025aee92b745799de1e6790c009143af1d83f2ccec3250",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Infinite — Phantom paria",
+      "source_kind": "game_screenshots_rehosted",
+      "primary_source_url": null,
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Vue de dessous de la campagne présentée en 2021, complétée par une capture du modèle en Forge Firefight en 2023.",
+        "Coque paria rouge/noire très anguleuse, pointe centrale de nez, nacelles latérales et canon ventral."
+      ],
+      "limits": [
+        "La vue de 2023 provient de Forge et non d’une mission de campagne ; elle renseigne le modèle du véhicule.",
+        "Aucun profil orthographique ; petites pièces ventrales et flanc opposé restent à vérifier.",
+        "Ne pas substituer le Phantom HW2 malgré le nom de famille partagé."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Halo Infinite Banished Phantom, using the 2023 in-game exterior for the angular red, black and steel hull and the underside screenshot for the belly layout. One complete dropship hovering with nose facing screen-left, rear fins, side pods and ventral gun fully contained. No standing passengers, scenery, Covenant purple hull, or Halo Wars 2 Phantom geometry.",
+      "additional_references": [
+        {
+          "id": "boss_phantom_infinite_side",
+          "page_url": "https://www.halopedia.org/File:HINF_Phantom_1.png",
+          "image_url": "https://www.halopedia.org/images/4/4b/HINF_Phantom_1.png?966e7",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phantom_infinite_side_reference.png",
+          "bytes": 6846326,
+          "sha256": "ab82257661c2ed1245a28d9738fa82f0b9207287cf8331de94928b05da59d267",
+          "dimensions": {
+            "width": 3840,
+            "height": 2160
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_phantom_infinite_side_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/4/4b/HINF_Phantom_1.png/800px-HINF_Phantom_1.png?20231225231140",
+          "inspection_sha256": "aed0bd1117f9f837f505da1c597249f58970648e1916036303c9b98b167f084c",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo Infinite — Forge Firefight sur Fragmentation",
+          "source_kind": "released_game_screenshot_rehosted",
+          "provenance_note": "Capture de JackVibe, 25 décembre 2023",
+          "observations": [
+            "Vue entière du modèle paria rouge/noir/acier, en trois quarts."
+          ],
+          "limits": [
+            "La scène vient de Forge ; ne pas la décrire comme une capture de mission de campagne."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HINF_Phantom_1.png"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:HINF_Phantom.png"
+    },
+    {
+      "id": "boss_kraken_h5",
+      "page_url": "https://www.halopedia.org/File:H5G_PK_KrakenAssault_Screenshot.jpg",
+      "image_url": "https://www.halopedia.org/images/9/92/H5G_PK_KrakenAssault_Screenshot.jpg?30735",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_reference.jpg",
+      "bytes": 733700,
+      "sha256": "13b47412b7c8aac17479a7958c25a0cfbd2b576f7ed5c6e5deabb706ac4ddb23",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/9/92/H5G_PK_KrakenAssault_Screenshot.jpg/800px-H5G_PK_KrakenAssault_Screenshot.jpg?20261029102622",
+      "inspection_sha256": "b60c30e3bae0e40c9361dcb84330a43ed0693d44076ffb159653d4b039c64345",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 5: Guardians — Enemy Lines",
+      "source_kind": "official_press_screenshots_plus_official_book_render_and_developer_concept",
+      "primary_source_url": "https://web.archive.org/web/20151021011231/https://www.halowaypoint.com/en-us/games/halo-5-guardians",
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Captures officielles Enemy Lines corroborées par un rendu entier de Halo Encyclopedia 2022 et les vues concept de Shae Shatz pour H5.",
+        "Tour de siège volante à TROIS bras grappins, grande coque sommitale, section centrale ouverte et détails cyan."
+      ],
+      "limits": [
+        "Le rendu entier provient de l’encyclopédie, pas d’une extraction directe du jeu ; les captures H5 servent à vérifier les matériaux et volumes.",
+        "Les vues de Shae Shatz sont du concept art ; elles confirment la disposition générale, sans certifier chaque détail final.",
+        "Le profil latéral exact et la séparation des trois bras devront être contrôlés après génération."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. Kraken from Halo 5 Guardians, Enemy Lines. Huge vertical Covenant siege platform with EXACTLY THREE long articulated grappler arms, broad rounded upper hull and hollow middle decks. Use the official encyclopedia render for the complete silhouette, the H5 press screenshots for materials, and Shae Shatz concepts only to resolve gross structure. Show the entire hovering machine with all three grappler tips and roof contained, screen-left three-quarter to side view. No fourth arm, Scarab body, Harvester six-leg arrangement, scenery or miniatures.",
+      "additional_references": [
+        {
+          "id": "boss_kraken_h5_full",
+          "page_url": "https://www.halopedia.org/File:H5G-KrakenonEnemyLines.jpg",
+          "image_url": "https://www.halopedia.org/images/9/96/H5G-KrakenonEnemyLines.jpg?48b02",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_full_reference.jpg",
+          "bytes": 210265,
+          "sha256": "e7dfea45754a2ff22dff73cf262e1d1f68e44cdf4683dd54e75f21b6235cfe91",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_full_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/9/96/H5G-KrakenonEnemyLines.jpg/800px-H5G-KrakenonEnemyLines.jpg?20261029095915",
+          "inspection_sha256": "b41b41a7cb0c338e788d02b28495747f467f24aa7915eb7f0a685f3e9daad740",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 5: Guardians — Enemy Lines",
+          "source_kind": "official_press_screenshot_rehosted",
+          "provenance_note": "Kit de presse Halo Waypoint, capture Enemy Lines",
+          "observations": [
+            "Vue générale du Kraken avec matériaux et proportions du jeu."
+          ],
+          "limits": [
+            "Sommet coupé et certains bras masqués."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:H5G-KrakenonEnemyLines.jpg"
+        },
+        {
+          "id": "boss_kraken_h5_book",
+          "page_url": "https://www.halopedia.org/File:Enc22_Kraken.png",
+          "image_url": "https://www.halopedia.org/images/6/6f/Enc22_Kraken.png?d16a8",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_book_reference.png",
+          "bytes": 559050,
+          "sha256": "e19e88897e8bd1131abecf93e7612dd4c299b489fd76829b970198c57c812d27",
+          "dimensions": {
+            "width": 564,
+            "height": 1159
+          },
+          "color_mode": "RGBA",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_book_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/6/6f/Enc22_Kraken.png/291px-Enc22_Kraken.png?20230430225351",
+          "inspection_sha256": "74e4da0eb3686608430021401852c689cb35a602eb9c936f7e50952992caf89a",
+          "inspected": true,
+          "inspection_method": "view_image on source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 5: Guardians — modèle du Kraken, corroboration via livre",
+          "source_kind": "official_reference_book_render_rehosted",
+          "provenance_note": "Halo Encyclopedia (édition 2022), rendu extrait et détouré par le réhébergeur",
+          "observations": [
+            "Silhouette entière de la tour avec les trois bras rapprochés."
+          ],
+          "limits": [
+            "Référence de livre, pas capture de gameplay H5 ; silhouette frontale encore à tourner pour un profil."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:Enc22_Kraken.png"
+        },
+        {
+          "id": "boss_kraken_h5_ortho",
+          "page_url": "https://www.halopedia.org/File:H5G_Kraken_Ortho_Concept.jpg",
+          "image_url": "https://www.halopedia.org/images/3/3b/H5G_Kraken_Ortho_Concept.jpg?52216",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_ortho_reference.jpg",
+          "bytes": 292421,
+          "sha256": "e63e62bfd0ef6f1863c7dd04317a4c21e87802f79916114cd69d0bb8fc115ac3",
+          "dimensions": {
+            "width": 1500,
+            "height": 1319
+          },
+          "color_mode": "L",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_kraken_h5_ortho_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/3/3b/H5G_Kraken_Ortho_Concept.jpg/682px-H5G_Kraken_Ortho_Concept.jpg?20230508134509",
+          "inspection_sha256": "1ab3fd4ace1da492754538fc61db9bfa8f074a466a3291745dfbe31481d94e3a",
+          "inspected": true,
+          "inspection_method": "view_image on source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 5: Guardians — développement",
+          "source_kind": "developer_concept_art_rehosted",
+          "provenance_note": "Shae Shatz, site portfolio archivé",
+          "observations": [
+            "Vues de face et trois quarts de la structure à trois bras."
+          ],
+          "limits": [
+            "Concept art ; ne pas transférer ses détails non corroborés au modèle final."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:H5G_Kraken_Ortho_Concept.jpg"
+        }
+      ],
+      "canonical_context_sources": [
+        "https://www.halopedia.org/Shuul%27se-pattern_Kraken",
+        "https://wiki.halo.fr/Halo_Waypoint/Universe/Vehicles"
+      ],
+      "source_page_url": "https://www.halopedia.org/File:H5G_PK_KrakenAssault_Screenshot.jpg"
+    },
+    {
+      "id": "boss_proto_gravemind_hw2",
+      "page_url": "https://www.halopedia.org/File:HW2_LargeProtoGravemind.png",
+      "image_url": "https://www.halopedia.org/images/8/82/HW2_LargeProtoGravemind.png?e9512",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_proto_gravemind_hw2_reference.png",
+      "bytes": 4783509,
+      "sha256": "8f03ee1de9eb38b915fd5a45174b2fc8fc94beb2323c6161270e027c1ab0db92",
+      "dimensions": {
+        "width": 2558,
+        "height": 1086
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_proto_gravemind_hw2_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/8/82/HW2_LargeProtoGravemind.png/800px-HW2_LargeProtoGravemind.png?20190509042628",
+      "inspection_sha256": "df9dd35b4141894c7cee933674a30aedaebe6fb412166eef2fad7840246438db",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo Wars 2: Awakening the Nightmare — Manifestation",
+      "source_kind": "game_screenshot_rehosted",
+      "primary_source_url": null,
+      "readiness": "needs_complete_exposed_mass_reference",
+      "generation_ready": false,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture explicite de Manifestation : énorme masse Flood émergée du sol avec plaques charnues et core frontal.",
+        "Des tentacules distincts émergent autour du corps ; absence de silhouette de bipède."
+      ],
+      "limits": [
+        "Plusieurs tentacules et le haut de la masse dépassent du cadre ; une base souterraine n’est pas observable.",
+        "Ne pas fabriquer de jambes ou un corps libre portant la tête du Gravemind H2.",
+        "Le livrable adapté sera la masse exposée et des modules de tentacules, après références complètes de chaque module."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. PENDING COMPLETE EXPOSED-MASS REFERENCE. Proto-Gravemind from HW2 Awakening the Nightmare, Manifestation. Create the exact exposed central rooted mass with fleshy upright shell plates and its vulnerable core, as a stationary boss structure. Never invent feet, a walking body or a Halo 2 Gravemind head. Detached tentacle modules require their own verified references; keep each generated module completely inside its transparent canvas.",
+      "additional_references": [],
+      "source_page_url": "https://www.halopedia.org/File:HW2_LargeProtoGravemind.png"
+    },
+    {
+      "id": "event_guardian_h5",
+      "page_url": "https://www.halopedia.org/File:H5G-Battle_of_Sunaion-Guardian_rising.jpg",
+      "image_url": "https://www.halopedia.org/images/6/67/H5G-Battle_of_Sunaion-Guardian_rising.jpg?d66a4",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_guardian_h5_reference.jpg",
+      "bytes": 235392,
+      "sha256": "d1e2f79abcb62f3943b9e9cfc8b9aa769163077c3c964dca7849e9a887d6a0e8",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_guardian_h5_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/6/67/H5G-Battle_of_Sunaion-Guardian_rising.jpg/800px-H5G-Battle_of_Sunaion-Guardian_rising.jpg?20150615183920",
+      "inspection_sha256": "0e54a7e8ee96a6978f17870292c15909ed998f38fe3a883a0b025100d82cf4c3",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 5: Guardians — Guardian événementiel",
+      "source_kind": "official_press_screenshot_plus_waypoint_wallpaper",
+      "primary_source_url": "https://web.archive.org/web/20150907043849/https://www.halowaypoint.com/en-us/games/halo-5-guardians",
+      "readiness": "needs_complete_silhouette_reference",
+      "generation_ready": false,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture officielle Battle of Sunaion et fond d’écran attribué à Halo Waypoint.",
+        "Structure Forerunner colossale au centre vertical, larges éléments latéraux séparés et sources cyan."
+      ],
+      "limits": [
+        "Les deux sources coupent le bas ou les extrémités ; elles ne prouvent pas une silhouette entière.",
+        "Le fichier H5Guardian.png a un historique de rendus de fans contestés ; il n’est pas retenu comme référence fiable.",
+        "Boss événement : échelle monumentale en arrière-plan et fuite/objectifs, sans inventer un duel à points de vie."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. PENDING COMPLETE SILHOUETTE REFERENCE. Guardian Custode from Halo 5, as a monumental background encounter. Preserve the layered central spine, head silhouette, separated angular wing structures and cyan emitters documented by the official game images. Full silhouette only after its unseen lower extent and extremities are verified. No humanlike walking legs, no Halo Infinite wreckage, no fan-model extrapolation.",
+      "additional_references": [
+        {
+          "id": "event_guardian_h5_wallpaper",
+          "page_url": "https://www.halopedia.org/File:Halo_5_-_Guardian_wallpaper.jpg",
+          "image_url": "https://www.halopedia.org/images/8/87/Halo_5_-_Guardian_wallpaper.jpg?093b2",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_guardian_h5_wallpaper_reference.jpg",
+          "bytes": 1560735,
+          "sha256": "44de55174ac1b9f93f64f77e2f72ba65a1ad716ec0bfe452b2a2f6da4192e765",
+          "dimensions": {
+            "width": 2555,
+            "height": 1178
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_guardian_h5_wallpaper_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/8/87/Halo_5_-_Guardian_wallpaper.jpg/800px-Halo_5_-_Guardian_wallpaper.jpg?20150904180540",
+          "inspection_sha256": "0a150aca0aa5cc50e5700cff08334d7cfa0a30263be2e1309a4c04986ecd1e55",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 5: Guardians",
+          "source_kind": "promotional_wallpaper_rehosted",
+          "provenance_note": "Attribué à Halo Waypoint par le réhébergeur ; URL primaire historique non détaillée",
+          "observations": [
+            "Large vue de face des structures latérales et du centre du Guardian."
+          ],
+          "limits": [
+            "Bas et extrémités coupés ; ne suffit pas à une silhouette complète."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:Halo_5_-_Guardian_wallpaper.jpg"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:H5G-Battle_of_Sunaion-Guardian_rising.jpg"
+    },
+    {
+      "id": "event_gravemind_h3",
+      "page_url": "https://www.halopedia.org/File:GravemindMainTentaclesHalo3.jpg",
+      "image_url": "https://www.halopedia.org/images/d/d6/GravemindMainTentaclesHalo3.jpg?82fa5",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_gravemind_h3_reference.jpg",
+      "bytes": 779963,
+      "sha256": "ea1784eb4eb5d60e8e254fff60efd761897644d4c73bca8161049bbbdc39cd2c",
+      "dimensions": {
+        "width": 1640,
+        "height": 1106
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_gravemind_h3_inspection.jpg",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/d/d6/GravemindMainTentaclesHalo3.jpg/800px-GravemindMainTentaclesHalo3.jpg?20190512045029",
+      "inspection_sha256": "2b8a599d0060aa583570a59d4267a6e0f374fee874bf5481ae36615f81be7825",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo 3 — présence du Gravemind, Cortana / High Charity",
+      "source_kind": "game_context_screenshots_rehosted",
+      "primary_source_url": null,
+      "readiness": "partial_biomass_module_only_full_appendage_reference_missing",
+      "generation_ready": false,
+      "certified_1_to_1": false,
+      "observations": [
+        "La capture de tentacules montre la Citadelle de The Covenant ; elle confirme le matériau H3, pas la scène Cortana.",
+        "La vue d’interlude montre un environnement Flood de Halo 3 ; aucun corps complet du Gravemind n’y apparaît.",
+        "Une capture du mur de High Charity dans Cortana documente désormais des poches et membranes de biomasse ; elle ne documente pas un corps ou un tentacule complet."
+      ],
+      "limits": [
+        "La première image ne correspond pas au lieu du registre ; usage contexte seulement.",
+        "Aucune référence suffisante à un corps entier ou à un tentacule complet de Cortana retrouvée dans ce lot.",
+        "Ne pas importer la tête H2/H2A ni transformer l’événement en monstre bipède."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. HOLD FOR LOCATION-MATCHED REFERENCE. Halo 3 Gravemind presence during Cortana / High Charity must be represented by sourced environmental tentacle modules, biomass and scripted threat, not a fabricated full creature. When an actual complete appendage from this encounter is referenced, generate that single intact organic module on transparent background, entering from screen-right with its visible tip facing left. Do not invent an unseen buried base, H2 head or humanoid torso.",
+      "additional_references": [
+        {
+          "id": "event_gravemind_h3_interlude",
+          "page_url": "https://www.halopedia.org/File:Gravemind_Halo3.jpg",
+          "image_url": "https://www.halopedia.org/images/c/c6/Gravemind_Halo3.jpg?bbf15",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_gravemind_h3_interlude_reference.jpg",
+          "bytes": 128455,
+          "sha256": "41007f42760e09072c04d2cc61efc280f623d42a4adbe8a14914639ba8682a09",
+          "dimensions": {
+            "width": 1360,
+            "height": 763
+          },
+          "color_mode": "RGB",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_gravemind_h3_interlude_inspection.jpg",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/c/c6/Gravemind_Halo3.jpg/800px-Gravemind_Halo3.jpg?20120529141308",
+          "inspection_sha256": "da5f86931e4bfb10e523b30caddc9eec4c439e72cb88dcfee28a5b6f1bdca5bc",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo 3",
+          "source_kind": "game_context_screenshot_primary_details_missing",
+          "provenance_note": "Capture réhébergée sur Halopedia, détails de prise de vue non renseignés",
+          "observations": [
+            "Environnement infesté et effet d’interlude ; aucun corps du Gravemind visible."
+          ],
+          "limits": [
+            "Seulement une référence de contexte ; ne permet pas de dessiner un tentacule complet."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:Gravemind_Halo3.jpg"
+        },
+        {
+          "id": "event_gravemind_h3_cortana_biomass",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_gravemind_h3_cortana_biomass_reference.jpg",
+          "page_url": "https://www.halopedia.org/File:Flood_wall.jpg",
+          "image_url": "https://www.halopedia.org/images/1/11/Flood_wall.jpg?e229d",
+          "source_kind": "game_screenshot_rehosted",
+          "game_version": "Halo 3 — Cortana / High Charity",
+          "generated": false,
+          "image_modified_locally": false,
+          "sha256": "2b7882716a4826a587b5a9ae664bb33fa32e1cc99a76c92a28840b487fc95ffd",
+          "bytes": 184557,
+          "dimensions": {
+            "width": 1536,
+            "height": 1152
+          },
+          "limits": [
+            "La biomasse du mur est documentée ; aucun tentacule entier ni corps complet du Gravemind ne peut être déduit de cette capture.",
+            "Usage limité à un module de présence environnementale ; les formes de tentacules et le système événementiel restent à produire."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:Flood_wall.jpg",
+          "inspected": true,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/event_gravemind_h3_cortana_biomass_reference.jpg",
+          "inspection_method": "view_image on original source image; original bytes preserved",
+          "provenance_note": "Capture du niveau Cortana de Halo 3 réhébergée sur Halopedia ; contributeur Dragonclaws, 15 octobre 2010.",
+          "observations": [
+            "La capture montre des poches organiques brunes et des membranes fibreuses recouvrant un mur de High Charity.",
+            "Les volumes et leur texture permettent un module de présence de biomasse murale ; aucune anatomie complète du Gravemind ni aucun tentacule entier n’est visible."
+          ]
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:GravemindMainTentaclesHalo3.jpg",
+      "partial_generation_scope": {
+        "generation_ready": true,
+        "pose_scope": "environmental_biomass_module",
+        "reference_id": "event_gravemind_h3_cortana_biomass",
+        "complete_silhouette": false,
+        "certified_1_to_1": false,
+        "description": "Module de biomasse murale documenté dans Cortana / High Charity. Cette portée partielle ne remplit pas le besoin de corps ou de tentacule entier de la rencontre.",
+        "prompt": "Create one isolated partial environmental biomass module from Halo 3, Cortana / High Charity, using only the attached authentic Flood wall screenshot. Match the brown and ochre organic sacs, fibrous membranes and wet material of this exact scene. Transparent RGBA outside the extracted visible biomass. One compact module with clear margin; no room, floor, text, HUD, additional creatures or invented appendage. This is a partial wall presence asset, not the complete Gravemind body or a complete tentacle. Do not add the Halo 2 head, limbs or unseen anatomical structures. Do not claim a complete silhouette or exact fidelity certification."
+      }
+    },
+    {
+      "id": "boss_hunters_ce",
+      "page_url": "https://www.halopedia.org/File:HCE-IgidoOgado.png",
+      "image_url": "https://www.halopedia.org/images/f/f4/HCE-IgidoOgado.png?b479a",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_hunters_ce_reference.png",
+      "bytes": 1313419,
+      "sha256": "965b060d27ae1b1c573fdb17bdd2d664019500ee95711cb30078e29fc602f41d",
+      "dimensions": {
+        "width": 1079,
+        "height": 1078
+      },
+      "color_mode": "RGB",
+      "generated": false,
+      "image_modified_locally": false,
+      "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_hunters_ce_inspection.png",
+      "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/f/f4/HCE-IgidoOgado.png/600px-HCE-IgidoOgado.png?20210413002820",
+      "inspection_sha256": "66a362462569096f6a3b99c88573fe4f4bffc935d9fd46c4e36f11599816bc08",
+      "inspected": true,
+      "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+      "game_version": "Halo: Combat Evolved Classic — The Silent Cartographer",
+      "source_kind": "exact_encounter_screenshot_plus_game_cutout",
+      "primary_source_url": null,
+      "readiness": "candidate_reference_ready",
+      "generation_ready": true,
+      "certified_1_to_1": false,
+      "observations": [
+        "Capture du duo nommé Igido Nosa Hurru et Ogada Nosa Fasu au Cartographe, corroborée par un modèle Classic entier détouré.",
+        "Armure bleue simple, chair Lekgolo orange visible, grands piquants dorsaux, bouclier sombre et canon violet/vert."
+      ],
+      "limits": [
+        "La capture entière isolée manque d’origine primaire détaillée ; correspondance visuelle vérifiée avec la scène documentée.",
+        "Ne pas confondre Classic avec Anniversary ou Campaign Evolved.",
+        "Un seul Hunter par image : la rencontre utilise deux instances ; le nombre de boss du registre reste un."
+      ],
+      "prompt": "Create one isolated complete asset for a 2D side-view boss encounter, facing screen-left. Transparent RGBA background. Keep the whole visible creature, vehicle or exposed structure and its equipment within the canvas with a generous clear margin; no scene, ground, text, logo, HUD or duplicate. Match the attached authentic reference and exact game version. Preserve anatomical asymmetry and material colors. Do not invent unseen structures. Use the least oblique view supported by the references. One still candidate only, not an animation sheet, technical model or fidelity certification. ONE Hunter from Halo Combat Evolved CLASSIC, matching the two bond brothers at The Silent Cartographer. Original blue low-poly armor silhouette, orange Lekgolo gaps, long blue dorsal spikes, broad dark shield attached to the LEFT arm and purple fuel-rod cannon on the RIGHT arm with green lights. Complete crouched guarded stance, feet and spike tips fully contained, face screen-left. No second Hunter, Anniversary armor, Campaign Evolved redesign or modern extra armor panels.",
+      "additional_references": [
+        {
+          "id": "boss_hunters_ce_full",
+          "page_url": "https://www.halopedia.org/File:HCE-MgalekgoloHunterAlt.png",
+          "image_url": "https://www.halopedia.org/images/7/71/HCE-MgalekgoloHunterAlt.png?b9271",
+          "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_hunters_ce_full_reference.png",
+          "bytes": 1103188,
+          "sha256": "8a7e0195a7a6ff9ebf7ca822398387541a78f146d1cbf565c5cbe9e28bb01a5a",
+          "dimensions": {
+            "width": 1060,
+            "height": 1500
+          },
+          "color_mode": "RGBA",
+          "generated": false,
+          "image_modified_locally": false,
+          "inspection_path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave5_bosses/boss_hunters_ce_full_inspection.png",
+          "inspection_thumbnail_url": "https://halo.wiki.gallery/images/thumb/7/71/HCE-MgalekgoloHunterAlt.png/424px-HCE-MgalekgoloHunterAlt.png?20131104182359",
+          "inspection_sha256": "734960edbe8ee637c5f38873182407b4c14e9aa7b7c9d73eda5b8a014b5670f4",
+          "inspected": true,
+          "inspection_method": "view_image on original or source-host thumbnail; original bytes preserved",
+          "game_version": "Halo: Combat Evolved Classic",
+          "source_kind": "game_cutout_primary_source_missing",
+          "provenance_note": "Capture détourée réhébergée, recadrage Shazamikaze en 2013",
+          "observations": [
+            "Un Hunter entier en garde, bouclier et canon asymétriques, pieds et épines contenus."
+          ],
+          "limits": [
+            "Provenance primaire incomplète ; vérifiée contre le duo documenté du Cartographe."
+          ],
+          "source_page_url": "https://www.halopedia.org/File:HCE-MgalekgoloHunterAlt.png"
+        }
+      ],
+      "source_page_url": "https://www.halopedia.org/File:HCE-IgidoOgado.png"
+    }
+  ]
+}
