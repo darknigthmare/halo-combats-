@@ -1,0 +1,19 @@
+{
+  "baseline_commit": "6c719b3041c04f75f7443135dd1b9f1d638bbe1d",
+  "baseline_tree": "e1761c27d6e16eb78c34279be7aafec1d48efa27",
+  "remote_blob_count": 271,
+  "remote_matches_local_sha_size_mode": true,
+  "remote_tree_truncated": false,
+  "pr": {
+    "url": "https://github.com/darknigthmare/halo-combats-/pull/1",
+    "state": "open",
+    "merged": false,
+    "head": "import/halo-combats-bible-assets-v1-v2",
+    "head_sha": "6c719b3041c04f75f7443135dd1b9f1d638bbe1d",
+    "repository": "darknigthmare/halo-combats-"
+  },
+  "ref": {
+    "ref": "refs/heads/import/halo-combats-bible-assets-v1-v2",
+    "sha": "6c719b3041c04f75f7443135dd1b9f1d638bbe1d"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "wave": 8,
+  "status": "complete",
+  "owner": "wave8_aliens",
+  "read_only_metrics": true,
+  "reviews": [
+    {
+      "entity_id": "skirmisher_champion_reach",
+      "asset_id": "skirmisher_champion_reach_initial_right_v01",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-4ff5a831-caae-4e7b-9c4b-e5b813f6dc78.png",
+      "repo_path": "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+      "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+      "reviewed_utc": "2026-11-20T08:22:32.974087+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Un seul Skirmisher entier : haut de crête, plumage, deux bras, deux jambes et trois griffes visibles par pied ; pose tournée vers la droite en trois-quarts.",
+        "Comparaison à la capture Reach : armure Champion or/ocre, haute crête, collerette sombre, grands épauliers et pistolet plasma compact conservés ; absence de bouclier rond et de boucliers de Murmillo.",
+        "La tête et les talons restent dans le cadre, mais les marges mesurées ne sont que de 12 px en haut et 14 px en bas ; la marge confortable demandée n’est pas atteinte.",
+        "La référence ne mesure que341×757px et coupe le haut de la crête : sommet, microgéométrie du pistolet, doigts et détails de plumes demeurent extrapolés. Quelques franges colorées du contour restent à vérifier sur les décors."
+      ],
+      "required_followup": [
+        "Comparer casque/crête, arme et organisation des doigts à des vues Reach supplémentaires avant toute certification1:1.",
+        "Produire une variante avec marges haut/bas plus homogènes et vue plus latérale si nécessaire ; ne pas modifier automatiquement les pixels ou retourner la silhouette.",
+        "Valider les contours alpha en situation et créer les animations/directions séparément."
+      ],
+      "preferred_for_scope": true,
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "dimensions": {
+        "width": 1165,
+        "height": 1350
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "width": 1165,
+        "height": 1350,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "alpha_bbox": [
+          107,
+          12,
+          1014,
+          1336
+        ],
+        "transparent_pixels": 1123077,
+        "semi_transparent_pixels": 449141,
+        "edge_contact_pixels_above_threshold": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "margins_left_top_right_bottom_px": [
+          107,
+          12,
+          151,
+          14
+        ],
+        "foreground_alpha_threshold": 16,
+        "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d",
+        "source_bytes_preserved": true
+      },
+      "visual_inspection_method": "Image observée individuellement dans le résultat generatedImage, comparée à la référence originale inspectée via view_image ; aucune retouche des pixels.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "page_url": "https://www.halopedia.org/File:HR_Skirmisher_Champion.png"
+        }
+      ]
+    },
+    {
+      "entity_id": "bassus_infinite",
+      "asset_id": "bassus_infinite_initial_right_v01",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-28f7f6b2-0c70-4cd0-9d6e-4e5d226625f7.png",
+      "repo_path": "assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+      "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+      "reviewed_utc": "2026-11-20T08:30:37.766908+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "mostly_front_head_right",
+      "notes": [
+        "Un seul Bassus entier, casque en éventail et pieds visibles ; un seul marteau complet tenu à deux mains. La tête vise la droite mais le torse reste proche de face, sans profil latéral strict.",
+        "Comparaison aux références Infinite : casque or/rouge à crête centrale, barbe grise à attaches rouges, armure dorée et cramoisie, épauliers, brassards et grandes jambes cohérents globalement.",
+        "La tête du marteau, ses modules lumineux et plusieurs microdétails sont reconstruits à partir de vues partielles ; ils ne sont pas certifiés identiques au modèle Infinite.",
+        "Les marges alpha >16 ne sont que de 4 px en haut et 12 px en bas, sans contact direct avec les bords à ce seuil ; le cadrage reste trop serré pour une marge de production homogène.",
+        "Le halo brun du preview correspond à des couleurs RGB cachées sous alpha 0 dans les points inspectés ; aucun fond opaque n’a été établi. La silhouette est conservée sans retouche."
+      ],
+      "required_followup": [
+        "Reprendre le cadrage avec marges homogènes et une pose plus latérale lors d’une future variante, sans miroir horizontal.",
+        "Comparer la géométrie de la tête du marteau, les prises des mains et les panneaux d’armure aux vues Infinite supplémentaires avant toute validation 1:1.",
+        "Vérifier contours alpha en composition et produire les animations/directions séparément."
+      ],
+      "preferred_for_scope": true,
+      "fidelity_status": "not_certified",
+      "animation_status": "not_animated",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "alpha_bbox": [
+          179,
+          4,
+          1393,
+          1012
+        ],
+        "transparent_pixels": 1046291,
+        "semi_transparent_pixels": 526573,
+        "edge_contact_pixels_above_threshold": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "margins_left_top_right_bottom_px": [
+          179,
+          4,
+          143,
+          12
+        ],
+        "foreground_alpha_threshold": 16,
+        "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd",
+        "source_bytes_preserved": true
+      },
+      "visual_inspection_method": "Observation du résultat generatedImage et comparaison aux deux références originales inspectées par view_image ; revue indépendante root confirmée sur le PNG conservé. Lecture seule de quelques pixels RGBA pour distinguer couleur cachée et fond opaque.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+          "sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+          "page_url": "https://www.halopedia.org/File:HINF-Bassus.jpg"
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+          "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+          "page_url": "https://www.halopedia.org/File:HINF_BassusHammer.jpg"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "output_pngs_reviewed": 2,
+    "preferred_candidates_with_reservations": 2,
+    "certified_1_to_1_assets": 0,
+    "animated_assets": 0,
+    "pixels_modified": false
+  }
+}

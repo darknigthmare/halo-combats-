@@ -1,0 +1,46 @@
+{
+  "wave": 8,
+  "purpose": "Explicit producer freeze receipts; journals and source QA remain immutable after receipt.",
+  "files": {
+    "generation_results_root.json": {
+      "producer": "/root",
+      "sha256": "1086b00f88e3a515cd36526e50972922c0cf1c950793e1635f49320c2fd56b14",
+      "evidence": "Parent explicitly confirmed the completed five-call root journal frozen through the collaboration channel."
+    },
+    "qa_root.json": {
+      "producer": "/root",
+      "sha256": "f8f29cd900ea4662a87183f499673579c95974b32987295d560c4502e277009c",
+      "evidence": "Parent explicitly confirmed the root reference checks and empty output review list frozen through the collaboration channel."
+    },
+    "generation_results_unsc.json": {
+      "producer": "/root/wave8_unsc",
+      "sha256": "5c915e7d802ba0b6cdb062c2644b445efcaec9cffdd97f7b52e17311633ff3d4",
+      "evidence": "Producer explicitly confirmed the completed file frozen through the collaboration channel."
+    },
+    "qa_unsc.json": {
+      "producer": "/root/wave8_unsc",
+      "sha256": "c36038ebdf44b6d18bdf870650daa8951453f290868df3f28fb8055eb4bbfb89",
+      "evidence": "Producer explicitly confirmed the completed file frozen through the collaboration channel."
+    },
+    "generation_results_aliens.json": {
+      "producer": "/root/wave8_aliens",
+      "sha256": "aed35701221a71a003537b1d0b40230af051ccd6983eb360ce3861d6f3c5d34e",
+      "evidence": "Producer explicitly confirmed the completed file frozen through the collaboration channel."
+    },
+    "qa_aliens.json": {
+      "producer": "/root/wave8_aliens",
+      "sha256": "bececed017ef564a963812d118aaa0abb79f9f935d75d311cc53b1ecb5c9cb35",
+      "evidence": "Producer explicitly confirmed the completed file frozen through the collaboration channel."
+    },
+    "input_plan_aliens.json": {
+      "producer": "/root/wave8_aliens",
+      "sha256": "5a2432dee4b5f22f81fb3949e57cd3fbc62f9c4b87b587c00a90518e8c44f3ee",
+      "evidence": "Producer explicitly confirmed the completed file frozen through the collaboration channel."
+    },
+    "independent_visual_review_root.json": {
+      "producer": "/root",
+      "sha256": "869efafa456bfade23d7e2eaddc40dc90a34dc8e5f2936dec78b81dce6031219",
+      "evidence": "Producer explicitly confirmed the completed file frozen through the collaboration channel."
+    }
+  }
+}

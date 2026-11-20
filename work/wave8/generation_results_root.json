@@ -1,0 +1,224 @@
+{
+  "wave": 8,
+  "scope": "Kelly, Forerunners, garde du Major et correction Dinh ; reprise des manquants après quota V7.",
+  "results": [
+    {
+      "entity_id": "kelly_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "variant": 1,
+      "equipment_state": "Armure HERMES GEN2 casquée ; fusil à pompe noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Kelly.png",
+        "image_url": "https://www.halopedia.org/images/b/b6/H5G-Render-Kelly.png?71a63",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+        "dimensions": {
+          "width": 540,
+          "height": 1020
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Kelly-087 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific blue-grey HERMES GEN2 armor with the exceptionally large curved gold visor wrapping over the forehead, smooth rounded helmet and round side module, very thin yellow armor edging, slim athletic armored silhouette and long shaped shin guards. Preserve the reference's single black shotgun and all its recognizable geometry. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, shotgun held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "attempt_kind": "retry_after_reported_quota_reset",
+      "previous_wave": 7,
+      "previous_source_journal": "work/wave7/generation_results_unsc.json",
+      "previous_source_journal_sha256": "29b689fb1f4a655d089fc9758679582924a0be12a8d393de9e8a8f3c97a855b4",
+      "prompt_adjustment": "Clarification lexicale : shotgun remplace rifle pour correspondre au fusil à pompe conservé dans la référence ; aucune autre modification.",
+      "reference_inspected_wave8": true,
+      "status": "generation_failed",
+      "tool_called": true,
+      "started_utc": "2026-11-20T08:14:08.633546+00:00",
+      "completed_utc": "2026-11-20T08:16:10.831957+00:00",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3ff785ba-f411-48a7-8395-b60df63f41af.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "source_path": null
+    },
+    {
+      "entity_id": "didact_h4",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "equipment_state": "Armure personnelle Halo 4, casque fermé, mains vides.",
+      "variant": 1,
+      "prompt": "Create a reference-guided character asset of the UR-DIDACT from HALO 4, in the exact helmeted armored incarnation in the attached Kolby Jukes render. Preserve the imposing nonhuman armored proportions, narrow mask with warm amber eyes, segmented crown and pointed mouth guard, massive separated swept shoulder assemblies, layered graphite and silver biomechanical plates with burgundy gaps, fine amber luminous lines, long armored fingers and the distinctive feet. The bright cyan in the reference is rim lighting, not a new blue armor skin. Both arms in a calm commanding combat idle, one palm slightly extended toward screen right and the other lowered; keep armor masses unmerged, hands anatomically coherent. No held weapon, no telekinetic effect. He is the Halo 4 Ur-Didact, not Bornstellar or a generic armored knight. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:Didact_Masked_Render.png",
+          "image_url": "https://www.halopedia.org/images/c/c5/Didact_Masked_Render.png?8639f",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/didact_h4_reference.png",
+          "sha256": "b6408096cb0d2fce56ffa38b08d4466c822f10a0b2e3026bb91848750a1a2bbd",
+          "dimensions": {
+            "width": 1230,
+            "height": 1857
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Cutout of the Ur-Didact . Type Render Game Halo 4 Artist Kolby Jukes Source https://www.artstation.com/artwork/RnY4D Original filename kolby-jukes-didact-2.jpg "
+        }
+      ],
+      "attempt_kind": "retry_previously_deferred_after_quota_reset",
+      "previous_wave": 7,
+      "previous_source_journal": "work/wave7/generation_results_root.json",
+      "previous_source_journal_sha256": "3b362770ffb7fa44655eb003b5a29bcbae47622f8cb9c55390b1d31d92498d22",
+      "status": "generation_failed",
+      "tool_called": true,
+      "reference_inspected_wave8": true,
+      "started_utc": "2026-11-20T08:17:04.263Z",
+      "completed_utc": "2026-11-20T08:18:55.087Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 69a08bd0-3f5c-4718-b63c-22f20510c935.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "source_path": null
+    },
+    {
+      "entity_id": "knight_h4",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "equipment_state": "Chevalier standard Halo 4 : arme à distance au bras droit, lame de lumière solide au bras gauche.",
+      "variant": 1,
+      "prompt": "Create a reference-guided full-body asset of the STANDARD PROMETHEAN KNIGHT from HALO 4, matching the first supplied standard Knight render and using the second official Halo 4 press render as corroboration. Preserve the huge angular floating grey upper carapace extending far to either side, small forward-projecting pointed closed face plate, black inner structure, orange-gold luminous seams, long outer combat arms, TWO much smaller vestigial inner arms folded under the chest, heavy angular digitigrade armored legs and clawed feet. Keep exactly the canonical four-arm organization: two primary outer arms plus two small inner arms, not duplicated primary arms. The Knight's anatomical RIGHT outer arm carries the slim dark Forerunner ranged weapon; its anatomical LEFT outer arm has the distinctive orange hard-light blade. Preserve these identities and the precise reference shapes when turning toward screen right. Weighty slightly crouched fighting idle, legs apart, orange blade held low without crossing or hiding the entire silhouette; no firing and no teleport effect. This is the Halo 4 standard model, not the enlarged Halo 5 redesign, Lancer, Battlewagon or Commander. Deliver exactly ONE character, full body head to feet including every appendage, centered with at least 10 percent transparent empty margin on all sides. New static combat idle pose facing screen RIGHT, about 75 to 85 degrees from frontal, camera at torso height with minimal perspective for a 2D fighting game. Preserve the exact identity, model silhouette, proportions, left/right equipment and materials from the supplied canonical reference; target the named game incarnation without redesign or combining iterations. Crisp high-detail game-rendered finish, even neutral light, true transparent alpha PNG. No floor, background, cast shadow, inset, alternate view, labels, interface or duplicate figures.",
+      "reference_input": [
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight-Standard.png",
+          "image_url": "https://www.halopedia.org/images/8/88/H4-Knight-Standard.png?c1c92",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_standard_h4_reference.png",
+          "sha256": "0eede0295ec260c0e6212dafcdc2751d33d4a2ec58f453d8699cede7256b2c0f",
+          "dimensions": {
+            "width": 2600,
+            "height": 2210
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": ""
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:H4-Knight.png",
+          "image_url": "https://www.halopedia.org/images/d/d5/H4-Knight.png?2d755",
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/knight_h4_reference.png",
+          "sha256": "39078bf47a9a207e103fca902f70c730afbab8a34e5bb7b9b0a7550c89ce45da",
+          "dimensions": {
+            "width": 1800,
+            "height": 2080
+          },
+          "generated": false,
+          "inspected": true,
+          "caption": "File information Summary Halo 4 press kit image featuring a Promethean Knight . Type Render Game Halo 4 Source http://halo.xbox.com/en-us/Universe/Detail/e3-2012-halo-4-renders/600518a8-d6fd-4c01-9f46-d9a97fcd9cc1 Original filename 2820821-gallery.jpg "
+        }
+      ],
+      "attempt_kind": "retry_previously_deferred_after_quota_reset",
+      "previous_wave": 7,
+      "previous_source_journal": "work/wave7/generation_results_root.json",
+      "previous_source_journal_sha256": "3b362770ffb7fa44655eb003b5a29bcbae47622f8cb9c55390b1d31d92498d22",
+      "status": "generation_failed",
+      "tool_called": true,
+      "reference_inspected_wave8": true,
+      "started_utc": "2026-11-20T08:17:04.264Z",
+      "completed_utc": "2026-11-20T08:18:07.953Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 946d9861-dce0-415f-bbfd-8671a874f33e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "source_path": null
+    },
+    {
+      "entity_id": "chief_infinite",
+      "entity_type": "fighter",
+      "pose_scope": "guard_static",
+      "equipment_state": "unarmed_hand_to_hand_existing_armor",
+      "variant": 1,
+      "prompt": "Edit the attached existing Halo Combats candidate into ONE new standalone static combat-guard key pose for John 117 le Major, Halo Infinite. Identity and game incarnation must be retained; match the attached armor geometry, materials, body proportions, facial anatomy, colors and all asymmetric equipment. Target visual fidelity to the exact Halo incarnation; no redesign. GEN3 Mark VI vert olive, 117 sur le plastron, visière dorée, proportions Infinite; ne pas remplacer par Mark VII multijoueur.\nChange the pose substantially from arms-at-sides neutral to this guard: Compact trained Spartan close-combat guard: left forearm leads at sternum height, right fist near lower jaw, both elbows bent; left foot a half step toward screen-right, rear foot anchored, knees slightly flexed. Keep the left-arm Grappleshot hardware and 117 chest marking.\nHands are empty, a deliberate unarmed hand-to-hand gameplay state; preserve worn equipment and holsters. Do not add a handheld weapon. Clear 2D fighting-game readability: face and torso aimed screen-right, near side profile (about 85 degrees from frontal), camera at torso height with minimal perspective, both feet visible and separated, forward and rear forearms readable without merging. This is a static key pose, not a sprite sheet or animation. Keep the FULL BODY in frame with at least 10 percent clear transparent padding around helmet, hands and boots; no cropping. Exactly one character, no inset, no duplicate, no labels, no UI, no background or floor or drop shadow. Neutral even lighting with crisp game-rendered material detail. Deliver a clean true-alpha transparent PNG.",
+      "reference_input": {
+        "kind": "previous_generated_candidate",
+        "asset_id": "chief_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+        "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e",
+        "generation_wave": 4,
+        "fidelity_status": "not_certified",
+        "canonical_reference_urls": [
+          "https://www.halowaypoint.com/en-us/news/master-class",
+          "https://www.halowaypoint.com/news/customization-overview-season-5",
+          "https://support.halowaypoint.com/hc/en-us/articles/26608497528596-Equipment-in-Halo-Infinite"
+        ],
+        "inherited_limitations": [
+          "Vérification anatomique du côté du 117 et des genouillères par rapport au modèle Infinite",
+          "Validation du Grappleshot sur l’avant-bras gauche et de sa géométrie",
+          "Comparaison des parties reconstruites après retrait du fusil",
+          "Marges verticales et contour alpha de production",
+          "Garde armée MA40 et animations à produire séparément",
+          "Comparaison aux références de l'épisode",
+          "Validation de la vue latérale et des asymétries",
+          "Contrôle du détourage et du cadrage",
+          "Animations, collisions et intégration au moteur"
+        ]
+      },
+      "attempt_kind": "retry_previously_deferred_after_quota_reset",
+      "previous_wave": 7,
+      "previous_source_journal": "work/wave7/generation_results_root.json",
+      "previous_source_journal_sha256": "3b362770ffb7fa44655eb003b5a29bcbae47622f8cb9c55390b1d31d92498d22",
+      "status": "generation_failed",
+      "tool_called": true,
+      "edit_target": {
+        "id": "chief_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+        "sha256": "3963bb6268be816657bace42669dfa614eee0864863fea63b252c51340845e9e"
+      },
+      "reference_inspected_wave8": true,
+      "started_utc": "2026-11-20T08:21:02.076Z",
+      "completed_utc": "2026-11-20T08:22:38.947Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7aa73aea-4756-4775-906d-7867398e4a8f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "source_path": null
+    },
+    {
+      "entity_id": "dinh_infinite",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "equipment_state": "Rakshasa personnalisé, casque ARTAIUS de la saison 2 ; mains libres comme le rendu officiel final, lame du concept non reprise.",
+      "variant": 2,
+      "prompt": "Edit the FIRST attached existing Hieu Dinh full-body character image, changing ONLY the belt-pouch placement to match the SECOND attached official final Halo Infinite model reference. Anatomical sides are crucial: his red trophy shoulder is his RIGHT shoulder, his radio antenna is on his LEFT shoulder. In the current first image the dominant pair/group of large blue-grey belt pouches is wrongly placed on his RIGHT hip beneath the red shoulder. Remove that large paired blue-grey pouch group from his RIGHT hip. Restore a modest dark single pouch/strap assembly on that right side as in the official reference. Put the large paired blue-grey pouches on his anatomical LEFT hip, underneath the radio shoulder; this is the farther side in this right-facing pose, so show only the amount naturally visible beyond the torso. Do not mirror the entire image or exchange the shoulders. Keep the red right shoulder, left radio/antenna, straps around LEFT thigh, central groin armor, red-orange teeth-marked visor, helmet optics, chest armor, both guarded hands, legs, boots, original pose and proportions unchanged. Only correct the waist-pouch layout. Preserve the complete character and current framing, all boots and helmet in frame. Preserve real alpha transparency outside the character; no new background, floor, halo, effects or labels.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:HINF_DinhModel.png",
+        "image_url": "https://www.halopedia.org/images/6/6a/HINF_DinhModel.png?d5884",
+        "provenance": "Rendu/capture du modèle final publié par Halo Waypoint dans Canon Fodder: Lore of the Jungle ; réhébergement Halopedia.",
+        "primary_urls": [
+          "https://www.halowaypoint.com/news/canon-fodder-lore-of-the-jungle"
+        ],
+        "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf",
+        "dimensions": {
+          "width": 1479,
+          "height": 2062
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence finale recadrée avant le bas des jambes : ne documente pas les bottes."
+      },
+      "attempt_kind": "retry_previously_deferred_after_quota_reset",
+      "previous_wave": 7,
+      "previous_source_journal": "work/wave7/generation_results_root.json",
+      "previous_source_journal_sha256": "3b362770ffb7fa44655eb003b5a29bcbae47622f8cb9c55390b1d31d92498d22",
+      "status": "generation_failed",
+      "tool_called": true,
+      "edit_target": {
+        "id": "dinh_infinite_initial_right_v01",
+        "path": "assets/characters_wave6/dinh_infinite_initial_right_v01.png",
+        "sha256": "7c3485787dc8d7bac25eb915443f89ea7de0cb89d312036255e601640df11725"
+      },
+      "reference_inspected_wave8": true,
+      "started_utc": "2026-11-20T08:21:02.077Z",
+      "completed_utc": "2026-11-20T08:21:45.607Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d916c6eb-5f16-4744-8f17-5d61018c015b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "error_class": "moderation_blocked",
+      "http_status": 400,
+      "source_path": null
+    }
+  ],
+  "deferred_requests": [],
+  "generation_status": "complete_no_output",
+  "fallback_used": false
+}

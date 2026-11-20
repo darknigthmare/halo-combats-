@@ -1,35 +1,40 @@
 {
-  "scope": "Corpus V1 à V6 conservé ; laboratoire V7 utilisant les 90 PNG existants sans modification ; 24 profils de base, 34 extensions consultatives, Scarab seul boss à mécanique partielle ; 7 appels quota et 12 reports sans appel, aucun nouveau PNG ; seuls les champs autorisés d’usage du prototype évoluent dans les fiches d’art.",
-  "prototype_verification_status": "passed_with_browser_blocked",
+  "scope": "Corpus V1 à V7 conservé ; V8 ajoute 4 PNG candidats de personnages et leur consultation dans un catalogue V8 ; 20 appels réels, 15 refus et 1 erreur technique ; aucun nouveau moveset ni animation.",
+  "prototype_verification_status": "passed_with_browser_not_run",
   "browser_validation": {
-    "status": "blocked",
+    "status": "not_run",
     "attempted_by_this_script": false,
-    "evidence": "prototype/qa_v7/browser_block.json",
-    "reason": "Last observed launch in this session: Chromium aborted before opening a page because socket() is not permitted. Node logic tests do not launch a browser.",
-    "retry_performed": false,
+    "attempts_v8": 0,
+    "reason": "No browser was launched for V8. Node tests simulate DOM, canvas and image loading only.",
+    "historical_context": {
+      "wave": 7,
+      "status": "blocked_before_page_load",
+      "evidence": "prototype/qa_v7/browser_block.json",
+      "applies_to_current_v8_run": false
+    },
     "desktop_visual_review": "not_performed",
     "mobile_visual_review": "not_performed",
-    "reproduction_script": "prototype/qa_v7/verify_browser.cjs"
+    "reproduction_script": "prototype/qa_v8/verify_browser.cjs"
   },
-  "source_checkpoint_inventory_sha256": "8b337cd4e8e51577cd84d72d36c72bc173af733492d9395efeded38f2eb2f790",
+  "source_checkpoint_inventory_sha256": "0f324e59a91640df6fd4ffed15c661b22ef9f89fd0302181deedfb7dd7beed5b",
   "coverage": {
     "fighters_illustrated": 24,
     "roster": 24,
     "fighter_pose_pngs": 50,
     "boss_pngs": 21,
     "stage_pngs": 2,
-    "expansion_character_pngs": 17,
+    "expansion_character_pngs": 21,
     "expansion_catalog_entries": 34,
-    "expansion_catalog_entries_with_visual": 17,
-    "expansion_catalog_entries_without_visual": 17,
+    "expansion_catalog_entries_with_visual": 21,
+    "expansion_catalog_entries_without_visual": 13,
     "expansion_catalog_entries_with_reused_visual": 1,
     "character_catalog_total_entries_including_base": 58,
-    "character_catalog_entities_with_visual_including_base": 41,
-    "total_candidate_pngs": 90,
+    "character_catalog_entities_with_visual_including_base": 45,
+    "total_candidate_pngs": 94,
     "wave4_attempts": 29,
     "wave4_pngs": 15,
     "wave4_new_fighter_ids": 12,
-    "historical_generation_failures_all_waves": 118,
+    "historical_generation_failures_all_waves": 134,
     "fighter_entities_with_guard_candidate": 23,
     "boss_entities_with_visual_candidate": 20,
     "boss_entities_with_complete_profile_candidate": 17,
@@ -45,7 +50,7 @@
     "wave5_automatic_generation_rejections": 11,
     "wave5_unique_fighters_with_guard_candidates": 23,
     "wave5_unique_boss_entities_with_candidates": 19,
-    "expansion_catalog_entries_with_new_visual": 16,
+    "expansion_catalog_entries_with_new_visual": 20,
     "wave6_generation_attempts": 56,
     "wave6_successful_generation_attempts": 17,
     "wave6_generation_failures": 39,
@@ -55,7 +60,7 @@
     "wave6_generated_guard_pngs": 0,
     "wave6_unique_expansion_entities_with_new_candidates": 16,
     "wave6_expansion_entries_reusing_prior_asset": 1,
-    "expansion_catalog_entries_with_preferred_visual": 16,
+    "expansion_catalog_entries_with_preferred_visual": 20,
     "expansion_catalog_entries_requiring_correction_only": 1,
     "expansion_entries_with_combat_brief": 34,
     "expansion_entries_with_new_combat_proposals": 33,
@@ -63,7 +68,7 @@
     "expansion_proposed_supers": 33,
     "expansion_proposed_finishers": 33,
     "expansion_short_story_proposals": 33,
-    "historical_automatic_generation_rejections_all_waves": 111,
+    "historical_automatic_generation_rejections_all_waves": 126,
     "historical_service_quota_failures_all_waves": 7,
     "wave7_planned_generation_targets": 19,
     "wave7_generation_attempts": 7,
@@ -80,7 +85,21 @@
     "wave7_corrected_candidate_images": 0,
     "wave7_prior_pngs_registered_for_static_prototype_use": 50,
     "wave7_prior_pngs_registered_for_catalog_only": 40,
-    "wave7_prototype_animation_clips": 0
+    "wave7_prototype_animation_clips": 0,
+    "wave8_planned_targets": 19,
+    "wave8_generation_attempts": 20,
+    "wave8_unique_requested_targets": 19,
+    "wave8_successful_generation_attempts": 4,
+    "wave8_generation_failures": 16,
+    "wave8_quota_failures": 0,
+    "wave8_moderation_refusals": 15,
+    "wave8_other_generation_failures": 1,
+    "wave8_deferred_without_call": 0,
+    "wave8_generated_pngs": 4,
+    "wave8_generated_expansion_pngs": 4,
+    "wave8_generated_guard_pngs": 0,
+    "wave8_generated_correction_pngs": 0,
+    "wave8_unique_expansion_entities_with_new_candidates": 4
   },
   "files": [
     {
@@ -90,8 +109,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5645,
-      "sha256": "283e3bda03c7d6534e4ae7c6e742c5a676960f544cfde4a9649f489d211b9611"
+      "bytes": 3485,
+      "sha256": "7b0221de08fec47ec70884f226bd5677d18ff47c1ebdd9b3b068d5d8d3223b3c"
     },
     {
       "path": "README_V2.md",
@@ -122,6 +141,11 @@
       "path": "README_V7.md",
       "bytes": 5645,
       "sha256": "283e3bda03c7d6534e4ae7c6e742c5a676960f544cfde4a9649f489d211b9611"
+    },
+    {
+      "path": "README_V8.md",
+      "bytes": 3485,
+      "sha256": "7b0221de08fec47ec70884f226bd5677d18ff47c1ebdd9b3b068d5d8d3223b3c"
     },
     {
       "path": "assets/bosses_wave5/boss_abomination_hw2_profile_v01.png",
@@ -574,6 +598,26 @@
       "sha256": "6d4b8e2f0bf05eeb3af753171277e7bcf78b3c992e69cdab71742a6d1d6d5ee3"
     },
     {
+      "path": "assets/characters_wave8/bassus_infinite_initial_right_v01.png",
+      "bytes": 2110521,
+      "sha256": "4657d0914ff9a93eb88b75fb684efc8921c3f3a325025cda65e9372f19f888dd"
+    },
+    {
+      "path": "assets/characters_wave8/locke_h5_initial_right_v01.png",
+      "bytes": 932844,
+      "sha256": "ec65dd5fd06a829473d3f5ed2a3edbcc361c9b67ca0cd07ad84f691e7934b916"
+    },
+    {
+      "path": "assets/characters_wave8/mickey_odst_initial_right_v01.png",
+      "bytes": 1165828,
+      "sha256": "8ded78a52c5db662362c34b1cf9bce1baeeb68c584746fdd7d0a6c0d21a4ed93"
+    },
+    {
+      "path": "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png",
+      "bytes": 1101705,
+      "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d"
+    },
+    {
       "path": "data/animation_plan.csv",
       "bytes": 66235,
       "sha256": "b0e11f4cdf9ec2b9216fb20cfc35796bc671affe6b140faabc50af56a095ac0e"
@@ -585,8 +629,8 @@
     },
     {
       "path": "data/asset_manifest.json",
-      "bytes": 1526968,
-      "sha256": "4b3c746d1ccb345e18af4ab9a7667cefaa3a0446175ca98f6b61965c68a49efa"
+      "bytes": 1701977,
+      "sha256": "15228fd94f123339bf86893ef0bda59d4382f68f641ea24a63882d9375d0cee6"
     },
     {
       "path": "data/bosses.json",
@@ -604,14 +648,19 @@
       "sha256": "78346b6872357a57758b2b9505c404e07f52f256d31afac1f3b1edc332f4e7ee"
     },
     {
+      "path": "data/characters_visual_inventory_v8.csv",
+      "bytes": 24192,
+      "sha256": "2371a9356a448a7b34d9a2a23b6b445f66e62e0d1226ac7fc01ab67ae16f8fec"
+    },
+    {
       "path": "data/delivery_counts.json",
-      "bytes": 4785,
-      "sha256": "55a2c6fc54edc300b77cc342dfd061e99149e571afc294c8be65501c3c51d01e"
+      "bytes": 5351,
+      "sha256": "5dda4e5b1b972b76e71feb40a443e16517d1dfed0c2d3c1eda4382976a420035"
     },
     {
       "path": "data/expansion_characters.json",
-      "bytes": 205133,
-      "sha256": "6172106a9c1d68c1a90275a355f7e0bf3d95d61ea77b79a766974b348fe10c09"
+      "bytes": 205798,
+      "sha256": "774ab8b46a818523b7225f0cb8a80c42c95be1366d5b0c5a9afcf9dbe018237d"
     },
     {
       "path": "data/expansion_characters_visual_inventory.csv",
@@ -632,6 +681,11 @@
       "path": "data/prototype_asset_bindings_v7.json",
       "bytes": 911133,
       "sha256": "ccfec25f637a054bbf6df5a48f0cbad824233178dab80098c756d9438145200b"
+    },
+    {
+      "path": "data/prototype_asset_bindings_v8.json",
+      "bytes": 947192,
+      "sha256": "5c9cb147daab1847db12e89afccf47d3bd375f8d9b7045c731cb3e7afe96405b"
     },
     {
       "path": "data/stages.json",
@@ -699,6 +753,11 @@
       "sha256": "213e405f92ff74504f6bec9411e711f1c79c50f23f2be425e059fc7d791fed1d"
     },
     {
+      "path": "docs/HALO_COMBATS_PERSONNAGES_V8.md",
+      "bytes": 21307,
+      "sha256": "b5b8eefada50018f41afbade0abbb40d2dc75014d5e3d413a1d6e3bda84ecfc4"
+    },
+    {
       "path": "docs/HALO_COMBATS_PRODUCTION_V1.xlsx",
       "bytes": 57047,
       "sha256": "1d0a817c64fbc279d7fc2c1febd222652cf52f4cb7aac524ebbb5af7e547676d"
@@ -717,6 +776,11 @@
       "path": "docs/SOURCES_PERSONNAGES_V7.md",
       "bytes": 9065,
       "sha256": "a5e1c55dc1e7e1f67853a5d0aa7521cd3d5118d61e6cade024eeb66dff5aac88"
+    },
+    {
+      "path": "docs/SOURCES_PERSONNAGES_V8.md",
+      "bytes": 5829,
+      "sha256": "5f0d743d2d39e2f4f9d0f61c36d16841ce2c37f61e623a80983d9940c580c94b"
     },
     {
       "path": "docs/build_bible.py",
@@ -744,9 +808,19 @@
       "sha256": "dcffad401ac20b7b30723ce3ad89bbdbf88d4723a77228615b5deaba28098db8"
     },
     {
+      "path": "prototype/README_V8.md",
+      "bytes": 7003,
+      "sha256": "21f21ffe81c211e45c038a65c31cdcc52efa4b07598abfc7198f1f86adefe4df"
+    },
+    {
       "path": "prototype/halo_combats_lab_v7.html",
       "bytes": 10461,
       "sha256": "800c2d336125533bffd4a189015b601954655333666d09a2746ebe0feaed21bd"
+    },
+    {
+      "path": "prototype/halo_combats_lab_v8.html",
+      "bytes": 10461,
+      "sha256": "b80031f1a4bdaa57470f62d16411ef92093dabd557bf935a8f186dc1d1ba6923"
     },
     {
       "path": "prototype/halo_combats_prototype.html",
@@ -767,6 +841,16 @@
       "path": "prototype/lab_v7/style.css",
       "bytes": 15970,
       "sha256": "975dd7f6de114c2f50ef55824d950330076fcd26daaf2175d2387f884dc3a9ee"
+    },
+    {
+      "path": "prototype/lab_v8/app.js",
+      "bytes": 47486,
+      "sha256": "119273ac8db330ba7fefae155a4946c2162c15589d99c025bcedb36fbb3233a3"
+    },
+    {
+      "path": "prototype/lab_v8/catalog.js",
+      "bytes": 947299,
+      "sha256": "5c98b6e3783267dfe1f4ec079e836440dd5967152e5424f795e73c89c19fea18"
     },
     {
       "path": "prototype/qa/logic.cjs",
@@ -802,6 +886,21 @@
       "path": "prototype/qa_v7/verify_browser.cjs",
       "bytes": 8486,
       "sha256": "d16d42b2896328fdd24d130fb5fc4301547a6409dcaadeb3f647fd2419caca74"
+    },
+    {
+      "path": "prototype/qa_v8/logic.cjs",
+      "bytes": 26028,
+      "sha256": "87ecba4bba6f025b6c238805bfd2600b09770092a7a71148e6ce46e256964ede"
+    },
+    {
+      "path": "prototype/qa_v8/results.json",
+      "bytes": 6541,
+      "sha256": "39a1178c2ab9e093f56ff86d782ba7bb30743b272db253d8ecdb5278513ead86"
+    },
+    {
+      "path": "prototype/qa_v8/verify_browser.cjs",
+      "bytes": 8535,
+      "sha256": "8297a694b82c99c232c06eea1d0d4ac099e5304416046b60f056f214c1fdf16b"
     },
     {
       "path": "qa/docx/qa_report.json",
@@ -1402,6 +1501,151 @@
       "path": "work/wave7/write_reports.py",
       "bytes": 20701,
       "sha256": "3b4fe19c36274e1475e2ed54c6875dcc608fc19f98b52166532bf2a7e5b03fe7"
+    },
+    {
+      "path": "work/wave8/README_V7_before_wave8.md",
+      "bytes": 5645,
+      "sha256": "283e3bda03c7d6534e4ae7c6e742c5a676960f544cfde4a9649f489d211b9611"
+    },
+    {
+      "path": "work/wave8/baseline_asset_records_v7.json",
+      "bytes": 1223034,
+      "sha256": "e46c933fe5bc4145b287f7456116dbcb69b1476afbc950d48c0276d34d8cbe5c"
+    },
+    {
+      "path": "work/wave8/baseline_catalog_v7.json",
+      "bytes": 205133,
+      "sha256": "6172106a9c1d68c1a90275a355f7e0bf3d95d61ea77b79a766974b348fe10c09"
+    },
+    {
+      "path": "work/wave8/baseline_fighters_v7.json",
+      "bytes": 233089,
+      "sha256": "4bb2acb5d2fac586fb3efdfe5d96c5864d80d171237ed20f2c0db11366629c2e"
+    },
+    {
+      "path": "work/wave8/baseline_remote_verification.json",
+      "bytes": 660,
+      "sha256": "452a4ac575b9a607c9e988a223f0ee9c9b5b9883cee1654c842e9c68bcca943d"
+    },
+    {
+      "path": "work/wave8/baseline_repository_files.json",
+      "bytes": 77422,
+      "sha256": "d9abbca3bfa885c5151d70e68e4f268f9306195f0e9fecfff0396a42a513b8de"
+    },
+    {
+      "path": "work/wave8/baseline_v7.json",
+      "bytes": 36597,
+      "sha256": "b5ec442e6511d1b4b980fedc0403209b80582d5157371c1e0ab3409b1276229b"
+    },
+    {
+      "path": "work/wave8/build_prototype_bindings.py",
+      "bytes": 31220,
+      "sha256": "95cab1f00c5b25fc144d0175ada1e114a3371851acc1e98430d8bd6235a208c1"
+    },
+    {
+      "path": "work/wave8/capture_baseline.py",
+      "bytes": 5195,
+      "sha256": "afa46907f8a2ea96c1f0d33facd551db10a22ef7456e6cdd13f7cf2257b24863"
+    },
+    {
+      "path": "work/wave8/consolidate_wave8.py",
+      "bytes": 21652,
+      "sha256": "82756464fd7c5e89b9c2aee07de9a1b95298ede36da07bd1ecb417daf65c4dbd"
+    },
+    {
+      "path": "work/wave8/consolidation_summary.json",
+      "bytes": 3394,
+      "sha256": "ff1e6335233ccc4ce1df70a3286e085109aec295f5cad7a69f017b5cee403f57"
+    },
+    {
+      "path": "work/wave8/generation_results.json",
+      "bytes": 109774,
+      "sha256": "27854ae7ca53aedea5c1bf2dabc60c3f819225732a584ab46dab4ae277869b2e"
+    },
+    {
+      "path": "work/wave8/generation_results_aliens.json",
+      "bytes": 54500,
+      "sha256": "aed35701221a71a003537b1d0b40230af051ccd6983eb360ce3861d6f3c5d34e"
+    },
+    {
+      "path": "work/wave8/generation_results_root.json",
+      "bytes": 21728,
+      "sha256": "1086b00f88e3a515cd36526e50972922c0cf1c950793e1635f49320c2fd56b14"
+    },
+    {
+      "path": "work/wave8/generation_results_unsc.json",
+      "bytes": 29708,
+      "sha256": "5c915e7d802ba0b6cdb062c2644b445efcaec9cffdd97f7b52e17311633ff3d4"
+    },
+    {
+      "path": "work/wave8/independent_tracking_audit.json",
+      "bytes": 2584,
+      "sha256": "a13bb02d191e484896ebde906811b7c40417fc5b7bf3581311c9b5984993f528"
+    },
+    {
+      "path": "work/wave8/independent_visual_review_root.json",
+      "bytes": 8412,
+      "sha256": "869efafa456bfade23d7e2eaddc40dc90a34dc8e5f2936dec78b81dce6031219"
+    },
+    {
+      "path": "work/wave8/input_plan_aliens.json",
+      "bytes": 40543,
+      "sha256": "5a2432dee4b5f22f81fb3949e57cd3fbc62f9c4b87b587c00a90518e8c44f3ee"
+    },
+    {
+      "path": "work/wave8/merge_generation_journals.py",
+      "bytes": 8940,
+      "sha256": "c4f0aa21691ccbd8983eac31fef56aec886b1c783497fe7b6342de501a14473e"
+    },
+    {
+      "path": "work/wave8/merge_qa_wave8.py",
+      "bytes": 6180,
+      "sha256": "f86b51f5ab9c7c71c32e9d8072742450dd4ab215351fdac826b9d66a7565edb5"
+    },
+    {
+      "path": "work/wave8/producer_freeze_receipts.json",
+      "bytes": 2343,
+      "sha256": "0ac9d15a2cc5d3c006f1bed6b99940bb03752f5be6e8b7590629aed3c476e5fc"
+    },
+    {
+      "path": "work/wave8/prototype_bindings_validation.json",
+      "bytes": 6713,
+      "sha256": "c1b063210376e522b8b714aceb00365cb923c64e661a7b23d5b9013a73f87c6b"
+    },
+    {
+      "path": "work/wave8/qa_aliens.json",
+      "bytes": 7663,
+      "sha256": "bececed017ef564a963812d118aaa0abb79f9f935d75d311cc53b1ecb5c9cb35"
+    },
+    {
+      "path": "work/wave8/qa_root.json",
+      "bytes": 2683,
+      "sha256": "f8f29cd900ea4662a87183f499673579c95974b32987295d560c4502e277009c"
+    },
+    {
+      "path": "work/wave8/qa_unsc.json",
+      "bytes": 11305,
+      "sha256": "c36038ebdf44b6d18bdf870650daa8951453f290868df3f28fb8055eb4bbfb89"
+    },
+    {
+      "path": "work/wave8/qa_wave8.json",
+      "bytes": 44258,
+      "sha256": "e0a96445f48136edcea915c1c7c805394eab14a4a13bc4a7a0a0fffdd0547d74"
+    },
+    {
+      "path": "work/wave8/verification.json",
+      "bytes": 9989,
+      "sha256": "6965bbed7cd55a103836583fffc9cc45b86fcea1461988b9e0c4e9ac6ce26af3"
+    },
+    {
+      "path": "work/wave8/verify_wave8.py",
+      "bytes": 13937,
+      "sha256": "f654d699433bc60a9731e600b80cf07618e15871615393ba115b81a721790b7b"
+    },
+    {
+      "path": "work/wave8/write_notes.py",
+      "bytes": 15089,
+      "sha256": "095873cdf4cef5daa69d4761dc9c2a76486c9db49f55136fb1d8d1182b42666f"
     },
     {
       "path": "work/world/bosses.json",

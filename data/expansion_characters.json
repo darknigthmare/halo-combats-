@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "Halo Combats",
   "language": "fr",
-  "updated_utc": "2026-11-20T04:57:44+00:00",
+  "updated_utc": "2026-11-20T08:44:05+00:00",
   "scope": "34 named/class entries already proposed in the expansion backlog; art catalog, not automatic activation in the base gameplay roster",
   "base_fighter_count": 24,
   "source_catalogs": [
@@ -414,13 +414,18 @@
         "fidelity_1_to_1_certified": false
       },
       "catalog_source": "work/wave6/unsc_catalog.json",
-      "new_visual_assets": [],
-      "visual_assets": [],
-      "art_status": "not_generated",
+      "new_visual_assets": [
+        "locke_h5_initial_right_v01"
+      ],
+      "visual_assets": [
+        "locke_h5_initial_right_v01"
+      ],
+      "art_status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
       "integration_status": "not_integrated",
-      "gameplay_design_status": "proposed_not_implemented"
+      "gameplay_design_status": "proposed_not_implemented",
+      "preferred_visual_asset": "locke_h5_initial_right_v01"
     },
     {
       "id": "vale_h5",
@@ -1028,13 +1033,18 @@
         "fidelity_1_to_1_certified": false
       },
       "catalog_source": "work/wave6/unsc_catalog.json",
-      "new_visual_assets": [],
-      "visual_assets": [],
-      "art_status": "not_generated",
+      "new_visual_assets": [
+        "mickey_odst_initial_right_v01"
+      ],
+      "visual_assets": [
+        "mickey_odst_initial_right_v01"
+      ],
+      "art_status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
       "integration_status": "not_integrated",
-      "gameplay_design_status": "proposed_not_implemented"
+      "gameplay_design_status": "proposed_not_implemented",
+      "preferred_visual_asset": "mickey_odst_initial_right_v01"
     },
     {
       "id": "forge_hw",
@@ -2008,13 +2018,18 @@
       },
       "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément.",
       "catalog_source": "work/wave6/alien_catalog.json",
-      "new_visual_assets": [],
-      "visual_assets": [],
-      "art_status": "not_generated",
+      "new_visual_assets": [
+        "skirmisher_champion_reach_initial_right_v01"
+      ],
+      "visual_assets": [
+        "skirmisher_champion_reach_initial_right_v01"
+      ],
+      "art_status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
       "integration_status": "not_integrated",
-      "gameplay_design_status": "proposed_not_implemented"
+      "gameplay_design_status": "proposed_not_implemented",
+      "preferred_visual_asset": "skirmisher_champion_reach_initial_right_v01"
     },
     {
       "id": "grunt_heavy_reach",
@@ -2664,13 +2679,18 @@
       },
       "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément.",
       "catalog_source": "work/wave6/alien_catalog.json",
-      "new_visual_assets": [],
-      "visual_assets": [],
-      "art_status": "not_generated",
+      "new_visual_assets": [
+        "bassus_infinite_initial_right_v01"
+      ],
+      "visual_assets": [
+        "bassus_infinite_initial_right_v01"
+      ],
+      "art_status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
       "integration_status": "not_integrated",
-      "gameplay_design_status": "proposed_not_implemented"
+      "gameplay_design_status": "proposed_not_implemented",
+      "preferred_visual_asset": "bassus_infinite_initial_right_v01"
     },
     {
       "generation_required": true,
