@@ -1,0 +1,395 @@
+{
+  "generation_wave": 6,
+  "reviews": [
+    {
+      "entity_id": "fred_h5",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a61248be-45ba-4b1f-b81e-dc4029acca44.png",
+      "sha256": "0f668d49dae5ae2abd7a5f360fb498e267496730e0a633d9ae95f2199e01b9aa",
+      "reviewed_utc": "2026-11-20T04:23:54+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante de la sortie et du rendu de référence : silhouette fermée CENTURION bleu gris, visière ambre, panneaux jaunes/cyan et dissymétrie des genouillères reconnaissables. Deux bras, deux mains et deux jambes observés sans membre supplémentaire.",
+        "Le volume du casque, les plaques et le fusil sont réinterprétés ; leur identité visuelle est présente mais les détails de visée, la détente et l’anatomie des doigts ne sont pas certifiés. Le torse conserve une vue de trois-quarts et le pied arrière pointe vers la caméra.",
+        "La tête, les bottes et le canon paraissent entiers. La réserve de canevas au-dessus du casque et sous les pieds reste très faible ; une pose latérale et des marges homogènes seront nécessaires avant animation."
+      ],
+      "required_followup": [
+        "Comparaison rapprochée au modèle du jeu, contrôle des asymétries et validation des contours avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/fred_h5_reference.png",
+        "sha256": "a7e3cce9dc508a13fa7a7ef1ad28b8db43f6ca56509d9936e678fcfb29423107"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "ripa_hw1",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7261b5b2-7a81-44b1-a711-1a5a49f9e79a.png",
+      "sha256": "5817ebb18951879804b005ea520eee6a1bfb4f5552b3240535cc96d6c410b120",
+      "reviewed_utc": "2026-11-20T04:23:54+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante de la sortie et du rendu promotionnel : un unique Sangheili, armure bronze gravée, casque à longue pointe et deux épées énergétiques. Deux bras et deux jambes distincts observés, pieds bipartites et lames complets à l’œil.",
+        "Le rendu source est composite, frontal et peu défini. Les gravures, proportions de la tête et mandibules ainsi que les poignées sont réinterprétées ; la nouvelle pose ne certifie pas les faces masquées ni les détails 1:1.",
+        "Les marges autour de la crête, des pieds et de la lame droite sont très faibles. Le halo énergétique et les pixels colorés périphériques demandent un contrôle en composition ; conserver la sortie d’origine sans retouche."
+      ],
+      "required_followup": [
+        "Comparaison rapprochée au modèle du jeu, contrôle des asymétries et validation des contours avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ripa_hw1_reference.png",
+        "sha256": "2cc8efb652fdf8121162f7317771c3926a3ae508162c1715eac57a0324cd4d10"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "sesa_h2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-81454b25-c380-4c01-af23-f4754a44d72b.png",
+      "sha256": "801b228c4d43a551938cfb76e2c5dbac32afb3656ef02dee42f9cce68dffdd13",
+      "reviewed_utc": "2026-11-20T04:27:50+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante contre les deux captures Halo 2 Classic : armure orange et bronze, grand cou organique, masque fin, deux fusils à plasma violets et deux modules dorsaux à grilles vertes reconnaissables. Les deux modules sont bien visibles dans la capture frontale de référence.",
+        "Deux bras, deux armes et deux jambes observés ; fusils séparés, tête et pieds entiers. Les proportions et textures donnent une interprétation plus détaillée de la capture ; les doigts, dents/mandibules et les panneaux de l’armure restent à valider.",
+        "La silhouette demeure en trois-quarts vers la droite. Les marges sont plus confortables que les premières sorties, mais le profil strict et les articulations de jeu ne sont pas produits par cette image fixe."
+      ],
+      "required_followup": [
+        "Validation du modèle Halo 2 Classic, des mains et des proportions ; production d’un profil latéral et d’animations."
+      ],
+      "reference_reviewed": [
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_full_reference.jpg",
+          "sha256": "dfbe9f6c51ee82829975c0a459ad277e5e48b4fc61b23524bf42dffa16b29c83"
+        },
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_h2_reference.png",
+          "sha256": "9fda73105ca1b80f88be1900369f613effed6e8fbe5157fd785c80cc39f11eda"
+        }
+      ],
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "harbinger_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-f742b47a-662a-462c-9d88-94e0753c1653.png",
+      "sha256": "a1e6254be07ae7e7e2a4866a7a57cb29d55c8e691b3c1f6363c5984ce4edc3e9",
+      "reviewed_utc": "2026-11-20T04:30:01+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante contre le rendu officiel corps entier : grande coiffe brun rouge, épaulières, noyau pectoral lumineux, pans mauves et extrémités dorées reconnaissables. Un seul corps flottant, deux bras et deux jambes observés en entier.",
+        "La Harbinger reste en trois-quarts ; la géométrie précise des doigts, des composants dorsaux et des surfaces masquées n’est pas certifiée. Le casque se rapproche du bord supérieur ; les détails et asymétries doivent être comparés au modèle avant animation."
+      ],
+      "required_followup": [
+        "Contrôle du modèle, des asymétries, des contours et de la pose avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/harbinger_full_infinite_reference.png",
+        "sha256": "e74a98b9bdddda90c8f24d9ed13539a7a085e28664b61f8d62c9ed0bf119a6ca"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "flood_human_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png",
+      "sha256": "797977d2db5522459e9301ea199666380651edd0a56e6e02731338e14628bf6a",
+      "reviewed_utc": "2026-11-20T04:30:01+00:00",
+      "verdict": "candidate_requires_correction",
+      "notes": [
+        "Revue centrale indépendante contre la planche de modèle : un seul hôte humain Flood de Halo 3, reliquats d’armure et treillis, biomasse jaune olive, bras muté terminé par des excroissances et un bras humain distinct.",
+        "Les bottes, la masse supérieure et les excroissances sont entières. La pose reste majoritairement frontale et reprend l’axe de la vue gauche de la planche ; elle ne constitue pas le profil vers la droite demandé. Conserver V01 comme variante historique et préférer une correction d’orientation si celle-ci est réussie.",
+        "L’anatomie et les excroissances sont réinterprétées ; leur côté doit être conservé lors de la nouvelle pose, sans miroir artificiel. Marge verticale très faible."
+      ],
+      "required_followup": [
+        "Contrôle du modèle, des asymétries, des contours et de la pose avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/flood_human_h3_reference.png",
+        "sha256": "af54efd2760f63d707b4db22b97d480df12ad0c8132bff387e574e9eca9ea07a"
+      },
+      "reviewer": "central_independent",
+      "preferred_for_scope": false,
+      "observed_facing": "mostly_front"
+    },
+    {
+      "entity_id": "vale_h5",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c3dc7c5f-2271-4674-9e72-ff15cf4c8274.png",
+      "sha256": "c693b9d73a1e1747e70307dd016ff42a7a31d07d2b02f9dac79a37ff3f22ce38",
+      "reviewed_utc": "2026-11-20T04:30:01+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante contre le rendu officiel Halo 5 : armure rouge et dorée, casque arrondi à visière réticulée, plaques étroites et arme compacte présents ; deux mains, deux jambes et équipement entiers.",
+        "Le grand halo rouge/gris de l’aperçu n’est pas la preuve d’un fond opaque : les pixels testés hors silhouette (500,10), (600,50), (300,190) et (150,500) ont un alpha exactement nul malgré leurs couleurs RGB. Les franges de faible alpha restent à contrôler en composition ; aucune retouche des pixels n’a été faite.",
+        "Les doigts, la géométrie de l’arme, les modules circulaires du casque et le côté des marquages d’épaule demandent une comparaison rapprochée. La pose est encore en trois-quarts et ne certifie pas les asymétries du modèle."
+      ],
+      "required_followup": [
+        "Contrôle du modèle, des asymétries, des contours et de la pose avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/vale_h5_reference.png",
+        "sha256": "ae14233554460df98aa5c35689decb5186e797da9563734737f9aa7f5097fa16"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "dutch_odst",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-70053581-3dfa-4053-a2e4-3aea2ecea4fc.png",
+      "sha256": "3cac3de02d62168534a15cefcec0553b2ce92a5ff3802c894efc6b09558d2aeb",
+      "reviewed_utc": "2026-11-20T04:30:01+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante contre le visuel Bungie : casque ODST fermé avec bande orange et mâchoire peinte, équipement lourd olive et laser Spartan reconnaissables. Les doigts nus sont aussi présents dans la référence, ce détail n’est pas à lui seul une erreur de génération.",
+        "Deux bras et deux jambes observés, bottes et laser entiers. Le port à deux mains reste proche de la source ; le contact exact des doigts avec la poignée et les détails mécaniques du laser demandent un contrôle rapproché.",
+        "La nouvelle silhouette demeure en trois-quarts ; les volumes cachés et microtextures de l’armure ont été réinterprétés et ne sont pas certifiés 1:1."
+      ],
+      "required_followup": [
+        "Contrôle du modèle, des asymétries, des contours et de la pose avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dutch_odst_reference.jpg",
+        "sha256": "05485fa8250c5bfe3f8230c2358ee31abaebb296604726e3b606e68f50602919"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "voridus_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-45a19cf2-007a-4a6f-8e45-028a45f6ebf2.png",
+      "sha256": "4e5e8793aa344957682b0c08fbecd9c3afcc1b8144f8b9d4dbf1c4b8adab610e",
+      "reviewed_utc": "2026-11-20T04:30:54+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante contre la planche in-game de Vincent Chai : un seul Voridus, armure rouge et acier, épaule à disques du côté de la main portant le maul, épaule rectangulaire et renfort d’avant-bras sur l’autre côté. L’asymétrie principale reste du même côté anatomique que dans la vue frontale de référence.",
+        "Deux bras et deux jambes observés ; maul, doigts, bottes et pointes supérieures paraissent entiers. Les panneaux et proportions sont réinterprétés, et l’orientation demeure en trois-quarts. La marge supérieure mesurée est de seulement 5 px au seuil alpha >16.",
+        "Le grand halo gris/rouge de l’aperçu ne prouve pas un fond opaque : tous les points hors silhouette testés (0,0), (100,100), (768,10), (10,512), (1526,512) ont un alpha nul. RGBA avec alpha réel ; les franges de faible alpha et les contours restent à contrôler en composition."
+      ],
+      "required_followup": [
+        "Augmenter la marge supérieure et produire le profil latéral ; comparer le maul, les doigts et les plaques au modèle, sans retourner horizontalement les asymétries."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/voridus_hw2_reference.jpg",
+        "sha256": "556798b9aaf3ed644b068a01ac2051b3acc5671f85ddee1a0a0e7a139340fd37"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "jackal_major_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-1012914c-3c08-4d2f-9255-7b663046f5a2.png",
+      "sha256": "0616b13218f3c1a9480cb54ce4b791e0e393583c3fe175344ca6db8cd8c836a3",
+      "reviewed_utc": "2026-11-20T04:32:22+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Revue centrale indépendante contre la capture Halo 3 : un seul Kig-Yar à peau brune, crête à quilles et armure violette. Bouclier énergétique du côté gauche de l’image et pistolet plasma à droite, comme dans la référence fournie ; le côté anatomique exact reste à vérifier sur modèle lors de la rotation en profil.",
+        "Deux bras et deux jambes observés ; quilles, arme et griffes entières. Le bec, les yeux, les doigts et les proportions du torse ont été réinterprétés ; la classe est proposée comme combattant, sans ajouter une identité nommée fictive.",
+        "Les pixels blancs périphériques autour du bouclier doivent être interprétés avec leur alpha : le contenu au-dessus du seuil 16 ne touche pas le cadre, tandis que des pixels de très faible alpha atteignent les bords. Les marges haut et bas sont de seulement 8 px. Contrôle des franges et de la transparence de l’énergie nécessaire en composition."
+      ],
+      "required_followup": [
+        "Validation anatomique et du côté du bouclier sur modèle Halo 3 ; marges verticales, franges d’énergie et profil latéral à reprendre avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/jackal_major_h3_reference.png",
+        "sha256": "4ef6545b9446a2e6c675d82783a60370726c955a222bdbd014c0e2c62690af40"
+      },
+      "reviewer": "central_independent",
+      "observed_facing": "right_three_quarter"
+    },
+    {
+      "entity_id": "flood_human_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-8d4fe570-1f07-46c1-ba05-6ea1edc060cb.png",
+      "sha256": "878582f35c0c1fdc86aa6c4c8bccb0e06df7360e92f6aa573b7f7fb4f0773c92",
+      "reviewed_utc": "2026-11-20T04:35:27+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante de la V02 et comparaison avec V01 et la planche : les jambes et les bottes s’orientent davantage vers la droite, avec un cadrage plus ample ; le bras mutant reste distinct du bras humain, sans miroir horizontal évident.",
+        "La correction est partielle : le torse conserve une ouverture de trois-quarts, et la tête reste inclinée dans sa masse de biomasse. La V02 est préférée relativement à V01 pour la direction et le cadrage ; elle n’est pas un profil orthographique validé.",
+        "Le halo brun de l’aperçu doit être lu avec son alpha ; la mesure et les échantillons root indiquent un fond alpha 0 hors silhouette. Les franges, les petits appendices et les proportions restent à contrôler avant animation."
+      ],
+      "required_followup": [
+        "Produire le profil latéral réel et contrôler le côté anatomique du bras mutant sur modèle Halo 3."
+      ],
+      "preferred_for_scope": true,
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_forerunners/flood_human_h3_reference.png",
+        "sha256": "af54efd2760f63d707b4db22b97d480df12ad0c8132bff387e574e9eca9ea07a"
+      },
+      "reviewer": "central_independent"
+    },
+    {
+      "entity_id": "forge_hw",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-c52ea9b5-ffe5-4f68-b80c-c3e4e0f803da.png",
+      "sha256": "fadb78c8539a4e7b314e8312796ee34e10b21885e78a29a6d0145d9c36bfbdfe",
+      "reviewed_utc": "2026-11-20T04:37:24+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre le rendu réhébergé de Halo Wars : armure brune, tenue camouflage, tête découverte, emblème d’épaule et holster de cuisse reconnaissables. Une seule entité, deux poings levés, deux jambes et bottes entières.",
+        "Le visage de profil, les surfaces de poitrine auparavant cachées par les bras et les petits marquages sont réinterprétés ; aucune copie 1:1 de ces détails n’est certifiée. Le holster et les poches ne remplacent pas une arme tenue en main, la pose est sans arme dégainée.",
+        "La tête vise la droite, mais le thorax reste en trois-quarts. Marges haut/bas réduites (20 et 21 px au seuil alpha >16), sans coupe constatée."
+      ],
+      "required_followup": [
+        "Valider le visage et les surfaces occultées de l’armure avec des références du jeu ; produire un profil strict et des marges adaptées à l’animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/forge_hw_reference.png",
+        "sha256": "e1632cd3aeea92494c4e2bb16e03802b2a1b39e8a79dc86cb69dd6a4e3b1abbc"
+      },
+      "reviewer": "central_independent"
+    },
+    {
+      "entity_id": "yapyap_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-dc21b341-2962-424c-881b-aae85035e737.png",
+      "sha256": "6d4b8e2f0bf05eeb3af753171277e7bcf78b3c992e69cdab71742a6d1d6d5ee3",
+      "reviewed_utc": "2026-11-20T04:37:50+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre le rendu attribué à Jeremy Cook : couronne irrégulière dorée, masque à deux anneaux cyan, cuirasse à pictogrammes et ensemble dorsal reconnaissables. Un seul Unggoy, deux bras et deux jambes, sans arme ajoutée en main.",
+        "La référence coupe les jambes avant les pieds : les tibias et pieds complets de la génération sont extrapolés et ne peuvent pas être certifiés à partir de cette seule vue. La présence d’un corps entier dans la sortie ne prouve pas la conformité canonique de cette partie.",
+        "L’orientation devient trois-quarts vers la droite ; les pointes et ornements asymétriques de la couronne, le volume du dos et les pictogrammes devront être vérifiés sur un modèle à plusieurs vues. Les doigts et les surfaces de peau sont réinterprétés.",
+        "Couronne, mains et pieds entiers ; marges mesurées 39/31/35/34 px au seuil alpha >16, aucun contact de premier plan avec le cadre. Les franges cyan autour des contours restent à contrôler en composition."
+      ],
+      "required_followup": [
+        "Trouver une référence finale de jeu corps entier pour les jambes et pieds, puis contrôler la couronne asymétrique et le profil latéral avant animation."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/yapyap_hw2_reference.png",
+        "sha256": "3cdfb6def0ba5c0cbfe2b14f024c37f7f11fedfa79eadcabb5b204ff9c963277"
+      },
+      "reviewer": "central_independent"
+    },
+    {
+      "entity_id": "hyperius_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-931f669f-ff28-44de-b2ee-3caff11393c1.png",
+      "sha256": "dabe8885692f415378bb368bebc334912ab1e0448693cc8326fd27f0248c0596",
+      "reviewed_utc": "2026-11-20T04:43:24+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre le modèle corps entier, le portrait attribué à Tom Wholley et la capture d’équipement : casque noir à marquage rouge, rangées de plaques dissymétriques, trophée de casque sur l’épaule droite anatomique et équipement dorsal reconnaissables. La grande dissymétrie d’épaules reste du même côté que dans les références.",
+        "Un seul Jiralhanae, deux bras, deux mains et deux jambes observés ; le fusil et sa lame sont entiers. Les petits composants du Ravager, la géométrie du trophée et les doigts ont été réinterprétés et ne sont pas certifiés par cette sortie.",
+        "Orientation de trois-quarts vers la droite. Les pointes dorsales et les pieds restent dans le cadre, avec des marges haut/bas très faibles (9 et 16 px au seuil alpha >16). Une nouvelle réserve de canevas et un profil exact sont nécessaires avant animation."
+      ],
+      "required_followup": [
+        "Comparer le Ravager et le trophée au modèle rapproché ; contrôler l’asymétrie anatomique lors des poses opposées et augmenter les marges verticales."
+      ],
+      "reference_reviewed": [
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_full_reference.png",
+          "sha256": "b8c3f8592fba9c25971c7b4514444a57c6143bbb5ce5b60c6a7b69a205f55c6f"
+        },
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_infinite_reference.jpg",
+          "sha256": "172b34902f63496fe644753eb9064c105d9cc6aef055d2d15e38a9c5fdc105e0"
+        },
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_weapon_reference.png",
+          "sha256": "2f455a4c6837e7d426efca697e006f67db12fd7fed038bac0cc2d0deef72405c"
+        }
+      ],
+      "reviewer": "central_independent"
+    },
+    {
+      "entity_id": "dinh_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7dee4e0e-a992-45a6-abda-79ce821a7636.png",
+      "sha256": "7c3485787dc8d7bac25eb915443f89ea7de0cb89d312036255e601640df11725",
+      "reviewed_utc": "2026-11-20T04:45:36+00:00",
+      "verdict": "candidate_requires_correction",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre la référence finale et le concept entier : visière rouge, épaule rouge droite anatomique, radio à gauche et cuisse gauche sanglée reconnaissables. Deux mains vides et deux jambes, silhouette entière orientée en trois-quarts vers la droite.",
+        "Erreur d’asymétrie de ceinture confirmée : le groupe principal de grosses poches bleues est à gauche anatomique sur la référence finale (côté radio, droite de l’image), mais devient dominant à droite anatomique sur V01 (sous l’épaule rouge, gauche de l’image). Une correction ciblée est nécessaire ; V01 doit rester conservée sans être préférée.",
+        "Le concept officiel sert uniquement à compléter les tibias et bottes occultés par le cadrage final. Ces volumes ne sont pas certifiés conformes au modèle final ; les accessoires et couleurs visibles du rendu final restent la référence prioritaire.",
+        "L’aperçu coloré autour du corps ne démontre pas un fond opaque : quatre points hors silhouette testés ont un alpha nul. Aucun contact alpha >16 au cadre ; détails des mains, plaques et franges encore à valider."
+      ],
+      "required_followup": [
+        "Valider les asymétries et les détails du modèle final ; obtenir une référence finale entière des jambes avant certification."
+      ],
+      "reference_reviewed": [
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_reference.png",
+          "sha256": "afa1b4c426ec551dd3b51e6051a3f3631fd8f365e72a921e8912d53d7e599daf"
+        },
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dinh_infinite_concept_reference.png",
+          "sha256": "4e5ed8e3c3a7a780ea485a3e64fc4b23ef9691f4959649facb11a72fae33efcc"
+        }
+      ],
+      "reviewer": "central_independent",
+      "preferred_for_scope": false
+    },
+    {
+      "entity_id": "eklund_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-fac749bc-482b-4b3c-ae24-4683dc0712d6.png",
+      "sha256": "49d4cfd47f1bfea4c3ce608a9168916c1cff206e7024b18dbe3aa524bf24ca4d",
+      "reviewed_utc": "2026-11-20T04:45:36+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre la référence finale et le concept entier : visière bleue large, camouflage vert, boîtier pectoral argenté, cartouches dorées et rouges, épaule droite volumineuse et renfort gauche distinct reconnaissables. Deux mains vides et deux jambes entières.",
+        "Les jambes sous le cadrage de la référence finale sont complétées à partir du concept officiel ; un concept n’est pas le modèle final, donc les tibias et les bottes restent non certifiés. Les petits accessoires, le nombre et l’alignement des cartouches et les doigts demandent validation rapprochée.",
+        "Pose de trois-quarts vers la droite, sans coupe franche. L’aperçu gris/vert de fond n’établit pas une opacité : quatre échantillons hors silhouette sont alpha 0. Les franges et une réserve verticale plus ample restent à prévoir avant animation."
+      ],
+      "required_followup": [
+        "Valider les asymétries et les détails du modèle final ; obtenir une référence finale entière des jambes avant certification."
+      ],
+      "reference_reviewed": [
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/eklund_infinite_reference.png",
+          "sha256": "acc50d4d636a9a8d60f908b8aa4d0b7b4555b714bfa61001884b4089c8d6e159"
+        },
+        {
+          "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/eklund_infinite_concept_reference.png",
+          "sha256": "1286d7aa47ed0963bc3ac9b9f65de7ecad8bfa901b3283222f221f3da3043c68"
+        }
+      ],
+      "reviewer": "central_independent"
+    },
+    {
+      "entity_id": "colony_single_body_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-741fa77d-b36a-4ba0-a06c-9e7d7ba83c19.png",
+      "sha256": "975d242adbb870583402e4431650e6c27642d6150ce60a466e81367b94104e80",
+      "reviewed_utc": "2026-11-20T04:47:46+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre le portrait officiel de la paire Colony : la sortie représente un seul corps inspiré du sujet au premier plan, avec armure noir/bleu, tête anguleuse à lumières rouges, canon vert à droite anatomique et bouclier à gauche. Elle n’introduit pas de nom individuel pour ce corps.",
+        "Le nom historique du fichier local de référence contient hunter_captain, mais le contenu inspecté est bien le portrait de Colony. La classe Hunter Captain est une unité distincte et ne doit pas être utilisée pour couvrir cette identité. Aucun personnage supplémentaire n’est compté dans ce fichier.",
+        "Les jambes, les pieds, le revers des plaques et les volumes masqués dans le portrait sont reconstruits. Les tubes du canon, les détails des vers et les plaques sont réinterprétés ; leur présence ne constitue pas une certification 1:1 du modèle.",
+        "Deux jambes et deux bras-équipements distincts observés. Aucun pixel alpha >16 ne touche le cadre ; la pointe dorsale reste à seulement 6 px du bord supérieur. Les régions cachées et les contours doivent être contrôlés avec davantage de vues avant animation."
+      ],
+      "required_followup": [
+        "Compléter les références de Colony pour les jambes, le dos et les pointes ; accroître la marge supérieure et valider les asymétries du canon et du bouclier."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_hunter_captain_hw2_reference.png",
+        "sha256": "dcf3be822e058e0832c6ee5dfd898ff520aebddfd34cee21819e47592d917418"
+      },
+      "reviewer": "central_independent"
+    },
+    {
+      "entity_id": "tovarus_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-9a1203cb-2845-447b-bc26-96210394267f.png",
+      "sha256": "4deb87993492ccabb65e2fad0a388ca5bb0a369421a08165767bd37a7b7b9754",
+      "reviewed_utc": "2026-11-20T04:48:37+00:00",
+      "verdict": "candidate_with_reservations",
+      "observed_facing": "right_three_quarter",
+      "notes": [
+        "Revue centrale indépendante contre le rendu officiel corps entier : casque ouvert à hautes pointes, barbe brune, armure noire et rouge et canon lourd tenu par sa poignée reconnaissables. Un seul Jiralhanae ; deux bras et deux jambes observés, bouche du canon, pointes et pieds visibles.",
+        "Le grand marquage pectoral reste sur la plaque gauche anatomique comme dans la référence. La mécanique fine du canon, sa poignée, les doigts et les traits du visage sont réinterprétés et demandent un contrôle rapproché ; aucun modèle 1:1 n’est certifié.",
+        "Orientation de trois-quarts vers la droite. Les pointes du casque et le bas des pieds restent très proches du cadre ; la nouvelle pose devra recevoir une réserve plus ample avant déclinaison en animation."
+      ],
+      "required_followup": [
+        "Comparer le canon et ses pointes au modèle final, contrôler les doigts et le visage, puis produire un profil strict avec marges adaptées."
+      ],
+      "reference_reviewed": {
+        "path": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_full_reference.png",
+        "sha256": "3ef266b30e71d5e7b46184d82470deba0d5f1e96d2bac66e77f3799915e30fa9"
+      },
+      "reviewer": "central_independent"
+    }
+  ]
+}

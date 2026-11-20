@@ -1,13 +1,20 @@
 {
-  "scope": "Corpus V1/V2/V3/V4 et livraison V5 de gardes statiques et profils Boss Battle ; archive V2 reconstituable en deux parties",
-  "source_checkpoint_inventory_sha256": "ffd1266c475d20fef9f5b5132462f7c339a054c68dd5f6741cb79078ab957a97",
+  "scope": "Corpus V1 à V5 préservé et livraison V6 de personnages d’extension ; 24 fiches de gameplay de base inchangées, catalogue d’art séparé, Warden V5 réutilisé explicitement ; archive V2 reconstituable en deux parties",
+  "source_checkpoint_inventory_sha256": "1646174a89ed6ab2cdfa3bde32ad3357a59de690f4c707b2acf6268944fc46a0",
   "coverage": {
     "fighters_illustrated": 24,
     "roster": 24,
     "fighter_pose_pngs": 50,
     "boss_pngs": 21,
     "stage_pngs": 2,
-    "total_candidate_pngs": 73,
+    "expansion_character_pngs": 17,
+    "expansion_catalog_entries": 34,
+    "expansion_catalog_entries_with_visual": 17,
+    "expansion_catalog_entries_without_visual": 17,
+    "expansion_catalog_entries_with_reused_visual": 1,
+    "character_catalog_total_entries_including_base": 58,
+    "character_catalog_entities_with_visual_including_base": 41,
+    "total_candidate_pngs": 90,
     "wave4_attempts": 29,
     "wave4_pngs": 15,
     "wave4_new_fighter_ids": 12,
@@ -25,7 +32,25 @@
     "wave5_generation_failures": 11,
     "wave5_automatic_generation_rejections": 11,
     "wave5_unique_fighters_with_guard_candidates": 23,
-    "wave5_unique_boss_entities_with_candidates": 19
+    "wave5_unique_boss_entities_with_candidates": 19,
+    "expansion_catalog_entries_with_new_visual": 16,
+    "wave6_generation_attempts": 56,
+    "wave6_successful_generation_attempts": 17,
+    "wave6_generation_failures": 39,
+    "wave6_automatic_generation_rejections": 39,
+    "wave6_generated_pngs": 17,
+    "wave6_generated_expansion_pngs": 17,
+    "wave6_generated_guard_pngs": 0,
+    "wave6_unique_expansion_entities_with_new_candidates": 16,
+    "wave6_expansion_entries_reusing_prior_asset": 1,
+    "expansion_catalog_entries_with_preferred_visual": 16,
+    "expansion_catalog_entries_requiring_correction_only": 1,
+    "expansion_entries_with_combat_brief": 34,
+    "expansion_entries_with_new_combat_proposals": 33,
+    "expansion_proposed_specials": 132,
+    "expansion_proposed_supers": 33,
+    "expansion_proposed_finishers": 33,
+    "expansion_short_story_proposals": 33
   },
   "files": [
     {
@@ -35,8 +60,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3173,
-      "sha256": "7aaf7a8cc52c09f153c01b9e445b7fb3530ca6b6576b1c4bfe291f71a45f8db2"
+      "bytes": 3431,
+      "sha256": "bb9e09aca7f52e50cd4f928318d7d6f512a340b93c1a18e65a65e4a0a8e2cd9f"
     },
     {
       "path": "README_V2.md",
@@ -57,6 +82,11 @@
       "path": "README_V5.md",
       "bytes": 3173,
       "sha256": "7aaf7a8cc52c09f153c01b9e445b7fb3530ca6b6576b1c4bfe291f71a45f8db2"
+    },
+    {
+      "path": "README_V6.md",
+      "bytes": 3431,
+      "sha256": "bb9e09aca7f52e50cd4f928318d7d6f512a340b93c1a18e65a65e4a0a8e2cd9f"
     },
     {
       "path": "assets/bosses_wave5/boss_abomination_hw2_profile_v01.png",
@@ -424,6 +454,91 @@
       "sha256": "15d62265ee9ddc111bc94b988649278547b0980a685a140415227e1daf2ca3b2"
     },
     {
+      "path": "assets/characters_wave6/colony_single_body_hw2_initial_right_v01.png",
+      "bytes": 1707424,
+      "sha256": "975d242adbb870583402e4431650e6c27642d6150ce60a466e81367b94104e80"
+    },
+    {
+      "path": "assets/characters_wave6/dinh_infinite_initial_right_v01.png",
+      "bytes": 2089481,
+      "sha256": "7c3485787dc8d7bac25eb915443f89ea7de0cb89d312036255e601640df11725"
+    },
+    {
+      "path": "assets/characters_wave6/dutch_odst_initial_right_v01.png",
+      "bytes": 869217,
+      "sha256": "3cac3de02d62168534a15cefcec0553b2ce92a5ff3802c894efc6b09558d2aeb"
+    },
+    {
+      "path": "assets/characters_wave6/eklund_infinite_initial_right_v01.png",
+      "bytes": 2044383,
+      "sha256": "49d4cfd47f1bfea4c3ce608a9168916c1cff206e7024b18dbe3aa524bf24ca4d"
+    },
+    {
+      "path": "assets/characters_wave6/flood_human_h3_initial_right_v01.png",
+      "bytes": 1159489,
+      "sha256": "797977d2db5522459e9301ea199666380651edd0a56e6e02731338e14628bf6a"
+    },
+    {
+      "path": "assets/characters_wave6/flood_human_h3_initial_right_v02.png",
+      "bytes": 1526949,
+      "sha256": "878582f35c0c1fdc86aa6c4c8bccb0e06df7360e92f6aa573b7f7fb4f0773c92"
+    },
+    {
+      "path": "assets/characters_wave6/forge_hw_initial_right_v01.png",
+      "bytes": 1246915,
+      "sha256": "fadb78c8539a4e7b314e8312796ee34e10b21885e78a29a6d0145d9c36bfbdfe"
+    },
+    {
+      "path": "assets/characters_wave6/fred_h5_initial_right_v01.png",
+      "bytes": 950399,
+      "sha256": "0f668d49dae5ae2abd7a5f360fb498e267496730e0a633d9ae95f2199e01b9aa"
+    },
+    {
+      "path": "assets/characters_wave6/harbinger_infinite_initial_right_v01.png",
+      "bytes": 1364229,
+      "sha256": "a1e6254be07ae7e7e2a4866a7a57cb29d55c8e691b3c1f6363c5984ce4edc3e9"
+    },
+    {
+      "path": "assets/characters_wave6/hyperius_infinite_initial_right_v01.png",
+      "bytes": 1563950,
+      "sha256": "dabe8885692f415378bb368bebc334912ab1e0448693cc8326fd27f0248c0596"
+    },
+    {
+      "path": "assets/characters_wave6/jackal_major_h3_initial_right_v01.png",
+      "bytes": 1278087,
+      "sha256": "0616b13218f3c1a9480cb54ce4b791e0e393583c3fe175344ca6db8cd8c836a3"
+    },
+    {
+      "path": "assets/characters_wave6/ripa_hw1_initial_right_v01.png",
+      "bytes": 1396493,
+      "sha256": "5817ebb18951879804b005ea520eee6a1bfb4f5552b3240535cc96d6c410b120"
+    },
+    {
+      "path": "assets/characters_wave6/sesa_h2_initial_right_v01.png",
+      "bytes": 1362686,
+      "sha256": "801b228c4d43a551938cfb76e2c5dbac32afb3656ef02dee42f9cce68dffdd13"
+    },
+    {
+      "path": "assets/characters_wave6/tovarus_infinite_initial_right_v01.png",
+      "bytes": 1601534,
+      "sha256": "4deb87993492ccabb65e2fad0a388ca5bb0a369421a08165767bd37a7b7b9754"
+    },
+    {
+      "path": "assets/characters_wave6/vale_h5_initial_right_v01.png",
+      "bytes": 1718254,
+      "sha256": "c693b9d73a1e1747e70307dd016ff42a7a31d07d2b02f9dac79a37ff3f22ce38"
+    },
+    {
+      "path": "assets/characters_wave6/voridus_hw2_initial_right_v01.png",
+      "bytes": 2129878,
+      "sha256": "4e5e8793aa344957682b0c08fbecd9c3afcc1b8144f8b9d4dbf1c4b8adab610e"
+    },
+    {
+      "path": "assets/characters_wave6/yapyap_hw2_initial_right_v01.png",
+      "bytes": 1739552,
+      "sha256": "6d4b8e2f0bf05eeb3af753171277e7bcf78b3c992e69cdab71742a6d1d6d5ee3"
+    },
+    {
       "path": "data/animation_plan.csv",
       "bytes": 66235,
       "sha256": "b0e11f4cdf9ec2b9216fb20cfc35796bc671affe6b140faabc50af56a095ac0e"
@@ -435,8 +550,8 @@
     },
     {
       "path": "data/asset_manifest.json",
-      "bytes": 1014525,
-      "sha256": "23172b6f4ccffd6877d0ee66b5cc79efda9c06d2760ca3e1052850d8dc427137"
+      "bytes": 1462401,
+      "sha256": "2a4494e54f2749e196a4a9b39df7b88de568d7b43a0828aa65861ed1bd4cfda6"
     },
     {
       "path": "data/bosses.json",
@@ -450,13 +565,23 @@
     },
     {
       "path": "data/characters_visual_inventory.csv",
-      "bytes": 70596,
-      "sha256": "1c56a895b4a217f2f2ce5864fb57bc7161aa9444bcbdce05eadfae037a4271cc"
+      "bytes": 70645,
+      "sha256": "78346b6872357a57758b2b9505c404e07f52f256d31afac1f3b1edc332f4e7ee"
     },
     {
       "path": "data/delivery_counts.json",
-      "bytes": 2743,
-      "sha256": "4b83dbe5625fdc0c8f763def5c26a438860012222290c6e1a0712cb7ff96a1ae"
+      "bytes": 3936,
+      "sha256": "abc29cc668d3300e00013cedf30d0c1cff58eb2ed76d5badc6a41566f4d79e36"
+    },
+    {
+      "path": "data/expansion_characters.json",
+      "bytes": 205133,
+      "sha256": "6172106a9c1d68c1a90275a355f7e0bf3d95d61ea77b79a766974b348fe10c09"
+    },
+    {
+      "path": "data/expansion_characters_visual_inventory.csv",
+      "bytes": 67877,
+      "sha256": "8f5fca14e0651765a267411d6f9f76e2852824393487da6238a435cb4ccea776"
     },
     {
       "path": "data/fighter_sources.json",
@@ -524,6 +649,11 @@
       "sha256": "c3bce7581ace914ed5649522af1d1750bc930682ba1b90f3b3fbfebfebab3982"
     },
     {
+      "path": "docs/HALO_COMBATS_PERSONNAGES_V6.md",
+      "bytes": 126451,
+      "sha256": "d805949ac0045078213ca636a5b8beb173da7c2b1d592a9bdd14560e13761cf9"
+    },
+    {
       "path": "docs/HALO_COMBATS_PRODUCTION_V1.xlsx",
       "bytes": 57047,
       "sha256": "1d0a817c64fbc279d7fc2c1febd222652cf52f4cb7aac524ebbb5af7e547676d"
@@ -532,6 +662,11 @@
       "path": "docs/SOURCES_BOSS_V5.md",
       "bytes": 29539,
       "sha256": "811b8aae9c60b818ca674fcf2566d940a134a840308d25573910b2ccbd640ef2"
+    },
+    {
+      "path": "docs/SOURCES_PERSONNAGES_V6.md",
+      "bytes": 20001,
+      "sha256": "15d64392abb5bfe69b6072e7162de82e99a0c568a13eb32c934700b75d11f760"
     },
     {
       "path": "docs/build_bible.py",
@@ -872,6 +1007,196 @@
       "path": "work/wave5/verify_wave5.py",
       "bytes": 12262,
       "sha256": "b152ca4e1496e763cdc81ff113592e9fad67561610b8d6cee6429e0f7de9c810"
+    },
+    {
+      "path": "work/wave6/README_V5_before_wave6.md",
+      "bytes": 3173,
+      "sha256": "7aaf7a8cc52c09f153c01b9e445b7fb3530ca6b6576b1c4bfe291f71a45f8db2"
+    },
+    {
+      "path": "work/wave6/alien_catalog.json",
+      "bytes": 81975,
+      "sha256": "6693fba0e34db18488e3f9b1945267c153fb18d6afb86e68e34d9b282765008a"
+    },
+    {
+      "path": "work/wave6/alien_catalog_definitions.json",
+      "bytes": 42098,
+      "sha256": "89ec3d4c695402766fad13caa608de4c5edaabf8984f808239f87be0d937edc7"
+    },
+    {
+      "path": "work/wave6/alien_fetch_jobs.json",
+      "bytes": 1052,
+      "sha256": "9aa7db23cc76923d8f9c224bb2806e60e0ba605528d5504068ae457e218df2df"
+    },
+    {
+      "path": "work/wave6/alien_fetch_jobs2.json",
+      "bytes": 721,
+      "sha256": "0043a5437e6b0aa62d4c7e179eea9cc7e754cefb0246546349ca3d1bfaa34942"
+    },
+    {
+      "path": "work/wave6/alien_fetch_jobs3.json",
+      "bytes": 466,
+      "sha256": "37071f02947f1d2dce29cdd582f6c9ab2be721912396df797c4af45e2b7fb0fb"
+    },
+    {
+      "path": "work/wave6/alien_fetch_jobs4.json",
+      "bytes": 308,
+      "sha256": "0d6dd5bfc449b1c7e000fb0dd61a2295f061530e4fc32a39a303218835451fa8"
+    },
+    {
+      "path": "work/wave6/alien_fetch_jobs5.json",
+      "bytes": 259,
+      "sha256": "ca589a1a6f5805df74cae563be4721c84884d30b7dcef42e7e5f88f65e8eebfb"
+    },
+    {
+      "path": "work/wave6/alien_fetch_jobs6.json",
+      "bytes": 174,
+      "sha256": "7322a9aad25b559461db6dfe76547d23e922246925971757a3d98001da34494a"
+    },
+    {
+      "path": "work/wave6/alien_generation_jobs.json",
+      "bytes": 48114,
+      "sha256": "c1cc42b55ab1aa9313d03a8ba5891979d0254af1f4d20a31a6e3e3eefcf9c08f"
+    },
+    {
+      "path": "work/wave6/baseline_repository_files.json",
+      "bytes": 31973,
+      "sha256": "903f8feed266c7d03c4111ec92af6b17b299ed7a55fbc7eaaabe43742caa9f44"
+    },
+    {
+      "path": "work/wave6/baseline_v5.json",
+      "bytes": 26607,
+      "sha256": "78e9938a271911d473b8a9f0462e3f6c25f7a46392aa21eb6b402d3bf5a9ff05"
+    },
+    {
+      "path": "work/wave6/colony_captain_excluded_proposal.json",
+      "bytes": 4615,
+      "sha256": "de5837b50f8448d2f4f693ec57e1db154801d0823b9a1b7b93e76009517b13fe"
+    },
+    {
+      "path": "work/wave6/consolidate_wave6.py",
+      "bytes": 38238,
+      "sha256": "5b2ac5999b88462593f20f59a551759e688d358635c1f38ef61bbaab1efbabba"
+    },
+    {
+      "path": "work/wave6/consolidation_summary.json",
+      "bytes": 166808,
+      "sha256": "31fc63c993777ca47f892af66848da9c77dd51a5c3d18102c341dd83e318e131"
+    },
+    {
+      "path": "work/wave6/fetch_alien_references.py",
+      "bytes": 2735,
+      "sha256": "b43c6c1dd3927efa33ba69fca3ef7b4a9b0e15bc6f2f010ed354904a690f1f5f"
+    },
+    {
+      "path": "work/wave6/fetch_root_references.py",
+      "bytes": 3432,
+      "sha256": "d3e3cb3aa978ba16d8670c2933d1c2efc8efe2aaee0fcd409055fc2887e64ec5"
+    },
+    {
+      "path": "work/wave6/fetch_unsc_references.py",
+      "bytes": 2145,
+      "sha256": "7d9a46fc3b106d66a6f9044663a59c6ca032edbfde9e5a0c6725661d979f1e95"
+    },
+    {
+      "path": "work/wave6/finalize_alien_catalog.py",
+      "bytes": 13465,
+      "sha256": "6c0431626113c8009f00ff59a00510a36e537198f4526d5fa290b6caa183e414"
+    },
+    {
+      "path": "work/wave6/generation_results.json",
+      "bytes": 212583,
+      "sha256": "2853d3a08beaaa3942ac121477118689e6a4b4cec1eaa9ddf62cb2d548f49036"
+    },
+    {
+      "path": "work/wave6/generation_results_aliens.json",
+      "bytes": 94340,
+      "sha256": "856e4c28adc822360278a359843c30f3791efbbba162d62b55e0a7bb9b6b965c"
+    },
+    {
+      "path": "work/wave6/generation_results_root.json",
+      "bytes": 31166,
+      "sha256": "572951dcf511e973fe27c42557b2aff5537d6441201c2a722aaf3e3fd5c478f4"
+    },
+    {
+      "path": "work/wave6/generation_results_unsc.json",
+      "bytes": 86668,
+      "sha256": "9a81d6eae07261c42ff1b9ecd8302409712b29ce950d34715fcd706023a8f2b7"
+    },
+    {
+      "path": "work/wave6/merge_generation_journals.py",
+      "bytes": 4063,
+      "sha256": "57127a8cf0518580035c717dd1c0bc224a5cc78460a0c2235def4458e0c36336"
+    },
+    {
+      "path": "work/wave6/merge_qa_wave6.py",
+      "bytes": 6224,
+      "sha256": "604acfd0ffd0ccf9ea5647757f90787cb28b2b16e0adab4be6690940b1d28a83"
+    },
+    {
+      "path": "work/wave6/qa_aliens.json",
+      "bytes": 20325,
+      "sha256": "8363c384cc724b7b8b7a8a7f57e9f869cc00cc593f69ec1f007dd6e29e8140e9"
+    },
+    {
+      "path": "work/wave6/qa_central_reviews.json",
+      "bytes": 30885,
+      "sha256": "4ac86d29e1ef65607adac21a85a6c0fd08c13129f57c892f563c93a7614e063d"
+    },
+    {
+      "path": "work/wave6/qa_root.json",
+      "bytes": 8349,
+      "sha256": "c42621bc384528da2a66d4e7be85a6bbcf66f1a42d2902fc12ea6763a4e2fe09"
+    },
+    {
+      "path": "work/wave6/qa_unsc.json",
+      "bytes": 7564,
+      "sha256": "81c45bda6e03ff036d7341e4908181d2c1e137ea25a39c93224e4fabded226da"
+    },
+    {
+      "path": "work/wave6/qa_wave6.json",
+      "bytes": 152378,
+      "sha256": "b46e7e6ad0eb231b4cedcb348dadcc7efc33e2c408cc1be863f85145531f4673"
+    },
+    {
+      "path": "work/wave6/reference_fetch_log.json",
+      "bytes": 12624,
+      "sha256": "e273e23bb40a33898ae70cf62bb27c28628106761e2873bd69c44135444e8f7f"
+    },
+    {
+      "path": "work/wave6/root_catalog.json",
+      "bytes": 20310,
+      "sha256": "fe639cfb8c5780a433e7eb51776074fe8c08c92c366816bb914ff2082a9af916"
+    },
+    {
+      "path": "work/wave6/root_generation_jobs.json",
+      "bytes": 13232,
+      "sha256": "327abd0de05add6b5b3d4059289613f8ae442641f6e9eef5e5c61538c68b1190"
+    },
+    {
+      "path": "work/wave6/root_image_metrics.json",
+      "bytes": 2119,
+      "sha256": "ba2a5854df43b9ac2f1cae9f2af6de51e86b76c87e28cedb2a66e1843b303864"
+    },
+    {
+      "path": "work/wave6/unsc_catalog.json",
+      "bytes": 87913,
+      "sha256": "3d1f0de062a53f3e1f6261dc4251ac5dcf131ff80faf5001da80a6d2e773afdf"
+    },
+    {
+      "path": "work/wave6/verification.json",
+      "bytes": 22369,
+      "sha256": "ffd7ac83c594bb819108db924a9d051e3fa8821e0db20699a8790807f1e4eee0"
+    },
+    {
+      "path": "work/wave6/verify_wave6.py",
+      "bytes": 15984,
+      "sha256": "bb792ee17c081ddbf862b1ad37c4075321936326b6a82c3f8f9832d5bd8091a1"
+    },
+    {
+      "path": "work/wave6/yapyap_reference_followup.json",
+      "bytes": 2190,
+      "sha256": "8dba97d081e70742f92b5c197b92d6b19aeb6acf84279e8f6bbb0276d1185bff"
     },
     {
       "path": "work/world/bosses.json",

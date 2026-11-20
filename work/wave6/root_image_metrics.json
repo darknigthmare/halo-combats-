@@ -1,0 +1,119 @@
+[
+  {
+    "id": "harbinger_infinite",
+    "variant": 1,
+    "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-f742b47a-662a-462c-9d88-94e0753c1653.png",
+    "sha256": "a1e6254be07ae7e7e2a4866a7a57cb29d55c8e691b3c1f6363c5984ce4edc3e9",
+    "width": 787,
+    "height": 1998,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixels": 957252,
+    "opaque_pixels": 1359,
+    "bbox_gt16": [
+      37,
+      17,
+      754,
+      1924
+    ],
+    "margins_gt16": [
+      37,
+      17,
+      33,
+      74
+    ],
+    "center_top_pixel": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "upper_left_halo_sample": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "flood_human_h3",
+    "variant": 1,
+    "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7c83b6f8-dcfc-4e50-a688-44c0ea026537.png",
+    "sha256": "797977d2db5522459e9301ea199666380651edd0a56e6e02731338e14628bf6a",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixels": 1078550,
+    "opaque_pixels": 247,
+    "bbox_gt16": [
+      224,
+      15,
+      1154,
+      1184
+    ],
+    "margins_gt16": [
+      224,
+      15,
+      158,
+      15
+    ],
+    "center_top_pixel": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "upper_left_halo_sample": [
+      102,
+      80,
+      44,
+      252
+    ]
+  },
+  {
+    "id": "flood_human_h3",
+    "variant": 2,
+    "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-8d4fe570-1f07-46c1-ba05-6ea1edc060cb.png",
+    "sha256": "878582f35c0c1fdc86aa6c4c8bccb0e06df7360e92f6aa573b7f7fb4f0773c92",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "transparent_pixels": 1262097,
+    "opaque_pixels": 0,
+    "bbox_gt16": [
+      449,
+      36,
+      1120,
+      990
+    ],
+    "margins_gt16": [
+      449,
+      36,
+      416,
+      34
+    ],
+    "center_top_pixel": [
+      151,
+      132,
+      95,
+      0
+    ],
+    "upper_left_halo_sample": [
+      56,
+      48,
+      29,
+      0
+    ]
+  }
+]

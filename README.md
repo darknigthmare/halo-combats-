@@ -1,36 +1,38 @@
-# Halo Combats — livraison V5 : gardes et Boss Battle
+# Halo Combats — livraison V6 : personnages des extensions
 
-Mode annexe de combat 2D pour Darknigthmare. Mise à jour : 19 novembre 2026 à 23:18 (heure de Paris, UTC+01:00).
+Mise à jour : 20 novembre 2026 à 05:57 (heure de Paris, UTC+01:00).
 
-## État livré
+La V6 ajoute **17 PNG distincts** : **17 visuels de personnages/classes d'extension** et **0 garde du roster de base**.
 
-**24/24 combattants possèdent un visuel de référence ; 23/24 possèdent aussi une garde statique candidate.** Les visuels disponibles couvrent **20/20 rencontres Boss Battle**.
+Le catalogue d'extensions comporte **34 entrées**. **17/34 disposent d'un visuel candidat**, dont **1 réutilisation explicite du Warden Eternal V5**. Cette réutilisation ne compte pas comme nouvelle génération. Parmi les entrées illustrées, **16 possèdent un candidat préféré**, et **1 entrée n’a que des sorties à corriger**. Les **24 fiches de combattants de base** conservent leurs spécifications ; les extensions sont documentées séparément et ne sont pas automatiquement intégrées au prototype.
 
-Pour les rencontres Boss Battle, **17/20 disposent d'au moins une silhouette complète candidate** ; **3 rencontres n'ont qu'une présence ou un élément partiel**. Les portées exactes figurent dans l'inventaire et le rapport V5.
+La garde du Major reste manquante ; tous les refus sont conservés. Le roster de base possède **23/24 gardes statiques**.
 
-La V5 ajoute **43 PNG** : 23 gardes et 20 profils de boss/événements. Les versions précédentes restent disponibles.
+L’annexe de bible développe **33 propositions de combat d’extension** : **132 pistes de spéciaux**, **33 supers**, **33 finishers** et **33 parcours courts proposés**. Ces adaptations sont originales, non canoniques et non implémentées ; elles ne constituent pas des movesets complets ni équilibrés.
 
-Garde encore manquante : **John 117 le Major**, après 3 échecs de génération conservés. Sa pose de référence antérieure reste disponible. La V5 totalise 54 tentatives, dont 11 échecs ; l'historique cumulé conserve 72 échecs. Le Locust V02 à quatre pattes est préféré ; le V01 reste archivé dans les candidats avec son défaut anatomique signalé.
+| Mesure | État |
+|---|---:|
+| Tentatives de génération V6 | 56 |
+| PNG générés V6 | 17 |
+| Échecs V6 conservés | 39 |
+| Images candidates cumulées, variantes comprises | 90 |
+| Entrées base + extensions documentées | 58 |
+| Entrées base + extensions avec visuel | 41 |
+| Fiches de gameplay du roster de base | 24 |
+| Clips d'animation livrés | 0 |
 
-| Catégorie | Fichiers disponibles | Portée |
-|---|---:|---|
-| Poses de combattants | 50 | Références antérieures et gardes statiques |
-| Gardes statiques comprises ci-dessus | 23 | 23/24 combattants |
-| Profils et présences Boss Battle | 21 | 20/20 rencontres ; portée complète ou partielle précisée |
-| Masters de décors | 2 | Couches parallaxe indépendantes à produire |
-| Tous candidats visuels | 73 | Total de fichiers distincts |
-| Clips d'animation livrés | 0 | Les poses fixes ne sont pas des clips |
+**Entrées d'extension encore sans image :** Kelly-087, Linda-058, Jameson Locke, Holly Tanaka, Veronica Dare, Kojo « Romeo » Agu, Michael « Mickey » Crespo, Commandante Laurette Agryna, N’tho ’Sraom, Usze ’Taham, Let ’Volir, Skirmisher Champion — classe Reach, Grunt Heavy — classe spécialisée Reach, Pavium, Bassus, Ur-Didact, Chevalier prométhéen — standard
 
-Les visuels restent candidats, non certifiés 1:1. Une garde ne constitue pas une boucle animée ; un profil de boss ne constitue pas une rencontre jouable. Cette livraison ne modifie pas le prototype.
+Les images sont fixes, non certifiées 1:1 et non intégrées au moteur. Les réserves d'anatomie, de cadrage, de transparence et de références sont conservées pour chaque version. Les classes anonymes, le représentant de Colony et les personnages à priorité Boss Battle sont explicités dans le catalogue. Le backlog « autres continuités » reste à énumérer ; une couverture des 34 entrées ne représente pas tous les personnages de Halo.
 
-## Ouvrir les livrables
+## Livrables
 
-- [Gardes V5](assets/characters_wave5/) et [profils Boss Battle V5](assets/bosses_wave5/).
-- [Suivi détaillé V5](docs/HALO_COMBATS_GARDES_BOSS_V5.md), [inventaire des personnages](data/characters_visual_inventory.csv) et [inventaire Boss Battle](data/bosses_visual_inventory.csv).
-- [Références Boss Battle](docs/SOURCES_BOSS_V5.md) et [preuves de vérification V5](work/wave5/verification.json).
-- [Manifeste courant](data/asset_manifest.json), [compteurs](data/delivery_counts.json), [journal V5](work/wave5/generation_results.json) et [QA V5](work/wave5/qa_wave5.json).
-- [Livraison V4](README_V4.md), [V3](README_V3.md) et [V2](README_V2.md) : états historiques conservés.
-- [Bible DOCX V1](docs/HALO_COMBATS_BIBLE_V1.docx), [bible Markdown V1](docs/HALO_COMBATS_BIBLE_V1.md) et [classeur V1](docs/HALO_COMBATS_PRODUCTION_V1.xlsx) : spécifications et état daté ; les registres JSON/CSV portent le suivi visuel courant.
-- [Prototype indépendant](prototype/halo_combats_prototype.html) : entraînement, duel IA et mécanique partielle Scarab avec visuels temporaires.
+- [Visuels des personnages V6](assets/characters_wave6/).
+- [Catalogue des extensions](data/expansion_characters.json) et [inventaire visuel CSV](data/expansion_characters_visual_inventory.csv).
+- [Rapport V6](docs/HALO_COMBATS_PERSONNAGES_V6.md) et [sources V6](docs/SOURCES_PERSONNAGES_V6.md).
+- [Journal V6](work/wave6/generation_results.json), [QA V6](work/wave6/qa_wave6.json) et [vérification](work/wave6/verification.json).
+- [Compteurs courants](data/delivery_counts.json) et [manifeste des images](data/asset_manifest.json).
+- [V5 : gardes et Boss Battle](README_V5.md), [V4](README_V4.md), [V3](README_V3.md), [V2](README_V2.md).
+- [Bible V1](docs/HALO_COMBATS_BIBLE_V1.md), [bible DOCX](docs/HALO_COMBATS_BIBLE_V1.docx) et [prototype indépendant](prototype/halo_combats_prototype.html).
 
-Les animations, armes/effets manquants, collisions, comportement des boss et intégration complète restent à produire. Les rencontres événementielles conservent leur rôle narratif spécifié ; une image de Guardian n'implique pas sa destruction.
+Les rencontres Boss Battle restent au nombre de 20 dans leur registre, dont 17 avec silhouette entière candidate et 3 uniquement partielles. Leurs animations, phases et intégration restent à produire.

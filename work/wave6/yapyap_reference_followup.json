@@ -1,0 +1,37 @@
+{
+  "entity_id": "yapyap_hw2",
+  "reviewed_utc": "2026-11-20T04:40:21.350Z",
+  "primary_page": "https://jeremycook.artstation.com/projects/R4V3W",
+  "additional_primary_page": "https://news.xbox.com/en-us/2017/08/18/yapyap-destroyer-graces-halo-wars-2-xbox-one-windows-10-pc-today/",
+  "purpose": "Recherche complémentaire d’une vue officielle des pieds après la génération depuis un portrait recadré.",
+  "images": [
+    {
+      "id": "portrait",
+      "url": "https://cdna.artstation.com/p/assets/images/images/008/757/986/medium/jeremy-cook-jeremy-cook-hw2-006.jpg?1515103353",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_yapyap_review/portrait.jpg",
+      "width": 1008,
+      "height": 1237,
+      "sha256": "f279436206196e6f892fc46e28ad1b0a5cf3fcc6128ca4453199d3f7371490d2",
+      "generated": false,
+      "inspected": true
+    },
+    {
+      "id": "mcc_keyart",
+      "url": "https://cdnb.artstation.com/p/assets/images/images/030/165/287/medium/jeremy-cook-mcc-desktop-yap-yap-hd.jpg?1599790311",
+      "local_file": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_yapyap_review/mcc_keyart.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1b7fc4a4498b38e13bd906b82831430cc6a3d6e484f525bf6b95fc75261c0483",
+      "generated": false,
+      "inspected": true
+    }
+  ],
+  "findings": [
+    "Le portrait signé de Jeremy Cook recadre encore davantage le bas du corps : il ne permet pas de vérifier les pieds.",
+    "Le key art MCC montre Yapyap très petit et assis au centre d’un trône ; il ne donne pas de vue anatomique exploitable des pieds.",
+    "Le candidat généré conserve une silhouette entière, mais ses pieds et le bas des jambes demeurent extrapolés. Ces deux publications ne lèvent pas la réserve de fidélité.",
+    "La recherche ne démontre pas l’absence de toute autre référence disponible ; elle documente seulement les sources inspectées pendant cette vague."
+  ],
+  "generation_change": false,
+  "required_followup": "Obtenir un rendu officiel du corps entier, des vues de production ou une capture lisible du même modèle avant validation de la géométrie inférieure."
+}

@@ -1,0 +1,1027 @@
+{
+  "wave": 6,
+  "scope": "Extension de personnages, distincte des 24 combattants du roster de base",
+  "status": "frozen_for_consolidation",
+  "updated_utc": "2026-11-20T04:55:17.080410+00:00",
+  "summary": {
+    "entries": 15,
+    "generated_character_candidates": 8,
+    "still_missing_characters": 7,
+    "attempts": 24,
+    "service_failures": 16,
+    "certified_1_to_1": 0,
+    "animated_sprites": 0
+  },
+  "entries": [
+    {
+      "id": "ripa_hw1",
+      "name": "Ripa ’Moramee",
+      "category": "Covenant et alliés",
+      "game_version": "Halo Wars (2009), incarnation de l’Arbiter du premier jeu",
+      "provenance": "Rendu de Halo Wars réhébergé par Halopedia, classé Halo Wars renders / Ripa ’Moramee ; fichier recadré par le contributeur Shazamikaze. Auteur et URL primaire absents de la fiche.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW_Render_Arbiter_Ripa_Moramee.png",
+          "image_url": "https://www.halopedia.org/images/a/a9/HW_Render_Arbiter_Ripa_Moramee.png?670c9",
+          "primary_url": null,
+          "provenance": "Rendu de Halo Wars réhébergé par Halopedia, classé Halo Wars renders / Ripa ’Moramee ; fichier recadré par le contributeur Shazamikaze. Auteur et URL primaire absents de la fiche.",
+          "sha256": "2cc8efb652fdf8121162f7317771c3926a3ae508162c1715eac57a0324cd4d10",
+          "dimensions": {
+            "width": 540,
+            "height": 560
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ripa_hw1_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ripa_hw1_reference.png",
+          "inspection_sha256": "2cc8efb652fdf8121162f7317771c3926a3ae508162c1715eac57a0324cd4d10",
+          "image_modified_locally": false,
+          "limits": "Source de 540 × 560 px, montage avec figurants et terrain. Seul Ripa au premier plan sert de référence ; gravures fines, dos et anatomie masquée non vérifiables."
+        }
+      ],
+      "visual_lock": "Arbiter massif, armure argent/brun gravée, casque pointu à plaque faciale projetée, col haut, grandes plaques de cuisses, pieds sangheilis divisés ; deux épées énergétiques bleues.",
+      "selected_representation": "Ripa seul, incarnation HW1, pose initiale de duel vers la droite ; chaque main tient une épée. Aucun mélange avec sa version HW2.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Pression de mêlée à deux lames et changement de tempo."
+      },
+      "equipment_state": "Deux épées énergétiques HW1 bleues, une par main, sans arme supplémentaire.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 1,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-7261b5b2-7a81-44b1-a711-1a5a49f9e79a.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+H — Fente jumelle : avance courte, deux contacts espacés ; le second peut être interrompu après une mauvaise distance.",
+          "214+L — Revers de l’Arbiter : pivot bas qui couvre une approche au sol, vulnérable au saut.",
+          "623+H — Lame ascendante : anti-air engagé ; récupération longue si l’adversaire reste au sol.",
+          "214+A — Garde croisée : absorbe un contact frontal contre de la jauge, puis réponse choisie ; les projections passent."
+        ],
+        "counterplay": "Sa portée de mêlée est forte mais ses fentes le laissent proche après garde. Faire manquer le premier contact, projeter la garde croisée et varier les approches aériennes.",
+        "boss_readability": "Deux lueurs séparées annoncent les deux temps de la fente ; les deux volumes de lame doivent rester distincts.",
+        "story_proposal": "Introduction : Ripa traverse une porte de confinement, allume ses deux lames et exige un duel. Rival proposé : John Forge. Fin originale : l’arène d’archives s’éteint avant de réécrire l’issue de leur affrontement historique.",
+        "super_proposed": "Jugement à deux lames : fente confirmée, croisement et recul ; un premier contact gardé empêche l’enchaînement automatique.",
+        "finisher_proposed": "Sentence de l’Arbiter : il immobilise l’arme adverse entre ses lames, un éclair masque le dernier coup, puis il rengaine. Animation de fin de manche à produire."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "sesa_h2",
+      "name": "Sesa ’Refumee",
+      "category": "Covenant et alliés",
+      "game_version": "Halo 2 (2004), graphismes Classic",
+      "provenance": "Capture du modèle de Sesa dans Halo 2 Classic, réhébergée par Halopedia ; modèle et textures du jeu, photographe initial non indiqué. ; Capture de Sesa tirant avec ses deux fusils dans Halo 2 Classic, réhébergée par Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HereticLeaderPlasmaRifle08.jpg",
+          "image_url": "https://www.halopedia.org/images/e/e0/HereticLeaderPlasmaRifle08.jpg?8a928",
+          "primary_url": null,
+          "provenance": "Capture du modèle de Sesa dans Halo 2 Classic, réhébergée par Halopedia ; modèle et textures du jeu, photographe initial non indiqué.",
+          "sha256": "dfbe9f6c51ee82829975c0a459ad277e5e48b4fc61b23524bf42dffa16b29c83",
+          "dimensions": {
+            "width": 1200,
+            "height": 1230
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_full_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_full_reference.jpg",
+          "inspection_sha256": "dfbe9f6c51ee82829975c0a459ad277e5e48b4fc61b23524bf42dffa16b29c83",
+          "image_modified_locally": false,
+          "limits": "Vue entière en trois-quarts ; textures anciennes peu définies et dos partiellement caché."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:Sesa_Firing.png",
+          "image_url": "https://www.halopedia.org/images/4/4b/Sesa_Firing.png?5e723",
+          "primary_url": null,
+          "provenance": "Capture de Sesa tirant avec ses deux fusils dans Halo 2 Classic, réhébergée par Halopedia.",
+          "sha256": "9fda73105ca1b80f88be1900369f613effed6e8fbe5157fd785c80cc39f11eda",
+          "dimensions": {
+            "width": 1280,
+            "height": 720
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_h2_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_h2_reference.png",
+          "inspection_sha256": "9fda73105ca1b80f88be1900369f613effed6e8fbe5157fd785c80cc39f11eda",
+          "image_modified_locally": false,
+          "limits": "Gros plan utilisé seulement pour masque, poitrine et double propulseur ; flashes et bas du corps occultés."
+        }
+      ],
+      "visual_lock": "Armure hérétique cuivre/orange, cou sangheili nu sombre, masque de respirateur original Classic, deux modules dorsaux bleu-gris à grilles vertes et deux fusils à plasma violets.",
+      "selected_representation": "Sesa Classic seul, deux fusils séparés sans tir. Exclure modèle Anniversary, Blur et hologrammes supplémentaires.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Contrôle des trajectoires et leurres à courte durée."
+      },
+      "equipment_state": "Deux fusils à plasma Halo 2 Classic et double pack propulseur dorsal ; aucun flash de tir.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 1,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-81454b25-c380-4c01-af23-f4754a44d72b.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+R — Feu alterné : deux tirs espacés réglables par maintien, sans couverture continue.",
+          "214+A — Holo-drone : copie visuelle à trajectoire fixe, sans collision ni dégâts ; consommation de jauge.",
+          "623+A — Poussée dorsale : saut oblique bref avec atterrissage exposé.",
+          "214+R — Tir de retrait : un pas arrière suivi d’un seul projectile bas ; perd contre une poursuite anticipée."
+        ],
+        "counterplay": "Identifier le corps solide grâce au bruit et à la phase d’apparition, attendre la récupération du propulseur et traverser l’intervalle entre les tirs.",
+        "boss_readability": "Leurre et corps réel doivent partager une animation mais conserver un indice perceptible ; aucun dégât porté par un hologramme non signalé.",
+        "story_proposal": "Introduction : Sesa coupe une transmission et entre avec ses deux fusils. Rival proposé : Thel ’Vadam dans son incarnation Halo 2. Fin originale : son message est sauvé dans l’archive, sans le déclarer survivant dans le canon.",
+        "super_proposed": "Trio de réfraction : deux leurres encadrent Sesa ; seul son tir réel peut démarrer le court enchaînement.",
+        "finisher_proposed": "Écho hérétique : les leurres cernent la cible, les tirs convergent dans un flash, puis seule la silhouette réelle demeure."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "ntho_h3",
+      "name": "N’tho ’Sraom",
+      "category": "Covenant et alliés",
+      "game_version": "Halo 3 (2007), harnais Combat bleu",
+      "provenance": "Détourage d’une capture du modèle Halo 3 réhébergé par Halopedia ; version haute définition mise en ligne par Shazamikaze.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3-N%27tho_%27Sraom.png",
+          "image_url": "https://www.halopedia.org/images/6/60/Halo3-N%27tho_%27Sraom.png?c440f",
+          "primary_url": null,
+          "provenance": "Détourage d’une capture du modèle Halo 3 réhébergé par Halopedia ; version haute définition mise en ligne par Shazamikaze.",
+          "sha256": "78868856f47f0a19cd174aabc72e6d2cf6a0b67f6431c34564fab2e39603c146",
+          "dimensions": {
+            "width": 1960,
+            "height": 2740
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_inspection.png",
+          "inspection_sha256": "9d62ddba05bdb55950e5be105e889f9cdf664da30ad889351e8632626e06a4f0",
+          "image_modified_locally": false,
+          "limits": "Vue de course en trois-quarts ; dos et prise exacte du fusil masqués en partie. L’inspection a utilisé la miniature du même fichier fournie par le site."
+        }
+      ],
+      "visual_lock": "Harnais Combat cobalt, casque étiré vers l’arrière, plaques d’épaules hautes, lumières pectorales vertes, mandibules Halo 3, fusil à plasma et carabine portée au dos.",
+      "selected_representation": "N’tho de Halo 3, fusil à plasma en main droite et carabine au dos ; une pose initiale plantée vers la droite est demandée.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Combattant mobile qui alterne pression plasma et précision."
+      },
+      "equipment_state": "Fusil à plasma Halo 3 en main droite, carabine Covenant rangée dans le dos comme dans la capture.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+R — Rafale contenue : salve courte qui chauffe progressivement l’arme.",
+          "214+A — Pas de flanc : déplacement court sans invulnérabilité totale, utilisable après un tir confirmé.",
+          "623+L — Revers montant : anti-air à faible portée, exposé si lancé trop tôt.",
+          "214+R — Passage à la carabine : préparation visible puis tir précis unique ; changement punissable au contact."
+        ],
+        "counterplay": "Faire monter la chaleur du plasma, occuper l’arrivée du pas de flanc et interrompre le changement d’arme.",
+        "boss_readability": "Le changement à la carabine doit montrer la main libérant la première arme et la prise de la seconde ; aucune arme flottante.",
+        "story_proposal": "Introduction : N’tho vérifie son relais et rejoint la ligne de duel. Rival proposé : un chef Brute de l’épreuve d’archives. Fin originale : il couvre l’évacuation de ses alliés au lieu de poursuivre un score individuel.",
+        "super_proposed": "Percée coordonnée : dash annoncé, tir de carabine puis frappe rapprochée uniquement si le tir confirme.",
+        "finisher_proposed": "Dernière couverture : N’tho désarme son adversaire, fait signe à l’équipe hors champ et l’épreuve se ferme sur un impact lumineux."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "usze_h3",
+      "name": "Usze ’Taham",
+      "category": "Covenant et alliés",
+      "game_version": "Halo 3 (2007), harnais Assault bordeaux",
+      "provenance": "Capture du modèle entier de Usze dans Halo 3, réhébergée par Halopedia. ; Capture Halo 3 rapprochée de Usze portant une carabine, réhébergée par Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H3-Usze_Taham_Portrait.png",
+          "image_url": "https://www.halopedia.org/images/9/97/H3-Usze_Taham_Portrait.png?ff5cd",
+          "primary_url": null,
+          "provenance": "Capture du modèle entier de Usze dans Halo 3, réhébergée par Halopedia.",
+          "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "dimensions": {
+            "width": 660,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "inspection_sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "image_modified_locally": false,
+          "limits": "Détourage conservant des morceaux de décor ; ne pas reprendre le fond. Orientation trois-quarts."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:UszeTaham_-_Profile.png",
+          "image_url": "https://www.halopedia.org/images/e/e7/UszeTaham_-_Profile.png?fce87",
+          "primary_url": null,
+          "provenance": "Capture Halo 3 rapprochée de Usze portant une carabine, réhébergée par Halopedia.",
+          "sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "dimensions": {
+            "width": 420,
+            "height": 640
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "inspection_sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "image_modified_locally": false,
+          "limits": "Utilisée seulement pour casque et couleurs ; cette arme alternative n’est pas mélangée avec le fusil à plasma de la pose choisie."
+        }
+      ],
+      "visual_lock": "Harnais Assault bordeaux, casque lisse arrondi sans longue crête Combat, joues gris métallisé, yeux ambre et voyants cyan/verts ; épaulières rectangulaires et pieds sangheilis divisés.",
+      "selected_representation": "Usze seul en version Halo 3, fusil à plasma en main droite de la capture entière ; aucune carabine ajoutée à cette pose.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Duel méthodique, punition et gestion de la distance."
+      },
+      "equipment_state": "Fusil à plasma Halo 3 dans la main droite ; la carabine de la seconde capture est exclue de cette pose.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "214+L — Déviation courte : contre de contact haut limité, battu par un retard ou une projection.",
+          "236+M — Entrée mesurée : pas offensif suivi d’une frappe médiane ; arrêt possible avant la frappe.",
+          "623+M — Paume de contrôle : intercepte une approche aérienne proche et remet à distance.",
+          "236+R — Tir d’arrêt : projectile unique pour arrêter une course, récupération nette à courte portée."
+        ],
+        "counterplay": "Retarder les chaînes pour faire manquer la déviation, utiliser les projections et ne pas sauter systématiquement après le tir.",
+        "boss_readability": "La posture de déviation possède une fenêtre visible et courte ; elle n’est pas une garde universelle permanente.",
+        "story_proposal": "Introduction : Usze salue l’adversaire, baisse son centre de gravité et attend le signal. Rival proposé : N’tho dans un duel d’entraînement original. Fin originale : il consigne les erreurs de l’épreuve et remet le rapport à son commandement.",
+        "super_proposed": "Réponse du maître : contre engagé suivi de trois frappes distinctes ; le déclenchement manqué laisse Usze vulnérable.",
+        "finisher_proposed": "Duel conclu : une déviation désarme la cible, une frappe précise l’écarte du cercle ; Usze clôt le salut avant l’écran de résultat."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "let_volir_hw2",
+      "name": "Let ’Volir",
+      "category": "Covenant et alliés",
+      "game_version": "Halo Wars 2 (2017), modèle cinématique Blur",
+      "provenance": "Rendu de production Blur ; armure modélisée/texturée par David Munoz Velazquez, modèle de peau Sangheili crédité à Mathieu Aerni. Réhébergement attribué Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_LetVolir_Render_1.jpg",
+          "image_url": "https://www.halopedia.org/images/2/28/HW2_LetVolir_Render_1.jpg?8ab29",
+          "primary_url": "https://www.artstation.com/artwork/2G2qY",
+          "provenance": "Rendu de production Blur ; armure modélisée/texturée par David Munoz Velazquez, modèle de peau Sangheili crédité à Mathieu Aerni. Réhébergement attribué Halopedia.",
+          "sha256": "6020607a90a87d903289ba27e50dceadc8d1355eb0f8b9f9714e18baa5f0f0bb",
+          "dimensions": {
+            "width": 1832,
+            "height": 2000
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_inspection.jpg",
+          "inspection_sha256": "b9e80fb69d0a7cf03f6ef197db43ad2e10b7ff09a196839fa253d231b7a4753b",
+          "image_modified_locally": false,
+          "limits": "Modèle cinématique sans arme ; les armes d’une future pose devront recevoir leurs propres références. Vue frontale trois-quarts, détails cachés non certifiés."
+        }
+      ],
+      "visual_lock": "Très haute crête triangulaire rouge/argent, front argent arrondi, col circulaire segmenté, poitrine rouge sombre bordée d’argent, sous-armure noire, avant-bras et tibias argentés ; silhouette allongée.",
+      "selected_representation": "Let ’Volir seul, modèle cinématique exact, garde sans arme visible. Cette sélection n’affirme pas qu’il combat toujours désarmé.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Commandant de placement, feintes et déplacements à engagement."
+      },
+      "equipment_state": "Garde sans arme visible, armure cinématique Blur HW2 ; épée et fusil ne sont pas ajoutés sans référence de pose.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "214+A — Repositionnement : glissade courte avec récupération visible, sans traversée gratuite de l’adversaire.",
+          "236+M — Frappe d’autorité : coup de paume avançant qui repousse sans relancer en boucle.",
+          "623+H — Arrêt du pont : garde haute engagée puis contre anti-air si contact.",
+          "236+A — Marque tactique : cible un emplacement pour une frappe retardée, annulée si Let est touché avant confirmation."
+        ],
+        "counterplay": "Pression rapprochée et poursuite de la glissade ; quitter la marque tactique pendant son annonce, puis punir sa récupération.",
+        "boss_readability": "La marque proposée doit être un effet séparé avec bord et délai lisibles. Un appel de soutien ne doit pas apparaître instantanément.",
+        "story_proposal": "Introduction : Let interrompt une carte tactique et descend sur le pont de duel. Rival proposé : Jerome-092 dans une simulation croisée. Fin originale : il privilégie le retrait ordonné de son équipage, sans modifier l’histoire de l’Enduring Conviction.",
+        "super_proposed": "Ordre de rupture : une ligne d’impact annoncée coupe l’arène, puis Let tente une entrée courte confirmable.",
+        "finisher_proposed": "Pont sécurisé : Let fait déposer les armes de la cible et ordonne la fermeture du sas d’exercice ; une lumière blanche conclut la manche."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "jackal_major_h3",
+      "name": "Jackal Major — classe Halo 3",
+      "category": "Covenant et alliés",
+      "game_version": "Halo 3 (2007), Kig-Yar Major anonyme",
+      "provenance": "Capture de classe explicitement décrite comme Kig-Yar Major de Halo 3 dans la fiche Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:JackalMajor.png",
+          "image_url": "https://www.halopedia.org/images/a/af/JackalMajor.png?d9ff6",
+          "primary_url": null,
+          "provenance": "Capture de classe explicitement décrite comme Kig-Yar Major de Halo 3 dans la fiche Halopedia.",
+          "sha256": "4ef6545b9446a2e6c675d82783a60370726c955a222bdbd014c0e2c62690af40",
+          "dimensions": {
+            "width": 684,
+            "height": 1060
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/jackal_major_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/jackal_major_h3_reference.png",
+          "inspection_sha256": "4ef6545b9446a2e6c675d82783a60370726c955a222bdbd014c0e2c62690af40",
+          "image_modified_locally": false,
+          "limits": "Un représentant de classe, pas un personnage nommé. Bouclier lumineux et peau peu détaillée dans la capture ; dos non documenté."
+        }
+      ],
+      "visual_lock": "Kig-Yar maigre à peau rose/brune, bec denté, œil clair rose, quilles fines, harnais bleu-violet foncé, trois grandes griffes avant ; bouclier de Major rose/violet à deux encoches et petit pistolet plasma.",
+      "selected_representation": "Un individu anonyme du rang Major H3. Aucun nom, grade supplémentaire ou biographie canonique inventé ; attribution des deux bras conservée depuis la capture.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Défense mobile au bouclier et tirs de harcèlement."
+      },
+      "equipment_state": "Pistolet plasma Halo 3 et bouclier rose/violet de Major à deux encoches ; attribution des bras conservée.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 1,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-1012914c-3c08-4d2f-9255-7b663046f5a2.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "4 maintenu puis 6+M — Poussée de bouclier : petit déplacement protégé de face, exposé dans le dos.",
+          "236+R — Tir plasma : projectile unique à récupération modérée.",
+          "236+R maintenu — Charge plasma : projectile plus lent, charge visible et relâchement punissable.",
+          "214+A — Repli accroupi : recul bref derrière le bouclier, perd contre une projection à portée."
+        ],
+        "counterplay": "Contourner l’angle de protection, viser la récupération après la charge et forcer le Major à bouger plutôt qu’à tenir sa garde.",
+        "boss_readability": "Afficher le secteur protégé et les encoches du bouclier ; une rupture temporaire doit être visible avant le retour de protection.",
+        "story_proposal": "Introduction : ce Major reçoit l’ordre de tenir un accès. Rival proposé : un ODST de l’épreuve. Fin originale : le survivant récupère son bouclier et rejoint sa patrouille ; aucune identité canonique n’est attribuée à la classe.",
+        "super_proposed": "Barrage de poste : deux tirs couvrent l’avancée du bouclier ; sauter trop tôt reste risqué, attendre permet une punition.",
+        "finisher_proposed": "Accès interdit : le Major bloque l’arme adverse, charge son pistolet et le flash de décharge clôt la manche."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "skirmisher_champion_reach",
+      "name": "Skirmisher Champion — classe Reach",
+      "category": "Covenant et alliés",
+      "game_version": "Halo: Reach (2010), T’vaoan Champion anonyme",
+      "provenance": "Capture du modèle Champion de Halo: Reach, réhébergée par Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HR_Skirmisher_Champion.png",
+          "image_url": "https://www.halopedia.org/images/d/d4/HR_Skirmisher_Champion.png?c073d",
+          "primary_url": null,
+          "provenance": "Capture du modèle Champion de Halo: Reach, réhébergée par Halopedia.",
+          "sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "dimensions": {
+            "width": 341,
+            "height": 757
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "inspection_sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "image_modified_locally": false,
+          "limits": "Source étroite 341 × 757 px ; sommet de crête et microdétails de l’arme incomplets. Pas de bouclier de Murmillo à ajouter."
+        }
+      ],
+      "visual_lock": "Silhouette T’vaoan à plumes/quilles sombres, longue crête casque dorée, yeux jaunes, armure or usé, larges épaules et membres très anguleux ; pieds à trois longues serres.",
+      "selected_representation": "Un Champion Reach anonyme, pistolet plasma compact en garde. Ni personnage Tek, ni variante Infinite, ni Murmillo avec petits boucliers.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Mobilité, leurre et changements de hauteur."
+      },
+      "equipment_state": "Pistolet plasma Reach compact en garde, armure dorée Champion ; ni bouclier de Murmillo ni hologramme actif.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+A — Bond tendu : saut court à distance fixe, vulnérable à l’anti-air préparé.",
+          "214+A — Trace holographique : double sans dégâts poursuit une course choisie ; coût de jauge.",
+          "623+M — Serres remontantes : attaque montante engagée, récupération vulnérable au sol.",
+          "236+R — Tir en halte : arrête le déplacement pour un tir précis, empêchant le harcèlement sans engagement."
+        ],
+        "counterplay": "Attendre l’atterrissage, observer la pause précédant le tir et conserver un anti-air pour le vrai corps.",
+        "boss_readability": "L’hologramme est un effet distinct sans volume blessant ; un indice sonore et une différence de contact évitent la devinette pure.",
+        "story_proposal": "Introduction : le Champion rejoint le duel par une rambarde, suivi d’un bref leurre. Rival proposé : un Spartan de Noble Team en simulation. Fin originale : le Champion rappelle son escouade après l’épreuve, sans lui donner de nom propre.",
+        "super_proposed": "Chasse à deux traces : deux bonds à destination annoncée précèdent un tir ; seul le premier contact confirmé autorise la suite.",
+        "finisher_proposed": "Silhouette manquée : l’adversaire frappe le leurre, le Champion surgit au flanc et une transition lumineuse masque le coup final."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "grunt_heavy_reach",
+      "name": "Grunt Heavy — classe spécialisée Reach",
+      "category": "Covenant et alliés",
+      "game_version": "Halo: Reach (2010), Unggoy Heavy du dossier de presse E3",
+      "provenance": "Rendu officiel Bungie du dossier de presse Reach E3 2010, réhébergé par Halopedia et relié à l’archive Bungie.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HReach_-_Heavy_Unggoy.png",
+          "image_url": "https://www.halopedia.org/images/4/42/HReach_-_Heavy_Unggoy.png?eed48",
+          "primary_url": "https://web.archive.org/web/20110905043313/http://www.bungie.net/projects/reach/images.aspx?c=53&page=0",
+          "provenance": "Rendu officiel Bungie du dossier de presse Reach E3 2010, réhébergé par Halopedia et relié à l’archive Bungie.",
+          "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "dimensions": {
+            "width": 920,
+            "height": 980
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "inspection_sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "image_modified_locally": false,
+          "limits": "Vue trois-quarts, pack arrière partiellement masqué ; mains et prise du canon à vérifier dans toute nouvelle pose."
+        }
+      ],
+      "visual_lock": "Unggoy court et massif, longs avant-bras, casque fermé Heavy vert olive à grandes unités circulaires, respirateur central, cuirasse verte et réservoir dorsal ; canon à combustible jaune/or avec capsules vertes.",
+      "selected_representation": "Un Grunt Heavy Reach spécialisé et anonyme. Canon à combustible en main, sans remplacement par un Grunt standard, un Ultra ou une version Halo 4.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Petit artilleur à forte menace de zone et récupération lente."
+      },
+      "equipment_state": "Canon à combustible Reach jaune/or, casque Heavy fermé vert et réservoir de méthane du rendu officiel.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+R — Obus lourd : trajectoire arquée visible, recovery long après le départ.",
+          "214+R — Tir court : arc plus haut tombant près du Grunt, laissant la longue portée libre.",
+          "623+M — Coup de crosse : défense courte contre un saut proche, faible couverture derrière lui.",
+          "214+A — Ventilation : réduit une jauge de surchauffe pendant une immobilité punissable."
+        ],
+        "counterplay": "Approcher pendant la ventilation, passer sous le mauvais arc et éviter les sauts réguliers face au canon chargé.",
+        "boss_readability": "Couleur de capsules et animation de recharge annoncent l’état de tir. Un obus a un point d’atterrissage lisible, sans explosion hors écran imprévisible.",
+        "story_proposal": "Introduction : un Heavy traîne son canon jusqu’au poste assigné. Rival proposé : un Marine spécialiste d’appui. Fin originale : il réclame une promotion après avoir tenu sa position ; cela reste un gag original de cette classe anonyme.",
+        "super_proposed": "Réserve de combustible : trois obus à intervalles fixes, avec zones d’évitement entre les explosions.",
+        "finisher_proposed": "Trop près du canon : le Heavy fait reculer l’adversaire à la crosse, un tir quitte le cadre et un éclat vert termine la séquence."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "pavium_hw2",
+      "name": "Pavium",
+      "category": "Parias",
+      "game_version": "Halo Wars 2: Awakening the Nightmare (2017), armure cinématique Blur",
+      "provenance": "Rendu de production cinématique par Frankie DeRosa, avec vues avant et arrière, réhébergé et attribué par Halopedia. ; Rendu promotionnel officiel Awakening the Nightmare, archive Halo Waypoint, utilisé seulement en complément du visage et du torse.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_-_Pavium_3D_model.jpg",
+          "image_url": "https://www.halopedia.org/images/7/77/HW2_-_Pavium_3D_model.jpg?b9bc2",
+          "primary_url": "https://www.artstation.com/artwork/owVBw",
+          "provenance": "Rendu de production cinématique par Frankie DeRosa, avec vues avant et arrière, réhébergé et attribué par Halopedia.",
+          "sha256": "bf0df4ee525edbabea633fe809d08445a4a88ad6188a211bed5ef9a9aef859f1",
+          "dimensions": {
+            "width": 1920,
+            "height": 1289
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_inspection.jpg",
+          "inspection_sha256": "822f429a9d8c04c390c87dbf93660c90c21f0822fd817bcde704957fd41740eb",
+          "image_modified_locally": false,
+          "limits": "La planche contient deux vues du même personnage ; n’en produire qu’un. Aucun mortier tenu dans ce modèle."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HW2-Pavium.png",
+          "image_url": "https://www.halopedia.org/images/e/ec/HW2-Pavium.png?d9cad",
+          "primary_url": "https://web.archive.org/web/20210928094850/https://www.halowaypoint.com/en-us/news/the-nightmare-has-awoken",
+          "provenance": "Rendu promotionnel officiel Awakening the Nightmare, archive Halo Waypoint, utilisé seulement en complément du visage et du torse.",
+          "sha256": "14303a22dbd39f6dc3e5c6efce10ec942a23ba0e0cfc90c1f4279685cb8f4412",
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_inspection.png",
+          "inspection_sha256": "cf1381143b8d0e3d84d7a898f4cc6f26042d0ee0f36b742d368247255448d742",
+          "image_modified_locally": false,
+          "limits": "Rendu tronqué sous les cuisses ; les jambes viennent exclusivement du modèle cinématique entier."
+        }
+      ],
+      "visual_lock": "Brute massif, museau nu gris-brun, casque bas à large plateau rouge/gris, grandes épaules en couches, plastron sombre à contour rouge, avant-bras asymétriques et pieds blindés lourds.",
+      "selected_representation": "Pose initiale sans arme, armure cinématique. Les variantes avec mortier ou bouclier actif sont des assets futurs distincts et ne sont pas annoncées comme livrées.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Défenseur lourd, tenue de zone et punition d’approche."
+      },
+      "equipment_state": "Garde désarmée dans l’armure cinématique HW2 ; variante avec mortier ou bouclier non produite dans ce lot.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+H — Avancée du rempart : marche blindée courte terminée par une frappe, battue par une projection anticipée.",
+          "214+A — Ancrage : préparation défensive immobile coûtant de la jauge ; ne couvre ni le dos ni les projections.",
+          "623+M — Rejet frontal : frappe montante lente qui repousse un saut proche.",
+          "236+R — Appui de mortier proposé : marque au sol puis impact retardé ; nécessite une variante d’équipement encore non produite."
+        ],
+        "counterplay": "Exploiter sa lenteur, projeter l’ancrage et quitter la marque de mortier avant l’impact ; ne pas attaquer le rempart sans observer sa fin.",
+        "boss_readability": "Un signal sonore et une zone visible précèdent chaque appui ; le temps d’ancrage ne doit jamais donner une défense infinie.",
+        "story_proposal": "Introduction : Pavium inspecte une position et prend la place du rempart. Rival proposé : Voridus dans une épreuve de discipline. Fin originale : les deux frères se retirent ensemble après avoir fermé la brèche de l’arène.",
+        "super_proposed": "Ligne infranchissable : deux impacts annoncés ferment les côtés tandis que Pavium couvre le centre ; un couloir reste évitable.",
+        "finisher_proposed": "Position tenue : un choc d’épaule projette l’adversaire derrière une cloison qui s’abaisse ; Pavium relève calmement son signal de défense."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "voridus_hw2",
+      "name": "Voridus",
+      "category": "Parias",
+      "game_version": "Halo Wars 2: Awakening the Nightmare (2017), modèle de jeu par Vincent Chai",
+      "provenance": "Planche de rendu de l’artiste du jeu Vincent Chai, modèles HW2 attribués ; concepts crédités à Theo Stylianides et Yap Kun Rong.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2-Voridus_Render.jpg",
+          "image_url": "https://www.halopedia.org/images/7/7f/HW2-Voridus_Render.jpg?b8cf0",
+          "primary_url": "https://www.artstation.com/artwork/Vq3bX",
+          "provenance": "Planche de rendu de l’artiste du jeu Vincent Chai, modèles HW2 attribués ; concepts crédités à Theo Stylianides et Yap Kun Rong.",
+          "sha256": "556798b9aaf3ed644b068a01ac2051b3acc5671f85ddee1a0a0e7a139340fd37",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/voridus_hw2_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/voridus_hw2_inspection.jpg",
+          "inspection_sha256": "8dad52af05469422d447f3a050a9b5e8043f5ba828885bfc343f58bdbfaa219b",
+          "image_modified_locally": false,
+          "limits": "Deux vues d’un même modèle, matières peu définies à distance ; ne pas emprunter de détails au modèle cinématique Tom Tran."
+        }
+      ],
+      "visual_lock": "Armure noire/argent à rouge usé, masque fermé, épaule droite circulaire avec ports et épaule gauche rectangulaire, garde d’avant-bras asymétrique, pack dorsal, masse gravitationnelle noire à manche rouge.",
+      "selected_representation": "Une seule vue entière du modèle de jeu, masse gravitationnelle en main droite ; dissymétrie physique conservée.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Pression lourde et placement de zones temporaires."
+      },
+      "equipment_state": "Masse gravitationnelle noire à manche rouge et voyants bleus, garde d’avant-bras asymétrique et pack du modèle de jeu Vincent Chai.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 2,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-45a19cf2-007a-4a6f-8e45-028a45f6ebf2.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+H — Masse pendulaire : grand arc horizontal avec début lisible et récupération importante.",
+          "623+H — Écrasement montant : anti-air lourd, faible portée au démarrage.",
+          "214+A — Dépôt de gel proposé : zone courte et temporaire devant lui, sans recouvrir tout l’écran.",
+          "236+A — Ruée imprudente : course à distance fixe dont l’arrêt laisse un contre si elle est gardée."
+        ],
+        "counterplay": "Forcer une ruée trop longue, sortir de la zone avant sa fermeture et frapper le grand temps de récupération de la masse.",
+        "boss_readability": "Le gel et ses dégâts sont des effets séparés à produire ; couleur, bord et durée doivent être affichés avant activation.",
+        "story_proposal": "Introduction : Voridus arrive avant le signal et réclame l’ouverture des portes. Rival proposé : Pavium, qui teste sa maîtrise. Fin originale : il suspend son assaut pour sécuriser une issue, une décision propre au scénario d’archives.",
+        "super_proposed": "Surcharge du sol : la masse frappe trois points marqués successivement ; chaque explosion laisse une route de fuite.",
+        "finisher_proposed": "Dernier élan : Voridus désarme la cible avec le manche, abat sa masse dans un flash au sol et la poussière révèle l’arène vide."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "colony_single_body_hw2",
+      "name": "Colony — un corps de la paire",
+      "category": "Parias",
+      "game_version": "Halo Wars 2 (2017), corps au premier plan du portrait officiel Jeremy Cook",
+      "provenance": "Portrait officiel de la paire Colony par Jeremy Cook, publié sur Halo Waypoint puis réhébergé par Halopedia. Le nom local contenant hunter_captain est historique et ne décrit pas le contenu.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_-_Colony.png",
+          "image_url": "https://www.halopedia.org/images/a/ab/HW2_-_Colony.png?526e2",
+          "primary_url": "https://jeremycook.artstation.com/projects/R4V3W",
+          "provenance": "Portrait officiel de la paire Colony par Jeremy Cook, publié sur Halo Waypoint puis réhébergé par Halopedia. Le nom local contenant hunter_captain est historique et ne décrit pas le contenu.",
+          "sha256": "dcf3be822e058e0832c6ee5dfd898ff520aebddfd34cee21819e47592d917418",
+          "dimensions": {
+            "width": 1300,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_hunter_captain_hw2_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_hunter_captain_hw2_reference.png",
+          "inspection_sha256": "dcf3be822e058e0832c6ee5dfd898ff520aebddfd34cee21819e47592d917418",
+          "image_modified_locally": false,
+          "limits": "Portrait de deux corps partiellement cadrés ; sélectionner le grand corps au premier plan seulement. Bas des jambes, pieds, plusieurs pointes et surfaces du bouclier sont masqués ou hors cadre : reconstruction non certifiable."
+        }
+      ],
+      "visual_lock": "Armure de la paire Colony bleu-noir/gunmetal, masque angulaire aux lumières rouges, faisceaux de Lekgolo bruns/violets, canon intégré droit à capsules vertes et bouclier solide gauche ; ne pas remplacer par le Captain rouge à capteur unique.",
+      "selected_representation": "Convention d’adaptation : un seul corps au premier plan de la paire officielle, sans attribuer le nom individuel Elo ou Ndo. Ce slot représente visuellement Colony sans nier les deux corps. Les Hunter Captains sont des unités distinctes déployées par Colony ; aucun proxy Captain n’est compté comme cette identité.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Combattant superlourd à contrôle frontal, avec coordination de la paire réservée aux propositions de scénario."
+      },
+      "equipment_state": "Un corps du portrait officiel de la paire : canon intégré vert sur bras droit, bouclier solide sur bras gauche ; pas de Captain de substitution.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 1,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-741fa77d-b36a-4ba0-a06c-9e7d7ba83c19.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+R — Décharge verte : tir de canon au démarrage long, direction fixe et récupération nette.",
+          "236+H — Choc du bouclier : avance courte protégée frontalement, vulnérable au contournement.",
+          "214+A — Cohésion : temps de regroupement immobile qui restaure une ressource limitée, interrompu par un contact.",
+          "623+H — Relevé du rempart : grand mouvement anti-air de bouclier, ouvert aux attaques basses tardives."
+        ],
+        "counterplay": "Changer de côté, punir la mise en charge du canon et interrompre la cohésion. La taille du corps limite les évasions ; la protection n’est jamais globale.",
+        "boss_readability": "Canon vert à droite anatomique et bouclier à gauche restent des volumes séparés. Un éventuel deuxième corps demanderait un asset et des règles dédiés, absents de cette vague.",
+        "story_proposal": "Introduction : une voix collective répond alors qu’un corps entre dans l’arène ; l’autre reste hors champ. Rival proposé : Jerome-092. Fin originale : les deux signaux se rejoignent sur l’interface d’archives, sans prétendre que le corps visible est toute l’entité.",
+        "super_proposed": "Convergence de la paire : le corps visible verrouille une direction et un signal du partenaire annonce un second impact hors champ ; zones évitables et ressource complète requise.",
+        "finisher_proposed": "Comme un seul : le bouclier enferme le cadre, une lueur verte illumine la cible puis les deux voix répondent ensemble. Aucun second corps n’est représenté par duplication automatique du PNG."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément.",
+      "identity_sources": [
+        "https://news.xbox.com/en-us/2017/04/28/colony-swarms-halo-wars-2-xbox-one-windows-10-today/",
+        "https://www.halopedia.org/Colony",
+        "https://www.halopedia.org/Phoenix_Logs/Leaders"
+      ]
+    },
+    {
+      "id": "yapyap_hw2",
+      "name": "Yapyap le Destructeur",
+      "category": "Parias",
+      "game_version": "Halo Wars 2 (2017), portrait officiel de leader par Jeremy Cook",
+      "provenance": "Rendu officiel de leader Jeremy Cook, source Halo API et fichier Halo CDN identifiés par Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_-_Yapyap.png",
+          "image_url": "https://www.halopedia.org/images/2/21/HW2_-_Yapyap.png?0b125",
+          "primary_url": "https://content.halocdn.com/media/Default/games/halo-wars-2/leaders/yapyap-f986fa8a011a4eb494ba030a9cbbd215.png",
+          "provenance": "Rendu officiel de leader Jeremy Cook, source Halo API et fichier Halo CDN identifiés par Halopedia.",
+          "sha256": "3cdfb6def0ba5c0cbfe2b14f024c37f7f11fedfa79eadcabb5b204ff9c963277",
+          "dimensions": {
+            "width": 1320,
+            "height": 1920
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/yapyap_hw2_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/yapyap_hw2_inspection.png",
+          "inspection_sha256": "6e19b83455723f91054f82171fa5e63d1d8926ad6b0978606f08d847bed1896f",
+          "image_modified_locally": false,
+          "limits": "Le bas des jambes et les pieds sont coupés ; ils ont été extrapolés. Le suivi complémentaire du portfolio ne lève pas cette réserve."
+        }
+      ],
+      "visual_lock": "Unggoy à longueurs d’avant-bras exagérées, peau gris-bleu, couronne métallique irrégulière dorée, masque à deux anneaux cyan, cuirasse brune gravée de dessins et réservoir dorsal segmenté.",
+      "selected_representation": "Yapyap seul et sans arme, garde originale conservant sa couronne et son matériel officiel. Reconstruction prudente des pieds hors source ; aucune certification 1:1.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Perturbateur à courte portée, bluff et gestion d’un appui limité."
+      },
+      "equipment_state": "Aucune arme ; couronne, masque aux anneaux cyan, cuirasse brune et pack du portrait officiel de leader HW2.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 1,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-dc21b341-2962-424c-881b-aae85035e737.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "214+A — Décret hésitant : feinte vocale annulable qui ne confère ni invincibilité ni dégâts.",
+          "236+L — Griffes pressées : courte rafale de coups rapprochés dont les intervalles peuvent être interrompus.",
+          "623+M — Couronne haute : saut de tête engagé ; l’atterrissage expose Yapyap.",
+          "236+A — Ordre d’appui proposé : marque un petit point pour un tir retardé d’un allié hors champ, quota limité."
+        ],
+        "counterplay": "Ne pas réagir à chaque feinte, attaquer sa faible portée et punir l’atterrissage. Les appuis ne bloquent jamais toutes les sorties.",
+        "boss_readability": "Le décret de bluff et l’ordre actif ont des annonces différentes ; un spectateur doit pouvoir comprendre lequel coûte une ressource.",
+        "story_proposal": "Introduction : Yapyap ajuste sa couronne et annonce un titre beaucoup trop long. Rival proposé : un Grunt Heavy anonyme venu contester son équipement. Fin originale : il rebaptise le tournoi à son nom avant que l’archive ne rétablisse son titre normal.",
+        "super_proposed": "Ordre absolument définitif : plusieurs marqueurs apparaissent successivement ; leurs impacts laissent un chemin sûr et Yapyap récupère lentement.",
+        "finisher_proposed": "Sa Majesté a gagné : Yapyap désarme la cible, se hisse sur un socle et l’écran se remplit d’un emblème de victoire avant le dernier impact sonore."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément.",
+      "reference_followup": "work/wave6/yapyap_reference_followup.json"
+    },
+    {
+      "id": "hyperius_infinite",
+      "name": "Hyperius",
+      "category": "Parias",
+      "game_version": "Halo Infinite (2021), boss à pied avec Ravageur",
+      "provenance": "Capture détourée du modèle entier de Hyperius dans Halo Infinite, réhébergée par Halopedia. ; Portrait de production par Tom Wholley, réhébergé et attribué par Halopedia. ; Capture Halo Infinite attribuée à Nakai / Covenant Canon, réhébergée par Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_Hyperius1.png",
+          "image_url": "https://www.halopedia.org/images/9/9a/HINF_Hyperius1.png?a6622",
+          "primary_url": null,
+          "provenance": "Capture détourée du modèle entier de Hyperius dans Halo Infinite, réhébergée par Halopedia.",
+          "sha256": "b8c3f8592fba9c25971c7b4514444a57c6143bbb5ce5b60c6a7b69a205f55c6f",
+          "dimensions": {
+            "width": 623,
+            "height": 967
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_full_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_full_reference.png",
+          "inspection_sha256": "b8c3f8592fba9c25971c7b4514444a57c6143bbb5ce5b60c6a7b69a205f55c6f",
+          "image_modified_locally": false,
+          "limits": "Arme tenue en raccourci, détails du trophée et du dos partiellement masqués."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF-Hyperius.jpg",
+          "image_url": "https://www.halopedia.org/images/e/e3/HINF-Hyperius.jpg?40a9c",
+          "primary_url": "https://www.artstation.com/artwork/klwKRy",
+          "provenance": "Portrait de production par Tom Wholley, réhébergé et attribué par Halopedia.",
+          "sha256": "172b34902f63496fe644753eb9064c105d9cc6aef055d2d15e38a9c5fdc105e0",
+          "dimensions": {
+            "width": 2294,
+            "height": 3508
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_infinite_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_infinite_inspection.jpg",
+          "inspection_sha256": "ebadeeed71d5ed8da18795800e7017cebaf4e48b6201da3bcab9e70f1b5a2dfc",
+          "image_modified_locally": false,
+          "limits": "Portrait recadré sous les cuisses, éclairage rouge promotionnel ; ne sert pas à inventer les jambes."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_Hyperius.png",
+          "image_url": "https://www.halopedia.org/images/3/34/HINF_Hyperius.png?5f890",
+          "primary_url": "https://twitter.com/NakaiCanon",
+          "provenance": "Capture Halo Infinite attribuée à Nakai / Covenant Canon, réhébergée par Halopedia.",
+          "sha256": "2f455a4c6837e7d426efca697e006f67db12fd7fed038bac0cc2d0deef72405c",
+          "dimensions": {
+            "width": 1008,
+            "height": 909
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_weapon_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_weapon_reference.png",
+          "inspection_sha256": "2f455a4c6837e7d426efca697e006f67db12fd7fed038bac0cc2d0deef72405c",
+          "image_modified_locally": false,
+          "limits": "Gros plan au terrain, arme et pieds tronqués ; sert aux couches d’armure et au visage."
+        }
+      ],
+      "visual_lock": "Brute à barbe claire, casque bas noir/rouge avec bande faciale, armure sombre à motifs rouges, épaules à lamelles, trophée de casque Spartan sur épaule droite physique, grand pack dorsal et pieds massifs.",
+      "selected_representation": "Hyperius à pied, un seul Ravageur à deux mains ; trophée conservé sur le bon côté. Le Chopper n’est pas ajouté à ce PNG de personnage.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Pression armée, courte charge et fermeture des distances."
+      },
+      "equipment_state": "Hyperius à pied avec un Ravageur, trophée de casque sur l’épaule droite et pack dorsal ; aucun Chopper dans ce PNG.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 1,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-931f669f-ff28-44de-b2ee-3caff11393c1.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+R — Rafale de Ravageur : salve courte avec chaleur accumulée, récupération identifiable.",
+          "214+R — Charge du Ravageur : tir plus lent qui menace une zone annoncée, charge interruptible.",
+          "236+H — Coup de baïonnette : avance courte qui punit une garde trop tardive, vulnérable si elle manque.",
+          "214+A — Pas lourd : repositionnement court couvert par l’épaule, battu par les attaques basses et projections."
+        ],
+        "counterplay": "Surveiller la chaleur, faire manquer la baïonnette et contourner la ligne du tir chargé. Le grand corps laisse des punitions aux petits déplacements.",
+        "boss_readability": "Trophée et pack restent du décor de silhouette sans volume de tête supplémentaire. La charge du Ravageur exige lumière et son distincts.",
+        "story_proposal": "Introduction : Hyperius descend de son véhicule hors champ et vérifie le trophée à son épaule. Rival proposé : le Major. Fin originale : le signal du trophée devient l’enjeu d’un enregistrement récupéré ; le scénario ne confirme pas le sort canonique de Locke.",
+        "super_proposed": "Poursuite à pied : tir de fermeture puis charge annoncée ; la garde du tir permet d’anticiper et d’éviter le second temps.",
+        "finisher_proposed": "Trophée refusé : Hyperius écarte l’arme adverse, le canon s’illumine et un flash conclut le duel ; aucun nouveau trophée n’est ajouté au modèle."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "tovarus_infinite",
+      "name": "Tovarus",
+      "category": "Parias",
+      "game_version": "Halo Infinite (2021), boss avec canon à ferraille",
+      "provenance": "Rendu entier officiel du dossier de presse Halo Infinite / Inside Infinite octobre 2021, réhébergé par Halopedia. ; Portrait publié par l’artiste Tom Wholley, lien de publication archivé dans la fiche Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_Tovarus_Render.png",
+          "image_url": "https://www.halopedia.org/images/a/a8/HINF_Tovarus_Render.png?bff28",
+          "primary_url": "https://www.halowaypoint.com/en-us/news/inside-infinite-october-2021",
+          "provenance": "Rendu entier officiel du dossier de presse Halo Infinite / Inside Infinite octobre 2021, réhébergé par Halopedia.",
+          "sha256": "3ef266b30e71d5e7b46184d82470deba0d5f1e96d2bac66e77f3799915e30fa9",
+          "dimensions": {
+            "width": 1978,
+            "height": 2137
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_full_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_full_inspection.png",
+          "inspection_sha256": "b7c5fa94db250486dc8f14e3b7c850b36001e10d0b71eca83a2cd0212e39f049",
+          "image_modified_locally": false,
+          "limits": "Vue frontale trois-quarts, arrière non documenté ; canon complexe à contrôler dans les rotations."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF-Tovarus.jpg",
+          "image_url": "https://www.halopedia.org/images/5/57/HINF-Tovarus.jpg?1962b",
+          "primary_url": "https://twitter.com/TomWholley28/status/1481771147679076355/photo/1",
+          "provenance": "Portrait publié par l’artiste Tom Wholley, lien de publication archivé dans la fiche Halopedia.",
+          "sha256": "975c9b76ff20544d762e6d6c8c7bff54bfbf1869cf7f8de19924b9f510eea1de",
+          "dimensions": {
+            "width": 2679,
+            "height": 4096
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_infinite_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_infinite_inspection.jpg",
+          "inspection_sha256": "ac1c32b4573d18a93e4607c6f4346ff162e42766358e3cc0106e63ecefb64a6f",
+          "image_modified_locally": false,
+          "limits": "Éclairage rouge de présentation et jambes coupées ; complément de tête et matières uniquement."
+        }
+      ],
+      "visual_lock": "Brute large à barbe rousse courte, casque ouvert à deux grandes pointes, épaules angulaires noires/rouges, plaques sombres, petites lumières claires et canon à ferraille aux longues saillies métalliques.",
+      "selected_representation": "Tovarus seul, canon à ferraille tenu par la poignée haute de la main droite, main gauche libre ; pose initiale vers la droite.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Suppression lourde et engagement lent à grande couverture."
+      },
+      "equipment_state": "Canon à ferraille dans la main droite, armure noire/rouge et casque ouvert à deux pointes du rendu officiel Infinite.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "generated_candidate",
+      "generation_attempts": 2,
+      "candidate_source_paths": [
+        "/workspace/scratch/9d31c69eef8e/generated_images/exec-9a1203cb-2845-447b-bc26-96210394267f.png"
+      ],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+R — Rafale lourde : série finie de tirs de canon, angle fixe, forte récupération.",
+          "214+R — Tir de barrage : rafale plus haute qui laisse un passage au sol.",
+          "236+H — Crosse de siège : coup de canon lent à courte portée, bon recul mais punissable sur garde.",
+          "623+A — Saut lourd proposé : déplacement vertical annoncé, atterrissage sans protection gratuite."
+        ],
+        "counterplay": "Changer de hauteur pendant sa préparation, passer sous le barrage haut et punir la fin d’une rafale plutôt que sa phase active.",
+        "boss_readability": "Le canon se met en position avant de tirer ; l’angle de barrage est visible et ne suit pas instantanément l’adversaire.",
+        "story_proposal": "Introduction : Tovarus pose son canon, saisit la poignée et attend que l’autre approche. Rival proposé : le Major. Fin originale : la simulation teste une séparation tactique des deux frères, sans transformer cette issue en événement du canon.",
+        "super_proposed": "Couloir de fer : deux balayages annoncés à des hauteurs distinctes ; une esquive au bon niveau permet la riposte.",
+        "finisher_proposed": "Dernière salve : Tovarus plaque l’arme adverse au sol avec son canon, puis une décharge hors champ coupe vers l’écran de victoire."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    },
+    {
+      "id": "bassus_infinite",
+      "name": "Bassus",
+      "category": "Parias",
+      "game_version": "Halo Infinite (2021), armure or/rouge et marteau gravitationnel",
+      "provenance": "Rendu entier de Bassus par Tom Wholley, réhébergé et attribué par Halopedia. ; Capture de Bassus et de son marteau dans Halo Infinite, attribuée à Nakai / Covenant Canon par Halopedia.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:HINF-Bassus.jpg",
+          "image_url": "https://www.halopedia.org/images/a/a1/HINF-Bassus.jpg?0f394",
+          "primary_url": "https://www.artstation.com/artwork/klwKRy",
+          "provenance": "Rendu entier de Bassus par Tom Wholley, réhébergé et attribué par Halopedia.",
+          "sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+          "dimensions": {
+            "width": 2480,
+            "height": 2563
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_inspection.jpg",
+          "inspection_sha256": "cfaecc1b571e5ed584365037d62fbbf98d46f838107a39a910c170264d062397",
+          "image_modified_locally": false,
+          "limits": "Marteau tenu en raccourci et éclairage promotionnel ; détails masqués non certifiés."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:HINF_BassusHammer.jpg",
+          "image_url": "https://www.halopedia.org/images/4/42/HINF_BassusHammer.jpg?24173",
+          "primary_url": "https://twitter.com/NakaiCanon",
+          "provenance": "Capture de Bassus et de son marteau dans Halo Infinite, attribuée à Nakai / Covenant Canon par Halopedia.",
+          "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_inspection.jpg",
+          "inspection_sha256": "e01826e3084fb18d36680c5f50d5b05a44188dcc81a00240a49618572f7ae76c",
+          "image_modified_locally": false,
+          "limits": "Gros plan avec tête du marteau et extrémité de manche en partie coupées ; complète la structure visible sans fournir un plan orthographique."
+        }
+      ],
+      "visual_lock": "Brute massif à barbe courte blanche, immense casque en éventail or/cramoisi et pointe médiane, plastron doré à panneaux rouges, sous-armure noire, tibias blindés et marteau gris/acier à nœuds bleus.",
+      "selected_representation": "Bassus seul, marteau tenu des deux mains en garde, incarnation Infinite exclusivement ; aucune substitution par le marteau de Voridus.",
+      "proposed_role": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée",
+        "description": "Menace de mêlée lourde et sauts engagés."
+      },
+      "equipment_state": "Marteau gravitationnel Infinite tenu à deux mains, armure or/cramoisi et casque en éventail ; pas de masse de Voridus.",
+      "fidelity_scope": "Une pose illustrée candidate liée aux références citées ; fidélité 1:1 non certifiée, surfaces masquées potentiellement reconstruites. Aucun sprite animé ou intégration moteur attesté.",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "base_roster_member": false,
+      "asset_status": "missing_after_service_refusals",
+      "generation_attempts": 2,
+      "candidate_source_paths": [],
+      "combat_brief": {
+        "status": "Proposition originale Halo Combats, non canonique et non implémentée. Aucun coup, super, finisher ou animation livré par ce PNG.",
+        "specials_proposed": [
+          "236+H — Marteau horizontal : large arc lent, vulnérable au retrait puis à la riposte.",
+          "623+H — Bond écrasant : saut à destination fixée au départ, ombre et point d’impact visibles.",
+          "214+M — Manche repoussoir : frappe courte qui éloigne sans donner une relance automatique.",
+          "214+A — Défi : préparation qui augmente brièvement une ressource d’impact, annulée s’il est touché."
+        ],
+        "counterplay": "Se déplacer après le départ du bond, conserver de la distance lors du défi et punir le marteau une fois son arc terminé.",
+        "boss_readability": "Le bond ne change pas sa cible en l’air ; le manche et la tête du marteau ont des zones de contact distinctes.",
+        "story_proposal": "Introduction : Bassus fait glisser son marteau au sol puis bloque le passage. Rival proposé : le Major. Fin originale : l’épreuve d’extraction se ferme sur son équipement abandonné, sans réécrire la campagne Infinite.",
+        "super_proposed": "Résonance de l’excavation : bond annoncé puis deux ondes au sol successives ; saut et déplacement donnent un contre-jeu lisible.",
+        "finisher_proposed": "Accès scellé : Bassus désarme la cible, soulève le marteau et un éclair bleu masque le choc final ; la dernière image montre la porte d’exercice refermée."
+      },
+      "combat_asset_dependencies": "Les variantes de prise, armes supplémentaires, effets, positions intermédiaires et animations décrites dans le combat_brief restent à produire séparément."
+    }
+  ]
+}

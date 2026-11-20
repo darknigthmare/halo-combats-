@@ -1,0 +1,423 @@
+{
+  "wave": 6,
+  "status": "frozen_for_consolidation",
+  "owner": "wave6_alien_characters",
+  "read_only_metrics": true,
+  "reviews": [
+    {
+      "entity_id": "ripa_hw1",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-7261b5b2-7a81-44b1-a711-1a5a49f9e79a.png",
+      "sha256": "5817ebb18951879804b005ea520eee6a1bfb4f5552b3240535cc96d6c410b120",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé au render HW1 : casque et col gravés, silhouette massive et deux épées bleues séparées conservés ; deux bras et deux jambes lisibles.",
+        "Armure et lames visibles en entier dans le candidat. Tête orientée droite, torse en trois-quarts plutôt qu’en profil strict.",
+        "Source 540 × 560 : gravures, articulation des mandibules et géométrie des poignées extrapolées. Marges haut/bas faibles ; franges lumineuses à contrôler en composition."
+      ],
+      "required_followup": [
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1414,
+        "height": 1113
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 1046309,
+        "low_alpha_pixels_1_to_16": 65379,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          45,
+          8,
+          1386,
+          1098
+        ],
+        "margins_left_top_right_bottom_px": [
+          45,
+          8,
+          28,
+          15
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ripa_hw1_reference.png",
+          "sha256": "2cc8efb652fdf8121162f7317771c3926a3ae508162c1715eac57a0324cd4d10",
+          "page_url": "https://www.halopedia.org/File:HW_Render_Arbiter_Ripa_Moramee.png"
+        }
+      ]
+    },
+    {
+      "entity_id": "sesa_h2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-81454b25-c380-4c01-af23-f4754a44d72b.png",
+      "sha256": "801b228c4d43a551938cfb76e2c5dbac32afb3656ef02dee42f9cce68dffdd13",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé aux deux captures Classic : orange/cuivre, masque, cou, deux fusils plasma et deux modules dorsaux à grilles vertes conservés ; pas de modèle Anniversary substitué.",
+        "Deux mains distinctes sur deux armes distinctes, deux jambes et pieds séparés ; pointes et accessoires visibles en entier.",
+        "Mandibules, doigts et petits panneaux reconstruits en haute définition ; garde trois-quarts. L’équipement correspond à l’état sans tir demandé."
+      ],
+      "required_followup": [
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1239,
+        "height": 1270
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 1047669,
+        "low_alpha_pixels_1_to_16": 41176,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          95,
+          30,
+          1151,
+          1231
+        ],
+        "margins_left_top_right_bottom_px": [
+          95,
+          30,
+          88,
+          39
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_full_reference.jpg",
+          "sha256": "dfbe9f6c51ee82829975c0a459ad277e5e48b4fc61b23524bf42dffa16b29c83",
+          "page_url": "https://www.halopedia.org/File:HereticLeaderPlasmaRifle08.jpg"
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/sesa_h2_reference.png",
+          "sha256": "9fda73105ca1b80f88be1900369f613effed6e8fbe5157fd785c80cc39f11eda",
+          "page_url": "https://www.halopedia.org/File:Sesa_Firing.png"
+        }
+      ]
+    },
+    {
+      "entity_id": "voridus_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-45a19cf2-007a-4a6f-8e45-028a45f6ebf2.png",
+      "sha256": "4e5e8793aa344957682b0c08fbecd9c3afcc1b8144f8b9d4dbf1c4b8adab610e",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé au modèle de jeu Vincent Chai : épaule droite circulaire, épaule gauche rectangulaire, masque, avant-bras dissymétriques et masse noire à manche rouge cohérents.",
+        "Deux bras, deux jambes et masse entière observés. Pose encore largement frontale ; sommet du pack très près du bord supérieur.",
+        "Le fond gris/rouge aperçu correspond à du RGB sous alpha nul selon lecture centrale puis contrôle numérique ; il ne prouve pas un fond opaque. Les matières et détails de masse sont réinterprétés."
+      ],
+      "required_followup": [
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 254,
+        "zero_pixels": 914885,
+        "low_alpha_pixels_1_to_16": 29917,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          37,
+          5,
+          1456,
+          998
+        ],
+        "margins_left_top_right_bottom_px": [
+          37,
+          5,
+          80,
+          26
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/voridus_hw2_reference.jpg",
+          "sha256": "556798b9aaf3ed644b068a01ac2051b3acc5671f85ddee1a0a0e7a139340fd37",
+          "page_url": "https://www.halopedia.org/File:HW2-Voridus_Render.jpg"
+        }
+      ]
+    },
+    {
+      "entity_id": "jackal_major_h3",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-1012914c-3c08-4d2f-9255-7b663046f5a2.png",
+      "sha256": "0616b13218f3c1a9480cb54ce4b791e0e393583c3fe175344ca6db8cd8c836a3",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé à la capture H3 : peau rose/brune, quilles, œil clair, armure bleu-violet et bouclier Major rose/violet conservés.",
+        "Équipement sur les mêmes bras physiques que la capture ; un pistolet et un bouclier, deux bras et deux jambes. Quilles et griffes observées entières.",
+        "Bouclier possède une frange lumineuse à contrôler sur plusieurs fonds. Marges verticales réduites et silhouette trois-quarts ; microdétails du pistolet et des griffes à valider."
+      ],
+      "required_followup": [
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 960436,
+        "low_alpha_pixels_1_to_16": 72968,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          63,
+          8,
+          1221,
+          1191
+        ],
+        "margins_left_top_right_bottom_px": [
+          63,
+          8,
+          91,
+          8
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/jackal_major_h3_reference.png",
+          "sha256": "4ef6545b9446a2e6c675d82783a60370726c955a222bdbd014c0e2c62690af40",
+          "page_url": "https://www.halopedia.org/File:JackalMajor.png"
+        }
+      ]
+    },
+    {
+      "entity_id": "yapyap_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-dc21b341-2962-424c-881b-aae85035e737.png",
+      "sha256": "6d4b8e2f0bf05eeb3af753171277e7bcf78b3c992e69cdab71742a6d1d6d5ee3",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé au portrait Jeremy Cook : couronne irrégulière, masque à anneaux cyan, inscriptions figuratives sur cuirasse brune et pack conservés ; aucune arme ajoutée.",
+        "Deux bras, deux jambes et deux pieds visibles, proportions Unggoy reconnaissables, regard vers la droite.",
+        "Les pieds et le bas des jambes sont extrapolés car hors cadre dans la source. Le suivi de recherche primaire mené par root (yapyap_reference_followup.json) ne lève pas cette réserve. Inscriptions réinterprétées, non transcrites à l’identique."
+      ],
+      "required_followup": [
+        "Les parties hors cadre de la référence ne sont pas validables : obtenir une vue primaire entière avant toute certification 1:1.",
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1159,
+        "height": 1356
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 845484,
+        "low_alpha_pixels_1_to_16": 87466,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          39,
+          31,
+          1124,
+          1322
+        ],
+        "margins_left_top_right_bottom_px": [
+          39,
+          31,
+          35,
+          34
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/yapyap_hw2_reference.png",
+          "sha256": "3cdfb6def0ba5c0cbfe2b14f024c37f7f11fedfa79eadcabb5b204ff9c963277",
+          "page_url": "https://www.halopedia.org/File:HW2_-_Yapyap.png"
+        }
+      ]
+    },
+    {
+      "entity_id": "hyperius_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-931f669f-ff28-44de-b2ee-3caff11393c1.png",
+      "sha256": "dabe8885692f415378bb368bebc334912ab1e0448693cc8326fd27f0248c0596",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé au modèle entier et aux portraits : barbe claire, casque noir/rouge, épaules en lamelles, pack dorsal et trophée sur épaule droite anatomique conservés.",
+        "Un seul corps, deux bras et deux jambes ; deux mains supportent un Ravageur distinct. Trophée reste un élément porté, pas une deuxième tête vivante.",
+        "Géométrie détaillée du Ravageur, casque trophée et doigts reconstruits ; angle trois-quarts et marges haut/bas serrées. Pas de Chopper généré avec le personnage."
+      ],
+      "required_followup": [
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 883874,
+        "low_alpha_pixels_1_to_16": 25370,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          42,
+          9,
+          1175,
+          1262
+        ],
+        "margins_left_top_right_bottom_px": [
+          42,
+          9,
+          55,
+          16
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_full_reference.png",
+          "sha256": "b8c3f8592fba9c25971c7b4514444a57c6143bbb5ce5b60c6a7b69a205f55c6f",
+          "page_url": "https://www.halopedia.org/File:HINF_Hyperius1.png"
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_infinite_reference.jpg",
+          "sha256": "172b34902f63496fe644753eb9064c105d9cc6aef055d2d15e38a9c5fdc105e0",
+          "page_url": "https://www.halopedia.org/File:HINF-Hyperius.jpg"
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/hyperius_weapon_reference.png",
+          "sha256": "2f455a4c6837e7d426efca697e006f67db12fd7fed038bac0cc2d0deef72405c",
+          "page_url": "https://www.halopedia.org/File:HINF_Hyperius.png"
+        }
+      ]
+    },
+    {
+      "entity_id": "tovarus_infinite",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-9a1203cb-2845-447b-bc26-96210394267f.png",
+      "sha256": "4deb87993492ccabb65e2fad0a388ca5bb0a369421a08165767bd37a7b7b9754",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé au rendu officiel entier : casque à deux pointes, barbe rousse, grandes épaules angulaires, marques rouges et canon à ferraille identifiables.",
+        "Deux bras et deux jambes, main droite sur la poignée du canon, main gauche libre. Canon complet et pointes observés à l’intérieur du cadre.",
+        "Poignée, doigts, assemblages du canon et certaines gravures réinterprétés. Pose trois-quarts, marge supérieure faible ; aucune certification géométrique 1:1."
+      ],
+      "required_followup": [
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 904026,
+        "low_alpha_pixels_1_to_16": 30371,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          52,
+          7,
+          1235,
+          1166
+        ],
+        "margins_left_top_right_bottom_px": [
+          52,
+          7,
+          100,
+          12
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_full_reference.png",
+          "sha256": "3ef266b30e71d5e7b46184d82470deba0d5f1e96d2bac66e77f3799915e30fa9",
+          "page_url": "https://www.halopedia.org/File:HINF_Tovarus_Render.png"
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/tovarus_infinite_reference.jpg",
+          "sha256": "975c9b76ff20544d762e6d6c8c7bff54bfbf1869cf7f8de19924b9f510eea1de",
+          "page_url": "https://www.halopedia.org/File:HINF-Tovarus.jpg"
+        }
+      ]
+    },
+    {
+      "entity_id": "colony_single_body_hw2",
+      "source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-741fa77d-b36a-4ba0-a06c-9e7d7ba83c19.png",
+      "sha256": "975d242adbb870583402e4431650e6c27642d6150ce60a466e81367b94104e80",
+      "reviewed_utc": "2026-11-20T04:55:17.080410+00:00",
+      "verdict": "candidate_with_reservations",
+      "notes": [
+        "Comparé au portrait officiel de la paire : UN corps du premier plan, tête sombre aux lumières rouges, faisceaux Lekgolo, canon intégré droit vert et bouclier solide gauche conservés.",
+        "Aucune substitution par un Hunter Captain rouge, aucune duplication de canon ou troisième bras. Deux jambes complètes ; les deux armes intégrées restent distinctes.",
+        "Pieds, bas des jambes, parties dorsales et portions de bouclier sont reconstruits depuis des zones masquées ou hors cadre. Pointe dorsale très proche du bord supérieur, sans coupe prouvée au seuil alpha.",
+        "Le fichier local de référence nommé colony_hunter_captain_hw2_reference.png contient réellement File:HW2_-_Colony.png : le nom local historique ne constitue pas une identification Captain."
+      ],
+      "required_followup": [
+        "Les parties hors cadre de la référence ne sont pas validables : obtenir une vue primaire entière avant toute certification 1:1.",
+        "Comparer en détail la géométrie aux références ou à une vue officielle supplémentaire avant validation de fidélité.",
+        "Prévoir profil strict, marges homogènes, variantes de prise et animation séparément ; aucun contrôle du PNG ne vaut animation ni implémentation."
+      ],
+      "preferred_for_scope": true,
+      "dimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "mode": "RGBA",
+      "alpha_read_only": {
+        "minimum": 0,
+        "maximum": 255,
+        "zero_pixels": 775066,
+        "low_alpha_pixels_1_to_16": 43469,
+        "border_alpha_gt16": 0,
+        "bbox_alpha_gt16": [
+          29,
+          6,
+          1270,
+          1161
+        ],
+        "margins_left_top_right_bottom_px": [
+          29,
+          6,
+          42,
+          38
+        ]
+      },
+      "visual_inspection_method": "Image affichée par generatedImage et comparaison aux références préalablement inspectées par view_image ; revue indépendante par QA centrale en parallèle.",
+      "references": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/colony_hunter_captain_hw2_reference.png",
+          "sha256": "dcf3be822e058e0832c6ee5dfd898ff520aebddfd34cee21819e47592d917418",
+          "page_url": "https://www.halopedia.org/File:HW2_-_Colony.png"
+        }
+      ]
+    }
+  ]
+}

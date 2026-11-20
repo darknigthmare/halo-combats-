@@ -1,0 +1,58 @@
+[
+  {
+    "id": "usze_full",
+    "page": "File:H3-Usze_Taham_Portrait.png"
+  },
+  {
+    "id": "sesa_full",
+    "page": "File:HereticLeaderPlasmaRifle08.jpg"
+  },
+  {
+    "id": "pavium_hw2",
+    "page": "File:HW2_-_Pavium_3D_model.jpg"
+  },
+  {
+    "id": "voridus_hw2",
+    "page": "File:HW2-Voridus_Render.jpg"
+  },
+  {
+    "id": "colony_list",
+    "page": "Colony",
+    "list_only": true
+  },
+  {
+    "id": "yapyap_list",
+    "page": "Category:Images_of_Yapyap",
+    "list_only": true
+  },
+  {
+    "id": "hyperius_list",
+    "page": "Category:Images_of_Hyperius",
+    "list_only": true
+  },
+  {
+    "id": "tovarus_list",
+    "page": "Category:Images_of_Tovarus",
+    "list_only": true
+  },
+  {
+    "id": "bassus_list",
+    "page": "Category:Images_of_Bassus",
+    "list_only": true
+  },
+  {
+    "id": "jackal_list",
+    "page": "Kig-Yar_Major",
+    "list_only": true
+  },
+  {
+    "id": "skirmisher_list",
+    "page": "Skirmisher_Champion",
+    "list_only": true
+  },
+  {
+    "id": "grunt_list",
+    "page": "Unggoy_Heavy",
+    "list_only": true
+  }
+]
