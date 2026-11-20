@@ -1,0 +1,41 @@
+{
+  "version": 9,
+  "status": "passed",
+  "command": "node --test --test-reporter=tap prototype/qa_v9/catalog.test.cjs",
+  "tests": 8,
+  "passed": 8,
+  "failed": 0,
+  "png_sha256_verified": 104,
+  "browser_status": "not_run_in_recovery_checkpoint",
+  "tested_files": [
+    {
+      "path": "data/universe_catalog_v9.json",
+      "sha256": "bc2b8e4093cb99109613955c36c3756f29e8333da0abd4d54fcb868f06934cd7"
+    },
+    {
+      "path": "data/asset_manifest_v9.json",
+      "sha256": "bccb94d766f94fb40299c136d49f4001876eb0a3235e1bc9b234dd1751f14d37"
+    },
+    {
+      "path": "prototype/halo_universe_v9.html",
+      "sha256": "e125524b682beec669376a985957657901ce450fdeb06ae51fb1c63e2e1dab1f"
+    },
+    {
+      "path": "prototype/universe_v9/app.js",
+      "sha256": "adeeeefadef3acb89331749de49f8e472770da695fc6f546b914c37dee8da674"
+    },
+    {
+      "path": "prototype/universe_v9/catalog.js",
+      "sha256": "97f1d5f9e59f0072e3e2b5c156866f0b5beaa42104a475cace46417387551dda"
+    },
+    {
+      "path": "prototype/universe_v9/style.css",
+      "sha256": "db88a32bc2a73e43908a4945d3d8c66be2429604546ab992d11b46ed3cb2a811"
+    },
+    {
+      "path": "prototype/qa_v9/catalog.test.cjs",
+      "sha256": "7ef99d14a2b481b940841b7dc2b929d1e7e00ac781fcb126a48c6cc6d227fc35"
+    }
+  ],
+  "output": "TAP version 13\n# Subtest: recherche sans accents et apostrophes typographiques\nok 1 - recherche sans accents et apostrophes typographiques\n  ---\n  duration_ms: 2.307334\n  type: 'test'\n  ...\n# Subtest: les six filtres se combinent et les continuités restent séparées\nok 2 - les six filtres se combinent et les continuités restent séparées\n  ---\n  duration_ms: 0.31659\n  type: 'test'\n  ...\n# Subtest: le filtre manquants exclut les candidats et les images à corriger\nok 3 - le filtre manquants exclut les candidats et les images à corriger\n  ---\n  duration_ms: 0.255992\n  type: 'test'\n  ...\n# Subtest: une image préférée est choisie sans modifier les variantes\nok 4 - une image préférée est choisie sans modifier les variantes\n  ---\n  duration_ms: 0.371277\n  type: 'test'\n  ...\n# Subtest: les statistiques comptent les PNG distincts et les œuvres réellement liées\nok 5 - les statistiques comptent les PNG distincts et les œuvres réellement liées\n  ---\n  duration_ms: 0.600047\n  type: 'test'\n  ...\n# Subtest: les images utilisent uniquement des chemins locaux sans traversée\nok 6 - les images utilisent uniquement des chemins locaux sans traversée\n  ---\n  duration_ms: 0.182555\n  type: 'test'\n  ...\n# Subtest: les références autorisent uniquement les URL web explicites\nok 7 - les références autorisent uniquement les URL web explicites\n  ---\n  duration_ms: 0.654715\n  type: 'test'\n  ...\n# Subtest: le tri des résultats ne modifie pas le catalogue source\nok 8 - le tri des résultats ne modifie pas le catalogue source\n  ---\n  duration_ms: 0.405012\n  type: 'test'\n  ...\n1..8\n# tests 8\n# suites 0\n# pass 8\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 225.764216\n"
+}

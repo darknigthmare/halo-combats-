@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071417">
+  <meta name="description" content="Catalogue de production Halo Combats : personnages, costumes, stages et boss, classés par œuvre et continuité.">
+  <title>Halo Combats · Archives de l’univers V9</title>
+  <link rel="stylesheet" href="universe_v9/style.css">
+  <script defer src="universe_v9/catalog.js"></script>
+  <script defer src="universe_v9/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalogue">Aller au catalogue</a>
+  <header class="site-header">
+    <a class="brand" href="halo_universe_v9.html" aria-label="Halo Combats, accueil du catalogue">
+      <span class="brand-mark" aria-hidden="true">H</span>
+      <span>HALO <strong>COMBATS</strong><small>ARCHIVES DE L’UNIVERS</small></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a class="nav-active" href="#catalogue" aria-current="page">Catalogue</a>
+      <a href="../prototype/halo_combats_lab_v8.html">Laboratoire V8 <span aria-hidden="true">↗</span></a>
+    </nav>
+    <span class="version-tag">ÉDITION V9</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">JEUX · ROMANS · BD · FILMS & SÉRIES</p>
+        <h1 id="page-title">Un univers.<br><span>Chaque incarnation.</span></h1>
+        <p class="hero-description">Retrouver les personnages, leurs apparences, les lieux et les adversaires majeurs. Chaque fiche conserve son œuvre et sa continuité d’origine.</p>
+      </div>
+      <div class="hero-summary" aria-label="Avancement du catalogue">
+        <div class="summary-top"><span class="eyebrow">ÉTAT DE LA COLLECTION</span><span class="live-dot" aria-hidden="true"></span></div>
+        <div class="stats">
+          <div><strong id="stat-entries">—</strong><span>fiches cataloguées</span></div>
+          <div><strong id="stat-images">—</strong><span>PNG distincts reliés</span></div>
+          <div><strong id="stat-missing">—</strong><span>fiches sans visuel</span></div>
+        </div>
+        <div class="coverage-line"><span id="title-coverage">Chargement des œuvres…</span><span id="image-coverage">—</span></div>
+        <progress id="coverage-meter" max="1" value="0" aria-label="Part des fiches ayant un visuel"></progress>
+      </div>
+    </section>
+
+    <p class="scope-note"><span aria-hidden="true">◇</span> Catalogue de production. Les images sont des candidats à vérifier face aux références ; leur présence ne signifie pas qu’une animation ou un combattant jouable est terminé.</p>
+    <div id="load-status" class="load-status" role="status">Chargement des archives locales…</div>
+
+    <section id="catalogue" class="catalogue" aria-labelledby="catalogue-title" hidden>
+      <div class="section-heading">
+        <div><p class="eyebrow">EXPLORER LES ARCHIVES</p><h2 id="catalogue-title">Catalogue de production</h2></div>
+        <button id="missing-toggle" class="missing-toggle" type="button" aria-pressed="false">Afficher les manquants <span id="missing-badge">0</span></button>
+      </div>
+
+      <div class="category-tabs" role="group" aria-label="Catégories du catalogue">
+        <button type="button" data-category="all" aria-pressed="true">Tout <span data-category-count="all">0</span></button>
+        <button type="button" data-category="character" aria-pressed="false">Personnages <span data-category-count="character">0</span></button>
+        <button type="button" data-category="costume" aria-pressed="false">Costumes <span data-category-count="costume">0</span></button>
+        <button type="button" data-category="stage" aria-pressed="false">Stages <span data-category-count="stage">0</span></button>
+        <button type="button" data-category="boss" aria-pressed="false">Boss <span data-category-count="boss">0</span></button>
+      </div>
+
+      <div class="catalogue-layout">
+        <aside class="filter-panel" aria-labelledby="filter-title">
+          <div class="filter-heading"><h3 id="filter-title">Affiner la sélection</h3><button id="reset-filters" class="text-button" type="button">Effacer</button></div>
+          <label class="search-label"><span>Rechercher</span><input id="search" type="search" autocomplete="off" placeholder="Nom, œuvre, identifiant…"></label>
+          <label><span>Œuvre d’origine</span><select id="filter-title-select"><option value="all">Toutes les œuvres</option></select></label>
+          <label><span>Média</span><select id="filter-medium"><option value="all">Tous les médias</option></select></label>
+          <label><span>Continuité</span><select id="filter-continuity"><option value="all">Toutes les continuités</option></select></label>
+          <label><span>État du visuel</span><select id="filter-status"><option value="all">Tous les états</option><option value="candidate">Candidat</option><option value="needs_correction">À corriger</option><option value="missing">Manquant</option></select></label>
+          <div class="filter-note"><p class="eyebrow">LIRE LES STATUTS</p><p><span class="status-dot candidate"></span><strong>Candidat</strong> : image disponible, à valider.</p><p><span class="status-dot needs_correction"></span><strong>À corriger</strong> : réserve déjà identifiée.</p><p><span class="status-dot missing"></span><strong>Manquant</strong> : visuel à produire.</p></div>
+        </aside>
+
+        <div class="results-panel">
+          <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite"></p><label class="sort-label"><span>Trier</span><select id="sort"><option value="catalog">Ordre du catalogue</option><option value="name">Nom : A à Z</option><option value="work">Œuvre : A à Z</option><option value="missing">Manquants en premier</option></select></label></div>
+          <div id="work-summary" class="work-summary" hidden></div>
+          <div id="gallery" class="gallery" aria-label="Fiches du catalogue"></div>
+          <div id="empty-state" class="empty-state" hidden><p id="empty-eyebrow" class="eyebrow">AUCUNE CORRESPONDANCE</p><h3 id="empty-title">La sélection est vide.</h3><p id="empty-description">Essayez un autre nom ou retirez un filtre.</p><button id="empty-reset" type="button">Réinitialiser les filtres</button></div>
+          <div class="pagination"><p id="display-count"></p><button id="load-more" type="button" hidden>Afficher plus de fiches</button></div>
+        </div>
+      </div>
+      <details id="title-registry" class="title-registry">
+        <summary>Registre des œuvres <span id="registry-count"></span></summary>
+        <p>Une œuvre recensée peut encore attendre ses fiches détaillées. Le nombre de fiches reliées ne signifie pas que son contenu est entièrement couvert.</p>
+        <div class="registry-table-wrap"><table><thead><tr><th scope="col">Œuvre</th><th scope="col">Média & continuité</th><th scope="col">Fiches</th><th scope="col">Publication</th></tr></thead><tbody id="registry-body"></tbody></table></div>
+      </details>
+    </section>
+
+    <footer><span>HALO COMBATS · ARCHIVES V9</span><span>Projet de fan non officiel · Références par œuvre · Images entières, orientation native</span></footer>
+  </main>
+
+  <dialog id="entry-dialog" aria-labelledby="detail-name">
+    <div class="dialog-toolbar"><span class="eyebrow">FICHE DE PRODUCTION</span><button id="dialog-close" type="button" aria-label="Fermer la fiche">Fermer <span aria-hidden="true">×</span></button></div>
+    <div class="detail-layout">
+      <section class="detail-visual" aria-label="Visuel entier">
+        <div id="detail-image" class="detail-image"></div>
+        <label id="asset-selector-label" class="asset-selector" hidden><span>Image disponible</span><select id="asset-selector"></select></label>
+        <p id="asset-caption" class="asset-caption"></p>
+      </section>
+      <article class="detail-copy">
+        <p id="detail-category" class="eyebrow"></p><h2 id="detail-name"></h2><p id="detail-work" class="detail-work"></p>
+        <span id="detail-status" class="status-badge"></span>
+        <dl id="detail-facts" class="detail-facts"></dl>
+        <section id="detail-lock-section"><h3>Repères de fidélité</h3><p id="detail-lock"></p></section>
+        <section id="detail-notes-section"><h3>Notes de production</h3><ul id="detail-notes"></ul></section>
+        <section class="sources-section"><h3>Sources & références</h3><div id="detail-sources"></div></section>
+        <p class="detail-disclaimer">Fidélité 1:1 non certifiée. L’image conserve son cadrage et son orientation d’origine ; les détails à vérifier sont indiqués dans la fiche.</p>
+      </article>
+    </div>
+    <div class="dialog-footer"><button id="previous-entry" type="button">← Fiche précédente</button><span id="detail-position"></span><button id="next-entry" type="button">Fiche suivante →</button></div>
+  </dialog>
+  <noscript><p class="noscript">Activez JavaScript pour parcourir le catalogue. Les données restent disponibles dans <a href="../data/universe_catalog_v9.json">le catalogue JSON V9</a>.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+  "counts": {
+    "entries": 232,
+    "legacy_entries": 102,
+    "new_entries": 130,
+    "titles": 112,
+    "titles_with_entries": 50,
+    "announced_titles": 1,
+    "by_category": {
+      "boss": 34,
+      "character": 128,
+      "costume": 24,
+      "stage": 46
+    },
+    "new_by_category": {
+      "boss": 14,
+      "costume": 24,
+      "character": 70,
+      "stage": 22
+    },
+    "unique_png_assets": 104,
+    "legacy_png_assets": 94,
+    "new_png_assets": 10,
+    "illustrated_entries": 77,
+    "missing_images": 155,
+    "generation_calls": 12,
+    "generation_rejections": 2,
+    "certified_1_to_1_assets": 0,
+    "new_animation_clips": 0,
+    "independent_parallax_layers": 0
+  },
+  "attempts": [
+    {
+      "entity_id": "costume_chief_ce_mark_v",
+      "status": "rejected",
+      "journal": "work/wave9/root_generation.json"
+    },
+    {
+      "entity_id": "boss_mammoth_h4",
+      "status": "generated",
+      "journal": "work/wave9/root_generation.json"
+    },
+    {
+      "entity_id": "st_blood_gulch_ce",
+      "status": "generated",
+      "journal": "work/wave9/root_generation.json"
+    },
+    {
+      "entity_id": "st_lockout_h2",
+      "status": "generated",
+      "journal": "work/wave9/root_generation.json"
+    },
+    {
+      "entity_id": "kelly_h5",
+      "status": "rejected",
+      "journal": "work/wave9/character_generation.json"
+    },
+    {
+      "entity_id": "linda_h5",
+      "status": "generated",
+      "journal": "work/wave9/character_generation.json"
+    },
+    {
+      "entity_id": "dare_odst",
+      "status": "generated",
+      "journal": "work/wave9/character_generation.json"
+    },
+    {
+      "entity_id": "ntho_h3",
+      "status": "generated",
+      "journal": "work/wave9/character_generation.json"
+    },
+    {
+      "entity_id": "buck_h5_spartan",
+      "status": "generated",
+      "journal": "work/wave9/additional_generation.json"
+    },
+    {
+      "entity_id": "arbiter_h5_kaidon",
+      "status": "generated",
+      "journal": "work/wave9/additional_generation.json"
+    },
+    {
+      "entity_id": "tanaka_h5",
+      "status": "generated",
+      "journal": "work/wave9/additional_generation.json"
+    },
+    {
+      "entity_id": "usze_h3",
+      "status": "generated",
+      "journal": "work/wave9/additional_generation.json"
+    }
+  ],
+  "unbound_pngs": [],
+  "duplicate_ids": [],
+  "all_legacy_pngs_linked": true
+}

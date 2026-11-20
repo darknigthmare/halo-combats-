@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0",
+  "wave": 9,
+  "generator": "image_gen built-in",
+  "attempts": [
+    {
+      "entity_id": "kelly_h5",
+      "prompt": "Use case: identity-preserve. Asset type: one standalone full-body 2D fighting-game character image for Halo Combats. Reference image 1 is the official Halo 5: Guardians press-kit render of Kelly-087, used as the exact identity, armor, palette and equipment reference. Repose this same character into a calm combat-ready standing stance facing RIGHT: near side view, knees slightly bent, shotgun held low in both hands, finger outside trigger. Preserve Kelly's HERMES GEN2 blue-grey armor, smooth rounded gold visor, circular helmet ear module, thin yellow outlines on upper chest and shoulder armor, black undersuit, slim athletic armored proportions and the exact shotgun silhouette. Keep plate shapes and asymmetry from the reference, do not mix other Halo armor versions. Render as very high-detail clean 2D painted game art, realistic surfaces, even neutral lighting, no dramatic perspective. Exactly one character, complete helmet to feet and entire shotgun inside the frame, generous clear margins. Genuine transparent background, clean alpha; no floor or shadow blob, no scenery, no labels, no border, no duplicated character, no sheet. Preserve armor markings only where they can be seen in the reference.",
+      "reference_path": "/workspace/scratch/0379658a30c6/references/characters/kelly_h5_reference.png",
+      "status": "rejected",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7d6462f7-e5b5-4c53-acb2-6a6971acb247.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "output_hint": null,
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Kelly.png",
+          "image_url": "https://www.halopedia.org/images/b/b6/H5G-Render-Kelly.png?71a63",
+          "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+          "dimensions": {
+            "width": 540,
+            "height": 1020
+          },
+          "local_ref": "/workspace/scratch/0379658a30c6/references/characters/kelly_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables.",
+          "previous_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+          "checked_on": "2026-11-20"
+        }
+      ],
+      "created_on": "2026-11-20",
+      "requested_facing": "right",
+      "requested_asset_count": 1,
+      "certified_1_to_1": false,
+      "review": {
+        "result": "no_image_delivered",
+        "note": "Refus du service, aucun nouvel essai pour cette cible dans ce lot."
+      }
+    },
+    {
+      "entity_id": "linda_h5",
+      "prompt": "Use case: identity-preserve. Asset type: one standalone full-body 2D fighting-game character image for Halo Combats. Reference image 1 is the official Halo 5: Guardians press-kit render of Linda-058 and is the identity, armor and equipment reference. Repose the same character into a calm ready stance facing RIGHT, near side view, feet planted, holding her long SRS99-S5 AM sniper rifle at low ready with both hands, finger outside trigger. Preserve ARGUS GEN2 taupe-grey armor, helmet with multiple small amber optical lenses and asymmetrical rectangular sensor housings (not a conventional broad visor), large high rectangular backpack, thin orange trim and black undersuit. Match the distinctive helmet, segmented armor, backpack and very long rifle exactly to this Halo 5 incarnation; no armor redesign. High-detail clean 2D painted videogame character art, realistic surfaces and proportions, neutral even lighting, no dramatic perspective. Exactly one character, full body including both boots and every part of rifle visible, generous transparent margins. Genuine transparent background, clean alpha, no ground or shadow blob, scenery, caption, panel, duplicate or sprite sheet.",
+      "reference_path": "/workspace/scratch/0379658a30c6/references/characters/linda_h5_reference.png",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/0379658a30c6/generated_images as /workspace/scratch/0379658a30c6/generated_images/exec-b30d2d21-b39e-4740-a8bc-c4a03b2f5a85.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:H5G-Render-Linda.png",
+          "image_url": "https://www.halopedia.org/images/2/21/H5G-Render-Linda.png?65c35",
+          "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+          "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+          "sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+          "dimensions": {
+            "width": 800,
+            "height": 1060
+          },
+          "local_ref": "/workspace/scratch/0379658a30c6/references/characters/linda_h5_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables.",
+          "previous_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+          "checked_on": "2026-11-20"
+        }
+      ],
+      "source_path": "/workspace/scratch/0379658a30c6/generated_images/exec-b30d2d21-b39e-4740-a8bc-c4a03b2f5a85.png",
+      "path": "assets/characters_wave9/linda_h5_initial_right_v01.png",
+      "sha256": "c73debf68dd6f42590c38ffaad703b6a1e9b0da6850603e57e527b01693436e4",
+      "width": 1089,
+      "height": 1444,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        13,
+        0,
+        1078,
+        1414
+      ],
+      "raw_bytes_preserved": true,
+      "fidelity_1_to_1_certified": false,
+      "animation_status": "not_animated",
+      "independent_review_status": "pending",
+      "created_on": "2026-11-20",
+      "requested_facing": "right",
+      "requested_asset_count": 1,
+      "certified_1_to_1": false,
+      "alpha_bbox_threshold16": [
+        22,
+        10,
+        1075,
+        1399
+      ],
+      "margins_threshold16": {
+        "left": 22,
+        "top": 10,
+        "right": 14,
+        "bottom": 45
+      },
+      "review": {
+        "result": "candidate_with_reservations",
+        "method": "Inspection individuelle des références et des fichiers de sortie par view_image ; mesures alpha en lecture seule.",
+        "observed_orientation": "Trois-quarts vers la droite, visage orienté vers la droite ; pas de profil strict.",
+        "matches": [
+          "Armure ARGUS taupe/gris et sous-combinaison noire",
+          "Multiples lentilles ambre et boîtiers asymétriques du casque",
+          "Bloc dorsal haut conservé",
+          "Long fusil à lunette entièrement visible, tenu à deux mains"
+        ],
+        "reservations": [
+          "Marquages fins et détails masqués dans la référence extrapolés.",
+          "Asymétries du casque et emplacement latéral des capteurs à contrôler sur vues orthogonales officielles supplémentaires.",
+          "Marge au-dessus de la silhouette très étroite (10 px au seuil alpha 16), et 14 px à droite du canon.",
+          "Pose statique, prête pour catalogue ; pas de garde latérale stricte ni clip animé."
+        ]
+      },
+      "background_review": "Transparence native [0,255]. Des pixels résiduels alpha 1 à 10 existent hors silhouette ; aucune retouche appliquée.",
+      "reference_file_bytes_verified_against_catalog": true,
+      "full_body_visible": true,
+      "has_weapon": true,
+      "clips_generated": 0,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    },
+    {
+      "entity_id": "dare_odst",
+      "prompt": "Use case: identity-preserve. Asset type: one standalone full-body 2D fighting-game character image for Halo Combats. Reference image 1 is the official Halo 3: ODST promotional render of Captain Veronica Dare. Repose this exact character in a calm ready stance facing RIGHT, near side view, knees relaxed, suppressed black M6C/SOCOM pistol held low in the right hand, finger outside trigger. Keep her 2009 ODST RECON equipment: dark subdued green-grey angular helmet with narrow amber visor, DARE stencil on helmet, matte chest plate with small UNSC insignia, distinctive horizontal segmented abdomen plates with one round green central light, forearm guards, partially fingerless gloves with exposed fingertips, matching thigh and shin plates and human military proportions. She is an ODST intelligence officer, not a Spartan; do not bulk up or substitute MJOLNIR armor. Preserve all visible reference panel shapes and markings. Detailed clean realistic 2D painted game art, even neutral light. Exactly one figure in entire frame, helmet to both boot soles and entire pistol visible, generous margins. Genuine transparent background, clean alpha, no floor or drop shadow, no scenery, labels, frame, duplicate, or sprite sheet.",
+      "reference_path": "/workspace/scratch/0379658a30c6/references/characters/dare_odst_reference.png",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/0379658a30c6/generated_images as /workspace/scratch/0379658a30c6/generated_images/exec-15750ef9-eaa3-4b0d-9f5e-6234114baf6e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3_ODST_Dare.png",
+          "image_url": "https://www.halopedia.org/images/a/a8/Halo3_ODST_Dare.png?342e9",
+          "provenance": "Visuel officiel promotionnel Bungie pour Halo 3: ODST ; réhébergement documentaire Halopedia.",
+          "primary_urls": [
+            "https://files.bungie.org/odst_assets/"
+          ],
+          "sha256": "47c279bc6bfbb9c8dd880434b197c191bbdcf0ad2e178e8c4a22962c8896767b",
+          "dimensions": {
+            "width": 1200,
+            "height": 2843
+          },
+          "local_ref": "/workspace/scratch/0379658a30c6/references/characters/dare_odst_reference.png",
+          "generated": false,
+          "inspected": true,
+          "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables.",
+          "previous_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/dare_odst_reference.png",
+          "checked_on": "2026-11-20"
+        }
+      ],
+      "source_path": "/workspace/scratch/0379658a30c6/generated_images/exec-15750ef9-eaa3-4b0d-9f5e-6234114baf6e.png",
+      "path": "assets/characters_wave9/dare_odst_initial_right_v01.png",
+      "sha256": "0bb2c2cb63b046591d2fc8a184aae49abe4f2c4703f6ee4fff7f6cca9bed04bf",
+      "width": 815,
+      "height": 1930,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        12,
+        801,
+        1930
+      ],
+      "raw_bytes_preserved": true,
+      "fidelity_1_to_1_certified": false,
+      "animation_status": "not_animated",
+      "independent_review_status": "pending",
+      "created_on": "2026-11-20",
+      "requested_facing": "right",
+      "requested_asset_count": 1,
+      "certified_1_to_1": false,
+      "alpha_bbox_threshold16": [
+        84,
+        15,
+        689,
+        1879
+      ],
+      "margins_threshold16": {
+        "left": 84,
+        "top": 15,
+        "right": 126,
+        "bottom": 51
+      },
+      "review": {
+        "result": "candidate_with_reservations",
+        "method": "Inspection individuelle des références et des fichiers de sortie par view_image ; mesures alpha en lecture seule.",
+        "observed_orientation": "Trois-quarts vers la droite, tête de côté, torse encore bien visible ; pas de profil strict.",
+        "matches": [
+          "Casque RECON fermé, visière dorée étroite, marquage DARE visible",
+          "Armure humaine ODST fine sombre et plastron distinct",
+          "Abdomen segmenté à voyant central vert",
+          "Gants partiels avec doigts visibles",
+          "Pistolet bas dans la main droite, silhouette entière"
+        ],
+        "reservations": [
+          "Dessin détaillé du pistolet et relief des plaques présentent des extrapolations ; modèle exact M6C/SOCOM à confronter à une vue latérale dédiée.",
+          "Marquages UNSC/ONI reproduits approximativement, non certifiés.",
+          "Parties latérales du casque et de la ceinture partiellement absentes de la référence source.",
+          "Pose statique, pas de moveset animé."
+        ]
+      },
+      "background_review": "Transparence native [0,255]. Des pixels résiduels alpha 1 à 10 existent hors silhouette ; aucune retouche appliquée.",
+      "reference_file_bytes_verified_against_catalog": true,
+      "full_body_visible": true,
+      "has_weapon": true,
+      "clips_generated": 0,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    },
+    {
+      "entity_id": "ntho_h3",
+      "prompt": "Use case: identity-preserve. Asset type: one standalone full-body 2D fighting-game character image for Halo Combats. Reference image 1 is a cutout of the actual Halo 3 game model of N'tho 'Sraom. Preserve this exact identity and 2007 Halo 3 Combat harness: cobalt blue armor, helmet swept backward with raised crest, tall overlapping shoulder plates, grey-brown exposed Sangheili skin, four split mandibles, small bright green chest lights, digitigrade legs, split two-toed armored feet, blue-purple plasma rifle in right hand, Covenant carbine carried on back. Repose from running into a stationary ready stance facing RIGHT in near side view, feet clearly separated and firmly placed, left hand slightly open. Match the original game's helmet and armor rather than any Halo Reach or Infinite Elite redesign. High-detail 2D painted game art with exact source palette and realistic material texture, neutral lighting. One character only, complete head, mandibles, both feet and all equipment inside frame, generous clear margin. Genuine transparent background, clean alpha, no scenery, ground, shadow blob, text label, border, duplication, or sprite sheet.",
+      "reference_path": "/workspace/scratch/0379658a30c6/references/characters/ntho_h3_reference.png",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/0379658a30c6/generated_images as /workspace/scratch/0379658a30c6/generated_images/exec-e7e9d357-85d8-4e56-9168-766340f42614.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "sources": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3-N%27tho_%27Sraom.png",
+          "image_url": "https://www.halopedia.org/images/6/60/Halo3-N%27tho_%27Sraom.png?c440f",
+          "primary_url": null,
+          "provenance": "Détourage d’une capture du modèle Halo 3 réhébergé par Halopedia ; version haute définition mise en ligne par Shazamikaze.",
+          "sha256": "78868856f47f0a19cd174aabc72e6d2cf6a0b67f6431c34564fab2e39603c146",
+          "dimensions": {
+            "width": 1960,
+            "height": 2740
+          },
+          "local_ref": "/workspace/scratch/0379658a30c6/references/characters/ntho_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_inspection.png",
+          "inspection_sha256": "9d62ddba05bdb55950e5be105e889f9cdf664da30ad889351e8632626e06a4f0",
+          "image_modified_locally": false,
+          "limits": "Vue de course en trois-quarts ; dos et prise exacte du fusil masqués en partie. L’inspection a utilisé la miniature du même fichier fournie par le site.",
+          "previous_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png",
+          "checked_on": "2026-11-20"
+        }
+      ],
+      "source_path": "/workspace/scratch/0379658a30c6/generated_images/exec-e7e9d357-85d8-4e56-9168-766340f42614.png",
+      "path": "assets/characters_wave9/ntho_h3_initial_right_v01.png",
+      "sha256": "6506925630945ad5f9ca0ee30e156112170148528663cce12e8636854ef78355",
+      "width": 1195,
+      "height": 1316,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1171,
+        1316
+      ],
+      "raw_bytes_preserved": true,
+      "fidelity_1_to_1_certified": false,
+      "animation_status": "not_animated",
+      "independent_review_status": "pending",
+      "created_on": "2026-11-20",
+      "requested_facing": "right",
+      "requested_asset_count": 1,
+      "certified_1_to_1": false,
+      "alpha_bbox_threshold16": [
+        94,
+        3,
+        951,
+        1299
+      ],
+      "margins_threshold16": {
+        "left": 94,
+        "top": 3,
+        "right": 244,
+        "bottom": 17
+      },
+      "review": {
+        "result": "candidate_with_reservations",
+        "method": "Inspection individuelle des références et des fichiers de sortie par view_image ; mesures alpha en lecture seule.",
+        "observed_orientation": "Trois-quarts vers la droite, stance accroupie légère, tête orientée à droite ; pas de profil strict.",
+        "matches": [
+          "Harnais Combat cobalt de Halo 3",
+          "Crête arrière du casque et grandes épaules",
+          "Mandibules et jambes digitigrades, pieds fendus",
+          "Lumières vertes pectorales",
+          "Fusil à plasma violet/bleu en main droite, carabine dans le dos"
+        ],
+        "reservations": [
+          "Bleu plus clair que le rendu de référence et usure accrue.",
+          "Petits glyphes pectoraux et forme exacte des mandibules ne sont pas identiques pixel par pixel.",
+          "Marge haute limitée à 3 px au seuil alpha 16 ; pointe de crête visible mais cadrage serré.",
+          "Pose statique et perspective trois-quarts ; flanc et dos non certifiables depuis une seule vue de référence."
+        ]
+      },
+      "background_review": "Transparence native [0,255]. Des pixels résiduels alpha 1 à 10 existent hors silhouette ; aucune retouche appliquée.",
+      "reference_file_bytes_verified_against_catalog": true,
+      "full_body_visible": true,
+      "has_weapon": true,
+      "clips_generated": 0,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    }
+  ],
+  "counts": {
+    "targets": 4,
+    "calls": 4,
+    "pngs_generated": 3,
+    "rejections": 1,
+    "new_animated_clips": 0,
+    "fidelity_1_to_1_certifications": 0
+  }
+}
