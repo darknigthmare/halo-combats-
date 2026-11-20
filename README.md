@@ -1,4 +1,34 @@
-# Halo Combats — V8 : reprise des personnages manquants
+# Halo Combats — V9 : catalogue de l’univers et 10 images supplémentaires
+
+Le lot V9 reprend le travail resté local après la fusion de la PR #1 : **10 PNG supplémentaires**, **130 nouvelles fiches**, et un catalogue consultable regroupant **232 fiches**, **112 œuvres ou composants** et **104 PNG distincts**. Les 94 images V8 sont conservées octet pour octet.
+
+## Ouvrir le catalogue
+
+Ouvrir [Archives de l’univers V9](prototype/halo_universe_v9.html) dans un navigateur, directement depuis les fichiers ou avec un serveur HTTP local à la racine du dépôt. Recherche, filtres par œuvre/média/continuité, catégories, fiches détaillées et filtre des manquants sont disponibles. Le [laboratoire de combat V8](prototype/halo_combats_lab_v8.html) reste accessible depuis le catalogue.
+
+| Livrable V9 | Contenu |
+|---|---|
+| Personnages | Linda-058, Veronica Dare, N’tho ’Sraom, Holly Tanaka, Usze ’Taham |
+| Costumes | Edward Buck Spartan Halo 5 ; Thel ’Vadam Halo 5 |
+| Décors | Blood Gulch Halo CE ; Lockout Halo 2 |
+| Boss / véhicule | M510 Mammoth Halo 4, candidat à corriger |
+
+Le catalogue comporte **128 personnages, 24 costumes, 46 stages et 34 boss**. **77 fiches ont au moins une image ; 155 restent sans visuel.** Les références des jeux, romans, BD, animations et prises de vues réelles sont reliées à leurs fiches. Le registre reste un inventaire en cours : une œuvre recensée n’est pas une œuvre intégralement couverte.
+
+Les nouveaux PNG sont des poses fixes ou des masters de décor. Les réserves de silhouette, d’équipement, de cadrage et d’asymétrie restent visibles dans chaque fiche. Les décors n’ont pas encore de calques de parallaxe indépendants. **Aucune nouvelle animation, aucun moveset complet et aucune certification de fidélité 1:1 ne sont annoncés par cette livraison.**
+
+## Données et suivi
+
+- [Catalogue V9 documenté](docs/HALO_COMBATS_CATALOGUE_V9.md), [données JSON](data/universe_catalog_v9.json) et [manifeste des 104 PNG](data/asset_manifest_v9.json).
+- Journaux de production : [personnages](work/wave9/character_generation.json), [décors et Mammoth](work/wave9/root_generation.json), [compléments](work/wave9/additional_generation.json).
+- [Tests du catalogue](prototype/qa_v9/catalog.test.cjs) : `node --test prototype/qa_v9/catalog.test.cjs`.
+- [État V8 conservé](README_V8.md), [bible initiale](docs/HALO_COMBATS_BIBLE_V1.md) et [bilan de construction V9](work/wave9/catalogue_build_report.json).
+
+## Historique V8
+
+Le texte ci-dessous conserve le bilan de la V8 ; ses nombres décrivent cette version historique.
+
+### V8 : reprise des personnages manquants
 
 La reprise V8 a produit **4 nouveau(x) PNG candidat(s)** : **Jameson Locke, Michael « Mickey » Crespo, Skirmisher Champion — classe Reach, Bassus**. **20 appels réels** ont été effectués sur **19 cibles distinctes**. Les autres résultats comprennent **15 refus `moderation_blocked`**, **0 erreur(s) de quota** et **1 erreur(s) technique(s)**. Les réponses du service restent conservées exactement.
 

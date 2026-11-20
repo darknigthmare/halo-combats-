@@ -1,0 +1,109 @@
+[
+  {
+    "id": "tanaka_h5",
+    "page_url": "https://www.halopedia.org/File:H5G-Render-Tanaka-fullbody.png",
+    "image_url": "https://www.halopedia.org/images/e/e0/H5G-Render-Tanaka-fullbody.png?5e9fb",
+    "sources": [
+      {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Tanaka-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/e/e0/H5G-Render-Tanaka-fullbody.png?5e9fb",
+        "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+        ],
+        "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+        "dimensions": {
+          "width": 540,
+          "height": 1070
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      }
+    ],
+    "local_ref": "/workspace/scratch/0379658a30c6/references/characters/tanaka_h5_reference.png",
+    "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+    "dimensions": [
+      540,
+      1070
+    ],
+    "bytes": 617752
+  },
+  {
+    "id": "usze_h3",
+    "page_url": "https://www.halopedia.org/File:H3-Usze_Taham_Portrait.png",
+    "image_url": "https://www.halopedia.org/images/9/97/H3-Usze_Taham_Portrait.png?ff5cd",
+    "sources": [
+      {
+        "page_url": "https://www.halopedia.org/File:H3-Usze_Taham_Portrait.png",
+        "image_url": "https://www.halopedia.org/images/9/97/H3-Usze_Taham_Portrait.png?ff5cd",
+        "primary_url": null,
+        "provenance": "Capture du modèle entier de Usze dans Halo 3, réhébergée par Halopedia.",
+        "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+        "dimensions": {
+          "width": 660,
+          "height": 1080
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+        "generated": false,
+        "inspected": true,
+        "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+        "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+        "inspection_sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+        "image_modified_locally": false,
+        "limits": "Détourage conservant des morceaux de décor ; ne pas reprendre le fond. Orientation trois-quarts."
+      },
+      {
+        "page_url": "https://www.halopedia.org/File:UszeTaham_-_Profile.png",
+        "image_url": "https://www.halopedia.org/images/e/e7/UszeTaham_-_Profile.png?fce87",
+        "primary_url": null,
+        "provenance": "Capture Halo 3 rapprochée de Usze portant une carabine, réhébergée par Halopedia.",
+        "sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+        "dimensions": {
+          "width": 420,
+          "height": 640
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+        "generated": false,
+        "inspected": true,
+        "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+        "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+        "inspection_sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+        "image_modified_locally": false,
+        "limits": "Utilisée seulement pour casque et couleurs ; cette arme alternative n’est pas mélangée avec le fusil à plasma de la pose choisie."
+      }
+    ],
+    "local_ref": "/workspace/scratch/0379658a30c6/references/characters/usze_h3_reference.png",
+    "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+    "dimensions": [
+      660,
+      1080
+    ],
+    "bytes": 660254
+  },
+  {
+    "id": "buck_h5_spartan",
+    "page_url": "https://www.halopedia.org/File:H5G-Render-Buck-fullbody.png",
+    "image_url": "https://www.halopedia.org/images/b/b5/H5G-Render-Buck-fullbody.png?2ea95",
+    "local_ref": "/workspace/scratch/0379658a30c6/references/characters/buck_h5_spartan_reference.png",
+    "sha256": "b4795435e8fcdd03ee7748bdc46cc192c12a9c603dd062e2d781c502f4959a2d",
+    "dimensions": [
+      420,
+      1080
+    ],
+    "bytes": 545922
+  },
+  {
+    "id": "arbiter_h5_kaidon",
+    "page_url": "https://www.halopedia.org/File:H5G_Arbiter_Render_1.jpg",
+    "image_url": "https://www.halopedia.org/images/5/5c/H5G_Arbiter_Render_1.jpg?289ab",
+    "local_ref": "/workspace/scratch/0379658a30c6/references/characters/arbiter_h5_kaidon_reference.jpg",
+    "sha256": "ffa34eec4d1d7a2a55cb79faae616076fe098c17c886398e92c8caacca3d9e90",
+    "dimensions": [
+      1920,
+      1450
+    ],
+    "bytes": 608192
+  }
+]

@@ -1,23 +1,38 @@
 {
-  "scope": "Corpus V1 à V7 conservé ; V8 ajoute 4 PNG candidats de personnages et leur consultation dans un catalogue V8 ; 20 appels réels, 15 refus et 1 erreur technique ; aucun nouveau moveset ni animation.",
-  "prototype_verification_status": "passed_with_browser_not_run",
-  "browser_validation": {
-    "status": "not_run",
-    "attempted_by_this_script": false,
-    "attempts_v8": 0,
-    "reason": "No browser was launched for V8. Node tests simulate DOM, canvas and image loading only.",
-    "historical_context": {
-      "wave": 7,
-      "status": "blocked_before_page_load",
-      "evidence": "prototype/qa_v7/browser_block.json",
-      "applies_to_current_v8_run": false
-    },
-    "desktop_visual_review": "not_performed",
-    "mobile_visual_review": "not_performed",
-    "reproduction_script": "prototype/qa_v8/verify_browser.cjs"
-  },
-  "source_checkpoint_inventory_sha256": "0f324e59a91640df6fd4ffed15c661b22ef9f89fd0302181deedfb7dd7beed5b",
+  "version": 9,
+  "scope": "Halo Combats V9: catalogue de production, PNG statiques et références; fidélité 1:1 non certifiée.",
+  "catalogue": "data/universe_catalog_v9.json",
   "coverage": {
+    "entries": 232,
+    "legacy_entries": 102,
+    "new_entries": 130,
+    "titles": 112,
+    "titles_with_entries": 50,
+    "announced_titles": 1,
+    "by_category": {
+      "boss": 34,
+      "character": 128,
+      "costume": 24,
+      "stage": 46
+    },
+    "new_by_category": {
+      "boss": 14,
+      "costume": 24,
+      "character": 70,
+      "stage": 22
+    },
+    "unique_png_assets": 104,
+    "legacy_png_assets": 94,
+    "new_png_assets": 10,
+    "illustrated_entries": 77,
+    "missing_images": 155,
+    "generation_calls": 12,
+    "generation_rejections": 2,
+    "certified_1_to_1_assets": 0,
+    "new_animation_clips": 0,
+    "independent_parallax_layers": 0
+  },
+  "legacy_v8_coverage": {
     "fighters_illustrated": 24,
     "roster": 24,
     "fighter_pose_pngs": 50,
@@ -101,6 +116,12 @@
     "wave8_generated_correction_pngs": 0,
     "wave8_unique_expansion_entities_with_new_candidates": 4
   },
+  "historical_source_checkpoint_inventory_sha256": "0f324e59a91640df6fd4ffed15c661b22ef9f89fd0302181deedfb7dd7beed5b",
+  "browser_validation": {
+    "status": "not_run",
+    "reason": "No current-version browser result has been recorded."
+  },
+  "checksum_policy": "SHA-256 of Git-visible deliverable files, excluding this inventory and SHA256SUMS.txt to avoid recursion.",
   "files": [
     {
       "path": ".gitignore",
@@ -109,8 +130,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3485,
-      "sha256": "7b0221de08fec47ec70884f226bd5677d18ff47c1ebdd9b3b068d5d8d3223b3c"
+      "bytes": 6085,
+      "sha256": "4cd688aa637ee0e2a12e05bf47d0d827950acdd08fb066860946eb6d4e21e718"
     },
     {
       "path": "README_V2.md",
@@ -146,6 +167,11 @@
       "path": "README_V8.md",
       "bytes": 3485,
       "sha256": "7b0221de08fec47ec70884f226bd5677d18ff47c1ebdd9b3b068d5d8d3223b3c"
+    },
+    {
+      "path": "README_V9.md",
+      "bytes": 6085,
+      "sha256": "4cd688aa637ee0e2a12e05bf47d0d827950acdd08fb066860946eb6d4e21e718"
     },
     {
       "path": "assets/bosses_wave5/boss_abomination_hw2_profile_v01.png",
@@ -246,6 +272,11 @@
       "path": "assets/bosses_wave5/event_guardian_h5_profile_v01.png",
       "bytes": 1932530,
       "sha256": "5146847f9c484e13c0d8168c54794ba05733229ea7ded2874c7a23c7a31d254c"
+    },
+    {
+      "path": "assets/bosses_wave9/mammoth_h4_profile_left_v01.png",
+      "bytes": 2428571,
+      "sha256": "a2b886a9f41fe24464b789f26476c05774a78ad7705f205906b39b7bcd0314d0"
     },
     {
       "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
@@ -618,6 +649,51 @@
       "sha256": "31d782be78204694b4f1b66cc3459f18607925049e421efc2c23b145f75ab88d"
     },
     {
+      "path": "assets/characters_wave9/dare_odst_initial_right_v01.png",
+      "bytes": 1265979,
+      "sha256": "0bb2c2cb63b046591d2fc8a184aae49abe4f2c4703f6ee4fff7f6cca9bed04bf"
+    },
+    {
+      "path": "assets/characters_wave9/linda_h5_initial_right_v01.png",
+      "bytes": 1127839,
+      "sha256": "c73debf68dd6f42590c38ffaad703b6a1e9b0da6850603e57e527b01693436e4"
+    },
+    {
+      "path": "assets/characters_wave9/ntho_h3_initial_right_v01.png",
+      "bytes": 1277225,
+      "sha256": "6506925630945ad5f9ca0ee30e156112170148528663cce12e8636854ef78355"
+    },
+    {
+      "path": "assets/characters_wave9/tanaka_h5_initial_right_v01.png",
+      "bytes": 1319070,
+      "sha256": "f8d5577b3d33248cb5de2935b2c630192ea82093b3358448f95ca075adb962b7"
+    },
+    {
+      "path": "assets/characters_wave9/usze_h3_initial_right_v01.png",
+      "bytes": 1280112,
+      "sha256": "5111b31fa3fbb307ad0bcccd3cb80a07901665bf9e7de38555b754b966fb9fc1"
+    },
+    {
+      "path": "assets/costumes_wave9/arbiter_h5_kaidon_initial_right_v01.png",
+      "bytes": 2228163,
+      "sha256": "15a89b2e1d6c3ed7b62adaf90adfba26e0cb00fc951581d1f86187bdb047707a"
+    },
+    {
+      "path": "assets/costumes_wave9/buck_h5_spartan_initial_right_v01.png",
+      "bytes": 1636565,
+      "sha256": "7df01e7cf53fff0076eb0ebcbf8a67bfc3b91d53c79b473ce356cc77b39b8dbc"
+    },
+    {
+      "path": "assets/stages_wave9/blood_gulch_ce_master_v01.png",
+      "bytes": 2666135,
+      "sha256": "86a2aae9835ea55784a8646fdc4ad410e3af8763642ff1cf33a6d467929bf0b9"
+    },
+    {
+      "path": "assets/stages_wave9/lockout_h2_master_v01.png",
+      "bytes": 2496720,
+      "sha256": "b61d5759329aee887a3a3c79185d8e6d129498a95b5cd212d71c8cccc452546b"
+    },
+    {
       "path": "data/animation_plan.csv",
       "bytes": 66235,
       "sha256": "b0e11f4cdf9ec2b9216fb20cfc35796bc671affe6b140faabc50af56a095ac0e"
@@ -631,6 +707,11 @@
       "path": "data/asset_manifest.json",
       "bytes": 1701977,
       "sha256": "15228fd94f123339bf86893ef0bda59d4382f68f641ea24a63882d9375d0cee6"
+    },
+    {
+      "path": "data/asset_manifest_v9.json",
+      "bytes": 341834,
+      "sha256": "bccb94d766f94fb40299c136d49f4001876eb0a3235e1bc9b234dd1751f14d37"
     },
     {
       "path": "data/bosses.json",
@@ -693,6 +774,11 @@
       "sha256": "3f7de32ef77c0e908fe3a7dbfe3f645a81b4de85cc73bb66ca64a5e9d69b9986"
     },
     {
+      "path": "data/universe_catalog_v9.json",
+      "bytes": 668221,
+      "sha256": "bc2b8e4093cb99109613955c36c3756f29e8333da0abd4d54fcb868f06934cd7"
+    },
+    {
       "path": "data/world_sources.json",
       "bytes": 5124,
       "sha256": "6487602a8e570e7c5625311ef3eb8b77382f0bdbf6425e9adea671bf6da5c9d9"
@@ -721,6 +807,11 @@
       "path": "docs/HALO_COMBATS_BIBLE_V1.pdf",
       "bytes": 936240,
       "sha256": "b1f8b6c9118e00ba0b5f2701baab2a201d7e987bffcb80d8e773bd282df245fd"
+    },
+    {
+      "path": "docs/HALO_COMBATS_CATALOGUE_V9.md",
+      "bytes": 23821,
+      "sha256": "092ec44143c6956b437ab59f559a6a5b60ff8715a965418f13f1dc37c321c6ee"
     },
     {
       "path": "docs/HALO_COMBATS_GARDES_BOSS_V5.md",
@@ -828,6 +919,11 @@
       "sha256": "4e559a77948819c130160c67bccd8c08bf206adf3acf340a2c6a2a40c7ea96de"
     },
     {
+      "path": "prototype/halo_universe_v9.html",
+      "bytes": 9286,
+      "sha256": "e125524b682beec669376a985957657901ce450fdeb06ae51fb1c63e2e1dab1f"
+    },
+    {
       "path": "prototype/lab_v7/app.js",
       "bytes": 47486,
       "sha256": "a5eb5f8c1c9bf97164848d5d33d4221855e5798d59698eb8173b43f5760a32f4"
@@ -903,6 +999,31 @@
       "sha256": "8297a694b82c99c232c06eea1d0d4ac099e5304416046b60f056f214c1fdf16b"
     },
     {
+      "path": "prototype/qa_v9/catalog.test.cjs",
+      "bytes": 3570,
+      "sha256": "7ef99d14a2b481b940841b7dc2b929d1e7e00ac781fcb126a48c6cc6d227fc35"
+    },
+    {
+      "path": "prototype/qa_v9/results.json",
+      "bytes": 3054,
+      "sha256": "b4536639fc10b1fce843466d606a5ea9c4f4efd0bf82ecf7cb92ca1795ee358c"
+    },
+    {
+      "path": "prototype/universe_v9/app.js",
+      "bytes": 23831,
+      "sha256": "adeeeefadef3acb89331749de49f8e472770da695fc6f546b914c37dee8da674"
+    },
+    {
+      "path": "prototype/universe_v9/catalog.js",
+      "bytes": 588132,
+      "sha256": "97f1d5f9e59f0072e3e2b5c156866f0b5beaa42104a475cace46417387551dda"
+    },
+    {
+      "path": "prototype/universe_v9/style.css",
+      "bytes": 19886,
+      "sha256": "db88a32bc2a73e43908a4945d3d8c66be2429604546ab992d11b46ed3cb2a811"
+    },
+    {
       "path": "qa/docx/qa_report.json",
       "bytes": 1183,
       "sha256": "b564c55cd25b307630d8a670f3c04753f29ca729c6a410a19166106d30b89e97"
@@ -966,6 +1087,11 @@
       "path": "scripts/prepare_delivery.py",
       "bytes": 8937,
       "sha256": "6f295ba3b8f194b7e944eafe68e21c277e29f861bc6c64654b479ac38ae995f7"
+    },
+    {
+      "path": "scripts/update_publication_inventory.py",
+      "bytes": 2640,
+      "sha256": "91b27b5e7c0aa6154d7dd4f13888b1d58bb86384cf62682f2fab2bf777cd384d"
     },
     {
       "path": "work/core_chapter.md",
@@ -1646,6 +1772,66 @@
       "path": "work/wave8/write_notes.py",
       "bytes": 15089,
       "sha256": "095873cdf4cef5daa69d4761dc9c2a76486c9db49f55136fb1d8d1182b42666f"
+    },
+    {
+      "path": "work/wave9/additional_generation.json",
+      "bytes": 25009,
+      "sha256": "eef1931a9eb9d114fa429fa07af6222ddf713252165233cb84f411a128ddd5f5"
+    },
+    {
+      "path": "work/wave9/additional_references.json",
+      "bytes": 5162,
+      "sha256": "5c08678a40ee49ac947a5c37c09ae9a47eb530ea684a76a2b90c168ca443f384"
+    },
+    {
+      "path": "work/wave9/baseline.json",
+      "bytes": 36234,
+      "sha256": "c0d26fddfecdb7903f1c8a6f4408e8682401ab3657b6d8f0a4d9eb1b414d6369"
+    },
+    {
+      "path": "work/wave9/build_universe.py",
+      "bytes": 16483,
+      "sha256": "2b2cd730e1590ef42d1aa6b1fde6a48e429a60aae0b61e7be8aa12de5d94211f"
+    },
+    {
+      "path": "work/wave9/catalogue_build_report.json",
+      "bytes": 2376,
+      "sha256": "d70cfc7131482c0b20ed2c40142b339efd74e9923137b60c3b410a744df083cc"
+    },
+    {
+      "path": "work/wave9/character_generation.json",
+      "bytes": 20578,
+      "sha256": "2a249ce54b4cef5fa5c5b5975b35cee18b2c1938ead04e49fe640c1baa1ef848"
+    },
+    {
+      "path": "work/wave9/character_git_blobs.json",
+      "bytes": 1902,
+      "sha256": "32dd2e7d233190cf687936440b0ca62911705d1c13c952a358b5e72cf15fceee"
+    },
+    {
+      "path": "work/wave9/root_generation.json",
+      "bytes": 15780,
+      "sha256": "5fb2994a47095d601bdc1a99e9a044bbef5642390bec325e11b776e1dff8e6bd"
+    },
+    {
+      "path": "work/wave9/root_generation_raw.json",
+      "bytes": 9478,
+      "sha256": "2437481398028bea23df5a1298204974c7eaa2eecd859dd2335048d6c6eaae64"
+    },
+    {
+      "path": "work/wave9/universe_research.json",
+      "bytes": 212698,
+      "sha256": "7736c7dc0c5b1cfadf8f13de55af1927b42b343ada27301748b15a83823178a3"
+    },
+    {
+      "path": "work/wave9/universe_research.md",
+      "bytes": 35612,
+      "sha256": "aaa51b3c930ad87a28aa9d1e5e49d767e241ead25b21c95e3523fa428b2cb12b"
+    },
+    {
+      "path": "work/wave9/universe_supplement.json",
+      "bytes": 58835,
+      "sha256": "b41a431f0ff34fed335a1adf7967062acbdb6aa8374bd7ee5dca6d87cf84b756"
     },
     {
       "path": "work/world/bosses.json",

@@ -1,0 +1,58 @@
+{
+  "wave": 9,
+  "generator": "image_gen built-in",
+  "attempts": [
+    {
+      "id": "chief_ce_mark_v",
+      "entity_id": "costume_chief_ce_mark_v",
+      "category": "costume",
+      "reference": "chief_ce.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: a single full-body costume sprite for Halo Combats, reference-faithful to Halo: Combat Evolved (2001). Use the supplied original-game Master Chief render as the visual authority. Create exactly ONE Master Chief John-117 wearing the ORIGINAL MJOLNIR Mark V armor from Halo Combat Evolved, in a calm combat-ready near-lateral pose facing SCREEN RIGHT. Show the entire figure, both boots, hands, helmet and complete MA5B assault rifle. Reconstruct the precise original armor silhouette: broad smooth gold visor, overhanging green helmet brow with dark angular brow wings, simple thick olive-green angular chest and shoulder plates, black ribbed undersuit, original slab-shaped forearms and shins, small white-blue light strips. Preserve the original olive/sage color and broad heavy boots. Do not import the Halo Anniversary redesign, Campaign Evolved redesign, Infinite GEN3 armor, GEN2 armor, 117 chest lettering or modern attachment systems. Both hands hold ONE classic MA5B assault rifle at low ready, muzzle pointing right, finger off the trigger. Detailed high-definition painted game sprite with faithful old-game panel geometry and restrained material wear. No scenery, no floor, no labels, no watermark, no multiple views. GENUINE transparent background, clean alpha holes between limbs, no cast shadow outside the silhouette. Portrait frame with comfortable 8-percent margins all around, full body never cropped. The reference image is a design reference only, not a layout to copy.",
+      "start": "2026-11-20T15:02:18.087Z",
+      "end": "2026-11-20T15:04:48.751Z",
+      "status": "error",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 02f4db6e-ce95-4a77-849d-6ec4c5e2d38b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "id": "mammoth_h4",
+      "entity_id": "boss_mammoth_h4",
+      "category": "boss",
+      "reference": "mammoth_h4.jpg",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: one isolated large vehicle sprite for the Halo Combats boss catalog. Generate the M510 MAMMOTH precisely as it appears in Halo 4, using the supplied render by the game's vehicle artist as the visual authority. Exactly one complete vehicle, broad near-lateral profile with its FRONT CAB FACING SCREEN LEFT as in the source. Preserve the entire long beige/olive ultra-heavy six-wheeled chassis, THREE immense black tires visible along the near side, multiple narrow green windshield panes at the tall blocky forward cab, exposed suspension, open middle side deck and stairs, railings, rear raised giant squat railgun turret, blue rear machinery, skinny antennas, small orange service markings, accurate UNSC lettering. The main turret has the source's broad short rectangular multi-aperture muzzle, not a conventional long tank barrel. Match relative scale, bulky silhouette, deck levels and silhouette cutouts. High-definition hand-painted game production illustration, even neutral light, precise material separation. Keep all wheels, antennas, gun, handrails, front and rear inside frame with 6 percent empty margin. TRUE TRANSPARENT BACKGROUND. No scenery, ground, people, explosions, multiple vehicles, diagrams, panels or watermark. Do not turn this into an Elephant, Scorpion, modern truck or sci-fi redesign. This is a static catalog sprite, not an attack illustration.",
+      "start": "2026-11-20T15:02:18.088Z",
+      "end": "2026-11-20T15:04:03.528Z",
+      "output_hint": "Generated images are saved to /workspace/scratch/0379658a30c6/generated_images as /workspace/scratch/0379658a30c6/generated_images/exec-39b6778c-4c8f-4fde-8e51-114c8eb2e316.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "image_url_kind": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABu4A",
+      "status": "returned"
+    },
+    {
+      "id": "blood_gulch_ce",
+      "entity_id": "st_blood_gulch_ce",
+      "category": "stage",
+      "reference": "blood_gulch_ce.jpg",
+      "transparent": false,
+      "prompt": "Use case: stylized-concept. Asset type: one wide 16:9 master background for a 2D fighting-game adaptation of BLOOD GULCH from Halo Combat Evolved 2001. Use the supplied authentic screenshot only as the visual design reference. Recompose the original map into an eye-level side-on fighting stage: a broad level horizontal strip of tan packed earth with sparse olive-green grass occupies the lower 22 percent, unobstructed across the central 70 percent for two fighters. Behind it preserve the source's warm orange-brown vertical canyon walls, characteristic angular but weathered cliffs, winding sandy tracks, grassy mounds, small scattered rocks and rare bare scrub. The recognizable original LOW ROUND OCTAGONAL GREY CONCRETE BUNKER with flat roof, crenellation-like raised slabs and small green teleporter is prominent in middle distance; a second smaller matching base lies deeper in the valley. Preserve the original two low bunkers, never replace them with tall Valhalla towers, Coagulation underpasses or Anniversary designs. Clear pale blue lightly clouded sky, warm natural daylight, no sunset orange wash. A detailed painted videogame background with precise original architecture and readable depth, restrained crispness and stable side-view camera. No people, vehicles, weapons, HUD, text, logos, watermark, frame, split panels, perspective race track or foreground object hiding the play strip. One continuous complete background image, not separately claimed parallax layers.",
+      "start": "2026-11-20T15:02:18.088Z",
+      "end": "2026-11-20T15:03:11.903Z",
+      "output_hint": "Generated images are saved to /workspace/scratch/0379658a30c6/generated_images as /workspace/scratch/0379658a30c6/generated_images/exec-24dffb88-b2ce-4800-9a6f-001114c73daf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "image_url_kind": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABogA",
+      "status": "returned"
+    },
+    {
+      "id": "lockout_h2",
+      "entity_id": "st_lockout_h2",
+      "category": "stage",
+      "reference": "lockout_h2.png",
+      "transparent": false,
+      "prompt": "Use case: stylized-concept. Asset type: a single wide 16:9 master environment for a 2D fighting-game adaptation of LOCKOUT from the original Halo 2. Use the supplied exact game screenshot as architectural and palette authority. Create an eye-level near-side-on view across the central exposed metal platform, a horizontal readable flat playable strip in the lower 24 percent. Preserve the original gray-blue weathered slab towers, tall angled sloping caps, box-shaped upper rooms, narrow connecting bridges, low square railing posts with tiny pale lights, dangling black cables between antennas, immense icy cliff overhead, pale blue-white fog and snow in the abyss. Show layered towers and bridges receding in the fog as in this screenshot; angular original Halo 2 geometry, no Blackout oil-rig redesign and no Lockdown Anniversary ornamental rework. Color palette desaturated ice blue, steel gray, faint warm yellow doorway lights, calm cold diffuse daylight. Faithful high-definition painted videogame background, elegant readable depth, no fisheye, no wide perspective vanishing point through the fighting strip. Keep foreground floor clear across 70 percent of canvas for fighters; danger of height conveyed by the foggy abyss behind. No characters, vehicles, weapons, HUD, pickups, text, labels, panels or watermark. One complete environment background; actual separate parallax layers are not part of this output.",
+      "start": "2026-11-20T15:02:18.088Z",
+      "end": "2026-11-20T15:05:47.418Z",
+      "output_hint": "Generated images are saved to /workspace/scratch/0379658a30c6/generated_images as /workspace/scratch/0379658a30c6/generated_images/exec-4a682c58-eca1-4792-b0fb-61917c281965.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "image_url_kind": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABogA",
+      "status": "returned"
+    }
+  ]
+}
+

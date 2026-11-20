@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "repository_full_name": "darknigthmare/halo-combats-",
+  "created_on": "2026-11-20",
+  "operation": "create_blob_only",
+  "branch_ref_updated": false,
+  "blobs": {
+    "assets/characters_wave9/linda_h5_initial_right_v01.png": {
+      "sha": "816b93ddab309fa2d74f430f7940232603ae6d96",
+      "size": 1127839,
+      "entity_id": "linda_h5",
+      "verified_against_local_git_hash": true
+    },
+    "assets/characters_wave9/dare_odst_initial_right_v01.png": {
+      "sha": "f1f0b4bd118a5724eba4d6044a206ed9fd518321",
+      "size": 1265979,
+      "entity_id": "dare_odst",
+      "verified_against_local_git_hash": true
+    },
+    "assets/characters_wave9/ntho_h3_initial_right_v01.png": {
+      "sha": "d2a5df448ad59667c04afaae9c8a487b79e1bc7b",
+      "size": 1277225,
+      "entity_id": "ntho_h3",
+      "verified_against_local_git_hash": true
+    },
+    "assets/costumes_wave9/buck_h5_spartan_initial_right_v01.png": {
+      "sha": "e38f0a5c331938b594d40ed888c91f07e6e798ad",
+      "size": 1636565,
+      "entity_id": "buck_h5_spartan",
+      "verified_against_local_git_hash": true
+    },
+    "assets/costumes_wave9/arbiter_h5_kaidon_initial_right_v01.png": {
+      "sha": "d1082bb710b0197a3f5fcd89151ec58a6a98ee23",
+      "size": 2228163,
+      "entity_id": "arbiter_h5_kaidon",
+      "verified_against_local_git_hash": true
+    },
+    "assets/characters_wave9/tanaka_h5_initial_right_v01.png": {
+      "sha": "0310598e22ca9c45fb90c84b0064ba58b62fa3ba",
+      "size": 1319070,
+      "entity_id": "tanaka_h5",
+      "verified_against_local_git_hash": true
+    },
+    "assets/characters_wave9/usze_h3_initial_right_v01.png": {
+      "sha": "2f29f4e5df7509f7f4d1375efb7ed3ae3a8df955",
+      "size": 1280112,
+      "entity_id": "usze_h3",
+      "verified_against_local_git_hash": true
+    }
+  },
+  "not_transferred": [],
+  "transferred_count": 7,
+  "bytes_total": 10134953
+}

@@ -1,0 +1,1376 @@
+{
+  "schema_version": "1.0",
+  "project": "Halo Combats",
+  "wave": 9,
+  "verified_on": "2026-11-20",
+  "research_frozen": true,
+  "scope": "Supplemental character/appearance backlog; support roles distinguished from combat proposals.",
+  "counts": {
+    "character": 26,
+    "costume": 4
+  },
+  "candidate_count": 30,
+  "new_named_identity_count": 26,
+  "costume_variant_count": 4,
+  "title_registry": [
+    {
+      "id": "blood_line",
+      "title": "Halo: Blood Line",
+      "medium": "comic",
+      "continuity": "core",
+      "source_ids": [
+        "comics"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Halo_comics"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 2
+    },
+    {
+      "id": "ce",
+      "title": "Halo: Combat Evolved",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 5
+    },
+    {
+      "id": "cole_protocol",
+      "title": "Halo: The Cole Protocol",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide"
+      ],
+      "entity_coverage_status": "coverage_pending",
+      "backlog_entry_count": 0
+    },
+    {
+      "id": "h2",
+      "title": "Halo 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 4
+    },
+    {
+      "id": "h3",
+      "title": "Halo 3",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 1
+    },
+    {
+      "id": "h4",
+      "title": "Halo 4",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 6
+    },
+    {
+      "id": "hw",
+      "title": "Halo Wars",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "hw"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Halo_Wars"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 5
+    },
+    {
+      "id": "hw2",
+      "title": "Halo Wars 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "hw2"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Halo_Wars_2"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 5
+    },
+    {
+      "id": "infinite",
+      "title": "Halo Infinite",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 2
+    },
+    {
+      "id": "last_light",
+      "title": "Halo: Last Light",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide"
+      ],
+      "entity_coverage_status": "partial_backlog_listed",
+      "backlog_entry_count": 2
+    },
+    {
+      "id": "reach",
+      "title": "Halo: Reach",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "coverage_pending",
+      "backlog_entry_count": 0
+    },
+    {
+      "id": "spartan_ops",
+      "title": "Halo 4: Spartan Ops",
+      "medium": "campaign_mode",
+      "continuity": "core",
+      "source_ids": [
+        "campaigns"
+      ],
+      "coverage_status": "bibliographic_register_not_exhaustive_entity_audit",
+      "release_status": "published_work_or_component",
+      "source_urls": [
+        "https://www.halopedia.org/Campaign"
+      ],
+      "entity_coverage_status": "coverage_pending",
+      "backlog_entry_count": 0
+    }
+  ],
+  "title_registry_merge_rule": "These are unchanged existing title IDs from universe_research.json; merge by id, never count them twice.",
+  "sources": [
+    {
+      "id": "black_team",
+      "title": "Black Team",
+      "url": "https://www.halopedia.org/Black_Team",
+      "source_type": "secondary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Margaret=Black-One ; Roma=Black-Two ; Otto=Black-Three ; Victor=Black-Four."
+    },
+    {
+      "id": "books",
+      "title": "Official Halo Book Guide",
+      "url": "https://www.halowaypoint.com/news/official-halo-book-guide",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Bibliographie et dates de sortie ; aucune apparence complète déduite du seul synopsis."
+    },
+    {
+      "id": "heart",
+      "title": "Canon Fodder: Heart and Soell",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-heart-and-soell",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Mobuto montré dans Campaign Evolved ; calendrier bibliographique 2026/2027. Les annonces restent séparées des sorties."
+    },
+    {
+      "id": "hw_local",
+      "title": "Canon Fodder: Local Units",
+      "url": "https://www.halowaypoint.com/en-us/news/canon-fodder-local-units",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Harvest, Arcadia, Super Scarab et monde bouclier de la campagne Halo Wars."
+    },
+    {
+      "id": "lasky",
+      "title": "Thomas Lasky",
+      "url": "https://www.halopedia.org/Thomas_Lasky",
+      "source_type": "secondary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Cadet de Corbulo, distinction des incarnations par âge et œuvre."
+    },
+    {
+      "id": "mammoth",
+      "title": "Canon Fodder: Fiction Festivities",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Capture du Mammoth dans Reclaimer ; véhicule Halo 4 attesté."
+    },
+    {
+      "id": "protocols",
+      "title": "Canon Fodder: Of Protocols and Prisons",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-of-protocols-and-prisons",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Thanolekgolo sensibles à la technologie ; archives audio Rebirth et Trial of Mendicant Bias."
+    },
+    {
+      "id": "raven",
+      "title": "That’s So Raven",
+      "url": "https://www.halowaypoint.com/news/thats-so-raven",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Fireteam Raven, Alpha Base et rencontres ; illustrations et liens de matériel communautaire."
+    },
+    {
+      "id": "supp_dubbo",
+      "title": "Credits — Halo: Campaign Evolved",
+      "url": "https://www.halowaypoint.com/halo-campaign-evolved/credits",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Crédits officiels de PFC Dubbo ; l’apparence CE classique demande une capture CE distincte."
+    },
+    {
+      "id": "supp_fireside",
+      "title": "Halo: Fireside",
+      "url": "https://www.halowaypoint.com/news/halo-fireside",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Captain Cutter version Halo Wars 2, Isabel et Spirit of Fire ; art du pont."
+    },
+    {
+      "id": "supp_gray_index",
+      "title": "Gray Team",
+      "url": "https://www.halopedia.org/Gray_Team",
+      "source_type": "secondary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Bibliographie et illustrations répertoriées ; auteur et commande officielle de chaque image à contrôler."
+    },
+    {
+      "id": "supp_infinite_after",
+      "title": "Halo: Edge of Dawn | OUT NOW",
+      "url": "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Esparza et l’IA de Halo Infinite ; le nom Joyeuse appartient à sa trajectoire ultérieure, sans créer une seconde identité."
+    },
+    {
+      "id": "supp_majestic",
+      "title": "Getting to Know Fireteam Majestic — republication de dossiers Waypoint",
+      "url": "https://www.halodiehards.net/getting-know-fireteam-majestic/",
+      "source_type": "archived_primary_via_secondary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Reprise des fiches Meet Fireteam Majestic de Waypoint ; les liens primaires historiques doivent être archivés pour le dossier définitif."
+    },
+    {
+      "id": "supp_majestic_index",
+      "title": "Fireteam Majestic",
+      "url": "https://www.halopedia.org/Fireteam_Majestic",
+      "source_type": "secondary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Rôles et identité de Thorne/DeMarco ; aucune interchangeabilité de leurs modèles."
+    },
+    {
+      "id": "supp_monitors",
+      "title": "Canon Fodder: Lore de Force",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-lore-de-force",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Identités de 343 Guilty Spark et 2401 Penitent Tangent ; cette source récente ne verrouille pas leurs modèles H3/H2."
+    },
+    {
+      "id": "supp_penitent",
+      "title": "Canon Fodder: High-Value Histories",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "2401 Penitent Tangent et Delta Halo ; référence d’identité, non un turnaround."
+    },
+    {
+      "id": "supp_prophets",
+      "title": "Silver Debrief: Just Beyond Our Reach",
+      "url": "https://www.halowaypoint.com/news/silver-debrief-just-beyond-our-reach",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Passage distinguant explicitement les trois Hiérarques du canon principal et leur adaptation TV ; ne pas employer les images TV pour Halo 2."
+    },
+    {
+      "id": "supp_thorne",
+      "title": "Canon Fodder: All About Anvil",
+      "url": "https://www.halowaypoint.com/news/canon-fodder-all-about-anvil",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Gabriel Thorne identifié comme membre de Fireteam Majestic."
+    },
+    {
+      "id": "supp_unsc",
+      "title": "Anniversary Angle: UNSC Heroes",
+      "url": "https://www.halowaypoint.com/news/anniversary-angle-unsc-heroes",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Noms Esparza, Chips Dubbo, Cortana ; fan arts de la page non utilisés comme références officielles."
+    },
+    {
+      "id": "supp_vertical",
+      "title": "Halo 4 | Vertical Umbrage",
+      "url": "https://www.halowaypoint.com/news/halo-4-vertical-umbrage",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Jul ’Mdama et Roland dans le contexte Spartan Ops, sans confusion avec Sesa ’Refumee."
+    },
+    {
+      "id": "women",
+      "title": "Women’s History Month 2024",
+      "url": "https://www.halowaypoint.com/news/womens-history-month-2024",
+      "source_type": "primary",
+      "checked_on": "2026-11-20",
+      "evidence_scope": "Identités, œuvres et portraits officiels ; portraits parfois partiels."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cortana_ce",
+      "name": "Cortana — CE classique",
+      "kind": "character",
+      "category": "character",
+      "work_id": "ce",
+      "work_title": "Halo: Combat Evolved",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women",
+        "raven"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halowaypoint.com/news/thats-so-raven"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Capturer le modèle holographique CE classique ; conserver sa silhouette, ses motifs et sa couleur propres.",
+      "design_lock": "Capturer le modèle holographique CE classique ; conserver sa silhouette, ses motifs et sa couleur propres.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "costume_cortana_h3",
+      "name": "Cortana — Halo 3",
+      "kind": "costume",
+      "category": "costume",
+      "work_id": "h3",
+      "work_title": "Halo 3",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Modèle Halo 3 indépendant de CE, Anniversary et Halo 4 ; même identité Cortana.",
+      "design_lock": "Modèle Halo 3 indépendant de CE, Anniversary et Halo 4 ; même identité Cortana.",
+      "related_entity_id": "cortana_ce",
+      "existing_entity_id": "cortana_ce",
+      "relation_to_existing": "distinct_version_linked_to_identity",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "costume_cortana_h4",
+      "name": "Cortana — Halo 4",
+      "kind": "costume",
+      "category": "costume",
+      "work_id": "h4",
+      "work_title": "Halo 4",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Conserver le visage et la géométrie Halo 4 ; ne pas synthétiser les trois modèles.",
+      "design_lock": "Conserver le visage et la géométrie Halo 4 ; ne pas synthétiser les trois modèles.",
+      "related_entity_id": "cortana_ce",
+      "existing_entity_id": "cortana_ce",
+      "relation_to_existing": "distinct_version_linked_to_identity",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "halsey_reach",
+      "name": "Catherine Halsey — Halo Reach",
+      "kind": "character",
+      "category": "character",
+      "work_id": "reach",
+      "work_title": "Halo: Reach",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Employer le modèle Reach et sa tenue de l’incarnation choisie ; pas la comédienne Silver.",
+      "design_lock": "Employer le modèle Reach et sa tenue de l’incarnation choisie ; pas la comédienne Silver.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "weapon_infinite",
+      "name": "The Weapon — Halo Infinite",
+      "kind": "character",
+      "category": "character",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women",
+        "supp_infinite_after"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Verrouiller son hologramme Infinite ; identité distincte de Cortana, malgré leur filiation.",
+      "design_lock": "Verrouiller son hologramme Infinite ; identité distincte de Cortana, malgré leur filiation.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée. Alias ultérieur Joyeuse confirmé dans Edge of Dawn ; l’entrée reste verrouillée sur son incarnation Infinite et n’ajoute pas une seconde identité.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "esparza_infinite",
+      "name": "Fernando Esparza — Halo Infinite",
+      "kind": "character",
+      "category": "character",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_infinite_after",
+        "supp_unsc"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/halo-edge-of-dawn-out-now",
+        "https://www.halowaypoint.com/news/anniversary-angle-unsc-heroes"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Photogrammes Infinite nécessaires pour combinaison, harnais, visage et casque.",
+      "design_lock": "Photogrammes Infinite nécessaires pour combinaison, harnais, visage et casque.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "pilot_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "serina_hw",
+      "name": "Serina — Halo Wars",
+      "kind": "character",
+      "category": "character",
+      "work_id": "hw",
+      "work_title": "Halo Wars",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Hologramme Halo Wars 2009 ; ne pas le remplacer par Isabel ou des artifices du pack multijoueur HW2.",
+      "design_lock": "Hologramme Halo Wars 2009 ; ne pas le remplacer par Isabel ou des artifices du pack multijoueur HW2.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "isabel_hw2",
+      "name": "Isabel — Halo Wars 2",
+      "kind": "character",
+      "category": "character",
+      "work_id": "hw2",
+      "work_title": "Halo Wars 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women",
+        "supp_fireside"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halowaypoint.com/news/halo-fireside"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Verrouiller l’avatar holographique de Halo Wars 2 et sa présentation choisie.",
+      "design_lock": "Verrouiller l’avatar holographique de Halo Wars 2 et sa présentation choisie.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "anders_hw",
+      "name": "Ellen Anders — Halo Wars",
+      "kind": "character",
+      "category": "character",
+      "work_id": "hw",
+      "work_title": "Halo Wars",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "women",
+        "hw_local"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/womens-history-month-2024",
+        "https://www.halowaypoint.com/en-us/news/canon-fodder-local-units"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Conserver le visage et la tenue Halo Wars 2009 ; Halo Wars 2 constituerait une autre incarnation.",
+      "design_lock": "Conserver le visage et la tenue Halo Wars 2009 ; Halo Wars 2 constituerait une autre incarnation.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "science_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "cutter_hw",
+      "name": "James Cutter — Halo Wars",
+      "kind": "character",
+      "category": "character",
+      "work_id": "hw",
+      "work_title": "Halo Wars",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "hw_local"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/en-us/news/canon-fodder-local-units"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Uniforme et visage de Halo Wars 2009 ; aucun mélange avec le modèle HW2.",
+      "design_lock": "Uniforme et visage de Halo Wars 2009 ; aucun mélange avec le modèle HW2.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "command_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "costume_cutter_hw2",
+      "name": "James Cutter — Halo Wars 2",
+      "kind": "costume",
+      "category": "costume",
+      "work_id": "hw2",
+      "work_title": "Halo Wars 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_fireside"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/halo-fireside"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Variante liée au même Cutter ; utiliser les cinématiques Halo Wars 2.",
+      "design_lock": "Variante liée au même Cutter ; utiliser les cinématiques Halo Wars 2.",
+      "related_entity_id": "cutter_hw",
+      "existing_entity_id": "cutter_hw",
+      "relation_to_existing": "distinct_version_linked_to_identity",
+      "proposed_role": "command_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "costume_lasky_h4",
+      "name": "Thomas Lasky — officier Halo 4",
+      "kind": "costume",
+      "category": "costume",
+      "work_id": "h4",
+      "work_title": "Halo 4",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "mammoth",
+        "lasky"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+        "https://www.halopedia.org/Thomas_Lasky"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Adulte Halo 4 lié au cadet déjà catalogué ; vérifier visage, uniforme et état de mission.",
+      "design_lock": "Adulte Halo 4 lié au cadet déjà catalogué ; vérifier visage, uniforme et état de mission.",
+      "related_entity_id": "lasky_cadet_fud",
+      "existing_entity_id": "lasky_cadet_fud",
+      "relation_to_existing": "distinct_version_linked_to_identity",
+      "proposed_role": "command_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "roland_h4",
+      "name": "Roland — IA de l’Infinity",
+      "kind": "character",
+      "category": "character",
+      "work_id": "spartan_ops",
+      "work_title": "Halo 4: Spartan Ops",
+      "medium": "campaign_mode",
+      "continuity": "core",
+      "source_ids": [
+        "supp_vertical",
+        "protocols"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/halo-4-vertical-umbrage",
+        "https://www.halowaypoint.com/news/canon-fodder-of-protocols-and-prisons"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Avatar de Spartan Ops ; ne pas confondre avec Roland-B210 des Headhunters.",
+      "design_lock": "Avatar de Spartan Ops ; ne pas confondre avec Roland-B210 des Headhunters.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "spark_h3",
+      "name": "343 Guilty Spark — Halo 3",
+      "kind": "character",
+      "category": "character",
+      "work_id": "h3",
+      "work_title": "Halo 3",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_monitors",
+        "raven"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-lore-de-force",
+        "https://www.halowaypoint.com/news/thats-so-raven"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Verrouiller le moniteur Halo 3 ; détail de coque et état lumineux à relever dans le jeu.",
+      "design_lock": "Verrouiller le moniteur Halo 3 ; détail de coque et état lumineux à relever dans le jeu.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "monitor_or_boss_proposal",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "penitent_tangent_h2",
+      "name": "2401 Penitent Tangent — Halo 2 classique",
+      "kind": "character",
+      "category": "character",
+      "work_id": "h2",
+      "work_title": "Halo 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_penitent",
+        "supp_monitors"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-high-value-histories",
+        "https://www.halowaypoint.com/news/canon-fodder-lore-de-force"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Coque de Halo 2 classique ; ne pas utiliser un Spark simplement recolorié.",
+      "design_lock": "Coque de Halo 2 classique ; ne pas utiliser un Spark simplement recolorié.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "truth_h2",
+      "name": "Haut Prophète de la Vérité — Halo 2",
+      "kind": "character",
+      "category": "character",
+      "work_id": "h2",
+      "work_title": "Halo 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_prophets"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/silver-debrief-just-beyond-our-reach"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Capturer Halo 2 classique et son trône ; costume et visage distincts de H2A/Halo 3/Silver.",
+      "design_lock": "Capturer Halo 2 classique et son trône ; costume et visage distincts de H2A/Halo 3/Silver.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "mercy_h2",
+      "name": "Haut Prophète de la Pitié — Halo 2",
+      "kind": "character",
+      "category": "character",
+      "work_id": "h2",
+      "work_title": "Halo 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_prophets"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/silver-debrief-just-beyond-our-reach"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Halo 2 classique ; préserver visage, coiffure, robe et trône individuels.",
+      "design_lock": "Halo 2 classique ; préserver visage, coiffure, robe et trône individuels.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "narrative_support",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Priorité support, scénario ou présentation ; aucune capacité de combat canonique n’est attribuée.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "regret_h2",
+      "name": "Haut Prophète du Regret — Halo 2",
+      "kind": "character",
+      "category": "character",
+      "work_id": "h2",
+      "work_title": "Halo 2",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_prophets"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/silver-debrief-just-beyond-our-reach"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Version Halo 2 classique et trône documenté ; aucune fusion avec les deux autres Hiérarques.",
+      "design_lock": "Version Halo 2 classique et trône documenté ; aucune fusion avec les deux autres Hiérarques.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "boss_proposal",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "thorne_spartan_ops",
+      "name": "Gabriel Thorne — Spartan Ops",
+      "kind": "character",
+      "category": "character",
+      "work_id": "spartan_ops",
+      "work_title": "Halo 4: Spartan Ops",
+      "medium": "campaign_mode",
+      "continuity": "core",
+      "source_ids": [
+        "supp_thorne",
+        "supp_majestic",
+        "supp_majestic_index"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-all-about-anvil",
+        "https://www.halodiehards.net/getting-know-fireteam-majestic/",
+        "https://www.halopedia.org/Fireteam_Majestic"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Acquérir des images concordantes de Spartan Ops ; vérifier armure et visage individuellement.",
+      "design_lock": "Acquérir des images concordantes de Spartan Ops ; vérifier armure et visage individuellement.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "demarco_spartan_ops",
+      "name": "Paul DeMarco — Spartan Ops",
+      "kind": "character",
+      "category": "character",
+      "work_id": "spartan_ops",
+      "work_title": "Halo 4: Spartan Ops",
+      "medium": "campaign_mode",
+      "continuity": "core",
+      "source_ids": [
+        "supp_majestic",
+        "supp_majestic_index"
+      ],
+      "reference_urls": [
+        "https://www.halodiehards.net/getting-know-fireteam-majestic/",
+        "https://www.halopedia.org/Fireteam_Majestic"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Référence Waypoint historique réhébergée ; verrouiller l’armure propre à DeMarco dans l’œuvre.",
+      "design_lock": "Référence Waypoint historique réhébergée ; verrouiller l’armure propre à DeMarco dans l’œuvre.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. La fiche primaire historique est réhébergée ; conserver cette limite de provenance.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "jul_mdama_h4",
+      "name": "Jul ’Mdama — Halo 4 Spartan Ops",
+      "kind": "character",
+      "category": "character",
+      "work_id": "spartan_ops",
+      "work_title": "Halo 4: Spartan Ops",
+      "medium": "campaign_mode",
+      "continuity": "core",
+      "source_ids": [
+        "supp_vertical",
+        "books"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/halo-4-vertical-umbrage",
+        "https://www.halowaypoint.com/news/official-halo-book-guide"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Capturer Jul dans Spartan Ops ; ne pas remplacer par Sesa ’Refumee ou par Jul Halo 5.",
+      "design_lock": "Capturer Jul dans Spartan Ops ; ne pas remplacer par Sesa ’Refumee ou par Jul Halo 5.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "victor_black_four",
+      "name": "Victor-101 — Black-Four",
+      "kind": "character",
+      "category": "character",
+      "work_id": "blood_line",
+      "work_title": "Halo: Blood Line",
+      "medium": "comic",
+      "continuity": "core",
+      "source_ids": [
+        "heart",
+        "black_team"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-heart-and-soell",
+        "https://www.halopedia.org/Black_Team"
+      ],
+      "visual_reference_status": "published_comic_design_packet_pending",
+      "reference_status": "published_comic_design_packet_pending",
+      "visual_lock": "Victor est Black-Four, spécialisé sniper ; ne pas permuter avec Otto, Black-Three.",
+      "design_lock": "Victor est Black-Four, spécialisé sniper ; ne pas permuter avec Otto, Black-Three.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "otto_black_three",
+      "name": "Otto-031 — Black-Three",
+      "kind": "character",
+      "category": "character",
+      "work_id": "blood_line",
+      "work_title": "Halo: Blood Line",
+      "medium": "comic",
+      "continuity": "core",
+      "source_ids": [
+        "heart",
+        "black_team"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-heart-and-soell",
+        "https://www.halopedia.org/Black_Team"
+      ],
+      "visual_reference_status": "published_comic_design_packet_pending",
+      "reference_status": "published_comic_design_packet_pending",
+      "visual_lock": "Otto est Black-Three ; sélectionner les planches Blood Line avant détails de tenue.",
+      "design_lock": "Otto est Black-Three ; sélectionner les planches Blood Line avant détails de tenue.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "jai_gray_team",
+      "name": "Jai-006 — Gray Team",
+      "kind": "character",
+      "category": "character",
+      "work_id": "cole_protocol",
+      "work_title": "Halo: The Cole Protocol",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books",
+        "heart",
+        "supp_gray_index"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide",
+        "https://www.halowaypoint.com/news/canon-fodder-heart-and-soell",
+        "https://www.halopedia.org/Gray_Team"
+      ],
+      "visual_reference_status": "textual_identity_verified_visual_not_locked",
+      "reference_status": "textual_identity_verified_visual_not_locked",
+      "visual_lock": "Choisir une époque de Gray Team ; illustration complète et attribution officielle à vérifier.",
+      "design_lock": "Choisir une époque de Gray Team ; illustration complète et attribution officielle à vérifier.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "adriana_gray_team",
+      "name": "Adriana-111 — Gray Team",
+      "kind": "character",
+      "category": "character",
+      "work_id": "cole_protocol",
+      "work_title": "Halo: The Cole Protocol",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books",
+        "heart",
+        "supp_gray_index"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide",
+        "https://www.halowaypoint.com/news/canon-fodder-heart-and-soell",
+        "https://www.halopedia.org/Gray_Team"
+      ],
+      "visual_reference_status": "textual_identity_verified_visual_not_locked",
+      "reference_status": "textual_identity_verified_visual_not_locked",
+      "visual_lock": "Ne pas utiliser un fan art de Spotlight comme référence officielle du modèle.",
+      "design_lock": "Ne pas utiliser un fan art de Spotlight comme référence officielle du modèle.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "michael_gray_team",
+      "name": "Michael-120 « Mike » — Gray Team",
+      "kind": "character",
+      "category": "character",
+      "work_id": "cole_protocol",
+      "work_title": "Halo: The Cole Protocol",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books",
+        "heart",
+        "supp_gray_index"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide",
+        "https://www.halowaypoint.com/news/canon-fodder-heart-and-soell",
+        "https://www.halopedia.org/Gray_Team"
+      ],
+      "visual_reference_status": "textual_identity_verified_visual_not_locked",
+      "reference_status": "textual_identity_verified_visual_not_locked",
+      "visual_lock": "Identifier une illustration officielle et la période d’armure avant génération.",
+      "design_lock": "Identifier une illustration officielle et la période d’armure avant génération.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "ash_ferret",
+      "name": "Ash-G099 — Ferrets",
+      "kind": "character",
+      "category": "character",
+      "work_id": "last_light",
+      "work_title": "Halo: Last Light",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books",
+        "women"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide",
+        "https://www.halowaypoint.com/news/womens-history-month-2024"
+      ],
+      "visual_reference_status": "textual_identity_verified_visual_not_locked",
+      "reference_status": "textual_identity_verified_visual_not_locked",
+      "visual_lock": "Tenue et phase de mission à préciser ; identité canonique ne certifie pas l’apparence complète.",
+      "design_lock": "Tenue et phase de mission à préciser ; identité canonique ne certifie pas l’apparence complète.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "mark_ferret",
+      "name": "Mark-G313 — Ferrets",
+      "kind": "character",
+      "category": "character",
+      "work_id": "last_light",
+      "work_title": "Halo: Last Light",
+      "medium": "novel_or_novella",
+      "continuity": "core",
+      "source_ids": [
+        "books",
+        "women"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/official-halo-book-guide",
+        "https://www.halowaypoint.com/news/womens-history-month-2024"
+      ],
+      "visual_reference_status": "textual_identity_verified_visual_not_locked",
+      "reference_status": "textual_identity_verified_visual_not_locked",
+      "visual_lock": "Acquérir les références officielles de la période choisie ; ne pas copier automatiquement Ash.",
+      "design_lock": "Acquérir les références officielles de la période choisie ; ne pas copier automatiquement Ash.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "stacker_ce",
+      "name": "Marcus P. Stacker — CE classique",
+      "kind": "character",
+      "category": "character",
+      "work_id": "ce",
+      "work_title": "Halo: Combat Evolved",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "mammoth",
+        "supp_unsc"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-fiction-festivities",
+        "https://www.halowaypoint.com/news/anniversary-angle-unsc-heroes"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "L’identité Stacker est attestée ; apparence CE classique à verrouiller par captures, distincte de Halo 4.",
+      "design_lock": "L’identité Stacker est attestée ; apparence CE classique à verrouiller par captures, distincte de Halo 4.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Les sources d’identité ne valident pas seules l’attribution d’un visage générique de Marine dans CE.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "id": "chips_dubbo_ce",
+      "name": "Chips Dubbo — CE classique",
+      "kind": "character",
+      "category": "character",
+      "work_id": "ce",
+      "work_title": "Halo: Combat Evolved",
+      "medium": "game",
+      "continuity": "core",
+      "source_ids": [
+        "supp_dubbo",
+        "supp_unsc"
+      ],
+      "reference_urls": [
+        "https://www.halowaypoint.com/halo-campaign-evolved/credits",
+        "https://www.halowaypoint.com/news/anniversary-angle-unsc-heroes"
+      ],
+      "visual_reference_status": "published_screen_design_packet_pending",
+      "reference_status": "published_screen_design_packet_pending",
+      "visual_lock": "Choisir une capture CE classique correctement attribuée ; ne pas copier le modèle du remake 2026.",
+      "design_lock": "Choisir une capture CE classique correctement attribuée ; ne pas copier le modèle du remake 2026.",
+      "related_entity_id": null,
+      "existing_entity_id": null,
+      "relation_to_existing": "new_named_entry",
+      "proposed_role": "combat_candidate",
+      "role_status": "halo_combats_proposal_not_canon",
+      "notes": "Fiche répertoriée, non générée ; rôle dans Halo Combats proposé et non implémenté. Les sources d’identité ne valident pas seules l’attribution d’un visage générique de Marine dans CE.",
+      "production_status": "catalogued_not_generated",
+      "asset_paths": [],
+      "animation_status": "not_produced",
+      "integration_status": "not_integrated",
+      "fidelity_1_to_1_certified": false
+    }
+  ],
+  "validation": {
+    "unique_ids": 30,
+    "exact_existing_id_collisions": 0,
+    "all_variant_links_resolve": true,
+    "primary_reference_for_most_identities": true,
+    "demarco_primary_archive_limit": true
+  },
+  "review_flags": [
+    "Les sources d’identité et les dossiers visuels sont distincts. Un portrait ou une mention ne certifie pas une apparence corps entier.",
+    "Toutes les IA, scientifiques et officiers restent proposés comme supports/narration ; aucun moveset canonique n’est inventé.",
+    "Cortana CE/H3/H4 désigne une identité et trois incarnations, pas trois personnages. Cutter HW1/HW2 désigne une identité. Lasky adulte est relié au cadet déjà présent.",
+    "Aucun fan art de Spotlight n’est utilisé comme référence officielle.",
+    "The Weapon et Joyeuse ne sont pas deux individus. Le nom ultérieur ne change pas le verrou visuel Halo Infinite."
+  ]
+}
