@@ -1,0 +1,36 @@
+{
+  "wave": 7,
+  "purpose": "Explicit producer freezes received by the consolidation agent; original journals are preserved byte for byte.",
+  "files": {
+    "generation_results_aliens.json": {
+      "producer": "/root/wave7_aliens",
+      "sha256": "e7132c173b73dbf6cb934dceaadc1c69bb40cb756a196e05add1c2a23c164184",
+      "evidence": "Producer explicitly confirmed the journal and QA frozen through the collaboration channel."
+    },
+    "qa_aliens.json": {
+      "producer": "/root/wave7_aliens",
+      "sha256": "5013435198912d7dc63e1bc9f715869c9b6f868bb159d40b7367c997c700f52a",
+      "evidence": "Producer explicitly confirmed the journal and QA frozen through the collaboration channel."
+    },
+    "generation_results_unsc.json": {
+      "producer": "/root/wave7_unsc",
+      "sha256": "29b689fb1f4a655d089fc9758679582924a0be12a8d393de9e8a8f3c97a855b4",
+      "evidence": "Producer explicitly confirmed the journal and QA frozen through the collaboration channel."
+    },
+    "qa_unsc.json": {
+      "producer": "/root/wave7_unsc",
+      "sha256": "d69eb8b37fad64b009c1fbf53ee85b7a4de3893b52807211813f2bb547c48a18",
+      "evidence": "Producer explicitly confirmed the journal and QA frozen through the collaboration channel."
+    },
+    "generation_results_root.json": {
+      "producer": "/root",
+      "sha256": "3b362770ffb7fa44655eb003b5a29bcbae47622f8cb9c55390b1d31d92498d22",
+      "evidence": "Parent explicitly confirmed the root journal and QA frozen through the collaboration channel."
+    },
+    "qa_root.json": {
+      "producer": "/root",
+      "sha256": "a0670b2d0fbdfa91a67d026cffebce75c7cfd762d3c22bcac264cab52082ddbc",
+      "evidence": "Parent explicitly confirmed the root journal and QA frozen through the collaboration channel."
+    }
+  }
+}

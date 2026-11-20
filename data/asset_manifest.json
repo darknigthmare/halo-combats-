@@ -2055,6 +2055,348 @@
       "generation_wave": 6,
       "source_journal": "work/wave6/generation_results.json",
       "journal_record": 55
+    },
+    {
+      "entity_id": "kelly_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "previous_wave": 6,
+      "previous_source_journal": "work/wave6/generation_results_unsc.json",
+      "variant": 1,
+      "equipment_state": "Armure HERMES GEN2 casquée ; fusil à pompe noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Kelly.png",
+        "image_url": "https://www.halopedia.org/images/b/b6/H5G-Render-Kelly.png?71a63",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "d440a19986e12e4dfa8829f55ca46215a5d0c2859ead1dc1e7a44ce21dbfc9a8",
+        "dimensions": {
+          "width": 540,
+          "height": 1020
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/kelly_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Kelly-087 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific blue-grey HERMES GEN2 armor with the exceptionally large curved gold visor wrapping over the forehead, smooth rounded helmet and round side module, very thin yellow armor edging, slim athletic armored silhouette and long shaped shin guards. Preserve the reference's single black shotgun and all its recognizable geometry. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "reference_inspected_wave7": true,
+      "status": "generation_failed",
+      "started_utc": "2026-11-20T06:37:22.023Z",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162112,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5463}}\")",
+      "completed_utc": "2026-11-20T06:37:29.980Z",
+      "tool_called": true,
+      "source_path": null,
+      "error_class": "usage_limit_reached",
+      "http_status": 429,
+      "producer_source_journal": "work/wave7/generation_results_unsc.json",
+      "producer_journal_record": 0,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 0,
+      "failure_category": "service_quota"
+    },
+    {
+      "entity_id": "linda_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "previous_wave": 6,
+      "previous_source_journal": "work/wave6/generation_results_unsc.json",
+      "variant": 1,
+      "equipment_state": "Armure ARGUS GEN2 casquée ; fusil de précision du rendu officiel à deux mains, canon entier visible.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Linda.png",
+        "image_url": "https://www.halopedia.org/images/2/21/H5G-Render-Linda.png?65c35",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "eadd96750fac3f0729fca61ff58509f88ae1c293223f3ac5fad6e66a6a56c74c",
+        "dimensions": {
+          "width": 800,
+          "height": 1060
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/linda_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Linda-058 exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. Her specific taupe-grey ARGUS GEN2 armor with multi-optic helmet: several small gold lenses and large asymmetrical optical housings instead of a single conventional visor; rectangular tall backpack module; subtle orange lines; slim armored build. Preserve the exact very long sniper rifle and scope shown by the reference, with the entire muzzle inside the canvas. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "reference_inspected_wave7": true,
+      "status": "generation_failed",
+      "started_utc": "2026-11-20T06:37:22.023Z",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162113,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5463}}\")",
+      "completed_utc": "2026-11-20T06:37:30.355Z",
+      "tool_called": true,
+      "source_path": null,
+      "error_class": "usage_limit_reached",
+      "http_status": 429,
+      "producer_source_journal": "work/wave7/generation_results_unsc.json",
+      "producer_journal_record": 1,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 1,
+      "failure_category": "service_quota"
+    },
+    {
+      "entity_id": "locke_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "previous_wave": 6,
+      "previous_source_journal": "work/wave6/generation_results_unsc.json",
+      "variant": 1,
+      "equipment_state": "Armure HUNTER GEN2 casquée ; fusil d'assaut vert sombre du rendu officiel à deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Locke-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/2/20/H5G-Render-Locke-fullbody.png?44244",
+        "provenance": "Rendu officiel de presse Halo 5, archivé depuis Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_url": "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one",
+        "sha256": "a99c135c605a6275a88c288b352e0a22688cf2d465df32154a2be7f812ba6b89",
+        "dimensions": {
+          "width": 520,
+          "height": 1040
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/locke_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Vue de référence principalement frontale ou trois-quarts ; détails entièrement occultés non certifiables."
+      },
+      "prompt": "Create one production-quality full-body transparent-background character image of Jameson Locke exactly as the attached official Halo 5: Guardians 2015 game render. This is a reference-guided new fighting-game idle combat pose, preserving character identity, anatomical proportions, individual armor geometry, colors, equipment and correct left-right asymmetry. His specific dark steel-grey HUNTER GEN2 armor, slender horizontally glowing cyan visor, highly mechanical closed jaw, smoothly sculpted thighs and angular clavicle plates, small rear shoulder fin. Preserve the reference's olive-green assault rifle including its broad body, yellow markings and short forward barrel. Repose the complete character to face screen RIGHT, near side-on with only a slight three-quarter view if necessary to retain the distinctive helmet; head, torso, knees and boots all directed right. Stable staggered combat stance, knees flexed mildly, rifle held by exactly two anatomically correct gloved hands across the torso at low ready toward screen right, no firing. Match the high-detail realistic game-render surface language of the reference. One character only, one weapon only; helmet stays closed with no invented face. Full helmet, all armor, both boots and the entire weapon must be visible with generous empty transparent padding on every side (at least 6 percent); choose canvas wide enough for weapon and stance. Actual transparent alpha background, no floor, no backdrop, no checkerboard pixels, no labels, no text, no effects, no duplicates, no decorative border. This image is a new pose of the referenced canonical design, not a redesign.",
+      "reference_inspected_wave7": true,
+      "status": "generation_failed",
+      "started_utc": "2026-11-20T06:37:22.023Z",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162113,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5463}}\")",
+      "completed_utc": "2026-11-20T06:37:30.686Z",
+      "tool_called": true,
+      "source_path": null,
+      "error_class": "usage_limit_reached",
+      "http_status": 429,
+      "producer_source_journal": "work/wave7/generation_results_unsc.json",
+      "producer_journal_record": 2,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 2,
+      "failure_category": "service_quota"
+    },
+    {
+      "entity_id": "tanaka_h5",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "previous_wave": 6,
+      "previous_source_journal": "work/wave6/generation_results_unsc.json",
+      "variant": 1,
+      "equipment_state": "Armure TECHNICIAN casquée ; DMR noir du rendu officiel, deux mains.",
+      "reference_input": {
+        "page_url": "https://www.halopedia.org/File:H5G-Render-Tanaka-fullbody.png",
+        "image_url": "https://www.halopedia.org/images/e/e0/H5G-Render-Tanaka-fullbody.png?5e9fb",
+        "provenance": "Rendu officiel du press kit Halo 5 publié par Halo Waypoint ; réhébergement documentaire Halopedia.",
+        "primary_urls": [
+          "https://web.archive.org/web/20150629031730/https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one"
+        ],
+        "sha256": "fc295d5ddb71e03754cf68a134916e472afacfe818fd7e3f006a926bcef4f535",
+        "dimensions": {
+          "width": 540,
+          "height": 1070
+        },
+        "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_unsc/tanaka_h5_reference.png",
+        "generated": false,
+        "inspected": true,
+        "limits": "Référence principalement frontale ; volumes cachés et petits marquages de côté non certifiables."
+      },
+      "prompt": "Generate one standalone full-body transparent character asset of Holly Tanaka, faithfully matching the attached official Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015 reference. Repose this exact character, preserving individual armor panel geometry, surface materials, colors, physique and correct anatomical left-right asymmetry. Preserve her exact ivory/grey TECHNICIAN GEN2 armor with vivid cyan piping around the helmet's cheek respirator and lower chest, pink-copper visor, small red markings, red emblem on her anatomical LEFT shoulder and chunky circular upper chest structure. Preserve the asymmetry rather than mirroring her. Preserve the single long black DMR shown in the reference; both hands hold it at low ready toward screen right. Combat idle pose facing screen RIGHT, as close to a side view as the reference permits; knees mildly flexed, feet staggered, head and chest directed right, weight balanced. Keep the complete silhouette visible: full helmet, entire weapon, both arms, both legs and both boots. One character, exactly two arms and two hands, one weapon. Closed canonical helmet, no invented face. Realistic high-detail Halo game-render materials, not a generic science-fiction redesign. Leave at least six percent transparent canvas margin on EVERY side including above head and under boots; use enough canvas width for the pose. Actual alpha transparency, no environment, no floor or shadow plane, no checkerboard pixels, no label or added title, no duplicates and no border.",
+      "reference_inspected_wave7": true,
+      "status": "generation_failed",
+      "started_utc": "2026-11-20T06:37:22.023Z",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162113,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5464}}\")",
+      "completed_utc": "2026-11-20T06:37:29.537Z",
+      "tool_called": true,
+      "source_path": null,
+      "error_class": "usage_limit_reached",
+      "http_status": 429,
+      "producer_source_journal": "work/wave7/generation_results_unsc.json",
+      "producer_journal_record": 3,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 3,
+      "failure_category": "service_quota"
+    },
+    {
+      "entity_id": "ntho_h3",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "variant": "h3_plasma_rifle_ready",
+      "equipment_state": "Halo 3 plasma rifle held in right hand; Halo 3 Covenant carbine stowed vertically on back as in supplied capture.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: N'tho 'Sraom specifically as he appears in Halo 3 (2007). Preserve the source's blue Combat harness: elongated narrow swept-back helmet, deep cobalt blue segmented chest, green luminous chest slits, paired tall shoulder plates, blue shin and thigh armor, dark gray exposed alien skin and flexible black joints. Maintain Halo 3 Elite anatomy: forward jutting narrow head, four separated mandibles, digitigrade legs, split feet and correct distinctive hand shape. Keep exactly the same Halo 3 plasma rifle as the reference held in his right hand, with blue-purple hooked paired chassis and cyan vents. His left hand forms an open ready guard. Retain the separate Halo 3 Covenant carbine stowed on the back with only the parts naturally visible from this angle, matching reference: do not combine its shape with the plasma rifle. No sword, Spartan armor or later Halo 4 anatomical redesign. Calm focused duel stance looking right, upper body only slightly leaning forward. Do not replicate the original running pose.",
+      "previous_wave": 6,
+      "previous_journal": "work/wave6/generation_results_aliens.json",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:Halo3-N%27tho_%27Sraom.png",
+          "image_url": "https://www.halopedia.org/images/6/60/Halo3-N%27tho_%27Sraom.png?c440f",
+          "primary_url": null,
+          "provenance": "Détourage d’une capture du modèle Halo 3 réhébergé par Halopedia ; version haute définition mise en ligne par Shazamikaze.",
+          "sha256": "78868856f47f0a19cd174aabc72e6d2cf6a0b67f6431c34564fab2e39603c146",
+          "dimensions": {
+            "width": 1960,
+            "height": 2740
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_inspection.png",
+          "inspection_sha256": "9d62ddba05bdb55950e5be105e889f9cdf664da30ad889351e8632626e06a4f0",
+          "image_modified_locally": false,
+          "limits": "Vue de course en trois-quarts ; dos et prise exacte du fusil masqués en partie. L’inspection a utilisé la miniature du même fichier fournie par le site."
+        }
+      ],
+      "started_utc": "2026-11-20T06:38:12.822Z",
+      "completed_utc": "2026-11-20T06:38:13.222Z",
+      "status": "generation_failed",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162113,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5420}}\")",
+      "error_code": "usage_limit_reached",
+      "http_status": 429,
+      "failure_scope": "service_quota",
+      "generated_output_count": 0,
+      "tool_called": true,
+      "error_class": "usage_limit_reached",
+      "producer_source_journal": "work/wave7/generation_results_aliens.json",
+      "producer_journal_record": 0,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 4,
+      "failure_category": "service_quota"
+    },
+    {
+      "entity_id": "usze_h3",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "variant": "h3_assault_harness_plasma_rifle",
+      "equipment_state": "One Halo 3 plasma rifle in right hand matching full-body source; no carbine in this selected pose.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: Usze 'Taham in the Halo 3 (2007) Assault harness, the burgundy/maroon Elite shown in the full-body source. Preserve the distinctive smooth rounded wine-red helmet dome, dark gray/silver cheek and mandible armor, exposed amber eyes, cyan tiny side vents, burgundy chest with two green light strips, rectangular broad burgundy pauldrons with pale Sangheili markings, maroon bracers, long maroon thighs, maroon shin plates and large split alien feet. No tall fin or long pointed Combat helmet: that belongs to a different armor. Keep the slim tall Halo 3 Elite anatomy and articulated four-mandible mouth under its protecting cheek plates. The full-body source's exact blue-purple Halo 3 plasma rifle is held in the right hand in a low forward ready guard. The second source is only for colors, face and chest detail; do NOT bring in its different rifle. Left hand guards the torso with clearly separated species-correct digits. No sword, extra backpack weapon or shields. Repose to the right in a planted duel stance, retaining all armor components.",
+      "previous_wave": 6,
+      "previous_journal": "work/wave6/generation_results_aliens.json",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:H3-Usze_Taham_Portrait.png",
+          "image_url": "https://www.halopedia.org/images/9/97/H3-Usze_Taham_Portrait.png?ff5cd",
+          "primary_url": null,
+          "provenance": "Capture du modèle entier de Usze dans Halo 3, réhébergée par Halopedia.",
+          "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "dimensions": {
+            "width": 660,
+            "height": 1080
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "inspection_sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "image_modified_locally": false,
+          "limits": "Détourage conservant des morceaux de décor ; ne pas reprendre le fond. Orientation trois-quarts."
+        },
+        {
+          "page_url": "https://www.halopedia.org/File:UszeTaham_-_Profile.png",
+          "image_url": "https://www.halopedia.org/images/e/e7/UszeTaham_-_Profile.png?fce87",
+          "primary_url": null,
+          "provenance": "Capture Halo 3 rapprochée de Usze portant une carabine, réhébergée par Halopedia.",
+          "sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "dimensions": {
+            "width": 420,
+            "height": 640
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "inspection_sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "image_modified_locally": false,
+          "limits": "Utilisée seulement pour casque et couleurs ; cette arme alternative n’est pas mélangée avec le fusil à plasma de la pose choisie."
+        }
+      ],
+      "started_utc": "2026-11-20T06:38:12.823Z",
+      "completed_utc": "2026-11-20T06:38:13.559Z",
+      "status": "generation_failed",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162113,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5420}}\")",
+      "error_code": "usage_limit_reached",
+      "http_status": 429,
+      "failure_scope": "service_quota",
+      "generated_output_count": 0,
+      "tool_called": true,
+      "error_class": "usage_limit_reached",
+      "producer_source_journal": "work/wave7/generation_results_aliens.json",
+      "producer_journal_record": 1,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 5,
+      "failure_category": "service_quota"
+    },
+    {
+      "entity_id": "let_volir_hw2",
+      "entity_type": "expansion_character",
+      "pose_scope": "initial_character_pose",
+      "attempt_kind": "retry_previous_wave_same_prompt",
+      "variant": "hw2_cinematic_unarmed_guard",
+      "equipment_state": "Unarmed ready guard; exact HW2 Blur cinematic armor, no invented carried weapon.",
+      "reference_input": [
+        "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg"
+      ],
+      "prompt": "Create ONE isolated full-body game-character asset for the Halo Combats 2D fighting-game adaptation. It is a high-definition material rendering of the exact supplied Halo incarnation, NOT a redesign. Use the supplied image as visual authority for species, body proportions, armor panels, helmet, colors, markings, wear, joints, claws and feet. The character faces SCREEN RIGHT in a near-lateral fighting ready stance, only a mild three-quarter view so the face and armor remain readable. Both feet, every limb, head extremity, and every carried weapon must be completely visible within the frame, with a comfortable empty transparent margin on every side. Exactly one coherent character, two arms and two legs, species-correct hands and feet, no fused limbs, duplicated equipment or phantom hands. Orthographic-like game camera, neutral studio illumination, sharp metal, matte undersuit and alien skin materials, production concept quality. TRUE TRANSPARENT BACKGROUND AND ALPHA, including holes between limbs. No scene, ground plane, scenery, cast shadow, smoke, title, label, logo, watermark, UI, border, contact sheet, turnaround or second character. Faithfully preserve the specific supplied original-game design rather than mixing later versions. The fighting stance is a new pose, not a claim of a canonical animation. SUBJECT: Shipmaster Let 'Volir, exact Halo Wars 2 Blur cinematic model in the supplied David Munoz Velazquez armor render. Preserve the very tall triangular red-and-silver helmet fin, rounded bright silver brow plate with tiny rivets, dark open lower face with four mandibles, elongated Sangheili neck, broad segmented silver-and-red circular neck/collar assembly, deep scarlet painted chest and shoulders with silver edging, black abdominal plates and black flexible body suit, pointed silver forearm guards, dark thigh armor, long silver/dark shin armor and large split alien feet. Keep the unusually long elegant silhouette from the source and its precise armor panel shapes; do not borrow Ripa's ornate Arbiter armor or generic gold Elite armor. The source is an unarmed model: use an unarmed martial ready guard, hands separated at mid-torso height with species-correct digits, no additional sword, rifle, holster or insignia. Helmet fin, hands and feet entirely within frame.",
+      "previous_wave": 6,
+      "previous_journal": "work/wave6/generation_results_aliens.json",
+      "use_case": "stylized-concept",
+      "reference_metadata": [
+        {
+          "page_url": "https://www.halopedia.org/File:HW2_LetVolir_Render_1.jpg",
+          "image_url": "https://www.halopedia.org/images/2/28/HW2_LetVolir_Render_1.jpg?8ab29",
+          "primary_url": "https://www.artstation.com/artwork/2G2qY",
+          "provenance": "Rendu de production Blur ; armure modélisée/texturée par David Munoz Velazquez, modèle de peau Sangheili crédité à Mathieu Aerni. Réhébergement attribué Halopedia.",
+          "sha256": "6020607a90a87d903289ba27e50dceadc8d1355eb0f8b9f9714e18baa5f0f0bb",
+          "dimensions": {
+            "width": 1832,
+            "height": 2000
+          },
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg",
+          "generated": false,
+          "inspected": true,
+          "inspection_method": "view_image; original or source-host thumbnail of the identical original",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_inspection.jpg",
+          "inspection_sha256": "b9e80fb69d0a7cf03f6ef197db43ad2e10b7ff09a196839fa253d231b7a4753b",
+          "image_modified_locally": false,
+          "limits": "Modèle cinématique sans arme ; les armes d’une future pose devront recevoir leurs propres références. Vue frontale trois-quarts, détails cachés non certifiés."
+        }
+      ],
+      "started_utc": "2026-11-20T06:38:12.823Z",
+      "completed_utc": "2026-11-20T06:38:13.828Z",
+      "status": "generation_failed",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"pro\\\",\\\"resets_at\\\":1795162112,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":5419}}\")",
+      "error_code": "usage_limit_reached",
+      "http_status": 429,
+      "failure_scope": "service_quota",
+      "generated_output_count": 0,
+      "tool_called": true,
+      "error_class": "usage_limit_reached",
+      "producer_source_journal": "work/wave7/generation_results_aliens.json",
+      "producer_journal_record": 2,
+      "generation_wave": 7,
+      "source_journal": "work/wave7/generation_results.json",
+      "journal_record": 6,
+      "failure_category": "service_quota"
     }
   ],
   "generated_unique_entities": 62,
@@ -2080,7 +2422,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
       "sha256": "23ac61d89be17a710936a693879ec7ddd7ce700faf4c9e9ee9c371c4e9b18486",
       "width": 1024,
@@ -2089,7 +2431,19 @@
       "alpha_range": [
         0,
         254
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "arbiter_h3_neutral_v2",
+        "path": "assets/candidates/arbiter_halo3_neutral_right_v2.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "arbiter_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "scarab_h3_profile_v2",
@@ -2109,7 +2463,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "path": "assets/candidates/scarab_halo3_left_v2.png",
       "sha256": "eab741ab08dea09dd82e9663709ae0fa142da38c25fa9d95bdc9dedac30e599b",
       "width": 1774,
@@ -2118,7 +2472,19 @@
       "alpha_range": [
         0,
         255
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "scarab_h3_profile_v2",
+        "path": "assets/candidates/scarab_halo3_left_v2.png",
+        "usages": [
+          "catalog",
+          "boss"
+        ],
+        "entity_ids": [
+          "boss_scarab_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "valhalla_h3_master_v2",
@@ -2138,13 +2504,25 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "path": "assets/candidates/valhalla_halo3_master_v2.png",
       "sha256": "a429c7661d32d116b0558d7af0a9174a1f6da72b858c532692bb351ef275f97d",
       "width": 1672,
       "height": 941,
       "mode": "RGB",
-      "alpha_range": null
+      "alpha_range": null,
+      "prototype_usage_v7": {
+        "asset_id": "valhalla_h3_master_v2",
+        "path": "assets/candidates/valhalla_halo3_master_v2.png",
+        "usages": [
+          "catalog",
+          "stage"
+        ],
+        "entity_ids": [
+          "st_valhalla_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "mombasa_odst_master_v2",
@@ -2164,13 +2542,25 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "path": "assets/candidates/mombasa_odst_night_master_v2.png",
       "sha256": "d9efeaa25e0a50f56a74405c01a69067c8814e0609a86c986dd647244d4657da",
       "width": 1671,
       "height": 941,
       "mode": "RGB",
-      "alpha_range": null
+      "alpha_range": null,
+      "prototype_usage_v7": {
+        "asset_id": "mombasa_odst_master_v2",
+        "path": "assets/candidates/mombasa_odst_night_master_v2.png",
+        "usages": [
+          "catalog",
+          "stage"
+        ],
+        "entity_ids": [
+          "st_mombasa_odst"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "atriox_hw2_neutral_right_v01",
@@ -2193,7 +2583,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "original",
       "pose_scope": "initial_character_pose",
@@ -2385,7 +2775,19 @@
         "Chainbreaker is one three-pronged gravity mace with red energized elements, not three separate hammers or an axe.",
         "Official Waypoint verifies the gravity mace identity; exact prong spacing and salvaged plates require model comparison.",
         "Mantic reference corroborates anatomy/weapon only, not the chosen Halo Wars 2 rendering."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "atriox_hw2_neutral_right_v01",
+        "path": "assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "atriox_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "jerome_hw2_neutral_right_v01",
@@ -2408,7 +2810,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "original",
       "pose_scope": "initial_character_pose",
@@ -2570,7 +2972,19 @@
         "092 et losange rouge sur plastron gauche, pas 117 de Chief.",
         "Pas sac spécifique Commander Jerome, Mantis Theseus ou armure hybride du leader DLC.",
         "Emblème corinthien épaule droite ; aucun miroir automatique des insignes."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "jerome_hw2_neutral_right_v01",
+        "path": "assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "jerome_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "decimus_hw2_neutral_right_v01",
@@ -2593,7 +3007,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "original",
       "pose_scope": "initial_character_pose",
@@ -2775,7 +3189,19 @@
         "His menu depiction has a left-arm gun but the gameplay model lacks guns; choose the gameplay exoframe consistently.",
         "His personal modified gravity weapon is described as a hammer in character lore; model gallery is classified among gravity maces. Match geometry rather than generic weapon wording.",
         "Xbox article is official identity/art context, not an orthographic geometry proof. In-game model remains required for final mesh verification."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "decimus_hw2_neutral_right_v01",
+        "path": "assets/characters_wave2/decimus_hw2_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "decimus_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "cethegus_h3_neutral_right_v01",
@@ -2798,7 +3224,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "original",
       "pose_scope": "initial_character_pose",
@@ -2985,7 +3411,19 @@
         "His weapon is the standard Halo 3 gravity hammer geometry, not Fist of Rukt, Chainbreaker or Diminisher.",
         "Keep face visible beneath the correct tall helmet crest; no invented heroic facial redesign.",
         "Exact plate colors and crest shape must match the supplied official gameplay image."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "cethegus_h3_neutral_right_v01",
+        "path": "assets/characters_wave2/cethegus_h3_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "cethegus_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "hunter_h3_neutral_right_v01",
@@ -3009,7 +3447,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "original",
       "pose_scope": "initial_character_pose",
@@ -3192,7 +3630,19 @@
         "Use Halo 3's assault cannon with characteristic projecting parts and green energy elements, not the CE drum launcher.",
         "Long dorsal spikes, hunch and broad feet fit entirely within frame.",
         "Official encyclopedia announcement does not itself establish weapon sides. Retrieved weapon description corroborates right cannon; final Halo 3 model comparison remains required."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "hunter_h3_neutral_right_v01",
+        "path": "assets/characters_wave2/hunter_h3_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "hunter_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "rtas_h3_neutral_right_v01",
@@ -3216,7 +3666,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -3404,7 +3854,19 @@
         "Use Halo 3 white Assault shoulders and combat helmet, not Arbiter engraved armor.",
         "Left-side mandibular detail is corroborated by Halopedia; official article only verifies identity and Half-Jaw nickname.",
         "Confirm final silhouette and shoulder geometry against Halo 3 gameplay before certifying 1:1."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "rtas_h3_neutral_right_v01",
+        "path": "assets/characters_wave2/rtas_h3_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "rtas_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "buck_odst_neutral_right_v01",
@@ -3427,7 +3889,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -3609,7 +4071,19 @@
         "MA5C assorti à la fiche actuelle, pas MA40 Infinite.",
         "Gabarit humain ODST, pas épaules et jambes MJOLNIR surdimensionnées.",
         "Les petits marquages et traces d'usure doivent être comparés à une même phase de campagne."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "buck_odst_neutral_right_v01",
+        "path": "assets/characters_wave2/buck_odst_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "buck_odst"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "zealot_reach_neutral_right_v01",
@@ -3633,7 +4107,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 2,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -3796,7 +4270,19 @@
         "Official Fighting Words confirms the Reach Devoted Sentries harness, but illustrates a Killer Instinct adaptation; use it only for identity context.",
         "Preserve Reach's much bulkier Sangheili proportions rather than Halo 3's narrower armor.",
         "Final helmet and shoulder ridge placement remain direct Halo Reach model QA checks."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "zealot_reach_neutral_right_v01",
+        "path": "assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "zealot_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "noble_six_neutral_right_v01",
@@ -3819,7 +4305,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 3,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -4014,7 +4500,19 @@
         "Armure gris acier, aucune grosse épaulière personnelle de Noble ajoutée.",
         "MA37 de Reach, pas MA40 Infinite ; arme complète dans le cadre.",
         "Les promotions divergent sur UA et genouillères ; verrou explicite de cette variante nécessaire."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "noble_six_neutral_right_v01",
+        "path": "assets/characters_wave3/noble_six_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "noble_six"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "rookie_odst_neutral_right_v01",
@@ -4037,7 +4535,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 3,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -4220,7 +4718,19 @@
         "Mains vides, M7S absent dans cette pose neutre ; aucune aura VISR ou de bouclier.",
         "Le preview officiel du guide cosplay fournit des vues face/profil/dos ; ne pas prétendre que l'intégralité du gros guide a été inspectée.",
         "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "rookie_odst_neutral_right_v01",
+        "path": "assets/characters_wave3/rookie_odst_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "rookie_odst"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "alice_hw2_neutral_right_v01",
@@ -4243,7 +4753,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 3,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -4434,7 +4944,19 @@
         "Mains vides, M247H absent ; ce portrait ne constitue pas encore une pose de son moveset de mitrailleuse.",
         "Les sources couvrent parfois Wars 1, Wars 2 et des améliorations : garder un seul modèle de campagne cohérent.",
         "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "alice_hw2_neutral_right_v01",
+        "path": "assets/characters_wave3/alice_hw2_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "alice_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "kat_reach_neutral_right_v01",
@@ -4457,7 +4979,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -4645,7 +5167,18 @@
         "Hardcase à la cuisse gauche ; silhouette protégée réaliste, sans mise en forme exagérée de l'armure.",
         "Mains vides, M6G absent ; contrôler la prothèse et le casque sur le modèle Reach, pas un kit Infinite.",
         "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
-      ]
+      ],
+      "prototype_usage_v7": {
+        "asset_id": "kat_reach_neutral_right_v01",
+        "path": "assets/characters_wave4/kat_reach_neutral_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "kat_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "chief_infinite_neutral_right_v01",
@@ -4668,7 +5201,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -4876,6 +5409,18 @@
           "Rifle and hands obscure part of the chest and forearms.",
           "Use as the armor and proportion reference when generating a new neutral pose; the download itself is not a generated character."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "chief_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/chief_infinite_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "chief_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -4899,7 +5444,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -5093,7 +5638,19 @@
         "Un personnage entier, vue quasi orthographique vers la droite, marges libres et alpha réel ; inspecter le fichier obtenu avant de déclarer sa fidélité."
       ],
       "generation_method": "targeted_equipment_correction",
-      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png"
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-a72c9c70-d8b8-4af8-9cc6-50908050ca1d.png",
+      "prototype_usage_v7": {
+        "asset_id": "kat_reach_neutral_right_v02",
+        "path": "assets/characters_wave4/kat_reach_neutral_right_v02.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "kat_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "jorge_reach_neutral_right_v01",
@@ -5115,7 +5672,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -5398,6 +5955,18 @@
           "Not an orthographic lateral or rear view; some upper backpack details sit near the frame.",
           "Archived PNG is 880 by 1040; original press-kit JPG provenance is documented by the file page, not byte-equivalence."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "jorge_reach_neutral_right_v01",
+        "path": "assets/characters_wave4/jorge_reach_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "jorge_reach"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -5420,7 +5989,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -5701,6 +6270,18 @@
           "Rifle and arms obscure the chest, and the crouch foreshortens some thigh and hip details.",
           "Scarf looks like camouflage mesh in green/earth tones; use the image for material and color instead of assuming a plain tan cloth."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "jun_reach_neutral_right_v01",
+        "path": "assets/characters_wave4/jun_reach_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "jun_reach"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -5723,7 +6304,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -6007,6 +6588,17 @@
           "Halopedia file history describes a later extraction with no white edges. This hosted PNG is a derivative archive copy, not a verified byte-identical original Bungie JPG.",
           "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "carter_reach_neutral_right_v01",
+        "path": "assets/characters_wave4/carter_reach_neutral_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "carter_reach"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -6029,7 +6621,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -6298,6 +6890,18 @@
           0,
           255
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "johnson_h3_neutral_right_v01",
+        "path": "assets/characters_wave4/johnson_h3_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "johnson_h3"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -6320,7 +6924,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -6589,6 +7193,18 @@
           0,
           255
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "tartarus_h2_neutral_right_v01",
+        "path": "assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "tartarus_h2"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -6611,7 +7227,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -6949,6 +7565,18 @@
           "height": 561,
           "mode": "RGB"
         }
+      },
+      "prototype_usage_v7": {
+        "asset_id": "douglas_hw2_neutral_right_v01",
+        "path": "assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "douglas_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -6971,7 +7599,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -7258,6 +7886,18 @@
           "Very tight crop around helmet, feet and sword tips; do not reproduce cropping in the new full-body reference.",
           "Blue sword light and scene illumination affect colors; material accuracy beyond visible surfaces is not certified."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "chak_lok_neutral_right_v01",
+        "path": "assets/characters_wave4/chak_lok_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "chak_lok"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -7280,7 +7920,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -7569,6 +8209,18 @@
           "Weapon and arms obscure upper chest details; rear leg partly occluded.",
           "Archived PNG is 660 by 1020, with no added resolution or invented hidden details."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "emile_reach_neutral_right_v01",
+        "path": "assets/characters_wave4/emile_reach_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "emile_reach"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -7592,7 +8244,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -7884,6 +8536,17 @@
           "Feet, forearms and back-weapon handle have limited margins. Give the new neutral full-body art broader transparent padding.",
           "Does not provide exact 1:1 certification or a complete turnaround."
         ]
+      },
+      "prototype_usage_v7": {
+        "asset_id": "escharum_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/escharum_infinite_neutral_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "escharum_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -7906,7 +8569,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -8350,6 +9013,18 @@
             255
           ]
         }
+      },
+      "prototype_usage_v7": {
+        "asset_id": "jega_infinite_neutral_right_v01",
+        "path": "assets/characters_wave4/jega_infinite_neutral_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "jega_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
       }
     },
     {
@@ -8372,7 +9047,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -8665,7 +9340,19 @@
           "Does not provide exact 1:1 certification or a complete turnaround."
         ]
       },
-      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png"
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-94a17b81-ea99-4df2-9382-a65ca6ed59e6.png",
+      "prototype_usage_v7": {
+        "asset_id": "escharum_infinite_neutral_right_v02",
+        "path": "assets/characters_wave4/escharum_infinite_neutral_right_v02.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "escharum_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "carter_reach_neutral_right_v02",
@@ -8687,7 +9374,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 4,
       "attempt_kind": "neutral_unarmed",
       "pose_scope": "neutral_unarmed_reference",
@@ -8971,7 +9658,19 @@
           "A single 770 x 990 render cannot certify every armor detail or an exact turnaround."
         ]
       },
-      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png"
+      "correction_of_source_path": "/workspace/scratch/9d31c69eef8e/generated_images/exec-3d2807d8-ee68-4435-8308-25d720ce472f.png",
+      "prototype_usage_v7": {
+        "asset_id": "carter_reach_neutral_right_v02",
+        "path": "assets/characters_wave4/carter_reach_neutral_right_v02.png",
+        "usages": [
+          "catalog",
+          "combat_neutral"
+        ],
+        "entity_ids": [
+          "carter_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "arbiter_h3_guard_right_v01",
@@ -8985,7 +9684,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -9166,7 +9865,19 @@
           "Animation"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "arbiter_h3_guard_right_v01",
+        "path": "assets/characters_wave5/arbiter_h3_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "arbiter_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "johnson_h3_guard_right_v01",
@@ -9180,7 +9891,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -9365,7 +10076,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "johnson_h3_guard_right_v01",
+        "path": "assets/characters_wave5/johnson_h3_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "johnson_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "emile_reach_guard_right_v01",
@@ -9379,7 +10102,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -9565,7 +10288,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "emile_reach_guard_right_v01",
+        "path": "assets/characters_wave5/emile_reach_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "emile_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "jorge_reach_guard_right_v01",
@@ -9579,7 +10314,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -9765,7 +10500,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "jorge_reach_guard_right_v01",
+        "path": "assets/characters_wave5/jorge_reach_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "jorge_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "kat_reach_guard_right_v01",
@@ -9779,7 +10526,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -9966,7 +10713,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "kat_reach_guard_right_v01",
+        "path": "assets/characters_wave5/kat_reach_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "kat_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "carter_reach_guard_right_v01",
@@ -9980,7 +10739,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -10168,7 +10927,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "carter_reach_guard_right_v01",
+        "path": "assets/characters_wave5/carter_reach_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "carter_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "rtas_h3_guard_right_v01",
@@ -10182,7 +10953,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -10371,7 +11142,19 @@
           "Collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "rtas_h3_guard_right_v01",
+        "path": "assets/characters_wave5/rtas_h3_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "rtas_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "tartarus_h2_guard_right_v01",
@@ -10385,7 +11168,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -10572,7 +11355,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "tartarus_h2_guard_right_v01",
+        "path": "assets/characters_wave5/tartarus_h2_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "tartarus_h2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "atriox_hw2_guard_right_v01",
@@ -10586,7 +11381,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -10769,7 +11564,19 @@
           "Collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "atriox_hw2_guard_right_v01",
+        "path": "assets/characters_wave5/atriox_hw2_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "atriox_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "decimus_hw2_guard_right_v01",
@@ -10783,7 +11590,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -10972,7 +11779,19 @@
           "Collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "decimus_hw2_guard_right_v01",
+        "path": "assets/characters_wave5/decimus_hw2_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "decimus_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "escharum_infinite_guard_right_v01",
@@ -10986,7 +11805,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -11172,7 +11991,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "escharum_infinite_guard_right_v01",
+        "path": "assets/characters_wave5/escharum_infinite_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "escharum_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "jega_infinite_guard_right_v01",
@@ -11186,7 +12017,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -11373,7 +12204,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "jega_infinite_guard_right_v01",
+        "path": "assets/characters_wave5/jega_infinite_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "jega_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "chak_lok_guard_right_v01",
@@ -11387,7 +12230,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -11567,7 +12410,19 @@
           "Animations, collisions et intégration au moteur"
         ]
       },
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "chak_lok_guard_right_v01",
+        "path": "assets/characters_wave5/chak_lok_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "chak_lok"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "noble_six_guard_right_v01",
@@ -11581,7 +12436,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "retry_same_prompt",
@@ -11768,7 +12623,19 @@
         ]
       },
       "retry_index": 1,
-      "variant": 1
+      "variant": 1,
+      "prototype_usage_v7": {
+        "asset_id": "noble_six_guard_right_v01",
+        "path": "assets/characters_wave5/noble_six_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "noble_six"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_warden_h5_profile_v01",
@@ -11782,7 +12649,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -11975,7 +12842,19 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Silhouette entière candidate de l’entité."
+      "depicted_region": "Silhouette entière candidate de l’entité.",
+      "prototype_usage_v7": {
+        "asset_id": "boss_warden_h5_profile_v01",
+        "path": "assets/bosses_wave5/boss_warden_h5_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "warden_eternal_h5",
+          "boss_warden_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_abomination_hw2_profile_v01",
@@ -11989,7 +12868,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -12182,7 +13061,18 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Silhouette entière candidate de l’entité."
+      "depicted_region": "Silhouette entière candidate de l’entité.",
+      "prototype_usage_v7": {
+        "asset_id": "boss_abomination_hw2_profile_v01",
+        "path": "assets/bosses_wave5/boss_abomination_hw2_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_abomination_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_juggernaut_ftr_profile_v01",
@@ -12196,7 +13086,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -12388,7 +13278,18 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Silhouette entière candidate de l’entité."
+      "depicted_region": "Silhouette entière candidate de l’entité.",
+      "prototype_usage_v7": {
+        "asset_id": "boss_juggernaut_ftr_profile_v01",
+        "path": "assets/bosses_wave5/boss_juggernaut_ftr_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_juggernaut_ftr"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_hunters_ce_profile_v01",
@@ -12402,7 +13303,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -12594,7 +13495,18 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Un Hunter Classic entier ; à instancier deux fois pour la rencontre du Cartographe."
+      "depicted_region": "Un Hunter Classic entier ; à instancier deux fois pour la rencontre du Cartographe.",
+      "prototype_usage_v7": {
+        "asset_id": "boss_hunters_ce_profile_v01",
+        "path": "assets/bosses_wave5/boss_hunters_ce_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_hunters_ce"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_proto_gravemind_hw2_profile_v01",
@@ -12608,7 +13520,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_partial_module",
@@ -12802,7 +13714,18 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Noyau vulnérable frontal et plaques charnues immédiates visibles dans Manifestation ; masse supérieure, soubassement et tentacules non couverts."
+      "depicted_region": "Noyau vulnérable frontal et plaques charnues immédiates visibles dans Manifestation ; masse supérieure, soubassement et tentacules non couverts.",
+      "prototype_usage_v7": {
+        "asset_id": "boss_proto_gravemind_hw2_profile_v01",
+        "path": "assets/bosses_wave5/boss_proto_gravemind_hw2_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_proto_gravemind_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "event_guardian_h5_profile_v01",
@@ -12816,7 +13739,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_partial_module",
@@ -13006,7 +13929,18 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Tête et collerette centrale supérieure du Guardian H5 ; ailes, épine inférieure et étendue totale non couvertes."
+      "depicted_region": "Tête et collerette centrale supérieure du Guardian H5 ; ailes, épine inférieure et étendue totale non couvertes.",
+      "prototype_usage_v7": {
+        "asset_id": "event_guardian_h5_profile_v01",
+        "path": "assets/bosses_wave5/event_guardian_h5_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "event_guardian_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "event_gravemind_h3_profile_v01",
@@ -13020,7 +13954,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_partial_module",
@@ -13216,7 +14150,18 @@
         "certified_1_to_1": false
       },
       "variant": 1,
-      "depicted_region": "Module de biomasse et poches Flood de la mission Cortana / High Charity ; ni corps du Gravemind ni tentacule complet."
+      "depicted_region": "Module de biomasse et poches Flood de la mission Cortana / High Charity ; ni corps du Gravemind ni tentacule complet.",
+      "prototype_usage_v7": {
+        "asset_id": "event_gravemind_h3_profile_v01",
+        "path": "assets/bosses_wave5/event_gravemind_h3_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "event_gravemind_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "alice_hw2_guard_right_v01",
@@ -13230,7 +14175,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -13419,7 +14364,19 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_guards_b.json"
+      "journal_origin": "generation_results_guards_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "alice_hw2_guard_right_v01",
+        "path": "assets/characters_wave5/alice_hw2_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "alice_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "douglas_hw2_guard_right_v01",
@@ -13433,7 +14390,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -13621,7 +14578,19 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_guards_b.json"
+      "journal_origin": "generation_results_guards_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "douglas_hw2_guard_right_v01",
+        "path": "assets/characters_wave5/douglas_hw2_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "douglas_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "cethegus_h3_guard_right_v01",
@@ -13635,7 +14604,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -13824,7 +14793,19 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_guards_b.json"
+      "journal_origin": "generation_results_guards_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "cethegus_h3_guard_right_v01",
+        "path": "assets/characters_wave5/cethegus_h3_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "cethegus_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "buck_odst_guard_right_v01",
@@ -13838,7 +14819,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -14025,7 +15006,19 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_guards_b.json"
+      "journal_origin": "generation_results_guards_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "buck_odst_guard_right_v01",
+        "path": "assets/characters_wave5/buck_odst_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "buck_odst"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "rookie_odst_guard_right_v01",
@@ -14039,7 +15032,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "initial_guard",
@@ -14226,7 +15219,19 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_guards_b.json"
+      "journal_origin": "generation_results_guards_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "rookie_odst_guard_right_v01",
+        "path": "assets/characters_wave5/rookie_odst_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "rookie_odst"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "hunter_h3_guard_right_v01",
@@ -14240,7 +15245,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "retry_identical_prompt",
@@ -14429,7 +15434,19 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_guards_b.json"
+      "journal_origin": "generation_results_guards_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "hunter_h3_guard_right_v01",
+        "path": "assets/characters_wave5/hunter_h3_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "hunter_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_locust_hw_profile_v01",
@@ -14443,7 +15460,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -14661,7 +15678,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_locust_hw_profile_v01",
+        "path": "assets/bosses_wave5/boss_locust_hw_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_locust_hw"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_harvester_h4_profile_v01",
@@ -14675,7 +15703,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -14891,7 +15919,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_harvester_h4_profile_v01",
+        "path": "assets/bosses_wave5/boss_harvester_h4_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_harvester_h4"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_lich_h4_profile_v01",
@@ -14905,7 +15944,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -15102,7 +16141,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_lich_h4_profile_v01",
+        "path": "assets/bosses_wave5/boss_lich_h4_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_lich_h4"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_kraken_h5_profile_v01",
@@ -15116,7 +16166,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -15353,7 +16403,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_kraken_h5_profile_v01",
+        "path": "assets/bosses_wave5/boss_kraken_h5_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_kraken_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_phaeton_h5_profile_v01",
@@ -15367,7 +16428,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -15581,7 +16642,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_phaeton_h5_profile_v01",
+        "path": "assets/bosses_wave5/boss_phaeton_h5_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_phaeton_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_retriever_hw2_profile_v01",
@@ -15595,7 +16667,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -15786,7 +16858,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_retriever_hw2_profile_v01",
+        "path": "assets/bosses_wave5/boss_retriever_hw2_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_retriever_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_goblin_h5_profile_v01",
@@ -15800,7 +16883,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -16016,7 +17099,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_goblin_h5_profile_v01",
+        "path": "assets/bosses_wave5/boss_goblin_h5_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_goblin_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_enforcer_h2_profile_v01",
@@ -16030,7 +17124,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -16226,7 +17320,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_enforcer_h2_profile_v01",
+        "path": "assets/bosses_wave5/boss_enforcer_h2_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_enforcer_h2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_locust_hw_profile_v02",
@@ -16240,7 +17345,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "anatomy_and_alpha_correction",
@@ -16433,7 +17538,18 @@
         ]
       },
       "variant": 2,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_locust_hw_profile_v02",
+        "path": "assets/bosses_wave5/boss_locust_hw_profile_v02.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_locust_hw"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_wraith_infinite_profile_v01",
@@ -16447,7 +17563,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -16642,7 +17758,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_wraith_infinite_profile_v01",
+        "path": "assets/bosses_wave5/boss_wraith_infinite_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_wraith_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_banshee_infinite_profile_v01",
@@ -16656,7 +17783,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -16872,7 +17999,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_banshee_infinite_profile_v01",
+        "path": "assets/bosses_wave5/boss_banshee_infinite_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_banshee_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_phantom_infinite_profile_v01",
@@ -16886,7 +18024,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -17102,7 +18240,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_phantom_infinite_profile_v01",
+        "path": "assets/bosses_wave5/boss_phantom_infinite_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_phantom_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "boss_goliath_hw2_profile_v01",
@@ -17116,7 +18265,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "generation_wave": 5,
       "pose_scope": "boss_profile",
       "attempt_kind": "initial_boss_profile",
@@ -17334,7 +18483,18 @@
         ]
       },
       "variant": 1,
-      "journal_origin": "generation_results_bosses_b.json"
+      "journal_origin": "generation_results_bosses_b.json",
+      "prototype_usage_v7": {
+        "asset_id": "boss_goliath_hw2_profile_v01",
+        "path": "assets/bosses_wave5/boss_goliath_hw2_profile_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "boss_goliath_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "jun_reach_guard_right_v01",
@@ -17348,7 +18508,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "retry_same_prompt",
@@ -17536,7 +18696,19 @@
       },
       "retry_index": 2,
       "variant": 1,
-      "journal_origin": "generation_results_retries_c.json"
+      "journal_origin": "generation_results_retries_c.json",
+      "prototype_usage_v7": {
+        "asset_id": "jun_reach_guard_right_v01",
+        "path": "assets/characters_wave5/jun_reach_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "jun_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "jerome_hw2_guard_right_v01",
@@ -17550,7 +18722,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "retry_same_prompt",
@@ -17742,7 +18914,19 @@
       },
       "retry_index": 2,
       "variant": 1,
-      "journal_origin": "generation_results_retries_c.json"
+      "journal_origin": "generation_results_retries_c.json",
+      "prototype_usage_v7": {
+        "asset_id": "jerome_hw2_guard_right_v01",
+        "path": "assets/characters_wave5/jerome_hw2_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "jerome_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "id": "zealot_reach_guard_right_v01",
@@ -17756,7 +18940,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_static_display",
       "generation_wave": 5,
       "pose_scope": "guard_static",
       "attempt_kind": "retry_same_prompt",
@@ -17946,7 +19130,19 @@
       },
       "retry_index": 2,
       "variant": 1,
-      "journal_origin": "generation_results_retries_c.json"
+      "journal_origin": "generation_results_retries_c.json",
+      "prototype_usage_v7": {
+        "asset_id": "zealot_reach_guard_right_v01",
+        "path": "assets/characters_wave5/zealot_reach_guard_right_v01.png",
+        "usages": [
+          "catalog",
+          "combat_guard"
+        ],
+        "entity_ids": [
+          "zealot_reach"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "harbinger_infinite",
@@ -18002,7 +19198,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Une seule Harbinger entière, deux bras et deux jambes, tête et extrémités dans le cadre. Le casque bordeaux, la poitrine lumineuse, les pans violets et les jambes longues correspondent à la famille visuelle des rendus officiels. Le personnage regarde vers la droite mais reste en trois-quarts, sans profil orthographique. La profondeur de la coiffe et les propulseurs partiellement révélés exigent une autre vue de référence. Les pieds sont dirigés vers l’arrière relativement au regard, comme demandé ; leur géométrie exacte et les doigts ne sont pas certifiés. Alpha réel 0–255 ; aucun contact au seuil alpha >16. Marges G/H/D/B : 37/17/33/74 px sur 787×1998 ; la marge de 10 % demandée n’est pas obtenue. Franges de couleur aux arêtes à contrôler en composition, notamment sur fond clair. Aucun détourage ou pixel retouché localement. Revue centrale indépendante contre le rendu officiel corps entier : grande coiffe brun rouge, épaulières, noyau pectoral lumineux, pans mauves et extrémités dorées reconnaissables. Un seul corps flottant, deux bras et deux jambes observés en entier. La Harbinger reste en trois-quarts ; la géométrie précise des doigts, des composants dorsaux et des surfaces masquées n’est pas certifiée. Le casque se rapproche du bord supérieur ; les détails et asymétries doivent être comparés au modèle avant animation. Mesure indépendante sans retouche : 787 × 1998 px, RGBA, alpha 0–255, 957252 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 37, 'top': 17, 'right': 33, 'bottom': 74}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -18246,7 +19442,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "harbinger_infinite_initial_right_v01",
+        "path": "assets/characters_wave6/harbinger_infinite_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "harbinger_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "flood_human_h3",
@@ -18288,7 +19495,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Une forme humaine Flood entière, deux bottes, bras droit humain conservé et bras gauche mutant identifiables ; aucune hybridation visible avec un hôte Élite ou Brute. La silhouette demeure presque frontale malgré la consigne droite. Candidat documentaire conservé, non préféré pour la pose de combat ; une correction d’orientation V02 a été produite. Matériaux et appendices proches de la planche de Vic DeLeon ; longueur/épaisseur des tentacules et frondes interprétées. Le rendu n’est pas certifié 1:1. Alpha réel 0–255 ; marges G/H/D/B au seuil >16 : 224/15/158/15 px sur 1312×1199 ; pas de coupe au seuil, espace vertical très réduit. Revue centrale indépendante contre la planche de modèle : un seul hôte humain Flood de Halo 3, reliquats d’armure et treillis, biomasse jaune olive, bras muté terminé par des excroissances et un bras humain distinct. Les bottes, la masse supérieure et les excroissances sont entières. La pose reste majoritairement frontale et reprend l’axe de la vue gauche de la planche ; elle ne constitue pas le profil vers la droite demandé. Conserver V01 comme variante historique et préférer une correction d’orientation si celle-ci est réussie. L’anatomie et les excroissances sont réinterprétées ; leur côté doit être conservé lors de la nouvelle pose, sans miroir artificiel. Marge verticale très faible. Mesure indépendante sans retouche : 1312 × 1199 px, RGBA, alpha 0–255, 1078550 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 224, 'top': 15, 'right': 158, 'bottom': 15}.",
       "visual_review_status": "reviewed_candidate_requires_correction",
       "required_followup": [
@@ -18537,7 +19744,18 @@
         "preferred_for_scope": false
       },
       "target_facing": "right",
-      "observed_facing": "mostly_front"
+      "observed_facing": "mostly_front",
+      "prototype_usage_v7": {
+        "asset_id": "flood_human_h3_initial_right_v01",
+        "path": "assets/characters_wave6/flood_human_h3_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "flood_human_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "flood_human_h3",
@@ -18585,7 +19803,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Silhouette entière et une seule entité ; bras droit humain et bras gauche mutant préservés. Les bottes et les appendices restent dans le cadre. Les jambes et les bottes lisent mieux une direction droite que V01 ; le thorax demeure en trois-quarts et la tête conserve son inclinaison de référence. La correction est partielle, pas un profil de jeu validé. V02 préférée entre les deux candidats disponibles pour l’orientation et l’espace de cadrage. V01 est conservée avec sa réserve frontale. L’aperçu montre un halo brun RGB, mais les pixels testés hors silhouette ont alpha 0. Cela ne prouve pas un fond opaque ; alpha réel 0–254, 1262097 pixels entièrement transparents. Marges G/H/D/B au seuil alpha >16 : 449/36/416/34 px sur 1536×1024 ; aucune coupe détectée, marge verticale encore inférieure à la demande. Les valeurs alpha de premier plan et les franges nécessitent contrôle en composition. Revue centrale indépendante de la V02 et comparaison avec V01 et la planche : les jambes et les bottes s’orientent davantage vers la droite, avec un cadrage plus ample ; le bras mutant reste distinct du bras humain, sans miroir horizontal évident. La correction est partielle : le torse conserve une ouverture de trois-quarts, et la tête reste inclinée dans sa masse de biomasse. La V02 est préférée relativement à V01 pour la direction et le cadrage ; elle n’est pas un profil orthographique validé. Le halo brun de l’aperçu doit être lu avec son alpha ; la mesure et les échantillons root indiquent un fond alpha 0 hors silhouette. Les franges, les petits appendices et les proportions restent à contrôler avant animation. Mesure indépendante sans retouche : 1536 × 1024 px, RGBA, alpha 0–254, 1262097 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 449, 'top': 36, 'right': 416, 'bottom': 34}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -18832,7 +20050,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "flood_human_h3_initial_right_v02",
+        "path": "assets/characters_wave6/flood_human_h3_initial_right_v02.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "flood_human_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "fred_h5",
@@ -18870,7 +20099,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Référence officielle inspectée ; armure CENTURION bleu gris, repères jaunes/cyan et casque à viseur ambre identifiable. Un personnage et une arme visibles en entier ; deux mains sur l’arme ; orientation vers la droite mais torse encore en trois-quarts. Détails de l’optique du fusil et surfaces occultées dans la source extrapolés ; marge supérieure et inférieure réduite. Revue centrale indépendante de la sortie et du rendu de référence : silhouette fermée CENTURION bleu gris, visière ambre, panneaux jaunes/cyan et dissymétrie des genouillères reconnaissables. Deux bras, deux mains et deux jambes observés sans membre supplémentaire. Le volume du casque, les plaques et le fusil sont réinterprétés ; leur identité visuelle est présente mais les détails de visée, la détente et l’anatomie des doigts ne sont pas certifiés. Le torse conserve une vue de trois-quarts et le pied arrière pointe vers la caméra. La tête, les bottes et le canon paraissent entiers. La réserve de canevas au-dessus du casque et sous les pieds reste très faible ; une pose latérale et des marges homogènes seront nécessaires avant animation. Mesure indépendante sans retouche : 1374 × 1145 px, RGBA, alpha 0–255, 1188814 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 172, 'top': 17, 'right': 233, 'bottom': 16}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -19072,7 +20301,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "fred_h5_initial_right_v01",
+        "path": "assets/characters_wave6/fred_h5_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "fred_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "vale_h5",
@@ -19112,7 +20352,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "COPPERHEAD rouge et or, viseur à mailles et pose droite reconnaissables ; silhouette complète visible. Le halo coloré affiché dans l’aperçu correspond majoritairement à du RGB sous alpha nul, selon contrôle numérique indépendant du QA central ; il ne démontre pas un fond visible. Alpha réel 0–254, 1 170 621 pixels alpha 0 selon le QA central ; 19 798 pixels de faible alpha 1–16 requièrent examen des franges. Révision de la première appréciation visuelle : pas de défaut global de transparence confirmé. Une tentative d’édition du détourage a néanmoins été lancée et demeure journalisée. Revue centrale indépendante contre le rendu officiel Halo 5 : armure rouge et dorée, casque arrondi à visière réticulée, plaques étroites et arme compacte présents ; deux mains, deux jambes et équipement entiers. Le grand halo rouge/gris de l’aperçu n’est pas la preuve d’un fond opaque : les pixels testés hors silhouette (500,10), (600,50), (300,190) et (150,500) ont un alpha exactement nul malgré leurs couleurs RGB. Les franges de faible alpha restent à contrôler en composition ; aucune retouche des pixels n’a été faite. Les doigts, la géométrie de l’arme, les modules circulaires du casque et le côté des marquages d’épaule demandent une comparaison rapprochée. La pose est encore en trois-quarts et ne certifie pas les asymétries du modèle. Mesure indépendante sans retouche : 1024 × 1536 px, RGBA, alpha 0–254, 1170621 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 175, 'top': 45, 'right': 198, 'bottom': 90}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -19313,7 +20553,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "vale_h5_initial_right_v01",
+        "path": "assets/characters_wave6/vale_h5_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "vale_h5"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "dutch_odst",
@@ -19353,7 +20604,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Casque ODST à bande orange et dents peintes, silhouette humaine lourde, laser Spartan et bras exposés conservés. Un personnage et une arme entiers, orientés vers la droite ; jambes encore en trois-quarts. Port du laser proche de la référence, mais prise de main et mécanique de l’arme à contrôler en préparation animation. Revue centrale indépendante contre le visuel Bungie : casque ODST fermé avec bande orange et mâchoire peinte, équipement lourd olive et laser Spartan reconnaissables. Les doigts nus sont aussi présents dans la référence, ce détail n’est pas à lui seul une erreur de génération. Deux bras et deux jambes observés, bottes et laser entiers. Le port à deux mains reste proche de la source ; le contact exact des doigts avec la poignée et les détails mécaniques du laser demandent un contrôle rapproché. La nouvelle silhouette demeure en trois-quarts ; les volumes cachés et microtextures de l’armure ont été réinterprétés et ne sont pas certifiés 1:1. Mesure indépendante sans retouche : 1301 × 1209 px, RGBA, alpha 0–255, 1185645 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 298, 'top': 30, 'right': 299, 'bottom': 30}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -19545,7 +20796,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "dutch_odst_initial_right_v01",
+        "path": "assets/characters_wave6/dutch_odst_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "dutch_odst"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "forge_hw",
@@ -19600,7 +20862,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Incarnation Marine de Halo Wars 2009 conservée : visage rasé court, armure brun bronze, insigne et holster anatomiques droits. Garde mains libres, corps entier et orientation droite ; torse en trois-quarts et pied arrière frontal. La référence de visage complète le plastron masqué sur le rendu entier ; petits insignes, stubble et volumes latéraux demeurent des interprétations. Revue centrale indépendante contre le rendu réhébergé de Halo Wars : armure brune, tenue camouflage, tête découverte, emblème d’épaule et holster de cuisse reconnaissables. Une seule entité, deux poings levés, deux jambes et bottes entières. Le visage de profil, les surfaces de poitrine auparavant cachées par les bras et les petits marquages sont réinterprétés ; aucune copie 1:1 de ces détails n’est certifiée. Le holster et les poches ne remplacent pas une arme tenue en main, la pose est sans arme dégainée. La tête vise la droite, mais le thorax reste en trois-quarts. Marges haut/bas réduites (20 et 21 px au seuil alpha >16), sans coupe constatée. Mesure indépendante sans retouche : 1129 × 1393 px, RGBA, alpha 0–255, 1090424 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 157, 'top': 20, 'right': 251, 'bottom': 21}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -19802,7 +21064,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "forge_hw_initial_right_v01",
+        "path": "assets/characters_wave6/forge_hw_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "forge_hw"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "dinh_infinite",
@@ -19862,7 +21135,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Casque ARTAIUS à viseur rouge, épaule rouge droite et radio gauche conservés ; jambes reprises du concept officiel. Asymétrie incorrecte confirmée par deux revues : le groupe de grosses poches bleues est placé sur la hanche anatomique droite sous l’épaule rouge, au lieu de la hanche gauche côté radio du rendu final. Le halo RGB de l’aperçu ne démontre pas un fond visible : points externes contrôlés par QA centrale avec alpha 0 ; aucune coupe alpha >16 au cadre. La correction ciblée V02 a été demandée au service imagegen et rejetée ; aucun fichier V02 n’a été produit, V01 n’est ni écrasée ni déclarée corrigée. Revue centrale indépendante contre la référence finale et le concept entier : visière rouge, épaule rouge droite anatomique, radio à gauche et cuisse gauche sanglée reconnaissables. Deux mains vides et deux jambes, silhouette entière orientée en trois-quarts vers la droite. Erreur d’asymétrie de ceinture confirmée : le groupe principal de grosses poches bleues est à gauche anatomique sur la référence finale (côté radio, droite de l’image), mais devient dominant à droite anatomique sur V01 (sous l’épaule rouge, gauche de l’image). Une correction ciblée est nécessaire ; V01 doit rester conservée sans être préférée. Le concept officiel sert uniquement à compléter les tibias et bottes occultés par le cadrage final. Ces volumes ne sont pas certifiés conformes au modèle final ; les accessoires et couleurs visibles du rendu final restent la référence prioritaire. L’aperçu coloré autour du corps ne démontre pas un fond opaque : quatre points hors silhouette testés ont un alpha nul. Aucun contact alpha >16 au cadre ; détails des mains, plaques et franges encore à valider. Mesure indépendante sans retouche : 1024 × 1536 px, RGBA, alpha 0–254, 1011766 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 143, 'top': 39, 'right': 151, 'bottom': 31}.",
       "visual_review_status": "reviewed_candidate_requires_correction",
       "required_followup": [
@@ -20079,7 +21352,18 @@
         "preferred_for_scope": false
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "dinh_infinite_initial_right_v01",
+        "path": "assets/characters_wave6/dinh_infinite_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "dinh_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "eklund_infinite",
@@ -20138,7 +21422,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Casque STRIBOG à grand viseur bleu, harnais vert, boîtier thoracique à liens rouges et cartouches frontales préservés. Dissymétrie des avant-bras guidée par le modèle final ; jambes complétées depuis le concept officiel, pas depuis une capture retail. Silhouette entière vers la droite avec torse en trois-quarts ; points du halo hors silhouette à alpha 0 et aucune coupe alpha >16 selon QA centrale. Revue centrale indépendante contre la référence finale et le concept entier : visière bleue large, camouflage vert, boîtier pectoral argenté, cartouches dorées et rouges, épaule droite volumineuse et renfort gauche distinct reconnaissables. Deux mains vides et deux jambes entières. Les jambes sous le cadrage de la référence finale sont complétées à partir du concept officiel ; un concept n’est pas le modèle final, donc les tibias et les bottes restent non certifiés. Les petits accessoires, le nombre et l’alignement des cartouches et les doigts demandent validation rapprochée. Pose de trois-quarts vers la droite, sans coupe franche. L’aperçu gris/vert de fond n’établit pas une opacité : quatre échantillons hors silhouette sont alpha 0. Les franges et une réserve verticale plus ample restent à prévoir avant animation. Mesure indépendante sans retouche : 1024 × 1536 px, RGBA, alpha 0–254, 1027120 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 135, 'top': 24, 'right': 144, 'bottom': 29}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -20351,7 +21635,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "eklund_infinite_initial_right_v01",
+        "path": "assets/characters_wave6/eklund_infinite_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "eklund_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "ripa_hw1",
@@ -20379,7 +21674,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé au render HW1 : casque et col gravés, silhouette massive et deux épées bleues séparées conservés ; deux bras et deux jambes lisibles. Armure et lames visibles en entier dans le candidat. Tête orientée droite, torse en trois-quarts plutôt qu’en profil strict. Source 540 × 560 : gravures, articulation des mandibules et géométrie des poignées extrapolées. Marges haut/bas faibles ; franges lumineuses à contrôler en composition. Revue centrale indépendante de la sortie et du rendu promotionnel : un unique Sangheili, armure bronze gravée, casque à longue pointe et deux épées énergétiques. Deux bras et deux jambes distincts observés, pieds bipartites et lames complets à l’œil. Le rendu source est composite, frontal et peu défini. Les gravures, proportions de la tête et mandibules ainsi que les poignées sont réinterprétées ; la nouvelle pose ne certifie pas les faces masquées ni les détails 1:1. Les marges autour de la crête, des pieds et de la lame droite sont très faibles. Le halo énergétique et les pixels colorés périphériques demandent un contrôle en composition ; conserver la sortie d’origine sans retouche. Mesure indépendante sans retouche : 1414 × 1113 px, RGBA, alpha 0–255, 1046309 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 45, 'top': 8, 'right': 28, 'bottom': 15}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -20611,7 +21906,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "ripa_hw1_initial_right_v01",
+        "path": "assets/characters_wave6/ripa_hw1_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "ripa_hw1"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "sesa_h2",
@@ -20640,7 +21946,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé aux deux captures Classic : orange/cuivre, masque, cou, deux fusils plasma et deux modules dorsaux à grilles vertes conservés ; pas de modèle Anniversary substitué. Deux mains distinctes sur deux armes distinctes, deux jambes et pieds séparés ; pointes et accessoires visibles en entier. Mandibules, doigts et petits panneaux reconstruits en haute définition ; garde trois-quarts. L’équipement correspond à l’état sans tir demandé. Revue centrale indépendante contre les deux captures Halo 2 Classic : armure orange et bronze, grand cou organique, masque fin, deux fusils à plasma violets et deux modules dorsaux à grilles vertes reconnaissables. Les deux modules sont bien visibles dans la capture frontale de référence. Deux bras, deux armes et deux jambes observés ; fusils séparés, tête et pieds entiers. Les proportions et textures donnent une interprétation plus détaillée de la capture ; les doigts, dents/mandibules et les panneaux de l’armure restent à valider. La silhouette demeure en trois-quarts vers la droite. Les marges sont plus confortables que les premières sorties, mais le profil strict et les articulations de jeu ne sont pas produits par cette image fixe. Mesure indépendante sans retouche : 1239 × 1270 px, RGBA, alpha 0–255, 1047669 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 95, 'top': 30, 'right': 88, 'bottom': 39}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -20879,7 +22185,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "sesa_h2_initial_right_v01",
+        "path": "assets/characters_wave6/sesa_h2_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "sesa_h2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "voridus_hw2",
@@ -20907,7 +22224,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé au modèle de jeu Vincent Chai : épaule droite circulaire, épaule gauche rectangulaire, masque, avant-bras dissymétriques et masse noire à manche rouge cohérents. Deux bras, deux jambes et masse entière observés. Pose encore largement frontale ; sommet du pack très près du bord supérieur. Le fond gris/rouge aperçu correspond à du RGB sous alpha nul selon lecture centrale puis contrôle numérique ; il ne prouve pas un fond opaque. Les matières et détails de masse sont réinterprétés. Revue centrale indépendante contre la planche in-game de Vincent Chai : un seul Voridus, armure rouge et acier, épaule à disques du côté de la main portant le maul, épaule rectangulaire et renfort d’avant-bras sur l’autre côté. L’asymétrie principale reste du même côté anatomique que dans la vue frontale de référence. Deux bras et deux jambes observés ; maul, doigts, bottes et pointes supérieures paraissent entiers. Les panneaux et proportions sont réinterprétés, et l’orientation demeure en trois-quarts. La marge supérieure mesurée est de seulement 5 px au seuil alpha >16. Le grand halo gris/rouge de l’aperçu ne prouve pas un fond opaque : tous les points hors silhouette testés (0,0), (100,100), (768,10), (10,512), (1526,512) ont un alpha nul. RGBA avec alpha réel ; les franges de faible alpha et les contours restent à contrôler en composition. Mesure indépendante sans retouche : 1536 × 1024 px, RGBA, alpha 0–254, 914885 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 37, 'top': 5, 'right': 80, 'bottom': 26}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -21139,7 +22456,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "voridus_hw2_initial_right_v01",
+        "path": "assets/characters_wave6/voridus_hw2_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "voridus_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "jackal_major_h3",
@@ -21167,7 +22495,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé à la capture H3 : peau rose/brune, quilles, œil clair, armure bleu-violet et bouclier Major rose/violet conservés. Équipement sur les mêmes bras physiques que la capture ; un pistolet et un bouclier, deux bras et deux jambes. Quilles et griffes observées entières. Bouclier possède une frange lumineuse à contrôler sur plusieurs fonds. Marges verticales réduites et silhouette trois-quarts ; microdétails du pistolet et des griffes à valider. Revue centrale indépendante contre la capture Halo 3 : un seul Kig-Yar à peau brune, crête à quilles et armure violette. Bouclier énergétique du côté gauche de l’image et pistolet plasma à droite, comme dans la référence fournie ; le côté anatomique exact reste à vérifier sur modèle lors de la rotation en profil. Deux bras et deux jambes observés ; quilles, arme et griffes entières. Le bec, les yeux, les doigts et les proportions du torse ont été réinterprétés ; la classe est proposée comme combattant, sans ajouter une identité nommée fictive. Les pixels blancs périphériques autour du bouclier doivent être interprétés avec leur alpha : le contenu au-dessus du seuil 16 ne touche pas le cadre, tandis que des pixels de très faible alpha atteignent les bords. Les marges haut et bas sont de seulement 8 px. Contrôle des franges et de la transparence de l’énergie nécessaire en composition. Mesure indépendante sans retouche : 1312 × 1199 px, RGBA, alpha 0–255, 960436 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 63, 'top': 8, 'right': 91, 'bottom': 8}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -21399,7 +22727,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "jackal_major_h3_initial_right_v01",
+        "path": "assets/characters_wave6/jackal_major_h3_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "jackal_major_h3"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "yapyap_hw2",
@@ -21427,7 +22766,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé au portrait Jeremy Cook : couronne irrégulière, masque à anneaux cyan, inscriptions figuratives sur cuirasse brune et pack conservés ; aucune arme ajoutée. Deux bras, deux jambes et deux pieds visibles, proportions Unggoy reconnaissables, regard vers la droite. Les pieds et le bas des jambes sont extrapolés car hors cadre dans la source. Le suivi de recherche primaire mené par root (yapyap_reference_followup.json) ne lève pas cette réserve. Inscriptions réinterprétées, non transcrites à l’identique. Revue centrale indépendante contre le rendu attribué à Jeremy Cook : couronne irrégulière dorée, masque à deux anneaux cyan, cuirasse à pictogrammes et ensemble dorsal reconnaissables. Un seul Unggoy, deux bras et deux jambes, sans arme ajoutée en main. La référence coupe les jambes avant les pieds : les tibias et pieds complets de la génération sont extrapolés et ne peuvent pas être certifiés à partir de cette seule vue. La présence d’un corps entier dans la sortie ne prouve pas la conformité canonique de cette partie. L’orientation devient trois-quarts vers la droite ; les pointes et ornements asymétriques de la couronne, le volume du dos et les pictogrammes devront être vérifiés sur un modèle à plusieurs vues. Les doigts et les surfaces de peau sont réinterprétés. Couronne, mains et pieds entiers ; marges mesurées 39/31/35/34 px au seuil alpha >16, aucun contact de premier plan avec le cadre. Les franges cyan autour des contours restent à contrôler en composition. Mesure indépendante sans retouche : 1159 × 1356 px, RGBA, alpha 0–255, 845484 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 39, 'top': 31, 'right': 35, 'bottom': 34}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -21660,7 +22999,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "yapyap_hw2_initial_right_v01",
+        "path": "assets/characters_wave6/yapyap_hw2_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "yapyap_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "hyperius_infinite",
@@ -21690,7 +23040,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé au modèle entier et aux portraits : barbe claire, casque noir/rouge, épaules en lamelles, pack dorsal et trophée sur épaule droite anatomique conservés. Un seul corps, deux bras et deux jambes ; deux mains supportent un Ravageur distinct. Trophée reste un élément porté, pas une deuxième tête vivante. Géométrie détaillée du Ravageur, casque trophée et doigts reconstruits ; angle trois-quarts et marges haut/bas serrées. Pas de Chopper généré avec le personnage. Revue centrale indépendante contre le modèle corps entier, le portrait attribué à Tom Wholley et la capture d’équipement : casque noir à marquage rouge, rangées de plaques dissymétriques, trophée de casque sur l’épaule droite anatomique et équipement dorsal reconnaissables. La grande dissymétrie d’épaules reste du même côté que dans les références. Un seul Jiralhanae, deux bras, deux mains et deux jambes observés ; le fusil et sa lame sont entiers. Les petits composants du Ravager, la géométrie du trophée et les doigts ont été réinterprétés et ne sont pas certifiés par cette sortie. Orientation de trois-quarts vers la droite. Les pointes dorsales et les pieds restent dans le cadre, avec des marges haut/bas très faibles (9 et 16 px au seuil alpha >16). Une nouvelle réserve de canevas et un profil exact sont nécessaires avant animation. Mesure indépendante sans retouche : 1230 × 1278 px, RGBA, alpha 0–255, 883874 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 42, 'top': 9, 'right': 55, 'bottom': 16}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -21942,7 +23292,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "hyperius_infinite_initial_right_v01",
+        "path": "assets/characters_wave6/hyperius_infinite_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "hyperius_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "tovarus_infinite",
@@ -21971,7 +23332,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé au rendu officiel entier : casque à deux pointes, barbe rousse, grandes épaules angulaires, marques rouges et canon à ferraille identifiables. Deux bras et deux jambes, main droite sur la poignée du canon, main gauche libre. Canon complet et pointes observés à l’intérieur du cadre. Poignée, doigts, assemblages du canon et certaines gravures réinterprétés. Pose trois-quarts, marge supérieure faible ; aucune certification géométrique 1:1. Revue centrale indépendante contre le rendu officiel corps entier : casque ouvert à hautes pointes, barbe brune, armure noire et rouge et canon lourd tenu par sa poignée reconnaissables. Un seul Jiralhanae ; deux bras et deux jambes observés, bouche du canon, pointes et pieds visibles. Le grand marquage pectoral reste sur la plaque gauche anatomique comme dans la référence. La mécanique fine du canon, sa poignée, les doigts et les traits du visage sont réinterprétés et demandent un contrôle rapproché ; aucun modèle 1:1 n’est certifié. Orientation de trois-quarts vers la droite. Les pointes du casque et le bas des pieds restent très proches du cadre ; la nouvelle pose devra recevoir une réserve plus ample avant déclinaison en animation. Mesure indépendante sans retouche : 1335 × 1178 px, RGBA, alpha 0–255, 904026 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 52, 'top': 7, 'right': 100, 'bottom': 12}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -22208,7 +23569,18 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "tovarus_infinite_initial_right_v01",
+        "path": "assets/characters_wave6/tovarus_infinite_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "tovarus_infinite"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     },
     {
       "entity_id": "colony_single_body_hw2",
@@ -22236,7 +23608,7 @@
       "status": "candidate",
       "fidelity_status": "not_certified",
       "animation_status": "not_animated",
-      "integration_status": "not_integrated",
+      "integration_status": "prototype_catalog_display",
       "qa": "Comparé au portrait officiel de la paire : UN corps du premier plan, tête sombre aux lumières rouges, faisceaux Lekgolo, canon intégré droit vert et bouclier solide gauche conservés. Aucune substitution par un Hunter Captain rouge, aucune duplication de canon ou troisième bras. Deux jambes complètes ; les deux armes intégrées restent distinctes. Pieds, bas des jambes, parties dorsales et portions de bouclier sont reconstruits depuis des zones masquées ou hors cadre. Pointe dorsale très proche du bord supérieur, sans coupe prouvée au seuil alpha. Le fichier local de référence nommé colony_hunter_captain_hw2_reference.png contient réellement File:HW2_-_Colony.png : le nom local historique ne constitue pas une identification Captain. Revue centrale indépendante contre le portrait officiel de la paire Colony : la sortie représente un seul corps inspiré du sujet au premier plan, avec armure noir/bleu, tête anguleuse à lumières rouges, canon vert à droite anatomique et bouclier à gauche. Elle n’introduit pas de nom individuel pour ce corps. Le nom historique du fichier local de référence contient hunter_captain, mais le contenu inspecté est bien le portrait de Colony. La classe Hunter Captain est une unité distincte et ne doit pas être utilisée pour couvrir cette identité. Aucun personnage supplémentaire n’est compté dans ce fichier. Les jambes, les pieds, le revers des plaques et les volumes masqués dans le portrait sont reconstruits. Les tubes du canon, les détails des vers et les plaques sont réinterprétés ; leur présence ne constitue pas une certification 1:1 du modèle. Deux jambes et deux bras-équipements distincts observés. Aucun pixel alpha >16 ne touche le cadre ; la pointe dorsale reste à seulement 6 px du bord supérieur. Les régions cachées et les contours doivent être contrôlés avec davantage de vues avant animation. Mesure indépendante sans retouche : 1312 × 1199 px, RGBA, alpha 0–255, 775066 pixels entièrement transparents. Contacts du cadre au seuil alpha > 16 : {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}. Marges au même seuil : {'left': 29, 'top': 6, 'right': 42, 'bottom': 38}.",
       "visual_review_status": "reviewed_candidate_with_reservations",
       "required_followup": [
@@ -22475,10 +23847,21 @@
         "preferred_for_scope": true
       },
       "target_facing": "right",
-      "observed_facing": "right_three_quarter"
+      "observed_facing": "right_three_quarter",
+      "prototype_usage_v7": {
+        "asset_id": "colony_single_body_hw2_initial_right_v01",
+        "path": "assets/characters_wave6/colony_single_body_hw2_initial_right_v01.png",
+        "usages": [
+          "catalog"
+        ],
+        "entity_ids": [
+          "colony_single_body_hw2"
+        ],
+        "usage_scope": "static_prototype_only"
+      }
     }
   ],
-  "updated_utc": "2026-11-20T04:57:44+00:00",
+  "updated_utc": "2026-11-20T06:49:37+00:00",
   "generated_fighter_entities": 24,
   "generated_boss_entities": 20,
   "generated_guard_entities": 23,

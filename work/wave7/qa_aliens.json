@@ -1,0 +1,186 @@
+{
+  "wave": 7,
+  "entity_type": "expansion_character",
+  "pose_scope": "initial_character_pose",
+  "scope": "Contrôle des sources réutilisées et des résultats des appels aliens V7.",
+  "reviews": [],
+  "summary": {
+    "attempted_entities": 3,
+    "generated_output_count": 0,
+    "output_reviews": 0,
+    "service_quota_failures": 3,
+    "deferred_without_attempt": 4,
+    "source_entries_reviewed": 7,
+    "source_images_reviewed": 10
+  },
+  "output_qa_status": "not_applicable_no_generated_output",
+  "output_qa_note": "Aucun PNG produit par le service. Aucun contrôle visuel, alpha, cadrage ou SHA d’image générée ne peut donc être enregistré ; aucune fidélité 1:1 n’est certifiée.",
+  "reference_reviews": [
+    {
+      "entity_id": "ntho_h3",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_reference.png",
+          "sha256": "78868856f47f0a19cd174aabc72e6d2cf6a0b67f6431c34564fab2e39603c146",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/ntho_h3_inspection.png",
+          "inspection_sha256": "9d62ddba05bdb55950e5be105e889f9cdf664da30ad889351e8632626e06a4f0",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Vue de course en trois-quarts ; dos et prise exacte du fusil masqués en partie. L’inspection a utilisé la miniature du même fichier fournie par le site."
+        }
+      ],
+      "observations": "Harnais Combat bleu Halo 3, casque allongé vers l’arrière, lueurs vertes du torse, fusil à plasma et carabine dorsale visibles. La référence est une posture de course ; la garde latérale demandée reste une adaptation.",
+      "prompt_identical_to_initial_v6_attempt": true
+    },
+    {
+      "entity_id": "usze_h3",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_full_reference.png",
+          "inspection_sha256": "976aabd28fedba27ff15f32e318785dc2c090529167038fc93e27add842a6fab",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Détourage conservant des morceaux de décor ; ne pas reprendre le fond. Orientation trois-quarts."
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/usze_h3_reference.png",
+          "inspection_sha256": "0da51d035971d763620ed375ca599d499e2a2d9e246daf44b7f253958a43924e",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Utilisée seulement pour casque et couleurs ; cette arme alternative n’est pas mélangée avec le fusil à plasma de la pose choisie."
+        }
+      ],
+      "observations": "Harnais Assault bordeaux Halo 3 et casque lisse arrondi distincts du casque Combat de N’tho. La vue entière fait autorité pour le fusil à plasma ; le gros plan soutient seulement visage, couleurs et torse.",
+      "prompt_identical_to_initial_v6_attempt": true
+    },
+    {
+      "entity_id": "let_volir_hw2",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_reference.jpg",
+          "sha256": "6020607a90a87d903289ba27e50dceadc8d1355eb0f8b9f9714e18baa5f0f0bb",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/let_volir_hw2_inspection.jpg",
+          "inspection_sha256": "b9e80fb69d0a7cf03f6ef197db43ad2e10b7ff09a196839fa253d231b7a4753b",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Modèle cinématique sans arme ; les armes d’une future pose devront recevoir leurs propres références. Vue frontale trois-quarts, détails cachés non certifiés."
+        }
+      ],
+      "observations": "Modèle cinématique HW2 rouge et argent, haute crête, grand col segmenté, avant-bras et jambes argentés. Modèle sans arme ; mains vides conservées dans le prompt.",
+      "prompt_identical_to_initial_v6_attempt": true
+    },
+    {
+      "entity_id": "skirmisher_champion_reach",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/skirmisher_champion_reach_reference.png",
+          "inspection_sha256": "a46f4d6271e20d64267f517a76ee2a3aa53a292bf5a1b29530aa21d31e57fd07",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Source étroite 341 × 757 px ; sommet de crête et microdétails de l’arme incomplets. Pas de bouclier de Murmillo à ajouter."
+        }
+      ],
+      "observations": "Champion Reach ocre/doré à crête étroite haute, collerette de plumes sombres, épaules arrondies, longues jambes digitigrades et trois griffes visibles. Pistolet compact violet-bleu. Crête source partiellement coupée et microdétails limités.",
+      "prompt_identical_to_initial_v6_attempt": true
+    },
+    {
+      "entity_id": "grunt_heavy_reach",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/grunt_heavy_reach_reference.png",
+          "inspection_sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Vue trois-quarts, pack arrière partiellement masqué ; mains et prise du canon à vérifier dans toute nouvelle pose."
+        }
+      ],
+      "observations": "Unggoy Heavy Reach massif, membres longs, armure olive et casque fermé à grands modules circulaires avec lumières cyan. Canon à combustible doré à capsules vertes, main libre ouverte. Pas de réservoir pyramidal CE.",
+      "prompt_identical_to_initial_v6_attempt": true
+    },
+    {
+      "entity_id": "pavium_hw2",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_reference.jpg",
+          "sha256": "bf0df4ee525edbabea633fe809d08445a4a88ad6188a211bed5ef9a9aef859f1",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_hw2_inspection.jpg",
+          "inspection_sha256": "822f429a9d8c04c390c87dbf93660c90c21f0822fd817bcde704957fd41740eb",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "La planche contient deux vues du même personnage ; n’en produire qu’un. Aucun mortier tenu dans ce modèle."
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_reference.png",
+          "sha256": "14303a22dbd39f6dc3e5c6efce10ec942a23ba0e0cfc90c1f4279685cb8f4412",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/pavium_engine_inspection.png",
+          "inspection_sha256": "cf1381143b8d0e3d84d7a898f4cc6f26042d0ee0f36b742d368247255448d742",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Rendu tronqué sous les cuisses ; les jambes viennent exclusivement du modèle cinématique entier."
+        }
+      ],
+      "observations": "Deux sources comparées : planche du modèle cinématique avant/arrière complète et rendu rapproché en moteur. Lourde silhouette, large couvre-front bas rouge/gris, épaulières stratifiées, torse sombre bordé de rouge, avant-bras asymétriques et gros pieds blindés.",
+      "prompt_identical_to_initial_v6_attempt": true
+    },
+    {
+      "entity_id": "bassus_infinite",
+      "source_files": [
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_reference.jpg",
+          "sha256": "1f68a33ff6ac1ce973d8e08fdc1d97638c3d4cfaf22caeeba7ce67859da0211e",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_infinite_inspection.jpg",
+          "inspection_sha256": "cfaecc1b571e5ed584365037d62fbbf98d46f838107a39a910c170264d062397",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Marteau tenu en raccourci et éclairage promotionnel ; détails masqués non certifiés."
+        },
+        {
+          "local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_reference.jpg",
+          "sha256": "6194e2812f8b2406d73e4910023e3d02957ca32d7a42371f6ba780d521bc7423",
+          "inspection_local_ref": "/workspace/scratch/9d31c69eef8e/halo_reference_inputs/wave6_aliens/bassus_weapon_inspection.jpg",
+          "inspection_sha256": "e01826e3084fb18d36680c5f50d5b05a44188dcc81a00240a49618572f7ae76c",
+          "original_sha256_verified_against_v6": true,
+          "inspection_sha256_verified_against_v6": true,
+          "visually_inspected_this_wave": true,
+          "image_modified_locally": false,
+          "limits": "Gros plan avec tête du marteau et extrémité de manche en partie coupées ; complète la structure visible sans fournir un plan orthographique."
+        }
+      ],
+      "observations": "Deux sources comparées : rendu entier de production et capture du marteau tenu à deux mains. Casque en éventail or/cramoisi avec arête centrale, visage gris-brun et barbe blanche, plastron doré. La capture de l’arme est raccourcie par perspective et rognée sur les bords.",
+      "prompt_identical_to_initial_v6_attempt": true
+    }
+  ],
+  "deferred_entity_ids": [
+    "skirmisher_champion_reach",
+    "grunt_heavy_reach",
+    "pavium_hw2",
+    "bassus_infinite"
+  ],
+  "handling": "Les références des cibles différées ont été inspectées pour préparer la reprise. Elles n’ont pas été envoyées à imagegen en V7. Aucun fallback, nouvelle tentative ni transformation locale d’image."
+}

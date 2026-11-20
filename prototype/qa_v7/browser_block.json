@@ -1,0 +1,14 @@
+{
+  "status": "blocked_before_page_load",
+  "observation_date_utc": "2026-11-20",
+  "actual_attempts_in_this_session": 1,
+  "tool": "Playwright Node with /usr/bin/chromium",
+  "launch": "chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox']})",
+  "error_excerpt": "FATAL:chrome/browser/process_singleton_posix.cc:297 Check failed: . socket() failed: Operation not permitted (1)",
+  "process_exit": "SIGABRT",
+  "page_loaded": false,
+  "desktop_visual_review": "not_performed",
+  "mobile_visual_review": "not_performed",
+  "retry_performed": false,
+  "note": "This records the one observed launch failure during implementation. Running logic.cjs does not attempt Chromium. The browser scenario is supplied for another compatible environment; no browser restriction was bypassed."
+}
