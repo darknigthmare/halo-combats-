@@ -35,7 +35,7 @@ Le périmètre s’agrandit : les 24 nouveaux dossiers incluent 4 PNG. Six nouve
 
 ## Portée
 
-Les 68 sections sont intégrées documentairement.71exigences possèdent une preuve V10 partielle ; aucune réception globale des extensions n’est prétendue. Les images restent fixes et les valeurs du laboratoire sont des adaptations originales. Le prototype n’implémente pas un moteur complet de collisions, les kits individuels, les clips, le réseau ni un abonnement réel.
+Les 68 sections sont intégrées documentairement. 71 exigences possèdent une preuve V10 partielle ; aucune réception globale des extensions n’est prétendue. Les images restent fixes et les valeurs du laboratoire sont des adaptations originales. Le prototype n’implémente pas un moteur complet de collisions, les kits individuels, les clips, le réseau ni un abonnement réel.
 
 Treize appels de génération ont produit sept PNG ; cinq refus de sortie et une erreur technique sont consignés. Aucun fichier fictif ni contournement de refus.
 
