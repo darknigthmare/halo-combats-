@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-27T05:47:12.603Z",
+  "completed": true,
+  "browser": "Chromium 158.0.8127.0",
+  "driver": "Playwright",
+  "transport": [
+    "same-process HTTP server",
+    "file URL smoke check"
+  ],
+  "viewports": [
+    {
+      "width": 1365,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    "Desktop: all initial images loaded",
+    "Desktop: no horizontal overflow",
+    "Locked Arbiter cannot be selected",
+    "Secret accessible text remains neutral",
+    "Secret card and detail have no image",
+    "Archive path opened in order",
+    "Concurrent tag visually disabled",
+    "Assist spent exactly 25 gauge",
+    "Tag changes the controlled member",
+    "All three coordination milestones earned",
+    "Claimed Arbiter becomes selectable",
+    "Selection/deselection events emitted",
+    "Precision exercise completes through real buttons",
+    "Progress and selection survive reload",
+    "Earned but unproduced visual stays unselectable",
+    "Cancelled reset preserves progress",
+    "Reset only clears its own profile",
+    "Corrupt save is retained and not overwritten",
+    "Mobile images decode with their actual PNGs",
+    "Mobile 390px: no horizontal overflow",
+    "Mobile simulation: no horizontal overflow",
+    "Mobile precision target is at least 44px",
+    "Direct file opening loads the embedded data and script",
+    "PNG load failure blocks launch without removing earned access",
+    "PNG load failure has an explicit distinct availability state",
+    "No browser script errors"
+  ],
+  "passed": 26,
+  "errors": [],
+  "tested_files_sha256": {
+    "prototype/halo_extensions_v10.html": "92130a6ae6a7824fd0f9553183acc00c4d3d72feb9625386d7098e9bf89de7e5",
+    "prototype/extensions_v10/rules.js": "bd5ae692f5849bb0c6b127dfc9b797a5a2a9a5efdd89d633294df5dccc443c18",
+    "prototype/extensions_v10/content.js": "0d29002f18495a0657867b8796810a21486409dfe3b79ca3c3b7cd4739803e2c",
+    "prototype/extensions_v10/app.js": "cfae3c0275c3a2dcf1a49ec23d8c1c014eb178cdc233d3974d19b6d7538559c3",
+    "prototype/extensions_v10/style.css": "73d36e32641d812326aec0fde9127a3f6e598a7cdbaf5ef585c68969ae19757b",
+    "prototype/qa_v10/extensions.test.cjs": "af5eb04ae820d2284f169de7cdfa49f95f5ee5b582df8346c346c65d8bb6a41f",
+    "prototype/qa_v10/extensions.browser.cjs": "64ffd7f66465066cfb7f7aad3a4329a9088097c18be51bc3f0aa6a4c6e7acf98"
+  },
+  "screenshots": [
+    "extensions_roster-desktop-1365.png",
+    "extensions_simulation-desktop-1365.png",
+    "extensions_precision-desktop-1365.png",
+    "extensions_roster-mobile-390.png",
+    "extensions_simulation-mobile-390.png",
+    "extensions_precision-mobile-390.png"
+  ],
+  "scope": "Representative extensions laboratory: access rules, selection, team simulation, precision exercise and local persistence. Static candidate PNGs only.",
+  "limitations": [
+    "No pixel-perfect or 1:1 art certification",
+    "No complete guide acceptance certification",
+    "No actual fight collision or character animation",
+    "No external account, payment, subscription or network integration",
+    "Only Chromium tested; no real gamepad or multiplayer"
+  ]
+}

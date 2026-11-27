@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "date": "2026-11-27",
+  "browser": "158.0.8127.0",
+  "viewports": [
+    {
+      "width": 1365,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "assertions": 12,
+  "checks": [
+    {
+      "name": "256 fiches / 111 PNG / 172 sans visuel affichés",
+      "status": "passed"
+    },
+    {
+      "name": "filtre des 19 projectiles",
+      "status": "passed"
+    },
+    {
+      "name": "image M9 réellement chargée et fiche CU32 explicite",
+      "status": "passed"
+    },
+    {
+      "name": "dialogue ferme au clavier",
+      "status": "passed"
+    },
+    {
+      "name": "15 projectiles sans image et aucun PNG présenté comme terminé",
+      "status": "passed"
+    },
+    {
+      "name": "filtre des 5 effets",
+      "status": "passed"
+    },
+    {
+      "name": "recherche retourne incarnation Halo 4",
+      "status": "passed"
+    },
+    {
+      "name": "Cartographe marqué à corriger et image entière",
+      "status": "passed"
+    },
+    {
+      "name": "Pavium PNG natif sans transformation miroir",
+      "status": "passed"
+    },
+    {
+      "name": "390 px sans débordement horizontal",
+      "status": "passed"
+    },
+    {
+      "name": "fiche projectile fonctionnelle en mobile",
+      "status": "passed"
+    },
+    {
+      "name": "aucune erreur JavaScript",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "scope": "Catalogue V10 ; interface réelle, images, filtres et dialogues. Aucun test de combat animé ou de fidélité pixel 1:1."
+}

@@ -1,0 +1,6716 @@
+{
+  "version": 10,
+  "updated_on": "2026-11-27",
+  "count": 814,
+  "status_semantics": "Les tâches signalent des jalons de production, pas un pourcentage de jeu terminé.",
+  "tasks": [
+    {
+      "id": "boss_mammoth_h4::art",
+      "entity_id": "boss_mammoth_h4",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "needs_correction",
+      "evidence": [
+        "assets/bosses_wave9/mammoth_h4_profile_left_v01.png"
+      ]
+    },
+    {
+      "id": "boss_mammoth_h4::fidelity",
+      "entity_id": "boss_mammoth_h4",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_mammoth_h4::runtime",
+      "entity_id": "boss_mammoth_h4",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "tanaka_h5::art",
+      "entity_id": "tanaka_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave9/tanaka_h5_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "tanaka_h5::fidelity",
+      "entity_id": "tanaka_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "tanaka_h5::runtime",
+      "entity_id": "tanaka_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "linda_h5::art",
+      "entity_id": "linda_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave9/linda_h5_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "linda_h5::fidelity",
+      "entity_id": "linda_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "linda_h5::runtime",
+      "entity_id": "linda_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ntho_h3::art",
+      "entity_id": "ntho_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave9/ntho_h3_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "ntho_h3::fidelity",
+      "entity_id": "ntho_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ntho_h3::runtime",
+      "entity_id": "ntho_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "usze_h3::art",
+      "entity_id": "usze_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave9/usze_h3_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "usze_h3::fidelity",
+      "entity_id": "usze_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "usze_h3::runtime",
+      "entity_id": "usze_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "dare_odst::art",
+      "entity_id": "dare_odst",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave9/dare_odst_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "dare_odst::fidelity",
+      "entity_id": "dare_odst",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "dare_odst::runtime",
+      "entity_id": "dare_odst",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "buck_h5_spartan::art",
+      "entity_id": "buck_h5_spartan",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/costumes_wave9/buck_h5_spartan_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "buck_h5_spartan::fidelity",
+      "entity_id": "buck_h5_spartan",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "buck_h5_spartan::runtime",
+      "entity_id": "buck_h5_spartan",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h5_kaidon::art",
+      "entity_id": "arbiter_h5_kaidon",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/costumes_wave9/arbiter_h5_kaidon_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "arbiter_h5_kaidon::fidelity",
+      "entity_id": "arbiter_h5_kaidon",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h5_kaidon::runtime",
+      "entity_id": "arbiter_h5_kaidon",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_blood_gulch_ce::art",
+      "entity_id": "st_blood_gulch_ce",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/stages_wave9/blood_gulch_ce_master_v01.png"
+      ]
+    },
+    {
+      "id": "st_blood_gulch_ce::fidelity",
+      "entity_id": "st_blood_gulch_ce",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_blood_gulch_ce::runtime",
+      "entity_id": "st_blood_gulch_ce",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_blood_gulch_ce::parallax",
+      "entity_id": "st_blood_gulch_ce",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_lockout_h2::art",
+      "entity_id": "st_lockout_h2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/stages_wave9/lockout_h2_master_v01.png"
+      ]
+    },
+    {
+      "id": "st_lockout_h2::fidelity",
+      "entity_id": "st_lockout_h2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_lockout_h2::runtime",
+      "entity_id": "st_lockout_h2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_lockout_h2::parallax",
+      "entity_id": "st_lockout_h2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "boss_abaddon::art",
+      "entity_id": "boss_abaddon",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_abaddon::fidelity",
+      "entity_id": "boss_abaddon",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_abaddon::runtime",
+      "entity_id": "boss_abaddon",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_condor_hw2::art",
+      "entity_id": "boss_condor_hw2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_condor_hw2::fidelity",
+      "entity_id": "boss_condor_hw2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_condor_hw2::runtime",
+      "entity_id": "boss_condor_hw2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_thanolekgolo::art",
+      "entity_id": "boss_thanolekgolo",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_thanolekgolo::fidelity",
+      "entity_id": "boss_thanolekgolo",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_thanolekgolo::runtime",
+      "entity_id": "boss_thanolekgolo",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_helioskrill::art",
+      "entity_id": "boss_helioskrill",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_helioskrill::fidelity",
+      "entity_id": "boss_helioskrill",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_helioskrill::runtime",
+      "entity_id": "boss_helioskrill",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_johnson_green::art",
+      "entity_id": "boss_johnson_green",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_johnson_green::fidelity",
+      "entity_id": "boss_johnson_green",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_johnson_green::runtime",
+      "entity_id": "boss_johnson_green",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "event_karve::art",
+      "entity_id": "event_karve",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "event_karve::fidelity",
+      "entity_id": "event_karve",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "event_karve::runtime",
+      "entity_id": "event_karve",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_kinsano_cyclops::art",
+      "entity_id": "boss_kinsano_cyclops",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_kinsano_cyclops::fidelity",
+      "entity_id": "boss_kinsano_cyclops",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_kinsano_cyclops::runtime",
+      "entity_id": "boss_kinsano_cyclops",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_mantis_h4::art",
+      "entity_id": "boss_mantis_h4",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_mantis_h4::fidelity",
+      "entity_id": "boss_mantis_h4",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_mantis_h4::runtime",
+      "entity_id": "boss_mantis_h4",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_banished_hw2::art",
+      "entity_id": "boss_scarab_banished_hw2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_banished_hw2::fidelity",
+      "entity_id": "boss_scarab_banished_hw2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_banished_hw2::runtime",
+      "entity_id": "boss_scarab_banished_hw2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_ftr::art",
+      "entity_id": "boss_scarab_ftr",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_ftr::fidelity",
+      "entity_id": "boss_scarab_ftr",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_ftr::runtime",
+      "entity_id": "boss_scarab_ftr",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_h2_protos::art",
+      "entity_id": "boss_scarab_h2_protos",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_h2_protos::fidelity",
+      "entity_id": "boss_scarab_h2_protos",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_h2_protos::runtime",
+      "entity_id": "boss_scarab_h2_protos",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_super_scarab_hw::art",
+      "entity_id": "boss_super_scarab_hw",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_super_scarab_hw::fidelity",
+      "entity_id": "boss_super_scarab_hw",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_super_scarab_hw::runtime",
+      "entity_id": "boss_super_scarab_hw",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_vulture_hw::art",
+      "entity_id": "boss_vulture_hw",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "boss_vulture_hw::fidelity",
+      "entity_id": "boss_vulture_hw",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_vulture_hw::runtime",
+      "entity_id": "boss_vulture_hw",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "penitent_tangent_h2::art",
+      "entity_id": "penitent_tangent_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "penitent_tangent_h2::fidelity",
+      "entity_id": "penitent_tangent_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "penitent_tangent_h2::runtime",
+      "entity_id": "penitent_tangent_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "spark_h3::art",
+      "entity_id": "spark_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "spark_h3::fidelity",
+      "entity_id": "spark_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "spark_h3::runtime",
+      "entity_id": "spark_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "adriana_gray_team::art",
+      "entity_id": "adriana_gray_team",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "adriana_gray_team::fidelity",
+      "entity_id": "adriana_gray_team",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "adriana_gray_team::runtime",
+      "entity_id": "adriana_gray_team",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arthur_legends::art",
+      "entity_id": "arthur_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "arthur_legends::fidelity",
+      "entity_id": "arthur_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arthur_legends::runtime",
+      "entity_id": "arthur_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ash_ferret::art",
+      "entity_id": "ash_ferret",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "ash_ferret::fidelity",
+      "entity_id": "ash_ferret",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ash_ferret::runtime",
+      "entity_id": "ash_ferret",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ava_lang_raven::art",
+      "entity_id": "ava_lang_raven",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "ava_lang_raven::fidelity",
+      "entity_id": "ava_lang_raven",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ava_lang_raven::runtime",
+      "entity_id": "ava_lang_raven",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "bonita_stone::art",
+      "entity_id": "bonita_stone",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "bonita_stone::fidelity",
+      "entity_id": "bonita_stone",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "bonita_stone::runtime",
+      "entity_id": "bonita_stone",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cal_legends::art",
+      "entity_id": "cal_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "cal_legends::fidelity",
+      "entity_id": "cal_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cal_legends::runtime",
+      "entity_id": "cal_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "halsey_reach::art",
+      "entity_id": "halsey_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "halsey_reach::fidelity",
+      "entity_id": "halsey_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "halsey_reach::runtime",
+      "entity_id": "halsey_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chips_dubbo_ce::art",
+      "entity_id": "chips_dubbo_ce",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chips_dubbo_ce::fidelity",
+      "entity_id": "chips_dubbo_ce",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chips_dubbo_ce::runtime",
+      "entity_id": "chips_dubbo_ce",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chyler_fud::art",
+      "entity_id": "chyler_fud",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chyler_fud::fidelity",
+      "entity_id": "chyler_fud",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chyler_fud::runtime",
+      "entity_id": "chyler_fud",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cortana_ce::art",
+      "entity_id": "cortana_ce",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "cortana_ce::fidelity",
+      "entity_id": "cortana_ce",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cortana_ce::runtime",
+      "entity_id": "cortana_ce",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "daisy_legends::art",
+      "entity_id": "daisy_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "daisy_legends::fidelity",
+      "entity_id": "daisy_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "daisy_legends::runtime",
+      "entity_id": "daisy_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "edward_davis_assault::art",
+      "entity_id": "edward_davis_assault",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "edward_davis_assault::fidelity",
+      "entity_id": "edward_davis_assault",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "edward_davis_assault::runtime",
+      "entity_id": "edward_davis_assault",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "anders_hw::art",
+      "entity_id": "anders_hw",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "anders_hw::fidelity",
+      "entity_id": "anders_hw",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "anders_hw::runtime",
+      "entity_id": "anders_hw",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ethan_graves_raven::art",
+      "entity_id": "ethan_graves_raven",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "ethan_graves_raven::fidelity",
+      "entity_id": "ethan_graves_raven",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ethan_graves_raven::runtime",
+      "entity_id": "ethan_graves_raven",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "fal_legends::art",
+      "entity_id": "fal_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "fal_legends::fidelity",
+      "entity_id": "fal_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "fal_legends::runtime",
+      "entity_id": "fal_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "esparza_infinite::art",
+      "entity_id": "esparza_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "esparza_infinite::fidelity",
+      "entity_id": "esparza_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "esparza_infinite::runtime",
+      "entity_id": "esparza_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "thorne_spartan_ops::art",
+      "entity_id": "thorne_spartan_ops",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "thorne_spartan_ops::fidelity",
+      "entity_id": "thorne_spartan_ops",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "thorne_spartan_ops::runtime",
+      "entity_id": "thorne_spartan_ops",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ghost_legends::art",
+      "entity_id": "ghost_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "ghost_legends::fidelity",
+      "entity_id": "ghost_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ghost_legends::runtime",
+      "entity_id": "ghost_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "glory_far_dawn::art",
+      "entity_id": "glory_far_dawn",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "glory_far_dawn::fidelity",
+      "entity_id": "glory_far_dawn",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "glory_far_dawn::runtime",
+      "entity_id": "glory_far_dawn",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "gretchen_spartan::art",
+      "entity_id": "gretchen_spartan",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "gretchen_spartan::fidelity",
+      "entity_id": "gretchen_spartan",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "gretchen_spartan::runtime",
+      "entity_id": "gretchen_spartan",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "haka_legends::art",
+      "entity_id": "haka_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "haka_legends::fidelity",
+      "entity_id": "haka_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "haka_legends::runtime",
+      "entity_id": "haka_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "mercy_h2::art",
+      "entity_id": "mercy_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "mercy_h2::fidelity",
+      "entity_id": "mercy_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "mercy_h2::runtime",
+      "entity_id": "mercy_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "truth_h2::art",
+      "entity_id": "truth_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "truth_h2::fidelity",
+      "entity_id": "truth_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "truth_h2::runtime",
+      "entity_id": "truth_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "regret_h2::art",
+      "entity_id": "regret_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "regret_h2::fidelity",
+      "entity_id": "regret_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "regret_h2::runtime",
+      "entity_id": "regret_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "isabel_hw2::art",
+      "entity_id": "isabel_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "isabel_hw2::fidelity",
+      "entity_id": "isabel_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "isabel_hw2::runtime",
+      "entity_id": "isabel_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jacob_keyes_ce::art",
+      "entity_id": "jacob_keyes_ce",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "jacob_keyes_ce::fidelity",
+      "entity_id": "jacob_keyes_ce",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jacob_keyes_ce::runtime",
+      "entity_id": "jacob_keyes_ce",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jai_gray_team::art",
+      "entity_id": "jai_gray_team",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "jai_gray_team::fidelity",
+      "entity_id": "jai_gray_team",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jai_gray_team::runtime",
+      "entity_id": "jai_gray_team",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cutter_hw::art",
+      "entity_id": "cutter_hw",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "cutter_hw::fidelity",
+      "entity_id": "cutter_hw",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cutter_hw::runtime",
+      "entity_id": "cutter_hw",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jul_mdama_h4::art",
+      "entity_id": "jul_mdama_h4",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "jul_mdama_h4::fidelity",
+      "entity_id": "jul_mdama_h4",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jul_mdama_h4::runtime",
+      "entity_id": "jul_mdama_h4",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kai_silver::art",
+      "entity_id": "kai_silver",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "kai_silver::fidelity",
+      "entity_id": "kai_silver",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kai_silver::runtime",
+      "entity_id": "kai_silver",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kurt_spi::art",
+      "entity_id": "kurt_spi",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "kurt_spi::fidelity",
+      "entity_id": "kurt_spi",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kurt_spi::runtime",
+      "entity_id": "kurt_spi",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rion_forge::art",
+      "entity_id": "rion_forge",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "rion_forge::fidelity",
+      "entity_id": "rion_forge",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rion_forge::runtime",
+      "entity_id": "rion_forge",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "lucy_b091::art",
+      "entity_id": "lucy_b091",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "lucy_b091::fidelity",
+      "entity_id": "lucy_b091",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "lucy_b091::runtime",
+      "entity_id": "lucy_b091",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "makee_silver::art",
+      "entity_id": "makee_silver",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "makee_silver::fidelity",
+      "entity_id": "makee_silver",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "makee_silver::runtime",
+      "entity_id": "makee_silver",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "marcus_hudson_raven::art",
+      "entity_id": "marcus_hudson_raven",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "marcus_hudson_raven::fidelity",
+      "entity_id": "marcus_hudson_raven",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "marcus_hudson_raven::runtime",
+      "entity_id": "marcus_hudson_raven",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "stacker_ce::art",
+      "entity_id": "stacker_ce",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "stacker_ce::fidelity",
+      "entity_id": "stacker_ce",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "stacker_ce::runtime",
+      "entity_id": "stacker_ce",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "margaret_black_one::art",
+      "entity_id": "margaret_black_one",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "margaret_black_one::fidelity",
+      "entity_id": "margaret_black_one",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "margaret_black_one::runtime",
+      "entity_id": "margaret_black_one",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "mark_ferret::art",
+      "entity_id": "mark_ferret",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "mark_ferret::fidelity",
+      "entity_id": "mark_ferret",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "mark_ferret::runtime",
+      "entity_id": "mark_ferret",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "marvin_mobuto::art",
+      "entity_id": "marvin_mobuto",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "marvin_mobuto::fidelity",
+      "entity_id": "marvin_mobuto",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "marvin_mobuto::runtime",
+      "entity_id": "marvin_mobuto",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "maya_sankar::art",
+      "entity_id": "maya_sankar",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "maya_sankar::fidelity",
+      "entity_id": "maya_sankar",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "maya_sankar::runtime",
+      "entity_id": "maya_sankar",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "michael_gray_team::art",
+      "entity_id": "michael_gray_team",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "michael_gray_team::fidelity",
+      "entity_id": "michael_gray_team",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "michael_gray_team::runtime",
+      "entity_id": "michael_gray_team",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "miranda_keyes_h2::art",
+      "entity_id": "miranda_keyes_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "miranda_keyes_h2::fidelity",
+      "entity_id": "miranda_keyes_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "miranda_keyes_h2::runtime",
+      "entity_id": "miranda_keyes_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "naiya_ray::art",
+      "entity_id": "naiya_ray",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "naiya_ray::fidelity",
+      "entity_id": "naiya_ray",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "naiya_ray::runtime",
+      "entity_id": "naiya_ray",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "naomi_kilo5::art",
+      "entity_id": "naomi_kilo5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "naomi_kilo5::fidelity",
+      "entity_id": "naomi_kilo5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "naomi_kilo5::runtime",
+      "entity_id": "naomi_kilo5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "nina_kovan::art",
+      "entity_id": "nina_kovan",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "nina_kovan::fidelity",
+      "entity_id": "nina_kovan",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "nina_kovan::runtime",
+      "entity_id": "nina_kovan",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "olivia_g291::art",
+      "entity_id": "olivia_g291",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "olivia_g291::fidelity",
+      "entity_id": "olivia_g291",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "olivia_g291::runtime",
+      "entity_id": "olivia_g291",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "otto_black_three::art",
+      "entity_id": "otto_black_three",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "otto_black_three::fidelity",
+      "entity_id": "otto_black_three",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "otto_black_three::runtime",
+      "entity_id": "otto_black_three",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "demarco_spartan_ops::art",
+      "entity_id": "demarco_spartan_ops",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "demarco_spartan_ops::fidelity",
+      "entity_id": "demarco_spartan_ops",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "demarco_spartan_ops::runtime",
+      "entity_id": "demarco_spartan_ops",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "randall_nightfall::art",
+      "entity_id": "randall_nightfall",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "randall_nightfall::fidelity",
+      "entity_id": "randall_nightfall",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "randall_nightfall::runtime",
+      "entity_id": "randall_nightfall",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "riz_silver::art",
+      "entity_id": "riz_silver",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "riz_silver::fidelity",
+      "entity_id": "riz_silver",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "riz_silver::runtime",
+      "entity_id": "riz_silver",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "roland_h4::art",
+      "entity_id": "roland_h4",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "roland_h4::fidelity",
+      "entity_id": "roland_h4",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "roland_h4::runtime",
+      "entity_id": "roland_h4",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "roma_black_two::art",
+      "entity_id": "roma_black_two",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "roma_black_two::fidelity",
+      "entity_id": "roma_black_two",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "roma_black_two::runtime",
+      "entity_id": "roma_black_two",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rosenda_winter::art",
+      "entity_id": "rosenda_winter",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "rosenda_winter::fidelity",
+      "entity_id": "rosenda_winter",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rosenda_winter::runtime",
+      "entity_id": "rosenda_winter",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "samuel_animated::art",
+      "entity_id": "samuel_animated",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "samuel_animated::fidelity",
+      "entity_id": "samuel_animated",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "samuel_animated::runtime",
+      "entity_id": "samuel_animated",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "palmer_h4::art",
+      "entity_id": "palmer_h4",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "palmer_h4::fidelity",
+      "entity_id": "palmer_h4",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "palmer_h4::runtime",
+      "entity_id": "palmer_h4",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "serina_hw::art",
+      "entity_id": "serina_hw",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "serina_hw::fidelity",
+      "entity_id": "serina_hw",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "serina_hw::runtime",
+      "entity_id": "serina_hw",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "solomon_legends::art",
+      "entity_id": "solomon_legends",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "solomon_legends::fidelity",
+      "entity_id": "solomon_legends",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "solomon_legends::runtime",
+      "entity_id": "solomon_legends",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "spartan_1337::art",
+      "entity_id": "spartan_1337",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "spartan_1337::fidelity",
+      "entity_id": "spartan_1337",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "spartan_1337::runtime",
+      "entity_id": "spartan_1337",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "stolt_shadow_intent::art",
+      "entity_id": "stolt_shadow_intent",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "stolt_shadow_intent::fidelity",
+      "entity_id": "stolt_shadow_intent",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "stolt_shadow_intent::runtime",
+      "entity_id": "stolt_shadow_intent",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "talitha_nightfall::art",
+      "entity_id": "talitha_nightfall",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "talitha_nightfall::fidelity",
+      "entity_id": "talitha_nightfall",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "talitha_nightfall::runtime",
+      "entity_id": "talitha_nightfall",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "weapon_infinite::art",
+      "entity_id": "weapon_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "weapon_infinite::fidelity",
+      "entity_id": "weapon_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "weapon_infinite::runtime",
+      "entity_id": "weapon_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "thom_deliver_hope::art",
+      "entity_id": "thom_deliver_hope",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "thom_deliver_hope::fidelity",
+      "entity_id": "thom_deliver_hope",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "thom_deliver_hope::runtime",
+      "entity_id": "thom_deliver_hope",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "lasky_cadet_fud::art",
+      "entity_id": "lasky_cadet_fud",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "lasky_cadet_fud::fidelity",
+      "entity_id": "lasky_cadet_fud",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "lasky_cadet_fud::runtime",
+      "entity_id": "lasky_cadet_fud",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ussa_xellus::art",
+      "entity_id": "ussa_xellus",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "ussa_xellus::fidelity",
+      "entity_id": "ussa_xellus",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ussa_xellus::runtime",
+      "entity_id": "ussa_xellus",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vannak_silver::art",
+      "entity_id": "vannak_silver",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "vannak_silver::fidelity",
+      "entity_id": "vannak_silver",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vannak_silver::runtime",
+      "entity_id": "vannak_silver",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "veta_lopis::art",
+      "entity_id": "veta_lopis",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "veta_lopis::fidelity",
+      "entity_id": "veta_lopis",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "veta_lopis::runtime",
+      "entity_id": "veta_lopis",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "victor_ramos_raven::art",
+      "entity_id": "victor_ramos_raven",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "victor_ramos_raven::fidelity",
+      "entity_id": "victor_ramos_raven",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "victor_ramos_raven::runtime",
+      "entity_id": "victor_ramos_raven",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "victor_black_four::art",
+      "entity_id": "victor_black_four",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "victor_black_four::fidelity",
+      "entity_id": "victor_black_four",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "victor_black_four::runtime",
+      "entity_id": "victor_black_four",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "johnson_ce::art",
+      "entity_id": "johnson_ce",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "johnson_ce::fidelity",
+      "entity_id": "johnson_ce",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "johnson_ce::runtime",
+      "entity_id": "johnson_ce",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chimera_firewall::art",
+      "entity_id": "chimera_firewall",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chimera_firewall::fidelity",
+      "entity_id": "chimera_firewall",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chimera_firewall::runtime",
+      "entity_id": "chimera_firewall",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_cortana_h3::art",
+      "entity_id": "costume_cortana_h3",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "costume_cortana_h3::fidelity",
+      "entity_id": "costume_cortana_h3",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_cortana_h3::runtime",
+      "entity_id": "costume_cortana_h3",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_cortana_h4::art",
+      "entity_id": "costume_cortana_h4",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "costume_cortana_h4::fidelity",
+      "entity_id": "costume_cortana_h4",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_cortana_h4::runtime",
+      "entity_id": "costume_cortana_h4",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "eaglestrike_entrenched::art",
+      "entity_id": "eaglestrike_entrenched",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "eaglestrike_entrenched::fidelity",
+      "entity_id": "eaglestrike_entrenched",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "eaglestrike_entrenched::runtime",
+      "entity_id": "eaglestrike_entrenched",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "fred_legends_package::art",
+      "entity_id": "fred_legends_package",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "fred_legends_package::fidelity",
+      "entity_id": "fred_legends_package",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "fred_legends_package::runtime",
+      "entity_id": "fred_legends_package",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_cutter_hw2::art",
+      "entity_id": "costume_cutter_hw2",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "costume_cutter_hw2::fidelity",
+      "entity_id": "costume_cutter_hw2",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_cutter_hw2::runtime",
+      "entity_id": "costume_cutter_hw2",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_campaign_evolved::art",
+      "entity_id": "chief_campaign_evolved",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_campaign_evolved::fidelity",
+      "entity_id": "chief_campaign_evolved",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_campaign_evolved::runtime",
+      "entity_id": "chief_campaign_evolved",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_fud_live::art",
+      "entity_id": "chief_fud_live",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_fud_live::fidelity",
+      "entity_id": "chief_fud_live",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_fud_live::runtime",
+      "entity_id": "chief_fud_live",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h2_anniversary::art",
+      "entity_id": "chief_h2_anniversary",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_h2_anniversary::fidelity",
+      "entity_id": "chief_h2_anniversary",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h2_anniversary::runtime",
+      "entity_id": "chief_h2_anniversary",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h2_classic::art",
+      "entity_id": "chief_h2_classic",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_h2_classic::fidelity",
+      "entity_id": "chief_h2_classic",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h2_classic::runtime",
+      "entity_id": "chief_h2_classic",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h4_markvi::art",
+      "entity_id": "chief_h4_markvi",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_h4_markvi::fidelity",
+      "entity_id": "chief_h4_markvi",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h4_markvi::runtime",
+      "entity_id": "chief_h4_markvi",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h5_markvi::art",
+      "entity_id": "chief_h5_markvi",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_h5_markvi::fidelity",
+      "entity_id": "chief_h5_markvi",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h5_markvi::runtime",
+      "entity_id": "chief_h5_markvi",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_chief_ce_mark_v::art",
+      "entity_id": "costume_chief_ce_mark_v",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "costume_chief_ce_mark_v::fidelity",
+      "entity_id": "costume_chief_ce_mark_v",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_chief_ce_mark_v::runtime",
+      "entity_id": "costume_chief_ce_mark_v",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h3_markvi::art",
+      "entity_id": "chief_h3_markvi",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_h3_markvi::fidelity",
+      "entity_id": "chief_h3_markvi",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_h3_markvi::runtime",
+      "entity_id": "chief_h3_markvi",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_silver::art",
+      "entity_id": "chief_silver",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "chief_silver::fidelity",
+      "entity_id": "chief_silver",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_silver::runtime",
+      "entity_id": "chief_silver",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kelly_legends_package::art",
+      "entity_id": "kelly_legends_package",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "kelly_legends_package::fidelity",
+      "entity_id": "kelly_legends_package",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kelly_legends_package::runtime",
+      "entity_id": "kelly_legends_package",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "linda_lonewolf::art",
+      "entity_id": "linda_lonewolf",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "linda_lonewolf::fidelity",
+      "entity_id": "linda_lonewolf",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "linda_lonewolf::runtime",
+      "entity_id": "linda_lonewolf",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h2_anniversary::art",
+      "entity_id": "arbiter_h2_anniversary",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h2_anniversary::fidelity",
+      "entity_id": "arbiter_h2_anniversary",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h2_anniversary::runtime",
+      "entity_id": "arbiter_h2_anniversary",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h2_classic::art",
+      "entity_id": "arbiter_h2_classic",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h2_classic::fidelity",
+      "entity_id": "arbiter_h2_classic",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h2_classic::runtime",
+      "entity_id": "arbiter_h2_classic",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_lasky_h4::art",
+      "entity_id": "costume_lasky_h4",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "costume_lasky_h4::fidelity",
+      "entity_id": "costume_lasky_h4",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "costume_lasky_h4::runtime",
+      "entity_id": "costume_lasky_h4",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "yoroi_tenrai::art",
+      "entity_id": "yoroi_tenrai",
+      "category": "costume",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "yoroi_tenrai::fidelity",
+      "entity_id": "yoroi_tenrai",
+      "category": "costume",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "yoroi_tenrai::runtime",
+      "entity_id": "yoroi_tenrai",
+      "category": "costume",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_algolis_legends::art",
+      "entity_id": "st_algolis_legends",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_algolis_legends::fidelity",
+      "entity_id": "st_algolis_legends",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_algolis_legends::runtime",
+      "entity_id": "st_algolis_legends",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_algolis_legends::parallax",
+      "entity_id": "st_algolis_legends",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_base_raven::art",
+      "entity_id": "st_alpha_base_raven",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_base_raven::fidelity",
+      "entity_id": "st_alpha_base_raven",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_base_raven::runtime",
+      "entity_id": "st_alpha_base_raven",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_base_raven::parallax",
+      "entity_id": "st_alpha_base_raven",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_shard::art",
+      "entity_id": "st_alpha_shard",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_shard::fidelity",
+      "entity_id": "st_alpha_shard",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_shard::runtime",
+      "entity_id": "st_alpha_shard",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_alpha_shard::parallax",
+      "entity_id": "st_alpha_shard",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_arcadia_hw::art",
+      "entity_id": "st_arcadia_hw",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_arcadia_hw::fidelity",
+      "entity_id": "st_arcadia_hw",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_arcadia_hw::runtime",
+      "entity_id": "st_arcadia_hw",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_arcadia_hw::parallax",
+      "entity_id": "st_arcadia_hw",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_corbulo_fud::art",
+      "entity_id": "st_corbulo_fud",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_corbulo_fud::fidelity",
+      "entity_id": "st_corbulo_fud",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_corbulo_fud::runtime",
+      "entity_id": "st_corbulo_fud",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_corbulo_fud::parallax",
+      "entity_id": "st_corbulo_fud",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_draetheus_assault::art",
+      "entity_id": "st_draetheus_assault",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_draetheus_assault::fidelity",
+      "entity_id": "st_draetheus_assault",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_draetheus_assault::runtime",
+      "entity_id": "st_draetheus_assault",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_draetheus_assault::parallax",
+      "entity_id": "st_draetheus_assault",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_etran_hw::art",
+      "entity_id": "st_etran_hw",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_etran_hw::fidelity",
+      "entity_id": "st_etran_hw",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_etran_hw::runtime",
+      "entity_id": "st_etran_hw",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_etran_hw::parallax",
+      "entity_id": "st_etran_hw",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_gamma_strike::art",
+      "entity_id": "st_gamma_strike",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_gamma_strike::fidelity",
+      "entity_id": "st_gamma_strike",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_gamma_strike::runtime",
+      "entity_id": "st_gamma_strike",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_gamma_strike::parallax",
+      "entity_id": "st_gamma_strike",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_genesis_h5::art",
+      "entity_id": "st_genesis_h5",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_genesis_h5::fidelity",
+      "entity_id": "st_genesis_h5",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_genesis_h5::runtime",
+      "entity_id": "st_genesis_h5",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_genesis_h5::parallax",
+      "entity_id": "st_genesis_h5",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_harvest_hw::art",
+      "entity_id": "st_harvest_hw",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_harvest_hw::fidelity",
+      "entity_id": "st_harvest_hw",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_harvest_hw::runtime",
+      "entity_id": "st_harvest_hw",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_harvest_hw::parallax",
+      "entity_id": "st_harvest_hw",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_heian_legends::art",
+      "entity_id": "st_heian_legends",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_heian_legends::fidelity",
+      "entity_id": "st_heian_legends",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_heian_legends::runtime",
+      "entity_id": "st_heian_legends",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_heian_legends::parallax",
+      "entity_id": "st_heian_legends",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_library_ce::art",
+      "entity_id": "st_library_ce",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_library_ce::fidelity",
+      "entity_id": "st_library_ce",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_library_ce::runtime",
+      "entity_id": "st_library_ce",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_library_ce::parallax",
+      "entity_id": "st_library_ce",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_mantle_h4::art",
+      "entity_id": "st_mantle_h4",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_mantle_h4::fidelity",
+      "entity_id": "st_mantle_h4",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_mantle_h4::runtime",
+      "entity_id": "st_mantle_h4",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_mantle_h4::parallax",
+      "entity_id": "st_mantle_h4",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_meridian_h5::art",
+      "entity_id": "st_meridian_h5",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_meridian_h5::fidelity",
+      "entity_id": "st_meridian_h5",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_meridian_h5::runtime",
+      "entity_id": "st_meridian_h5",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_meridian_h5::parallax",
+      "entity_id": "st_meridian_h5",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_paxopolis::art",
+      "entity_id": "st_paxopolis",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_paxopolis::fidelity",
+      "entity_id": "st_paxopolis",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_paxopolis::runtime",
+      "entity_id": "st_paxopolis",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_paxopolis::parallax",
+      "entity_id": "st_paxopolis",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_sanghelios_camp_h5::art",
+      "entity_id": "st_sanghelios_camp_h5",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_sanghelios_camp_h5::fidelity",
+      "entity_id": "st_sanghelios_camp_h5",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sanghelios_camp_h5::runtime",
+      "entity_id": "st_sanghelios_camp_h5",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sanghelios_camp_h5::parallax",
+      "entity_id": "st_sanghelios_camp_h5",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_sedra_nightfall::art",
+      "entity_id": "st_sedra_nightfall",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_sedra_nightfall::fidelity",
+      "entity_id": "st_sedra_nightfall",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sedra_nightfall::runtime",
+      "entity_id": "st_sedra_nightfall",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sedra_nightfall::parallax",
+      "entity_id": "st_sedra_nightfall",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_silent_auditorium::art",
+      "entity_id": "st_silent_auditorium",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_silent_auditorium::fidelity",
+      "entity_id": "st_silent_auditorium",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_silent_auditorium::runtime",
+      "entity_id": "st_silent_auditorium",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_silent_auditorium::parallax",
+      "entity_id": "st_silent_auditorium",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_spirit_hangar_hw2::art",
+      "entity_id": "st_spirit_hangar_hw2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_spirit_hangar_hw2::fidelity",
+      "entity_id": "st_spirit_hangar_hw2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_spirit_hangar_hw2::runtime",
+      "entity_id": "st_spirit_hangar_hw2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_spirit_hangar_hw2::parallax",
+      "entity_id": "st_spirit_hangar_hw2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_ivanoff_h4::art",
+      "entity_id": "st_ivanoff_h4",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_ivanoff_h4::fidelity",
+      "entity_id": "st_ivanoff_h4",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_ivanoff_h4::runtime",
+      "entity_id": "st_ivanoff_h4",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_ivanoff_h4::parallax",
+      "entity_id": "st_ivanoff_h4",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_truth_hangar_ce::art",
+      "entity_id": "st_truth_hangar_ce",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_truth_hangar_ce::fidelity",
+      "entity_id": "st_truth_hangar_ce",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_truth_hangar_ce::runtime",
+      "entity_id": "st_truth_hangar_ce",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_truth_hangar_ce::parallax",
+      "entity_id": "st_truth_hangar_ce",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_spire_infinite::art",
+      "entity_id": "st_spire_infinite",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_spire_infinite::fidelity",
+      "entity_id": "st_spire_infinite",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_spire_infinite::runtime",
+      "entity_id": "st_spire_infinite",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_spire_infinite::parallax",
+      "entity_id": "st_spire_infinite",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "boss_abomination_hw2::art",
+      "entity_id": "boss_abomination_hw2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_abomination_hw2_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_abomination_hw2::fidelity",
+      "entity_id": "boss_abomination_hw2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_abomination_hw2::runtime",
+      "entity_id": "boss_abomination_hw2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_banshee_infinite::art",
+      "entity_id": "boss_banshee_infinite",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_banshee_infinite_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_banshee_infinite::fidelity",
+      "entity_id": "boss_banshee_infinite",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_banshee_infinite::runtime",
+      "entity_id": "boss_banshee_infinite",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_goblin_h5::art",
+      "entity_id": "boss_goblin_h5",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_goblin_h5_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_goblin_h5::fidelity",
+      "entity_id": "boss_goblin_h5",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_goblin_h5::runtime",
+      "entity_id": "boss_goblin_h5",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_goliath_hw2::art",
+      "entity_id": "boss_goliath_hw2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_goliath_hw2_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_goliath_hw2::fidelity",
+      "entity_id": "boss_goliath_hw2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_goliath_hw2::runtime",
+      "entity_id": "boss_goliath_hw2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "event_guardian_h5::art",
+      "entity_id": "event_guardian_h5",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/event_guardian_h5_profile_v01.png"
+      ]
+    },
+    {
+      "id": "event_guardian_h5::fidelity",
+      "entity_id": "event_guardian_h5",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "event_guardian_h5::runtime",
+      "entity_id": "event_guardian_h5",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_harvester_h4::art",
+      "entity_id": "boss_harvester_h4",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_harvester_h4_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_harvester_h4::fidelity",
+      "entity_id": "boss_harvester_h4",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_harvester_h4::runtime",
+      "entity_id": "boss_harvester_h4",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_juggernaut_ftr::art",
+      "entity_id": "boss_juggernaut_ftr",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_juggernaut_ftr_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_juggernaut_ftr::fidelity",
+      "entity_id": "boss_juggernaut_ftr",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_juggernaut_ftr::runtime",
+      "entity_id": "boss_juggernaut_ftr",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_kraken_h5::art",
+      "entity_id": "boss_kraken_h5",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_kraken_h5_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_kraken_h5::fidelity",
+      "entity_id": "boss_kraken_h5",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_kraken_h5::runtime",
+      "entity_id": "boss_kraken_h5",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_lich_h4::art",
+      "entity_id": "boss_lich_h4",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_lich_h4_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_lich_h4::fidelity",
+      "entity_id": "boss_lich_h4",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_lich_h4::runtime",
+      "entity_id": "boss_lich_h4",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_locust_hw::art",
+      "entity_id": "boss_locust_hw",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_locust_hw_profile_v01.png",
+        "assets/bosses_wave5/boss_locust_hw_profile_v02.png"
+      ]
+    },
+    {
+      "id": "boss_locust_hw::fidelity",
+      "entity_id": "boss_locust_hw",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_locust_hw::runtime",
+      "entity_id": "boss_locust_hw",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_hunters_ce::art",
+      "entity_id": "boss_hunters_ce",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_hunters_ce_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_hunters_ce::fidelity",
+      "entity_id": "boss_hunters_ce",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_hunters_ce::runtime",
+      "entity_id": "boss_hunters_ce",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_phaeton_h5::art",
+      "entity_id": "boss_phaeton_h5",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_phaeton_h5_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_phaeton_h5::fidelity",
+      "entity_id": "boss_phaeton_h5",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_phaeton_h5::runtime",
+      "entity_id": "boss_phaeton_h5",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_phantom_infinite::art",
+      "entity_id": "boss_phantom_infinite",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_phantom_infinite_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_phantom_infinite::fidelity",
+      "entity_id": "boss_phantom_infinite",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_phantom_infinite::runtime",
+      "entity_id": "boss_phantom_infinite",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_proto_gravemind_hw2::art",
+      "entity_id": "boss_proto_gravemind_hw2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_proto_gravemind_hw2_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_proto_gravemind_hw2::fidelity",
+      "entity_id": "boss_proto_gravemind_hw2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_proto_gravemind_hw2::runtime",
+      "entity_id": "boss_proto_gravemind_hw2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "event_gravemind_h3::art",
+      "entity_id": "event_gravemind_h3",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/event_gravemind_h3_profile_v01.png"
+      ]
+    },
+    {
+      "id": "event_gravemind_h3::fidelity",
+      "entity_id": "event_gravemind_h3",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "event_gravemind_h3::runtime",
+      "entity_id": "event_gravemind_h3",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_h3::art",
+      "entity_id": "boss_scarab_h3",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/candidates/scarab_halo3_left_v2.png"
+      ]
+    },
+    {
+      "id": "boss_scarab_h3::fidelity",
+      "entity_id": "boss_scarab_h3",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_scarab_h3::runtime",
+      "entity_id": "boss_scarab_h3",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_enforcer_h2::art",
+      "entity_id": "boss_enforcer_h2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_enforcer_h2_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_enforcer_h2::fidelity",
+      "entity_id": "boss_enforcer_h2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_enforcer_h2::runtime",
+      "entity_id": "boss_enforcer_h2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_retriever_hw2::art",
+      "entity_id": "boss_retriever_hw2",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_retriever_hw2_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_retriever_hw2::fidelity",
+      "entity_id": "boss_retriever_hw2",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_retriever_hw2::runtime",
+      "entity_id": "boss_retriever_hw2",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_warden_h5::art",
+      "entity_id": "boss_warden_h5",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_warden_h5_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_warden_h5::fidelity",
+      "entity_id": "boss_warden_h5",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_warden_h5::runtime",
+      "entity_id": "boss_warden_h5",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_wraith_infinite::art",
+      "entity_id": "boss_wraith_infinite",
+      "category": "boss",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_wraith_infinite_profile_v01.png"
+      ]
+    },
+    {
+      "id": "boss_wraith_infinite::fidelity",
+      "entity_id": "boss_wraith_infinite",
+      "category": "boss",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "boss_wraith_infinite::runtime",
+      "entity_id": "boss_wraith_infinite",
+      "category": "boss",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "alice_hw2::art",
+      "entity_id": "alice_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave3/alice_hw2_neutral_right_v01.png",
+        "assets/characters_wave5/alice_hw2_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "alice_hw2::fidelity",
+      "entity_id": "alice_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "alice_hw2::runtime",
+      "entity_id": "alice_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "atriox_hw2::art",
+      "entity_id": "atriox_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
+        "assets/characters_wave5/atriox_hw2_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "atriox_hw2::fidelity",
+      "entity_id": "atriox_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "atriox_hw2::runtime",
+      "entity_id": "atriox_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "johnson_h3::art",
+      "entity_id": "johnson_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/johnson_h3_neutral_right_v01.png",
+        "assets/characters_wave5/johnson_h3_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "johnson_h3::fidelity",
+      "entity_id": "johnson_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "johnson_h3::runtime",
+      "entity_id": "johnson_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "bassus_infinite::art",
+      "entity_id": "bassus_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave8/bassus_infinite_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "bassus_infinite::fidelity",
+      "entity_id": "bassus_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "bassus_infinite::runtime",
+      "entity_id": "bassus_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "carter_reach::art",
+      "entity_id": "carter_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/carter_reach_neutral_right_v01.png",
+        "assets/characters_wave4/carter_reach_neutral_right_v02.png",
+        "assets/characters_wave5/carter_reach_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "carter_reach::fidelity",
+      "entity_id": "carter_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "carter_reach::runtime",
+      "entity_id": "carter_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cethegus_h3::art",
+      "entity_id": "cethegus_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/cethegus_h3_neutral_right_v01.png",
+        "assets/characters_wave5/cethegus_h3_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "cethegus_h3::fidelity",
+      "entity_id": "cethegus_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cethegus_h3::runtime",
+      "entity_id": "cethegus_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chak_lok::art",
+      "entity_id": "chak_lok",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/chak_lok_neutral_right_v01.png",
+        "assets/characters_wave5/chak_lok_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "chak_lok::fidelity",
+      "entity_id": "chak_lok",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chak_lok::runtime",
+      "entity_id": "chak_lok",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "knight_h4::art",
+      "entity_id": "knight_h4",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "knight_h4::fidelity",
+      "entity_id": "knight_h4",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "knight_h4::runtime",
+      "entity_id": "knight_h4",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "colony_single_body_hw2::art",
+      "entity_id": "colony_single_body_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/colony_single_body_hw2_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "colony_single_body_hw2::fidelity",
+      "entity_id": "colony_single_body_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "colony_single_body_hw2::runtime",
+      "entity_id": "colony_single_body_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "agryna_infinite::art",
+      "entity_id": "agryna_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "agryna_infinite::fidelity",
+      "entity_id": "agryna_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "agryna_infinite::runtime",
+      "entity_id": "agryna_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "decimus_hw2::art",
+      "entity_id": "decimus_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/decimus_hw2_neutral_right_v01.png",
+        "assets/characters_wave5/decimus_hw2_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "decimus_hw2::fidelity",
+      "entity_id": "decimus_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "decimus_hw2::runtime",
+      "entity_id": "decimus_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "douglas_hw2::art",
+      "entity_id": "douglas_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/douglas_hw2_neutral_right_v01.png",
+        "assets/characters_wave5/douglas_hw2_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "douglas_hw2::fidelity",
+      "entity_id": "douglas_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "douglas_hw2::runtime",
+      "entity_id": "douglas_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "buck_odst::art",
+      "entity_id": "buck_odst",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/buck_odst_neutral_right_v01.png",
+        "assets/characters_wave5/buck_odst_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "buck_odst::fidelity",
+      "entity_id": "buck_odst",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "buck_odst::runtime",
+      "entity_id": "buck_odst",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "zealot_reach::art",
+      "entity_id": "zealot_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/zealot_reach_neutral_right_v01.png",
+        "assets/characters_wave5/zealot_reach_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "zealot_reach::fidelity",
+      "entity_id": "zealot_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "zealot_reach::runtime",
+      "entity_id": "zealot_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "emile_reach::art",
+      "entity_id": "emile_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/emile_reach_neutral_right_v01.png",
+        "assets/characters_wave5/emile_reach_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "emile_reach::fidelity",
+      "entity_id": "emile_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "emile_reach::runtime",
+      "entity_id": "emile_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "escharum_infinite::art",
+      "entity_id": "escharum_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/escharum_infinite_neutral_right_v01.png",
+        "assets/characters_wave4/escharum_infinite_neutral_right_v02.png",
+        "assets/characters_wave5/escharum_infinite_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "escharum_infinite::fidelity",
+      "entity_id": "escharum_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "escharum_infinite::runtime",
+      "entity_id": "escharum_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "flood_human_h3::art",
+      "entity_id": "flood_human_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/flood_human_h3_initial_right_v01.png",
+        "assets/characters_wave6/flood_human_h3_initial_right_v02.png"
+      ]
+    },
+    {
+      "id": "flood_human_h3::fidelity",
+      "entity_id": "flood_human_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "flood_human_h3::runtime",
+      "entity_id": "flood_human_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "fred_h5::art",
+      "entity_id": "fred_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/fred_h5_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "fred_h5::fidelity",
+      "entity_id": "fred_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "fred_h5::runtime",
+      "entity_id": "fred_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "grunt_heavy_reach::art",
+      "entity_id": "grunt_heavy_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "grunt_heavy_reach::fidelity",
+      "entity_id": "grunt_heavy_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "grunt_heavy_reach::runtime",
+      "entity_id": "grunt_heavy_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "harbinger_infinite::art",
+      "entity_id": "harbinger_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/harbinger_infinite_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "harbinger_infinite::fidelity",
+      "entity_id": "harbinger_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "harbinger_infinite::runtime",
+      "entity_id": "harbinger_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "dinh_infinite::art",
+      "entity_id": "dinh_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "needs_correction",
+      "evidence": [
+        "assets/characters_wave6/dinh_infinite_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "dinh_infinite::fidelity",
+      "entity_id": "dinh_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "dinh_infinite::runtime",
+      "entity_id": "dinh_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "hyperius_infinite::art",
+      "entity_id": "hyperius_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/hyperius_infinite_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "hyperius_infinite::fidelity",
+      "entity_id": "hyperius_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "hyperius_infinite::runtime",
+      "entity_id": "hyperius_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jackal_major_h3::art",
+      "entity_id": "jackal_major_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/jackal_major_h3_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "jackal_major_h3::fidelity",
+      "entity_id": "jackal_major_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jackal_major_h3::runtime",
+      "entity_id": "jackal_major_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "locke_h5::art",
+      "entity_id": "locke_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave8/locke_h5_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "locke_h5::fidelity",
+      "entity_id": "locke_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "locke_h5::runtime",
+      "entity_id": "locke_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jega_infinite::art",
+      "entity_id": "jega_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/jega_infinite_neutral_right_v01.png",
+        "assets/characters_wave5/jega_infinite_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "jega_infinite::fidelity",
+      "entity_id": "jega_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jega_infinite::runtime",
+      "entity_id": "jega_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jerome_hw2::art",
+      "entity_id": "jerome_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/jerome_hw2_neutral_right_v01.png",
+        "assets/characters_wave5/jerome_hw2_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "jerome_hw2::fidelity",
+      "entity_id": "jerome_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jerome_hw2::runtime",
+      "entity_id": "jerome_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_infinite::art",
+      "entity_id": "chief_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/chief_infinite_neutral_right_v01.png"
+      ]
+    },
+    {
+      "id": "chief_infinite::fidelity",
+      "entity_id": "chief_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "chief_infinite::runtime",
+      "entity_id": "chief_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jorge_reach::art",
+      "entity_id": "jorge_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/jorge_reach_neutral_right_v01.png",
+        "assets/characters_wave5/jorge_reach_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "jorge_reach::fidelity",
+      "entity_id": "jorge_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jorge_reach::runtime",
+      "entity_id": "jorge_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jun_reach::art",
+      "entity_id": "jun_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/jun_reach_neutral_right_v01.png",
+        "assets/characters_wave5/jun_reach_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "jun_reach::fidelity",
+      "entity_id": "jun_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "jun_reach::runtime",
+      "entity_id": "jun_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kat_reach::art",
+      "entity_id": "kat_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/kat_reach_neutral_right_v01.png",
+        "assets/characters_wave4/kat_reach_neutral_right_v02.png",
+        "assets/characters_wave5/kat_reach_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "kat_reach::fidelity",
+      "entity_id": "kat_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kat_reach::runtime",
+      "entity_id": "kat_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kelly_h5::art",
+      "entity_id": "kelly_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "kelly_h5::fidelity",
+      "entity_id": "kelly_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "kelly_h5::runtime",
+      "entity_id": "kelly_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "romeo_odst::art",
+      "entity_id": "romeo_odst",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "romeo_odst::fidelity",
+      "entity_id": "romeo_odst",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "romeo_odst::runtime",
+      "entity_id": "romeo_odst",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rookie_odst::art",
+      "entity_id": "rookie_odst",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave3/rookie_odst_neutral_right_v01.png",
+        "assets/characters_wave5/rookie_odst_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "rookie_odst::fidelity",
+      "entity_id": "rookie_odst",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rookie_odst::runtime",
+      "entity_id": "rookie_odst",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "let_volir_hw2::art",
+      "entity_id": "let_volir_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "let_volir_hw2::fidelity",
+      "entity_id": "let_volir_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "let_volir_hw2::runtime",
+      "entity_id": "let_volir_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "hunter_h3::art",
+      "entity_id": "hunter_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/hunter_h3_neutral_right_v01.png",
+        "assets/characters_wave5/hunter_h3_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "hunter_h3::fidelity",
+      "entity_id": "hunter_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "hunter_h3::runtime",
+      "entity_id": "hunter_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "mickey_odst::art",
+      "entity_id": "mickey_odst",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave8/mickey_odst_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "mickey_odst::fidelity",
+      "entity_id": "mickey_odst",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "mickey_odst::runtime",
+      "entity_id": "mickey_odst",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "noble_six::art",
+      "entity_id": "noble_six",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave3/noble_six_neutral_right_v01.png",
+        "assets/characters_wave5/noble_six_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "noble_six::fidelity",
+      "entity_id": "noble_six",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "noble_six::runtime",
+      "entity_id": "noble_six",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vale_h5::art",
+      "entity_id": "vale_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/vale_h5_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "vale_h5::fidelity",
+      "entity_id": "vale_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vale_h5::runtime",
+      "entity_id": "vale_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "pavium_hw2::art",
+      "entity_id": "pavium_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave10/pavium_hw2_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "pavium_hw2::fidelity",
+      "entity_id": "pavium_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "pavium_hw2::runtime",
+      "entity_id": "pavium_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ripa_hw1::art",
+      "entity_id": "ripa_hw1",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/ripa_hw1_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "ripa_hw1::fidelity",
+      "entity_id": "ripa_hw1",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "ripa_hw1::runtime",
+      "entity_id": "ripa_hw1",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rtas_h3::art",
+      "entity_id": "rtas_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave2/rtas_h3_neutral_right_v01.png",
+        "assets/characters_wave5/rtas_h3_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "rtas_h3::fidelity",
+      "entity_id": "rtas_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "rtas_h3::runtime",
+      "entity_id": "rtas_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "forge_hw::art",
+      "entity_id": "forge_hw",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/forge_hw_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "forge_hw::fidelity",
+      "entity_id": "forge_hw",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "forge_hw::runtime",
+      "entity_id": "forge_hw",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "sesa_h2::art",
+      "entity_id": "sesa_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/sesa_h2_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "sesa_h2::fidelity",
+      "entity_id": "sesa_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "sesa_h2::runtime",
+      "entity_id": "sesa_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "eklund_infinite::art",
+      "entity_id": "eklund_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/eklund_infinite_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "eklund_infinite::fidelity",
+      "entity_id": "eklund_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "eklund_infinite::runtime",
+      "entity_id": "eklund_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "skirmisher_champion_reach::art",
+      "entity_id": "skirmisher_champion_reach",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave8/skirmisher_champion_reach_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "skirmisher_champion_reach::fidelity",
+      "entity_id": "skirmisher_champion_reach",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "skirmisher_champion_reach::runtime",
+      "entity_id": "skirmisher_champion_reach",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "tartarus_h2::art",
+      "entity_id": "tartarus_h2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave4/tartarus_h2_neutral_right_v01.png",
+        "assets/characters_wave5/tartarus_h2_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "tartarus_h2::fidelity",
+      "entity_id": "tartarus_h2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "tartarus_h2::runtime",
+      "entity_id": "tartarus_h2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "dutch_odst::art",
+      "entity_id": "dutch_odst",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/dutch_odst_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "dutch_odst::fidelity",
+      "entity_id": "dutch_odst",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "dutch_odst::runtime",
+      "entity_id": "dutch_odst",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h3::art",
+      "entity_id": "arbiter_h3",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/candidates/arbiter_halo3_neutral_right_v2.png",
+        "assets/characters_wave5/arbiter_h3_guard_right_v01.png"
+      ]
+    },
+    {
+      "id": "arbiter_h3::fidelity",
+      "entity_id": "arbiter_h3",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "arbiter_h3::runtime",
+      "entity_id": "arbiter_h3",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "tovarus_infinite::art",
+      "entity_id": "tovarus_infinite",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/tovarus_infinite_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "tovarus_infinite::fidelity",
+      "entity_id": "tovarus_infinite",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "tovarus_infinite::runtime",
+      "entity_id": "tovarus_infinite",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "didact_h4::art",
+      "entity_id": "didact_h4",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "didact_h4::fidelity",
+      "entity_id": "didact_h4",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "didact_h4::runtime",
+      "entity_id": "didact_h4",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "voridus_hw2::art",
+      "entity_id": "voridus_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/voridus_hw2_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "voridus_hw2::fidelity",
+      "entity_id": "voridus_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "voridus_hw2::runtime",
+      "entity_id": "voridus_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "warden_eternal_h5::art",
+      "entity_id": "warden_eternal_h5",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/bosses_wave5/boss_warden_h5_profile_v01.png"
+      ]
+    },
+    {
+      "id": "warden_eternal_h5::fidelity",
+      "entity_id": "warden_eternal_h5",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "warden_eternal_h5::runtime",
+      "entity_id": "warden_eternal_h5",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "yapyap_hw2::art",
+      "entity_id": "yapyap_hw2",
+      "category": "character",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/characters_wave6/yapyap_hw2_initial_right_v01.png"
+      ]
+    },
+    {
+      "id": "yapyap_hw2::fidelity",
+      "entity_id": "yapyap_hw2",
+      "category": "character",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "yapyap_hw2::runtime",
+      "entity_id": "yapyap_hw2",
+      "category": "character",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_requiem_h4::art",
+      "entity_id": "st_requiem_h4",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_requiem_h4::fidelity",
+      "entity_id": "st_requiem_h4",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_requiem_h4::runtime",
+      "entity_id": "st_requiem_h4",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_requiem_h4::parallax",
+      "entity_id": "st_requiem_h4",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_hw2::art",
+      "entity_id": "st_ark_hw2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_hw2::fidelity",
+      "entity_id": "st_ark_hw2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_hw2::runtime",
+      "entity_id": "st_ark_hw2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_hw2::parallax",
+      "entity_id": "st_ark_hw2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_boneyard_reach::art",
+      "entity_id": "st_boneyard_reach",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_boneyard_reach::fidelity",
+      "entity_id": "st_boneyard_reach",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_boneyard_reach::runtime",
+      "entity_id": "st_boneyard_reach",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_boneyard_reach::parallax",
+      "entity_id": "st_boneyard_reach",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_h3::art",
+      "entity_id": "st_ark_h3",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_h3::fidelity",
+      "entity_id": "st_ark_h3",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_h3::runtime",
+      "entity_id": "st_ark_h3",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_ark_h3::parallax",
+      "entity_id": "st_ark_h3",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_citadel_h3::art",
+      "entity_id": "st_citadel_h3",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_citadel_h3::fidelity",
+      "entity_id": "st_citadel_h3",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_citadel_h3::runtime",
+      "entity_id": "st_citadel_h3",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_citadel_h3::parallax",
+      "entity_id": "st_citadel_h3",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_sword_reach::art",
+      "entity_id": "st_sword_reach",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/stages_wave10/sword_base_reach_master_v01.png"
+      ]
+    },
+    {
+      "id": "st_sword_reach::fidelity",
+      "entity_id": "st_sword_reach",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sword_reach::runtime",
+      "entity_id": "st_sword_reach",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sword_reach::parallax",
+      "entity_id": "st_sword_reach",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_high_charity_h2::art",
+      "entity_id": "st_high_charity_h2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_high_charity_h2::fidelity",
+      "entity_id": "st_high_charity_h2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_high_charity_h2::runtime",
+      "entity_id": "st_high_charity_h2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_high_charity_h2::parallax",
+      "entity_id": "st_high_charity_h2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_cortana_h3::art",
+      "entity_id": "st_cortana_h3",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_cortana_h3::fidelity",
+      "entity_id": "st_cortana_h3",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_cortana_h3::runtime",
+      "entity_id": "st_cortana_h3",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_cortana_h3::parallax",
+      "entity_id": "st_cortana_h3",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_guardian_h3::art",
+      "entity_id": "st_guardian_h3",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_guardian_h3::fidelity",
+      "entity_id": "st_guardian_h3",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_guardian_h3::runtime",
+      "entity_id": "st_guardian_h3",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_guardian_h3::parallax",
+      "entity_id": "st_guardian_h3",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_autumn_ce::art",
+      "entity_id": "st_autumn_ce",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_autumn_ce::fidelity",
+      "entity_id": "st_autumn_ce",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_autumn_ce::runtime",
+      "entity_id": "st_autumn_ce",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_autumn_ce::parallax",
+      "entity_id": "st_autumn_ce",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_reckoning_infinite::art",
+      "entity_id": "st_reckoning_infinite",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_reckoning_infinite::fidelity",
+      "entity_id": "st_reckoning_infinite",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_reckoning_infinite::runtime",
+      "entity_id": "st_reckoning_infinite",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_reckoning_infinite::parallax",
+      "entity_id": "st_reckoning_infinite",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_sunaion_h5::art",
+      "entity_id": "st_sunaion_h5",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_sunaion_h5::fidelity",
+      "entity_id": "st_sunaion_h5",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sunaion_h5::runtime",
+      "entity_id": "st_sunaion_h5",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_sunaion_h5::parallax",
+      "entity_id": "st_sunaion_h5",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_cartographer_ce::art",
+      "entity_id": "st_cartographer_ce",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "needs_correction",
+      "evidence": [
+        "assets/stages_wave10/silent_cartographer_ce_master_v01.png"
+      ]
+    },
+    {
+      "id": "st_cartographer_ce::fidelity",
+      "entity_id": "st_cartographer_ce",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_cartographer_ce::runtime",
+      "entity_id": "st_cartographer_ce",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_cartographer_ce::parallax",
+      "entity_id": "st_cartographer_ce",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_zeta_infinite::art",
+      "entity_id": "st_zeta_infinite",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_zeta_infinite::fidelity",
+      "entity_id": "st_zeta_infinite",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_zeta_infinite::runtime",
+      "entity_id": "st_zeta_infinite",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_zeta_infinite::parallax",
+      "entity_id": "st_zeta_infinite",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_metropolis_h2::art",
+      "entity_id": "st_metropolis_h2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_metropolis_h2::fidelity",
+      "entity_id": "st_metropolis_h2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_metropolis_h2::runtime",
+      "entity_id": "st_metropolis_h2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_metropolis_h2::parallax",
+      "entity_id": "st_metropolis_h2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_mombasa_odst::art",
+      "entity_id": "st_mombasa_odst",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/candidates/mombasa_odst_night_master_v2.png"
+      ]
+    },
+    {
+      "id": "st_mombasa_odst::fidelity",
+      "entity_id": "st_mombasa_odst",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_mombasa_odst::runtime",
+      "entity_id": "st_mombasa_odst",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_mombasa_odst::parallax",
+      "entity_id": "st_mombasa_odst",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_delta_halo_h2::art",
+      "entity_id": "st_delta_halo_h2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_delta_halo_h2::fidelity",
+      "entity_id": "st_delta_halo_h2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_delta_halo_h2::runtime",
+      "entity_id": "st_delta_halo_h2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_delta_halo_h2::parallax",
+      "entity_id": "st_delta_halo_h2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_cairo_h2::art",
+      "entity_id": "st_cairo_h2",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_cairo_h2::fidelity",
+      "entity_id": "st_cairo_h2",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_cairo_h2::runtime",
+      "entity_id": "st_cairo_h2",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_cairo_h2::parallax",
+      "entity_id": "st_cairo_h2",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_new_alex_reach::art",
+      "entity_id": "st_new_alex_reach",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_new_alex_reach::fidelity",
+      "entity_id": "st_new_alex_reach",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_new_alex_reach::runtime",
+      "entity_id": "st_new_alex_reach",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_new_alex_reach::parallax",
+      "entity_id": "st_new_alex_reach",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_nmpd_odst::art",
+      "entity_id": "st_nmpd_odst",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_nmpd_odst::fidelity",
+      "entity_id": "st_nmpd_odst",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_nmpd_odst::runtime",
+      "entity_id": "st_nmpd_odst",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_nmpd_odst::parallax",
+      "entity_id": "st_nmpd_odst",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_valhalla_h3::art",
+      "entity_id": "st_valhalla_h3",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/candidates/valhalla_halo3_master_v2.png"
+      ]
+    },
+    {
+      "id": "st_valhalla_h3::fidelity",
+      "entity_id": "st_valhalla_h3",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_valhalla_h3::runtime",
+      "entity_id": "st_valhalla_h3",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_valhalla_h3::parallax",
+      "entity_id": "st_valhalla_h3",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "st_control_room_ce::art",
+      "entity_id": "st_control_room_ce",
+      "category": "stage",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "st_control_room_ce::fidelity",
+      "entity_id": "st_control_room_ce",
+      "category": "stage",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_control_room_ce::runtime",
+      "entity_id": "st_control_room_ce",
+      "category": "stage",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "st_control_room_ce::parallax",
+      "entity_id": "st_control_room_ce",
+      "category": "stage",
+      "task": "Six calques indépendants et raccords",
+      "status": "not_produced",
+      "evidence": []
+    },
+    {
+      "id": "proj_frag_infinite::art",
+      "entity_id": "proj_frag_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/projectiles_wave10/frag_infinite_initial_v01.png"
+      ]
+    },
+    {
+      "id": "proj_frag_infinite::fidelity",
+      "entity_id": "proj_frag_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_frag_infinite::runtime",
+      "entity_id": "proj_frag_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_grenade_infinite::art",
+      "entity_id": "proj_plasma_grenade_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/projectiles_wave10/plasma_grenade_infinite_initial_v01.png"
+      ]
+    },
+    {
+      "id": "proj_plasma_grenade_infinite::fidelity",
+      "entity_id": "proj_plasma_grenade_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_grenade_infinite::runtime",
+      "entity_id": "proj_plasma_grenade_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_spike_infinite::art",
+      "entity_id": "proj_spike_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/projectiles_wave10/spike_infinite_profile_right_v01.png"
+      ]
+    },
+    {
+      "id": "proj_spike_infinite::fidelity",
+      "entity_id": "proj_spike_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_spike_infinite::runtime",
+      "entity_id": "proj_spike_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_dynamo_infinite::art",
+      "entity_id": "proj_dynamo_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_dynamo_infinite::fidelity",
+      "entity_id": "proj_dynamo_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_dynamo_infinite::runtime",
+      "entity_id": "proj_dynamo_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_needler_shard_infinite::art",
+      "entity_id": "proj_needler_shard_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "candidate",
+      "evidence": [
+        "assets/projectiles_wave10/needler_shard_infinite_right_v01.png"
+      ]
+    },
+    {
+      "id": "proj_needler_shard_infinite::fidelity",
+      "entity_id": "proj_needler_shard_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_needler_shard_infinite::runtime",
+      "entity_id": "proj_needler_shard_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_needler_supercombine_infinite::art",
+      "entity_id": "vfx_needler_supercombine_infinite",
+      "category": "vfx",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "vfx_needler_supercombine_infinite::fidelity",
+      "entity_id": "vfx_needler_supercombine_infinite",
+      "category": "vfx",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_needler_supercombine_infinite::runtime",
+      "entity_id": "vfx_needler_supercombine_infinite",
+      "category": "vfx",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_pistol_bolt_infinite::art",
+      "entity_id": "proj_plasma_pistol_bolt_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_pistol_bolt_infinite::fidelity",
+      "entity_id": "proj_plasma_pistol_bolt_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_pistol_bolt_infinite::runtime",
+      "entity_id": "proj_plasma_pistol_bolt_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_pistol_overcharge_infinite::art",
+      "entity_id": "proj_plasma_pistol_overcharge_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_pistol_overcharge_infinite::fidelity",
+      "entity_id": "proj_plasma_pistol_overcharge_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_plasma_pistol_overcharge_infinite::runtime",
+      "entity_id": "proj_plasma_pistol_overcharge_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_pulse_carbine_infinite::art",
+      "entity_id": "proj_pulse_carbine_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_pulse_carbine_infinite::fidelity",
+      "entity_id": "proj_pulse_carbine_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_pulse_carbine_infinite::runtime",
+      "entity_id": "proj_pulse_carbine_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_ravager_bolt_infinite::art",
+      "entity_id": "proj_ravager_bolt_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_ravager_bolt_infinite::fidelity",
+      "entity_id": "proj_ravager_bolt_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_ravager_bolt_infinite::runtime",
+      "entity_id": "proj_ravager_bolt_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_ravager_charged_infinite::art",
+      "entity_id": "proj_ravager_charged_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_ravager_charged_infinite::fidelity",
+      "entity_id": "proj_ravager_charged_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_ravager_charged_infinite::runtime",
+      "entity_id": "proj_ravager_charged_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_ravager_pool_infinite::art",
+      "entity_id": "vfx_ravager_pool_infinite",
+      "category": "vfx",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "vfx_ravager_pool_infinite::fidelity",
+      "entity_id": "vfx_ravager_pool_infinite",
+      "category": "vfx",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_ravager_pool_infinite::runtime",
+      "entity_id": "vfx_ravager_pool_infinite",
+      "category": "vfx",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_cindershot_infinite::art",
+      "entity_id": "proj_cindershot_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_cindershot_infinite::fidelity",
+      "entity_id": "proj_cindershot_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_cindershot_infinite::runtime",
+      "entity_id": "proj_cindershot_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_heatwave_infinite::art",
+      "entity_id": "proj_heatwave_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_heatwave_infinite::fidelity",
+      "entity_id": "proj_heatwave_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_heatwave_infinite::runtime",
+      "entity_id": "proj_heatwave_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_hydra_infinite::art",
+      "entity_id": "proj_hydra_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_hydra_infinite::fidelity",
+      "entity_id": "proj_hydra_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_hydra_infinite::runtime",
+      "entity_id": "proj_hydra_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_spnkr_infinite::art",
+      "entity_id": "proj_spnkr_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_spnkr_infinite::fidelity",
+      "entity_id": "proj_spnkr_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_spnkr_infinite::runtime",
+      "entity_id": "proj_spnkr_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_skewer_infinite::art",
+      "entity_id": "proj_skewer_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_skewer_infinite::fidelity",
+      "entity_id": "proj_skewer_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_skewer_infinite::runtime",
+      "entity_id": "proj_skewer_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_disruptor_infinite::art",
+      "entity_id": "proj_disruptor_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_disruptor_infinite::fidelity",
+      "entity_id": "proj_disruptor_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_disruptor_infinite::runtime",
+      "entity_id": "proj_disruptor_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_shock_rifle_infinite::art",
+      "entity_id": "vfx_shock_rifle_infinite",
+      "category": "vfx",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "vfx_shock_rifle_infinite::fidelity",
+      "entity_id": "vfx_shock_rifle_infinite",
+      "category": "vfx",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_shock_rifle_infinite::runtime",
+      "entity_id": "vfx_shock_rifle_infinite",
+      "category": "vfx",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_sentinel_beam_infinite::art",
+      "entity_id": "vfx_sentinel_beam_infinite",
+      "category": "vfx",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "vfx_sentinel_beam_infinite::fidelity",
+      "entity_id": "vfx_sentinel_beam_infinite",
+      "category": "vfx",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_sentinel_beam_infinite::runtime",
+      "entity_id": "vfx_sentinel_beam_infinite",
+      "category": "vfx",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_stalker_infinite::art",
+      "entity_id": "proj_stalker_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_stalker_infinite::fidelity",
+      "entity_id": "proj_stalker_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_stalker_infinite::runtime",
+      "entity_id": "proj_stalker_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_mangler_infinite::art",
+      "entity_id": "proj_mangler_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_mangler_infinite::fidelity",
+      "entity_id": "proj_mangler_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_mangler_infinite::runtime",
+      "entity_id": "proj_mangler_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_spike_shrapnel_infinite::art",
+      "entity_id": "proj_spike_shrapnel_infinite",
+      "category": "projectile",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "proj_spike_shrapnel_infinite::fidelity",
+      "entity_id": "proj_spike_shrapnel_infinite",
+      "category": "projectile",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "proj_spike_shrapnel_infinite::runtime",
+      "entity_id": "proj_spike_shrapnel_infinite",
+      "category": "projectile",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_gravity_hammer_infinite::art",
+      "entity_id": "vfx_gravity_hammer_infinite",
+      "category": "vfx",
+      "task": "Visuel statique",
+      "status": "missing",
+      "evidence": []
+    },
+    {
+      "id": "vfx_gravity_hammer_infinite::fidelity",
+      "entity_id": "vfx_gravity_hammer_infinite",
+      "category": "vfx",
+      "task": "Validation comparative 1:1",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "vfx_gravity_hammer_infinite::runtime",
+      "entity_id": "vfx_gravity_hammer_infinite",
+      "category": "vfx",
+      "task": "Implémentation spécifique complète",
+      "status": "pending",
+      "evidence": []
+    }
+  ]
+}

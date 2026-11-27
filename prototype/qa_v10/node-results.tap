@@ -1,0 +1,286 @@
+TAP version 13
+# Subtest: les 104 PNG et enregistrements historiques sont conservés, les 7 nouveaux correspondent à leurs empreintes
+ok 1 - les 104 PNG et enregistrements historiques sont conservés, les 7 nouveaux correspondent à leurs empreintes
+  ---
+  duration_ms: 665.856719
+  type: 'test'
+  ...
+# Subtest: les 232 identités restent, la seule correction d’œuvre héritée est le Chevalier Halo 4
+ok 2 - les 232 identités restent, la seule correction d’œuvre héritée est le Chevalier Halo 4
+  ---
+  duration_ms: 1.880448
+  type: 'test'
+  ...
+# Subtest: les compteurs distinguent la cohorte héritée de la nouvelle liste de production
+ok 3 - les compteurs distinguent la cohorte héritée de la nouvelle liste de production
+  ---
+  duration_ms: 10.437731
+  type: 'test'
+  ...
+# Subtest: les catégories projectile et VFX sont filtrables sans doublon ni fausse jouabilité
+ok 4 - les catégories projectile et VFX sont filtrables sans doublon ni fausse jouabilité
+  ---
+  duration_ms: 1.756007
+  type: 'test'
+  ...
+# Subtest: le profil CU32 évite de reprendre une description officielle périmée
+ok 5 - le profil CU32 évite de reprendre une description officielle périmée
+  ---
+  duration_ms: 0.315435
+  type: 'test'
+  ...
+# Subtest: la version embarquée hors ligne contient exactement le JSON V10
+ok 6 - la version embarquée hors ligne contient exactement le JSON V10
+  ---
+  duration_ms: 19.148272
+  type: 'test'
+  ...
+# Subtest: les trois guides intégrés sont les originaux intégraux et toutes leurs sections sont tracées
+ok 7 - les trois guides intégrés sont les originaux intégraux et toutes leurs sections sont tracées
+  ---
+  duration_ms: 6.714848
+  type: 'test'
+  ...
+# Subtest: aucun refus de génération n’est transformé en nouveau PNG et les réserves restent exposées
+ok 8 - aucun refus de génération n’est transformé en nouveau PNG et les réserves restent exposées
+  ---
+  duration_ms: 0.782895
+  type: 'test'
+  ...
+# Subtest: locked information remains inspectable without changing the selected team
+ok 9 - locked information remains inspectable without changing the selected team
+  ---
+  duration_ms: 7.183475
+  type: 'test'
+  ...
+# Subtest: a secret view exposes neither identity nor image; its clue is deliberately neutral
+ok 10 - a secret view exposes neither identity nor image; its clue is deliberately neutral
+  ---
+  duration_ms: 0.879072
+  type: 'test'
+  ...
+# Subtest: AND and OR conditions have independent branches and do not grant access by preview
+ok 11 - AND and OR conditions have independent branches and do not grant access by preview
+  ---
+  duration_ms: 0.540599
+  type: 'test'
+  ...
+# Subtest: claim is idempotent and an owned costume is retained while its parent is locked
+ok 12 - claim is idempotent and an owned costume is retained while its parent is locked
+  ---
+  duration_ms: 1.662252
+  type: 'test'
+  ...
+# Subtest: temporary expiry or revocation cannot remove a second permanent source
+ok 13 - temporary expiry or revocation cannot remove a second permanent source
+  ---
+  duration_ms: 0.719084
+  type: 'test'
+  ...
+# Subtest: pending verification stays unknown and older grant events are ignored
+ok 14 - pending verification stays unknown and older grant events are ignored
+  ---
+  duration_ms: 0.357031
+  type: 'test'
+  ...
+# Subtest: earned permanent rights remain claimable during a temporary access window
+ok 15 - earned permanent rights remain claimable during a temporary access window
+  ---
+  duration_ms: 0.283559
+  type: 'test'
+  ...
+# Subtest: an acquired missing PNG is a production issue, never a false payment lock
+ok 16 - an acquired missing PNG is a production issue, never a false payment lock
+  ---
+  duration_ms: 0.731732
+  type: 'test'
+  ...
+# Subtest: Silver and Fractures never leak into a principal-timeline team
+ok 17 - Silver and Fractures never leak into a principal-timeline team
+  ---
+  duration_ms: 3.54586
+  type: 'test'
+  ...
+# Subtest: duplicate characters and unavailable random picks are excluded
+ok 18 - duplicate characters and unavailable random picks are excluded
+  ---
+  duration_ms: 2.609546
+  type: 'test'
+  ...
+# Subtest: archive prerequisites have no circular dependency or repeated reward mutation
+ok 19 - archive prerequisites have no circular dependency or repeated reward mutation
+  ---
+  duration_ms: 0.425495
+  type: 'test'
+  ...
+# Subtest: a support cannot be committed to assist and tag in the same frame
+ok 20 - a support cannot be committed to assist and tag in the same frame
+  ---
+  duration_ms: 1.615287
+  type: 'test'
+  ...
+# Subtest: resource failure and hitstun never spend gauge
+ok 21 - resource failure and hitstun never spend gauge
+  ---
+  duration_ms: 0.371594
+  type: 'test'
+  ...
+# Subtest: assist has arrival, impact, exit, then recovery rather than an instant refill
+ok 22 - assist has arrival, impact, exit, then recovery rather than an instant refill
+  ---
+  duration_ms: 1.356005
+  type: 'test'
+  ...
+# Subtest: interrupting the assistant damages its own health, retains cost and starts recovery
+ok 23 - interrupting the assistant damages its own health, retains cost and starts recovery
+  ---
+  duration_ms: 0.436522
+  type: 'test'
+  ...
+# Subtest: KO relay is free even when the surviving reserve is recovering
+ok 24 - KO relay is free even when the surviving reserve is recovering
+  ---
+  duration_ms: 0.327525
+  type: 'test'
+  ...
+# Subtest: voluntary tag transfers controls on frame 18 and preserves health and combo budget
+ok 25 - voluntary tag transfers controls on frame 18 and preserves health and combo budget
+  ---
+  duration_ms: 0.39879
+  type: 'test'
+  ...
+# Subtest: normal attacks cannot exceed the shared gain cap within one combo
+ok 26 - normal attacks cannot exceed the shared gain cap within one combo
+  ---
+  duration_ms: 0.422342
+  type: 'test'
+  ...
+# Subtest: pause freezes frame, recoveries and state transitions
+ok 27 - pause freezes frame, recoveries and state transitions
+  ---
+  duration_ms: 0.192194
+  type: 'test'
+  ...
+# Subtest: taunts grant nothing and a hit cancels them into hitstun
+ok 28 - taunts grant nothing and a hit cancels them into hitstun
+  ---
+  duration_ms: 0.654063
+  type: 'test'
+  ...
+# Subtest: super confirms its scene only on hit; block and miss keep their cost and resolve quickly
+ok 29 - super confirms its scene only on hit; block and miss keep their cost and resolve quickly
+  ---
+  duration_ms: 0.558758
+  type: 'test'
+  ...
+# Subtest: committed super scene freezes cooldowns and skip has the identical final simulation state
+ok 30 - committed super scene freezes cooldowns and skip has the identical final simulation state
+  ---
+  duration_ms: 0.488365
+  type: 'test'
+  ...
+# Subtest: super startup is interruptible without refund and cannot double-spend with a tag
+ok 31 - super startup is interruptible without refund and cannot double-spend with a tag
+  ---
+  duration_ms: 0.197901
+  type: 'test'
+  ...
+# Subtest: finisher cannot precede victory and cannot resurrect a KO partner
+ok 32 - finisher cannot precede victory and cannot resurrect a KO partner
+  ---
+  duration_ms: 0.348859
+  type: 'test'
+  ...
+# Subtest: finisher fallback and specific scene use exact duo, era, stage and opponent constraints
+ok 33 - finisher fallback and specific scene use exact duo, era, stage and opponent constraints
+  ---
+  duration_ms: 0.278949
+  type: 'test'
+  ...
+# Subtest: selection and earned milestones are independent of image animation production
+ok 34 - selection and earned milestones are independent of image animation production
+  ---
+  duration_ms: 0.254941
+  type: 'test'
+  ...
+# Subtest: precision targets accept one hit each and score can be persisted only after the run
+ok 35 - precision targets accept one hit each and score can be persisted only after the run
+  ---
+  duration_ms: 4.628081
+  type: 'test'
+  ...
+# Subtest: missed bonus can be retried without taking away earned progress
+ok 36 - missed bonus can be retried without taking away earned progress
+  ---
+  duration_ms: 3.685172
+  type: 'test'
+  ...
+# Subtest: saved progress round-trips without granting unknown IDs or accepting future/corrupt formats
+ok 37 - saved progress round-trips without granting unknown IDs or accepting future/corrupt formats
+  ---
+  duration_ms: 1.5105
+  type: 'test'
+  ...
+# Subtest: all representative PNG references exist, and all retained IDs are unique
+ok 38 - all representative PNG references exist, and all retained IDs are unique
+  ---
+  duration_ms: 0.467275
+  type: 'test'
+  ...
+# Subtest: recherche sans accents et apostrophes typographiques
+ok 39 - recherche sans accents et apostrophes typographiques
+  ---
+  duration_ms: 2.727035
+  type: 'test'
+  ...
+# Subtest: les six filtres se combinent et les continuités restent séparées
+ok 40 - les six filtres se combinent et les continuités restent séparées
+  ---
+  duration_ms: 0.306445
+  type: 'test'
+  ...
+# Subtest: le filtre manquants exclut les candidats et les images à corriger
+ok 41 - le filtre manquants exclut les candidats et les images à corriger
+  ---
+  duration_ms: 0.953724
+  type: 'test'
+  ...
+# Subtest: une image préférée est choisie sans modifier les variantes
+ok 42 - une image préférée est choisie sans modifier les variantes
+  ---
+  duration_ms: 0.531532
+  type: 'test'
+  ...
+# Subtest: les statistiques comptent les PNG distincts et les œuvres réellement liées
+ok 43 - les statistiques comptent les PNG distincts et les œuvres réellement liées
+  ---
+  duration_ms: 0.479523
+  type: 'test'
+  ...
+# Subtest: les images utilisent uniquement des chemins locaux sans traversée
+ok 44 - les images utilisent uniquement des chemins locaux sans traversée
+  ---
+  duration_ms: 0.174722
+  type: 'test'
+  ...
+# Subtest: les références autorisent uniquement les URL web explicites
+ok 45 - les références autorisent uniquement les URL web explicites
+  ---
+  duration_ms: 0.398183
+  type: 'test'
+  ...
+# Subtest: le tri des résultats ne modifie pas le catalogue source
+ok 46 - le tri des résultats ne modifie pas le catalogue source
+  ---
+  duration_ms: 0.257886
+  type: 'test'
+  ...
+1..46
+# tests 46
+# suites 0
+# pass 46
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 850.309337

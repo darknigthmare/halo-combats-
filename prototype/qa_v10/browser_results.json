@@ -1,0 +1,48 @@
+{
+  "version": 10,
+  "status": "passed",
+  "date": "2026-11-27",
+  "total_assertions": 38,
+  "javascript_errors": 0,
+  "catalogue": {
+    "report": "prototype/qa_v10/catalog_browser_results.json",
+    "assertions": 12,
+    "viewports": [
+      {
+        "width": 1365,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "tested_files_sha256": {
+      "prototype/halo_universe_v10.html": "35f609f808789a59a25e5e884b9938ff6c0c389ff06358de62f2732bab352b4d",
+      "prototype/universe_v10/app.js": "088d07948192edd047885f4b359f0f3489dfff1c60e62b26bb16d7f56e8b9260",
+      "prototype/universe_v10/catalog.js": "cd399d356ffa8403c88baeaec5f7e780435be806d8bd7c3365f295df83886c37",
+      "prototype/universe_v10/style.css": "afd3939f99505662e6280864b614a0937933d270facbe60bf7e8b8068af305fc",
+      "data/universe_catalog_v10.json": "e02c53b3daf91dd3f016b0e383d6403ea1e590453d5f15bf491532073f30b085",
+      "prototype/qa_v10/catalog.browser.cjs": "0201446392e652d2998d2a0e73cac48c6ef34cac9f9348b68413d16600e1fe0f"
+    }
+  },
+  "extensions": {
+    "report": "prototype/qa_v10/extensions_browser_results.json",
+    "assertions": 26,
+    "viewports": [
+      {
+        "width": 1365,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ]
+  },
+  "visual_review": "Desktop and mobile screenshots inspected. Static candidate images; no visual 1:1 certification.",
+  "limitations": [
+    "Chromium only",
+    "No collision gameplay, animated clips, gamepad, multiplayer or production subscription service tested"
+  ]
+}

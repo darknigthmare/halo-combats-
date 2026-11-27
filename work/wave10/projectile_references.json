@@ -1,0 +1,30 @@
+[
+  {
+    "path": "work/wave10/references/frag_infinite.png",
+    "page": "https://www.halopedia.org/File:HINF_FragGrenade_Cutout.png",
+    "image_url": "https://www.halopedia.org/images/8/83/HINF_FragGrenade_Cutout.png?b99ec",
+    "bytes": 2927637,
+    "sha256": "d9f94e03755d5dbae8f34fc519699443b7b4748edc02a48a55ce80a794f11f22"
+  },
+  {
+    "path": "work/wave10/references/spike_infinite.jpg",
+    "page": "https://www.halopedia.org/File:HINF_SpikeGrenade_HiPoly_Render_1.jpg",
+    "image_url": "https://www.halopedia.org/images/7/72/HINF_SpikeGrenade_HiPoly_Render_1.jpg?f9c7a",
+    "bytes": 1396178,
+    "sha256": "0024f26039bfca7ebbbc474f0473817ca0902d99ba62180550568fd95618f786"
+  },
+  {
+    "path": "work/wave10/references/plasma_infinite.png",
+    "page": "https://www.halopedia.org/File:HINF_plasma_grenades.png",
+    "image_url": "https://www.halopedia.org/images/5/5a/HINF_plasma_grenades.png?43711",
+    "bytes": 10684735,
+    "sha256": "a2f241bef0bb4151fe0879c51b8a65af7bb98c400e2cc82efd91d5adb5fe30f3"
+  },
+  {
+    "path": "work/wave10/references/needler_firing_infinite.png",
+    "page": "https://www.halopedia.org/File:HINF_Needler_Firing.png",
+    "image_url": "https://www.halopedia.org/images/4/45/HINF_Needler_Firing.png?94ee4",
+    "bytes": 8077164,
+    "sha256": "e3cb8f84cb91d0d3a0a9729617b91fc071374cb5b16a43f7b070ea02ce61c3b4"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "wave": 10,
+  "date": "2026-11-27",
+  "tool": "image_gen",
+  "attempts": [
+    {
+      "id": "kelly_h5",
+      "prompt": "Use case: identity-preserve. Asset: one static full-body 2D UHD fighting-game sprite for Halo Combats. Reference is the official Halo 5 Guardians Kelly-087 promotional render. Create Kelly-087 alone in a composed neutral battle-ready side stance, facing screen RIGHT, with her M45D shotgun held in both hands at low ready. Preserve this exact HERMES GEN2 design: blue-grey armor, thin yellow trim, distinctive large gold bubble visor with angular lower cheek and chin assembly, narrow black undersuit joints, the same chest plates, hip panels, knee and shin profiles. Preserve all visible asymmetrical parts; do not combine with Infinite HERMES or any other Spartan armor. Readable near-orthographic side view suitable for a fighting game, with enough three-quarter visibility to identify the helmet. Complete body and gun entirely visible, feet on the same ground baseline, 10 percent clear margin around extremities. Highly detailed hand-painted game sprite rendering with sharp material definition, restrained outlines, believable proportions faithful to the reference. A single character, a single pose; no multi-view sheet, no words, no labels, no frame, no background, no ground plane, no cast shadow. Actual transparent alpha background. Not an animation. Keep anatomy fully armored as in the reference.",
+      "reference_path": "work/wave10/references/kelly_h5.png",
+      "transparent_background": true,
+      "status": "reference_transport_error",
+      "output_path": null,
+      "error": "unable to read referenced image: exec-server transport closed",
+      "request_id": null
+    },
+    {
+      "id": "romeo_odst",
+      "prompt": "Use case: identity-preserve. Asset: one static full-body 2D UHD fighting-game sprite for Halo Combats. Use the provided official Halo 3 ODST Romeo render as exact identity, armor, helmet and rifle reference. Create Kojo Romeo Agu alone in a calm alert neutral side stance facing screen RIGHT. Hold the full SRS99D-S2 AM sniper rifle in both hands at low ready without obscuring his whole silhouette. Preserve ODST 2009 proportions, his green-grey ODST armor, pale blue chest plate, distinctive optical sensor cluster on his helmet, dark visor, exposed fingertip gloves, leg armor and his individual asymmetric attachments. Do not substitute Spartan armor, Buck's helmet, or a Halo 5 sniper rifle. Flat ground baseline and near-orthographic lateral fighter view with only slight three-quarter visibility for readable identity. One complete character and his equipment, all boots and the full long muzzle inside the canvas, generous 10 percent margins even around rifle. Detailed hand-painted sprite with realistic game materials and crisp edge definition, faithful to Halo 3 ODST art design. No text, label, UI, second view or second character. Real transparent alpha background; no scenery, floor, cast shadow or painted checkerboard. One static pose, not an animation.",
+      "reference_path": "work/wave10/references/romeo_odst.png",
+      "transparent_background": true,
+      "status": "moderation_blocked",
+      "output_path": null,
+      "error": "image generation failed: http 400 Bad Request; moderation_blocked; moderation_stage output; categories [\"other\"]",
+      "request_id": "c9e511a6-58c1-4e5e-9b76-1b3721e6d210"
+    },
+    {
+      "id": "agryna_infinite",
+      "prompt": "Use case: identity-preserve. Asset: one static full-body 2D UHD character sprite for Halo Combats. Recreate Commander Laurette Agryna in the exact helmeted Academy armor from Halo Infinite shown in the reference. Preserve her distinctive ivory-white and muted blue-grey armor, broad reflective COBALT BLUE visor, correct helmet brow and chin geometry, side camera, white chest plate with small yellow insignia, yellow lion-like groin crest, panel shapes on thighs, knees and boots, black undersuit. Use the reference's calm arms-crossed command stance, but orient the body in a clearly readable right-facing three-quarter profile for a 2D character selection presentation. Keep her fully helmeted; do not invent a face or any new equipment. A single complete full-body character, head to soles entirely visible with 10 percent empty margins. Detailed hand-painted game sprite with realistic worn painted metal and sharp edge definition. Respect the reference proportions, no exaggerated anatomy, no generic Mark VII substitution. Completely remove the Academy environment from the reference. True transparent alpha background, no floor, no cast shadow, no scenery, no text, no frame. One static character, one pose, no sprite sheet.",
+      "reference_path": "work/wave10/references/agryna_infinite.jpg",
+      "transparent_background": true,
+      "status": "moderation_blocked",
+      "output_path": null,
+      "error": "image generation failed: http 400 Bad Request; moderation_blocked; moderation_stage output; categories [\"other\"]",
+      "request_id": "d7ee4848-8198-4230-b71b-b67770d9c9d4"
+    }
+  ]
+}

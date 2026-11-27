@@ -1,0 +1,2062 @@
+{
+  "version": 10,
+  "project": "Halo Combats",
+  "updated_on": "2026-11-27",
+  "scope": "24 spécifications Infinite ; PNG statiques présents séparément des mécanismes non implémentés.",
+  "rules": {
+    "canon_vs_design": "Les faits d’identité sont sourcés ; tous les paramètres 2D sont des propositions originales.",
+    "asset_policy": "Un objet par image, alpha réel lorsque demandé, aucun miroir automatique.",
+    "runtime_status": "specified_not_implemented",
+    "source_wording": "Synthèses brèves non exhaustives ; consulter la source officielle pour l’inventaire complet."
+  },
+  "source_urls": [
+    "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+    "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+    "https://www.halowaypoint.com/news/banished-honor-sandbox"
+  ],
+  "entries": [
+    {
+      "id": "proj_frag_infinite",
+      "name": "Grenade M9",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Grenade à fragmentation avec rebond.",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_FragGrenade_Cutout.png",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox",
+        "https://www.halopedia.org/images/8/83/HINF_FragGrenade_Cutout.png?b99ec"
+      ],
+      "visual_lock": "M9 Infinite : coque olive segmentée, bande rouge, fusée haute ; ne pas reprendre la silhouette d’un autre opus.",
+      "visual_reference_status": "Références inspectées et PNG contrôlé ; réserves explicites, fidélité 1:1 non certifiée.",
+      "art_status": "candidate",
+      "asset_state": "static_candidate",
+      "assets": [
+        {
+          "id": "frag_infinite_initial_v01",
+          "entity_id": "proj_frag_infinite",
+          "type": "projectile",
+          "source_version": "Halo Infinite, M9 fragmentation grenade",
+          "path": "assets/projectiles_wave10/frag_infinite_initial_v01.png",
+          "width": 1050,
+          "height": 1498,
+          "mode": "RGBA",
+          "bytes": 2227472,
+          "sha256": "866129ee4d2b705dfbdd4896c460bdd8f99e53e0fd47f2a605d0406affddb02e",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_threshold16": [
+            22,
+            48,
+            1027,
+            1453
+          ],
+          "margins_threshold16": {
+            "left": 22,
+            "top": 48,
+            "right": 23,
+            "bottom": 45
+          },
+          "alpha_zero_pixels": 542773,
+          "alpha_255_pixels": 986,
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "observed_facing": "upright_three_quarter",
+          "art_status": "candidate",
+          "notes": [
+            "Une seule grenade intacte, corps olive segmenté, bande rouge, boîtier de fusée vertical, languette rouge et anneau métallique conservés.",
+            "Silhouette très proche de la référence isolée ; vis, joints des panneaux, usure et teintes finement redessinés, donc fidélité exacte non certifiée.",
+            "Silhouette entière et alpha réel 0–255 ; marges latérales 22/23 px, nettement inférieures aux 15 % demandés.",
+            "Aucune explosion, trajectoire ni animation ; asset statique seul."
+          ],
+          "generation_wave": 10,
+          "journal": "work/wave10/root_generation_followup.json",
+          "reference_urls": [
+            "https://www.halopedia.org/File:HINF_FragGrenade_Cutout.png",
+            "https://www.halopedia.org/images/8/83/HINF_FragGrenade_Cutout.png?b99ec"
+          ],
+          "references": [
+            {
+              "path": "work/wave10/references/frag_infinite.png",
+              "sha256": "d9f94e03755d5dbae8f34fc519699443b7b4748edc02a48a55ce80a794f11f22",
+              "bytes": 2927637,
+              "page_url": "https://www.halopedia.org/File:HINF_FragGrenade_Cutout.png",
+              "image_url": "https://www.halopedia.org/images/8/83/HINF_FragGrenade_Cutout.png?b99ec",
+              "primary_url": null,
+              "inspected_visually": true
+            }
+          ],
+          "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-2e3e7ac3-497b-4b8b-8635-411c21b5d2ef.png",
+          "byte_identical_to_original_output": true,
+          "full_body_visible": null,
+          "whole_object_visible": true,
+          "animation_status": "not_animated",
+          "fidelity_1_to_1_certified": false,
+          "automatically_mirrored": false,
+          "postprocessing": "none; copied byte-for-byte"
+        }
+      ],
+      "preferred_asset_id": "frag_infinite_initial_v01",
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_bounce",
+        "lifetime_frames_proposed": 90,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "explosion après temporisation ; rebonds limités et traçables",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "static_candidate_not_animation"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Grenade à fragmentation avec rebond. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux.",
+        "Une seule grenade intacte, corps olive segmenté, bande rouge, boîtier de fusée vertical, languette rouge et anneau métallique conservés.",
+        "Silhouette très proche de la référence isolée ; vis, joints des panneaux, usure et teintes finement redessinés, donc fidélité exacte non certifiée.",
+        "Silhouette entière et alpha réel 0–255 ; marges latérales 22/23 px, nettement inférieures aux 15 % demandés.",
+        "Aucune explosion, trajectoire ni animation ; asset statique seul."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_plasma_grenade_infinite",
+      "name": "Grenade à plasma",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Grenade adhésive à plasma.",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_plasma_grenades.png",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox",
+        "https://www.halopedia.org/images/5/5a/HINF_plasma_grenades.png?43711"
+      ],
+      "visual_lock": "Sphère bleu-violet segmentée d’Infinite ; conserver les ouvertures et le matériau, sans substituer un autre modèle.",
+      "visual_reference_status": "Références inspectées et PNG contrôlé ; réserves explicites, fidélité 1:1 non certifiée.",
+      "art_status": "candidate",
+      "asset_state": "static_candidate",
+      "assets": [
+        {
+          "id": "plasma_grenade_infinite_initial_v01",
+          "entity_id": "proj_plasma_grenade_infinite",
+          "type": "projectile",
+          "source_version": "Halo Infinite, plasma grenade",
+          "path": "assets/projectiles_wave10/plasma_grenade_infinite_initial_v01.png",
+          "width": 1261,
+          "height": 1247,
+          "mode": "RGBA",
+          "bytes": 1017511,
+          "sha256": "ff32c249ba127ffd84dd8760837d67b2fc08042c289e76aaab0b24d683ef1416",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_threshold16": [
+            232,
+            210,
+            1004,
+            1007
+          ],
+          "margins_threshold16": {
+            "left": 232,
+            "top": 210,
+            "right": 257,
+            "bottom": 240
+          },
+          "alpha_zero_pixels": 1086039,
+          "alpha_255_pixels": 329,
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "observed_facing": "near_side_three_quarter",
+          "art_status": "candidate",
+          "notes": [
+            "Une seule sphère bleu-violet à coque segmentée, correspondant visuellement à la grenade en bas à droite de la capture de référence.",
+            "Joints, petits nœuds lumineux, panneau magenta inférieur et éclairage redessinés ; perspective légèrement différente, détails extrapolés depuis une petite zone de capture.",
+            "Aucune poignée ni pointe ajoutée ; alpha réel 0–255 et marges larges ; lueur contenue près de la coque.",
+            "Objet isolé entier, sans table, ombre portée, explosion ni animation ; fidélité de la topologie des panneaux à confirmer."
+          ],
+          "generation_wave": 10,
+          "journal": "work/wave10/root_generation_followup.json",
+          "reference_urls": [
+            "https://www.halopedia.org/File:HINF_plasma_grenades.png",
+            "https://www.halopedia.org/images/5/5a/HINF_plasma_grenades.png?43711"
+          ],
+          "references": [
+            {
+              "path": "work/wave10/references/plasma_infinite.png",
+              "sha256": "a2f241bef0bb4151fe0879c51b8a65af7bb98c400e2cc82efd91d5adb5fe30f3",
+              "bytes": 10684735,
+              "page_url": "https://www.halopedia.org/File:HINF_plasma_grenades.png",
+              "image_url": "https://www.halopedia.org/images/5/5a/HINF_plasma_grenades.png?43711",
+              "primary_url": null,
+              "inspected_visually": true
+            }
+          ],
+          "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-cbcdff69-210c-46f0-80a2-9af469b4e698.png",
+          "byte_identical_to_original_output": true,
+          "full_body_visible": null,
+          "whole_object_visible": true,
+          "animation_status": "not_animated",
+          "fidelity_1_to_1_certified": false,
+          "automatically_mirrored": false,
+          "postprocessing": "none; copied byte-for-byte"
+        }
+      ],
+      "preferred_asset_id": "plasma_grenade_infinite_initial_v01",
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_sticky",
+        "lifetime_frames_proposed": 90,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "attachement à une hurtbox valide ; détonation après temporisation",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "suivre le point d’attache ; à disparition, terminer ou déposer selon règle explicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "static_candidate_not_animation"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Grenade adhésive à plasma. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux.",
+        "Une seule sphère bleu-violet à coque segmentée, correspondant visuellement à la grenade en bas à droite de la capture de référence.",
+        "Joints, petits nœuds lumineux, panneau magenta inférieur et éclairage redessinés ; perspective légèrement différente, détails extrapolés depuis une petite zone de capture.",
+        "Aucune poignée ni pointe ajoutée ; alpha réel 0–255 et marges larges ; lueur contenue près de la coque.",
+        "Objet isolé entier, sans table, ombre portée, explosion ni animation ; fidélité de la topologie des panneaux à confirmer."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_spike_infinite",
+      "name": "Grenade à pointes Jovokada",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Grenade adhésive projetant des éclats.",
+      "reference_urls": [
+        "https://www.artstation.com/artwork/qQ0ENn",
+        "https://www.halopedia.org/File:HINF_SpikeGrenade_HiPoly_Render_1.jpg",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox",
+        "https://www.halopedia.org/images/7/72/HINF_SpikeGrenade_HiPoly_Render_1.jpg?f9c7a"
+      ],
+      "visual_lock": "Modèle Infinite : manche gainé, tête métallique et pointes asymétriques ; pas de miroir du PNG.",
+      "visual_reference_status": "Références inspectées et PNG contrôlé ; réserves explicites, fidélité 1:1 non certifiée.",
+      "art_status": "candidate",
+      "asset_state": "static_candidate",
+      "assets": [
+        {
+          "id": "spike_infinite_profile_right_v01",
+          "entity_id": "proj_spike_infinite",
+          "type": "projectile",
+          "source_version": "Halo Infinite, Jovokada Workshop spike grenade",
+          "path": "assets/projectiles_wave10/spike_infinite_profile_right_v01.png",
+          "width": 2172,
+          "height": 724,
+          "mode": "RGBA",
+          "bytes": 1078045,
+          "sha256": "56d9d8703ba5b0d7d1dcacfa7e4d9275578fa8d08e8f3a21a1571054f28b7359",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_threshold16": [
+            88,
+            12,
+            2111,
+            709
+          ],
+          "margins_threshold16": {
+            "left": 88,
+            "top": 12,
+            "right": 61,
+            "bottom": 15
+          },
+          "alpha_zero_pixels": 1114517,
+          "alpha_255_pixels": 1123,
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "observed_facing": "right_profile_slight_three_quarter",
+          "art_status": "candidate",
+          "notes": [
+            "Une seule grenade à pointes ; poignée enveloppée à gauche, tête métallique à droite, deux petits témoins jaunes et pointes de queue conservés.",
+            "Pointes entièrement visibles ; pas de seconde copie réfléchie, de logo ni de texte de la référence.",
+            "Angles, implantation et largeur des grandes lames, transition poignée/tête et géométrie de la face avant diffèrent légèrement ; comparaison au modèle de jeu nécessaire.",
+            "Alpha réel 0–255, marges haut/bas 12/15 px très étroites malgré les 15 % demandés.",
+            "Orientation créée par le générateur, sans miroir automatique ; aucune trajectoire ni animation."
+          ],
+          "generation_wave": 10,
+          "journal": "work/wave10/root_generation_followup.json",
+          "reference_urls": [
+            "https://www.halopedia.org/File:HINF_SpikeGrenade_HiPoly_Render_1.jpg",
+            "https://www.halopedia.org/images/7/72/HINF_SpikeGrenade_HiPoly_Render_1.jpg?f9c7a"
+          ],
+          "references": [
+            {
+              "path": "work/wave10/references/spike_infinite.jpg",
+              "sha256": "0024f26039bfca7ebbbc474f0473817ca0902d99ba62180550568fd95618f786",
+              "bytes": 1396178,
+              "page_url": "https://www.halopedia.org/File:HINF_SpikeGrenade_HiPoly_Render_1.jpg",
+              "image_url": "https://www.halopedia.org/images/7/72/HINF_SpikeGrenade_HiPoly_Render_1.jpg?f9c7a",
+              "primary_url": null,
+              "inspected_visually": true
+            }
+          ],
+          "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-90b0cc86-da5c-4312-b074-c668839db14e.png",
+          "byte_identical_to_original_output": true,
+          "full_body_visible": null,
+          "whole_object_visible": true,
+          "animation_status": "not_animated",
+          "fidelity_1_to_1_certified": false,
+          "automatically_mirrored": false,
+          "postprocessing": "none; copied byte-for-byte"
+        }
+      ],
+      "preferred_asset_id": "spike_infinite_profile_right_v01",
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_sticky",
+        "lifetime_frames_proposed": 360,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "fusée démarrant au repos ; attachement puis émission d’éclats distincts, aucune explosion en plein vol",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "suivre le point d’attache ; à disparition, terminer ou déposer selon règle explicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré",
+        "fuse_start": "at_rest_or_stuck",
+        "fuse_frames_proposed": 72,
+        "lifetime_expiry": "despawn_without_explosion_if_never_at_rest"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "static_candidate_not_animation"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Grenade adhésive projetant des éclats. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux.",
+        "CU32 : fusée après immobilisation ; 1,2 seconde de référence, soit 72 pas à 60 Hz. La limite totale de 360 pas est une proposition de nettoyage du prototype.",
+        "Une seule grenade à pointes ; poignée enveloppée à gauche, tête métallique à droite, deux petits témoins jaunes et pointes de queue conservés.",
+        "Pointes entièrement visibles ; pas de seconde copie réfléchie, de logo ni de texte de la référence.",
+        "Angles, implantation et largeur des grandes lames, transition poignée/tête et géométrie de la face avant diffèrent légèrement ; comparaison au modèle de jeu nécessaire.",
+        "Alpha réel 0–255, marges haut/bas 12/15 px très étroites malgré les 15 % demandés.",
+        "Orientation créée par le générateur, sans miroir automatique ; aucune trajectoire ni animation."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_dynamo_infinite",
+      "name": "Grenade dynamo",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Grenade électrique pouvant neutraliser les véhicules.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Verrouiller le modèle Infinite par captures avant toute génération ; effets électriques séparés du corps.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_bounce",
+        "lifetime_frames_proposed": 180,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "champ périodique ; temporisation et intervalle de dégâts bornés",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Grenade électrique pouvant neutraliser les véhicules. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_needler_shard_infinite",
+      "name": "Aiguille du Needler",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Cristaux guidés, accumulation puis supercombine.",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_Needler_Firing.png",
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox",
+        "https://www.halopedia.org/images/4/45/HINF_Needler_Firing.png?94ee4"
+      ],
+      "visual_lock": "Cristal magenta facetté d’Infinite ; une aiguille, pointe à droite, courte traînée distincte de la hitbox.",
+      "visual_reference_status": "Références inspectées et PNG contrôlé ; réserves explicites, fidélité 1:1 non certifiée.",
+      "art_status": "candidate",
+      "asset_state": "static_candidate",
+      "assets": [
+        {
+          "id": "needler_shard_infinite_right_v01",
+          "entity_id": "proj_needler_shard_infinite",
+          "type": "projectile",
+          "source_version": "Halo Infinite, fired Needler crystalline shard",
+          "path": "assets/projectiles_wave10/needler_shard_infinite_right_v01.png",
+          "width": 2172,
+          "height": 724,
+          "mode": "RGBA",
+          "bytes": 897599,
+          "sha256": "e0b27371ba14616ab6e153eabfd7982aa7a2c45be0a22f5a32738f0ffad87746",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox_threshold16": [
+            129,
+            230,
+            1996,
+            528
+          ],
+          "margins_threshold16": {
+            "left": 129,
+            "top": 230,
+            "right": 176,
+            "bottom": 196
+          },
+          "alpha_zero_pixels": 1100092,
+          "alpha_255_pixels": 232,
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "observed_facing": "right_profile",
+          "art_status": "candidate",
+          "notes": [
+            "Un seul éclat cristallin magenta allongé et facetté, pointe vers la droite et courte traînée lumineuse vers la gauche.",
+            "La référence est une capture avec un petit projectile en haut à gauche ; formes des facettes, taille du noyau et rapport longueur/largeur sont extrapolés, sans certification de modèle exact.",
+            "Alpha réel 0–255 et lueur bornée ; aucun soldat, arme, deuxième éclat, impact ou explosion repris de la capture.",
+            "Marges autour du projectile présentes mais marge gauche/droite inférieure aux 20 % demandés ; absence de coupure visible de la pointe et de la traînée.",
+            "Orientation créée par le générateur, sans miroir automatique ; frame statique unique, trajectoire et animation non intégrées."
+          ],
+          "generation_wave": 10,
+          "journal": "work/wave10/root_generation_followup.json",
+          "reference_urls": [
+            "https://www.halopedia.org/File:HINF_Needler_Firing.png",
+            "https://www.halopedia.org/images/4/45/HINF_Needler_Firing.png?94ee4"
+          ],
+          "references": [
+            {
+              "path": "work/wave10/references/needler_firing_infinite.png",
+              "sha256": "e3cb8f84cb91d0d3a0a9729617b91fc071374cb5b16a43f7b070ea02ce61c3b4",
+              "bytes": 8077164,
+              "page_url": "https://www.halopedia.org/File:HINF_Needler_Firing.png",
+              "image_url": "https://www.halopedia.org/images/4/45/HINF_Needler_Firing.png?94ee4",
+              "primary_url": null,
+              "inspected_visually": true
+            }
+          ],
+          "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-782db5c7-ad61-4704-916b-150f36f76848.png",
+          "byte_identical_to_original_output": true,
+          "full_body_visible": null,
+          "whole_object_visible": true,
+          "animation_status": "not_animated",
+          "fidelity_1_to_1_certified": false,
+          "automatically_mirrored": false,
+          "postprocessing": "none; copied byte-for-byte"
+        }
+      ],
+      "preferred_asset_id": "needler_shard_infinite_right_v01",
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "limited_homing",
+        "lifetime_frames_proposed": 75,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "compter les aiguilles par cible et source ; seuil paramétré",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "cristal planté et compteur seulement sur combattant vivant admissible ; ni véhicule ni structure",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré",
+        "target_policy": "living_combatants_only; no sticking or accumulation on vehicles or structures"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "static_candidate_not_animation"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Cristaux guidés, accumulation puis supercombine. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux.",
+        "La règle de supercombine exclut véhicules et structures ; l’admissibilité des autres entités doit être déclarée explicitement.",
+        "Un seul éclat cristallin magenta allongé et facetté, pointe vers la droite et courte traînée lumineuse vers la gauche.",
+        "La référence est une capture avec un petit projectile en haut à gauche ; formes des facettes, taille du noyau et rapport longueur/largeur sont extrapolés, sans certification de modèle exact.",
+        "Alpha réel 0–255 et lueur bornée ; aucun soldat, arme, deuxième éclat, impact ou explosion repris de la capture.",
+        "Marges autour du projectile présentes mais marge gauche/droite inférieure aux 20 % demandés ; absence de coupure visible de la pointe et de la traînée.",
+        "Orientation créée par le générateur, sans miroir automatique ; frame statique unique, trajectoire et animation non intégrées."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "vfx_needler_supercombine_infinite",
+      "name": "Supercombine du Needler",
+      "category": "vfx",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Explosion liée à l’accumulation d’aiguilles.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Explosion cristalline magenta ; événements de dégâts et pixels distincts, pas de réutilisation d’un autre opus.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "event_radial",
+        "lifetime_frames_proposed": 18,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "consommer une fois le compteur admissible ; effet lié à la cible",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "résoudre l’événement déjà émis sans le réémettre",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "apparition",
+          "status": "not_produced"
+        },
+        {
+          "name": "maintien",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Explosion liée à l’accumulation d’aiguilles. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_plasma_pistol_bolt_infinite",
+      "name": "Pistolet à plasma · tir normal",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Tir plasma ; surcharge disponible.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Petite décharge verte Infinite, capture de départ/vol/impact à documenter.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "linear",
+        "lifetime_frames_proposed": 60,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "dégâts au bouclier et PV par table de combat originale",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Tir plasma ; surcharge disponible. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_plasma_pistol_overcharge_infinite",
+      "name": "Pistolet à plasma · surcharge",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Surcharge ; EMP véhicule rétabli en CU32.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Orbe vert de surcharge Infinite ; comportement EMP fixé au profil CU32 (30 avril 2024), distinct du lancement.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "limited_homing",
+        "lifetime_frames_proposed": 75,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "consommer la charge ; dégâts de bouclier et EMP temporaire sur véhicules admissibles",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Surcharge ; EMP véhicule rétabli en CU32. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_pulse_carbine_infinite",
+      "name": "Carabine à impulsion · décharge",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Rafales de plasma légèrement guidées.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Une décharge de carabine Infinite ; les rafales sont des entités répétées, pas une planche collée.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "limited_homing",
+        "lifetime_frames_proposed": 65,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "chaque décharge a son identifiant ; limite de touche par salve",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Rafales de plasma légèrement guidées. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_ravager_bolt_infinite",
+      "name": "Ravageur · décharge",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Plasma avec dégâts de zone.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Plasma rouge du Ravageur Infinite ; matière et silhouette à verrouiller sur captures.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic",
+        "lifetime_frames_proposed": 65,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "dégât direct et zone sans double comptage",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Plasma avec dégâts de zone. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_ravager_charged_infinite",
+      "name": "Ravageur · charge",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Charge laissant une zone persistante.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Projectile chargé rouge distinct des tirs normaux ; ne pas confondre avec un canon à combustible.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic",
+        "lifetime_frames_proposed": 90,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "créer une seule zone au contact admissible ; ne pas importer le rebond de la variante Ravager Rebound",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Charge laissant une zone persistante. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "vfx_ravager_pool_infinite",
+      "name": "Ravageur · nappe de plasma",
+      "category": "vfx",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Zone de plasma persistante.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Nappe rouge au sol ; raccord au sol réel, sans volume flottant ni décor inclus.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ground_zone",
+        "lifetime_frames_proposed": 180,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "intervalle de dégâts par cible ; limite de zones simultanées",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "suivre le point d’attache ; à disparition, terminer ou déposer selon règle explicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "apparition",
+          "status": "not_produced"
+        },
+        {
+          "name": "maintien",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Zone de plasma persistante. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_cindershot_infinite",
+      "name": "Calcineur · orbe",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Grenade de lumière solide, guidage alternatif.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Lumière solide Infinite ; séparer orbe, traînée et détonation.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_bounce",
+        "lifetime_frames_proposed": 90,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "mode guidé activé à l’émission ; contrôle limité ; aucune aspiration de la cible dans le profil CU32",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Grenade de lumière solide, guidage alternatif. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_heatwave_infinite",
+      "name": "Vague de chaleur · particule",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Six particules, dispersion verticale ou horizontale.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Une particule orange de lumière solide ; six entités dans le patron de tir, sans aplat à six projectiles.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "linear_bounce",
+        "lifetime_frames_proposed": 50,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "plafond de rebonds et de contacts ; patron choisi avant émission",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Six particules, dispersion verticale ou horizontale. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_hydra_infinite",
+      "name": "Hydra · micromissile",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Micromissiles ; verrouillage ou tir direct.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Missile physique Infinite entier ; moteur et traînée à produire séparément.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "limited_homing",
+        "lifetime_frames_proposed": 100,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "verrouillage explicite au départ ; perte de cible sans acquisition cachée",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Micromissiles ; verrouillage ou tir direct. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_spnkr_infinite",
+      "name": "SPNKr · roquette",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Roquette explosive.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Roquette Infinite et proportions à documenter ; aucune arme entière dans le sprite de projectile.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "linear",
+        "lifetime_frames_proposed": 100,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "explosion sur premier obstacle admissible ; pas de dégâts répétés",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Roquette explosive. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_skewer_infinite",
+      "name": "Empaleur · pointe",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Grande pointe perforante.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Long projectile métallique Infinite ; pointe complète et marges, sans inversion automatique.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_fast",
+        "lifetime_frames_proposed": 65,
+        "collision": "segment balayé + première intersection admissible",
+        "interaction": "collision balayée pour éviter de traverser une cible entre deux pas",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Grande pointe perforante. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_disruptor_infinite",
+      "name": "Disrupteur · décharge",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Décharge électrique ; effet sur véhicules.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Décharge électrique Infinite ; aspect exact à confirmer avec captures de gameplay.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "linear",
+        "lifetime_frames_proposed": 50,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "accumulation électrique séparée des dégâts ; effet véhicule réservé aux entités admissibles",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Décharge électrique ; effet sur véhicules. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "vfx_shock_rifle_infinite",
+      "name": "Fusil électrique · décharge",
+      "category": "vfx",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Décharge électrique capable d’EMP.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Tracé électrique du fusil Infinite ; garder la résolution de touche distincte du trait lumineux.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "instant_trace",
+        "lifetime_frames_proposed": 8,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "trace instantanée proposée ; arcs limités à des cibles admissibles",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "résoudre l’événement déjà émis sans le réémettre",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "apparition",
+          "status": "not_produced"
+        },
+        {
+          "name": "maintien",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Décharge électrique capable d’EMP. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "vfx_sentinel_beam_infinite",
+      "name": "Laser de sentinelle · faisceau",
+      "category": "vfx",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Faisceau continu.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Faisceau du modèle Infinite ; origine, terminaison et occlusion à relier au porteur.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "continuous_beam",
+        "lifetime_frames_proposed": 120,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "durée maximale ; arrêt sur interruption, KO ou sortie du porteur",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "interrompre le faisceau lorsque le porteur sort",
+        "ko_policy": "interrompre le faisceau",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "apparition",
+          "status": "not_produced"
+        },
+        {
+          "name": "maintien",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Faisceau continu. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_stalker_infinite",
+      "name": "Fusil traqueur · décharge",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Tir de plasma de précision.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Décharge du fusil traqueur Infinite ; ne pas réutiliser le faisceau de sentinelle.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "linear_fast",
+        "lifetime_frames_proposed": 35,
+        "collision": "segment balayé + première intersection admissible",
+        "interaction": "collision balayée ; consommation du tir sur obstacle",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Tir de plasma de précision. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_mangler_infinite",
+      "name": "Déchiqueteur · pointe",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Projectile métallique de type pointe.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Munition du Déchiqueteur Infinite ; modèle à documenter indépendamment de l’arme.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "ballistic_fast",
+        "lifetime_frames_proposed": 45,
+        "collision": "segment balayé + première intersection admissible",
+        "interaction": "chute légère proposée ; une touche au maximum",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Projectile métallique de type pointe. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "proj_spike_shrapnel_infinite",
+      "name": "Grenade à pointes · éclat",
+      "category": "projectile",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Éclats issus de la détonation.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Un éclat métallique du modèle Infinite ; forme à capturer séparément du corps de grenade.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "linear_bounce",
+        "lifetime_frames_proposed": 30,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "patron issu de la normale de surface ; plafond global de dégâts par explosion",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "persister après changement de combattant ; durée et attribution conservées",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "vol",
+          "status": "not_produced"
+        },
+        {
+          "name": "impact",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Éclats issus de la détonation. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    },
+    {
+      "id": "vfx_gravity_hammer_infinite",
+      "name": "Marteau antigravité · onde",
+      "category": "vfx",
+      "work_id": "infinite",
+      "work_title": "Halo Infinite",
+      "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant",
+      "medium": "game",
+      "continuity": "core",
+      "identity_fact": "Impulsion gravitationnelle.",
+      "reference_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory",
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ],
+      "visual_lock": "Onde et poussière séparées du marteau et du sol ; incarnation Infinite explicitement verrouillée.",
+      "visual_reference_status": "Comportement officiel repéré ; dossier visuel multi-vues à constituer.",
+      "art_status": "missing",
+      "asset_state": "not_produced",
+      "assets": [],
+      "preferred_asset_id": null,
+      "related_entity_id": null,
+      "implementation_status": "Spécification V10 ; collision et intégration au combat non implémentées.",
+      "design_proposal": {
+        "status": "specified_not_implemented",
+        "basis": "Adaptation originale Halo Combats, pas des données extraites du moteur Halo.",
+        "simulation_hz": 60,
+        "trajectory": "event_radial",
+        "lifetime_frames_proposed": 15,
+        "collision": "forme dédiée indépendante du PNG",
+        "interaction": "zone évaluée une fois ; aucun rayon infini, collision par distance et angle",
+        "damage_values": "à équilibrer dans la table de combat ; aucune valeur présentée comme canonique",
+        "ownership": {
+          "source_fighter_id": "immuable",
+          "team_id": "immuable",
+          "spawn_event_id": "unique",
+          "target_id": "optionnel et validé",
+          "damage_credit": "source d’émission, même après tag"
+        },
+        "tag_policy": "résoudre l’événement déjà émis sans le réémettre",
+        "ko_policy": "ne pas ressusciter le propriétaire ; entité émise persiste jusqu’à sa fin normale",
+        "round_policy": "vider toutes les entités et tous les compteurs en fin de round",
+        "pause_policy": "geler âge, temporisations, déplacement et dégâts",
+        "cinematic_policy": "geler la simulation et reprendre l’état, sans doublon au saut de cinématique",
+        "attachment_policy": "pas d’attache implicite",
+        "friendly_fire": "désactivé dans le prototype proposé ; option de mode explicite",
+        "netcode": "événements et RNG déterministes prévus ; aucun rollback réseau livré"
+      },
+      "required_frames": [
+        {
+          "name": "apparition",
+          "status": "not_produced"
+        },
+        {
+          "name": "maintien",
+          "status": "not_produced"
+        },
+        {
+          "name": "dissipation",
+          "status": "not_produced"
+        }
+      ],
+      "notes": [
+        "Impulsion gravitationnelle. Sources : inventaire officiel Halo Infinite, corrigé par les notes CU32 lorsque le comportement a changé.",
+        "Profil documentaire daté CU32 (30 avril 2024) ; les variations postérieures et la campagne ne sont pas automatiquement confondues avec ce profil multijoueur.",
+        "Paramètres 2D, durées et interactions de combat : propositions de design à implémenter puis tester.",
+        "Le PNG disponible, lorsqu’il existe, est une pose statique ; aucune séquence ni collision jouable n’est déduite de sa présence.",
+        "La continuité et l’opus restent fixés à Halo Infinite ; ne pas mélanger les comportements d’autres jeux."
+      ],
+      "catalog_origin": "V10",
+      "new_in_wave": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "wave": 10,
+  "generator": "image_gen.imagegen (built-in)",
+  "date": "2026-11-27",
+  "reference_manifest": "work/wave10/alien_references.json",
+  "attempts": [
+    {
+      "entity_id": "grunt_heavy_reach",
+      "asset_id": "grunt_heavy_reach_initial_right_v01",
+      "target_path": "assets/characters_wave10/grunt_heavy_reach_initial_right_v01.png",
+      "reference_ids": [
+        "grunt_heavy_reach"
+      ],
+      "referenced_image_paths": [
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/grunt_heavy_reach.png"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one static full-body Halo fighting-game character sprite, transparent PNG. Primary request: reproduce the exact Unggoy Heavy from Halo: Reach (2010), using the supplied official E3 2010 press-kit render as the sole visual design reference, in a readable grounded idle facing screen RIGHT. Preserve the short stocky alien proportions, grey mottled pebbled skin, large clawed hands and broad two-toed feet, heavy olive-green armored helmet with two large round side filter housings, circular breathing mask, small cyan-white lights, olive chest armor and rear methane tank. Preserve the gold/yellow angular Korva-pattern fuel rod gun from the reference with its green rear ammunition rods, correctly held across the body and aimed low to screen right, with no firing or effects. Use a near-side view with a slight three-quarter angle only where required to retain the identifiable mask and armor. Keep the native Halo Reach game-render material character; do not redesign as another Halo title, a human soldier, a toy or cartoon. Output exactly ONE complete Unggoy, one weapon, a single pose, no duplicates or animation sheet. Show the complete head, backpack, hands, both feet and entire gun with clear transparent margins of at least 8 percent at all edges. Real alpha background; no scene, no floor, no cast shadow, no background panels, no text, no watermark. Ignore the black background fragments surrounding the source cutout. Preserve canonical equipment details and body asymmetries.",
+      "status": "moderation_blocked",
+      "transparent_background": true,
+      "started_at": "2026-11-27T05:27:05.504Z",
+      "finished_at": "2026-11-27T05:28:53.275Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 488877b5-0764-4271-a079-b576bfe5cf17.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "output_hint": null,
+      "original_output_path": null,
+      "fidelity_1_to_1_certified": false,
+      "animation_status": "not_animated"
+    },
+    {
+      "entity_id": "pavium_hw2",
+      "asset_id": "pavium_hw2_initial_right_v01",
+      "target_path": "assets/characters_wave10/pavium_hw2_initial_right_v01.png",
+      "reference_ids": [
+        "pavium_hw2_turntable",
+        "pavium_hw2_portrait"
+      ],
+      "referenced_image_paths": [
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/pavium_hw2_turntable.jpg",
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/pavium_hw2_portrait.png"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one static full-body Halo fighting-game character sprite, transparent PNG. Primary request: Pavium from Halo Wars 2: Awakening the Nightmare, matching the exact Blur cinematic character in the supplied visual references. Image 1 supplies the complete front and back armor geometry; Image 2 supplies face and upper-body detail. Repose to a stable neutral combat-ready idle facing screen RIGHT, near side-on with a slight three-quarter view to preserve the face and chest design. Preserve the massively built Jiralhanae body, tan-grey hide, stern heavy face, broad red flared helmet, enormous layered red and dark-metal shoulder plates, red-outlined black chest plates, small rectangular red armor lights, heavy thigh and shin plating, and wide split-toe boots. Preserve anatomical asymmetry exactly: Pavium's anatomical RIGHT hand and forearm have the articulated metallic gauntlet; his anatomical LEFT hand is bare and its forearm guard carries long blade plates. The back unit has the three circular ports shown in Image 1; do not turn it into Voridus's green infusion tanks. Hands empty, as in the supplied character renders; do not invent a weapon. Keep the detailed realistic Blur/Halo Wars 2 cinematic materials and proportions. Exactly ONE Pavium, full body, single pose. Do not reproduce the two-view turntable layout. Complete helmet, shoulder edges, fingers and both boots entirely inside the frame with at least 8 percent clear transparent margin on every edge. Real alpha transparency; no ground, scene, shadow plane, aura, text, watermark, frame or graphic labels. Do not mirror the asymmetrical armor.",
+      "status": "generated_candidate",
+      "transparent_background": true,
+      "started_at": "2026-11-27T05:27:05.505Z",
+      "finished_at": "2026-11-27T05:27:52.234Z",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/3bda832bd7dc/generated_images as /workspace/scratch/3bda832bd7dc/generated_images/exec-407ddcbe-dc3e-4db7-8590-b72ac9070900.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-407ddcbe-dc3e-4db7-8590-b72ac9070900.png",
+      "fidelity_1_to_1_certified": false,
+      "animation_status": "not_animated",
+      "qa": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2554816,
+        "sha256": "74ee1fefbac36abe29414f6551a84af075137cf7573713f14eec7ec390b18b45",
+        "original_sha256": "74ee1fefbac36abe29414f6551a84af075137cf7573713f14eec7ec390b18b45",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "alpha_bbox_threshold16": [
+          69,
+          27,
+          973,
+          1490
+        ],
+        "margins_threshold16": {
+          "left": 69,
+          "top": 27,
+          "right": 51,
+          "bottom": 46
+        },
+        "zero_alpha_pixels": 750256,
+        "opaque_alpha_pixels": 0,
+        "outer_corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "postprocessing": "none; copied byte-for-byte"
+      },
+      "art_status": "candidate",
+      "visual_review": {
+        "observed_facing": "front_three_quarter_right; head faces right, torso remains predominantly frontal",
+        "full_body_visible": true,
+        "reference_comparison": [
+          "Red flared helmet, layered red/black armor and broad split-toe boots retained.",
+          "Anatomical right metallic hand/gauntlet and left bare hand with blade guard retained.",
+          "No weapon added, consistent with reference body render."
+        ],
+        "reservations": [
+          "Not a strict side-on fighting sprite; frontal torso remains dominant.",
+          "Fine plate seams, scratches and buckles are extrapolated rather than certified identical.",
+          "Top/bottom margins are tighter than the 8 percent prompt target; inspect before animation.",
+          "Back ports are mostly hidden by the pose and cannot be fully checked.",
+          "Native alpha is 0–254 with no fully opaque pixel; corner alpha is zero. Preserved unchanged, inspect compositing on bright backgrounds."
+        ],
+        "fidelity_1_to_1_certified": false
+      }
+    },
+    {
+      "entity_id": "spark_h3",
+      "asset_id": "spark_h3_idle_right_v01",
+      "target_path": "assets/characters_wave10/spark_h3_idle_right_v01.png",
+      "reference_ids": [
+        "spark_h3"
+      ],
+      "referenced_image_paths": [
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/spark_h3.png"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one static Halo character sprite on real transparent background. Primary request: 343 Guilty Spark in his exact Halo 3 (2007) monitor body, faithfully based on the supplied Halo 3 screenshot. Present the complete hovering spherical monitor in a three-quarter side view facing screen RIGHT, with his blue optical lens directed right. Preserve the compact dark gunmetal spherical shell, exact broad segmented casing bands and recessed side panels from the reference, the central round cyan-blue luminous optic with its visible internal radial divisions, and the slim cyan light lines around the front optic housing. Retain the Halo 3 mechanical panel proportions and weathered reflective game-render surfaces. The body is a compact sphere; do not add robot arms, legs, wings, tentacles, a chassis, a pedestal or cables. This is the normal blue-eyed state, not the red rampant state and not the Halo CE Anniversary redesign or another monitor. Exactly ONE monitor, one pose, entire silhouette visible with 12 percent transparent breathing room on every edge. No environment, no ground or cast shadow, no beams, sparks, attack effects, text, labels, border or watermark. Ignore the background remnants in the supplied screenshot. Keep any blue illumination confined to the lens and inlaid lights so the outside background remains genuinely transparent.",
+      "status": "moderation_blocked",
+      "transparent_background": true,
+      "started_at": "2026-11-27T05:27:05.505Z",
+      "finished_at": "2026-11-27T05:29:43.438Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 74503fd5-32bc-46d4-9e48-65a1ff20b97c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "output_hint": null,
+      "original_output_path": null,
+      "fidelity_1_to_1_certified": false,
+      "animation_status": "not_animated"
+    }
+  ],
+  "counts": {
+    "calls": 3,
+    "png_outputs": 1,
+    "moderation_blocked": 2,
+    "technical_errors": 0
+  }
+}
