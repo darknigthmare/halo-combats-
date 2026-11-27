@@ -1,0 +1,48 @@
+{
+  "version": 10,
+  "counts": {
+    "entries": 256,
+    "legacy_entries": 232,
+    "new_entries": 24,
+    "titles": 112,
+    "titles_with_entries": 50,
+    "announced_titles": 1,
+    "by_category": {
+      "boss": 34,
+      "character": 128,
+      "costume": 24,
+      "projectile": 19,
+      "stage": 46,
+      "vfx": 5
+    },
+    "new_by_category": {
+      "projectile": 19,
+      "vfx": 5
+    },
+    "unique_png_assets": 111,
+    "legacy_png_assets": 104,
+    "new_png_assets": 7,
+    "illustrated_entries": 84,
+    "missing_images": 172,
+    "legacy_cohort_missing_before": 155,
+    "legacy_cohort_missing_after": 152,
+    "new_cohort_missing": 20,
+    "generation_calls": 13,
+    "generation_successes": 7,
+    "generation_rejections": 5,
+    "generation_technical_errors": 1,
+    "certified_1_to_1_assets": 0,
+    "new_animation_clips": 0,
+    "independent_parallax_layers": 0
+  },
+  "previous_104_assets_preserved": true,
+  "guide_files": 3,
+  "guide_sections": 68,
+  "guide_requirements": 311,
+  "fixed_work_id": "knight_h4: h5 → h4",
+  "generation_journals": [
+    "work/wave10/root_generation.json",
+    "work/wave10/root_generation_followup.json",
+    "work/wave10/alien_generation.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 10,
+  "date": "2026-11-27",
+  "command": [
+    "node",
+    "--test",
+    "--test-reporter=tap",
+    "prototype/qa_v9/catalog.test.cjs",
+    "prototype/qa_v10/catalog.test.cjs",
+    "prototype/qa_v10/extensions.test.cjs"
+  ],
+  "exit_code": 0,
+  "tests": 46,
+  "pass": 46,
+  "fail": 0,
+  "skipped": 0,
+  "tested_files_sha256": {
+    "prototype/qa_v9/catalog.test.cjs": "7ef99d14a2b481b940841b7dc2b929d1e7e00ac781fcb126a48c6cc6d227fc35",
+    "prototype/qa_v10/catalog.test.cjs": "41926bc0a9c551e2dc83b2f04b8a1dc51a84ea66da7930232d433c3e5cf453d6",
+    "prototype/qa_v10/extensions.test.cjs": "af5eb04ae820d2284f169de7cdfa49f95f5ee5b582df8346c346c65d8bb6a41f"
+  },
+  "scope": "Node logic and data integrity; browser checks are separate; no completed game claim."
+}

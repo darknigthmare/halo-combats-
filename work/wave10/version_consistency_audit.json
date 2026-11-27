@@ -1,0 +1,1000 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "source_catalog": "data/universe_catalog_v9.json",
+  "review_scope": "Internal consistency of published title/source_version/edition associations; not a claim of exhaustive canon or pixel fidelity verification.",
+  "checks": {
+    "title_registry_links": 232,
+    "explicit_source_version_entries": 102,
+    "v9_names_explicitly_naming_a_game": 31,
+    "all_v9_named_game_associations_consistent": true
+  },
+  "source_version_checks": [
+    {
+      "id": "tanaka_h5",
+      "source_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "linda_h5",
+      "source_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "ntho_h3",
+      "source_version": "Halo 3 (2007), harnais Combat bleu",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "usze_h3",
+      "source_version": "Halo 3 (2007), harnais Assault bordeaux",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "dare_odst",
+      "source_version": "Halo 3: ODST (2009), rendu promotionnel officiel",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "st_blood_gulch_ce",
+      "source_version": "Halo Combat Evolved classique",
+      "work_id": "ce",
+      "expected_primary_title": "ce",
+      "match": true
+    },
+    {
+      "id": "st_lockout_h2",
+      "source_version": "Halo 2 classique",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "boss_abomination_hw2",
+      "source_version": "Halo Wars 2 Awakening the Nightmare",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "boss_banshee_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "boss_goblin_h5",
+      "source_version": "Halo 5 Guardians Warzone Firefight",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "boss_goliath_hw2",
+      "source_version": "Halo Wars 2 pack Colony",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "event_guardian_h5",
+      "source_version": "Halo 5 Guardians",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "boss_harvester_h4",
+      "source_version": "Halo 4 Spartan Ops",
+      "work_id": "h4",
+      "expected_primary_title": "h4",
+      "match": true
+    },
+    {
+      "id": "boss_juggernaut_ftr",
+      "source_version": "Halo Fireteam Raven",
+      "work_id": "raven",
+      "expected_primary_title": "raven",
+      "match": true
+    },
+    {
+      "id": "boss_kraken_h5",
+      "source_version": "Halo 5 Guardians",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "boss_lich_h4",
+      "source_version": "Halo 4",
+      "work_id": "h4",
+      "expected_primary_title": "h4",
+      "match": true
+    },
+    {
+      "id": "boss_locust_hw",
+      "source_version": "Halo Wars",
+      "work_id": "hw",
+      "expected_primary_title": "hw",
+      "match": true
+    },
+    {
+      "id": "boss_hunters_ce",
+      "source_version": "Halo Combat Evolved classique",
+      "work_id": "ce",
+      "expected_primary_title": "ce",
+      "match": true
+    },
+    {
+      "id": "boss_phaeton_h5",
+      "source_version": "Halo 5 Guardians",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "boss_phantom_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "boss_proto_gravemind_hw2",
+      "source_version": "Halo Wars 2 Awakening the Nightmare",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "event_gravemind_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "boss_scarab_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "boss_enforcer_h2",
+      "source_version": "Halo 2 classique",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "boss_retriever_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "boss_warden_h5",
+      "source_version": "Halo 5 Guardians",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "boss_wraith_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "alice_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "atriox_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "johnson_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "bassus_infinite",
+      "source_version": "Halo Infinite (2021), armure or/rouge et marteau gravitationnel",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "carter_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "cethegus_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "chak_lok",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "knight_h4",
+      "source_version": "Halo 4 (2012), classe standard ; pas le modèle Halo 5",
+      "work_id": "h5",
+      "expected_primary_title": "h4",
+      "match": false
+    },
+    {
+      "id": "colony_single_body_hw2",
+      "source_version": "Halo Wars 2 (2017), corps au premier plan du portrait officiel Jeremy Cook",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "agryna_infinite",
+      "source_version": "Halo Infinite (2021), armure personnelle casquée du tutoriel de l’Académie",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "decimus_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "douglas_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "buck_odst",
+      "source_version": "Halo 3 ODST",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "zealot_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "emile_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "escharum_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "flood_human_h3",
+      "source_version": "Halo 3 (2007), hôte Marine humain",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "fred_h5",
+      "source_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "grunt_heavy_reach",
+      "source_version": "Halo: Reach (2010), Unggoy Heavy du dossier de presse E3",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "harbinger_infinite",
+      "source_version": "Halo Infinite (2021), rendu officiel complet diffusé en 2023",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "dinh_infinite",
+      "source_version": "Halo Infinite, saison 2 Lone Wolves (2022), équipement personnel présenté officiellement en mai 2022",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "hyperius_infinite",
+      "source_version": "Halo Infinite (2021), boss à pied avec Ravageur",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "jackal_major_h3",
+      "source_version": "Halo 3 (2007), Kig-Yar Major anonyme",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "locke_h5",
+      "source_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "jega_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "jerome_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "chief_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "jorge_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "jun_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "kat_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "kelly_h5",
+      "source_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "romeo_odst",
+      "source_version": "Halo 3: ODST (2009), rendu promotionnel officiel",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "rookie_odst",
+      "source_version": "Halo 3 ODST",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "let_volir_hw2",
+      "source_version": "Halo Wars 2 (2017), modèle cinématique Blur",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "hunter_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "mickey_odst",
+      "source_version": "Halo 3: ODST (2009), capture promotionnelle officielle Bungie",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "noble_six",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "vale_h5",
+      "source_version": "Halo 5: Guardians (2015), rendu promotionnel officiel de juin 2015",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "pavium_hw2",
+      "source_version": "Halo Wars 2: Awakening the Nightmare (2017), armure cinématique Blur",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "ripa_hw1",
+      "source_version": "Halo Wars (2009), incarnation de l’Arbiter du premier jeu",
+      "work_id": "hw",
+      "expected_primary_title": "hw",
+      "match": true
+    },
+    {
+      "id": "rtas_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "forge_hw",
+      "source_version": "Halo Wars (2009), incarnation cinématique/promotionnelle du Marine John Forge",
+      "work_id": "hw",
+      "expected_primary_title": "hw",
+      "match": true
+    },
+    {
+      "id": "sesa_h2",
+      "source_version": "Halo 2 (2004), graphismes Classic",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "eklund_infinite",
+      "source_version": "Halo Infinite, saison 2 Lone Wolves (2022), équipement personnel présenté officiellement en mai 2022",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "skirmisher_champion_reach",
+      "source_version": "Halo: Reach (2010), T’vaoan Champion anonyme",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "tartarus_h2",
+      "source_version": "Halo 2",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "dutch_odst",
+      "source_version": "Halo 3: ODST (2009), capture promotionnelle officielle Bungie",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "arbiter_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "tovarus_infinite",
+      "source_version": "Halo Infinite (2021), boss avec canon à ferraille",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "didact_h4",
+      "source_version": "Halo 4 (2012), incarnation casquée de l’Ur-Didact",
+      "work_id": "h4",
+      "expected_primary_title": "h4",
+      "match": true
+    },
+    {
+      "id": "voridus_hw2",
+      "source_version": "Halo Wars 2: Awakening the Nightmare (2017), modèle de jeu par Vincent Chai",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "warden_eternal_h5",
+      "source_version": "Halo 5: Guardians (2015), apparence de base",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "yapyap_hw2",
+      "source_version": "Halo Wars 2 (2017), portrait officiel de leader par Jeremy Cook",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "st_requiem_h4",
+      "source_version": "Halo 4",
+      "work_id": "h4",
+      "expected_primary_title": "h4",
+      "match": true
+    },
+    {
+      "id": "st_ark_hw2",
+      "source_version": "Halo Wars 2",
+      "work_id": "hw2",
+      "expected_primary_title": "hw2",
+      "match": true
+    },
+    {
+      "id": "st_boneyard_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "st_ark_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "st_citadel_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "st_sword_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "st_high_charity_h2",
+      "source_version": "Halo 2 classique",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "st_cortana_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "st_guardian_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "st_autumn_ce",
+      "source_version": "Halo Combat Evolved classique",
+      "work_id": "ce",
+      "expected_primary_title": "ce",
+      "match": true
+    },
+    {
+      "id": "st_reckoning_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "st_sunaion_h5",
+      "source_version": "Halo 5 Guardians",
+      "work_id": "h5",
+      "expected_primary_title": "h5",
+      "match": true
+    },
+    {
+      "id": "st_cartographer_ce",
+      "source_version": "Halo Combat Evolved classique",
+      "work_id": "ce",
+      "expected_primary_title": "ce",
+      "match": true
+    },
+    {
+      "id": "st_zeta_infinite",
+      "source_version": "Halo Infinite",
+      "work_id": "infinite",
+      "expected_primary_title": "infinite",
+      "match": true
+    },
+    {
+      "id": "st_metropolis_h2",
+      "source_version": "Halo 2 classique",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "st_mombasa_odst",
+      "source_version": "Halo 3 ODST",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "st_delta_halo_h2",
+      "source_version": "Halo 2 classique",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "st_cairo_h2",
+      "source_version": "Halo 2 classique",
+      "work_id": "h2",
+      "expected_primary_title": "h2",
+      "match": true
+    },
+    {
+      "id": "st_new_alex_reach",
+      "source_version": "Halo Reach",
+      "work_id": "reach",
+      "expected_primary_title": "reach",
+      "match": true
+    },
+    {
+      "id": "st_nmpd_odst",
+      "source_version": "Halo 3 ODST",
+      "work_id": "odst",
+      "expected_primary_title": "odst",
+      "match": true
+    },
+    {
+      "id": "st_valhalla_h3",
+      "source_version": "Halo 3",
+      "work_id": "h3",
+      "expected_primary_title": "h3",
+      "match": true
+    },
+    {
+      "id": "st_control_room_ce",
+      "source_version": "Halo Combat Evolved classique",
+      "work_id": "ce",
+      "expected_primary_title": "ce",
+      "match": true
+    }
+  ],
+  "v9_named_game_checks": [
+    {
+      "id": "boss_mammoth_h4",
+      "name": "M510 Mammoth — Halo 4",
+      "work_id": "h4",
+      "named_primary_title": "h4",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "buck_h5_spartan",
+      "name": "Edward Buck — Spartan Halo 5",
+      "work_id": "h5",
+      "named_primary_title": "h5",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "arbiter_h5_kaidon",
+      "name": "Thel ’Vadam — Halo 5",
+      "work_id": "h5",
+      "named_primary_title": "h5",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "boss_mantis_h4",
+      "name": "Mantis — Halo 4",
+      "work_id": "h4",
+      "named_primary_title": "h4",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "boss_scarab_banished_hw2",
+      "name": "Scarab paria — Halo Wars 2",
+      "work_id": "hw2",
+      "named_primary_title": "hw2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "boss_scarab_h2_protos",
+      "name": "Scarab — incarnation Halo 2",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "boss_vulture_hw",
+      "name": "Vulture — Halo Wars",
+      "work_id": "hw",
+      "named_primary_title": "hw",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "penitent_tangent_h2",
+      "name": "2401 Penitent Tangent — Halo 2 classique",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "spark_h3",
+      "name": "343 Guilty Spark — Halo 3",
+      "work_id": "h3",
+      "named_primary_title": "h3",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "halsey_reach",
+      "name": "Catherine Halsey — Halo Reach",
+      "work_id": "reach",
+      "named_primary_title": "reach",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "anders_hw",
+      "name": "Ellen Anders — Halo Wars",
+      "work_id": "hw",
+      "named_primary_title": "hw",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "esparza_infinite",
+      "name": "Fernando Esparza — Halo Infinite",
+      "work_id": "infinite",
+      "named_primary_title": "infinite",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "mercy_h2",
+      "name": "Haut Prophète de la Pitié — Halo 2",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "truth_h2",
+      "name": "Haut Prophète de la Vérité — Halo 2",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "regret_h2",
+      "name": "Haut Prophète du Regret — Halo 2",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "isabel_hw2",
+      "name": "Isabel — Halo Wars 2",
+      "work_id": "hw2",
+      "named_primary_title": "hw2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "cutter_hw",
+      "name": "James Cutter — Halo Wars",
+      "work_id": "hw",
+      "named_primary_title": "hw",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "jul_mdama_h4",
+      "name": "Jul ’Mdama — Halo 4 Spartan Ops",
+      "work_id": "spartan_ops",
+      "named_primary_title": "h4",
+      "match_or_explicit_edition": true,
+      "note": "Spartan Ops is an explicit Halo 4 component, correctly distinguished."
+    },
+    {
+      "id": "serina_hw",
+      "name": "Serina — Halo Wars",
+      "work_id": "hw",
+      "named_primary_title": "hw",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "weapon_infinite",
+      "name": "The Weapon — Halo Infinite",
+      "work_id": "infinite",
+      "named_primary_title": "infinite",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "costume_cortana_h3",
+      "name": "Cortana — Halo 3",
+      "work_id": "h3",
+      "named_primary_title": "h3",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "costume_cortana_h4",
+      "name": "Cortana — Halo 4",
+      "work_id": "h4",
+      "named_primary_title": "h4",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "costume_cutter_hw2",
+      "name": "James Cutter — Halo Wars 2",
+      "work_id": "hw2",
+      "named_primary_title": "hw2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "chief_h2_anniversary",
+      "name": "John-117 — Halo 2 Anniversary",
+      "work_id": "h2a",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "chief_h2_classic",
+      "name": "John-117 — Halo 2 classique",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "chief_h4_markvi",
+      "name": "John-117 — Halo 4",
+      "work_id": "h4",
+      "named_primary_title": "h4",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "chief_h5_markvi",
+      "name": "John-117 — Halo 5",
+      "work_id": "h5",
+      "named_primary_title": "h5",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "chief_h3_markvi",
+      "name": "John-117 — Mark VI Halo 3",
+      "work_id": "h3",
+      "named_primary_title": "h3",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "arbiter_h2_anniversary",
+      "name": "Thel ’Vadam — Arbiter Halo 2 Anniversary",
+      "work_id": "h2a",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "arbiter_h2_classic",
+      "name": "Thel ’Vadam — Arbiter Halo 2 classique",
+      "work_id": "h2",
+      "named_primary_title": "h2",
+      "match_or_explicit_edition": true
+    },
+    {
+      "id": "costume_lasky_h4",
+      "name": "Thomas Lasky — officier Halo 4",
+      "work_id": "h4",
+      "named_primary_title": "h4",
+      "match_or_explicit_edition": true
+    }
+  ],
+  "confirmed_issues": [
+    {
+      "id": "knight_h4",
+      "type": "source_version_disagreement",
+      "work_id": "h5",
+      "expected_primary_title": "h4",
+      "source_version": "Halo 4 (2012), classe standard ; pas le modèle Halo 5"
+    }
+  ],
+  "multi_title_text": [
+    {
+      "id": "knight_h4",
+      "source_version": "Halo 4 (2012), classe standard ; pas le modèle Halo 5",
+      "matched_titles": [
+        "h4",
+        "h5"
+      ]
+    }
+  ],
+  "coarse_component_grouping": [
+    {
+      "id": "boss_abomination_hw2",
+      "grouping": "Halo Wars 2",
+      "precise_component": "Awakening the Nightmare",
+      "note": "Correct parent game; expansion source_version retained, but dedicated title registry entry remains unused."
+    },
+    {
+      "id": "boss_proto_gravemind_hw2",
+      "grouping": "Halo Wars 2",
+      "precise_component": "Awakening the Nightmare",
+      "note": "Correct parent game; expansion source_version retained, but dedicated title registry entry remains unused."
+    },
+    {
+      "id": "pavium_hw2",
+      "grouping": "Halo Wars 2",
+      "precise_component": "Awakening the Nightmare",
+      "note": "Correct parent game; expansion source_version retained, but dedicated title registry entry remains unused."
+    },
+    {
+      "id": "voridus_hw2",
+      "grouping": "Halo Wars 2",
+      "precise_component": "Awakening the Nightmare",
+      "note": "Correct parent game; expansion source_version retained, but dedicated title registry entry remains unused."
+    }
+  ],
+  "root_cause": {
+    "path": "work/wave9/build_universe.py",
+    "function": "title_for",
+    "finding": "Matches the first needle in a fixed preference list, not the first title appearing in the source description. halo 5 precedes halo 4, so an explicit exclusion mentioning Halo 5 misclassifies knight_h4."
+  },
+  "proposed_resolution": "V10 should preserve the declared first primary title or an explicit per-entity work_id mapping, not use negative comparisons as source attribution. Retain V9 as historical evidence.",
+  "v9_named_title_issues": []
+}

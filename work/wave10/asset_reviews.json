@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "wave": 10,
+  "review_date_utc": "2026-11-27T05:38:06.593496+00:00",
+  "review_method": "Independent visual comparison of generated originals and source references using temporary scaled QA sheets; PNG decoding, alpha and SHA256 validation; original files copied byte-identically. No fidelity certification.",
+  "assets": [
+    {
+      "id": "pavium_hw2_initial_right_v01",
+      "entity_id": "pavium_hw2",
+      "type": "fighter_pose",
+      "source_version": "Halo Wars 2: Awakening the Nightmare (2017), cinematic reference",
+      "path": "assets/characters_wave10/pavium_hw2_initial_right_v01.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2554816,
+      "sha256": "74ee1fefbac36abe29414f6551a84af075137cf7573713f14eec7ec390b18b45",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha_bbox_threshold16": [
+        69,
+        27,
+        973,
+        1490
+      ],
+      "margins_threshold16": {
+        "left": 69,
+        "top": 27,
+        "right": 51,
+        "bottom": 46
+      },
+      "alpha_zero_pixels": 750256,
+      "alpha_255_pixels": 0,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_facing": "right_three_quarter_front_dominant",
+      "art_status": "candidate",
+      "notes": [
+        "Corps entier visible, casque rouge évasé, plaques rouges/noires et pieds à deux doigts conservés dans leurs grandes formes.",
+        "Asymétrie conservée : grand gantelet métallique à la main droite anatomique, main gauche nue et garde à lames sur l’avant-bras gauche.",
+        "Mains vides comme les références cinématiques ; aucune arme ajoutée.",
+        "Torse surtout frontal en trois quarts, tête vers la droite : pas une frame de combat strictement latérale.",
+        "Petits assemblages, coutures, rayures et boucles extrapolés ; dos et ports arrière peu contrôlables dans cette pose.",
+        "Alpha natif 0–254 conservé sans transformation ; aucune région entièrement opaque à alpha 255.",
+        "Marges présentes mais inférieures aux 8 % demandés ; animation et certification de fidélité restent à faire."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/alien_generation.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HW2_-_Pavium_3D_model.jpg",
+        "https://www.halopedia.org/images/7/77/HW2_-_Pavium_3D_model.jpg?b9bc2",
+        "https://www.artstation.com/artwork/owVBw",
+        "https://www.halopedia.org/File:HW2-Pavium.png",
+        "https://www.halopedia.org/images/e/ec/HW2-Pavium.png?d9cad",
+        "https://www.halowaypoint.com/news/the-nightmare-has-awoken"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/pavium_hw2_turntable.jpg",
+          "sha256": "bf0df4ee525edbabea633fe809d08445a4a88ad6188a211bed5ef9a9aef859f1",
+          "bytes": 481389,
+          "page_url": "https://www.halopedia.org/File:HW2_-_Pavium_3D_model.jpg",
+          "image_url": "https://www.halopedia.org/images/7/77/HW2_-_Pavium_3D_model.jpg?b9bc2",
+          "primary_url": "https://www.artstation.com/artwork/owVBw",
+          "inspected_visually": true
+        },
+        {
+          "path": "work/wave10/references/pavium_hw2_portrait.png",
+          "sha256": "14303a22dbd39f6dc3e5c6efce10ec942a23ba0e0cfc90c1f4279685cb8f4412",
+          "bytes": 4838201,
+          "page_url": "https://www.halopedia.org/File:HW2-Pavium.png",
+          "image_url": "https://www.halopedia.org/images/e/ec/HW2-Pavium.png?d9cad",
+          "primary_url": "https://www.halowaypoint.com/news/the-nightmare-has-awoken",
+          "inspected_visually": true
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-407ddcbe-dc3e-4db7-8590-b72ac9070900.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": true,
+      "whole_object_visible": null,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    },
+    {
+      "id": "sword_base_reach_master_v01",
+      "entity_id": "st_sword_reach",
+      "type": "stage_master",
+      "source_version": "Halo: Reach (2010), Courtyard / ONI Sword Base",
+      "path": "assets/stages_wave10/sword_base_reach_master_v01.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2794539,
+      "sha256": "24f8c697746ce92773f02daf63ebf829dae95cc0c20812fede3bd3ffbbed7b8c",
+      "alpha_range": null,
+      "alpha_bbox_threshold16": null,
+      "margins_threshold16": null,
+      "alpha_zero_pixels": null,
+      "alpha_255_pixels": null,
+      "corner_alpha": null,
+      "observed_facing": "wide_side_view_stage_adaptation",
+      "art_status": "candidate",
+      "notes": [
+        "Image valide RGB 1672 × 941 ; architecture blanche/grise, passerelle, coursives, rampes, rocher latéral, montagnes et arbres jaunes reconnaissables dans la référence Reach.",
+        "Bande basse horizontale dégagée et porte située au niveau de sa plateforme ; aucun personnage, véhicule ni HUD visible.",
+        "Volumes, rampes, escaliers et agencement des caisses recomposés pour une présentation latérale ; cette composition ne reproduit pas le plan 3D à l’identique.",
+        "Texture et petits marquages architecturaux extrapolés ; comparaison des détails à compléter avant certification.",
+        "Un seul master aplati opaque ; aucun calque de parallaxe indépendant ni animation.",
+        "Le fichier original initialement vide après saturation disque a été restauré par le parent depuis les octets exacts du data URL retourné par imagegen ; aucune modification de pixels."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/root_generation_followup.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:Reach_FF_Courtyard02.jpg",
+        "https://www.halopedia.org/images/9/93/Reach_FF_Courtyard02.jpg?775fb"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/sword_courtyard_reach.jpg",
+          "sha256": "9c0fa54dc8f42e30b82e2ae2861f0ffde75807d464e5b4bdcbaac8c4a7de2f52",
+          "bytes": 1229914,
+          "page_url": "https://www.halopedia.org/File:Reach_FF_Courtyard02.jpg",
+          "image_url": "https://www.halopedia.org/images/9/93/Reach_FF_Courtyard02.jpg?775fb",
+          "primary_url": null,
+          "inspected_visually": true,
+          "provenance": "Bungie 2010 official press-kit screenshot, archived on Halopedia; parent verified page and image."
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-78417182-9b4a-4400-8590-351f9baaa186.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": null,
+      "whole_object_visible": null,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte",
+      "independent_parallax_layers": 0,
+      "output_recovery": "output-restored-from-exact-tool-result"
+    },
+    {
+      "id": "silent_cartographer_ce_master_v01",
+      "entity_id": "st_cartographer_ce",
+      "type": "stage_master",
+      "source_version": "Halo: Combat Evolved (2001), classic Silent Cartographer",
+      "path": "assets/stages_wave10/silent_cartographer_ce_master_v01.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2446778,
+      "sha256": "f2c836dafe6ed83366c1edf1efd33d3ee77696f06be293e77ba79a2c0f45e3ca",
+      "alpha_range": null,
+      "alpha_bbox_threshold16": null,
+      "margins_threshold16": null,
+      "alpha_zero_pixels": null,
+      "alpha_255_pixels": null,
+      "corner_alpha": null,
+      "observed_facing": "wide_side_view_stage_adaptation",
+      "art_status": "needs_correction",
+      "notes": [
+        "Image valide RGB 1672 × 941 ; masse Forerunner grise, falaises, sable et arc de Halo lisibles, sans personnage ni HUD.",
+        "Le grand auvent/pylône devient plus arrondi et bulbeux que les volumes anguleux de la référence classique ; proportions, supports et entrée sont recomposés.",
+        "Ciel bleu très saturé et lumière assombrie donnent une ambiance plus nocturne ; alignement de l’éclairage sur la mission classique à vérifier.",
+        "La bande de sable basse est utilisable comme composition de stage, mais le littoral et la disposition exacte du lieu ne sont pas établis par ce master.",
+        "Correction géométrique et comparaison au décor CE classique nécessaires ; ne pas certifier 1:1 ni mélanger avec Anniversary.",
+        "Un seul master aplati opaque ; aucun calque de parallaxe indépendant ni animation."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/root_generation_followup.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:Chief-Marine.jpg",
+        "https://www.halopedia.org/images/6/6a/Chief-Marine.jpg?38aa3",
+        "https://www.halopedia.org/File:The_Silent_Cartographer_Building.jpg",
+        "https://www.halopedia.org/images/b/b2/The_Silent_Cartographer_Building.jpg?4e982"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/cartographer_beach_ce.jpg",
+          "sha256": "82350cef793b3c07119a1e66093987da4e02af0c7cf2fffd940fc77d71c68ade",
+          "bytes": 437896,
+          "page_url": "https://www.halopedia.org/File:Chief-Marine.jpg",
+          "image_url": "https://www.halopedia.org/images/6/6a/Chief-Marine.jpg?38aa3",
+          "primary_url": null,
+          "inspected_visually": true,
+          "provenance": "Classic Halo: Combat Evolved in-game screenshot, archived on Halopedia; parent verified page and image."
+        },
+        {
+          "path": "work/wave10/references/cartographer_ce.jpg",
+          "sha256": "e257bd647977bbdf88989934e6d89438e1fff5c7c5039ce8456eed1a84d51606",
+          "bytes": 199470,
+          "page_url": "https://www.halopedia.org/File:The_Silent_Cartographer_Building.jpg",
+          "image_url": "https://www.halopedia.org/images/b/b2/The_Silent_Cartographer_Building.jpg?4e982",
+          "primary_url": null,
+          "inspected_visually": true,
+          "provenance": "Classic Halo: Combat Evolved in-game screenshot, archived on Halopedia; parent verified page and image."
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-d8352aba-5fe9-4144-acc2-c759350076bc.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": null,
+      "whole_object_visible": null,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte",
+      "independent_parallax_layers": 0
+    },
+    {
+      "id": "frag_infinite_initial_v01",
+      "entity_id": "proj_frag_infinite",
+      "type": "projectile",
+      "source_version": "Halo Infinite, M9 fragmentation grenade",
+      "path": "assets/projectiles_wave10/frag_infinite_initial_v01.png",
+      "width": 1050,
+      "height": 1498,
+      "mode": "RGBA",
+      "bytes": 2227472,
+      "sha256": "866129ee4d2b705dfbdd4896c460bdd8f99e53e0fd47f2a605d0406affddb02e",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_threshold16": [
+        22,
+        48,
+        1027,
+        1453
+      ],
+      "margins_threshold16": {
+        "left": 22,
+        "top": 48,
+        "right": 23,
+        "bottom": 45
+      },
+      "alpha_zero_pixels": 542773,
+      "alpha_255_pixels": 986,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_facing": "upright_three_quarter",
+      "art_status": "candidate",
+      "notes": [
+        "Une seule grenade intacte, corps olive segmenté, bande rouge, boîtier de fusée vertical, languette rouge et anneau métallique conservés.",
+        "Silhouette très proche de la référence isolée ; vis, joints des panneaux, usure et teintes finement redessinés, donc fidélité exacte non certifiée.",
+        "Silhouette entière et alpha réel 0–255 ; marges latérales 22/23 px, nettement inférieures aux 15 % demandés.",
+        "Aucune explosion, trajectoire ni animation ; asset statique seul."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/root_generation_followup.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_FragGrenade_Cutout.png",
+        "https://www.halopedia.org/images/8/83/HINF_FragGrenade_Cutout.png?b99ec"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/frag_infinite.png",
+          "sha256": "d9f94e03755d5dbae8f34fc519699443b7b4748edc02a48a55ce80a794f11f22",
+          "bytes": 2927637,
+          "page_url": "https://www.halopedia.org/File:HINF_FragGrenade_Cutout.png",
+          "image_url": "https://www.halopedia.org/images/8/83/HINF_FragGrenade_Cutout.png?b99ec",
+          "primary_url": null,
+          "inspected_visually": true
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-2e3e7ac3-497b-4b8b-8635-411c21b5d2ef.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": null,
+      "whole_object_visible": true,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    },
+    {
+      "id": "spike_infinite_profile_right_v01",
+      "entity_id": "proj_spike_infinite",
+      "type": "projectile",
+      "source_version": "Halo Infinite, Jovokada Workshop spike grenade",
+      "path": "assets/projectiles_wave10/spike_infinite_profile_right_v01.png",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "bytes": 1078045,
+      "sha256": "56d9d8703ba5b0d7d1dcacfa7e4d9275578fa8d08e8f3a21a1571054f28b7359",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_threshold16": [
+        88,
+        12,
+        2111,
+        709
+      ],
+      "margins_threshold16": {
+        "left": 88,
+        "top": 12,
+        "right": 61,
+        "bottom": 15
+      },
+      "alpha_zero_pixels": 1114517,
+      "alpha_255_pixels": 1123,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_facing": "right_profile_slight_three_quarter",
+      "art_status": "candidate",
+      "notes": [
+        "Une seule grenade à pointes ; poignée enveloppée à gauche, tête métallique à droite, deux petits témoins jaunes et pointes de queue conservés.",
+        "Pointes entièrement visibles ; pas de seconde copie réfléchie, de logo ni de texte de la référence.",
+        "Angles, implantation et largeur des grandes lames, transition poignée/tête et géométrie de la face avant diffèrent légèrement ; comparaison au modèle de jeu nécessaire.",
+        "Alpha réel 0–255, marges haut/bas 12/15 px très étroites malgré les 15 % demandés.",
+        "Orientation créée par le générateur, sans miroir automatique ; aucune trajectoire ni animation."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/root_generation_followup.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_SpikeGrenade_HiPoly_Render_1.jpg",
+        "https://www.halopedia.org/images/7/72/HINF_SpikeGrenade_HiPoly_Render_1.jpg?f9c7a"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/spike_infinite.jpg",
+          "sha256": "0024f26039bfca7ebbbc474f0473817ca0902d99ba62180550568fd95618f786",
+          "bytes": 1396178,
+          "page_url": "https://www.halopedia.org/File:HINF_SpikeGrenade_HiPoly_Render_1.jpg",
+          "image_url": "https://www.halopedia.org/images/7/72/HINF_SpikeGrenade_HiPoly_Render_1.jpg?f9c7a",
+          "primary_url": null,
+          "inspected_visually": true
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-90b0cc86-da5c-4312-b074-c668839db14e.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": null,
+      "whole_object_visible": true,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    },
+    {
+      "id": "plasma_grenade_infinite_initial_v01",
+      "entity_id": "proj_plasma_grenade_infinite",
+      "type": "projectile",
+      "source_version": "Halo Infinite, plasma grenade",
+      "path": "assets/projectiles_wave10/plasma_grenade_infinite_initial_v01.png",
+      "width": 1261,
+      "height": 1247,
+      "mode": "RGBA",
+      "bytes": 1017511,
+      "sha256": "ff32c249ba127ffd84dd8760837d67b2fc08042c289e76aaab0b24d683ef1416",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_threshold16": [
+        232,
+        210,
+        1004,
+        1007
+      ],
+      "margins_threshold16": {
+        "left": 232,
+        "top": 210,
+        "right": 257,
+        "bottom": 240
+      },
+      "alpha_zero_pixels": 1086039,
+      "alpha_255_pixels": 329,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_facing": "near_side_three_quarter",
+      "art_status": "candidate",
+      "notes": [
+        "Une seule sphère bleu-violet à coque segmentée, correspondant visuellement à la grenade en bas à droite de la capture de référence.",
+        "Joints, petits nœuds lumineux, panneau magenta inférieur et éclairage redessinés ; perspective légèrement différente, détails extrapolés depuis une petite zone de capture.",
+        "Aucune poignée ni pointe ajoutée ; alpha réel 0–255 et marges larges ; lueur contenue près de la coque.",
+        "Objet isolé entier, sans table, ombre portée, explosion ni animation ; fidélité de la topologie des panneaux à confirmer."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/root_generation_followup.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_plasma_grenades.png",
+        "https://www.halopedia.org/images/5/5a/HINF_plasma_grenades.png?43711"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/plasma_infinite.png",
+          "sha256": "a2f241bef0bb4151fe0879c51b8a65af7bb98c400e2cc82efd91d5adb5fe30f3",
+          "bytes": 10684735,
+          "page_url": "https://www.halopedia.org/File:HINF_plasma_grenades.png",
+          "image_url": "https://www.halopedia.org/images/5/5a/HINF_plasma_grenades.png?43711",
+          "primary_url": null,
+          "inspected_visually": true
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-cbcdff69-210c-46f0-80a2-9af469b4e698.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": null,
+      "whole_object_visible": true,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    },
+    {
+      "id": "needler_shard_infinite_right_v01",
+      "entity_id": "proj_needler_shard_infinite",
+      "type": "projectile",
+      "source_version": "Halo Infinite, fired Needler crystalline shard",
+      "path": "assets/projectiles_wave10/needler_shard_infinite_right_v01.png",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "bytes": 897599,
+      "sha256": "e0b27371ba14616ab6e153eabfd7982aa7a2c45be0a22f5a32738f0ffad87746",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_threshold16": [
+        129,
+        230,
+        1996,
+        528
+      ],
+      "margins_threshold16": {
+        "left": 129,
+        "top": 230,
+        "right": 176,
+        "bottom": 196
+      },
+      "alpha_zero_pixels": 1100092,
+      "alpha_255_pixels": 232,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_facing": "right_profile",
+      "art_status": "candidate",
+      "notes": [
+        "Un seul éclat cristallin magenta allongé et facetté, pointe vers la droite et courte traînée lumineuse vers la gauche.",
+        "La référence est une capture avec un petit projectile en haut à gauche ; formes des facettes, taille du noyau et rapport longueur/largeur sont extrapolés, sans certification de modèle exact.",
+        "Alpha réel 0–255 et lueur bornée ; aucun soldat, arme, deuxième éclat, impact ou explosion repris de la capture.",
+        "Marges autour du projectile présentes mais marge gauche/droite inférieure aux 20 % demandés ; absence de coupure visible de la pointe et de la traînée.",
+        "Orientation créée par le générateur, sans miroir automatique ; frame statique unique, trajectoire et animation non intégrées."
+      ],
+      "generation_wave": 10,
+      "journal": "work/wave10/root_generation_followup.json",
+      "reference_urls": [
+        "https://www.halopedia.org/File:HINF_Needler_Firing.png",
+        "https://www.halopedia.org/images/4/45/HINF_Needler_Firing.png?94ee4"
+      ],
+      "references": [
+        {
+          "path": "work/wave10/references/needler_firing_infinite.png",
+          "sha256": "e3cb8f84cb91d0d3a0a9729617b91fc071374cb5b16a43f7b070ea02ce61c3b4",
+          "bytes": 8077164,
+          "page_url": "https://www.halopedia.org/File:HINF_Needler_Firing.png",
+          "image_url": "https://www.halopedia.org/images/4/45/HINF_Needler_Firing.png?94ee4",
+          "primary_url": null,
+          "inspected_visually": true
+        }
+      ],
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-782db5c7-ad61-4704-916b-150f36f76848.png",
+      "byte_identical_to_original_output": true,
+      "full_body_visible": null,
+      "whole_object_visible": true,
+      "animation_status": "not_animated",
+      "fidelity_1_to_1_certified": false,
+      "automatically_mirrored": false,
+      "postprocessing": "none; copied byte-for-byte"
+    }
+  ],
+  "counts": {
+    "new_png": 7,
+    "characters": 1,
+    "stages": 2,
+    "projectiles": 4,
+    "candidate": 6,
+    "needs_correction": 1,
+    "fidelity_1_to_1_certified": 0,
+    "animated": 0,
+    "independent_parallax_layers": 0
+  }
+}

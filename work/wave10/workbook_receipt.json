@@ -1,0 +1,54 @@
+{
+  "created_on": "2026-11-27",
+  "authoring_library": "@oai/artifact-tool",
+  "sources": {
+    "catalogue": "data/universe_catalog_v10.json",
+    "projectiles": "data/projectiles_v10.json",
+    "coverage": "data/combat_guide_coverage_v10.json"
+  },
+  "source_sha256": {
+    "catalogue": "e02c53b3daf91dd3f016b0e383d6403ea1e590453d5f15bf491532073f30b085",
+    "projectiles": "0062cd93093883635b4ad1c813696c78aedf343abe824277875b6ff8dea3db38",
+    "coverage": "61094c451bbdfc258c6de0f0ec777b79022b484405302377321927e04161a8cc"
+  },
+  "workbook": "docs/HALO_COMBATS_PRODUCTION_V10.xlsx",
+  "sha256": "1563f43613bf76d45ba161b7f6bfb27a1c891ea0e4c651e7250260855fc26bac",
+  "sheets": [
+    "Synthèse",
+    "Catalogue",
+    "Exigences"
+  ],
+  "catalogue_entries": 256,
+  "unique_png": 111,
+  "sections": 68,
+  "requirements": 311,
+  "formula_controls": [
+    256,
+    84,
+    172,
+    111,
+    0,
+    0
+  ],
+  "guide_formula_controls": [
+    68,
+    311,
+    311
+  ],
+  "changed_input_and_restored": true,
+  "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "preview_files": [
+    "work/wave10/workbook_qa/synthese.png",
+    "work/wave10/workbook_qa/catalogue.png",
+    "work/wave10/workbook_qa/catalogue_etats.png",
+    "work/wave10/workbook_qa/exigences.png",
+    "work/wave10/workbook_qa/exigences_preuves.png"
+  ],
+  "native_excel_execution": false,
+  "visual_review": "passed: all three tabs reviewed; changed guide and summary views rechecked after final evidence attachment",
+  "xlsx_export_checks": {
+    "zip_integrity": "passed",
+    "freeze_panes": "Catalogue D7; Exigences E7",
+    "cached_guide_partial_evidence_total": 71
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "grunt_heavy_reach",
+      "page_url": "https://www.halopedia.org/File:HReach_-_Heavy_Unggoy.png",
+      "image_url": "https://www.halopedia.org/images/4/42/HReach_-_Heavy_Unggoy.png?eed48",
+      "file": "grunt_heavy_reach.png",
+      "provenance": "Official Bungie Reach E3 2010 press-kit image, archived cropped copy.",
+      "primary_url": "https://web.archive.org/web/20110905043313/http://www.bungie.net/projects/reach/images.aspx?c=53&page=0",
+      "local_path": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/grunt_heavy_reach.png",
+      "bytes": 894858,
+      "sha256": "e887764edae040cd74972d70814f36066982a529ff5f4ffd5c8b3215b27b6cfe",
+      "width": 920,
+      "height": 980,
+      "mode": "RGBA",
+      "inspected_visually": true
+    },
+    {
+      "id": "pavium_hw2_turntable",
+      "page_url": "https://www.halopedia.org/File:HW2_-_Pavium_3D_model.jpg",
+      "image_url": "https://www.halopedia.org/images/7/77/HW2_-_Pavium_3D_model.jpg?b9bc2",
+      "file": "pavium_hw2_turntable.jpg",
+      "provenance": "Frankie DeRosa cinematic Pavium 3D asset render, mirrored copy of artist primary.",
+      "primary_url": "https://www.artstation.com/artwork/owVBw",
+      "local_path": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/pavium_hw2_turntable.jpg",
+      "bytes": 481389,
+      "sha256": "bf0df4ee525edbabea633fe809d08445a4a88ad6188a211bed5ef9a9aef859f1",
+      "width": 1920,
+      "height": 1289,
+      "mode": "RGB",
+      "inspected_visually": true
+    },
+    {
+      "id": "pavium_hw2_portrait",
+      "page_url": "https://www.halopedia.org/File:HW2-Pavium.png",
+      "image_url": "https://www.halopedia.org/images/e/ec/HW2-Pavium.png?d9cad",
+      "file": "pavium_hw2_portrait.png",
+      "provenance": "Halo Wars 2 promotional Pavium image, mirrored copy.",
+      "primary_url": "https://www.halowaypoint.com/news/the-nightmare-has-awoken",
+      "local_path": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/pavium_hw2_portrait.png",
+      "bytes": 4838201,
+      "sha256": "14303a22dbd39f6dc3e5c6efce10ec942a23ba0e0cfc90c1f4279685cb8f4412",
+      "width": 1920,
+      "height": 1920,
+      "mode": "RGBA",
+      "inspected_visually": true
+    },
+    {
+      "id": "spark_h3",
+      "page_url": "https://www.halopedia.org/File:H3-343GuiltySpark.png",
+      "file": "spark_h3.png",
+      "provenance": "Cropped screenshot of Halo 3 game character, not an official press-kit file; source file info incomplete.",
+      "primary_url": null,
+      "image_url": "https://www.halopedia.org/images/3/33/H3-343GuiltySpark.png?d63fa",
+      "local_path": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/spark_h3.png",
+      "bytes": 934852,
+      "sha256": "4b76abfafb81456a84324c61e5eceae6c345e93e91b6076ef8fd084caaf0fd3d",
+      "width": 1220,
+      "height": 1140,
+      "mode": "RGBA",
+      "inspected_visually": true
+    }
+  ]
+}

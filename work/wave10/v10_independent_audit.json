@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "wave": 10,
+  "audited_utc": "2026-11-27T05:42:24.066529+00:00",
+  "baseline_commit": "4303981d1dd7322e4f12e47112c0566cf5bc31ea",
+  "snapshot_sha256": {
+    "data/universe_catalog_v9.json": "bc2b8e4093cb99109613955c36c3756f29e8333da0abd4d54fcb868f06934cd7",
+    "data/asset_manifest_v9.json": "bccb94d766f94fb40299c136d49f4001876eb0a3235e1bc9b234dd1751f14d37",
+    "data/universe_catalog_v10.json": "e02c53b3daf91dd3f016b0e383d6403ea1e590453d5f15bf491532073f30b085",
+    "data/asset_manifest_v10.json": "61e980b57937214f6e806121fa1e247df9f364370b4bd96ee4b8e906a91a234a",
+    "work/wave10/asset_reviews.json": "8ee16d4597d314fb2c618eadc70ac23cee0028dc2f6c103f4319a7b928b749a7"
+  },
+  "scope": "Read-only V9 conservation, V10 catalog/manifest consistency, candidate image QA and targeted CU32 source checks; no catalog mutation or generation.",
+  "checks": [
+    {
+      "id": "v9_preserved_universe_catalog_v9",
+      "passed": true,
+      "details": {
+        "path": "data/universe_catalog_v9.json"
+      }
+    },
+    {
+      "id": "v9_preserved_asset_manifest_v9",
+      "passed": true,
+      "details": {
+        "path": "data/asset_manifest_v9.json"
+      }
+    },
+    {
+      "id": "232_old_entries_preserved",
+      "passed": true,
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "id": "256_entry_ids_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "legacy_changes_scoped",
+      "passed": true,
+      "details": {
+        "substantive_changes": {
+          "knight_h4": [
+            "notes",
+            "work_id",
+            "work_title"
+          ],
+          "pavium_hw2": [
+            "art_status",
+            "assets",
+            "notes",
+            "preferred_asset_id",
+            "reference_urls",
+            "visual_reference_status"
+          ],
+          "st_sword_reach": [
+            "art_status",
+            "assets",
+            "implementation_status",
+            "notes",
+            "preferred_asset_id",
+            "reference_urls",
+            "visual_reference_status"
+          ],
+          "st_cartographer_ce": [
+            "art_status",
+            "assets",
+            "implementation_status",
+            "notes",
+            "preferred_asset_id",
+            "reference_urls",
+            "visual_reference_status"
+          ]
+        },
+        "wave_flag_only_count": 130
+      }
+    },
+    {
+      "id": "legacy_identity_version_locks_preserved",
+      "passed": true,
+      "details": []
+    },
+    {
+      "id": "knight_mapping_fixed",
+      "passed": true,
+      "details": {
+        "old_work_id": "h5",
+        "new_work_id": "h4",
+        "source_version": "Halo 4 (2012), classe standard ; pas le modèle Halo 5"
+      }
+    },
+    {
+      "id": "104_old_png_byte_preserved",
+      "passed": true,
+      "details": {
+        "count": 104,
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "id": "old_manifest_records_unchanged",
+      "passed": true,
+      "details": []
+    },
+    {
+      "id": "111_png_manifest_paths_unique",
+      "passed": true,
+      "details": {
+        "png_count": 111,
+        "unlisted": [],
+        "missing": []
+      }
+    },
+    {
+      "id": "png_metadata_matches",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "field_coverage": {
+          "sha256": 111,
+          "dimensions": 111,
+          "mode": 17,
+          "alpha_range": 17
+        },
+        "note": "Some inherited records omit mode/alpha metadata; they are retained unchanged, hashes verified."
+      }
+    },
+    {
+      "id": "7_new_assets_equal_review",
+      "passed": true,
+      "details": {
+        "different": []
+      }
+    },
+    {
+      "id": "catalog_manifest_linkage",
+      "passed": true,
+      "details": []
+    },
+    {
+      "id": "new_art_status_consistent",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "counts": {
+          "candidate": 6,
+          "needs_correction": 1
+        }
+      }
+    },
+    {
+      "id": "new_image_provenance_complete",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "references": 9,
+        "reference_files_excluded_from_git": true
+      }
+    },
+    {
+      "id": "new_assets_no_false_certification_animation_mirror",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "24_new_entries_19_projectiles_5_vfx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "new_designs_are_unimplemented_specs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "blocked_generations_remain_missing",
+      "passed": true,
+      "details": [
+        "kelly_h5",
+        "romeo_odst",
+        "agryna_infinite",
+        "grunt_heavy_reach",
+        "spark_h3"
+      ]
+    },
+    {
+      "id": "titles_and_work_links_consistent",
+      "passed": true,
+      "details": {
+        "work_errors": [],
+        "count_errors": []
+      }
+    },
+    {
+      "id": "112_title_ids_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "all_counts_recomputed",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "id": "manifest_catalog_counts_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "emp_patch_conflict_resolved",
+      "passed": true,
+      "details": {
+        "identity_fact": "Surcharge ; EMP véhicule rétabli en CU32.",
+        "source_version": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant"
+      }
+    },
+    {
+      "id": "ravager_standard_not_rebound",
+      "passed": true,
+      "details": {
+        "trajectory": "ballistic",
+        "interaction": "créer une seule zone au contact admissible ; ne pas importer le rebond de la variante Ravager Rebound"
+      }
+    },
+    {
+      "id": "needler_attachment_targets_explicit",
+      "passed": true,
+      "details": {
+        "interaction": "compter les aiguilles par cible et source ; seuil paramétré",
+        "attachment_policy": "cristal planté et compteur seulement sur combattant vivant admissible ; ni véhicule ni structure"
+      }
+    },
+    {
+      "id": "sentinel_beam_stops_on_tag_and_ko",
+      "passed": true,
+      "details": null
+    },
+    {
+      "id": "cu32_sandbox_profile_explicit",
+      "passed": true,
+      "details": {
+        "sample": "Halo Infinite ; visuels de cet opus et profil sandbox CU32 du 30 avril 2024, sans certification de l’équilibrage courant"
+      }
+    },
+    {
+      "id": "generation_counts_match_exact_attempt_logs",
+      "passed": true,
+      "details": {
+        "counts": {
+          "generation_calls": 13,
+          "generation_successes": 7,
+          "generation_rejections": 5,
+          "generation_technical_errors": 1
+        },
+        "attempts": [
+          {
+            "id": "kelly_h5",
+            "status": "reference_transport_error",
+            "classification": "technical_error",
+            "journal": "work/wave10/root_generation.json"
+          },
+          {
+            "id": "romeo_odst",
+            "status": "moderation_blocked",
+            "classification": "moderation_rejection",
+            "journal": "work/wave10/root_generation.json"
+          },
+          {
+            "id": "agryna_infinite",
+            "status": "moderation_blocked",
+            "classification": "moderation_rejection",
+            "journal": "work/wave10/root_generation.json"
+          },
+          {
+            "id": "kelly_h5",
+            "status": "error",
+            "classification": "moderation_rejection",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "st_sword_reach",
+            "status": "generated",
+            "classification": "success",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "proj_frag_infinite",
+            "status": "generated",
+            "classification": "success",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "proj_spike_infinite",
+            "status": "generated",
+            "classification": "success",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "st_cartographer_ce",
+            "status": "generated",
+            "classification": "success",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "proj_plasma_grenade_infinite",
+            "status": "generated",
+            "classification": "success",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "proj_needler_shard_infinite",
+            "status": "generated",
+            "classification": "success",
+            "journal": "work/wave10/root_generation_followup.json"
+          },
+          {
+            "id": "grunt_heavy_reach",
+            "status": "moderation_blocked",
+            "classification": "moderation_rejection",
+            "journal": "work/wave10/alien_generation.json"
+          },
+          {
+            "id": "pavium_hw2",
+            "status": "generated_candidate",
+            "classification": "success",
+            "journal": "work/wave10/alien_generation.json"
+          },
+          {
+            "id": "spark_h3",
+            "status": "moderation_blocked",
+            "classification": "moderation_rejection",
+            "journal": "work/wave10/alien_generation.json"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "checks": 29,
+    "passed": 29,
+    "failed": 0,
+    "legacy_png_preserved": 104,
+    "legacy_entries_preserved": 232,
+    "new_png": 7,
+    "new_entries": 24,
+    "new_art_status": {
+      "candidate": 6,
+      "needs_correction": 1
+    }
+  },
+  "recomputed_counts": {
+    "entries": 256,
+    "legacy_entries": 232,
+    "new_entries": 24,
+    "titles": 112,
+    "titles_with_entries": 50,
+    "by_category": {
+      "boss": 34,
+      "character": 128,
+      "costume": 24,
+      "stage": 46,
+      "projectile": 19,
+      "vfx": 5
+    },
+    "new_by_category": {
+      "projectile": 19,
+      "vfx": 5
+    },
+    "unique_png_assets": 111,
+    "legacy_png_assets": 104,
+    "new_png_assets": 7,
+    "illustrated_entries": 84,
+    "missing_images": 172,
+    "legacy_cohort_missing_before": 155,
+    "legacy_cohort_missing_after": 152,
+    "new_cohort_missing": 20,
+    "certified_1_to_1_assets": 0,
+    "new_animation_clips": 0,
+    "independent_parallax_layers": 0,
+    "generation_calls": 13,
+    "generation_successes": 7,
+    "generation_rejections": 5,
+    "generation_technical_errors": 1
+  },
+  "resolved_findings": [
+    {
+      "id": "plasma_pistol_patch_mismatch",
+      "status": "corrected_in_builder_and_regenerated",
+      "description": "The generic inventory has stale no-EMP wording. V10 now pins CU32 and declares vehicle EMP for the charged plasma-pistol shot.",
+      "source_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/25897330878868-Halo-Infinite-Banished-Honor-Update-Patch-Notes",
+        "https://www.halowaypoint.com/news/banished-honor-sandbox"
+      ]
+    },
+    {
+      "id": "ravager_standard_rebound_scope",
+      "status": "corrected_in_builder_and_regenerated",
+      "description": "Standard charged Ravager is ballistic, with no unsupported import of the Rebound variant behavior.",
+      "source_urls": [
+        "https://www.halowaypoint.com/news/canon-fodder-in-zane-in-the-membrane"
+      ]
+    },
+    {
+      "id": "needler_target_scope",
+      "status": "corrected_in_builder_and_regenerated",
+      "description": "Needler attachment/counting restricted to living targets, excluding vehicles and structures.",
+      "source_urls": [
+        "https://support.halowaypoint.com/hc/en-us/articles/6882880281364-Halo-Infinite-Weapon-Equipment-and-Vehicle-Inventory"
+      ]
+    }
+  ],
+  "targeted_source_notes": {
+    "spike": {
+      "identity_fact": "Grenade adhésive projetant des éclats.",
+      "interaction": "fusée démarrant au repos ; attachement puis émission d’éclats distincts, aucune explosion en plein vol"
+    },
+    "cindershot": {
+      "identity_fact": "Grenade de lumière solide, guidage alternatif.",
+      "interaction": "mode guidé activé à l’émission ; contrôle limité ; aucune aspiration de la cible dans le profil CU32"
+    },
+    "authority": "CU32 patch notes supersede conflicting generic-inventory wording; gameplay proposals remain separately labelled."
+  },
+  "remaining_limitations": [
+    "Cartographer master needs geometry/lighting correction; no PNG is certified 1:1.",
+    "All seven new PNG are static; no collision, animation or independent parallax layers are delivered.",
+    "112 work records preserve V9 bibliographic metadata; no new exhaustive publication-status audit.",
+    "Source reference images are not committed; URLs, SHA256 and visual-inspection records are retained.",
+    "The audit does not claim current 2026 multiplayer balance; the new projectile entries explicitly select CU32."
+  ]
+}

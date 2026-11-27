@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "wave": 10,
+  "date": "2026-11-27",
+  "generator": "image_gen.imagegen (built-in)",
+  "attempts": [
+    {
+      "entity_id": "kelly_h5",
+      "id": "kelly_h5",
+      "ref": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/kelly_h5.png",
+      "prompt": "Use case: identity-preserve. Asset: one static full-body 2D UHD fighting-game sprite for Halo Combats. Reference is the official Halo 5 Guardians Kelly-087 promotional render. Create Kelly-087 alone in a composed neutral battle-ready side stance, facing screen RIGHT, with her M45D shotgun held in both hands at low ready. Preserve this exact HERMES GEN2 design: blue-grey armor, thin yellow trim, distinctive large gold bubble visor with angular lower cheek and chin assembly, narrow black undersuit joints, the same chest plates, hip panels, knee and shin profiles. Preserve all visible asymmetrical parts; do not combine with Infinite HERMES or any other Spartan armor. Readable near-orthographic side view suitable for a fighting game, with enough three-quarter visibility to identify the helmet. Complete body and gun entirely visible, feet on the same ground baseline, 10 percent clear margin around extremities. Highly detailed hand-painted game sprite rendering with sharp material definition, restrained outlines, believable proportions faithful to the reference. A single character, a single pose; no multi-view sheet, no words, no labels, no frame, no background, no ground plane, no cast shadow. Actual transparent alpha background. Not an animation. Keep anatomy fully armored as in the reference.",
+      "attempt": 2,
+      "status": "error",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a6b8a714-be92-4a3f-b1f1-badf779cef9c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "output_hint": null,
+      "original_output_path": null,
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "entity_id": "st_sword_reach",
+      "id": "st_sword_reach",
+      "attempt": 1,
+      "ref": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/sword_courtyard_reach.jpg",
+      "transparent": false,
+      "prompt": "Use case: stylized-concept. Asset: a single wide 16:9 2D fighting-game stage master, Halo Combats. Recompose the official Halo Reach Courtyard screenshot into a side-on fighting stage while preserving the exact identity of ONI Sword Base from Halo Reach 2010. Keep the sharp white-grey ONI industrial architecture, the central connecting overhead bridge with support columns, angular terraces, proper ramps visibly connecting levels, doors recessed into walls, low black metallic supply crates, rock cliff at the left, jagged snowy mountains and yellow autumn trees in the distance. Keep the design from the supplied reference, not the later Halo Infinite remake. Compose a clearly horizontal unobstructed playable strip across the lower quarter, at human standing eye level, with the large base architecture behind it. Grounded perspective; doors meet platforms, ramps end at actual walkways. No floating doors or isolated stairs. No characters, no enemies, no vehicles, no HUD, no foreground weapon, no logo or watermark, no text. High-detail hand-painted 2D game environment, faithful muted cold Reach palette, daylight, sharp and readable silhouettes. One flattened stage composition only; no panel collage, no separated layers, not an animation.",
+      "status": "generated",
+      "error": null,
+      "output_hint": null,
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-78417182-9b4a-4400-8590-351f9baaa186.png",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "entity_id": "proj_frag_infinite",
+      "id": "proj_frag_infinite",
+      "attempt": 1,
+      "ref": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/frag_infinite.png",
+      "prompt": "Use case: precise-object-edit. Asset: one static isolated projectile sprite for a 2D Halo fan game. Reference is the Halo Infinite M9 fragmentation grenade in-game model. Recreate this exact complete model alone as a high-detail hand-painted 2D sprite. Preserve its olive spherical segmented body, dark inset fasteners, broad faded red equatorial band, distinctive tall rectangular green fuse housing, red tab and silver ring, all original proportions. Slightly three-quarter side view with the fuse housing pointing upward and the whole object centered with 15 percent clear margin. Preserve visible panel arrangement rather than redesigning it. The grenade is intact and inert, no detonation, no fire, no hands, no character, no diagram, no additional objects. Actual transparent alpha background, absolutely no dark backdrop, no pedestal or floor, no shadow, no text or labels. One object per image, not a sprite sheet; this is a static art asset, not an engineering diagram.",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/3bda832bd7dc/generated_images as /workspace/scratch/3bda832bd7dc/generated_images/exec-2e3e7ac3-497b-4b8b-8635-411c21b5d2ef.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-2e3e7ac3-497b-4b8b-8635-411c21b5d2ef.png",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "entity_id": "proj_spike_infinite",
+      "id": "proj_spike_infinite",
+      "attempt": 1,
+      "ref": "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/spike_infinite.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: one isolated static game projectile sprite, Halo Combats. Use only the main Brute Spike Grenade model shown in the official Halo Infinite artist reference as the design guide. Recreate ONE complete intact Jovokada Workshop spike grenade, horizontal from left to right with leather-wrapped handle at left and the bulbous metal head at right. Preserve dark burnished metallic body, thick angular bladed spikes around its head, small warm yellow circular indicator lights, leather grip and the small tail spikes. Keep the exact Halo Infinite model proportions and style, not the Halo 3 version. High-detail hand-painted game sprite, crisp silhouette, near-lateral view, all spike tips and tail inside the frame with 15 percent empty margin. No secondary reflected copy, no diagram, no explosion, no smoke, no hands or character, no labels, no watermark, no text. Actual transparent alpha background; no floor and no cast shadow. One complete object per image, not a sprite sheet.",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/3bda832bd7dc/generated_images as /workspace/scratch/3bda832bd7dc/generated_images/exec-90b0cc86-da5c-4312-b074-c668839db14e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-90b0cc86-da5c-4312-b074-c668839db14e.png",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "entity_id": "st_cartographer_ce",
+      "id": "st_cartographer_ce",
+      "refs": [
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/cartographer_beach_ce.jpg",
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/cartographer_ce.jpg"
+      ],
+      "transparent": false,
+      "prompt": "Use case: stylized-concept. Asset: one wide 16:9 hand-painted 2D fighting-game stage master for Halo Combats. References: first image shows the ORIGINAL 2001 Halo Combat Evolved Silent Cartographer beach assault area, second image shows the exact classic Forerunner structure on this island. Build a stage adaptation of this location in a side-on eye-level fighting-game composition. Faithfully preserve the classic Halo CE grey angular Forerunner metallic wall/entrance, its massive concrete-like forms, simple flat geometric panels, tan-grey coastal sand and rocks, green vegetation only where seen on the island cliffs, very deep blue Halo sky and distant ring arc. No Anniversary or Campaign Evolved redesigned architecture. Place a broad continuous horizontal sand combat strip along the lower quarter, with the classic metal structure and coastal rock face in the middle distance. The entrance is set into the architecture with its base meeting a real platform. No door standing alone or floating on sand. Wide side-view adaptation, one environment plate. Completely remove all people, aliens, weapons, HUD and floating game markers from the references. No vehicles, no invented temples, no cinematic explosion, no readable lettering, no watermark. High-detail painted 2D game background but preserve the 2001 design, subdued metallic material and natural coastal lighting. No split panels; one flattened master, not separate parallax layers.",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/3bda832bd7dc/generated_images as /workspace/scratch/3bda832bd7dc/generated_images/exec-d8352aba-5fe9-4144-acc2-c759350076bc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-d8352aba-5fe9-4144-acc2-c759350076bc.png",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "entity_id": "proj_plasma_grenade_infinite",
+      "id": "proj_plasma_grenade_infinite",
+      "refs": [
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/plasma_infinite.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Asset: one isolated static projectile sprite for a Halo Infinite-based 2D fighting game. Use the reference's lower-right plasma grenade as the identity reference. Recreate a single complete Halo Infinite plasma grenade: compact dark metallic blue-violet sphere, asymmetric smooth segmented Covenant shell, the same interlocking panel seams, small circular emissive nodes and restrained electric-blue surface glow. Faithfully preserve its panel geometry, proportions and hue; do not invent spikes or a handle. Center a single grenade in near-side view with 20 percent clear margin, readable at small game scale and finely painted at high resolution. No duplicate spheres, no table or wall from reference, no bloom cloud hiding the silhouette, no explosion, no diagram, no character or hand, no labels or text. Actual transparent alpha background with only a very small glow attached to the object. A single static art asset, not an animation or multi-frame sheet.",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/3bda832bd7dc/generated_images as /workspace/scratch/3bda832bd7dc/generated_images/exec-cbcdff69-210c-46f0-80a2-9af469b4e698.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-cbcdff69-210c-46f0-80a2-9af469b4e698.png",
+      "fidelity_1_to_1_certified": false
+    },
+    {
+      "entity_id": "proj_needler_shard_infinite",
+      "id": "proj_needler_shard_infinite",
+      "refs": [
+        "/workspace/scratch/3bda832bd7dc/halo-combats/work/wave10/references/needler_firing_infinite.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Asset: one static projectile sprite for Halo Combats. The reference is a screenshot of the Halo Infinite Needler being fired; focus exclusively on the airborne pink crystal shard visible near the upper-left, not the weapon or soldier. Recreate ONE intact fired Needler crystalline shard as a clean isolated lateral projectile travelling toward screen RIGHT. Preserve the long irregular tapered faceted magenta-pink crystalline shape and bright pink core, with a restrained short pink light trail BEHIND it toward the LEFT. Render a sharply defined translucent crystalline core with irregular facets as visible in the reference, not a generic round magic orb, missile, sword or laser beam. Generous 20 percent transparent margins; entire luminous tail inside canvas. High-detail hand-painted sprite, crisp silhouette with bounded semi-transparent pink glow. No person, weapon, impact, body, blood, explosion, multiple shards, diagram, caption, logo or text. Actual transparent alpha background. One projectile per image and one static pose, not a sprite sheet.",
+      "status": "generated",
+      "error": null,
+      "output_hint": "Generated images are saved to /workspace/scratch/3bda832bd7dc/generated_images as /workspace/scratch/3bda832bd7dc/generated_images/exec-782db5c7-ad61-4704-916b-150f36f76848.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "original_output_path": "/workspace/scratch/3bda832bd7dc/generated_images/exec-782db5c7-ad61-4704-916b-150f36f76848.png",
+      "fidelity_1_to_1_certified": false
+    }
+  ]
+}

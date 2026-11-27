@@ -9,3 +9,5 @@ qa/docx/page-*.png
 prototype/qa/desktop.png
 prototype/qa/mobile.png
 releases/v2/HALO_COMBATS_PERSONNAGES_V2.zip
+work/wave10/references/
+work/wave10/.cache/

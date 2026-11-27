@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Halo Combats — Équipe & archives V10</title>
+<link rel="stylesheet" href="extensions_v10/style.css">
+<script defer src="extensions_v10/rules.js"></script>
+<script defer src="extensions_v10/content.js"></script>
+<script defer src="extensions_v10/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au laboratoire</a>
+<header class="topbar">
+  <a class="brand" href="halo_universe_v10.html"><span class="brand-mark" aria-hidden="true">H</span><span>HALO <b>COMBATS</b><small>ARCHIVES · PROTOCOLE V10</small></span></a>
+  <nav aria-label="Navigation du projet"><a href="halo_universe_v10.html">Catalogue V10 <span aria-hidden="true">↗</span></a><a href="../docs/HALO_COMBATS_GUIDE_INTEGRATION_V10.md">Bible & guide V10 <span aria-hidden="true">↗</span></a></nav>
+  <span class="connection"><span aria-hidden="true"></span> Simulation locale</span>
+</header>
+<main id="main">
+  <section class="intro">
+    <div><p class="eyebrow">UNSC / ARCHIVES D’ENTRAÎNEMENT</p><h1>Une équipe.<br><span>Plusieurs façons d’agir.</span></h1><p class="intro-copy">Préparez votre escouade, testez ses interventions et ouvrez de nouveaux dossiers.</p></div>
+    <div class="intro-data"><div><strong id="owned-count">—</strong><span>dossiers acquis / 22</span></div><div><strong id="coord-count">—</strong><span>objectifs d’équipe / 3</span></div><div><strong id="precision-best">—</strong><span>record de précision / 12</span></div></div>
+  </section>
+  <p class="scope-note"><b>Laboratoire V10 · 22 dossiers représentatifs de la V9.</b> Les règles et les déblocages sont actifs ici. Les visuels restent des poses fixes candidates ; les animations et le combat avec collisions sont à produire. Interface originale, compositions inter-époques réservées à la simulation.</p>
+  <div class="notice" id="storage-notice" hidden></div>
+  <div class="workspace-nav" role="tablist" aria-label="Sections du laboratoire">
+    <button id="tab-roster" role="tab" aria-selected="true" aria-controls="panel-roster" data-panel="roster"><span>01</span> Escouade & accès</button>
+    <button id="tab-simulation" role="tab" aria-selected="false" aria-controls="panel-simulation" data-panel="simulation" tabindex="-1"><span>02</span> Simulation d’équipe</button>
+    <button id="tab-bonus" role="tab" aria-selected="false" aria-controls="panel-bonus" data-panel="bonus" tabindex="-1"><span>03</span> Épreuve de précision</button>
+  </div>
+  <section id="panel-roster" role="tabpanel" aria-labelledby="tab-roster">
+    <div class="team-strip"><div class="strip-title"><p class="eyebrow">VOTRE COMPOSITION</p><span id="context-description">Simulation principale</span></div><div id="team-selection" class="team-selection"></div><button id="launch-simulation" class="primary">Lancer la simulation <span aria-hidden="true">→</span></button></div>
+    <div class="roster-toolbar"><div class="category-tabs" aria-label="Catégorie de dossiers"><button data-category="character" aria-pressed="true">Personnages <span>11</span></button><button data-category="costume" aria-pressed="false">Apparences <span>3</span></button><button data-category="stage" aria-pressed="false">Stages <span>4</span></button><button data-category="mode" aria-pressed="false">Modes <span>4</span></button></div><label class="context-control"><span>Cadre de sélection</span><select id="context-select"><option value="core">Simulation principale</option><option value="core-h3">Incarnations Halo 3 uniquement</option><option value="silver">Silver Timeline</option><option value="fractures">Fractures</option></select></label></div>
+    <div class="selection-layout"><div class="gallery-column"><label class="search"><span class="sr-only">Rechercher un dossier révélé</span><input id="search" type="search" placeholder="Rechercher un dossier révélé…" autocomplete="off"><span aria-hidden="true">⌕</span></label><div class="gallery" id="gallery"></div><p id="gallery-empty" class="empty" hidden>Aucun dossier ne correspond à votre recherche.</p></div><aside class="detail" id="detail" aria-labelledby="detail-name"></aside></div>
+    <section class="archives" aria-labelledby="archives-title"><div><p class="eyebrow">PARCOURS DE DÉCOUVERTE</p><h2 id="archives-title">Les archives de simulation</h2><p>Consultez les trois dossiers dans l’ordre. Les récompenses disponibles restent à réclamer dans leur fiche.</p></div><div id="archive-nodes" class="archive-nodes"></div><small>Parcours d’interface original : ces trois dossiers ne prétendent pas constituer un lieu officiel de Halo.</small></section>
+  </section>
+  <section id="panel-simulation" role="tabpanel" aria-labelledby="tab-simulation" hidden>
+    <div class="section-heading"><div><p class="eyebrow">PROFIL HYBRIDE · DEUX MEMBRES</p><h2>Un relais au bon moment.</h2><p>Jauge commune, santé individuelle, un partenaire engagé à la fois. L’équipe perd après deux KO.</p></div><button id="new-match" class="secondary">Nouvel essai</button></div>
+    <div class="sim-layout"><div class="sim-main"><div class="simulation-scene"><img id="scene-background" alt="" class="scene-background"><div class="scene-shade"></div><div class="scene-heading"><span id="scene-stage">—</span><span>POSES FIXES · SIMULATION D’ÉTATS</span></div><div class="actors"><div id="active-actor" class="actor"></div><div class="scene-center"><p id="scene-phase">Prêt</p><div id="scene-action" class="scene-action">À votre commandement</div><p id="scene-time">0,00 s · 0 frames</p></div><div id="reserve-actor" class="actor reserve-actor"></div></div></div>
+      <div class="resource-grid"><div><div class="meter-label"><span>Jauge d’équipe</span><strong id="gauge-value">100 / 100</strong></div><progress id="gauge-meter" max="100" value="100" aria-label="Jauge d’équipe"></progress><small>Pas de recharge passive · gain sur touche plafonné par combo</small></div><div><div class="meter-label"><span>Cible instrumentée</span><strong id="target-value">900 / 900</strong></div><progress id="target-meter" max="900" value="900" aria-label="Santé de la cible"></progress><small id="combo-status">Aucune touche confirmée</small></div></div>
+      <div class="simulation-controls"><label><span>Prochaine attaque</span><select id="target-mode"><option value="hit">Confirmer la touche</option><option value="block">Rencontrer la garde</option><option value="miss">Manquer la cible</option></select></label><button id="pause-simulation">Mettre en pause</button><button id="skip-scene">Abréger la scène</button><label class="check"><input id="auto-clock" type="checkbox" checked> Horloge automatique</label><button id="step-simulation">Avancer 1 s</button></div>
+      <div class="actions" id="actions"></div>
+      <details class="test-cases"><summary>Situations d’essai</summary><p>Injectez un impact pour vérifier interruptions, récupération et relais après KO. Aucun de ces boutons ne donne une récompense à lui seul.</p><div><button data-damage="active" data-amount="250">Impact actif · 250 PV</button><button data-damage="reserve" data-amount="250">Impact soutien · 250 PV</button><button data-damage="active" data-amount="1000">KO de l’actif</button><button id="cancel-taunt">Sortie du taunt</button></div></details>
+    </div><aside class="sim-aside"><section class="objective-card"><p class="eyebrow">DÉFI DE COORDINATION</p><h3>Apprendre l’action collective</h3><ol id="objectives"></ol><p class="muted">Une assistance doit toucher. Le relais doit être volontaire et terminé. La super duo doit être confirmée en touche.</p><a href="#" id="view-rewards">Consulter les récompenses →</a></section><section class="log-card"><div class="log-heading"><h3>Événements</h3><span>60 Hz</span></div><ol id="combat-log" class="event-log" aria-label="Derniers événements calculés"></ol></section></aside></div>
+  </section>
+  <section id="panel-bonus" role="tabpanel" aria-labelledby="tab-bonus" hidden>
+    <div class="section-heading"><div><p class="eyebrow">BONUS · PRÉCISION</p><h2>Chaque cible compte.</h2><p>Touchez au moins 8 cibles sur 12. Souris, tactile ou focus clavier puis Entrée.</p></div><button id="start-bonus" class="primary">Démarrer l’épreuve</button></div>
+    <div class="bonus-layout"><div><div class="bonus-hud"><span id="bonus-time">30,0 s</span><span id="bonus-score">0 / 12 touches</span><span id="bonus-result">Prêt</span></div><div id="target-range" class="target-range" role="group" aria-label="Champ de cibles d’entraînement"><div class="range-grid" aria-hidden="true"></div><div id="bonus-placeholder"><span aria-hidden="true">⌖</span><h3>Champ de cibles</h3><p>12 marqueurs d’exercice, sans ennemi canonique affaibli.</p></div><div id="bonus-targets"></div></div><div class="bonus-options"><label class="check"><input id="extended-bonus" type="checkbox"> Temps étendu : 90 secondes, mêmes récompenses</label><p>Le chrono s’arrête lorsque vous changez de section ou masquez l’onglet.</p></div></div><aside class="objective-card bonus-rewards"><p class="eyebrow">RÉCOMPENSES CIBLÉES</p><h3>Votre prochain objectif</h3><div class="reward-row"><b>8 / 12</b><span>Accès au dossier de Dare<br>Stage Lockout</span></div><div class="reward-row"><b>10 / 12</b><span>Dossier de Kelly<br><small>Visuel V9 à produire</small></span></div><div class="reward-row"><b>Archives + 8 / 12</b><span>Un dossier classifié<br>Une voie vers l’apparence de l’Arbiter</span></div><p>Le meilleur résultat est conservé. Rejouer ou recharger la page ne duplique pas les acquisitions.</p><button id="bonus-to-rewards" class="secondary">Voir les dossiers</button></aside></div>
+  </section>
+  <section class="preferences"><details><summary>Confort & progression locale</summary><div class="preferences-grid"><label class="check"><input id="hide-secrets" type="checkbox" checked> Masquer les identités non découvertes</label><label class="check"><input id="reduced-motion" type="checkbox"> Réduire les transitions d’interface</label><div><span id="save-status">Session locale</span><p>Les droits de ce laboratoire ne sont ni des achats ni des droits d’un compte en ligne.</p></div><button id="reset-profile" class="danger">Réinitialiser ce laboratoire</button></div><p class="muted">Les raccourcis J, K, L, U, T, F sont réservés à la section simulation. Les boutons proposent les mêmes commandes. Pas de connexion Patreon, de réseau ou de manette validée dans cette version.</p></details></section>
+</main>
+<footer><span>HALO COMBATS / V10</span><span>Conception originale · incarnations et sources conservées · fidélité 1:1 à valider visuellement</span><a href="extensions_v10/README.md">Périmètre & règles</a></footer>
+<div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+<dialog id="reset-dialog"><h2>Réinitialiser le laboratoire ?</h2><p>Les choix et récompenses de cette page seront effacés. Les autres prototypes et fichiers du projet ne sont pas concernés.</p><form method="dialog"><button value="cancel" autofocus>Conserver ma progression</button><button id="confirm-reset" value="reset" class="danger">Réinitialiser</button></form></dialog>
+<noscript><p class="notice">Activez JavaScript pour utiliser la sélection et les règles du laboratoire.</p></noscript>
+</body>
+</html>

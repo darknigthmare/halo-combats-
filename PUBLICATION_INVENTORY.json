@@ -1,11 +1,11 @@
 {
-  "version": 9,
-  "scope": "Halo Combats V9: catalogue de production, PNG statiques et références; fidélité 1:1 non certifiée.",
-  "catalogue": "data/universe_catalog_v9.json",
+  "version": 10,
+  "scope": "Halo Combats V10: catalogue de production, PNG statiques et références; fidélité 1:1 non certifiée.",
+  "catalogue": "data/universe_catalog_v10.json",
   "coverage": {
-    "entries": 232,
-    "legacy_entries": 102,
-    "new_entries": 130,
+    "entries": 256,
+    "legacy_entries": 232,
+    "new_entries": 24,
     "titles": 112,
     "titles_with_entries": 50,
     "announced_titles": 1,
@@ -13,21 +13,26 @@
       "boss": 34,
       "character": 128,
       "costume": 24,
-      "stage": 46
+      "projectile": 19,
+      "stage": 46,
+      "vfx": 5
     },
     "new_by_category": {
-      "boss": 14,
-      "costume": 24,
-      "character": 70,
-      "stage": 22
+      "projectile": 19,
+      "vfx": 5
     },
-    "unique_png_assets": 104,
-    "legacy_png_assets": 94,
-    "new_png_assets": 10,
-    "illustrated_entries": 77,
-    "missing_images": 155,
-    "generation_calls": 12,
-    "generation_rejections": 2,
+    "unique_png_assets": 111,
+    "legacy_png_assets": 104,
+    "new_png_assets": 7,
+    "illustrated_entries": 84,
+    "missing_images": 172,
+    "legacy_cohort_missing_before": 155,
+    "legacy_cohort_missing_after": 152,
+    "new_cohort_missing": 20,
+    "generation_calls": 13,
+    "generation_successes": 7,
+    "generation_rejections": 5,
+    "generation_technical_errors": 1,
     "certified_1_to_1_assets": 0,
     "new_animation_clips": 0,
     "independent_parallax_layers": 0
@@ -118,20 +123,129 @@
   },
   "historical_source_checkpoint_inventory_sha256": "0f324e59a91640df6fd4ffed15c661b22ef9f89fd0302181deedfb7dd7beed5b",
   "browser_validation": {
-    "status": "not_run",
-    "reason": "No current-version browser result has been recorded."
+    "version": 10,
+    "status": "passed",
+    "date": "2026-11-27",
+    "total_assertions": 38,
+    "javascript_errors": 0,
+    "catalogue": {
+      "report": "prototype/qa_v10/catalog_browser_results.json",
+      "assertions": 12,
+      "viewports": [
+        {
+          "width": 1365,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "tested_files_sha256": {
+        "prototype/halo_universe_v10.html": "35f609f808789a59a25e5e884b9938ff6c0c389ff06358de62f2732bab352b4d",
+        "prototype/universe_v10/app.js": "088d07948192edd047885f4b359f0f3489dfff1c60e62b26bb16d7f56e8b9260",
+        "prototype/universe_v10/catalog.js": "cd399d356ffa8403c88baeaec5f7e780435be806d8bd7c3365f295df83886c37",
+        "prototype/universe_v10/style.css": "afd3939f99505662e6280864b614a0937933d270facbe60bf7e8b8068af305fc",
+        "data/universe_catalog_v10.json": "e02c53b3daf91dd3f016b0e383d6403ea1e590453d5f15bf491532073f30b085",
+        "prototype/qa_v10/catalog.browser.cjs": "0201446392e652d2998d2a0e73cac48c6ef34cac9f9348b68413d16600e1fe0f"
+      }
+    },
+    "extensions": {
+      "report": "prototype/qa_v10/extensions_browser_results.json",
+      "assertions": 26,
+      "viewports": [
+        {
+          "width": 1365,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    "visual_review": "Desktop and mobile screenshots inspected. Static candidate images; no visual 1:1 certification.",
+    "limitations": [
+      "Chromium only",
+      "No collision gameplay, animated clips, gamepad, multiplayer or production subscription service tested"
+    ]
   },
   "checksum_policy": "SHA-256 of Git-visible deliverable files, excluding this inventory and SHA256SUMS.txt to avoid recursion.",
   "files": [
     {
+      "path": ".agents/skills/obscura/LICENSE",
+      "bytes": 11324,
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+    },
+    {
+      "path": ".agents/skills/obscura/SKILL.md",
+      "bytes": 5976,
+      "sha256": "2ab71d43ffa87c4d0fa0efcd895258a7319592f4949bf18a2294a9953ad9a065"
+    },
+    {
+      "path": ".ai-tools/.gitignore",
+      "bytes": 23,
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b"
+    },
+    {
+      "path": ".ai-tools/README.md",
+      "bytes": 12174,
+      "sha256": "518ee93aab27bb8c9ad58478a14ff5db6b24bfbcf0c1346dbd7e5b4fefd0176e"
+    },
+    {
+      "path": ".ai-tools/obscura/README.md",
+      "bytes": 4795,
+      "sha256": "c856d14393876f06b04d579a4ea7e34add28522f943ffcf8edca0c105314ed6d"
+    },
+    {
+      "path": ".ai-tools/obscura/source.json",
+      "bytes": 2801,
+      "sha256": "272e03889f6bf42c5c77bb8718f49954d858d839266f7e4f6103d84d92e23368"
+    },
+    {
+      "path": ".ai-tools/setup.py",
+      "bytes": 14883,
+      "sha256": "968ba2b95144071ec237eb1cf1253ea14292bf47255f506ef28083cd737eb2ca"
+    },
+    {
+      "path": ".ai-tools/sources.json",
+      "bytes": 2526,
+      "sha256": "1ec97f618019ad4d9fdc655ae647817d22466c35ade391ff3f5681331f86ccb5"
+    },
+    {
+      "path": ".ai-tools/tests/test_setup.py",
+      "bytes": 9407,
+      "sha256": "fae354f034e04c63747eff525376fdd6e174e87851e73f6ad2101367c7037b75"
+    },
+    {
+      "path": ".claude/skills/obscura/LICENSE",
+      "bytes": 11324,
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+    },
+    {
+      "path": ".claude/skills/obscura/SKILL.md",
+      "bytes": 5976,
+      "sha256": "2ab71d43ffa87c4d0fa0efcd895258a7319592f4949bf18a2294a9953ad9a065"
+    },
+    {
       "path": ".gitignore",
-      "bytes": 196,
-      "sha256": "92c6214e3784875e6ca8ab6f025d388cfb913a31bdb29c7d29c5425abe5f65c9"
+      "bytes": 240,
+      "sha256": "e9e06ca50462974d64989ca6f7c4951c52c47c8dbd0501960770370909b3f9e3"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1546,
+      "sha256": "3e81466d4fd424c4391f480ba4b82683e4a6fd4423974138fadc4269a388854a"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 695,
+      "sha256": "7b05a38d786af6850a14a1c768a2b2665726f0ab7503a40830e6c5c792202987"
     },
     {
       "path": "README.md",
-      "bytes": 6085,
-      "sha256": "4cd688aa637ee0e2a12e05bf47d0d827950acdd08fb066860946eb6d4e21e718"
+      "bytes": 5597,
+      "sha256": "4cd0d025f5f95d82f4fbfcf085c9453f82d90a557ddbc84959aa39b016dc6b39"
     },
     {
       "path": "README_V2.md",
@@ -297,6 +411,11 @@
       "path": "assets/candidates/valhalla_halo3_master_v2.png",
       "bytes": 2771281,
       "sha256": "a429c7661d32d116b0558d7af0a9174a1f6da72b858c532692bb351ef275f97d"
+    },
+    {
+      "path": "assets/characters_wave10/pavium_hw2_initial_right_v01.png",
+      "bytes": 2554816,
+      "sha256": "74ee1fefbac36abe29414f6551a84af075137cf7573713f14eec7ec390b18b45"
     },
     {
       "path": "assets/characters_wave2/atriox_hw2_neutral_right_v01.png",
@@ -684,6 +803,36 @@
       "sha256": "7df01e7cf53fff0076eb0ebcbf8a67bfc3b91d53c79b473ce356cc77b39b8dbc"
     },
     {
+      "path": "assets/projectiles_wave10/frag_infinite_initial_v01.png",
+      "bytes": 2227472,
+      "sha256": "866129ee4d2b705dfbdd4896c460bdd8f99e53e0fd47f2a605d0406affddb02e"
+    },
+    {
+      "path": "assets/projectiles_wave10/needler_shard_infinite_right_v01.png",
+      "bytes": 897599,
+      "sha256": "e0b27371ba14616ab6e153eabfd7982aa7a2c45be0a22f5a32738f0ffad87746"
+    },
+    {
+      "path": "assets/projectiles_wave10/plasma_grenade_infinite_initial_v01.png",
+      "bytes": 1017511,
+      "sha256": "ff32c249ba127ffd84dd8760837d67b2fc08042c289e76aaab0b24d683ef1416"
+    },
+    {
+      "path": "assets/projectiles_wave10/spike_infinite_profile_right_v01.png",
+      "bytes": 1078045,
+      "sha256": "56d9d8703ba5b0d7d1dcacfa7e4d9275578fa8d08e8f3a21a1571054f28b7359"
+    },
+    {
+      "path": "assets/stages_wave10/silent_cartographer_ce_master_v01.png",
+      "bytes": 2446778,
+      "sha256": "f2c836dafe6ed83366c1edf1efd33d3ee77696f06be293e77ba79a2c0f45e3ca"
+    },
+    {
+      "path": "assets/stages_wave10/sword_base_reach_master_v01.png",
+      "bytes": 2794539,
+      "sha256": "24f8c697746ce92773f02daf63ebf829dae95cc0c20812fede3bd3ffbbed7b8c"
+    },
+    {
       "path": "assets/stages_wave9/blood_gulch_ce_master_v01.png",
       "bytes": 2666135,
       "sha256": "86a2aae9835ea55784a8646fdc4ad410e3af8763642ff1cf33a6d467929bf0b9"
@@ -707,6 +856,11 @@
       "path": "data/asset_manifest.json",
       "bytes": 1701977,
       "sha256": "15228fd94f123339bf86893ef0bda59d4382f68f641ea24a63882d9375d0cee6"
+    },
+    {
+      "path": "data/asset_manifest_v10.json",
+      "bytes": 366404,
+      "sha256": "61e980b57937214f6e806121fa1e247df9f364370b4bd96ee4b8e906a91a234a"
     },
     {
       "path": "data/asset_manifest_v9.json",
@@ -734,6 +888,11 @@
       "sha256": "2371a9356a448a7b34d9a2a23b6b445f66e62e0d1226ac7fc01ab67ae16f8fec"
     },
     {
+      "path": "data/combat_guide_coverage_v10.json",
+      "bytes": 602765,
+      "sha256": "61094c451bbdfc258c6de0f0ec777b79022b484405302377321927e04161a8cc"
+    },
+    {
       "path": "data/delivery_counts.json",
       "bytes": 5351,
       "sha256": "5dda4e5b1b972b76e71feb40a443e16517d1dfed0c2d3c1eda4382976a420035"
@@ -759,6 +918,16 @@
       "sha256": "4bb2acb5d2fac586fb3efdfe5d96c5864d80d171237ed20f2c0db11366629c2e"
     },
     {
+      "path": "data/production_tasks_v10.json",
+      "bytes": 181236,
+      "sha256": "78fe56019206a503d562bb74ae76c83d728e93b424654916e35d67cc2678f02a"
+    },
+    {
+      "path": "data/projectiles_v10.json",
+      "bytes": 112819,
+      "sha256": "0062cd93093883635b4ad1c813696c78aedf343abe824277875b6ff8dea3db38"
+    },
+    {
       "path": "data/prototype_asset_bindings_v7.json",
       "bytes": 911133,
       "sha256": "ccfec25f637a054bbf6df5a48f0cbad824233178dab80098c756d9438145200b"
@@ -772,6 +941,11 @@
       "path": "data/stages.json",
       "bytes": 56884,
       "sha256": "3f7de32ef77c0e908fe3a7dbfe3f645a81b4de85cc73bb66ca64a5e9d69b9986"
+    },
+    {
+      "path": "data/universe_catalog_v10.json",
+      "bytes": 810835,
+      "sha256": "e02c53b3daf91dd3f016b0e383d6403ea1e590453d5f15bf491532073f30b085"
     },
     {
       "path": "data/universe_catalog_v9.json",
@@ -809,6 +983,16 @@
       "sha256": "b1f8b6c9118e00ba0b5f2701baab2a201d7e987bffcb80d8e773bd282df245fd"
     },
     {
+      "path": "docs/HALO_COMBATS_BIBLE_V10.md",
+      "bytes": 12896,
+      "sha256": "8e76ccbf8ee7875f827028d1ac71c801e57c8700a1d5322f55477409ea322cdd"
+    },
+    {
+      "path": "docs/HALO_COMBATS_CATALOGUE_V10.md",
+      "bytes": 4229,
+      "sha256": "e21259eabeeba1c251842d382e64b6670f0e87873ff915757430cfaa75d90b75"
+    },
+    {
       "path": "docs/HALO_COMBATS_CATALOGUE_V9.md",
       "bytes": 23821,
       "sha256": "092ec44143c6956b437ab59f559a6a5b60ff8715a965418f13f1dc37c321c6ee"
@@ -817,6 +1001,11 @@
       "path": "docs/HALO_COMBATS_GARDES_BOSS_V5.md",
       "bytes": 68517,
       "sha256": "d176d9f6901a163a24eb536113135a424a11fd9086db35e3cd363442ad49537c"
+    },
+    {
+      "path": "docs/HALO_COMBATS_GUIDE_INTEGRATION_V10.md",
+      "bytes": 139994,
+      "sha256": "a2d645ede3c01d41e9be1e2896d7b1e7a57cef20e6bc06d52e82decc5c4b3838"
     },
     {
       "path": "docs/HALO_COMBATS_PERSONNAGES_V2.md",
@@ -854,6 +1043,16 @@
       "sha256": "1d0a817c64fbc279d7fc2c1febd222652cf52f4cb7aac524ebbb5af7e547676d"
     },
     {
+      "path": "docs/HALO_COMBATS_PRODUCTION_V10.xlsx",
+      "bytes": 106503,
+      "sha256": "1563f43613bf76d45ba161b7f6bfb27a1c891ea0e4c651e7250260855fc26bac"
+    },
+    {
+      "path": "docs/HALO_COMBATS_PROJECTILES_V10.md",
+      "bytes": 4798,
+      "sha256": "a09cacda5e2c20a9469ae72690bf8554a44e1fd16a5e493888af37226e79659d"
+    },
+    {
       "path": "docs/SOURCES_BOSS_V5.md",
       "bytes": 29539,
       "sha256": "811b8aae9c60b818ca674fcf2566d940a134a840308d25573910b2ccbd640ef2"
@@ -884,6 +1083,26 @@
       "sha256": "8bbaf23f9b0d0088b206c761e2c37518c3f178925e97ffbb47c70e195a10593a"
     },
     {
+      "path": "docs/guides_combat/Combat_Games_Extension_01_Tag_Taunts_Bonus_v1.0.txt",
+      "bytes": 60589,
+      "sha256": "330fb7485a7a52b2a20f855646c940aaac0fcd9510032bc84b2e17c518edd25f"
+    },
+    {
+      "path": "docs/guides_combat/Combat_Games_Extension_02_Slots_Verrouilles_Deblocages_Abonnes_v1.0.txt",
+      "bytes": 47334,
+      "sha256": "08b57ea542e83c487fef3276997a612d4657f2ee9ed4f8e46b0bf65a2778038b"
+    },
+    {
+      "path": "docs/guides_combat/Combat_Games_Guide_General_v1.0.txt",
+      "bytes": 55172,
+      "sha256": "4844584616072ac0d52d37c2fab4365e1ec489240f17a721ee216e223b0355b7"
+    },
+    {
+      "path": "docs/guides_combat/source_metadata.json",
+      "bytes": 2529,
+      "sha256": "38ad0e5dda66af920c01d0cd635499c97fa4a81cb6a2673db8852e8ed67ddf29"
+    },
+    {
       "path": "docs/source_registry.json",
       "bytes": 11799,
       "sha256": "6c440f3f6d4990547947d290e0174173e92616f315e56a923b300b9a794d13ac"
@@ -904,6 +1123,31 @@
       "sha256": "21f21ffe81c211e45c038a65c31cdcc52efa4b07598abfc7198f1f86adefe4df"
     },
     {
+      "path": "prototype/extensions_v10/README.md",
+      "bytes": 14621,
+      "sha256": "148e6e977550094bddf16cf8bf5e56819d335538795d115b85b75565a92dfe52"
+    },
+    {
+      "path": "prototype/extensions_v10/app.js",
+      "bytes": 32736,
+      "sha256": "cfae3c0275c3a2dcf1a49ec23d8c1c014eb178cdc233d3974d19b6d7538559c3"
+    },
+    {
+      "path": "prototype/extensions_v10/content.js",
+      "bytes": 20126,
+      "sha256": "0d29002f18495a0657867b8796810a21486409dfe3b79ca3c3b7cd4739803e2c"
+    },
+    {
+      "path": "prototype/extensions_v10/rules.js",
+      "bytes": 29184,
+      "sha256": "bd5ae692f5849bb0c6b127dfc9b797a5a2a9a5efdd89d633294df5dccc443c18"
+    },
+    {
+      "path": "prototype/extensions_v10/style.css",
+      "bytes": 27636,
+      "sha256": "73d36e32641d812326aec0fde9127a3f6e598a7cdbaf5ef585c68969ae19757b"
+    },
+    {
       "path": "prototype/halo_combats_lab_v7.html",
       "bytes": 10461,
       "sha256": "800c2d336125533bffd4a189015b601954655333666d09a2746ebe0feaed21bd"
@@ -917,6 +1161,16 @@
       "path": "prototype/halo_combats_prototype.html",
       "bytes": 34712,
       "sha256": "4e559a77948819c130160c67bccd8c08bf206adf3acf340a2c6a2a40c7ea96de"
+    },
+    {
+      "path": "prototype/halo_extensions_v10.html",
+      "bytes": 11556,
+      "sha256": "92130a6ae6a7824fd0f9553183acc00c4d3d72feb9625386d7098e9bf89de7e5"
+    },
+    {
+      "path": "prototype/halo_universe_v10.html",
+      "bytes": 9761,
+      "sha256": "35f609f808789a59a25e5e884b9938ff6c0c389ff06358de62f2732bab352b4d"
     },
     {
       "path": "prototype/halo_universe_v9.html",
@@ -964,6 +1218,106 @@
       "sha256": "e57679ab7210337d4fd2bf781373386cb1536f4af85ed0013215bfca0db31f9f"
     },
     {
+      "path": "prototype/qa_v10/README.md",
+      "bytes": 1561,
+      "sha256": "9e0b4095edc0808f4179f8ea1ca2e21d2649ac431d8c11f311e271a687f73603"
+    },
+    {
+      "path": "prototype/qa_v10/browser_results.json",
+      "bytes": 1597,
+      "sha256": "91ca68739fffe9e46a4028ad3934381c1ccc046e906ddb337021bd352c24ecbb"
+    },
+    {
+      "path": "prototype/qa_v10/catalog.browser.cjs",
+      "bytes": 6105,
+      "sha256": "0201446392e652d2998d2a0e73cac48c6ef34cac9f9348b68413d16600e1fe0f"
+    },
+    {
+      "path": "prototype/qa_v10/catalog.test.cjs",
+      "bytes": 6234,
+      "sha256": "41926bc0a9c551e2dc83b2f04b8a1dc51a84ea66da7930232d433c3e5cf453d6"
+    },
+    {
+      "path": "prototype/qa_v10/catalog_browser_results.json",
+      "bytes": 1529,
+      "sha256": "a8e70e816b660986ad5e36f936ddbba65ceed132ee962084f781bb3094580e1a"
+    },
+    {
+      "path": "prototype/qa_v10/catalog_desktop.png",
+      "bytes": 522606,
+      "sha256": "ba1e2b23a6cb717391a216606d2ca47ea2d5811b909454cb4e7ca729741ba498"
+    },
+    {
+      "path": "prototype/qa_v10/catalog_mobile.png",
+      "bytes": 651643,
+      "sha256": "3058337869b0bac7572a5b924f6bc76b6091feb2e8d1bb244c336b562860b7bf"
+    },
+    {
+      "path": "prototype/qa_v10/catalog_mobile_detail.png",
+      "bytes": 200750,
+      "sha256": "7f13e610bfcb9dd32a7b6f88b043d1b868904db67c68faa606925797bfce40ea"
+    },
+    {
+      "path": "prototype/qa_v10/catalog_projectile_detail.png",
+      "bytes": 555760,
+      "sha256": "e0e817a5b21bf931119a3b96c4114c38d2933271da9d297c94a791a29ba4b8da"
+    },
+    {
+      "path": "prototype/qa_v10/extensions.browser.cjs",
+      "bytes": 12303,
+      "sha256": "64ffd7f66465066cfb7f7aad3a4329a9088097c18be51bc3f0aa6a4c6e7acf98"
+    },
+    {
+      "path": "prototype/qa_v10/extensions.test.cjs",
+      "bytes": 14906,
+      "sha256": "af5eb04ae820d2284f169de7cdfa49f95f5ee5b582df8346c346c65d8bb6a41f"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_browser_results.json",
+      "bytes": 3170,
+      "sha256": "6c20a64fc0a95468bcdc5b719491a8199def4bde11d62068abdfe2aceca7023c"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_precision-desktop-1365.png",
+      "bytes": 303764,
+      "sha256": "7c642a9549f011af425d904ce5df6d26716ab4b018ba22c98ce323821143e653"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_precision-mobile-390.png",
+      "bytes": 161056,
+      "sha256": "b3ba7efa87541619eaf6845c8c81332701e1b2775cbbceb417bcef46c71a78d3"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_roster-desktop-1365.png",
+      "bytes": 506733,
+      "sha256": "5966b3a95ecb547cb51eca629bb465fdaf1154ed02bcdd23fa4d1250d3d4b0cc"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_roster-mobile-390.png",
+      "bytes": 406040,
+      "sha256": "45d042ff29f7a12931cd696446f49787e59daa84df68950c0b01aad8bc26b315"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_simulation-desktop-1365.png",
+      "bytes": 563465,
+      "sha256": "37ead6e92b77cde57e89859533ae34278e46449a7f24848a7b1aefd8ccd70e17"
+    },
+    {
+      "path": "prototype/qa_v10/extensions_simulation-mobile-390.png",
+      "bytes": 262828,
+      "sha256": "d0c36b1c071536023b43dc994ead9823c427c2a8296018d2a2f217c01ff3470a"
+    },
+    {
+      "path": "prototype/qa_v10/node-results.tap",
+      "bytes": 10195,
+      "sha256": "2c4cf3fb8e6f4ebe26c96c6c8845ea1f876c5e57c5bf5ac4f03f1c02fe0aafa0"
+    },
+    {
+      "path": "prototype/qa_v10/results.json",
+      "bytes": 776,
+      "sha256": "9dff17171af7b2a01f9170cb1623173600f47d528f22823ce8d35c58393a9e40"
+    },
+    {
       "path": "prototype/qa_v7/browser_block.json",
       "bytes": 815,
       "sha256": "6943bfb415111943f85e96f5f202914285cfbe1980aa54e94b30e1e75454a79d"
@@ -1007,6 +1361,21 @@
       "path": "prototype/qa_v9/results.json",
       "bytes": 3054,
       "sha256": "b4536639fc10b1fce843466d606a5ea9c4f4efd0bf82ecf7cb92ca1795ee358c"
+    },
+    {
+      "path": "prototype/universe_v10/app.js",
+      "bytes": 24187,
+      "sha256": "088d07948192edd047885f4b359f0f3489dfff1c60e62b26bb16d7f56e8b9260"
+    },
+    {
+      "path": "prototype/universe_v10/catalog.js",
+      "bytes": 691213,
+      "sha256": "cd399d356ffa8403c88baeaec5f7e780435be806d8bd7c3365f295df83886c37"
+    },
+    {
+      "path": "prototype/universe_v10/style.css",
+      "bytes": 20141,
+      "sha256": "afd3939f99505662e6280864b614a0937933d270facbe60bf7e8b8068af305fc"
     },
     {
       "path": "prototype/universe_v9/app.js",
@@ -1137,6 +1506,111 @@
       "path": "work/spreadsheet_statuses.json",
       "bytes": 963,
       "sha256": "8cf3d78ccb4b470a42ca82c8bb8a90610ef8008c571be2d9baff719a17aabbe9"
+    },
+    {
+      "path": "work/wave10/PR_DESCRIPTION.md",
+      "bytes": 3525,
+      "sha256": "826e41bb32939609510ffd5e1465163d738057f398f17624e96383fb6eda7972"
+    },
+    {
+      "path": "work/wave10/alien_generation.json",
+      "bytes": 10913,
+      "sha256": "6234137a487e9063a89336a38e6bfdc5e0ddf2972f0b5637f23a8591a161d65d"
+    },
+    {
+      "path": "work/wave10/alien_references.json",
+      "bytes": 2992,
+      "sha256": "44803927bbf3f4fcd2246f5e302e530057cd1a56873f841368c225612e066b0c"
+    },
+    {
+      "path": "work/wave10/asset_reviews.json",
+      "bytes": 22439,
+      "sha256": "8ee16d4597d314fb2c618eadc70ac23cee0028dc2f6c103f4319a7b928b749a7"
+    },
+    {
+      "path": "work/wave10/baseline_audit.json",
+      "bytes": 95921,
+      "sha256": "aa25ceebaf31d23803ab36d71ed21985f3cddbaeacd8ed1b4bfa69d9bfd4184f"
+    },
+    {
+      "path": "work/wave10/build_catalogue.py",
+      "bytes": 23058,
+      "sha256": "cfd86c045fa70af787be31e6218040dc76782d725d6550bb7e6be8c7aa3b0a53"
+    },
+    {
+      "path": "work/wave10/build_workbook.mjs",
+      "bytes": 25921,
+      "sha256": "501be85e465e80b982814c8e98259a22a5ee9f7e3d088f25016b19acd2faf891"
+    },
+    {
+      "path": "work/wave10/catalogue_build_report.json",
+      "bytes": 1208,
+      "sha256": "b813937138659931c738af61388d19c7a93b2406924fee96b8ca36baf92d5452"
+    },
+    {
+      "path": "work/wave10/guide_runtime_verification.json",
+      "bytes": 3496,
+      "sha256": "04c87101994b13f3046a851450bc05a2b153e7d09e7a03a2b4741331b79a907a"
+    },
+    {
+      "path": "work/wave10/projectile_references.json",
+      "bytes": 1359,
+      "sha256": "b872e7284d70e0a0b08dc9af72bd7daa91d04ab918eec43113a2ed0d8260ec40"
+    },
+    {
+      "path": "work/wave10/root_generation.json",
+      "bytes": 5078,
+      "sha256": "3d0f5cc6dade864af7639a1c94ac97128ca089a82749c5c2bd8a9f7cc180febf"
+    },
+    {
+      "path": "work/wave10/root_generation_followup.json",
+      "bytes": 14638,
+      "sha256": "c2a55bc02256799d7aae12fcd59ca4a3b94ad1be6156da7edcd167cc8a65fdba"
+    },
+    {
+      "path": "work/wave10/v10_independent_audit.json",
+      "bytes": 13168,
+      "sha256": "8904860069a8ff3e2ce9ef03a46f068a66fc66dd2fdc4f237735087a5cc22368"
+    },
+    {
+      "path": "work/wave10/version_consistency_audit.json",
+      "bytes": 27259,
+      "sha256": "62bfddf61a697eb90b662f7ae7a703b7752125aef3a8558b060ada5d55442230"
+    },
+    {
+      "path": "work/wave10/workbook_qa/catalogue.png",
+      "bytes": 93249,
+      "sha256": "68b395da48372fb27d3858d539148804361c6db8250697fafeff6c3f3a269385"
+    },
+    {
+      "path": "work/wave10/workbook_qa/catalogue_etats.png",
+      "bytes": 54743,
+      "sha256": "d7c069fcbb7f99ff7be4add83640e9e73358af5769944404bb76689cd9fa149c"
+    },
+    {
+      "path": "work/wave10/workbook_qa/exigences.png",
+      "bytes": 151232,
+      "sha256": "2696761070f45ea84f1caeeba59fa1295ad855566b32c7cd5af587bfb5d627f8"
+    },
+    {
+      "path": "work/wave10/workbook_qa/exigences_preuves.png",
+      "bytes": 180858,
+      "sha256": "a4ee4e4992b84835265d25a1dfd765de20a86ae597ddd1767f35b4a40962fc45"
+    },
+    {
+      "path": "work/wave10/workbook_qa/inspection.ndjson",
+      "bytes": 1146,
+      "sha256": "7106d336ed7f67122fb8e7629e512cd32a0223d268c26017efa4719204c8802f"
+    },
+    {
+      "path": "work/wave10/workbook_qa/synthese.png",
+      "bytes": 180709,
+      "sha256": "e99fa1b341665087caf408b6498ad53d694d39d51fe297e55d71241f10c7c8a4"
+    },
+    {
+      "path": "work/wave10/workbook_receipt.json",
+      "bytes": 1674,
+      "sha256": "8e11ecbf582666a90dba1fd3c3738fc3cfe03d14754a4176f16b5dfcac92d523"
     },
     {
       "path": "work/wave2/README_V1_before_wave2.md",
